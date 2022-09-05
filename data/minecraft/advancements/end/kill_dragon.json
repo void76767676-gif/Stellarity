@@ -1,39 +1,28 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:dragon_head"
+			"item": "minecraft:netherite_sword"
 		},
 		"title": {
-			"translate": "advancements.end.kill_dragon.title"
+			"translate": "advancements.end.kill_dragon.title",
+			"color": "#D400FF"
 		},
 		"description": {
-			"translate": "advancements.end.kill_dragon.description"
+			"translate": "The Beast is now dead, and The End is waiting for you to discover its secrets...",
+			"color": "#E562FF"
 		},
-		"frame": "task",
+		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
-	"parent": "fokastudio:end/sacrificial_ritual",
+	"parent": "fokastudio:end/judgement_day",
 	"criteria": {
-		"killed_dragon": {
-			"trigger": "minecraft:player_killed_entity",
-			"conditions": {
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:ender_dragon"
-						}
-					}
-				]
-			}
+		"kill_dragon": {
+			"trigger": "minecraft:impossible"
 		}
 	},
-	"requirements": [
-		[
-			"killed_dragon"
-		]
-	]
+	"rewards": {
+		"experience": 12000
+	}
 }
