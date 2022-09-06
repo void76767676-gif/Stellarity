@@ -1,0 +1,36 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame",
+			"nbt": "{CustomModelData:90000}"
+		},
+		"title": {
+			"translate": "An Introduction to Dark Magic",
+            "color": "#E30000"
+		},
+		"description": [
+			{
+				"translate": "Throw an Enchanted Book over"
+			},
+			" ",
+			{
+				"translate": "Altar of the Accursed",
+				"color": "#B80000"
+			},
+			" ",
+			{
+				"translate": "to imbue it with Dark Magic"
+			}
+		],
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "minecraft:end/kill_dragon",
+	"criteria": {
+		"craft_using_aota": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

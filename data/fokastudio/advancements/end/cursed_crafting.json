@@ -19,15 +19,15 @@
 			},
 			" ",
 			{
-				"text": "to craft some of the most powerful items"
+				"text": "to craft some powerful gear"
 			}
 		],
-		"frame": "goal",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "minecraft:end/kill_dragon",
+	"parent": "fokastudio:end/an_introduction_to_dark_magic",
 	"criteria": {
 		"craft_using_aota": {
 			"trigger": "minecraft:impossible"
