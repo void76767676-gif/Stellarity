@@ -1,0 +1,35 @@
+[
+	{
+		"condition": "minecraft:alternative",
+		"terms": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:sweet_berries"
+							],
+							"nbt": "{foka.special_item:\"duskberry\"}"
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:sweet_berries"
+							],
+							"nbt": "{foka.special_item:\"duskberry\"}"
+						}
+					}
+				}
+			}
+		]
+	}
+]
