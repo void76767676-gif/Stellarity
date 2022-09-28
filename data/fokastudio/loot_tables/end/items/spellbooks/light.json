@@ -1,0 +1,59 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:knowledge_book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "Book of Light",
+								"color": "#FFF300",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,foka.special_item:\"book_of_light\",Recipes:[]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{
+									"translate": "Right Click to summon up to 4 Healing Orbs",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								{
+									"translate": "that will heal you or any nearby player",
+									"color": "#E5E5E5",
+									"italic": false
+								},
+								[
+									{
+										"translate": "Cooldown:",
+										"color": "#9E9E9E",
+										"italic": false
+									},
+									{
+										"text": " 22 ",
+										"color": "#C6C6C6",
+										"italic": false
+									},
+									{
+										"translate": "seconds",
+										"color": "#9E9E9E",
+										"italic": false
+									}
+								]
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
