@@ -216,18 +216,31 @@
 		"sounds":[
 			{
 				"name":"music/game/end/end",
-				"stream":true
+				"stream": true
 			},
 			{
-				"name":"music/game/end/ancestry",
-				"stream":true,
-				"weight":2
+				"name":"music/game/ancestry",
+				"stream": true
 			},
 			{
-				"name":"music/game/nether/nether_wastes/rubedo",
-				"stream":true,
-				"volume":0.5,
-				"weight":2
+				"name":"fokastudio:end/music/ki",
+				"stream": true,
+				"volume": 0.33
+			},
+			{
+				"name":"fokastudio:end/music/intro",
+				"stream": true,
+				"volume": 0.33
+			},
+			{
+				"name":"fokastudio:end/music/excuse",
+				"stream": true,
+				"volume": 0.33
+			},
+			{
+				"name":"fokastudio:end/music/eleven",
+				"stream": true,
+				"volume": 0.33
 			}
 		],
 		"replace":true
