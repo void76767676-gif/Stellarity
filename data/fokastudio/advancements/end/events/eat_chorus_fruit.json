@@ -17,6 +17,6 @@
 		]
 	],
 	"rewards": {
-		"function": "fokastudio:end/chorus_fruit_buff"
+		"function": "fokastudio:end/mechanics/chorus_fruit_buff/eat"
 	}
 }
