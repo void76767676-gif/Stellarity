@@ -3,7 +3,6 @@
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -66,6 +65,33 @@
 							"count": {
 								"min": 1,
 								"max": 6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_pearl",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:shulker_shell",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
 							}
 						}
 					]
