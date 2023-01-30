@@ -1,0 +1,119 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:netherite_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{foka.special_item:\"tamaris\",foka_durability:{enabled:1b,max_dur:1562},CustomModelData:90002,HideFlags:6}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+                                "text": "Tamaris",
+								"color": "#B2B2B2",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"translate": "Hold",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									[
+										" [",
+										{
+											"keybind": "key.sneak"
+										},
+										"] "
+									],
+									{
+										"translate": "to activate your Execute ability,"
+									}
+								],
+								{
+									"translate": "instantly killing nearby enemies with low health!",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "7",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "1.6",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 6,
+									"operation": "addition",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": -2.4,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

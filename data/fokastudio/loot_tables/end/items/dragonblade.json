@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"dragonblade\",foka_durability:{enabled:1b,max_dur:1666},CustomModelData:90000}"
+							"tag": "{foka.special_item:\"dragonblade\",Unbreakable:1b,CustomModelData:90000,HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -37,7 +37,53 @@
 									"translate": "ᴛɪᴘ: ᴘᴜɴᴄʜ ᴛʜᴇᴍ ɪɴᴛᴏ ᴡᴀʟʟs",
 									"color": "#727272",
 									"italic": true
-								}
+								},
+								"",
+								{
+									"translate": "item.modifiers.mainhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "5",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.equals.0",
+										"with": [
+											{
+												"text": "0.9",
+												"color": "dark_green",
+												"italic": false
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed",
+												"color": "dark_green",
+												"italic": false
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								]
 							]
 						},
 						{
@@ -46,20 +92,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": {
-										"min": 2,
-										"max": 4.5
-									},
+									"amount": 4,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": {
-										"min": -3.15,
-										"max": -2.75
-									},
+									"amount": -3.1,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
