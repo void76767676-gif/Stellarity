@@ -44,6 +44,3 @@ tag @s[nbt={Item:{id:"minecraft:sugar",Count:6b}}] add foka.altar_of_the_accurse
 execute if entity @s[nbt={Item:{id:"minecraft:barrel",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.barrel
 tag @s[nbt={Item:{id:"minecraft:iron_block",Count:1b}}] add foka.altar_of_the_accursed.1_iron_block
 tag @s[nbt={Item:{id:"minecraft:gold_block",Count:1b}}] add foka.altar_of_the_accursed.1_gold_block
-
-# Tag for Shattered Conduit
-execute if entity @s[nbt={Item:{id:"minecraft:conduit",Count:1b}}] unless data entity @s Item.tag."foka.special_item" run tag @s add foka.altar_of_the_accursed.conduit

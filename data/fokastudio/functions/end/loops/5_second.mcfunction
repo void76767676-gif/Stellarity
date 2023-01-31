@@ -8,9 +8,6 @@ execute as @e[type=minecraft:end_crystal,predicate=fokastudio:end/utils/exit_por
 
 execute as @e[type=slime,tag=foka.gloop] at @s run function fokastudio:end/mobs/gloop/main
 
-# Shattered Conduit effects
-execute as @e[predicate=fokastudio:end/items/holding_shattered_conduit] at @s run function fokastudio:end/items/shattered_conduit/effects
-
 # End Portal noises
 execute as @e[type=marker,tag=foka.end_portal] at @s run function fokastudio:end/visuals/end_portal_animation/ambient_sounds
 
