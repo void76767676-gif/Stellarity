@@ -14,6 +14,7 @@
 	height: 32px;
 	background-size: 32px;
 }
+
 .icon-fsee-sm {
 	width: 16px;
 	height: 16px;
@@ -45,3 +46,9 @@
 .icon-fsee-hallowed-armor {background-image: url(../assets/armor/hallowed/chestplate.png);}
 .icon-fsee-shulker-armor {background-image: url(../assets/armor/shulker/chestplate.png);}
 .icon-fsee-pandoras-barrel {background-image: url(../assets/items/pandoras_barrel.png);}
+.icon-fsee-zephyr {background-image: url(../assets/items/zephyr.png);}
+.icon-fsee-ancient-plating {background-image: url(../assets/items/ancient_plating.png);}
+.icon-fsee-hallowed-ingot {background-image: url(../assets/items/hallowed_ingot.png);}
+.icon-fsee-starstruck-carcanet {background-image: url(../assets/items/starstruck_carcanet.png);}
+.icon-fsee-tamaris {background-image: url(../assets/items/tamaris.png);}
+.icon-fsee-aota {background-image: url(../assets/aota_large.png);}

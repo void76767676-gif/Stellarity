@@ -50,7 +50,6 @@ Explosions deal varying amounts of damage, between 4:heart::heart: and 10:heart:
 Multishot enchantment causes 3 different-colored blasts to be shot in a 70° cone.
 
 ## Tips 
-
 - Use regular Arrows with this weapon, since it converts ALL ammo into Blasts. Using Spectral/Tipped Arrows is a waste of ammo.
 - Explosions can hurt <u>you</u> if you stand too close to your target. Keep your distance.
 - Accuracy is not the most important thing, since Blasts will home on its targets. Be careful though, as Blasts tend to target different mobs than the ones you want!
@@ -59,14 +58,12 @@ Multishot enchantment causes 3 different-colored blasts to be shot in a 70° con
 - Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) or End Crystals.
 
 ## Trivia
-
 - This is first Developer Item to get added into FSEE.
 - This is the second Crossbow to get added, first being the [Clockwork Crossbow](clockwork_crossbow.md).
 - According to YaGirlGiulles *(artist, who made the textures for this item)*, the color palette is based around trans pride flag[^1].
     - They are also a reference to colors of [Last Prism](https://terraria.wiki.gg/wiki/Last_Prism), a Terraria item.
 
 ## History
-
 - **1.6a**
     - Introduced
 

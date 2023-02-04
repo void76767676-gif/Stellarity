@@ -7,49 +7,50 @@ repo_url: https://github.com/FokaStudio/FSEE
 repo_name: Ender Expansion on Github
 
 nav:
-  - Home:
-    - Home: index.md
-    - Installation: installation.md
-    - Downloads: downloads.md
-    - Troubleshooting: troubleshooting.md
-  - Biomes: 
-    - biomes/index.md
-    - The Hallow: biomes/the_hallow.md
+  #- Home:
+  #  - Home: index.md
+  #  - Installation: installation.md
+  #  - Downloads: downloads.md
+  #  - Troubleshooting: troubleshooting.md
+  #- Biomes: 
+  #  - biomes/index.md
+  #  - The Hallow: biomes/the_hallow.md
   - Items: 
     - items/index.md
     - Sharanga: items/sharanga.md
     - Clockwork Crossbow: items/clockwork_crossbow.md
     - Dragonblade: items/dragonblade.md
     - Prismatic Punch: items/prismatic_punch.md
-    #- Battlestick: items/battlestick.md
     - Zephyr: items/zephyr.md
     - Sariel: items/sariel.md
     - Sabrewing: items/sabrewing.md
     - Spirit Dagger: items/spirit_dagger.md
     - Ancient Wooden Sword: items/ancient_wooden_sword.md
-    - Armor sets:
-      - items/armor/index.md
-      - Ancient Armor: items/armor/ancient_armor.md
-      - Hallowed Armor: items/armor/hallowed_armor.md
-      - Shulker Armor: items/armor/shulker_armor.md
+    - Tamaris: items/tamaris.md
+  #  - Armor sets:
+  #    - items/armor/index.md
+  #    - Ancient Armor: items/armor/ancient_armor.md
+  #    - Hallowed Armor: items/armor/hallowed_armor.md
+  #    - Shulker Armor: items/armor/shulker_armor.md
     - Trinkets:
       - items/trinkets/index.md
       - Ender Insignia: items/trinkets/ender_insignia.md
       - Duskberry: items/trinkets/duskberry.md
-    - Other:
-      - items/other/index.md
-      - Pixie Dust: items/other/pixie_dust.md
-      - Prismatic Pearl: items/other/prismatic_pearl.md
-      - Pandora's Barrel: items/other/pandoras_barrel.md
-      - Spellbooks: items/other/spellbooks.md
-      - Cursed Tome: items/other/cursed_tome.md
-      - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
-      - Cursed Tome: items/other/cursed_tome.md
-      - Living Flesh: items/other/living_flesh.md
-      - Potions: items/other/potions.md
-  - Mechanics:
-      - mechanics/index.md
-      - Treasure Heads: mechanics/treasure_heads.md
+  #  - Other:
+  #    - items/other/index.md
+  #    - Pixie Dust: items/other/pixie_dust.md
+  #    - Prismatic Pearl: items/other/prismatic_pearl.md
+  #    - Pandora's Barrel: items/other/pandoras_barrel.md
+  #    - Spellbooks: items/other/spellbooks.md
+  #    - Cursed Tome: items/other/cursed_tome.md
+  #    - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
+  #    - Cursed Tome: items/other/cursed_tome.md
+  #    - Potions: items/other/potions.md
+  #- Mechanics:
+  #    - mechanics/index.md
+  #    - Treasure Heads: mechanics/treasure_heads.md
+  #    - Void Fishing: mechanics/void_fishing.md
+  #    - Other: mechanics/other.md
   #- Resource Pack:
   #    - resource_pack/index.md
   #    - Tweaks: resource_pack/tweaks.md
@@ -180,6 +181,7 @@ extra_css:
   - css/themes.css
   - css/icons-minecraft-0.5.css
   - css/icons-fsee.css
+  - css/advancements.css
 
 extra_javascript:
   - js/extra.js

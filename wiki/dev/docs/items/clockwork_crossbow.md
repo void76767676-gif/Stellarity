@@ -15,7 +15,7 @@
 	</tr>
 	<tr>
 		<td><b>Damage</b></td>
-		<td>4 - 7</td>
+		<td>5 - 8</td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
@@ -23,7 +23,18 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>Shoots as fast as you can click<br>Fired arrows are converted to regular onesand deal less damage33% chance to not consume arrows,increased with Quick Charge enchantment<br><br><i>'Break your mouse, break someone's mouse, whatever'</i></td>
+		<td>
+		Shoots just as fast as you can click
+		<br>
+		Fired arrows are converted to regular ones
+		<br>
+		and deal slightly less damage
+		<br>
+		Has a chance to conserve Arrows
+		<br>
+		that increases with Quick Charge enchantment
+		<br><br>
+		<i>'Break your mouse, break someone's mouse, whatever'</i></td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>
@@ -37,11 +48,11 @@
 Clockwork Crossbow has a chance to drop from Pillagers in [Strongholds](../structures/stronghold.md) with a 7% base chance. Each level of Looting increases the odds by 2%, up to a total of 13% with Looting III.
 
 ## Usage
-Holding Clockwork Crossbow in your hands will automatically load it, provided you have at least 1 Arrow in your inventory. Arrows will be stripped of its special properties (e.g. Spectral Arrows -> Arrows). 
+Holding Clockwork Crossbow in your hands will automatically load it, provided you have at least 1 Arrow in your inventory. Arrows will be stripped of its special properties (e.g. Spectral Arrows -> Arrows).
 
-There is a 33% chance to not consume any ammo upon loading. Quick Charge enchantment reduces the chance even futher by 7%, with Quick Charge III giving a 54% chance to save Arrows.
+There is a 40% chance to not consume any ammo upon loading. Quick Charge enchantment increases the odds by 7%, giving a maximum of 61% chance to save Arrows with Quick Charge III.
 
-Arrows shot by this weapon deal reduced damage compared to regular Crossbows, ranging from 4:heart::heart: - 7:heart: x 3.5 with an average of 5:heart: x2.5 damage per shot.
+Arrows shot by this weapon deal reduced damage compared to regular Crossbows, ranging from 5:heart: х ₂.₅ - 7:heart: х ₃.₅ with an average of 6:heart: х ₃ damage per shot. Additionally, they cannot be picked up once fired.
 
 ## Tips
 - All arrow types will be converted into regular Arrows, so save your stronger ammunition for use with other weapons.
@@ -53,13 +64,20 @@ Arrows shot by this weapon deal reduced damage compared to regular Crossbows, ra
 
 ## Trivia
 - This is the second ranged weapon to ever be added into FSEE, with first one being the [Sharanga](sharanga.md).
-- The tooltip is a reference to [tumblr](https://en.wikipedia.org/wiki/en:tumblr )'s old terms of service `"Go nuts. Show nuts. Whatever."`
+- The tooltip is a reference to [tumblr](https://en.wikipedia.org/wiki/en:tumblr )'s old terms of service - `"Go nuts. Show nuts. Whatever."`
 - There are several unused textures for loading animation of Clockwork Crossbow, and one where it is loaded with a Firework instead of an Arrow.
+	- They cannot be seen in-game under any circumstances.
+
+## Advancements
+| Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `fokastudio:end/story/drop_rare_illager_loot` |
 
 ## History
 - **1.6a**
-    - Arrow damage nerfed (~8 -> ~5)
-    - Quick Charge now affects ammo conservation chance
+    - Arrow damage nerfed (~8 -> ~7)
+    - Quick Charge now affects ammo conservation chance.
+    - Base ammo conservation chance increased (33% -> 40%)
     - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)
 - **1.5b**
     - Introduced

@@ -3,7 +3,7 @@
 <div markdown class="foka-infobox-text">
 **Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that trades off a tiny fraction of defense in favor of increased combat capabilities.
 
-Full set bonus increases will even further expand player's fighting potential by further amplifying their damage.
+Wearing a full set of Ancient Armor will grant player a set bonus, which increases their damage on consecutive attacks.
 </div>
 <div class="foka-infobox-table">
 	<table id="foka-infobox--item">
@@ -19,19 +19,23 @@ Full set bonus increases will even further expand player's fighting potential by
 		</tr>
 		<tr>
 			<td><b>Total Armor Toughness</b></td>
-			<td>8</td>
+			<td>12</td>
 		</tr>
 		<tr>
 			<td><b>Total Other Bonuses</b></td>
 			<td>
-				+40% Attack Speed
+				+15% Attack Speed
 				<br>
-				+20% Damage
+				+10% Damage
 			</td>
 		</tr>
 		<tr>
 			<td><b>Full Set Bonus</b></td>
-			<td>Greatly increased damage</td>
+			<td>
+			Fills you with Wrath of The Ancients,
+			<br>
+			providing ramping increasing damage on combo attacks!
+			</td>
 		</tr>
 	</table>
 </div>
@@ -40,23 +44,17 @@ Full set bonus increases will even further expand player's fighting potential by
 ## Obtaining
 Pieces of Ancient Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
 
+Each piece can also be crafted by combining different amounts of <i class="icon-fsee icon-fsee-ancient-plating"></i>[Ancient Plating](../other/ancient_plating.md) over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md).
+
 ## Set Bonus
 
-Wearing full set of Ancient Armor will grant the wearer a 30% damage boost to <u>Sword, Crossbow and Bow</u> damage. This boost stacks with default 20% boost from just armor pieces for a total of 50% increased damage.
+While wearing a full set of Ancient Armor, players gain ability to increase their damage while combo-attacking. The bonus is 7% more damage per attack, stacking up to 5 times for a grand total of 35% extra damage. This stacks with 10% extra damage from all Armor pieces, meaning the actual damage increase is 45%.
 
-!!! example "Examples of total stat increases with full set of Ancient Armor"
-	| Weapon | Attack Speed | Damage |
-	| :--- | :--- | :--- |
-	| <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword | 1.6 -> 2.24 | 6 -> 9 |
-	| <i class="icon-minecraft icon-minecraft-netherite-sword"></i>Netherite Sword | 1.6 -> 2.24 | 8 -> 12 |
-	| <i class="icon-minecraft icon-minecraft-bow"></i>Bow | 1.6 -> 2.24 | 11 -> 17.5 (max charge) |
-	| <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow | 1.6 -> 2.24 | 11 -> 17.5 |
-	| <i class="icon-fsee icon-fsee-sariel"></i>Sariel | 2.8 -> 3.9 | 4 -> 6 |
-	| <i class="icon-fsee icon-fsee-ancient-wooden-sword"></i>Ancient Wooden Sword | :x: | 5 -> 7.5 |
-	| <i class="icon-fsee icon-fsee-spirit-dagger"></i>Spirit Dagger | 2 -> 2.8 | 5 -> 7.5 |
+The amount of damage stacks a player has is indicated by differently pitched hit sounds, with higher pitch being equal to higher damage multiplier.
 
 
-Aditionally, running with a full set of Ancient Armor will produce a trail. It serves no purpose other than bein a neat little visual effect.
+
+Additionally, running with a full set of Ancient Armor will produce a purely cosmetic purple trail.
 <figure markdown>
   ![Trail](../../assets/armor/ancient/trail.png){ align=right width="300vw" .border }
   <figcaption>Ancient Armor trail<br>seen while running</figcaption>
@@ -65,37 +63,45 @@ Aditionally, running with a full set of Ancient Armor will produce a trail. It s
 ## Tips
 
 - This armor set pairs extremely well with:
-    - <i class="icon-fsee icon-fsee-sabrewing"></i>[Sabrewing](../sabrewing.md) - Supercharged shots can reach up to **60:heart: x 30 damage**, and even up to **150:heart: x 75** with Power enchantment.
     - <i class="icon-fsee icon-fsee-ancient-wooden-sword"></i>[Ancient Wooden Sword](../ancient_wooden_sword.md) - with Sharpness V, it can deal 10.5:heart: x 5 1/4 damage per swing, which will make this weapon's single target DPS comparable to the one of a Sharpness V Netherite Sword *(without Ancient Armor)* 
-    - <i class="icon-fsee icon-fsee-sariel"></i>[Sariel](../sariel.md) - Sariel already has a quick attack speed. Paired with Ancient Armor, its swing cooldown will be reduced to just 0.25 seconds, meaning that you can land more hits *(which equals to increased heal chance)*
-    - <i class="icon-fsee icon-fsee-dragonblade"></i>[Dragonblade](../dragonblade.md) - Ancient Armor almost doubles its attack speed, which is very needed due to how slow it is. This effectively allows for quicker and more reliable application of Stacks.
+    - <i class="icon-fsee icon-fsee-sariel"></i>[Sariel](../sariel.md) - Sariel already has a very quick attack speed. Paired with Ancient Armor, its swing cooldown will be reduced even further, resulting in more hits *(which equals to increased heal chance)*
+    - <i class="icon-fsee icon-fsee-dragonblade"></i>[Dragonblade](../dragonblade.md) - Ancient Armor is enough to increase its swing speed, which is very needed due to how slow it really is. This effectively allows for quicker and more reliable application of Dragon Stacks.
 
 ## Trivia
 
 - <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
+        - However, it was officialy removed as of 1.6a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Ancient Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Attack Knockback and Movement Speed.
         - Due to how Attack Knockback works in Minecraft, it didn't increase anything.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
+- Prior to 1.5a, it used to have a different set bonus, which was just a flat 50% damage increase
+- Ancient Armor's set bonus is based on Nyx[^1] kit from Roblox BedWars[^2].
 
 ## History
 - **1.6a**
-	- Fixed Ancient Leggings being a piece of Diamond Armor *(1.5a rework leftover)*
+	- Fixed Ancient Leggings being a piece of Diamond Armor 
+    	- This was a 1.5a rework leftover
 	- Now has a custom texture.
-	- Set bonus damage reduced *(+50% -> +30%, for a 50% total instead of 70%)*
-	- Each piece gained 0.3 Armor Toughness, for a total of 2. This puts Ancient Armor on par with Diamond Armor defense-wise
-	- Only Ancient Scalemail grants Attack Speed bonus. Bonus decreased *(+60% -> + 40%)*
+	- Damage boost from Armor pieces reduced *(+20% -> +10%)*
+	- Armor Toughness per-piece increased to match Netherite Armor.
+	- Only Ancient Scalemail grants Attack Speed bonus. Bonus decreased *(+60% -> + 15%)*
 	- Nerfed quality of enchantments of armor pieces found in Chests.
 	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be an Ancient Armor piece 3/4 of the time.
+	- Set bonus reworked. It now provides an increasing damage bonus on melee attacks *(+7% per hit, stacks for up to 35%)* which quickly decays while out of combat. Total max damage bonus is now 45% *(down from 80%)*
+	- Can no longer be found in Crates fished out via Void Fishing, instead can be crafted with ingredients found inside.
+	- Set bonus trail now shows only while running, instead of while moving in general.
 
 - **1.5a**
-	- Reworked entire set. It no longer has randomized stats and instead focuses on increasing offensive capabilites.
+	- Reworked the entire set. It no longer has randomized stats and instead focuses on increasing offensive capabilites.
 	- Added a full set bonus.
 	- Turned into a dyed Leather Armor with custom durability, instead of using Diamond Armor.
 	- Added a trail while moving around with full set.
 
 - **1.3a**
 	- Introduced.
-  
+
+[^1]: [Nyx](https://robloxbedwars.fandom.com/wiki/Nyx) kit on Roblox Bedwars Wiki
+[^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)

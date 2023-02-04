@@ -37,8 +37,8 @@ Ancient Wooden Sword can be obtained by exhuming <i class="icon-minecraft icon-m
 This weapon has infinite Attack Speed attribute, meaning that it can be spam clicked in order to attack. Additionally, every swing will result in a sweep attack.
 
 Due to its high speed, it has a base damage of only 4:heart::heart:, meaning that **Sharpness Enchantment** is a necessity in order to get respectable DPS.
-## Tips
 
+## Tips
 - This weapon is excellent for crowd control due to every attack having a sweep.
     - It is also fantastic for people who are a bit worse in PvP and PvE due to attack speed being enough to forgive poor hit accuracy.
 - Ancient Wooden Sword is unreakable, meaning that enchants such as Unbreaking and Mending are completely redundant.
@@ -46,12 +46,14 @@ Due to its high speed, it has a base damage of only 4:heart::heart:, meaning tha
     - An enchanted <i class="icon-minecraft icon-minecraft-diamond-sword"></i>Diamond Sword is propably enough to perform better than this weapon. 
   
 ## Trivia
-
 - The texture used for this weapon is its original pre-1.14 Programmer Art texture.
 - The tooltip is FokaStudio laughing at everyone who prefers 1.8 combat, <u>but can't justify why 1.9 one is bad</u>.
     - It is also a play on his opinion that 1.8 combat revolved around `outright destroying one's left mouse button`.
 
+## Advancements
+| Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/cursed_crafting` |
 ## History
-
 - **1.6a**
 	- Introduced

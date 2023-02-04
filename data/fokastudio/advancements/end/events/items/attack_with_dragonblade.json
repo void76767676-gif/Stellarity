@@ -16,7 +16,7 @@
 				},
 				"damage": {
 					"dealt": {
-						"min": 3.25
+						"min": 4
 					},
 					"blocked": false
 				},

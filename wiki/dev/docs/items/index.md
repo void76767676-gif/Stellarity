@@ -41,7 +41,6 @@ I do not think I have to explain what items are.
 ### Other items
 <div markdown class="foka-list">
 - <i class="icon-fsee icon-fsee-prismatic-pearl"></i>[Prismatic Pearl](other/prismatic_pearl.md)
-- <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](other/living_flesh.md)
 - <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md)
 - <i class="icon-fsee icon-fsee-pandoras-barrel"></i>[Pandora's Barrel](other/pandoras_barrel.md)
 - <i class="icon-fsee icon-fsee-book-of-conveynace"></i>[Spellbooks](other/spellbooks.md)

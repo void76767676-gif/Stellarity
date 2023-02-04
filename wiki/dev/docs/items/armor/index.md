@@ -5,7 +5,7 @@
 >
 > ~ *Minecraft Wiki*
 
-Currently, **FokaStudio's Ender Expansion** has **3 new armor sets**.
+Currently, **FokaStudio's Ender Expansion** has a total of **3 new armor sets**. One specializing in damage, one specializing in agility, and one specializing in tanking.
 
 ## List of FSEE items:
 <div markdown class="foka-list">

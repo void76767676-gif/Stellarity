@@ -1,1 +1,1 @@
-scoreboard players reset @s foka.items.armors.ancient_armor.combo
+scoreboard players reset @s foka.items.dragonblade.punch_progress

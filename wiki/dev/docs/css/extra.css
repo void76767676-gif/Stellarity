@@ -279,3 +279,10 @@ div.tabbed-labels:before {
 .md-typeset .admonition, .md-typeset details {
     background-color: transparent;
 }
+
+/*
+    Increase list indents to make them more readable
+*/
+.md-content ul {
+    padding-left: 25px;
+}
