@@ -34,7 +34,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],foka.special_item:\"bloody_harvest\",CustomModelData:90000}"
+							"tag": "{Enchantments:[{}],foka.special_item:\"endurance_stew\",CustomModelData:90000}"
 						}
 					]
 				}
