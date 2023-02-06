@@ -1,8 +1,10 @@
 particle end_rod ~ ~ ~ 0 0 0 0.15 50
 
 playsound minecraft:item.trident.thunder block @a ~ ~ ~ 3 0.75
-playsound minecraft:block.beacon.activate block @a ~ ~ ~ 1000 0.75
-playsound block.end_portal.spawn block @a ~ ~ ~ 1000 1
+scoreboard players set #global foka.misc 1
+function fokastudio:end/visuals/end_portal_animation/animation/1.19.3/global_sound_events
+execute if score #global foka.misc matches 0 run function fokastudio:end/visuals/end_portal_animation/animation/1.19.3/playsound
+execute if score #global foka.misc matches 1 run function fokastudio:end/visuals/end_portal_animation/animation/1.19.3/playsound_global
 
 fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=north] replace end_portal_frame[eye=true,facing=north]
 fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=east] replace end_portal_frame[eye=true,facing=east]
