@@ -20,13 +20,31 @@
 					},
 					"blocked": false
 				},
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 5
+				"entity": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_scores",
+							"entity": "this",
+							"scores": {
+								"foka.items.dragonblade.cooldown": {
+									"min": 1
+								}
+							}
+						}
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"distance": {
+								"absolute": {
+									"max": 5
+								}
+							}
 						}
 					}
-				}
+				]
 			}
 		}
 	},
