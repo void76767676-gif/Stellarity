@@ -47,13 +47,13 @@ Hitting enemies will inflict *'Dragon Stacks'*. The amount of Stacks an enemy ha
 
 Punching enemies warps them by 6.6 blocks, facing away from the player. Mobs won't be warped through blocks, stopping on them instead. They will also take 7:heart: х ₃.₅ damage, which is increased to 24:heart: х ₁₂ if punched into a wall. This damage ignores 25% of enemy defense, meaning that higher tier armor and enchantments won't reduce it as much as they would.
 
-Punched enemies will also be stunned for 3 seconds. being completely unable to move. Immobilization doesn't prevent jumping and fall damage.
+Punched enemies will also be stunned for 3 seconds. being completely unable to move. Immobilization doesn't prevent jumping and fall damage. They are also afflicted with Weakness I for 7 seconds.
 
 If an enemy is punched into blocks, neabry enemies will take 4:heart::heart: damage, also with 25% armor penetration.
 
 **Knockback enchantmnet** increases Punch damage. Each level adds 1.5:heart: х ₃ ⁄₄ damage, or 4:heart::heart: if punched into blocks. Wall punch splash damage is increased by the same amount as base punch damage.
 
-Punched mobs cannot be punched for the next 10 seconds, indicated by a cloud of dust above their head.
+Punched mobs cannot be punched for the next 8.5 seconds, indicated by a cloud of dust above their head.
 
 ## Tips
 - Don't be fooled by its awful base stats! The damage of the punches is enough to make its average DPS higher than any other end-gane melee weapon's!

@@ -5,6 +5,7 @@ function fokastudio:end/items/armors/main
 function fokastudio:end/items/tools/main
 function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
+function fokastudio:end/items/perm_buffs/main
 
 # Dragonblade
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown

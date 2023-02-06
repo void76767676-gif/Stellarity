@@ -1,0 +1,31 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"foka.perm_buffs.bloody_harvest\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:beetroot"
+					],
+					"nbt": "{foka.special_item:\"bloody_harvest\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/perm_buffs/bloody_harvest/eat"
+	}
+}

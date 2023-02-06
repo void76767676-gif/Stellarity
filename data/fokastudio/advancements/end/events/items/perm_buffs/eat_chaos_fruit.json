@@ -1,0 +1,31 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"nbt": "{Tags:[\"foka.perm_buffs.chaos_fruit\"]}"
+							}
+						}
+					}
+				],
+				"item": {
+					"items": [
+						"minecraft:chorus_fruit"
+					],
+					"nbt": "{foka.special_item:\"chaos_fruit\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/perm_buffs/chaos_fruit/eat"
+	}
+}
