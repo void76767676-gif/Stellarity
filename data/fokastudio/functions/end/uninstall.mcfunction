@@ -84,6 +84,7 @@ schedule clear fokastudio:end/loops/1_second
 schedule clear fokastudio:end/loops/5_second
 schedule clear fokastudio:end/loops/10_second
 
+scoreboard players reset #fsee.is_installed foka.misc
 
 # Does not remove entities/clear worldgen/etc.
 # Btw since you cannot remove worldgen datapacks withouth editing your

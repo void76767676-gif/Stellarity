@@ -29,6 +29,12 @@
 									"translate": "become immune to Poison",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"'n",
+								{
+									"translate": "'What a fancy word!'",
+									"color": "#EEEEEE",
+									"italic": true
 								}
 							]
 						},

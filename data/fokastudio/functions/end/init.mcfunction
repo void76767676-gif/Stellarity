@@ -94,6 +94,11 @@ scoreboard objectives add foka.misc.invul_timer dummy
 scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm
 scoreboard objectives add foka.misc.respawn_detection minecraft.custom:minecraft.deaths
 
+
+
+# Hook for checking if FSEE is installed
+scoreboard players set #fsee.is_installed foka.misc 1
+
 # Detecting whether FSEE is being used on a server, or as a mod
 # Different things happen on different loaders
 # This is executed only once on first pack load to avoid unnecessary lag!

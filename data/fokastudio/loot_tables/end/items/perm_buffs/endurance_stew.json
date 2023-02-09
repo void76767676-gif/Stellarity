@@ -29,6 +29,12 @@
 									"translate": "increase your defense",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"'n",
+								{
+									"translate": "'Tastes like cobalt'",
+									"color": "#EEEEEE",
+									"italic": true
 								}
 							]
 						},
