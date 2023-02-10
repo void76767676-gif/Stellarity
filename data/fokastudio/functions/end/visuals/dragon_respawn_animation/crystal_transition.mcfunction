@@ -1,5 +1,5 @@
 # This is done in order to remove the Beams
-# that center the location Ender Dragons spawns at
+# that center the location the Ender Dragon spawns at
 
 summon end_crystal ~ ~ ~ {ShowBottom:1b,Tags:["fe.new_crystal"]}
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force

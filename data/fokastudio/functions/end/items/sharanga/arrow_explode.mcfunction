@@ -12,6 +12,6 @@ scoreboard players set #temp2 foka.misc 2
 scoreboard players operation @s foka.misc /= #temp foka.misc
 scoreboard players operation @s foka.misc *= #temp2 foka.misc
 
-execute as @e[distance=..3,type=!#fokastudio:end/invalid_targets] run function fokastudio:end/items/sharanga/damage
+execute as @e[type=!#fokastudio:end/invalid_targets,distance=..3] run function fokastudio:end/items/sharanga/damage
 
 kill @s

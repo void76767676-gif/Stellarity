@@ -11,7 +11,7 @@ function fokastudio:end/items/perm_buffs/main
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.cooldown=1..}] at @s run function fokastudio:end/items/dragonblade/cooldown
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.stacks=1..}] at @s run function fokastudio:end/items/dragonblade/entity_loop
 execute as @a[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking] at @s as @e[distance=0.001..5,tag=foka.items.dragonblade.punch_ready] at @s run function fokastudio:end/items/dragonblade/punch/progress
-execute as @e[scores={foka.items.dragonblade.until_punch_reset=1..}] run function fokastudio:end/items/dragonblade/punch/progress_reset_countdown
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.until_punch_reset=1..}] run function fokastudio:end/items/dragonblade/punch/progress_reset_countdown
 execute as @e[type=area_effect_cloud,tag=foka.items.dragonblade.smthgram_aec] at @s rotated as @s run function fokastudio:end/items/dragonblade/punch/special_fx/smthgram
 
 # Clockwork Crossbow
@@ -35,9 +35,6 @@ execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fo
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s
 execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give @s night_vision 11 0 true
-
-# Crest of The End
-execute as @e[scores={foka.items.crest_of_the_end.curse_cooldown=1..}] run scoreboard players remove @s foka.items.crest_of_the_end.curse_cooldown 1
 
 # Starstruck Carcanet
 execute as @e[type=area_effect_cloud,tag=foka.carcanet.aec] at @s run function fokastudio:end/items/starstruck_carcanet/aec_loop
@@ -65,13 +62,13 @@ execute as @a[predicate=fokastudio:end/items/holding_ender_insignia,predicate=fo
 execute as @a[tag=foka.ender_insignia.active] at @s run function fokastudio:end/items/ender_insignia/loop
 
 # Pandora's Barrel
-execute as @e[tag=foka.pandoras_barrel.armor_stand,type=armor_stand] at @s positioned ~ ~1.7 ~ run function fokastudio:end/items/pandoras_barrel/animation/progress
+execute as @e[type=armor_stand,tag=foka.pandoras_barrel.armor_stand] at @s positioned ~ ~1.7 ~ run function fokastudio:end/items/pandoras_barrel/animation/progress
 
 # Tamaris
 execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.executable] at @s run function fokastudio:end/items/tamaris/execute/indicator
-execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s run function fokastudio:end/items/tamaris/holding_loop
-execute as @e[scores={foka.items.tamaris.animation.until_reset=1..}] run function fokastudio:end/items/tamaris/execute/animation/reset_countdown
-execute as @e[scores={foka.items.tamaris.execute_cooldown=1..}] run scoreboard players remove @s foka.items.tamaris.execute_cooldown 1
+execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] if entity @s[predicate=fokastudio:end/utils/player/is_sneaking] run function fokastudio:end/items/tamaris/holding_loop
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.animation.until_reset=1..}] run function fokastudio:end/items/tamaris/execute/animation/reset_countdown
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.execute_cooldown=1..}] run scoreboard players remove @s foka.items.tamaris.execute_cooldown 1
 
 #################################
 # THIS HAS TO BE AT THE BOTTOM! #

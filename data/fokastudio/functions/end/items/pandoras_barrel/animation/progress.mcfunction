@@ -1,4 +1,4 @@
-execute as @e[limit=1,sort=nearest,type=area_effect_cloud,tag=foka.pandoras_barrel.aec] at @s run function fokastudio:end/items/pandoras_barrel/as_aec
+execute as @e[type=area_effect_cloud,tag=foka.pandoras_barrel.aec,limit=1,sort=nearest] at @s run function fokastudio:end/items/pandoras_barrel/as_aec
 
 execute if score @s foka.items.pandoras_barrel.animation matches 1 run function fokastudio:end/items/pandoras_barrel/helmet_replace
 

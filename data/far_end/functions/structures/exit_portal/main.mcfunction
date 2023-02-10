@@ -22,3 +22,8 @@ execute if entity @s[tag=fe.respawn] run function far_end:structures/exit_portal
 
 # Remove certain tags and add different ones once Dragon is dead
 execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/dragon/presence
+
+# Post generation for Altar of the Accursed
+# Can't really do it with pure Worldgen sadly
+# Or I could, but definitely not in the way I would want to
+execute if entity @s[tag=!foka.post_gen.initialized] in minecraft:the_end run function fokastudio:end/post_gen/initialize

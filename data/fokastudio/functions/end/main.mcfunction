@@ -14,11 +14,6 @@ function fokastudio:end/utils/main
 execute unless score #foka.vanilla_dragon_butcher.setup foka.misc matches 1 in minecraft:the_end run function fokastudio:end/mobs/dragon/butcher/setup
 execute as @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=fokastudio:end/locations/in_dragons_den] run function fokastudio:end/mobs/dragon/butcher/kill
 
-# Post generation for Altar of the Accursed
-# Can't really do it with pure Worldgen sadly
-# Or I could, but definitely not in the way I would want to
-execute in minecraft:the_end as @e[type=marker,tag=fe.exit_portal,tag=!foka.post_gen.initialized] run function fokastudio:end/post_gen/initialize
-
 # Exit Portal loop
 # Used for stuff like respawn checks, etc.
 execute as @e[type=minecraft:marker,tag=fe.exit_portal] at @s run function far_end:structures/exit_portal/main
