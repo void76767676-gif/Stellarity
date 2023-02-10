@@ -33,6 +33,8 @@ scoreboard objectives add foka.items.sharanga.arrow_age dummy
 
 scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy
 
+scoreboard objectives add foka.items.crest.bonus_dmg dummy
+
 scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add foka.items.prismatic_punch.marker_age dummy
 

@@ -2,18 +2,38 @@
 	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"requirement": {
-			"trigger": "minecraft:using_item",
+			"trigger": "minecraft:entity_hurt_player",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:shield"
-					],
-					"nbt": "{foka.special_item:\"crest_of_the_end\"}"
-				}
+				"damage": {
+					"blocked": true,
+					"source_entity": {}
+				},
+				"player": [
+					{
+						"condition": "alternative",
+						"terms": [
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {"mainhand": {"items": ["shield"],"nbt": "{foka.special_item:\"crest_of_the_end\"}"}}
+								}
+							},
+							{
+								"condition": "entity_properties",
+								"entity": "this",
+								"predicate": {
+									"equipment": {"offhand": {"items": ["shield"],"nbt": "{foka.special_item:\"crest_of_the_end\"}"}}
+								}
+							}
+						]
+					}
+				]
+
 			}
 		}
 	},
 	"rewards": {
-		"function": "fokastudio:end/items/crest_of_the_end/shield"
+		"function": "fokastudio:end/items/crest_of_the_end/block_damage"
 	}
 }

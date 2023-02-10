@@ -28,6 +28,7 @@ scoreboard objectives remove foka.items.armors.ancient_armor.combo
 scoreboard objectives remove foka.items.armors.ancient_armor.until_combo_reset
 scoreboard objectives remove foka.items.sharanga.arrow_age
 scoreboard objectives remove foka.items.clockwork_crossbow.arrow_amount
+scoreboard objectives remove foka.items.crest.bonus_dmg
 scoreboard objectives remove foka.items.prismatic_punch.particle_cycle
 scoreboard objectives remove foka.items.prismatic_punch.marker_age
 scoreboard objectives remove foka.items.ender_insignia.hold_duration
