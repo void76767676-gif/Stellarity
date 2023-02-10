@@ -1,0 +1,17 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/tamaris"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/crest_of_the_end"
+				}
+			]
+		}
+	]
+}

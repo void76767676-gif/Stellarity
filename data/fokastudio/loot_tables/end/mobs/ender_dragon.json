@@ -20,31 +20,16 @@
 			"rolls": 1,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:elytra"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.1
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/trinkets/ender_insignia"
+					"name": "fokastudio:end/mobs/dragon/1"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/tamaris"
+					"name": "fokastudio:end/mobs/dragon/2"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/crest_of_the_end"
+					"name": "fokastudio:end/mobs/dragon/3"
 				}
 			]
 		}

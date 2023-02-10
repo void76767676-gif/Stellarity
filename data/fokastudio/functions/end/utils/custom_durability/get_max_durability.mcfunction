@@ -76,7 +76,7 @@ execute if data storage fokastudio:end/temp object{id:"minecraft:shears"} run sc
 execute if data storage fokastudio:end/temp object{id:"minecraft:shield"} run scoreboard players set $player.temp_4 foka.misc 336
 execute if data storage fokastudio:end/temp object{id:"minecraft:bow"} run scoreboard players set $player.temp_4 foka.misc 384
 execute if data storage fokastudio:end/temp object{id:"minecraft:trident"} run scoreboard players set $player.temp_4 foka.misc 250
-execute if data storage fokastudio:end/temp object{id:"minecraft:elytra"} run scoreboard players set $player.temp_4 foka.misc 1561
-execute if data storage fokastudio:end/temp object{id:"minecraft:crossbow"} run scoreboard players set $player.temp_4 foka.misc 326
+execute if data storage fokastudio:end/temp object{id:"minecraft:elytra"} run scoreboard players set $player.temp_4 foka.misc 432
+execute if data storage fokastudio:end/temp object{id:"minecraft:crossbow"} run scoreboard players set $player.temp_4 foka.misc 465
 execute if data storage fokastudio:end/temp object{id:"minecraft:turtle_helmet"} run scoreboard players set $player.temp_4 foka.misc 275
 execute if data storage fokastudio:end/temp object{tag:{Unbreakable:1b}} run scoreboard players set $player.temp_4 foka.misc 0
