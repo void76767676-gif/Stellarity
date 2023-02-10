@@ -1,5 +1,7 @@
 scoreboard players add @s foka.misc 1
 
+particle firework ~ ~ ~ 0.13 0.13 0.13 0 1 force
+
 execute if score @s foka.misc matches 0..4 run particle dust 0.98 0.243 0.243 1 ~ ~ ~ 0.13 0.13 0.13 0 8 force
 execute if score @s foka.misc matches 5..8 run particle dust 0.98 0.686 0.243 1 ~ ~ ~ 0.13 0.13 0.13 0 8 force
 execute if score @s foka.misc matches 9..12 run particle dust 0.98 0.871 0.243 1 ~ ~ ~ 0.13 0.13 0.13 0 8 force

@@ -48,10 +48,10 @@ execute as @a[scores={foka.items.spirit_dagger.until_consume_reset=1..}] run fun
 execute as @a[scores={foka.items.spirit_dagger.effects_duration=1..}] run function fokastudio:end/items/spirit_dagger/effects/reset/tick
 
 # Prismatic Pearl
-execute as @a[scores={foka.misc.used_ender_pearl=1..},tag=foka.prismatic_pearl.holding] at @s run function fokastudio:end/items/prismatic_pearl/throw
+execute as @a[tag=foka.prismatic_pearl.holding,scores={foka.misc.used_ender_pearl=1..}] at @s run function fokastudio:end/items/prismatic_pearl/throw
 tag @a[tag=foka.prismatic_pearl.holding] remove foka.prismatic_pearl.holding
 execute as @a[predicate=fokastudio:end/items/holding_prismatic_pearl] run tag @s add foka.prismatic_pearl.holding
-execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run function fokastudio:end/items/prismatic_pearl/cooldown_countdown
+execute as @a[scores={foka.items.prismatic_pearl.cooldown=1..}] run function fokastudio:end/items/prismatic_pearl/cooldown/countdown
 execute as @e[type=ender_pearl,tag=foka.prismatic_pearl] at @s run function fokastudio:end/items/prismatic_pearl/trail
 
 # Zephyr

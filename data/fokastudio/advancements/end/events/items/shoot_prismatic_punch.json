@@ -1,7 +1,7 @@
 {
 	"parent": "fokastudio:end/events/root",
 	"criteria": {
-		"shot_prismatic_punch": {
+		"normal": {
 			"trigger": "minecraft:shot_crossbow",
 			"conditions": {
 				"player": [
@@ -17,9 +17,29 @@
 					"nbt": "{foka.special_item:\"prismatic_punch\"}"
 				}
 			}
+		},
+		"multishot": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/items/prismatic_punch/holding_multishot"
+					}
+				],
+				"item": {
+					"nbt": "{foka.special_item:\"prismatic_punch\"}"
+				}
+			}
 		}
 	},
+	"requirements": [
+		[
+			"normal",
+			"multishot"
+		]
+	],
 	"rewards": {
-		"function": "fokastudio:end/items/prismatic_punch/shoot"
+		"function": "fokastudio:end/items/prismatic_punch/shoot_event/trigger"
 	}
 }

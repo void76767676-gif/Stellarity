@@ -4,5 +4,5 @@ execute if score @s foka.items.prismatic_punch.marker_age matches 81..120 run fu
 execute if score @s foka.items.prismatic_punch.marker_age matches 121..160 run function fokastudio:end/items/prismatic_punch/move/0.4
 execute if score @s foka.items.prismatic_punch.marker_age matches 161..200 run function fokastudio:end/items/prismatic_punch/move/0.2
 
-execute if score @s foka.items.prismatic_punch.marker_age matches 201.. run function fokastudio:end/items/prismatic_punch/detonate
+execute if score @s foka.items.prismatic_punch.marker_age matches 201.. run function fokastudio:end/items/prismatic_punch/detonate/check_self
 
