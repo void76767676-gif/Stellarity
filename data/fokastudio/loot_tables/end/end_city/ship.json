@@ -2,7 +2,106 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "fokastudio:end/items/materials/pixie_dust",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 3,
+										"max": 5
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biome": "fokastudio:the_hallow"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:glowstone_dust",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 3,
+										"max": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:water"
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:blaze_powder",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:nether_wart",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"quality": 1,
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:strong_healing"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -13,7 +112,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 3,
-								"max": 5
+								"max": 4
 							},
 							"add": false
 						}
@@ -29,7 +128,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -50,6 +149,34 @@
 							"add": false
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:gunpowder",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
 				}
 			],
 			"conditions": [
@@ -62,7 +189,7 @@
 		{
 			"rolls": {
 				"min": 2,
-				"max": 4
+				"max": 3
 			},
 			"entries": [
 				{
@@ -73,8 +200,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -88,8 +215,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -98,9 +225,10 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 2
+			"rolls": 1,
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
 			},
 			"entries": [
 				{
@@ -126,7 +254,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 5
+								"max": 4
 							}
 						}
 					]

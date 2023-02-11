@@ -110,6 +110,10 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:tropical_fish_bucket"
 				}
 			]
 		}

@@ -6,10 +6,6 @@
 				"min": 10,
 				"max": 13
 			},
-			"bonus_rolls": {
-				"min": 0,
-				"max": 1
-			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -43,6 +39,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"quality": 1,
 					"name": "minecraft:cave_spider_spawn_egg",
 					"functions": [
 						{
@@ -57,6 +54,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"quality": 1,
 					"name": "minecraft:spider_spawn_egg",
 					"functions": [
 						{

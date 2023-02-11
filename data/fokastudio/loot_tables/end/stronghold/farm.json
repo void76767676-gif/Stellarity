@@ -4,13 +4,14 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 10,
-				"max": 12
+				"min": 9,
+				"max": 11
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:bamboo",
 					"functions": [
 						{
@@ -26,11 +27,12 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 3,
 					"name": "minecraft:pumpkin"
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:melon"
 				},
 				{
@@ -83,15 +85,17 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:wheat_seeds"
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:beetroot_seeds"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:beetroot",
 					"functions": [
 						{
@@ -107,7 +111,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 7,
 					"name": "minecraft:sugar_cane",
 					"functions": [
 						{
@@ -120,21 +124,10 @@
 							"add": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:enchanted_golden_apple"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.33333
 				}
 			]
 		}

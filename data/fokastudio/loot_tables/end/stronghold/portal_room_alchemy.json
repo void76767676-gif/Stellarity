@@ -9,7 +9,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 6,
 					"quality": 1,
 					"name": "minecraft:blaze_powder",
 					"functions": [
@@ -24,7 +24,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 13,
+					"weight": 6,
 					"name": "minecraft:nether_wart",
 					"functions": [
 						{
@@ -39,7 +39,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
+					"weight": 3,
 					"quality": -1,
 					"name": "minecraft:glass_bottle",
 					"functions": [
@@ -58,7 +58,6 @@
 					"children": [
 						{
 							"type": "minecraft:item",
-							"weight": 2,
 							"name": "minecraft:potion",
 							"functions": [
 								{
@@ -66,46 +65,19 @@
 									"id": "minecraft:water"
 								}
 							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:potion",
-							"functions": [
-								{
-									"function": "minecraft:set_potion",
-									"id": "minecraft:awkward"
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:potion",
-							"functions": [
-								{
-									"function": "minecraft:set_potion",
-									"id": "minecraft:thick"
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:potion",
-							"functions": [
-								{
-									"function": "minecraft:set_potion",
-									"id": "minecraft:mundane"
-								}
-							]
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 1,
+				"max": 3
+			},
+			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 11,
-					"quality": 2,
 					"name": "fokastudio:end/stronghold/random_potion"
 				}
 			]

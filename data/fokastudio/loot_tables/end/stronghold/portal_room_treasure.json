@@ -75,6 +75,21 @@
 							"add": false
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"quality": -1,
+					"name": "minecraft:copper_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
+							}
+						}
+					]
 				}
 			]
 		}
