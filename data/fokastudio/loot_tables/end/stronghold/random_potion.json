@@ -3,25 +3,13 @@
         {
             "rolls":1,
             "entries": [
-				{
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/blind_rage_potion"
-                },
                 {
                     "type": "loot_table",
                     "name": "fokastudio:end/items/potions/bottled_darkness"
                 },
                 {
                     "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/cursed_potion"
-                },
-                {
-                    "type": "loot_table",
                     "name": "fokastudio:end/items/potions/endurance_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/graceful_potion"
                 },
                 {
                     "type": "loot_table",
@@ -34,18 +22,6 @@
                 {
                     "type": "loot_table",
                     "name": "fokastudio:end/items/potions/radiant_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/red_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/royal_jelly"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/spelunker_concoction"
                 },
                 {
                     "type": "loot_table",

@@ -1,0 +1,10 @@
+scoreboard players set #continue foka.misc 0
+execute if entity @e[type=!#fokastudio:end/invalid_targets_with_player,distance=..9,tag=!foka.prismatic_blast.pierced] run scoreboard players set #continue foka.misc 1
+
+scoreboard players set #hit foka.misc 0
+scoreboard players set #times_done foka.misc 0
+scoreboard players set #distance foka.misc 0
+
+execute if score #continue foka.misc matches 1 facing entity @e[type=!#fokastudio:end/invalid_targets_with_player,distance=..9,tag=!foka.prismatic_blast.pierced,sort=nearest,limit=1] eyes run function fokastudio:end/items/prismatic_punch/detonate/piercing/ray
+
+schedule function fokastudio:end/items/prismatic_punch/detonate/piercing/scheduled 1t append

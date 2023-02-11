@@ -9,7 +9,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/crest_of_the_end"
+					"name": "fokastudio:end/items/trinkets/crest_of_the_end"
 				}
 			]
 		}

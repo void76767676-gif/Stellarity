@@ -9,14 +9,14 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:27,Duration:3600}]}"
+							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:27,Duration:6000}]}"
 						},
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
 								"translate": "Unluck Potion",
-								"color": "#C0A44D",
+								"color": "white",
 								"italic": false
 							}
 						}

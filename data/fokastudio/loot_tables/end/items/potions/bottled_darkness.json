@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:splash_potion",
+					"name": "minecraft:lingering_potion",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
@@ -16,7 +16,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "Bottled Darkness",
-								"color": "#424242",
+								"color": "white",
 								"italic": false
 							}
 						}

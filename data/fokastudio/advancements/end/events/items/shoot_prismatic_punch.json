@@ -11,6 +11,13 @@
 							"condition": "minecraft:reference",
 							"name": "fokastudio:end/items/prismatic_punch/holding_multishot"
 						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/items/prismatic_punch/holding_piercing"
+						}
 					}
 				],
 				"item": {
@@ -31,12 +38,27 @@
 					"nbt": "{foka.special_item:\"prismatic_punch\"}"
 				}
 			}
+		},
+		"piercing": {
+			"trigger": "minecraft:shot_crossbow",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:reference",
+						"name": "fokastudio:end/items/prismatic_punch/holding_piercing"
+					}
+				],
+				"item": {
+					"nbt": "{foka.special_item:\"prismatic_punch\"}"
+				}
+			}
 		}
 	},
 	"requirements": [
 		[
 			"normal",
-			"multishot"
+			"multishot",
+			"piercing"
 		]
 	],
 	"rewards": {

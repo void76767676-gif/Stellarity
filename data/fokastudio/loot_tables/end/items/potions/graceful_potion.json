@@ -16,7 +16,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "Graceful Potion",
-								"color": "#D6D6D6",
+								"color": "white",
 								"italic": false
 							}
 						},

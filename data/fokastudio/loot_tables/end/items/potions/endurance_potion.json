@@ -16,7 +16,7 @@
 							"entity": "this",
 							"name": {
 								"translate": "Endurance Potion",
-								"color": "#99453A",
+								"color": "white",
 								"italic": false
 							}
 						}

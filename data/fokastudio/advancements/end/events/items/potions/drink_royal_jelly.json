@@ -1,0 +1,19 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"items": [
+						"minecraft:honey_bottle"
+					],
+					"nbt": "{foka.special_item:\"royal_jelly\"}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/potions/royal_jelly"
+	}
+}
