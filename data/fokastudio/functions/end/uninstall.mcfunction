@@ -49,9 +49,7 @@ scoreboard objectives remove foka.items.tamaris.math.health.current
 scoreboard objectives remove foka.items.tamaris.math.health.max
 scoreboard objectives remove foka.items.tamaris.math.health.percentage
 scoreboard objectives remove foka.items.tamaris.animation.progress
-scoreboard objectives remove foka.items.tamaris.animation.until_reset
 scoreboard objectives remove foka.items.tamaris.execute_cooldown
-scoreboard objectives remove foka.items.tamaris.misc.distance
 scoreboard objectives remove foka.eol.animation
 scoreboard objectives remove foka.eol.health
 scoreboard objectives remove foka.eol.attack_cycle

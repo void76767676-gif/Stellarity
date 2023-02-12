@@ -65,10 +65,10 @@ execute as @a[tag=foka.ender_insignia.active] at @s run function fokastudio:end/
 execute as @e[type=armor_stand,tag=foka.pandoras_barrel.armor_stand] at @s positioned ~ ~1.7 ~ run function fokastudio:end/items/pandoras_barrel/animation/progress
 
 # Tamaris
-execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.executable] at @s run function fokastudio:end/items/tamaris/execute/indicator
-execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] if entity @s[predicate=fokastudio:end/utils/player/is_sneaking] run function fokastudio:end/items/tamaris/holding_loop
-execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.animation.until_reset=1..}] run function fokastudio:end/items/tamaris/execute/animation/reset_countdown
-execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.execute_cooldown=1..}] run scoreboard players remove @s foka.items.tamaris.execute_cooldown 1
+execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.executable] at @s anchored eyes rotated ~ 0 positioned ^ ^1.5 ^ run function fokastudio:end/items/tamaris/execute/indicator
+execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] run function fokastudio:end/items/tamaris/holding_loop
+execute as @a[tag=foka.items.tamaris.doing_execute] at @s run function fokastudio:end/items/tamaris/execute/animation/progress
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.execute_cooldown=1..}] run function fokastudio:end/items/tamaris/execute/cooldown_countdown
 
 #################################
 # THIS HAS TO BE AT THE BOTTOM! #

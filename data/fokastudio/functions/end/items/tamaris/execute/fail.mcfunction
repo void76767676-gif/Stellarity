@@ -1,4 +1,6 @@
-scoreboard players set @s foka.items.tamaris.execute_cooldown 220
+scoreboard players set @s foka.items.tamaris.execute_cooldown 200
 
-playsound minecraft:block.conduit.deactivate player @s ~ ~ ~ 0.6 0.9
-playsound minecraft:item.totem.use player @s ~ ~ ~ 0.4 2
+playsound minecraft:block.conduit.deactivate player @s ~ ~ ~ 1 0.9
+playsound minecraft:item.totem.use player @s ~ ~ ~ 0.75 2
+
+tag @s remove foka.items.tamaris.no_warn

@@ -63,9 +63,7 @@ scoreboard objectives add foka.items.tamaris.math.health.current dummy
 scoreboard objectives add foka.items.tamaris.math.health.max dummy
 scoreboard objectives add foka.items.tamaris.math.health.percentage dummy
 scoreboard objectives add foka.items.tamaris.animation.progress dummy
-scoreboard objectives add foka.items.tamaris.animation.until_reset dummy
 scoreboard objectives add foka.items.tamaris.execute_cooldown dummy
-scoreboard objectives add foka.items.tamaris.misc.distance dummy
 
 ## Mobs
 # Empress of Light
