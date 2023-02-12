@@ -25,7 +25,6 @@ scoreboard objectives add foka.items.pandoras_barrel.animation dummy
 scoreboard objectives add foka.items.pandoras_barrel.summon_id dummy
 
 scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
-scoreboard objectives add foka.items.armors.holy_protection_time dummy
 scoreboard objectives add foka.items.armors.ancient_armor.combo dummy
 scoreboard objectives add foka.items.armors.ancient_armor.until_combo_reset dummy
 

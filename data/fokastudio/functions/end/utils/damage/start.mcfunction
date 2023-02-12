@@ -32,7 +32,7 @@ execute unless entity @s[tag=foka.dead] run function fokastudio:end/utils/damage
 tag @s remove foka.dead
 
 # Remove Holy Protection if a player has it
-execute if entity @s[type=player,tag=foka.holy_protection] run function fokastudio:end/items/armors/hallowed_armor/holy_protection_off
+execute if entity @s[type=player,tag=foka.holy_protection] run function fokastudio:end/items/armors/hallowed_armor/holy_protection/off
 
 tag @s remove foka.damage.example_cause
 tag @s remove foka.damage.sharanga_explosion
