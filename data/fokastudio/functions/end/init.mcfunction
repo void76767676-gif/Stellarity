@@ -14,84 +14,85 @@ scoreboard objectives add foka.config.always_generate_egg dummy
 function fokastudio:end/config/init
 
 ## Items
-scoreboard objectives add foka.items.dragonblade.cooldown dummy
-scoreboard objectives add foka.items.dragonblade.stacks dummy
-scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy
-scoreboard objectives add foka.items.dragonblade.punch_progress dummy
-scoreboard objectives add foka.items.dragonblade.until_punch_reset dummy
+scoreboard objectives add foka.items.dragonblade.cooldown dummy "Dragonblade Cooldown"
+scoreboard objectives add foka.items.dragonblade.stacks dummy "Dragonblade Stack Count"
+scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy "Dragonblade Until Stack Reset"
+scoreboard objectives add foka.items.dragonblade.punch_progress dummy "Dragonblade Punch Animation Progress"
+scoreboard objectives add foka.items.dragonblade.until_punch_reset dummy "Dragonblade Until Punch Animation Progress Reset"
 
-scoreboard objectives add foka.items.pandoras_barrel.raycast dummy
-scoreboard objectives add foka.items.pandoras_barrel.animation dummy
-scoreboard objectives add foka.items.pandoras_barrel.summon_id dummy
+scoreboard objectives add foka.items.pandoras_barrel.raycast dummy "Pandora's Barrel Raycast"
+scoreboard objectives add foka.items.pandoras_barrel.animation dummy "Pandora's Barrel Animation Progress"
+scoreboard objectives add foka.items.pandoras_barrel.summon_id dummy "Pandora's Barrel Summon ID"
 
-scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy
-scoreboard objectives add foka.items.armors.ancient_armor.combo dummy
-scoreboard objectives add foka.items.armors.ancient_armor.until_combo_reset dummy
+scoreboard objectives add foka.items.armors.holy_protection_cooldown dummy "Holy Protection Cooldown"
+scoreboard objectives add foka.items.armors.ancient_armor.combo dummy "Ancient Armor Combo"
+scoreboard objectives add foka.items.armors.ancient_armor.until_combo_reset dummy "Ancient Armor Until Combo Reset"
 
-scoreboard objectives add foka.items.sharanga.arrow_age dummy
+scoreboard objectives add foka.items.sharanga.arrow_age dummy "Sharanga Arrow Age"
 
-scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy
+scoreboard objectives add foka.items.clockwork_crossbow.arrow_amount dummy "Clockwork Crossbow Arrow Amount"
 
-scoreboard objectives add foka.items.crest.bonus_dmg dummy
+scoreboard objectives add foka.items.crest.bonus_dmg dummy "Crest of The End Extra Damage"
 
-scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy
-scoreboard objectives add foka.items.prismatic_punch.marker_age dummy
+scoreboard objectives add foka.items.prismatic_punch.particle_cycle dummy "Prismatic Punch Particle Cycle"
+scoreboard objectives add foka.items.prismatic_punch.marker_age dummy "Prismatic Punch Projectile Age"
 
-scoreboard objectives add foka.items.ender_insignia.hold_duration dummy
+scoreboard objectives add foka.items.ender_insignia.hold_duration dummy "Ender Insignia Hold Duration"
 
-scoreboard objectives add foka.items.sabrewing.charge dummy
-scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy
+scoreboard objectives add foka.items.sabrewing.charge dummy "Sabrewing Charge Time"
+scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy "Sabrewing Until Charge Time Reset"
 
-scoreboard objectives add foka.items.crest_of_the_end.curse_cooldown dummy
+scoreboard objectives add foka.items.spellbook.conveyance.cooldown dummy "Spellbook Conveyance Cooldown"
+scoreboard objectives add foka.items.spellbook.conveyance.id dummy "Spellbook Conveyance Teleport ID"
+scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy "Spellbook Updraft Cooldown"
+scoreboard objectives add foka.items.spellbook.light.cooldown dummy "Spellbook Light Cooldown"
 
-scoreboard objectives add foka.items.spellbook.conveyance.cooldown dummy
-scoreboard objectives add foka.items.spellbook.conveyance.id dummy
-scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy
-scoreboard objectives add foka.items.spellbook.light.cooldown dummy
+scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy "Mystical Heartfish Total Consumed"
 
-scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy
+scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy "Spirit Dagger Attract Cooldown"
+scoreboard objectives add foka.items.spirit_dagger.consume_time dummy "Spirit Dagger Consume Time"
+scoreboard objectives add foka.items.spirit_dagger.until_consume_reset dummy "Spirit Dagger Until Consume Time Reset"
+scoreboard objectives add foka.items.spirit_dagger.effects_duration dummy "Spirit Dagger Effects Duration"
 
-scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy
-scoreboard objectives add foka.items.spirit_dagger.consume_time dummy
-scoreboard objectives add foka.items.spirit_dagger.until_consume_reset dummy
-scoreboard objectives add foka.items.spirit_dagger.effects_duration dummy
+scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy "Prismatic Pearl Cooldown"
 
-scoreboard objectives add foka.items.prismatic_pearl.cooldown dummy
-
-scoreboard objectives add foka.items.tamaris.math.health.current dummy
-scoreboard objectives add foka.items.tamaris.math.health.max dummy
-scoreboard objectives add foka.items.tamaris.math.health.percentage dummy
-scoreboard objectives add foka.items.tamaris.animation.progress dummy
-scoreboard objectives add foka.items.tamaris.execute_cooldown dummy
+scoreboard objectives add foka.items.tamaris.math.health.current dummy "Tamaris Current Health"
+scoreboard objectives add foka.items.tamaris.math.health.max dummy "Tamaris Max Health"
+scoreboard objectives add foka.items.tamaris.math.health.percentage dummy "Tamaris Health Percentage"
+scoreboard objectives add foka.items.tamaris.animation.progress dummy "Tamaris Animation Progress"
+scoreboard objectives add foka.items.tamaris.execute_cooldown dummy "Tamaris Execute Cooldown"
 
 ## Mobs
 # Empress of Light
-scoreboard objectives add foka.eol.animation dummy
-scoreboard objectives add foka.eol.health dummy
-scoreboard objectives add foka.eol.attack_cycle dummy
-scoreboard objectives add foka.eol.attack_duration dummy
-scoreboard objectives add foka.eol.attack_cooldown dummy
-scoreboard objectives add foka.eol.projectile_age dummy
+scoreboard objectives add foka.eol.animation dummy "EoL Animation Progress"
+scoreboard objectives add foka.eol.health dummy "EoL "
+scoreboard objectives add foka.eol.attack_cycle dummy "EoL Attack Cycle"
+scoreboard objectives add foka.eol.attack_duration dummy "EoL Attack Duration"
+scoreboard objectives add foka.eol.attack_cooldown dummy "EoL Attack Cooldown"
+scoreboard objectives add foka.eol.projectile_age dummy "EoL Projectile Age"
+
+scoreboard objectives add foka.phantom.size dummy "Phantom Size"
 
 ## Mechanics
-scoreboard objectives add foka.mechanics.void_fishing_length dummy
-scoreboard objectives add foka.mechanics.crystal_count dummy
-scoreboard objectives add foka.mechanics.void_totem_protection_time dummy
-scoreboard objectives add foka.mechanics.end_music dummy
+scoreboard objectives add foka.mechanics.void_fishing_length dummy "Void Fishing Length"
+scoreboard objectives add foka.mechanics.crystal_count dummy "End Crystal Count"
+scoreboard objectives add foka.mechanics.void_totem_protection_time dummy "Void Totem Protection Time"
+scoreboard objectives add foka.mechanics.end_music dummy "End Music Timer"
 
 ## Misc
 # Temporar variables OR things that don't need its own variable
-scoreboard objectives add foka.misc dummy
-scoreboard objectives add foka.misc2 dummy
-scoreboard objectives add foka.misc.end_portal_animation dummy
-scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow
-scoreboard objectives add foka.misc.thrown_trident minecraft.used:minecraft.trident
-scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft.knowledge_book
-scoreboard objectives add foka.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl
-scoreboard objectives add foka.misc.hunger food
-scoreboard objectives add foka.misc.invul_timer dummy
-scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add foka.misc.respawn_detection minecraft.custom:minecraft.deaths
+scoreboard objectives add foka.misc dummy "Misc"
+scoreboard objectives add foka.misc2 dummy "Misc 2"
+scoreboard objectives add foka.misc.end_portal_animation dummy "End Portal Animation Progress"
+scoreboard objectives add foka.misc.shot_bow minecraft.used:minecraft.bow "Events: Shot Bow"
+scoreboard objectives add foka.misc.thrown_trident minecraft.used:minecraft.trident "Events: Thrown Trident"
+scoreboard objectives add foka.misc.used_knowledge_book minecraft.used:minecraft.knowledge_book "Events: Used Knowledge Book"
+scoreboard objectives add foka.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl "Events: Thrown Ender Pearl"
+scoreboard objectives add foka.misc.hunger food "Player: Saturation"
+scoreboard objectives add foka.misc.invul_timer dummy "Player: Damage System Invulnerability Ticks"
+scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm "Player: Elytra Current Flight Speed"
+scoreboard objectives add foka.misc.respawn_detection minecraft.custom:minecraft.deaths "Player: Respawn Detection"
+scoreboard objectives add foka.misc.time_since_rest minecraft.custom:minecraft.time_since_rest "Player: Time Since Last Rest"
 
 
 
