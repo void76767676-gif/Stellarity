@@ -93,7 +93,12 @@ scoreboard objectives add foka.misc.invul_timer dummy "Player: Damage System Inv
 scoreboard objectives add foka.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm "Player: Elytra Current Flight Speed"
 scoreboard objectives add foka.misc.respawn_detection minecraft.custom:minecraft.deaths "Player: Respawn Detection"
 scoreboard objectives add foka.misc.time_since_rest minecraft.custom:minecraft.time_since_rest "Player: Time Since Last Rest"
-
+scoreboard objectives add foka.misc.motion.x1 dummy "Motion Calc: X1"
+scoreboard objectives add foka.misc.motion.x2 dummy "Motion Calc: X2"
+scoreboard objectives add foka.misc.motion.y1 dummy "Motion Calc: Y1"
+scoreboard objectives add foka.misc.motion.y2 dummy "Motion Calc: Y2"
+scoreboard objectives add foka.misc.motion.z1 dummy "Motion Calc: Z1"
+scoreboard objectives add foka.misc.motion.z2 dummy "Motion Calc: Z2"
 
 
 # Hook for checking if FSEE is installed

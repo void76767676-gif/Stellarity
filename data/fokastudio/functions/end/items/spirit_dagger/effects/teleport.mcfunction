@@ -18,7 +18,26 @@ function fokastudio:end/items/spirit_dagger/effects/buff
 title @s actionbar ""
 
 # Damage
-execute store result score #enchant foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 10
+execute store result score #temp_1 foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 7.5
+execute store result score #temp_2 foka.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 7.5
+scoreboard players operation #temp_1 foka.misc += #temp_2 foka.misc
+scoreboard players operation #sweeping foka.misc = #temp_1 foka.misc
+
+execute store result score #temp_1 foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:fire_aspect"}].lvl 1
+execute store result score #temp_2 foka.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:fire_aspect"}].lvl 1
+scoreboard players operation #temp_1 foka.misc += #temp_2 foka.misc
+scoreboard players operation #fire_aspect foka.misc = #temp_1 foka.misc
+
+execute store result score #temp_1 foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
+execute store result score #temp_2 foka.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
+scoreboard players operation #temp_1 foka.misc += #temp_2 foka.misc
+scoreboard players operation #knockback foka.misc = #temp_1 foka.misc
+
+execute store result score #temp_1 foka.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:bane_of_arthropods"}].lvl 1
+execute store result score #temp_2 foka.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:bane_of_arthropods"}].lvl 1
+scoreboard players operation #temp_1 foka.misc += #temp_2 foka.misc
+scoreboard players operation #bane foka.misc = #temp_1 foka.misc
+
 execute as @e[type=!#fokastudio:end/invalid_targets,distance=..4,predicate=!fokastudio:end/items/spirit_dagger/holding,predicate=!fokastudio:end/utils/player/is_sneaking] at @s run function fokastudio:end/items/spirit_dagger/effects/damage
 
 # Visuals
