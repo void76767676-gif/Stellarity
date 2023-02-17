@@ -33,7 +33,7 @@ execute as @a[scores={foka.items.sabrewing.until_charge_reset=1..}] run function
 execute as @e[type=#arrows,tag=foka.items.sabrewing.arrow] at @s run function fokastudio:end/items/sabrewing/charged_shots/loop
 
 # Duskberry
-execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s unless block ~ ~ ~ sweet_berry_bush run kill @s
+execute as @e[type=area_effect_cloud,tag=foka.duskberry_cloud] at @s run function fokastudio:end/items/duskberry/as_aec
 execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give @s night_vision 11 0 true
 
 # Starstruck Carcanet

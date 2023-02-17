@@ -22,33 +22,43 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "foka.duskberry.damage",
-									"amount": 0.15,
+									"amount": 0.16,
 									"operation": "multiply_total",
-									"id": "b04f96a1-50f4-468f-9174-948364581a8d",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
-									"amount": 0.125,
+									"amount": 0.13,
 									"operation": "multiply_total",
-									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "foka.duskberry.attack_speed",
+									"amount": 0.04,
+									"operation": "multiply_total",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "foka.duskberry.damage",
-									"amount": 0.15,
+									"amount": 0.16,
 									"operation": "multiply_total",
-									"id": "b04f96a1-50f4-468f-9174-948364581a8d",
 									"slot": "offhand"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
-									"amount": 0.125,
+									"amount": 0.13,
 									"operation": "multiply_total",
-									"id": "49b3cc0b-636c-426d-9de4-cebb0cf71dd9",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "foka.duskberry.attack_speed",
+									"amount": 0.04,
+									"operation": "multiply_total",
 									"slot": "offhand"
 								}
 							]
@@ -80,9 +90,9 @@
 								{
 									"translate": "Member #666 Item",
 									"color": "#76389B",
+									"font": "illageralt",
 									"italic": false,
-									"obfuscated": true,
-									"font": "illageralt"
+									"obfuscated": true
 								}
 							]
 						},
