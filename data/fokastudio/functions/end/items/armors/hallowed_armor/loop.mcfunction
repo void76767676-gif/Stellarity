@@ -7,7 +7,7 @@ execute if score @s foka.items.armors.holy_protection_cooldown matches 1.. if sc
 execute if score @s foka.items.armors.holy_protection_cooldown matches 1 at @s run function fokastudio:end/items/armors/hallowed_armor/holy_protection/on
 
 # Because Milk Buckets exist :/
-effect give @s[tag=foka.holy_protection] resistance 1000000 100 true
+effect give @s[tag=foka.holy_protection] resistance infinite 100 true
 
 # Remove knockback resistance
 execute if score @s foka.items.armors.holy_protection_cooldown matches 400 run attribute @s generic.knockback_resistance modifier remove e0fa9c52-78be-411d-b416-8920c9afd3fd

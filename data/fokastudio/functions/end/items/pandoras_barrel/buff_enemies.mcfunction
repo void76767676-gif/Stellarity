@@ -3,7 +3,7 @@
 # and passive 0.5HP/second of Life Regeneration
 # Oh, and +20% Movement Speed
 
-effect give @s resistance 1000000 0 true
-effect give @s regeneration 1000000 0 true
-effect give @s strength 1000000 0 true
-effect give @s speed 1000000 0 true
+effect give @s resistance infinite 0 true
+effect give @s regeneration infinite 0 true
+effect give @s strength infinite 0 true
+effect give @s speed infinite 0 true
