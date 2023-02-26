@@ -1,5 +1,4 @@
 {
-	"name":"fokastudio:end/stronghold/fallback_end",
     "fallback": "minecraft:empty",
 	"elements": [
 		{

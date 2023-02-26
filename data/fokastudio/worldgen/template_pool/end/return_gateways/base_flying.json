@@ -1,5 +1,4 @@
 {
-	"name": "fokastudio:end/return_gateway_base",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{

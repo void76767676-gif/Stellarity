@@ -1,5 +1,4 @@
 {
-	"name": "fokastudio:end/stronghold/portal_room",
 	"fallback": "minecraft:empty",
 	"elements": [
 		{
