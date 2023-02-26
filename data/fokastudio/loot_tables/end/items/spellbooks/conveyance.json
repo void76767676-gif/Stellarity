@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"book_of_conveyance\",Recipes:[]}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"book_of_conveyance\",Recipes:[\"fokastudio:end/events/spellbooks/use_conveyance\"]}"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -17,7 +17,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90002,foka.special_item:\"book_of_updraft\",Recipes:[]}"
+							"tag": "{CustomModelData:90002,foka.special_item:\"book_of_updraft\",Recipes:[\"fokastudio:end/events/spellbooks/use_updraft\"]}"
 						},
 						{
 							"function": "minecraft:set_lore",

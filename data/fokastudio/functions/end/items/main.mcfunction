@@ -1,6 +1,3 @@
-execute as @a[tag=foka.kb_give_back] run function fokastudio:end/utils/knowledge_books/give_back
-execute as @a[predicate=fokastudio:end/utils/knowledge_book/holding_in_offhand] run function fokastudio:end/utils/knowledge_books/offhand
-
 function fokastudio:end/items/armors/main
 function fokastudio:end/items/tools/main
 function fokastudio:end/items/spellbooks/main
@@ -69,9 +66,3 @@ execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.execu
 execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] run function fokastudio:end/items/tamaris/holding_loop
 execute as @a[tag=foka.items.tamaris.doing_execute] at @s run function fokastudio:end/items/tamaris/execute/animation/progress
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.execute_cooldown=1..}] run function fokastudio:end/items/tamaris/execute/cooldown_countdown
-
-#################################
-# THIS HAS TO BE AT THE BOTTOM! #
-#################################
-execute as @a[tag=foka.holding.knowledge_book] run function fokastudio:end/utils/knowledge_books/remove_tags
-execute as @a[predicate=fokastudio:end/utils/knowledge_book/holding_in_mainhand] run function fokastudio:end/utils/knowledge_books/is_holding_custom_book
