@@ -12,7 +12,7 @@ execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonbla
 execute as @e[type=area_effect_cloud,tag=foka.items.dragonblade.smthgram_aec] at @s rotated as @s run function fokastudio:end/items/dragonblade/punch/special_fx/smthgram
 
 # Clockwork Crossbow
-execute as @a[predicate=fokastudio:end/items/clockwork_crossbow/holding_unloaded_any] run function fokastudio:end/items/clockwork_crossbow/check
+# Moved to a 5 tick clock
 
 # Sharanga
 execute as @a[scores={foka.misc.shot_bow=1},predicate=fokastudio:end/items/holding_sharanga] at @s run function fokastudio:end/items/sharanga/shoot

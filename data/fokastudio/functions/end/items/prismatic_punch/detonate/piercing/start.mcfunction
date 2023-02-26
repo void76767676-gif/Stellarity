@@ -1,6 +1,8 @@
 scoreboard players set #continue foka.misc 0
 execute if entity @e[type=!#fokastudio:end/invalid_targets_with_player,distance=..9,tag=!foka.prismatic_blast.pierced] run scoreboard players set #continue foka.misc 1
 
+execute if predicate fokastudio:end/utils/chance/33percent run scoreboard players set #continue foka.misc 0
+
 scoreboard players set #hit foka.misc 0
 scoreboard players set #times_done foka.misc 0
 scoreboard players set #distance foka.misc 0
