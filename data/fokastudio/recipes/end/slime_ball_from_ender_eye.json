@@ -1,6 +1,7 @@
 {
 	"type": "minecraft:crafting_shapeless",
 	"group": "slime_ball",
+	"category": "building",
 	"ingredients": [
 		{
 			"item": "minecraft:water_bucket"
@@ -11,6 +12,6 @@
 	],
 	"result": {
 		"item": "minecraft:slime_ball",
-		"count": 2
+		"count": 3
 	}
 }

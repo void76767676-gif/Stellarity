@@ -1,5 +1,6 @@
 {
 	"type": "minecraft:crafting_shapeless",
+	"category": "building",
 	"ingredients": [
 		{
 			"item": "minecraft:obsidian"
@@ -15,6 +16,7 @@
 		}
 	],
 	"result": {
-		"item": "minecraft:crying_obsidian"
+		"item": "minecraft:crying_obsidian",
+		"count": 2
 	}
 }
