@@ -1,7 +1,8 @@
-scoreboard players set #damage foka.misc 20
+scoreboard players set #damage foka.misc 30
 
-scoreboard players set #ignore_armor foka.misc 50
-scoreboard players set #invul_ticks foka.misc 0
+scoreboard players set #armor_penetration foka.misc 50
+scoreboard players set #ignore_iframes foka.misc 1
+scoreboard players set #damage_effects foka.misc 5
 
 tag @s add foka.damage.carcanet
 

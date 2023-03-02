@@ -49,14 +49,8 @@ scoreboard players remove @s[scores={foka.misc=1..}] foka.misc 1
 
 scoreboard players set @s foka.misc 0
 
-effect give @s[type=!#fokastudio:end/undead] instant_health 1 24 true
-effect give @s[type=#fokastudio:end/undead] instant_damage 1 24 true
-
 # Red Flashing
-effect give @s[type=!#fokastudio:end/undead] instant_damage 1 31 true
-effect give @s[type=#fokastudio:end/undead] instant_health 1 31 true
+execute at @s run function fokastudio:end/utils/damage/hurt_effects
 
 tag @s add foka.scheduled.remove_attributes
 schedule function fokastudio:end/utils/damage/remove_attributes/scheduled 2t replace
-
-execute if entity @s[type=player] if score #damage foka.misc matches 1.. at @s run playsound minecraft:entity.player.hurt player @a[distance=..16]

@@ -2,7 +2,7 @@ scoreboard players set #damage foka.misc 40
 scoreboard players operation #damage foka.misc += #sweeping foka.misc
 
 scoreboard players set #armor_penetration foka.misc 50
-scoreboard players set #invul_ticks foka.misc 0
+scoreboard players set #ignore_iframes foka.misc 1
 
 tag @s add foka.damage.spirit_dagger
 

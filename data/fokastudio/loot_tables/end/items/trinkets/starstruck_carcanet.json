@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"starstruck_carcanet\",CustomModelData:90000}"
+							"tag": "{foka.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_name",

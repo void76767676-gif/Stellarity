@@ -1,6 +1,8 @@
 {
 	"values": [
 		"minecraft:arrow",
-		"minecraft:fireworks"
+		"minecraft:fireworks",
+
+		"#fokastudio:end/custom_damage_related"
 	]
 }

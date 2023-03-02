@@ -30,17 +30,22 @@
 									"italic": false
 								},
 								{
-									"translate": "Spectral Bolts that pierce indefinitely",
+									"translate": "Spectral Bolts which pierce infinitely",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "50% chance to not consume Spectral Arrows",
+									"translate": "and travel in a straight line",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Doesn't use Spectral Arrows with Infinity enchantment",
+									"translate": "33% chance to save Spectral Arrows",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "which doubles with Infinity enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								}

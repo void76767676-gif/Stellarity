@@ -1,0 +1,10 @@
+{
+    "values": [
+        "fokastudio:end/custom_damage/knockback",
+        "fokastudio:end/custom_damage/effects/burning",
+        "fokastudio:end/custom_damage/effects/drowning",
+        "fokastudio:end/custom_damage/effects/freezing",
+        "fokastudio:end/custom_damage/effects/poking",
+        "fokastudio:end/custom_damage/effects/thorns"
+    ]
+}
