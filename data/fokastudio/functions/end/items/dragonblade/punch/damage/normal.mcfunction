@@ -4,10 +4,13 @@ scoreboard players operation #enchant foka.misc *= #mul foka.misc
 scoreboard players set #damage foka.misc 70
 scoreboard players operation #damage foka.misc += #enchant foka.misc
 
-scoreboard players set #armor_penetration foka.misc 25
-scoreboard players set #invul_ticks foka.misc 10
+scoreboard players set #armor_penetration foka.misc 33
+scoreboard players set #ignore_iframes foka.misc 0
+scoreboard players set #damage_effects foka.misc 0
 
+tag @p[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking] add foka.damage.attacker
 tag @s add foka.damage.dragonblade
 
 function fokastudio:end/utils/damage/calculate
-function fokastudio:end/items/dragonblade/punch/damage/immobilize
+effect give @s slowness 1 6 true
+effect give @s weakness 7 0 false
