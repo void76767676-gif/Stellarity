@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"royal_jelly\",Enchantments:[{}]}"
+							"tag": "{foka.special_item:\"royal_jelly\"}"
 						},
 						{
 							"function": "minecraft:set_name",
