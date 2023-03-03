@@ -69,11 +69,6 @@
 									"translate": "force to your next melee attack",
 									"color": "#EEEEEE",
 									"italic": false
-								},
-								{
-									"translate": "This effects stacks to a point",
-									"color": "#EEEEEE",
-									"italic": false
 								}
 							]
 						}

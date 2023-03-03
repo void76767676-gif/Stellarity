@@ -23,7 +23,12 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Causes Stars to fall when hurt",
+									"translate": "Stars fall when hurt, which ignore",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "half of enemy defense",
 									"color": "#EEEEEE",
 									"italic": false
 								}

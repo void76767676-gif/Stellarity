@@ -24,7 +24,7 @@
 							"lore": [
 								[
 									{
-										"translate": "Hold",
+										"translate": "Press",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -43,6 +43,12 @@
 									"translate": "instantly killing nearby enemies with low health!",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "'Property of Captain Hannah'",
+									"color": "#EEEEEE",
+									"italic": true
 								},
 								"",
 								{

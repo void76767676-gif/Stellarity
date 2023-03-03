@@ -19,7 +19,7 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Holding one can attract Spirits on attacks",
+									"translate": "Holding one attracts Spirits on slashes",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -29,17 +29,22 @@
 									"italic": false
 								},
 								{
-									"translate": "will allow you to consume said Spirits",
+									"translate": "allows you to consume said Spirits",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Consume Spirits to instantly teleport",
+									"translate": "to instantly teleport to them",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "and gain a short attack buff",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "Enchantments scale from both Daggers",
 									"color": "#EEEEEE",
 									"italic": false
 								},

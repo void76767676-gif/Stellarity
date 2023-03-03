@@ -23,7 +23,7 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Contains all Altar of The Accursed crafting recipes",
+									"translate": "Contains all Altar of The Accursed recipes",
 									"color": "#BB6BDE",
 									"italic": false
 								},

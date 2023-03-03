@@ -92,7 +92,7 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Fired Arrows are converted to Prismatic Blasts",
+									"translate": "Converts Arrows to Prismatic Blasts",
 									"color": "#EEEEEE",
 									"italic": false
 								},

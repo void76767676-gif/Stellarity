@@ -21,9 +21,11 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Teleports you to a random location",
+									"translate": "Random location go!",
 									"color": "#EEEEEE",
-									"italic": false
+									"italic": false,
+									"font": "illageralt",
+									"obfuscated": true
 								}
 							],
 							"replace": false

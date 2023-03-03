@@ -19,12 +19,12 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Slowly supercharge your shots",
+									"translate": "Supercharge your shots",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"text": "for dramatically increased damage",
+									"text": "for increased damage and velocity",
 									"color": "#EEEEEE",
 									"italic": false
 								},

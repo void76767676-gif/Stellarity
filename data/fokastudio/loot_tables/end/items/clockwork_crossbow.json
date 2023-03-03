@@ -25,33 +25,28 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Shoots just as fast as you can click",
+									"translate": "Shoots incredibly fast",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Fired arrows are converted to regular ones",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "and deal slightly less damage",
+									"translate": "but with reduced damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 {
-									"translate": "Has a chance to conserve Arrows",
+									"translate": "Chance to save ammunition, increases",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that increases with Quick Charge enchantment",
+									"translate": "with Quick Charge enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 "",
 								{
-									"translate": "'Break your mouse, break someone's mouse, whatever'",
+									"translate": "'i'm not using auto!'",
 									"color": "#EEEEEE",
 									"italic": true
 								}

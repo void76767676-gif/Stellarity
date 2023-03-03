@@ -24,12 +24,17 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Attracts Void Fish significantly faster",
+									"translate": "Its hook is covered in weird mucus,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
-                                {
-									"translate": "Incredibly durable",
+								{
+									"translate": "fish from the Void",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "seem really attracted to it",
 									"color": "#EEEEEE",
 									"italic": false
 								}
