@@ -21,7 +21,15 @@
 					}
 				},
 				"damage": {
-					"blocked": false
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "fokastudio:end/ancient_armor_boosts_combo",
+								"expected": true
+							}	
+						]
+					}
 				},
 				"entity": {
 					"nbt": "{HurtTime:10s}",

@@ -1,5 +1,3 @@
-advancement revoke @s only fokastudio:end/events/items/attack_with_full_ancient_armor
-
 attribute @s generic.attack_damage modifier remove 5ec8048e-f25b-11ec-b939-0242ac120002
 
 execute unless score @s foka.items.armors.ancient_armor.combo matches 1.. run function fokastudio:end/items/armors/ancient_armor/sounds/0
@@ -20,3 +18,6 @@ attribute @s[scores={foka.items.armors.ancient_armor.combo=4}] generic.attack_da
 
 execute unless score @s foka.items.armors.ancient_armor.combo matches 4.. run scoreboard players add @s foka.items.armors.ancient_armor.combo 1
 scoreboard players set @s foka.items.armors.ancient_armor.until_combo_reset 30
+
+tag @s add foka.items.armors.ancient_armor.remove_scheduled
+schedule function fokastudio:end/items/armors/ancient_armor/remove_adv/schedule 1t append
