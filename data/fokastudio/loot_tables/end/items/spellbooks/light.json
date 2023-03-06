@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Book of Light",
+								"translate": "foka.items.spellbooks.light",
+								"fallback": "Book of Light",
 								"color": "#FFF300",
 								"italic": false
 							}
@@ -23,32 +24,30 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Right Click to summon up to 4 Healing Orbs",
+									"translate": "foka.items.spellbooks.light.description.1",
+									"fallback": "Right Click to summon up to 4 Healing Orbs",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that will heal either you or any nearby player",
+									"translate": "foka.items.spellbooks.light.description.2",
+									"fallback": "that will heal any nearby player",
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								[
-									{
-										"translate": "Cooldown:",
-										"color": "#9E9E9E",
-										"italic": false
-									},
-									{
-										"text": " 22 ",
-										"color": "#C6C6C6",
-										"italic": false
-									},
-									{
-										"translate": "seconds",
-										"color": "#9E9E9E",
-										"italic": false
-									}
-								]
+								{
+									"translate": "foka.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "22",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								}
 							]
 						}
 					]

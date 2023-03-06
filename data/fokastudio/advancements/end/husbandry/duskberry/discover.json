@@ -5,10 +5,12 @@
             "nbt": "{Enchantments:[{}],CustomModelData:90000}"
         },
         "title": {
-            "translate": "Don't Bush Your Luck!"
+            "translate": "foka.advancements.duskberry_find",
+            "fallback": "Don't Bush Your Luck!"
         },
         "description": {
-            "translate": "Pick up a Duskberry from a chest in Hallow's End Ship"
+            "translate": "foka.advancements.duskberry_find.description",
+            "fallback": "Pick up a Duskberry from a chest in Hallow's End Ship"
         },
         "frame": "task",
 		"show_toast": true,

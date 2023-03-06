@@ -5,10 +5,12 @@
 			"nbt": "{display:{color:12582912}}"
 		},
 		"title": {
-			"translate": "Keep Warm!"
+			"translate": "foka.advancements.keep_warm",
+			"fallback": "Keep Warm!"
 		},
 		"description": {
-			"translate": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
+			"translate": "foka.advancements.keep_warm.description",
+			"fallback": "Wear a full set of Leather Armor in any of the coldest biomes of The End"
 		},
 		"show_toast": true,
 		"announce_to_chat": true,

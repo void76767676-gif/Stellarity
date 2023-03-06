@@ -4,10 +4,12 @@
 			"item": "minecraft:anvil"
 		},
 		"title": {
-			"translate": "Organizational Wizard"
+			"translate": "foka.advancements.rename_shulker_box",
+			"fallback": "Organizational Wizard"
 		},
 		"description": {
-			"translate": "Rename a Shulker Box with an Anvil"
+			"translate": "foka.advancements.rename_shulker_box.description",
+			"fallback": "Rename a Shulker Box with an Anvil"
 		},
 		"frame": "task",
 		"show_toast": true,

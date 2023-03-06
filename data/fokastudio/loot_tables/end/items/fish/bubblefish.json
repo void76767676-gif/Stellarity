@@ -17,7 +17,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Bubblefish",
+								"translate": "foka.items.fish.bubblefish",
+								"fallback": "Bubblefish",
 								"color": "#9FEEF1",
 								"italic": false
 							}

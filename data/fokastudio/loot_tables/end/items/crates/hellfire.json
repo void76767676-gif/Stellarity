@@ -17,7 +17,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Hellfire Crate",
+								"translate": "foka.items.crates.hellfire",
+								"fallback": "Hellfire Crate",
 								"color": "#FF6016",
 								"italic": false
 							}
@@ -26,8 +27,10 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
-									"translate": "Place down and open!",
+									"translate": "foka.items.crates.place_down",
+									"fallback": "Place down and open!",
 									"color": "#EEEEEE",
 									"italic": false
 								}

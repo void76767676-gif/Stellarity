@@ -4,5 +4,5 @@ scoreboard players reset #foka.exit_gateway_count foka.misc
 
 tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal] add fe.deactivated.spawn_dragon
 
-tellraw @s ["\n",{"text":"Completely reset the Ender Dragon, witness the horror!","color":"#DD6AFF","bold":true},"\n"]
+tellraw @s ["\n",{"translate":"foka.messages.cmd.hard_reset_dragon","fallback":"Completely reset the Ender Dragon, witness the horror!","color":"#DD6AFF","bold":true},"\n"]
 function fokastudio:end/utils/send_command_feedback/off

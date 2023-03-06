@@ -58,7 +58,8 @@
 								],
 								" ",
 								{
-									"translate": "Donator Item",
+									"translate": "foka.items.special.donator",
+									"fallback": "Donator Item",
 									"color": "#F96854",
 									"italic": false
 								}
@@ -71,7 +72,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Shulker Axe",
+								"translate": "foka.items.tools.shulker.axe",
+								"fallback": "Shulker Axe",
 								"color": "#976A97",
 								"italic": false
 							}

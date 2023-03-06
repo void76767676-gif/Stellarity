@@ -5,10 +5,12 @@
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Spirit Assasin"
+			"translate": "foka.advancements.spirit_assasin",
+			"fallback": "Spirit Assasin"
 		},
 		"description": {
-			"translate": "Teleport over 60 blocks with a pair of Spirit Daggers"
+			"translate": "foka.advancements.spirit_assasin.description",
+			"fallback": "Teleport over 60 blocks with a pair of Spirit Daggers"
 		}
 	},
 	"parent": "minecraft:end/enter_end_gateway",

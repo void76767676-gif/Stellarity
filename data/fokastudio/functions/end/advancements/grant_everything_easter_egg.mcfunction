@@ -1,7 +1,7 @@
 advancement revoke @s only fokastudio:end/events/advancement_grant_everything
 
 title @s times 20 300 20
-title @s title {"text":"Don't use this command","bold":true,"color":"gray"}
+title @s title {"translate":"foka.advancement_grant_everything","fallbak":"Don't use this command","bold":true,"color":"gray"}
 
 tag @s remove foka.ender_blessed
 

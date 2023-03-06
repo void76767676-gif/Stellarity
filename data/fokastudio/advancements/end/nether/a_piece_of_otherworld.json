@@ -4,10 +4,12 @@
 			"item": "minecraft:warped_fungus"
 		},
 		"title": {
-			"translate": "A Piece of Otherworld"
+			"translate": "foka.advancements.find_warped_forest",
+			"fallback": "A Piece of Otherworld"
 		},
 		"description": {
-			"translate": "Enter the Warped Forest - the home of Endermen of The Nether"
+			"translate": "foka.advancements.find_warped_forest.description",
+			"fallback": "Enter the Warped Forest - the home of Endermen of The Nether"
 		},
 		"frame": "goal",
 		"show_toast": true,

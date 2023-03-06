@@ -4,10 +4,12 @@
 			"item": "minecraft:ender_pearl"
 		},
 		"title": {
-			"translate": "Beam Me Up"
+			"translate": "foka.advancements.beam_me_up",
+			"fallback": "Beam Me Up"
 		},
 		"description": {
-			"translate": "Teleport over 100 meters from a single throw of an Ender Pearl"
+			"translate": "foka.advancements.x.description",
+			"fallback": "Teleport over 100 meters from a single throw of an Ender Pearl"
 		},
 		"frame": "challenge",
 		"show_toast": true,

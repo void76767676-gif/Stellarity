@@ -5,10 +5,12 @@
 			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}],CustomModelData:7300}"
 		},
 		"title": {
-			"translate": "Ender Adventurer"
+			"translate": "foka.advancements.ender_adventurer",
+			"fallback": "Timeless Traveler"
 		},
 		"description": {
-			"translate": "Discover every End Biome"
+			"translate": "foka.advancements.ender_adventurer.description",
+			"fallback": "Discover all End biomes"
 		},
 		"frame": "challenge",
 		"show_toast": true,

@@ -4,10 +4,12 @@
 			"item": "minecraft:chorus_flower"
 		},
 		"title": {
-			"translate": "Otherwordly Biologist"
+			"translate": "foka.advancements.plant_chors_fruit",
+			"fallback": "Otherwordly Biologist"
 		},
 		"description": {
-			"translate": "Plant a Chorus Flower in the Overworld"
+			"translate": "foka.advancements.plant_chors_fruit.description",
+			"fallback": "Plant a Chorus Flower in the Overworld"
 		},
 		"frame": "task",
 		"show_toast": true,

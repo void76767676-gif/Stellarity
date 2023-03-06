@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Royal Jelly",
+								"translate": "foka.items.potions.royal_jelly",
+								"fallback": "Royal Jelly",
 								"color": "yellow",
 								"italic": false
 							}

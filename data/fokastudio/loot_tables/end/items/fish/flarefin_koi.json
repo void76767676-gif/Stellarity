@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Flarefin Koi",
+								"translate": "foka.items.fish.flarefin_koi",
+								"fallback": "Flarefin Koi",
 								"color": "#FF6016",
 								"italic": false
 							}

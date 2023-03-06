@@ -7,7 +7,8 @@
 			"translate": "advancements.end.root.title"
 		},
 		"description": {
-			"translate": "ᴏʀ ᴛʜᴇ ʙᴇɢɢɪɴɪɴɢ?"
+			"translate": "foka.advancements.enter_end.description",
+			"fallback": "ᴏʀ ᴛʜᴇ ʙᴇɢɢɪɴɪɴɢ?"
 		},
 		"background": "minecraft:textures/gui/advancements/backgrounds/end.png",
 		"frame": "goal",

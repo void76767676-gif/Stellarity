@@ -5,10 +5,12 @@
 			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "(Au)some Delight!"
+			"translate": "foka.advancements.confusing_fruit_2",
+			"fallback": "(Au)some Delight!"
 		},
 		"description": {
-			"translate": "Find and eat a Golden Chorus Fruit"
+			"translate": "foka.advancements.confusing_fruit_2.description",
+			"fallback": "Find and eat a Golden Chorus Fruit"
 		},
 		"frame": "challenge",
 		"show_toast": true,

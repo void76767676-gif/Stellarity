@@ -4,10 +4,12 @@
 			"item": "minecraft:sculk_shrieker"
 		},
 		"title": {
-			"translate": "Take a Gamble"
+			"translate": "foka.advancements.pandoras_barrel_open_in_deep_dark",
+			"fallback": "Gambling Addiction"
 		},
 		"description": {
-			"translate": "Open a Pandora's Barrel inside Deep Dark. Odds are that you will survive..."
+			"translate": "foka.advancements.pandoras_barrel_open_in_deep_dark.description",
+			"fallback": "Open a Pandora's Barrel inside Deep Dark. Odds are that you will survive..."
 		},
 		"frame": "challenge"
 	},

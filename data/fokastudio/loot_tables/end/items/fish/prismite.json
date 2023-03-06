@@ -16,7 +16,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Prismite",
+								"translate": "foka.items.fish.prismite",
+								"fallback": "Prismite",
 								"color": "#E165FF",
 								"italic": false
 							}

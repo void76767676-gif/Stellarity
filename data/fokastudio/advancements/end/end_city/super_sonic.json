@@ -5,10 +5,12 @@
 			"nbt": "{Damage:431}"
 		},
 		"title": {
-			"translate": "Super Sonic"
+			"translate": "foka.advancements.super_sonic",
+			"fallback": "Super Sonic"
 		},
 		"description": {
-			"translate": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s"
+			"translate": "foka.advancements.super_sonic.description",
+			"fallback": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s"
 		},
 		"frame": "challenge",
 		"show_toast": true,

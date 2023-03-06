@@ -17,7 +17,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Ender Crate",
+								"translate": "foka.items.crates.ender",
+								"fallback": "Ender Crate",
 								"color": "#B978C6",
 								"italic": false
 							}
@@ -26,8 +27,10 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
-									"translate": "Place down and open!",
+									"translate": "foka.items.crates.place_down",
+									"fallback": "Place down and open!",
 									"color": "#EEEEEE",
 									"italic": false
 								}

@@ -4,10 +4,12 @@
 			"item": "minecraft:red_shulker_box"
 		},
 		"title": {
-			"translate": "Colorful Arsenal"
+			"translate": "foka.advancements.colorful_arsenal",
+			"fallback": "Colorful Arsenal"
 		},
 		"description": {
-			"translate": "Color a Shulker Box any color you want"
+			"translate": "foka.advancements.colorful_arsenal.description",
+			"fallback": "Color a Shulker Box any color you want"
 		},
 		"frame": "task",
 		"show_toast": true,

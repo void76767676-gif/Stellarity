@@ -4,10 +4,12 @@
 			"item": "minecraft:jukebox"
 		},
 		"title": {
-			"translate": "Champions Ballad"
+			"translate": "foka.advancements.champions_ballad",
+			"fallback": "Champions Ballad"
 		},
 		"description": {
-			"translate": "Cant fight a Boss without tunes!"
+			"translate": "foka.advancements.champions_ballad.description",
+			"fallback": "Cant fight a Boss without some good tunes!"
 		},
 		"frame": "task",
 		"show_toast": true,

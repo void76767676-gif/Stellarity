@@ -37,18 +37,21 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Killing enemies gives a short,",
+									"translate": "foka.items.weapons.zephyr.description.1",
+									"fallback": "Killing enemies gives a short,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stacking bonus to movement speed",
+									"translate": "foka.items.weapons.zephyr.description.2",
+									"fallback": "stacking bonus to movement speed",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								" ",
 								{
-									"translate": "Donator Item",
+									"translate": "foka.items.special.donator",
+									"fallback": "Donator Item",
 									"color": "#F96854",
 									"italic": false
 								},
@@ -127,7 +130,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Zephyr",
+								"translate": "foka.items.weapons.zephyr",
+								"fallback": "Zephyr",
 								"color": "#E3E3E3",
 								"italic": false
 							}

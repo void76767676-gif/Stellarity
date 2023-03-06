@@ -5,10 +5,12 @@
 			"nbt": "{Enchantments:[{}],CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Poor Life Choices"
+			"translate": "foka.advancements.poor_life_choices",
+			"fallback": "Poor Life Choices"
 		},
 		"description": {
-			"translate": "Eat, plant and feed a Fox a Duskberry."
+			"translate": "foka.advancements.poor_life_choices.description",
+			"fallback": "Eat, plant and feed a Fox a Duskberry"
 		},
 		"frame": "challenge",
 		"show_toast": true,

@@ -14,7 +14,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Starstruck Carcanet",
+								"translate": "foka.items.trinkest.starstruck_carcanet",
+								"fallback": "Starstruck Carcanet",
 								"color": "#FFDB6C",
 								"italic": false
 							}
@@ -23,12 +24,14 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Stars fall when hurt, which ignore",
+									"translate": "foka.items.trinkest.starstruck_carcanet.description.1",
+									"fallback": "Stars fall when hurt, which ignore",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "half of enemy defense",
+									"translate": "foka.items.trinkest.starstruck_carcanet.description.1",
+									"fallback": "half of enemy defense",
 									"color": "#EEEEEE",
 									"italic": false
 								}

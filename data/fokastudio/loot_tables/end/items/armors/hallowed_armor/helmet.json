@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Hallowed Mask",
+								"translate": "foka.items.armors.hallowed_armor.helmet",
+								"fallback": "Hallowed Mask",
 								"color": "#FFDD52",
 								"italic": false
 							}
@@ -21,17 +22,20 @@
 							"lore": [
 								"",
 								{
-									"translate": "FULL SET BONUS:",
+									"translate": "foka.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
-									"translate": "Grants ability to periodically dodge attacks,",
+									"translate": "foka.items.armors.hallowed_armor.set_bonus.1",
+									"fallback": "Grants the ability to dodge attacks,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "nullifying all damage and taken knockback",
+									"translate": "foka.items.armors.hallowed_armor.set_bonus.2",
+									"fallback": "nullifying all damage and knockback",
 									"color": "#EEEEEE",
 									"italic": false
 								}

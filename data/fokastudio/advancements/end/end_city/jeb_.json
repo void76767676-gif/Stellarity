@@ -4,10 +4,11 @@
 			"item": "minecraft:magenta_shulker_box"
 		},
 		"title": {
-			"translate": "jeb_"
+			"text": "jeb_"
 		},
 		"description": {
-			"translate": "Craft all variants of dyed Shulker Boxes"
+			"translate": "foka.advancements.jeb_.description",
+			"fallback": "Craft all color variants of Shulker Boxes"
 		},
 		"frame": "challenge",
 		"show_toast": true,

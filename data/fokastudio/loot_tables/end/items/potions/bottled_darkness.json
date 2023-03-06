@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Bottled Darkness",
+								"translate": "foka.items.potions.bottled_darkness",
+								"fallback": "Bottled Darkness",
 								"color": "white",
 								"italic": false
 							}

@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Robust Potato",
+								"translate": "foka.items.perm_buffs.robust_potato",
+								"fallback": "Robust Potato",
 								"color": "light_purple",
 								"italic": false
 							}
@@ -20,19 +21,23 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
-									"translate": "Consume to permanently",
+									"translate": "foka.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "become immune to Poison",
+									"translate": "foka.items.perm_buffs.robust_potato.increase",
+									"fallback": "become immune to Poison",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"'n",
 								{
-									"translate": "'What a fancy word!'",
+									"translate": "foka.items.perm_buffs.robust_potato.flavor_text",
+									"fallback": "'What a fancy word!'",
 									"color": "#EEEEEE",
 									"italic": true
 								}

@@ -9,5 +9,5 @@ scoreboard players reset #foka.config foka.config.always_generate_egg
 
 reload
 
-tellraw @s ["\n",{"text":"All configs were reset completely!","color":"#DD6AFF","bold":true},"\n"]
+tellraw @s ["\n",{"translate":"foka.messages.cmd.reset_config","fallback":"All configs were reset completely!","color":"#DD6AFF","bold":true},"\n"]
 function fokastudio:end/utils/send_command_feedback/off

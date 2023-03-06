@@ -4,10 +4,12 @@
 			"item": "minecraft:shulker_box"
 		},
 		"title": {
-			"translate": "Portable Storage"
+			"translate": "foka.advancements.portable_storage",
+			"fallback": "Portable Storage"
 		},
 		"description": {
-			"translate": "Craft a Shulker Box"
+			"translate": "foka.advancements.portable_storage.description",
+			"fallback": "Craft a Shulker Box"
 		},
 		"frame": "task",
 		"show_toast": true,

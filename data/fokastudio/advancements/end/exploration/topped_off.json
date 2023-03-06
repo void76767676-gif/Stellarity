@@ -5,11 +5,13 @@
 			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Topped Off",
+			"translate": "foka.advancements.topped_off",
+			"fallback": "Topped Off",
 			"color": "#FF65D7"
 		},
 		"description": {
-			"translate": "Attain maximum health by consuming 10 Mystical Heartfish"
+			"translate": "foka.advancements.topped_off.description",
+			"fallback": "Attain maximum health by consuming 10 Mystical Heartfish"
 		},
 		"frame": "challenge"
 	},

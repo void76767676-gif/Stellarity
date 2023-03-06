@@ -4,10 +4,12 @@
 			"item": "minecraft:ender_pearl"
 		},
 		"title": {
-			"translate": "Eye of Darkness"
+			"translate": "foka.advancements.obtain_ender_pearl",
+			"fallback": "Eye of Darkness"
 		},
 		"description": {
-			"translate": "Get your hands on an Ender Pearl - a vital element of your journey"
+			"translate": "foka.advancements.obtain_ender_pearl.description",
+			"fallback": "Get your hands on an Ender Pearl - a vital element of your journey"
 		},
 		"frame": "goal",
 		"show_toast": true,

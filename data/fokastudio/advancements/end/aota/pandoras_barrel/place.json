@@ -4,10 +4,12 @@
 			"item": "minecraft:barrel"
 		},
 		"title": {
-			"translate": "Like a Box of Chocolates"
+			"translate": "foka.advancements.pandoras_barrel_place",
+			"fallback": "Like a Box of Chocolates"
 		},
 		"description": {
-			"translate": "Place down and open a Pandora's Barrel. You never know what you're gonna get!"
+			"translate": "foka.advancements.pandoras_barrel_place.description",
+			"fallback": "Place down and open a Pandora's Barrel. You never know what you're gonna get!"
 		}
 	},
 	"parent": "fokastudio:end/aota/cursed_crafting",

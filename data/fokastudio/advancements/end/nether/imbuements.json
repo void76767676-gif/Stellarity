@@ -5,10 +5,12 @@
 			"nbt": "{Potion:\"minecraft:strength\"}"
 		},
 		"title": {
-			"text": "Imbuements"
+			"translate": "foka.advancements.imbuements.description",
+			"fallback": "Imbuements"
 		},
 		"description": {
-			"translate": "...and use it to brew Lingering Potions!"
+			"translate": "foka.advancements.imbuements.description",
+			"fallback": "...and use it to brew Lingering Potions!"
 		},
 		"frame": "task",
 		"show_toast": true,

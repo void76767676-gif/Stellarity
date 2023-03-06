@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Overgrown Cod",
+								"translate": "foka.items.fish.overgrown_cod",
+								"fallback": "Overgrown Cod",
 								"color": "#A24AFF",
 								"italic": false
 							}

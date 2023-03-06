@@ -5,10 +5,12 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Supreme Server Owner"
+			"translate": "foka.advancements.supreme_server_owner",
+			"fallback": "Supreme Server Owner"
 		},
 		"description": {
-			"translate": "Fish out an 'ultra super rare (not really)' collectible from The Void"
+			"translate": "foka.advancements.supreme_server_owner.description",
+			"fallback": "Fish out an 'ultra super rare (not really)' collectible from The Void"
 		},
 		"frame": "challenge",
 		"show_toast": true,

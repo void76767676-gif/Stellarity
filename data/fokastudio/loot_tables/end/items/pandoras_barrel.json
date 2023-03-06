@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Pandora's Barrel",
+								"translate": "foka.items.pandoras_barrel",
+								"fallback": "Pandora's Barrel",
 								"color": "#934C00",
 								"italic": false
 							}
@@ -21,24 +22,28 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Summons mobs and drops loot depending on the biome",
+									"translate": "foka.items.pandoras_barrel.description.1",
+									"fallback": "Summons mobs and drops loot depending on the biome",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Much friendlier mobs spawn while in a lit up area",
+									"translate": "foka.items.pandoras_barrel.description.2",
+									"fallback": "Much friendlier mobs spawn while in a lit up area",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								" ",
 								{
-									"translate": "'Get it? Because it is a barrel and not a box?'",
+									"translate": "foka.items.pandoras_barrel.flavor_text",
+									"fallback": "'Get it? Because it is a barrel and not a box?'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
 								" ",
 								{
-									"translate": "Donator Item",
+									"translate": "foka.items.special.donator",
+									"fallback": "Donator Item",
 									"color": "#F96854",
 									"italic": false
 								}

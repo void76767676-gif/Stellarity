@@ -5,10 +5,12 @@
 			"nbt": "{CustomModelData:90002}"
 		},
 		"title": {
-			"translate": "Disassembly"
+			"translate": "foka.advancements.disassembly",
+			"fallback": "Disassembly"
 		},
 		"description": {
-			"translate": "Use Tamaris to execute a mob with low health"
+			"translate": "foka.advancements.disassembly.description",
+			"fallback": "Use Tamaris to execute a mob with low health"
 		},
 		"frame": "task",
 		"show_toast": true,

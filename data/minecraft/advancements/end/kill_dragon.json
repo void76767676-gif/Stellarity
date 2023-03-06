@@ -8,7 +8,8 @@
 			"color": "#D400FF"
 		},
 		"description": {
-			"translate": "The Beast is now dead, and The End is waiting for you to discover its secrets...",
+			"translate": "foka.advancements.kill_dragon.description",
+			"fallback": "The Beast is dead, and The End is waiting for you to discover its secrets...",
 			"color": "#E562FF"
 		},
 		"frame": "challenge",

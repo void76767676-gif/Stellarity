@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Radiant Potion",
+								"translate": "foka.items.potions.radiant_potion",
+								"fallback": "Radiant Potion",
 								"color": "#FFD457",
 								"italic": false
 							}
@@ -25,7 +26,8 @@
 							"lore": [
 								[
 									{
-										"translate": "Radiant Glow",
+										"translate": "foka.items.potions.radiant_potion.effect",
+										"fallback": "Radiant Glow",
 										"color": "blue",
 										"italic": false
 									},
@@ -38,7 +40,8 @@
 								],
 								" ",
 								{
-									"translate": "Developer Item",
+									"translate": "foka.items.special.developer",
+									"fallback": "Developer Item",
 									"color": "#BA02D7",
 									"italic": false
 								}

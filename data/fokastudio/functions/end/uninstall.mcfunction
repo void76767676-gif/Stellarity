@@ -64,7 +64,6 @@ scoreboard objectives remove foka.misc2
 scoreboard objectives remove foka.misc.end_portal_animation
 scoreboard objectives remove foka.misc.shot_bow
 scoreboard objectives remove foka.misc.thrown_trident
-scoreboard objectives remove foka.misc.used_knowledge_book
 scoreboard objectives remove foka.misc.used_ender_pearl
 scoreboard objectives remove foka.misc.hunger
 scoreboard objectives remove foka.misc.invul_timer

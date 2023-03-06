@@ -6,7 +6,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 11,
-					"name": "fokastudio:end/items/fish/shadowfish"
+					"name": "fokastudio:end/items/fish/chaos_fish"
 				},
 				{
 					"type": "minecraft:item",

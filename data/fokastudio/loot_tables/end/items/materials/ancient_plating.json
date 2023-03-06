@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Ancient Plating",
+								"translate": "foka.items.materials.ancient_plating",
+								"fallback": "Ancient Plating",
 								"color": "#A372C3",
 								"italic": false
 							}

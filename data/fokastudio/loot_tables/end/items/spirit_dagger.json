@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Spirit Dagger",
+								"translate": "foka.items.weapons.spirit_dagger",
+								"fallback": "Spirit Dagger",
 								"color": "#8AE0E5",
 								"italic": false
 							}
@@ -19,43 +20,51 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Holding one attracts Spirits on slashes",
+									"translate": "foka.items.weapons.spirit_dagger.description.1",
+									"fallback": "Holding one attracts Spirits on slashes",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Holding one in both left and right hand",
+									"translate": "foka.items.weapons.spirit_dagger.description.2",
+									"fallback": "Holding one in both left and right hand",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "allows you to consume said Spirits",
+									"translate": "foka.items.weapons.spirit_dagger.description.3",
+									"fallback": "allows you to consume said Spirits",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "to instantly teleport to them",
+									"translate": "foka.items.weapons.spirit_dagger.description.4",
+									"fallback": "to instantly teleport to them",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "and gain a short attack buff",
+									"translate": "foka.items.weapons.spirit_dagger.description.5",
+									"fallback": "and gain a short attack buff",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Enchantments scale from both Daggers",
+									"translate": "foka.items.weapons.spirit_dagger.description.6",
+									"fallback": "Enchantments scale from both Daggers",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "'yes, I like roblox, okay?'",
+									"translate": "foka.items.weapons.spirit_dagger.flavor_text",
+									"fallback": "'yes, I like roblox, okay?'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
 								{
-									"translate": "Developer Item",
+									"translate": "foka.items.special.developer",
+									"fallback": "Developer Item",
 									"color": "#BA02D7",
 									"italic": false
 								},

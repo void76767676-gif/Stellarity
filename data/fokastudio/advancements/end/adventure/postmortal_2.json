@@ -5,10 +5,12 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "I Swear It Will Save Me!"
+			"translate": "foka.advancements.postmortal_2",
+			"fallback": "Overconfident"
 		},
 		"description": {
-			"translate": "Save yourself from death in The Void with a Totem of Undying"
+			"translate": "foka.advancements.postmortal_2.description",
+			"fallback": "Save yourself from death in The Void with a Totem of Undying"
 		},
 		"frame": "challenge",
 		"show_toast": true,

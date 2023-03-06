@@ -5,10 +5,12 @@
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Rare Find"
+			"translate": "foka.advancements.rare_find",
+			"fallback": "Rare Find"
 		},
 		"description": {
-			"translate": "Obtain an uncommon drop from the Illagers residing in Strongholds"
+			"translate": "foka.advancements.rare_find.description",
+			"fallback": "Obtain an uncommon drop from the Illagers residing in Strongholds"
 		},
 		"frame": "task",
 		"show_toast": true,

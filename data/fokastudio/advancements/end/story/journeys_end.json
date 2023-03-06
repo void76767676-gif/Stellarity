@@ -4,10 +4,12 @@
 			"item": "minecraft:end_portal_frame"
 		},
 		"title": {
-			"translate": "Journey's End"
+			"translate": "foka.advancements.journeys_end",
+			"fallback": "Journey's End"
 		},
 		"description": {
-			"translate": "Use 12 Eyes of Ender to activate an End Portal"
+			"translate": "foka.advancements.journeys_end.description",
+			"fallback": "Use 12 Eyes of Ender to activate an End Portal"
 		},
 		"frame": "task",
 		"show_toast": true,

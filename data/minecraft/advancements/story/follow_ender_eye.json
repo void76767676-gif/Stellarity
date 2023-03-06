@@ -12,7 +12,8 @@
 			},
 			". ",
 			{
-				"translate": "Something is definitely hidden there..."
+				"translate": "foka.advancements.follow_ender_eye.extra",
+				"fallback": "Something is definitely hidden there..."
 			}
 		],
 		"frame": "task",

@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Clockwork Crossbow",
+								"translate":  "foka.items.weapons.clockwork_crossbow",
+								"fallback": "Clockwork Crossbow",
 								"color": "#873600",
 								"italic": false
 							}
@@ -25,28 +26,33 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Shoots incredibly fast",
+									"translate":  "foka.items.weapons.clockwork_crossbow.description.1",
+									"fallback": "Shoots incredibly fast",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "but with reduced damage",
+									"translate":  "foka.items.weapons.clockwork_crossbow.description.2",
+									"fallback": "but with reduced damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 {
-									"translate": "Chance to save ammunition, increases",
+									"translate":  "foka.items.weapons.clockwork_crossbow.description.3",
+									"fallback": "Chance to save ammunition, increases",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "with Quick Charge enchantment",
+									"translate":  "foka.items.weapons.clockwork_crossbow.description.4",
+									"fallback": "with Quick Charge enchantment",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 "",
 								{
-									"translate": "'i'm not using auto!'",
+									"translate":  "foka.items.weapons.clockwork_crossbow.flavor_text",
+									"fallback": "'i'm not using auto!'",
 									"color": "#EEEEEE",
 									"italic": true
 								}

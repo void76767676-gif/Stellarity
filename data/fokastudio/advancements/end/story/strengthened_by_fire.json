@@ -4,10 +4,12 @@
 			"item": "minecraft:blaze_powder"
 		},
 		"title": {
-			"translate": "Strengthened by Fire"
+			"translate": "foka.advancements.craft_ender_eye",
+			"fallback": "Strengthened by Fire"
 		},
 		"description": {
-			"translate": "Once you combine Blaze Powder and an Ender Pearl they turn into... something special?"
+			"translate": "foka.advancements.craft_ender_eye.description",
+			"fallback": "Once you combine Blaze Powder and an Ender Pearl they turn into... something special?"
 		},
 		"frame": "goal",
 		"show_toast": true,

@@ -4,10 +4,12 @@
 			"item": "minecraft:ender_chest"
 		},
 		"title": {
-			"translate": "Who's The Thief Now?"
+			"translate": "foka.advancements.open_chest_in_end_city",
+			"fallback": "Who's The Thief Now?"
 		},
 		"description": {
-			"translate": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now"
+			"translate": "foka.advancements.open_chest_in_end_city.description",
+			"fallback": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now"
 		},
 		"frame": "goal",
 		"show_toast": true,

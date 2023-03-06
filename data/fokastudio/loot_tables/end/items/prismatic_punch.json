@@ -92,18 +92,21 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Converts Arrows to Prismatic Blasts",
+									"translate": "foka.items.weapons.prismatic_punch.description.1",
+									"fallback": "Converts Arrows to Prismatic Blasts",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that produce colorful explosions on hit",
+									"translate": "foka.items.weapons.prismatic_punch.description.2",
+									"fallback": "that produce colorful explosions on hit",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "Developer Item",
+									"translate": "foka.items.special.developer",
+									"fallback": "Developer Item",
 									"color": "#BA02D7",
 									"italic": false
 								}

@@ -14,7 +14,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Fisher of Voids",
+								"translate": "foka.items.fisher_of_voids",
+								"fallback": "Fisher of Voids",
 								"color": "#8865AF",
 								"italic": false
 							}
@@ -24,17 +25,20 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Its hook is covered in weird mucus,",
+									"translate": "foka.items.fisher_of_voids.description.1",
+									"fallback": "Its hook is covered in weird mucus,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "fish from the Void",
+									"translate": "foka.items.fisher_of_voids.description.2",
+									"fallback": "fish from the Void",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "seem really attracted to it",
+									"translate": "foka.items.fisher_of_voids.description.3",
+									"fallback": "seem really attracted to it",
 									"color": "#EEEEEE",
 									"italic": false
 								}

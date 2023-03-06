@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Amethyst Budfish",
+								"translate": "foka.items.fish.amethyst_budfish",
+								"fallback": "Amethyst Budfish",
 								"color": "#A056CD",
 								"italic": false
 							}

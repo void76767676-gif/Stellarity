@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Chaos Fish",
+								"translate": "foka.items.fish.chaos_fish",
+								"fallback": "Chaos Fish",
 								"color": "#51336D",
 								"italic": false
 							}

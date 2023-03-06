@@ -5,11 +5,13 @@
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Dragonborn",
+			"translate": "foka.advancements.dragonborn",
+			"fallback": "Dragonborn",
 			"color": "#CD6AFF"
 		},
 		"description": {
-			"translate": "Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End"
+			"translate": "foka.advancements.dragonborn.description",
+			"fallback": "Obtain the Dragonblade, a legendary sword of a truly unknown origin..."
 		},
 		"frame": "task"
 	},

@@ -4,7 +4,8 @@
 			"item": "minecraft:dragon_head"
 		},
 		"title": {
-			"translate": "Final Showdown",
+			"translate": "foka.advancements.final_showdown",
+			"fallback": "Final Showdown",
 			"color": "#7E00B0"
 		},
 		"description": {

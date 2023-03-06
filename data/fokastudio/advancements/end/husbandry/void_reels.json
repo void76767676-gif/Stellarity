@@ -4,10 +4,12 @@
 			"item": "minecraft:fishing_rod"
 		},
 		"title": {
-			"translate": "Void Reels"
+			"translate": "foka.advancements.void_reels",
+			"fallback": "Void Reels"
 		},
 		"description": {
-			"translate": "Cast your Fishing Rod into the open darkness of The End"
+			"translate": "foka.advancements.void_reels.description",
+			"fallback": "Cast your Fishing Rod into the open darkness of The End"
 		},
 		"frame": "goal",
 		"show_toast": true,

@@ -4,10 +4,12 @@
 			"item": "minecraft:barrel"
 		},
 		"title": {
-			"translate": "The Void Provides"
+			"translate": "foka.advancements.the_void_provides",
+			"fallback": "The Void Provides"
 		},
 		"description": {
-			"translate": "Fish and open a Crate from the unknown"
+			"translate": "foka.advancements.the_void_provides.description",
+			"fallback": "Fish out and open a Crate from the unknown"
 		},
 		"frame": "task",
 		"show_toast": true,

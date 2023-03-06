@@ -5,11 +5,13 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Gloop de Gloop",
+			"translate": "foka.advancements.find_gloop",
+			"fallback": "Gloop de Gloop",
 			"color": "#7bc664"
 		},
 		"description": {
-			"translate": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome."
+			"translate": "foka.advancements.find_gloop.description",
+			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome."
 		},
 		"frame": "challenge"
 	},

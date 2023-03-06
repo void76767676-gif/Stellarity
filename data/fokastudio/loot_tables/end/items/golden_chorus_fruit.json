@@ -11,24 +11,11 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Golden Chorus Fruit",
+								"translate": "foka.items.golden_chorus_fruit",
+								"fallback": "Golden Chorus Fruit",
 								"color": "light_cyan",
 								"italic": false
 							}
-						},
-						{
-							"function": "minecraft:set_lore",
-							"entity": "this",
-							"lore": [
-								{
-									"translate": "Random location go!",
-									"color": "#EEEEEE",
-									"italic": false,
-									"font": "illageralt",
-									"obfuscated": true
-								}
-							],
-							"replace": false
 						},
 						{
 							"function": "minecraft:set_nbt",

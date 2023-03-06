@@ -7,4 +7,4 @@ scoreboard players set #foka.config foka.config.auto_butcher.silverfish 0
 scoreboard players set #foka.config foka.config.change_gamerules 0
 scoreboard players set #foka.config foka.config.always_generate_egg 0
 
-tellraw @s ["\n",{"text":"All configs were reset to default!","color":"#DD6AFF","bold":true},"\n"]
+tellraw @s ["\n",{"translate":"foka.messages.cmd.reset_config_to_default","fallback":"All configs were reset to default!","color":"#DD6AFF","bold":true},"\n"]

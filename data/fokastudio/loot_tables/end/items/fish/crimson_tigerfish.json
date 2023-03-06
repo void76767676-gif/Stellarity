@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Crimson Tigerfish",
+								"translate": "foka.items.fish.crimson_tigerfish",
+								"fallback": "Crimson Tigerfish",
 								"color": "#C24747",
 								"italic": false
 							}

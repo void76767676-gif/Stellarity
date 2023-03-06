@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Book of Updraft",
+								"translate": "foka.items.spellbooks.updraft",
+								"fallback": "Book of Updraft",
 								"color": "#E0E0E0",
 								"italic": false
 							}
@@ -23,42 +24,42 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Right Click to summon a cloud",
+									"translate": "foka.items.spellbooks.updraft.description.1",
+									"fallback": "Right Click to summon a cloud",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that will boost upwards anything",
+									"translate": "foka.items.spellbooks.updraft.description.2",
+									"fallback": "that will boost upwards anything",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "that walks into it",
+									"translate": "foka.items.spellbooks.updraft.description.3",
+									"fallback": "that walks into it",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "You also fall slower while holding this book",
+									"translate": "foka.items.spellbooks.updraft.description.4",
+									"fallback": "You also fall slower while holding this book",
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								[
-									{
-										"translate": "Cooldown:",
-										"color": "#9E9E9E",
-										"italic": false
-									},
-									{
-										"text": " 7 ",
-										"color": "#C6C6C6",
-										"italic": false
-									},
-									{
-										"translate": "seconds",
-										"color": "#9E9E9E",
-										"italic": false
-									}
-								]
+								{
+									"translate": "foka.items.spellbooks.cooldown",
+									"fallback": "Cooldown: %s seconds",
+									"color": "#9E9E9E",
+									"italic": false,
+									"with": [
+										{
+											"text": "7",
+											"color": "#C6C6C6",
+											"italic": false
+										}
+									]
+								}
 							]
 						}
 					]

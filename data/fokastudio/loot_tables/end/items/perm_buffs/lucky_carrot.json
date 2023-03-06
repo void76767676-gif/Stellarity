@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Lucky Carrot",
+								"translate": "foka.items.perm_buffs.lucky_carrot",
+								"fallback": "Lucky Carrot",
 								"color": "light_purple",
 								"italic": false
 							}
@@ -20,13 +21,16 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
-									"translate": "Consume to permanently",
+									"translate": "foka.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
 									"color": "#EEEEEE",
 									"italic": false
 								},
                                 {
-									"translate": "increase your luck",
+									"translate": "foka.items.perm_buffs.lucky_carrot.increase",
+									"fallback": "increase your luck",
 									"color": "#EEEEEE",
 									"italic": false
 								}

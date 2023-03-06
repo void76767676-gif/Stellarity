@@ -4,10 +4,12 @@
 			"item": "minecraft:blaze_powder"
 		},
 		"title": {
-			"translate": "A Step to The End"
+			"translate": "foka.advancements.a_step_to_the_end",
+			"fallback": "A Step to The End"
 		},
 		"description": {
-			"translate": "Blaze Powder is usually used for brewing, but perhaps something could be fused with it...?"
+			"translate": "foka.advancements.a_step_to_the_end.description",
+			"fallback": "Blaze Powder is usually used for brewing, but perhaps something could be fused with it...?"
 		},
 		"frame": "goal",
 		"show_toast": true,

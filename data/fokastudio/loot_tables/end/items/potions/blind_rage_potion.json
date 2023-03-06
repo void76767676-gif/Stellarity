@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Blind Rage Potion",
+								"translate": "foka.items.potions.blind_rage_potion",
+								"fallback": "Blind Rage Potion",
 								"color": "white",
 								"italic": false
 							}

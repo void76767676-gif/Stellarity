@@ -4,10 +4,12 @@
 			"item": "minecraft:target"
 		},
 		"title": {
-			"translate": "Bullseye?"
+			"translate": "foka.advancements.bullseye_2",
+			"fallback": "Bullseye?"
 		},
 		"description": {
-			"translate": "Hit a bullseye of a Target Block with an Ender Pearl from at least 10 blocks"
+			"translate": "foka.advancements.bullseye_2.description",
+			"fallback": "Hit a bullseye of a Target Block with an Ender Pearl from at least 10 blocks"
 		},
 		"frame": "challenge",
 		"show_toast": true,

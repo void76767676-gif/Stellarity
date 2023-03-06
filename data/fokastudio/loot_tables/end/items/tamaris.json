@@ -14,7 +14,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-                                "text": "Tamaris",
+								"translate": "foka.items.weapons.tamaris",
+                                "fallback": "Tamaris",
 								"color": "#B2B2B2",
 								"italic": false
 							}
@@ -24,7 +25,8 @@
 							"lore": [
 								[
 									{
-										"translate": "Press",
+										"translate": "foka.items.weapons.tamaris.description.1",
+										"fallback": "Press",
 										"color": "#EEEEEE",
 										"italic": false
 									},
@@ -36,17 +38,20 @@
 										"] "
 									],
 									{
-										"translate": "to activate your Execute ability,"
+										"translate": "foka.items.weapons.tamaris.description.1_5",
+										"fallback": "to activate your Execute ability,"
 									}
 								],
 								{
-									"translate": "instantly killing nearby enemies with low health!",
+									"translate": "foka.items.weapons.tamaris.description.2",
+									"fallback": "instantly killing nearby enemies with low health!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "'Property of Captain Hannah'",
+									"translate": "foka.items.tamaris.flavor_text",
+									"fallback": "'Property of Captain Hannah'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

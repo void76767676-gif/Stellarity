@@ -5,17 +5,14 @@
 			"nbt": "{CustomModelData:90002,display:{color:11041988}}"
 		},
 		"title": {
-			"translate": "I am Titanium!",
+			"translate": "foka.advancements.i_am_titanium",
+			"fallback": "I am Titanium!",
 			"color": "#B533FF"
 		},
 		"description": [
 			{
-				"translate": "Craft a full set of Shulker Armor by combining 8 Shulker Shells and Netherite Armor over the"
-			},
-			" ",
-			{
-				"translate": "Altar of The Accursed",
-				"color": "#8000B8"
+				"translate": "foka.advancements.i_am_titanium.description",
+				"fallback": "Craft a full set of Shulker Armor"
 			}
 		],
 		"frame": "challenge",

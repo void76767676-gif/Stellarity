@@ -5,15 +5,18 @@
 			"nbt": "{CustomModelData:90002,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Kill la Kill"
+			"translate": "foka.advancements.kill_la_kill",
+			"fallback": "Kill la Kill"
 		},
 		"description": [
 			{
-				"translate": "Trigger the Execute ability on a Warden."
+				"translate": "foka.advancements.kill_la_kill.description.1",
+				"fallback": "Trigger the Execute ability on a Warden."
 			},
 			" ",
 			{
-				"translate": "Good luck...",
+				"translate": "foka.advancements.kill_la_kill.description.2",
+				"fallback": "Good luck...",
 				"bold": true
 			}
 		],

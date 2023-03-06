@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Endurance Potion",
+								"translate": "foka.items.potions.endurance_potion",
+								"fallback": "Endurance Potion",
 								"color": "white",
 								"italic": false
 							}

@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Red Potion",
+								"translate": "foka.items.potions.red_potion",
+								"fallback": "Red Potion",
 								"color": "#FF5454",
 								"italic": false
 							}
@@ -19,8 +20,10 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
-									"translate": "'Just drink it, what could go wrong?'",
+									"translate": "foka.items.potions.red_potion.flavor_text",
+									"fallback": "'Just drink it, what could go wrong?'",
 									"color": "#EEEEEE",
 									"italic": true
 								}

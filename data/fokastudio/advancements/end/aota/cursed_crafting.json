@@ -5,21 +5,14 @@
 			"nbt": "{CustomModelData:90000}"
 		},
 		"title": {
-			"translate": "Cursed Crafting",
+			"translate": "foka.advancements.cursed_crafting",
+			"fallback": "Cursed Crafting",
             "color": "#B80000"
 		},
 		"description": [
 			{
-				"translate": "Use the"
-			},
-			" ",
-			{
-				"translate": "Altar of The Accursed",
-				"color": "#8000B8"
-			},
-			" ",
-			{
-				"text": "to craft some powerful gear"
+				"translate": "foka.advancements.cursed_crafting.description",
+				"fallback": "Use the Altar of The Accursed to craft some of the most powerful of gear"
 			}
 		],
 		"frame": "task",

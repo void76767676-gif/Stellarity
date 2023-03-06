@@ -15,7 +15,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Ender Koi",
+								"translate": "foka.items.fish.ender_koi",
+								"fallback": "Ender Koi",
 								"color": "#B265FF",
 								"italic": false
 							}

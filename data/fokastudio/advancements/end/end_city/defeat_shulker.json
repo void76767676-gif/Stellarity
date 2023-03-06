@@ -4,10 +4,12 @@
 			"item": "minecraft:shulker_spawn_egg"
 		},
 		"title": {
-			"translate": "This Block Moves!"
+			"translate": "foka.advancements.kill_shulker",
+			"fallback": "This Block Moves!"
 		},
 		"description": {
-			"translate": "Defeat a Shulker"
+			"translate": "foka.advancements.kill_shulker.description",
+			"fallback": "Kill a Shulker for its Shells"
 		},
 		"show_toast": true,
 		"announce_to_chat": true

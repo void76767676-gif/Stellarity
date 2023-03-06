@@ -5,15 +5,18 @@
 			"nbt": "{CustomModelData:90000,Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "KALIYAAAAH!"
+			"translate": "foka.advancements.kaliyah",
+			"fallback": "KALIYAAAAH!"
 		},
 		"description": [
 			{
-				"translate": "Deal maximum damage possible with a Dragonblade's punch"
+				"translate": "foka.advancements.kaliyah.description",
+				"fallback": "Deal maximum damage possible with a single Dragonblade's punch"
 			},
 			"\n",
 			{
-				"translate": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ",
+				"translate": "foka.advancements.kaliyah.tip",
+				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴅᴏᴇѕ ᴡᴏɴᴅᴇʀѕ",
 				"color": "#727272",
 				"italic": true
 			}

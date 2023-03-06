@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Lifeforce Potion",
+								"translate": "foka.items.potions.lifeforce_potion",
+								"fallback": "Lifeforce Potion",
 								"color": "white",
 								"italic": false
 							}

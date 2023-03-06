@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Bloody Harvest",
+								"translate": "foka.items.perm_buffs.bloody_harvest",
+								"fallback": "Bloody Harvest",
 								"color": "light_purple",
 								"italic": false
 							}
@@ -20,13 +21,16 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
-									"translate": "Consume to permanently",
+									"translate": "foka.items.perm_buffs.consume_to",
+									"fallback": "Consume to permanently",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "increase your strength",
+									"translate": "foka.items.perm_buffs.bloody_harvest.increase",
+									"fallback": "increase your strength",
 									"color": "#EEEEEE",
 									"italic": false
 								}

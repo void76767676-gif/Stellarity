@@ -14,7 +14,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Dragonblade",
+								"translate": "foka.items.weapons.dragonblade",
+								"fallback": "Dragonblade",
 								"color": "#CD6AFF",
 								"italic": false
 							}
@@ -23,18 +24,21 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "A fearsome sword with an otherwordly punch!",
+									"translate": "foka.items.weapons.dragonblade.description",
+									"fallback": "A fearsome sword with an otherwordly punch!",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "'It came from the edge of The End'",
+									"translate": "foka.items.weapons.dragonblade.flavor_text",
+									"fallback": "'It came from the edge of The End'",
 									"color": "#EEEEEE",
 									"italic": true
 								},
 								{
-									"translate": "ᴛɪᴘ: ᴘᴜɴᴄʜ ᴛʜᴇᴍ ɪɴᴛᴏ ᴡᴀʟʟs",
+									"translate": "foka.items.weapons.dragonblade.tip",
+									"fallback": "ᴛɪᴘ: ᴘᴜɴᴄʜ ᴛʜᴇᴍ ɪɴᴛᴏ ᴡᴀʟʟs",
 									"color": "#727272",
 									"italic": true
 								},

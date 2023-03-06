@@ -11,8 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Hallowed Ingot",
-								"color": "#D9E3ED",
+								"translate": "foka.items.materials.hallowed_ingot",
+								"fallback": "#D9E3ED",
 								"italic": false
 							}
 						},

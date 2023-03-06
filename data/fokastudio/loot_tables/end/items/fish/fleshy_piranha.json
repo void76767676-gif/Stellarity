@@ -12,7 +12,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Fleshy Piranha",
+								"translate": "foka.items.fish.fleshy_piranha",
+								"fallback": "Fleshy Piranha",
 								"color": "#C24747",
 								"italic": false
 							}

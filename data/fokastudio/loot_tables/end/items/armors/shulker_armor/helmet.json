@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Shulker Mask",
+								"translate": "foka.items.armors.shulker_armor.helmet",
+								"fallback": "Shulker Mask",
 								"color": "#976A97",
 								"italic": false
 							}
@@ -21,22 +22,26 @@
 							"lore": [
 								"",
 								{
-									"translate": "FULL SET BONUS:",
+									"translate": "foka.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
-									"translate": "Shulker Bullets will hunt down your attackers",
+									"translate": "foka.items.armors.shulker_armor.set_bonus.1",
+									"fallback": "Shulker Bullets will hunt down your attackers",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Incoming damage reduced by 20%",
+									"translate": "foka.items.armors.shulker_armor.set_bonus.2",
+									"fallback": "Incoming damage reduced by 20%",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "Immune to Levitation and Wither",
+									"translate": "foka.items.armors.shulker_armor.set_bonus.3",
+									"fallback": "Immunity to Levitation and Wither",
 									"color": "#EEEEEE",
 									"italic": false
 								}

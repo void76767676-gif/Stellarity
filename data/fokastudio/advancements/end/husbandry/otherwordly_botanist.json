@@ -5,10 +5,12 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "Otherworldy Botanist"
+			"translate": "foka.advancements.plant_chorus_fruit_2",
+			"fallback": "Otherworldy Botanist"
 		},
 		"description": {
-			"translate": "Plant a Chorus Flower in every of the 3 dimensions"
+			"translate": "foka.advancements.plant_chorus_fruit_2.description",
+			"fallback": "Plant a Chorus Flower in every of the 3 dimensions"
 		},
 		"frame": "challenge",
 		"show_toast": true,

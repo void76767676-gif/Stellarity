@@ -15,7 +15,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Unluck Potion",
+								"translate": "foka.items.potions.unluck_potion",
+								"fallback": "Unluck Potion",
 								"color": "white",
 								"italic": false
 							}

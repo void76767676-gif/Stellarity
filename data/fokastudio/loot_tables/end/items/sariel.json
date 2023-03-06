@@ -52,18 +52,21 @@
 							"entity": "this",
 							"lore": [
 								{
-									"translate": "Has a chance to heal",
+									"translate": "foka.items.weapons.sariel.description.1",
+									"fallback": "Has a chance to heal",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "any nearby player on attacks",
+									"translate": "foka.items.weapons.sariel.description.2",
+									"fallback": "any nearby player on attacks",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "'Now, Until The Moment You Die'",
+									"translate": "foka.items.weapons.sariel.flavor_text",
+									"fallback": "'Now, Until The Moment You Die'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

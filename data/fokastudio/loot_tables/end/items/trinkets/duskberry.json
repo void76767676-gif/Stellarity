@@ -11,7 +11,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Duskberry",
+								"translate": "foka.items.trinkest.duskberry",
+								"fallback": "Duskberry",
 								"color": "#8100CB",
 								"italic": false
 							}
@@ -67,28 +68,33 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Empowers your speed, sight",
+									"translate": "foka.items.trinkest.duskberry.description.1",
+									"fallback": "Empowers your speed, sight",
 									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
-									"translate": "and strength while held",
+									"translate": "foka.items.trinkest.duskberry.description.2",
+									"fallback": "and strength while held",
 									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
-									"translate": "Consuming or planting might",
+									"translate": "foka.items.trinkest.duskberry.description.3",
+									"fallback": "Consuming or planting might",
 									"color": "#AB6AD1",
 									"italic": false
 								},
 								{
-									"translate": "have dire consequences",
+									"translate": "foka.items.trinkest.duskberry.description.4",
+									"fallback": "have dire consequences",
 									"color": "#AB6AD1",
 									"italic": false
 								},
 								" ",
 								{
-									"translate": "Member #666 Item",
+									"translate": "foka.items.special.member_666",
+									"fallback": "Member #666 Item",
 									"color": "#76389B",
 									"font": "illageralt",
 									"italic": false,

@@ -17,7 +17,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "Frost Minnow",
+								"translate": "foka.items.fish.frost_minnow",
+								"fallback": "Frost Minnow",
 								"color": "#9FEEF1",
 								"italic": false
 							}

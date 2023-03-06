@@ -4,10 +4,12 @@
 			"item": "minecraft:chorus_fruit"
 		},
 		"title": {
-			"translate": "Confusing Fruit"
+			"translate": "foka.advancements.confusing_fruit",
+			"fallback": "Confusing Fruit"
 		},
 		"description": {
-			"translate": "Eat a Chorus Fruit"
+			"translate": "foka.advancements.confusing_fruit.description",
+			"fallback": "Eat a Chorus Fruit"
 		},
 		"frame": "task",
 		"show_toast": true,

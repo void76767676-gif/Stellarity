@@ -10,7 +10,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Ancient Leggings",
+								"translate": "foka.items.armors.ancient_armor.leggings",
+								"fallback": "Ancient Leggings",
 								"color": "#A87CC4",
 								"italic": false
 							}
@@ -21,17 +22,26 @@
 							"lore": [
 								"",
 								{
-									"translate": "FULL SET BONUS:",
+									"translate": "foka.items.armors.set_bonus",
+									"fallback": "FULL SET BONUS:",
 									"color": "#FF9952",
 									"italic": false
 								},
 								{
-									"translate": "Fills you with Wrath of The Ancients,",
+									"translate": "foka.items.armors.ancient_armor.set_bonus.1",
+									"fallback": "Fills you with Wrath of The Ancients,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "providing ramping increasing damage on combo attacks!",
+									"translate": "foka.items.armors.ancient_armor.set_bonus.2",
+									"fallback": "providing ramping increasing damage",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "foka.items.armors.ancient_armor.set_bonus.3",
+									"fallback": "on combo attacks!",
 									"color": "#EEEEEE",
 									"italic": false
 								}

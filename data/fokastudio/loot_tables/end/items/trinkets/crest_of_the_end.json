@@ -52,7 +52,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Crest of The End",
+								"translate": "foka.items.trinkets.crest_of_the_end",
+								"fallback": "Crest of The End",
 								"color": "#9936D6",
 								"italic": false
 							}
@@ -61,12 +62,14 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "Blocking damage adds extra",
+									"translate": "foka.items.trinkets.crest_of_the_end.description.1",
+									"fallback": "Blocking damage adds extra",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "force to your next melee attack",
+									"translate": "foka.items.trinkets.crest_of_the_end.description.2",
+									"fallback": "force to your next melee attack",
 									"color": "#EEEEEE",
 									"italic": false
 								}

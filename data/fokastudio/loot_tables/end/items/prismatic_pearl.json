@@ -14,7 +14,8 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "Prismatic Pearl",
+								"translate": "foka.items.prismatic_pearl",
+								"fallback": "Prismatic Pearl",
 								"color": "#EBEBEB",
 								"italic": false
 							}
