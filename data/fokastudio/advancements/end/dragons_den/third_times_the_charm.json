@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:netherite_helmet"
+			"item": "minecraft:ender_dragon_spawn_egg"
 		},
 		"title": {
 			"translate": "foka.advancements.third_times_the_charm",

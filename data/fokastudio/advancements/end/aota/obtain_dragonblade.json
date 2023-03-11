@@ -13,7 +13,7 @@
 			"translate": "foka.advancements.dragonborn.description",
 			"fallback": "Obtain the Dragonblade, a legendary sword of a truly unknown origin..."
 		},
-		"frame": "task"
+		"frame": "goal"
 	},
 	"parent": "fokastudio:end/aota/an_introduction_to_dark_magic",
 	"criteria": {

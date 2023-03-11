@@ -57,5 +57,8 @@
 		[
 			"plant_chorus_fruit_nether"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 50
+	}
 }

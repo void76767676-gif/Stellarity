@@ -44,5 +44,8 @@
 		[
 			"used_totem"
 		]
-	]
+	],
+	"rewards": {
+		"experience": 200
+	}
 }

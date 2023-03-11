@@ -11,7 +11,7 @@
 			"translate": "foka.advancements.journeys_end.description",
 			"fallback": "Use 12 Eyes of Ender to activate an End Portal"
 		},
-		"frame": "task",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false

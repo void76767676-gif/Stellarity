@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:leather_boots",
-			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}],CustomModelData:7300}"
+			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}]}"
 		},
 		"title": {
 			"translate": "foka.advancements.ender_adventurer",

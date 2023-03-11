@@ -1,7 +1,7 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:magenta_shulker_box"
+			"item": "minecraft:pink_shulker_box"
 		},
 		"title": {
 			"text": "jeb_"
@@ -261,6 +261,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 150
+		"experience": 300
 	}
 }
