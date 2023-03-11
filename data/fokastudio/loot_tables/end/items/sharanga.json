@@ -19,12 +19,13 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:416}}"
+							"tag": "{CustomModelData:90000,foka.special_item:\"sharanga\",foka_durability:{enabled:1b,max_dur:424}}"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.weapons.sharanga.description.1",
 									"fallback": "Converts Spectral Arrows into",

@@ -23,6 +23,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.spellbooks.light.description.1",
 									"fallback": "Right Click to summon up to 4 Healing Orbs",

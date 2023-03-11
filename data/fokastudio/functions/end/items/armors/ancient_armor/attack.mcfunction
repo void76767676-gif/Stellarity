@@ -17,7 +17,7 @@ attribute @s[scores={foka.items.armors.ancient_armor.combo=3}] generic.attack_da
 attribute @s[scores={foka.items.armors.ancient_armor.combo=4}] generic.attack_damage modifier add 5ec8048e-f25b-11ec-b939-0242ac120002 "wrath_of_the_ancients" 0.35 multiply_base
 
 execute unless score @s foka.items.armors.ancient_armor.combo matches 4.. run scoreboard players add @s foka.items.armors.ancient_armor.combo 1
-scoreboard players set @s foka.items.armors.ancient_armor.until_combo_reset 30
+scoreboard players set @s foka.items.armors.ancient_armor.until_combo_reset 50
 
 tag @s add foka.items.armors.ancient_armor.remove_scheduled
 schedule function fokastudio:end/items/armors/ancient_armor/remove_adv/schedule 1t append

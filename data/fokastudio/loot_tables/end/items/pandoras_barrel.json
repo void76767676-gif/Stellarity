@@ -21,6 +21,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.pandoras_barrel.description.1",
 									"fallback": "Summons mobs and drops loot depending on the biome",
@@ -41,12 +42,24 @@
 									"italic": true
 								},
 								" ",
-								{
-									"translate": "foka.items.special.donator",
-									"fallback": "Donator Item",
-									"color": "#F96854",
-									"italic": false
-								}
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "foka.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								]
 							]
 						},
 						{

@@ -139,6 +139,21 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/void_fishing/crates/frozen_crate_special"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
+				}
+			]
 		}
 	]
 }

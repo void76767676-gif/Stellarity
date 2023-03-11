@@ -23,6 +23,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.spellbooks.updraft.description.1",
 									"fallback": "Right Click to summon a cloud",

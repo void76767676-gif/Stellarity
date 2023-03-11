@@ -1,0 +1,132 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"minor": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#fokastudio:end/frigid_harvester/gives_minor_boost",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		},
+		"small": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#fokastudio:end/frigid_harvester/gives_small_boost",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		},
+		"big": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#fokastudio:end/frigid_harvester/gives_big_boost",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		},
+		"large": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#fokastudio:end/frigid_harvester/gives_large_boost",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		},
+		"huge": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"type": "#fokastudio:end/frigid_harvester/gives_huge_boost",
+					"distance": {
+						"absolute": {
+							"max": 5
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"minor",
+			"small",
+			"big",
+			"large",
+			"huge"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/frigid_harvester/kill"
+	}
+}

@@ -45,12 +45,13 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{foka.special_item:\"sariel\",CustomModelData:90000,foka_durability:{enabled:1b,max_dur:296},HideFlags:6}"
+							"tag": "{foka.special_item:\"sariel\",CustomModelData:90000,foka_durability:{enabled:1b,max_dur:384},HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.weapons.sariel.description.1",
 									"fallback": "Has a chance to heal",
@@ -82,14 +83,10 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "4",
-												"color": "dark_green",
-												"italic": false
+												"text": "4"
 											},
 											{
-												"translate": "attribute.name.generic.attack_damage",
-												"color": "dark_green",
-												"italic": false
+												"translate": "attribute.name.generic.attack_damage"
 											}
 										],
 										"color": "dark_green",
@@ -102,14 +99,10 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "2.3",
-												"color": "dark_green",
-												"italic": false
+												"text": "2.3"
 											},
 											{
-												"translate": "attribute.name.generic.attack_speed",
-												"color": "dark_green",
-												"italic": false
+												"translate": "attribute.name.generic.attack_speed"
 											}
 										],
 										"color": "dark_green",

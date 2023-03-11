@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,foka_durability:{enabled:1b,max_dur:192},foka.special_item:\"fisher_of_voids\"}"
+							"tag": "{CustomModelData:90000,foka_durability:{enabled:1b,max_dur:256},foka.special_item:\"fisher_of_voids\"}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -24,6 +24,7 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.fisher_of_voids.description.1",
 									"fallback": "Its hook is covered in weird mucus,",

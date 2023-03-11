@@ -25,6 +25,7 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
 									"translate":  "foka.items.weapons.clockwork_crossbow.description.1",
 									"fallback": "Shoots incredibly fast",

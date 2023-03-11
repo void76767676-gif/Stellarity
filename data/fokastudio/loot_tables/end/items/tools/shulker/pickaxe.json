@@ -57,12 +57,24 @@
 									}
 								],
 								" ",
-								{
-									"translate": "foka.items.special.donator",
-									"fallback": "Donator Item",
-									"color": "#F96854",
-									"italic": false
-								}
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "foka.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								]
 							]
 						},
 						{

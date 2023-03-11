@@ -23,6 +23,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.spellbooks.conveyance.description.1",
 									"fallback": "Casts a slow spark that",

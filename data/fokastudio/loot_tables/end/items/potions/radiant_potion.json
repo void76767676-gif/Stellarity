@@ -39,12 +39,24 @@
 									}
 								],
 								" ",
-								{
-									"translate": "foka.items.special.developer",
-									"fallback": "Developer Item",
-									"color": "#BA02D7",
-									"italic": false
-								}
+								[
+									{
+										"text": "- ",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"translate": "foka.items.special.developer",
+										"fallback": "Developer Item",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#BA02D7",
+										"italic": false
+									}
+								]
 							]
 						}
 					]

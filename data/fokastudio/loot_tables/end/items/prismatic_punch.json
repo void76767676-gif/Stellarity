@@ -91,6 +91,7 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
+								"",
 								{
 									"translate": "foka.items.weapons.prismatic_punch.description.1",
 									"fallback": "Converts Arrows to Prismatic Blasts",
@@ -104,12 +105,24 @@
 									"italic": false
 								},
 								"",
-								{
-									"translate": "foka.items.special.developer",
-									"fallback": "Developer Item",
-									"color": "#BA02D7",
-									"italic": false
-								}
+								[
+									{
+										"text": "- ",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"translate": "foka.items.special.developer",
+										"fallback": "Developer Item",
+										"color": "#BA02D7",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#BA02D7",
+										"italic": false
+									}
+								]
 							]
 						}
 					]
