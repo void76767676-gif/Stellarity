@@ -153,7 +153,7 @@
     "foka.items.trinkest.starstruck_carcanet.description.2": "half of enemy defense",
 
     "foka.items.weapons.ancient_wooden_sword": "Ancient Wooden Sword",
-    "foka.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, embrace 1.8.9'",
+    "foka.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, Indev'",
     "foka.items.weapons.clockwork_crossbow": "Clockwork Crossbow",
     "foka.items.weapons.clockwork_crossbow.description.1": "Shoots incredibly fast",
     "foka.items.weapons.clockwork_crossbow.description.2": "but with reduced damage",
@@ -196,7 +196,11 @@
     "foka.items.weapons.zephyr": "Zephyr",
     "foka.items.weapons.zephyr.description.1": "Killing enemies gives a short,",
     "foka.items.weapons.zephyr.description.2": "stacking bonus to movement speed",
-    
+    "foka.items.weapons.frigid_harvester": "Frigid Harvester",
+    "foka.items.weapons.frigid_harvester.description.1": "Imbues itself with souls of slain mobs,",
+    "foka.items.weapons.frigid_harvester.description.2": "permanently increasing its damage",
+    "foka.items.weapons.frigid_harvester.attribute": "Extra Damage",
+
     "foka.items.fisher_of_voids": "Fisher of Voids",
     "foka.items.fisher_of_voids.description.1": "Its hook is covered in weird mucus,",
     "foka.items.fisher_of_voids.description.2": "fish from the Void",
@@ -320,6 +324,9 @@
     "foka.advancements.kill_dragon.description": "The Beast is dead, and The End is waiting for you to discover its secrets...",
     "foka.advancements.enter_end.description": "ᴏʀ ᴛʜᴇ ʙᴇɢɢɪɴɪɴɢ?",
     "foka.advancements.follow_ender_eye.extra": "Something is definitely hidden there...",
+    "foka.advancements.max_out_aery_sword": "Frozen Reaper",
+    "foka.advancements.max_out_aery_sword.description": "Reach +15 Extra Damage on Frigid Harvester",
+    "foka.advancements.max_out_aery_sword.tip": "ᴛɪᴘ: ᴛʜɪѕ ᴍɪɢʜᴛ ʀᴇǫᴜɪʀᴇ ѕᴏᴍᴇ ɢʀɪɴᴅɪɴɢ...",
 
     "foka.death_messages.example_cause": "%s died randomly due to an example of FSEE's custom damage system",
     "foka.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom",
