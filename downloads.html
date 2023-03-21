@@ -44,10 +44,14 @@
 			<br>
 			<div class="container-sm p-5">
 				<div>
-					<h1 class="glow">Downloads Library</h1>
+					<h2 class="glow">Downloads Library</h2>
 					<br><br>
 					<p>
-						<b>Here you can download all versions of FSEE - newest one as well as older ones for previous versions.</b>
+						Here you can download all versions of FSEE - newest one as well as older ones for previous versions.
+						<br>
+						<b class="fire">
+							IMPORTANT: 1.19.4 users, please download latest dev version!
+						</b>
 					</p>
 				</div>
 				<br><br><hr><br><br>
@@ -55,11 +59,11 @@
 					<a id="stable"></a>
 					<div style="text-align: center;">
 						<h2 style="color: #D197E7;">Stable Release</h2>
-						<a button href="https://www.dropbox.com/s/ng7ssm5496ccj0u/fokastudio-s-ender-expansion-v1.5b.zip?dl=1" target="_blank" class="fancy-button" data-tip="If you are going to use FSEE on a server, make sure to read our server installation steps! Just scroll down a bit!"><span>Download latest Stable</span></a>
+						<a button href="https://www.dropbox.com/s/ng7ssm5496ccj0u/fokastudio-s-ender-expansion-v1.5b.zip?dl=1" target="_blank" class="fancy-button"><span>Download latest Stable</span></a>
 						<br><br>
 						<p>
-							Stable versions. Will not break at random and is <a href="javascript:void(0)" onclick="doingClick();" data-tip="Almost...">bug free</a>! Requires 4GB+ of ram for initial End Generation, Latest Dev Version does not.<br>
-							<span style="color: #B773FF;"><b>Current latest stable release:</b> 1.5b for <i>1.19 - 1.19.2</i></span><br>
+							Stable versions. Will not break at random and is <a href="javascript:void(0)" onclick="doingClick();" data-tip="Almost...">bug free</a>! Requires 4GB+ of ram for initial End Generation, latest dev version does not.<br>
+							<span style="color: #B773FF;"><b>Current latest stable release:</b> 1.5b for <i>1.19 - 1.19.3</i></span><br>
 						</p>
 						<br><br><hr><br><br>
 						<a id="dev"></a>
@@ -75,14 +79,8 @@
 										</span>
 										<br>
 										<b class="danger">
-											Beware, as these versions are considered unstable and might become broken at any point!
-											<br>
-											Do not use in production unless recommended by FokaStudio!
+											Beware, as I sometimes like to break these versions for no reason!
 										</b>
-										<br>
-										<span style="color: #A8FF73;">
-											Altough by using this verision, you can help me search for and fix bugs before officialy releasing new versions!
-										</span>
 									</p>
 								</div>
 								<div class="col-6">
@@ -100,8 +98,9 @@
 									</p>
 									<br><br>
 								</div>
+								<br><br>
 								<p>
-									<b>Currently, dev versions are for <i>1.19.4 pre-releases (will support full release)</i></b>
+									<b>Currently, dev versions are for <i>1.19.4</i></b>
 								</p>
 							</div>
 							<br>
@@ -111,11 +110,11 @@
 				<br><br><hr><br><br>
 				<div>
 					<a id="server-installation"></a>
-					<h1 style="color: #B879FF;">Server Installation</h1>
+					<h2 style="color: #B879FF;">Server Installation</h2>
 					<br><br>
+					<h3 class="danger">This section applies only to MC versions 1.19.3 and prior!!</h3>
 					<p>
-						<span style="color: #FFEF28;">Spigot</span>/<span style="color: #F6F6F6;">Paper</span>/<span style="color: #AA28FF;">Purpur</span>/etc. have a bug that basically causes world generation packs to not work, with regular worldgen being applied instead.<br>
-						<span style="color: #FF8080;">FSEE is no exception...</span>
+						Minecraft servers have a bug which causes worldgen packs to not load initially, causing server to apply default worldgen settings on startup. This result in vanilla world generation, ignoring datapack configs.<br>
 						<br><br>
 
 						<b>How to prevent/fix this?</b>
@@ -148,7 +147,7 @@
 				<br><br><hr><br><br>
 				<div style="text-align: center;">
 					<a id="legacy"></a>
-					<h1 class="fire">Legacy</h1>
+					<h2 class="fire">Legacy</h2>
 					<br><br>
 					<p>
 						<span style="color: #E04040;">
