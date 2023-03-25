@@ -15,4 +15,4 @@ execute if score out foka.misc matches 6 run item replace entity @s weapon.offha
 execute if score out foka.misc matches 7 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"weakness"} 64
 execute if score out foka.misc matches 8 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_weakness"} 64
 
- tag @s add foka.stronghold.buffed
+tag @s add foka.stronghold.buffed

@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "foka.advancements.champions_ballad.description",
-			"fallback": "Cant fight a Boss without some good tunes!"
+			"fallback": "Can't fight a Boss without some good tunes!"
 		},
 		"frame": "task",
 		"show_toast": true,

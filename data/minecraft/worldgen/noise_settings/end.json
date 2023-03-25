@@ -816,23 +816,6 @@
 						"if_true": {
 							"type": "minecraft:biome",
 							"biome_is": [
-								"fokastudio:snowy_warped_forest",
-								"far_end:flesh_tundra",
-								"fokastudio:snowy_crimson_forest"
-							]
-						},
-						"then_run": {
-							"type": "minecraft:block",
-							"result_state": {
-								"Name": "minecraft:netherrack"
-							}
-						}
-					},
-					{
-						"type": "minecraft:condition",
-						"if_true": {
-							"type": "minecraft:biome",
-							"biome_is": [
 								"fokastudio:prismarine_forest"
 							]
 						},

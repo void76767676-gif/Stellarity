@@ -2,21 +2,15 @@
     "feature": "far_end:tundra/island/island_bottom",
     "placement": [
         {
-            "type": "minecraft:count",
-            "count": {
-                "type": "minecraft:weighted_list",
-                "distribution": [
-                    {
-                        "weight": 100,
-                        "data": 60
-                    },
-                    {
-                        "weight": 0,
-                        "data": 60
-                    }
-                ]
-            }
-        },
+			"type": "minecraft:count",
+			"count": 90
+		},
+		{
+			"type": "minecraft:noise_based_count",
+			"noise_to_count_ratio": 50,
+			"noise_factor": 51,
+			"noise_offset": 0.08
+		},
         {
             "type": "minecraft:in_square"
         },

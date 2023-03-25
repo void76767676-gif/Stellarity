@@ -427,11 +427,11 @@
 					}
 				},
 				{
-					"biome": "minecraft:small_end_islands",
+					"biome": "minecraft:the_end",
 					"parameters": {
 						"temperature": [
 							-1,
-							-0.3
+							1
 						],
 						"humidity": [
 							0.835,
@@ -439,11 +439,11 @@
 						],
 						"continentalness": [
 							-1.2,
-							-1.05
+							-0.455
 						],
 						"erosion": [
 							-0.375,
-							-0.08625
+							-0.2225
 						],
 						"weirdness": [
 							-1,
@@ -487,1793 +487,23 @@
 					}
 				},
 				{
-					"biome": "minecraft:small_end_islands",
+					"biome": "minecraft:the_end",
 					"parameters": {
 						"temperature": [
 							-0.8625,
-							-0.3
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							0.67
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-1.05
-						],
-						"erosion": [
-							-0.375,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-0.28500000000000003,
-							-0.025
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-0.41000000000000003,
-							0.11
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.15
-						],
-						"humidity": [
-							-0.555,
-							0.2475
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							0.385,
-							0.835
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.15
-						],
-						"humidity": [
-							0.385,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							0.67
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							0.2475,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.445
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							0.11,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.835
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							-0.555
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-0.555,
-							0.67
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-0.41000000000000003,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.735,
 							0.8674999999999999
 						],
 						"humidity": [
-							-0.28500000000000003,
-							0.385
+							0.67,
+							1
 						],
 						"continentalness": [
 							-1.2,
 							-0.455
 						],
 						"erosion": [
-							-0.08625,
-							0.05
+							-0.375,
+							-0.2225
 						],
 						"weirdness": [
 							-1,
@@ -2287,11 +517,101 @@
 					}
 				},
 				{
-					"biome": "far_end:the_nest",
+					"biome": "minecraft:small_end_islands",
 					"parameters": {
 						"temperature": [
-							0.735,
+							-0.725,
+							-0.5875
+						],
+						"humidity": [
+							-1,
+							0.5275000000000001
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
 							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:the_end",
+					"parameters": {
+						"temperature": [
+							-0.725,
+							0.735
+						],
+						"humidity": [
+							0.5275000000000001,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.5875,
+							-0.45
+						],
+						"humidity": [
+							-1,
+							0.385
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:the_end",
+					"parameters": {
+						"temperature": [
+							-0.5875,
+							0.59
 						],
 						"humidity": [
 							0.385,
@@ -2302,8 +622,8 @@
 							-0.455
 						],
 						"erosion": [
-							-0.08625,
-							0.05
+							-0.375,
+							-0.2225
 						],
 						"weirdness": [
 							-1,
@@ -2317,23 +637,143 @@
 					}
 				},
 				{
-					"biome": "far_end:the_nest",
+					"biome": "minecraft:end_barrens",
 					"parameters": {
 						"temperature": [
-							0.8674999999999999,
-							1
+							-0.45,
+							0.445
 						],
 						"humidity": [
-							-0.28500000000000003,
-							-0.16
+							-1,
+							0.2475
 						],
 						"continentalness": [
 							-1.2,
 							-0.455
 						],
 						"erosion": [
-							-0.08625,
-							0.05
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:the_end",
+					"parameters": {
+						"temperature": [
+							-0.45,
+							0.445
+						],
+						"humidity": [
+							0.2475,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:ender_waste",
+					"parameters": {
+						"temperature": [
+							0.445,
+							1
+						],
+						"humidity": [
+							-1,
+							0.385
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:ender_waste",
+					"parameters": {
+						"temperature": [
+							0.59,
+							1
+						],
+						"humidity": [
+							0.385,
+							0.5275000000000001
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:ender_waste",
+					"parameters": {
+						"temperature": [
+							0.735,
+							1
+						],
+						"humidity": [
+							0.5275000000000001,
+							0.67
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
 						],
 						"weirdness": [
 							-1,
@@ -2354,16 +794,16 @@
 							1
 						],
 						"humidity": [
-							-0.16,
-							0.2475
+							0.67,
+							0.835
 						],
 						"continentalness": [
 							-1.2,
 							-0.455
 						],
 						"erosion": [
-							-0.08625,
-							0.05
+							-0.375,
+							-0.2225
 						],
 						"weirdness": [
 							-1,
@@ -2377,10 +817,370 @@
 					}
 				},
 				{
-					"biome": "far_end:the_nest",
+					"biome": "minecraft:small_end_islands",
 					"parameters": {
 						"temperature": [
-							0.8674999999999999,
+							-1,
+							-0.3
+						],
+						"humidity": [
+							0.835,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.8625,
+							-0.3
+						],
+						"humidity": [
+							0.67,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.725,
+							-0.3
+						],
+						"humidity": [
+							0.5275000000000001,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.5875,
+							-0.3
+						],
+						"humidity": [
+							0.385,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.45,
+							-0.3
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.3,
+							-0.15
+						],
+						"humidity": [
+							-1,
+							0.67
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							-0.3,
+							1
+						],
+						"humidity": [
+							0.67,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.15,
+							-0.007499999999999993
+						],
+						"humidity": [
+							-1,
+							0.5275000000000001
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							-0.15,
+							1
+						],
+						"humidity": [
+							0.5275000000000001,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							-0.007499999999999993,
+							0.135
+						],
+						"humidity": [
+							-1,
+							0.385
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							-0.007499999999999993,
+							1
+						],
+						"humidity": [
+							0.385,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							0.135,
+							0.29000000000000004
+						],
+						"humidity": [
+							-1,
+							0.2475
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							0.135,
 							1
 						],
 						"humidity": [
@@ -2392,6 +1192,276 @@
 							-0.455
 						],
 						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							0.29000000000000004,
+							0.445
+						],
+						"humidity": [
+							-1,
+							0.11
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							0.29000000000000004,
+							1
+						],
+						"humidity": [
+							0.11,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							0.445,
+							0.59
+						],
+						"humidity": [
+							-1,
+							-0.025
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							0.445,
+							1
+						],
+						"humidity": [
+							-0.025,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							0.59,
+							0.735
+						],
+						"humidity": [
+							-1,
+							-0.16
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							0.59,
+							1
+						],
+						"humidity": [
+							-0.16,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:small_end_islands",
+					"parameters": {
+						"temperature": [
+							0.735,
+							1
+						],
+						"humidity": [
+							-1,
+							-0.28500000000000003
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:shattered_end",
+					"parameters": {
+						"temperature": [
+							0.735,
+							1
+						],
+						"humidity": [
+							-0.28500000000000003,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:end_barrens",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
 							-0.08625,
 							0.05
 						],
@@ -2411,7 +1481,157 @@
 					"parameters": {
 						"temperature": [
 							-1,
-							-0.5875
+							-0.3
+						],
+						"humidity": [
+							-1,
+							0.2475
+						],
+						"continentalness": [
+							-1.2,
+							-0.7525000000000001
+						],
+						"erosion": [
+							0.05,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:end_barrens",
+					"parameters": {
+						"temperature": [
+							-1,
+							0.29000000000000004
+						],
+						"humidity": [
+							0.2475,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							0.05,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:the_nest",
+					"parameters": {
+						"temperature": [
+							-0.3,
+							-0.15
+						],
+						"humidity": [
+							-1,
+							-0.025
+						],
+						"continentalness": [
+							-1.2,
+							-0.7525000000000001
+						],
+						"erosion": [
+							0.05,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:end_barrens",
+					"parameters": {
+						"temperature": [
+							-0.3,
+							0.29000000000000004
+						],
+						"humidity": [
+							-0.025,
+							1
+						],
+						"continentalness": [
+							-1.2,
+							-0.455
+						],
+						"erosion": [
+							0.05,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:the_nest",
+					"parameters": {
+						"temperature": [
+							-0.15,
+							-0.007499999999999993
+						],
+						"humidity": [
+							-1,
+							-0.28500000000000003
+						],
+						"continentalness": [
+							-1.2,
+							-0.7525000000000001
+						],
+						"erosion": [
+							0.05,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "minecraft:end_barrens",
+					"parameters": {
+						"temperature": [
+							-0.15,
+							0.29000000000000004
 						],
 						"humidity": [
 							-0.28500000000000003,
@@ -2419,367 +1639,7 @@
 						],
 						"continentalness": [
 							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.5875
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.67
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-0.8500000000000001,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							0.11,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.2,
 							-0.455
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-0.16,
-							0.385
-						],
-						"continentalness": [
-							-1.2,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
 						],
 						"erosion": [
 							0.05,
@@ -2804,72 +1664,12 @@
 							0.29000000000000004
 						],
 						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
 							-1,
 							1
 						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
 						"continentalness": [
 							-1.2,
-							-0.7525000000000001
-						],
-						"erosion": [
-							0.05,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-1.2,
-							-0.7525000000000001
+							-0.455
 						],
 						"erosion": [
 							0.05,
@@ -2917,936 +1717,6 @@
 					}
 				},
 				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							0.8674999999999999
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							0.735
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.59
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.445
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.445
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							0.385,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							0.67
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							0.67,
-							0.835
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.3
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.3
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							0.67
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-1.05,
-							-0.455
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "fokastudio:glowshroom_valley",
 					"parameters": {
 						"temperature": [
@@ -4661,10 +2531,70 @@
 					"parameters": {
 						"temperature": [
 							-1,
-							-0.007499999999999993
+							1
 						],
 						"humidity": [
-							-0.28500000000000003,
+							-1,
+							1
+						],
+						"continentalness": [
+							-0.7525000000000001,
+							-0.455
+						],
+						"erosion": [
+							0.05,
+							0.45
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:the_nest",
+					"parameters": {
+						"temperature": [
+							-1,
+							-0.3
+						],
+						"humidity": [
+							-1,
+							0.2475
+						],
+						"continentalness": [
+							-0.7525000000000001,
+							-0.455
+						],
+						"erosion": [
+							0.45,
+							1
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:the_nest",
+					"parameters": {
+						"temperature": [
+							-0.3,
+							-0.15
+						],
+						"humidity": [
+							-1,
 							-0.025
 						],
 						"continentalness": [
@@ -4672,8 +2602,8 @@
 							-0.455
 						],
 						"erosion": [
-							0.05,
-							0.45
+							0.45,
+							1
 						],
 						"weirdness": [
 							-1,
@@ -4687,1365 +2617,15 @@
 					}
 				},
 				{
-					"biome": "far_end:ender_waste",
+					"biome": "far_end:the_nest",
 					"parameters": {
 						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.8625,
+							-0.15,
 							-0.007499999999999993
 						],
 						"humidity": [
-							-0.41000000000000003,
-							0.11
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
 							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.15
-						],
-						"humidity": [
-							-0.555,
-							0.2475
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.385
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							0.385,
-							0.835
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							0.67
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.445
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.835
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							-0.555
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-0.555,
-							0.67
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-0.41000000000000003,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
 							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.735,
-							0.8674999999999999
-						],
-						"humidity": [
-							-0.28500000000000003,
-							0.385
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							-0.16
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							-0.16,
-							0.2475
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.05,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.5875
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.67
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-0.8500000000000001,
-							0.385
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.7525000000000001,
-							-0.455
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
 						],
 						"continentalness": [
 							-0.7525000000000001,
@@ -6521,7 +3101,7 @@
 					"parameters": {
 						"temperature": [
 							-1,
-							-0.5875
+							0.445
 						],
 						"humidity": [
 							-1,
@@ -6529,10 +3109,190 @@
 						],
 						"continentalness": [
 							-0.455,
-							-0.3225
+							0.03
 						],
 						"erosion": [
 							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:snowy_warped_forest",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							0.2475,
+							1
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:snowy_warped_forest",
+					"parameters": {
+						"temperature": [
+							0.445,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.375,
+							-0.2225
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "far_end:flesh_tundra",
+					"parameters": {
+						"temperature": [
+							-1,
+							0.445
+						],
+						"humidity": [
+							-1,
+							0.2475
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:frosted_hills",
+					"parameters": {
+						"temperature": [
+							-1,
+							1
+						],
+						"humidity": [
+							0.2475,
+							1
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:frosted_hills",
+					"parameters": {
+						"temperature": [
+							0.445,
+							1
+						],
+						"humidity": [
+							-1,
+							1
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.2225,
+							-0.08625
+						],
+						"weirdness": [
+							-1,
+							1
+						],
+						"depth": [
+							0,
+							0
+						],
+						"offset": 0
+					}
+				},
+				{
+					"biome": "fokastudio:snowy_crimson_forest",
+					"parameters": {
+						"temperature": [
+							-1,
+							0.445
+						],
+						"humidity": [
+							-1,
+							0.2475
+						],
+						"continentalness": [
+							-0.455,
+							0.03
+						],
+						"erosion": [
+							-0.08625,
 							0.05
 						],
 						"weirdness": [
@@ -6559,40 +3319,10 @@
 						],
 						"continentalness": [
 							-0.455,
-							-0.3225
+							0.03
 						],
 						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
+							-0.08625,
 							0.05
 						],
 						"weirdness": [
@@ -6610,217 +3340,7 @@
 					"biome": "fokastudio:snowy_warped_forest",
 					"parameters": {
 						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
+							0.445,
 							1
 						],
 						"humidity": [
@@ -6829,10 +3349,10 @@
 						],
 						"continentalness": [
 							-0.455,
-							-0.3225
+							0.03
 						],
 						"erosion": [
-							-0.375,
+							-0.08625,
 							0.05
 						],
 						"weirdness": [
@@ -7597,74 +4117,14 @@
 					}
 				},
 				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "minecraft:end_barrens",
 					"parameters": {
 						"temperature": [
 							-1,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-0.28500000000000003,
-							-0.025
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
 							1
 						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
 						"humidity": [
-							-0.025,
+							-1,
 							1
 						],
 						"continentalness": [
@@ -7674,2166 +4134,6 @@
 						"erosion": [
 							0.25,
 							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-0.41000000000000003,
-							0.11
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.15
-						],
-						"humidity": [
-							-0.555,
-							0.2475
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.385
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							0.385,
-							0.835
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.15
-						],
-						"humidity": [
-							0.385,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							0.67
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							0.2475,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.445
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_barrens",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							0.11,
-							0.385
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.29000000000000004
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-0.8500000000000001,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:the_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-0.7000000000000001,
-							0.835
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							-0.555
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-0.555,
-							0.67
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.555,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-0.41000000000000003,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.735,
-							0.8674999999999999
-						],
-						"humidity": [
-							-0.28500000000000003,
-							0.385
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							-0.16
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:ender_waste",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							-0.16,
-							0.2475
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:the_nest",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.455,
-							-0.3225
-						],
-						"erosion": [
-							0.25,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.375,
-							-0.2225
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:frosted_hills",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.11
-						],
-						"erosion": [
-							-0.2225,
-							-0.08625
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							-0.08625,
-							0.05
 						],
 						"weirdness": [
 							-1,
@@ -9863,7 +4163,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -9893,7 +4193,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -9923,7 +4223,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -9953,7 +4253,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -9983,7 +4283,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10013,7 +4313,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10043,7 +4343,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10073,7 +4373,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10103,7 +4403,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10133,7 +4433,7 @@
 						],
 						"erosion": [
 							0.05,
-							0.45
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10159,11 +4459,11 @@
 						],
 						"continentalness": [
 							-0.3225,
-							-0.19
+							0.03
 						],
 						"erosion": [
 							0.25,
-							0.775
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10189,11 +4489,11 @@
 						],
 						"continentalness": [
 							-0.3225,
-							-0.19
+							0.03
 						],
 						"erosion": [
 							0.25,
-							0.775
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10219,11 +4519,11 @@
 						],
 						"continentalness": [
 							-0.3225,
-							-0.19
+							0.03
 						],
 						"erosion": [
 							0.25,
-							0.775
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10249,641 +4549,11 @@
 						],
 						"continentalness": [
 							-0.3225,
-							-0.19
+							0.03
 						],
 						"erosion": [
 							0.25,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.3
-						],
-						"humidity": [
-							0.835,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.3
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.3
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							0.67
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:shattered_end",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							-0.19
-						],
-						"erosion": [
-							0.45,
-							0.775
+							0.55
 						],
 						"weirdness": [
 							-1,
@@ -10905,14 +4575,14 @@
 						],
 						"humidity": [
 							-1,
-							0.2475
+							0.11
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -10934,7 +4604,7 @@
 							1
 						],
 						"humidity": [
-							0.2475,
+							0.11,
 							1
 						],
 						"continentalness": [
@@ -10942,7 +4612,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -10965,14 +4635,14 @@
 						],
 						"humidity": [
 							-1,
-							0.11
+							-0.025
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -10994,7 +4664,7 @@
 							1
 						],
 						"humidity": [
-							0.11,
+							-0.025,
 							1
 						],
 						"continentalness": [
@@ -11002,7 +4672,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11025,14 +4695,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.025
+							-0.16
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11054,7 +4724,7 @@
 							1
 						],
 						"humidity": [
-							-0.025,
+							-0.16,
 							1
 						],
 						"continentalness": [
@@ -11062,7 +4732,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11085,14 +4755,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.16
+							-0.28500000000000003
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11114,7 +4784,7 @@
 							1
 						],
 						"humidity": [
-							-0.16,
+							-0.28500000000000003,
 							1
 						],
 						"continentalness": [
@@ -11122,7 +4792,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11145,14 +4815,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.28500000000000003
+							-0.41000000000000003
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11174,7 +4844,7 @@
 							1
 						],
 						"humidity": [
-							-0.28500000000000003,
+							-0.41000000000000003,
 							1
 						],
 						"continentalness": [
@@ -11182,7 +4852,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11205,14 +4875,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.41000000000000003
+							-0.555
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11234,7 +4904,7 @@
 							1
 						],
 						"humidity": [
-							-0.41000000000000003,
+							-0.555,
 							1
 						],
 						"continentalness": [
@@ -11242,7 +4912,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11265,14 +4935,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.555
+							-0.7000000000000001
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11294,7 +4964,7 @@
 							1
 						],
 						"humidity": [
-							-0.555,
+							-0.7000000000000001,
 							1
 						],
 						"continentalness": [
@@ -11302,7 +4972,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11325,14 +4995,14 @@
 						],
 						"humidity": [
 							-1,
-							-0.7000000000000001
+							-0.8500000000000001
 						],
 						"continentalness": [
 							-0.3225,
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11354,66 +5024,6 @@
 							1
 						],
 						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-0.3225,
-							0.03
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
 							-0.8500000000000001,
 							1
 						],
@@ -11422,7 +5032,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -11440,7 +5050,7 @@
 					"biome": "fokastudio:the_hallow",
 					"parameters": {
 						"temperature": [
-							0.29000000000000004,
+							0.135,
 							1
 						],
 						"humidity": [
@@ -11452,7 +5062,7 @@
 							0.03
 						],
 						"erosion": [
-							0.775,
+							0.55,
 							1
 						],
 						"weirdness": [
@@ -12277,696 +5887,6 @@
 					}
 				},
 				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-1,
-							0.835
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.25,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							-1,
-							0.67
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.25,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.25,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:small_end_islands",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.25,
-							0.45
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-0.8500000000000001,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.19,
-							0.03
-						],
-						"erosion": [
-							0.45,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
 					"biome": "minecraft:end_midlands",
 					"parameters": {
 						"temperature": [
@@ -13344,336 +6264,6 @@
 						"erosion": [
 							-1,
 							-0.5775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_crimson_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:snowy_warped_forest",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							-0.11,
-							0.03
-						],
-						"erosion": [
-							-0.2225,
-							0.05
 						],
 						"weirdness": [
 							-1,
@@ -14093,7 +6683,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14123,7 +6713,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14153,7 +6743,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14183,7 +6773,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14213,7 +6803,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14243,7 +6833,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14273,7 +6863,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14303,7 +6893,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14333,7 +6923,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14363,7 +6953,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14393,7 +6983,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14423,7 +7013,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
+							1
 						],
 						"weirdness": [
 							-1,
@@ -14453,966 +7043,6 @@
 						],
 						"erosion": [
 							-0.5775,
-							0.55
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.8625
-						],
-						"humidity": [
-							-1,
-							0.2475
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							-0.725
-						],
-						"humidity": [
-							-1,
-							0.11
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.8625,
-							1
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.725,
-							1
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.45
-						],
-						"humidity": [
-							-1,
-							-0.16
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							-0.16,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							-0.28500000000000003
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.45,
-							1
-						],
-						"humidity": [
-							-0.28500000000000003,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-1,
-							-0.41000000000000003
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-0.41000000000000003,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							-0.007499999999999993
-						],
-						"humidity": [
-							-1,
-							-0.555
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							1
-						],
-						"humidity": [
-							-0.555,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							0.135
-						],
-						"humidity": [
-							-1,
-							-0.7000000000000001
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							-0.007499999999999993,
-							1
-						],
-						"humidity": [
-							-0.7000000000000001,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:flesh_tundra",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-1,
-							-0.8500000000000001
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-0.8500000000000001,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:the_hallow",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.55,
-							0.775
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							-1,
-							0.135
-						],
-						"humidity": [
-							-1,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.135,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.29000000000000004
-						],
-						"humidity": [
-							-0.025,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							1
-						],
-						"humidity": [
-							-0.025,
-							0.11
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.29000000000000004,
-							0.445
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							0.11,
-							0.2475
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.445,
-							0.59
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							0.2475,
-							0.385
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.59,
-							0.735
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							0.385,
-							0.5275000000000001
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.735,
-							0.8674999999999999
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:end_wilds",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							0.67
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
-							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "minecraft:end_midlands",
-					"parameters": {
-						"temperature": [
-							0.8674999999999999,
-							1
-						],
-						"humidity": [
-							0.67,
-							1
-						],
-						"continentalness": [
-							0.03,
-							0.16499999999999998
-						],
-						"erosion": [
-							0.775,
 							1
 						],
 						"weirdness": [
@@ -15443,7 +7073,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15473,7 +7103,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15503,7 +7133,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15533,7 +7163,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15563,7 +7193,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15593,7 +7223,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15623,7 +7253,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15653,7 +7283,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15683,7 +7313,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15713,7 +7343,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15743,7 +7373,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15773,7 +7403,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15803,7 +7433,7 @@
 						],
 						"erosion": [
 							-0.5775,
-							-0.375
+							0.05
 						],
 						"weirdness": [
 							-1,
@@ -15832,7 +7462,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -15862,7 +7492,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -15892,7 +7522,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -15922,7 +7552,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -15952,7 +7582,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -15982,7 +7612,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16012,7 +7642,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16042,7 +7672,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16072,7 +7702,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16102,7 +7732,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16132,7 +7762,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16162,7 +7792,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16192,7 +7822,7 @@
 							0.3
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.55
 						],
 						"weirdness": [
@@ -16252,7 +7882,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16282,7 +7912,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16312,7 +7942,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16342,7 +7972,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16372,7 +8002,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16402,7 +8032,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16432,7 +8062,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16462,7 +8092,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16492,7 +8122,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16522,7 +8152,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16552,7 +8182,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16582,7 +8212,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -16612,7 +8242,7 @@
 							0.8
 						],
 						"erosion": [
-							-0.375,
+							0.05,
 							0.25
 						],
 						"weirdness": [
@@ -17064,396 +8694,6 @@
 						"erosion": [
 							0.25,
 							1
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							-0.5875
-						],
-						"humidity": [
-							-1,
-							0.5275000000000001
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:prismarine_forest",
-					"parameters": {
-						"temperature": [
-							-1,
-							1
-						],
-						"humidity": [
-							0.5275000000000001,
-							1
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							-0.3
-						],
-						"humidity": [
-							-1,
-							0.385
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:prismarine_forest",
-					"parameters": {
-						"temperature": [
-							-0.5875,
-							1
-						],
-						"humidity": [
-							0.385,
-							1
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:chorus_jungle",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							1
-						],
-						"humidity": [
-							-1,
-							-0.025
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							-0.3,
-							-0.15
-						],
-						"humidity": [
-							-0.025,
-							0.385
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.135
-						],
-						"humidity": [
-							-0.025,
-							0.2475
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:prismarine_forest",
-					"parameters": {
-						"temperature": [
-							-0.15,
-							0.735
-						],
-						"humidity": [
-							0.2475,
-							1
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.59
-						],
-						"humidity": [
-							-0.025,
-							0.11
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:prismarine_forest",
-					"parameters": {
-						"temperature": [
-							0.135,
-							0.445
-						],
-						"humidity": [
-							0.11,
-							1
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							0.445,
-							1
-						],
-						"humidity": [
-							0.11,
-							0.2475
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "fokastudio:chorus_jungle",
-					"parameters": {
-						"temperature": [
-							0.59,
-							1
-						],
-						"humidity": [
-							-0.025,
-							0.11
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
-						],
-						"weirdness": [
-							-1,
-							1
-						],
-						"depth": [
-							0,
-							0
-						],
-						"offset": 0
-					}
-				},
-				{
-					"biome": "far_end:amethyst_forest",
-					"parameters": {
-						"temperature": [
-							0.735,
-							1
-						],
-						"humidity": [
-							0.2475,
-							0.385
-						],
-						"continentalness": [
-							0.8,
-							1
-						],
-						"erosion": [
-							-0.375,
-							0.05
 						],
 						"weirdness": [
 							-1,
@@ -17520,8 +8760,8 @@
 							1
 						],
 						"depth": [
-							0.75,
-							1.1
+							-1.1,
+							-0.15
 						],
 						"offset": 0
 					}

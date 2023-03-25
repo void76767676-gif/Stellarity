@@ -13,3 +13,5 @@ execute as @e[type=ender_dragon] at @s run function fokastudio:end/mobs/dragon/m
 
 # Gloop Froggo protection
 execute as @e[type=slime,tag=foka.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true
+
+execute as @e[type=zombified_piglin,tag=!foka.aware,tag=!foka.flesh_piglin,predicate=fokastudio:end/locations/biomes/in_flesh_tundra] run function fokastudio:end/mobs/flesh_piglin/convert
