@@ -39,7 +39,7 @@
 		},
 		{
 			"type": "random_offset",
-			"y_spread": 2,
+			"y_spread": 1,
 			"xz_spread": 0
 		}
 	]

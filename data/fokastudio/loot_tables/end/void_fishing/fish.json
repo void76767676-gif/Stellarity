@@ -30,17 +30,6 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "fokastudio:end/void_fishing/drops/chorus_jungle",
-					"conditions": [
-						{
-							"condition": "minecraft:reference",
-							"name": "fokastudio:end/locations/biomes/in_chorus_jungle"
-						}
-					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 30,
 					"name": "fokastudio:end/void_fishing/drops/flesh_tundra",
 					"conditions": [
 						{
@@ -57,10 +46,6 @@
 						{
 							"condition": "minecraft:alternative",
 							"terms": [
-								{
-									"condition": "minecraft:reference",
-									"name": "fokastudio:end/locations/biomes/in_snowy_warped_forest"
-								},
 								{
 									"condition": "minecraft:reference",
 									"name": "fokastudio:end/locations/biomes/in_frosted_hills"
@@ -80,10 +65,6 @@
 								{
 									"condition": "minecraft:reference",
 									"name": "fokastudio:end/locations/biomes/in_end_midlands"
-								},
-								{
-									"condition": "minecraft:reference",
-									"name": "fokastudio:end/locations/biomes/in_the_end"
 								},
 								{
 									"condition": "minecraft:reference",

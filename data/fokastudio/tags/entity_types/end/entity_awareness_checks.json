@@ -4,6 +4,7 @@
 		"#fokastudio:end/ammo",
 		"wandering_trader",
 		"allay",
-		"zombified_piglin"
+		"zombified_piglin",
+		"#fokastudio:end/stat_buff"
 	]
 }

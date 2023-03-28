@@ -409,7 +409,6 @@
 					"type": "minecraft:biome",
 					"biome_is": [
 						"minecraft:end_highlands",
-						"fokastudio:chorus_jungle",
 						"far_end:amethyst_forest",
 						"fokastudio:prismarine_forest",
 						"fokastudio:the_hallow"
@@ -518,9 +517,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:frosted_hills",
-						"fokastudio:snowy_warped_forest",
-						"fokastudio:snowy_crimson_forest"
+						"fokastudio:frosted_hills"
 					]
 				},
 				"then_run": {
@@ -705,32 +702,6 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:snowy_warped_forest",
-						"fokastudio:snowy_crimson_forest"
-					]
-				},
-				"then_run": {
-					"type": "minecraft:condition",
-					"if_true": {
-						"type": "minecraft:stone_depth",
-						"offset": 0,
-						"surface_type": "floor",
-						"add_surface_depth": true,
-						"secondary_depth_range": 4
-					},
-					"then_run": {
-						"type": "minecraft:block",
-						"result_state": {
-							"Name": "minecraft:snow_block"
-						}
-					}
-				}
-			},
-			{
-				"type": "minecraft:condition",
-				"if_true": {
-					"type": "minecraft:biome",
-					"biome_is": [
 						"fokastudio:sculk_growth"
 					]
 				},
@@ -816,9 +787,7 @@
 						"if_true": {
 							"type": "minecraft:biome",
 							"biome_is": [
-								"fokastudio:snowy_warped_forest",
-								"far_end:flesh_tundra",
-								"fokastudio:snowy_crimson_forest"
+								"far_end:flesh_tundra"
 							]
 						},
 						"then_run": {

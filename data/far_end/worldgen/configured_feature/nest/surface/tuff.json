@@ -6,10 +6,10 @@
 			"type": "minecraft:uniform",
 			"value": {
 				"min_inclusive": 1,
-				"max_inclusive": 3
+				"max_inclusive": 2
 			}
 		},
-		"vertical_range": 1,
+		"vertical_range": 3,
 		"extra_bottom_block_chance": 0.5,
 		"extra_edge_column_chance": 0.5,
 		"vegetation_chance": 0.05,
@@ -20,12 +20,12 @@
 				"max_inclusive": 5
 			}
 		},
-		"replaceable": "#fokastudio:end/the_nest/basalt",
+		"replaceable": "#far_end:end_stone",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 2,
+					"weight": 4,
 					"data": {
 						"Name": "minecraft:end_stone"
 					}

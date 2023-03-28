@@ -62,10 +62,10 @@
 		[],
 		[
 			"minecraft:chorus_plant",
-			"fokastudio:shattered_end/leaves"
+			"fokastudio:small_end_islands/leaves"
 		],
 		[
-			"fokastudio:shattered_end/bricks_scattered",
+			"fokastudio:small_end_islands/bricks_scattered",
 			"fokastudio:structures/end/dungeon"
 		]
 	]

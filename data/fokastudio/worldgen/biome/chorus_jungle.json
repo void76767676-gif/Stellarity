@@ -3,43 +3,15 @@
 	"downfall": 0.5,
 	"has_precipitation": false,
 	"effects": {
-		"sky_color": 6297194,
-		"fog_color": 4853627,
-		"water_color": 9462455,
-		"water_fog_color": 5192093,
-		"grass_color": 7945615,
-		"foliage_color": 6766727,
-		"mood_sound": {
-			"sound": "ambient.crimson_forest.mood",
-			"tick_delay": 700,
-			"block_search_extent": 8,
-			"offset": 2
-		},
-		"additions_sound": {
-			"sound": "ambient.underwater.loop.additions.ultra_rare",
-			"tick_chance": 0.0003
-		},
-		"particle": {
-			"options": {
-				"type": "crimson_spore"
-			},
-			"probability": 0.015
-		}
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 0,
+		"water_fog_color": 0,
+		"grass_color": 0,
+		"foliage_color": 0
 	},
 	"spawners": {
 		"monster": [
-			{
-				"type": "minecraft:enderman",
-				"weight": 20,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:spider",
-				"weight": 30,
-				"minCount": 3,
-				"maxCount": 3
-			}
 		],
 		"creature": [],
 		"ambient": [],
@@ -49,22 +21,8 @@
 		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			 
- 			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
-		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
-			"far_end:wilds/island/hanging_leaves"
-		],
-		[
-			"fokastudio:chorus_jungle/patches"
-		],
 		[],
 		[],
 		[],
@@ -72,12 +30,9 @@
 		[],
 		[],
 		[],
-		[
-			"fokastudio:chorus_jungle/vines",
-			"fokastudio:shattered_end/leaves",
-			"fokastudio:chorus_jungle/trees",
-			"fokastudio:chorus_jungle/vegetation"
-		],
+		[],
+		[],
+		[],
 		[]
 	]
 }

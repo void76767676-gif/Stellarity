@@ -7,10 +7,6 @@
 		},
 		{
 			"condition": "minecraft:reference",
-			"name": "fokastudio:end/locations/biomes/in_the_end"
-		},
-		{
-			"condition": "minecraft:reference",
 			"name": "fokastudio:end/locations/biomes/in_the_nest"
 		},
 		{
@@ -20,10 +16,6 @@
 		{
 			"condition": "minecraft:reference",
 			"name": "fokastudio:end/locations/biomes/in_ender_waste"
-		},
-		{
-			"condition": "minecraft:reference",
-			"name": "fokastudio:end/locations/biomes/in_shattered_end"
 		}
 	]
 }

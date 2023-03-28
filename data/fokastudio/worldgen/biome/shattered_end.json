@@ -4,61 +4,25 @@
 	"has_precipitation": false,
 	"effects": {
 		"sky_color": 0,
-		"fog_color": 10518688,
-		"water_color": 13198446,
-		"water_fog_color": 11871818,
-		"grass_color": 13198446,
-		"foliage_color": 14237542,
-		"mood_sound": {
-			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 700,
-			"block_search_extent": 8,
-			"offset": 2
-		},
-		"additions_sound": {
-			"sound": "ambient.nether_wastes.additions",
-			"tick_chance": 0.005
-		},
-		"particle": {
-			"options": {
-				"type": "white_ash"
-			},
-			"probability": 0.0004
-		}
+		"fog_color": 0,
+		"water_color": 0,
+		"water_fog_color": 0,
+		"grass_color": 0,
+		"foliage_color": 0
 	},
 	"spawners": {
 		"monster": [
-			{
-				"type": "minecraft:phantom",
-				"weight": 16,
-				"minCount": 1,
-				"maxCount": 2
-			},
-			{
-				"type": "minecraft:enderman",
-				"weight": 20,
-				"minCount": 4,
-				"maxCount": 4
-			}
-		]
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			 
- 			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
-		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
-			"minecraft:end_island_decorated",
-			"fokastudio:shattered_end/holes",
-			"fokastudio:shattered_end/holes_top",
-			"fokastudio:shattered_end/shatter"
-		],
 		[],
 		[],
 		[],
@@ -67,12 +31,8 @@
 		[],
 		[],
 		[],
-		[
-			"minecraft:chorus_plant",
-			"fokastudio:shattered_end/leaves"
-		],
-		[
-			"fokastudio:shattered_end/bricks_scattered"
-		]
+		[],
+		[],
+		[]
 	]
 }

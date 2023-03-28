@@ -23,7 +23,7 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 40,
+					"weight": 58,
 					"data": {
 						"Name": "minecraft:dark_oak_leaves",
 						"Properties": {
@@ -34,7 +34,7 @@
 					}
 				},
 				{
-					"weight": 7,
+					"weight": 4,
 					"data": {
 						"Name": "minecraft:purpur_block"
 					}

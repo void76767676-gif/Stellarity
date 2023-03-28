@@ -33,9 +33,9 @@
 					0.278,
 					1
 				],
-				"scale": 1.333
+				"scale": 1.15
 			},
-			"probability": 0.00512
+			"probability": 0.00211
 		}
 	},
 	"spawners": {
@@ -45,18 +45,6 @@
 				"weight": 33,
 				"minCount": 4,
 				"maxCount": 4
-			},
-			{
-				"type": "minecraft:vex",
-				"weight": 1,
-				"minCount": 1,
-				"maxCount": 2
-			},
-			{
-				"type": "minecraft:witch",
-				"weight": 12,
-				"minCount": 2,
-				"maxCount": 2
 			}
 		]
 	},
@@ -69,7 +57,9 @@
 		[],
 		[
 			"far_end:amethyst/geode/amethyst",
-			"far_end:amethyst/rock/tuff"
+			"far_end:amethyst/rock/tuff",
+			"far_end:amethyst/vegetation/patch_crying_obsidian",
+			"fokastudio:amethyst/dirt"
 		],
 		[],
 		[],
@@ -78,11 +68,11 @@
 		[],
 		[],
 		[
+			"fokastudio:amethyst/trees",
 			"far_end:amethyst/vegetation/amethyst",
 			"far_end:amethyst/vegetation/flower",
 			"far_end:amethyst/vegetation/patch_grass",
-			"far_end:amethyst/vegetation/patch_crying_obsidian",
-			"fokastudio:amethyst/trees"
+			"fokastudio:amethyst/roots"
 		],
 		[]
 	]

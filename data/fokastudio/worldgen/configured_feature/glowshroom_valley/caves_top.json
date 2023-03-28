@@ -39,10 +39,7 @@
 							}
 						}
 					],
-					"default": {
-						"feature": "fokastudio:chorus_jungle/vines",
-						"placement": []
-					}
+					"default": "far_end:nothing"
 				}
 			},
 			"placement": []

@@ -13,6 +13,6 @@
 		}
 	},
 	"rewards": {
-		"function": "fokastudio:end/mobs/endermite/attack_sound"
+		"function": "fokastudio:end/mobs/endermite/attack"
 	}
 }

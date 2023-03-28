@@ -98,32 +98,12 @@
 				}
 			}
 		},
-		"chorus_jungle": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "fokastudio:chorus_jungle"
-					}
-				}
-			}
-		},
 		"glowshroom_valley": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"location": {
 						"biome": "fokastudio:glowshroom_valley"
-					}
-				}
-			}
-		},
-		"shattered_end": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "fokastudio:shattered_end"
 					}
 				}
 			}
@@ -158,16 +138,6 @@
 				}
 			}
 		},
-		"the_end": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "minecraft:the_end"
-					}
-				}
-			}
-		},
 		"small_end_islands": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -194,26 +164,6 @@
 				"player": {
 					"location": {
 						"biome": "fokastudio:frosted_hills"
-					}
-				}
-			}
-		},
-		"snowy_warped_forest": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "fokastudio:snowy_warped_forest"
-					}
-				}
-			}
-		},
-		"snowy_crimson_forest": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "fokastudio:snowy_crimson_forest"
 					}
 				}
 			}
@@ -269,16 +219,10 @@
 			"blazing_dunes"
 		],
 		[
-			"chorus_jungle"
-		],
-		[
 			"prismarine_forest"
 		],
 		[
 			"glowshroom_valley"
-		],
-		[
-			"shattered_end"
 		],
 		[
 			"end_highlands"
@@ -303,12 +247,6 @@
 		],
 		[
 			"frosted_hills"
-		],
-		[
-			"snowy_warped_forest"
-		],
-		[
-			"snowy_crimson_forest"
 		],
 		[
 			"warped_marsh"

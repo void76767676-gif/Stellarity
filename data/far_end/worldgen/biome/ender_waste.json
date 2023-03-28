@@ -9,7 +9,6 @@
 		"water_fog_color": 329011,
 		"grass_color": 4601422,
 		"foliage_color": 5191246,
-		"ambient_sound": "ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.cave",
 			"tick_delay": 1100,
@@ -32,16 +31,10 @@
 				"maxCount": 4
 			},
 			{
-				"type": "minecraft:silverfish",
-				"weight": 10,
-				"minCount": 3,
-				"maxCount": 3
-			},
-			{
 				"type": "minecraft:skeleton",
-				"weight": 17,
-				"minCount": 4,
-				"maxCount": 4
+				"weight": 7,
+				"minCount": 2,
+				"maxCount": 3
 			}
 		],
 		"creature": [],
@@ -56,24 +49,20 @@
 	"features": [
 		[
 			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2"
+			"fokastudio:wastes/hills"
 		],
 		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
 		[
-			"fokastudio:wastes/shatter",
-			"fokastudio:wastes/patches"
-		],
-		[
-			"fokastudio:wastes/dead_tree",
-			"fokastudio:wastes/tree",
 			"far_end:waste/chorus_plant"
 		],
-		[],
-		[],
-		[],
-		[],
-		[],
 		[
+			"fokastudio:small_end_islands/bricks_scattered",
 			"fokastudio:structures/end/dungeon"
 		]
 	]

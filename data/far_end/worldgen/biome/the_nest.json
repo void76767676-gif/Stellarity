@@ -4,17 +4,15 @@
 	"has_precipitation": false,
 	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 16636149,
+		"sky_color": 0,
+		"fog_color": 0,
 		"water_color": 5855577,
 		"water_fog_color": 3355443,
 		"grass_color": 8882055,
 		"foliage_color": 9079434,
-		"grass_color_modifier": "none",
-		"ambient_sound": "ambient.basalt_deltas.loop",
 		"mood_sound": {
-			"sound": "ambient.crimson_forest.mood",
-			"tick_delay": 500,
+			"sound": "ambient.basalt_deltas.mood",
+			"tick_delay": 2400,
 			"block_search_extent": 6,
 			"offset": 1
 		},
@@ -24,9 +22,9 @@
 		},
 		"particle": {
 			"options": {
-				"type": "minecraft:ash"
+				"type": "minecraft:white_ash"
 			},
-			"probability": 0.05
+			"probability": 0.01
 		}
 	},
 	"spawners": {
@@ -34,30 +32,36 @@
 			{
 				"type": "minecraft:wither_skeleton",
 				"weight": 80,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 2,
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:skeleton",
 				"weight": 90,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 2,
+				"maxCount": 2
 			},
 			{
 				"type": "minecraft:silverfish",
 				"weight": 40,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 3,
+				"maxCount": 3
 			}
 		]
 	},
 	"spawn_costs": {},
-	"carvers": {},
+	"carvers": {
+		"air": [
+			 
+ 			"fokastudio:end/ravine",
+			"fokastudio:end/crack",
+			"fokastudio:end/the_nest/cave"
+		]
+	},
 	"features": [
 		[
 			"fokastudio:global/stalactite_1",
 			"fokastudio:global/stalactite_2",
-			"far_end:nest/island/end_stone_bottom",
 			"far_end:nest/hills/deepslate",
 			"far_end:nest/surface/tuff"
 		],
@@ -74,7 +78,6 @@
 		],
 		[],
 		[
-			"fokastudio:nest/replace_blocks",
 			"fokastudio:nest/transition"
 		]
 	]

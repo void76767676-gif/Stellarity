@@ -143,3 +143,6 @@ schedule function fokastudio:end/loops/10_second 10s append
 
 # Initialize RNG
 function fokastudio:end/utils/rng/init
+
+# Get world difficulty
+execute store result score #difficulty foka.misc run difficulty
