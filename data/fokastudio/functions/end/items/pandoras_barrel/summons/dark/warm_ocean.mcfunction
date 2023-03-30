@@ -6,7 +6,6 @@ summon drowned ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon drowned ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon guardian ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon guardian ~ ~ ~
-execute if predicate fokastudio:end/utils/chance/25percent run summon guardian ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/7percent run summon elder_guardian ~ ~ ~
 
 

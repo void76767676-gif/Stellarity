@@ -8,5 +8,5 @@ particle minecraft:shriek 30 ~ ~ ~
 
 effect give @a[distance=..24] darkness 30 0 true
 
-playsound minecraft:ambient.cave block @a ~ ~ ~ 1 1
+playsound minecraft:ambient.cave block @a ~ ~ ~ 3 1
 playsound minecraft:block.sculk_shrieker.shriek block @a ~ ~ ~ 1 1

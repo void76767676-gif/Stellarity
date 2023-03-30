@@ -5,21 +5,21 @@
 	"temperature_modifier": "none",
 	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 12638463,
+		"sky_color": 0,
+		"fog_color": 0,
 		"water_color": 4445678,
 		"water_fog_color": 270131,
 		"grass_color": 16767000,
 		"foliage_color": 16767000,
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 1350,
+			"tick_delay": 1000,
 			"block_search_extent": 2,
-			"offset": 100
+			"offset": 1
 		},
 		"additions_sound": {
 			"sound": "ambient.soul_sand_valley.additions",
-			"tick_chance": 0.00111
+			"tick_chance": 0.0111
 		},
 		"particle": {
 			"options": {
@@ -32,15 +32,15 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 7,
+				"weight": 15,
 				"minCount": 4,
 				"maxCount": 4
 			},
 			{
 				"type": "minecraft:skeleton",
 				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 3,
+				"maxCount": 3
 			}
 		]
 	},

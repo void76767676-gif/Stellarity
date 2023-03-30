@@ -63,6 +63,6 @@ execute as @e[type=armor_stand,tag=foka.pandoras_barrel.armor_stand] at @s posit
 
 # Tamaris
 execute as @e[type=!#fokastudio:end/invalid_targets,tag=foka.items.tamaris.executable] at @s anchored eyes rotated ~ 0 positioned ^ ^1.5 ^ run function fokastudio:end/items/tamaris/execute/indicator
-execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..10,limit=1,sort=nearest,tag=foka.items.tamaris.executable] run function fokastudio:end/items/tamaris/holding_loop
+execute as @a[predicate=fokastudio:end/items/holding_tamaris] at @s if entity @e[type=!#fokastudio:end/invalid_targets,distance=..16,limit=1,sort=nearest,tag=foka.items.tamaris.executable] run function fokastudio:end/items/tamaris/holding_loop
 execute as @a[tag=foka.items.tamaris.doing_execute] at @s run function fokastudio:end/items/tamaris/execute/animation/progress
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.tamaris.execute_cooldown=1..}] run function fokastudio:end/items/tamaris/execute/cooldown_countdown

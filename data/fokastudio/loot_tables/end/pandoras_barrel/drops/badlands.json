@@ -14,8 +14,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 5,
-								"max": 9
+								"min": 3,
+								"max": 5
 							},
 							"add": false
 						}
@@ -30,8 +30,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 6
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -45,8 +45,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 5
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -60,8 +60,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 6
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -71,21 +71,6 @@
 					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:deepslate_gold_ore",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:gold_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -101,21 +86,6 @@
 					"type": "minecraft:item",
 					"weight": 10,
 					"name": "minecraft:raw_gold",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 1,
-					"name": "minecraft:raw_gold_block",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -136,7 +106,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}

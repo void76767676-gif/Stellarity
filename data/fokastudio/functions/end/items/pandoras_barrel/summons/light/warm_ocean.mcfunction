@@ -4,8 +4,6 @@ execute if predicate fokastudio:end/utils/chance/15percent run loot spawn ~ ~ ~ 
 summon tropical_fish ~ ~ ~
 summon tropical_fish ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon tropical_fish ~ ~ ~
-execute if predicate fokastudio:end/utils/chance/25percent run summon tropical_fish ~ ~ ~
-execute if predicate fokastudio:end/utils/chance/25percent run summon pufferfish ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon pufferfish ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/25percent run summon dolphin ~ ~ ~
 

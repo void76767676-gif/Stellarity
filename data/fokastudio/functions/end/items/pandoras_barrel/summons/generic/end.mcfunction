@@ -3,8 +3,6 @@ execute if predicate fokastudio:end/utils/chance/35percent run loot spawn ~ ~ ~ 
 
 summon enderman ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/40percent run summon enderman ~ ~ ~
-execute if predicate fokastudio:end/utils/chance/40percent run summon enderman ~ ~ ~
-execute if predicate fokastudio:end/utils/chance/40percent run summon phantom ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/40percent run summon phantom ~ ~ ~
 execute if predicate fokastudio:end/utils/chance/40percent run summon phantom ~ ~ ~
 

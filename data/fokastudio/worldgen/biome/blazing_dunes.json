@@ -4,7 +4,7 @@
 	"has_precipitation": false,
 	"effects": {
 		"sky_color": 0,
-		"fog_color": 1710618,
+		"fog_color": 0,
 		"water_color": 13068800,
 		"water_fog_color": 10704640,
 		"grass_color": 11674660,

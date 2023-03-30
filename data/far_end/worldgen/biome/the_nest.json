@@ -12,13 +12,13 @@
 		"foliage_color": 9079434,
 		"mood_sound": {
 			"sound": "ambient.basalt_deltas.mood",
-			"tick_delay": 2400,
-			"block_search_extent": 6,
+			"tick_delay": 1600,
+			"block_search_extent": 5,
 			"offset": 1
 		},
 		"additions_sound": {
 			"sound": "ambient.basalt_deltas.additions",
-			"tick_chance": 0.0025
+			"tick_chance": 0.0033
 		},
 		"particle": {
 			"options": {

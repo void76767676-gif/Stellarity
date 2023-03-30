@@ -5,8 +5,8 @@
 	"temperature_modifier": "none",
 	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 12638463,
+		"sky_color": 0,
+		"fog_color": 0,
 		"water_color": 10672615,
 		"water_fog_color": 6798273,
 		"grass_color": 117978,
@@ -15,7 +15,7 @@
 			"sound": "ambient.warped_forest.mood",
 			"tick_delay": 600,
 			"block_search_extent": 4,
-			"offset": 100
+			"offset": 1
 		},
 		"additions_sound": {
 			"sound": "ambient.warped_forest.additions",

@@ -14,7 +14,7 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
+								"min": 2,
 								"max": 5
 							},
 							"add": false
@@ -29,8 +29,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 7
+								"min": 2,
+								"max": 3
 							},
 							"add": false
 						}
@@ -44,8 +44,8 @@
 						{
 							"function": "set_count",
 							"count": {
-								"min": 5,
-								"max": 8
+								"min": 3,
+								"max": 5
 							},
 							"add": false
 						}
@@ -59,8 +59,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 5,
-								"max": 8
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}
@@ -68,7 +68,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:spore_blossom",
 					"functions": [
 						{
@@ -116,8 +116,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 7
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -131,8 +131,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 6,
-								"max": 11
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}
@@ -146,8 +146,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 6,
-								"max": 11
+								"min": 3,
+								"max": 6
 							},
 							"add": false
 						}

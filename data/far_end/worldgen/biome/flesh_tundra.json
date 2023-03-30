@@ -3,18 +3,17 @@
 	"downfall": 0.4,
 	"has_precipitation": false,
 	"effects": {
-		"sky_color": 7907327,
-		"fog_color": 7667712,
+		"sky_color": 0,
+		"fog_color": 0,
 		"water_color": 16711680,
 		"water_fog_color": 16711680,
 		"grass_color": 12860219,
 		"foliage_color": 12860219,
-		"ambient_sound": "ambient.crimson_forest.loop",
 		"mood_sound": {
-			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 1800,
+			"sound": "ambient.crimson_forest.mood",
+			"tick_delay": 1200,
 			"block_search_extent": 6,
-			"offset": 4
+			"offset": 2
 		},
 		"additions_sound": {
 			"sound": "ambient.warped_forest.additions",

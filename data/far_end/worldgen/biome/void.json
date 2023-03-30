@@ -4,16 +4,15 @@
 	"has_precipitation": false,
 	"creature_spawn_probability": 0,
 	"effects": {
-		"sky_color": 7907327,
+		"sky_color": 0,
 		"fog_color": 0,
 		"water_color": 6443678,
 		"water_fog_color": 4405100,
 		"grass_color": 5782142,
 		"foliage_color": 6240114,
-		"grass_color_modifier": "none",
 		"mood_sound": {
 			"sound": "minecraft:ambient.nether_wastes.mood",
-			"tick_delay": 1000,
+			"tick_delay": 800,
 			"block_search_extent": 6,
 			"offset": 2
 		},
