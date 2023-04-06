@@ -4,7 +4,16 @@
 
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Prismatic Punch** is a post-Dragon crossbow that transforms any ammo into slow, but powerful Prismatic Blasts that home in on enemies, exploding when they come into contact with one.
+**Prismatic Punch** is a post-Empress crossbow that converts arrows into slow, powerful Prismatic Blasts that home in on enemies, exploding when they come into contact with them.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Prismatic Punch can be enchanted with any Crossbow enchantment. Both Multishot and Piercing empower its Blasts in different ways.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Prismatic Punch can be repaired by fusing it with a different <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
@@ -27,7 +36,11 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>Fired Arrows are converted to Prismatic Blasts, creating fancy explosion when they hit something<br><br>Developer Item</td>
+		<td>Converts Arrows to Prismatic Blasts
+		<br>
+		that produce colorful explosions on hit
+		<br><br>
+		<span style="color: #BA02D7;">- Developer Item -</span></td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>
@@ -38,30 +51,31 @@
 </div>
 
 ## Obtaining
-Prismatic Punch can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds. The Crossbow used to craft this weapon will have its special properties *(like enchantments)* removed in process.
+Prismatic Punch is dropped by the Empress of Light.
 
 ## Usage
-Upon shooting, Prismatic Punch will transform any Arrow into a powerful Prismatic Blast. They are slow and deccelerate over timespan of 10 seconds until stopping completely. After stopping they will linger in place for about 15 more second until they self-detonate. They also bounce off walls.
+Prismatic Punch transforms any shot Arrow into a powerful Prismatic Blast. They are slow and deccelerate over a timespan of 20 seconds until detonating. They also bounce off walls.
 
 Prismatic Blasts gain a huge speed bonus when an enemy is nearby, which they will target and home onto, detonating on contact.
  
-Explosions deal varying amounts of damage, between 4:heart::heart: and 10:heart::heart::heart::heart::heart: damage, with a bit of splash damage as well.
+Explosions deal varying damage, between 4:heart::heart: and 10:heart::heart::heart::heart::heart: damage, with a bit of splash damage as well.
 
-Multishot enchantment causes 3 different-colored blasts to be shot in a 70° cone.
+Multishot enchantment causes 3 different-colored blasts to be shot in a 50° cone. Piercing will cause blasts to sometimes create secondary explosions on other nearby entities, with the max amount of affected mobs being directly defined by the enchantment level.
 
 ## Tips 
 - Use regular Arrows with this weapon, since it converts ALL ammo into Blasts. Using Spectral/Tipped Arrows is a waste of ammo.
 - Explosions can hurt <u>you</u> if you stand too close to your target. Keep your distance.
 - Accuracy is not the most important thing, since Blasts will home on its targets. Be careful though, as Blasts tend to target different mobs than the ones you want!
-- Prismatic Blasts do not home onto players in PvP, but they can still hurt them.
-- It is better if all three Multishot Blasts hit different targets, as immunity frames effectively prevent them from stacking damage on a single enemy.
-- Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) or End Crystals.
+- Prismatic Blasts do not home onto players in PvP, but they can still hurt them if a player happened to step into them.
+- Explosions from Prismatic Punch ignore invulnerability frames.
+- Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) and End Crystals.
 
 ## Trivia
 - This is first Developer Item to get added into FSEE.
 - This is the second Crossbow to get added, first being the [Clockwork Crossbow](clockwork_crossbow.md).
-- According to YaGirlGiulles *(artist, who made the textures for this item)*, the color palette is based around trans pride flag[^1].
+- According to one of Ender Expansion's texture artists - YaGirlGiulles - the color palette is based on trans pride flag[^1].
     - They are also a reference to colors of [Last Prism](https://terraria.wiki.gg/wiki/Last_Prism), a Terraria item.
+- During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
 
 ## History
 - **1.6a**

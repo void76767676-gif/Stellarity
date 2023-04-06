@@ -1,6 +1,15 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Sariel** is a post-Dragon dagger that can sometimes heal any nearby player on enemy hits.
+**Sariel** is a post-Dragon dagger that can sometimes spawn healing orbs on enemy hits. Healing orbs slowly fly towards the nearest player and heal them for 4:heart::heart: HP. Healing orbs won't spawn when players are damaged in PvP.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Sariel can be enchanted with any Sword enchantment.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Sariel can be repaired with <i class="icon-minecraft icon-minecraft-iron-ingot"></i>Iron Ingots.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
@@ -20,7 +29,10 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>A magical dagger that has a chance to heal any nearby player on enemy hits<br><br><i>'Now Until the Moment You Die'</i></td>
+		<td>Has a chance to heal
+		<br>
+		any nearby player on attacks
+		<br><br><i>'Now Until the Moment You Die'</i></td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>

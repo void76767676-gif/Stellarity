@@ -1,6 +1,15 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Sabrewing** is a post-Dragon bow that can supercharge shots for extreme damage, but it takes some time to reach maximum damage.
+**Sabrewing** is a post-Dragon bow with the ability to supercharge shots for massively increased damage and arrow velocity.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Sabrewing can be enchanted with any Bow enchantment.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Prismatic Punch can be repaired by fusing it with a different <i class="icon-minecraft icon-minecraft-bow"></i>Bow.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
@@ -19,17 +28,21 @@
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Extremely Slow</td>
+		<td>Slow</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
 		<td>
-			Supercharge your shots to deal massive damage<br><br><i>'It might be broken'</i>
+			Supercharge your shots
+			<br>
+			for increased damage and velocity
+			<br><br>
+			<i>'It might be broken'</i>
 		</td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>
-		<td>496</td>
+		<td>504</td>
 	</tr>
 </table>
 </div>
@@ -37,24 +50,25 @@
 
 ## Obtaining
 Sabrewing can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining a regular <i class="icon-minecraft icon-minecraft-bow"></i>Bow, 10 <i class="icon-minecraft icon-minecraft-feather"></i>Feathers, 12 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and a single <i class="icon-minecraft icon-minecraft-netherite-ingot
-"></i>Netherite Bar. The enchantments from the <i class="icon-minecraft icon-minecraft-bow"></i>Bow used to craft it will be transferred.
+"></i>Netherite Bar. The enchantments from the <i class="icon-minecraft icon-minecraft-bow"></i>Bow used to craft it will be safely transferred to the outcome item.
 
 ## Usage
-With Sabrewing, players can choose to supercharge their shot by drawing it for a total of 3 seconds. Supercharging will directly increase arrow velocity and damage by 33% and will also treat the bow as having 3 extra levels of Power enchantment. This means that supercharging an unenchanted Sabrewing will make arrows deal a 1/3 more damage than ones shot from a Power III Bow.
+With Sabrewing, players can choose to supercharge their shot by drawing it for a total of 2 seconds. Supercharging will directly increase arrow velocity and damage by 60%. Arrows will also gain the ability to pierce through 1 mob to hit another one directly behind it. However, shot arrows will combust after colliding with a block, making them irrecoverable.
 
-While charging Sabrewing, players move 25% slower. This effect goes away after 
+While charging Sabrewing, players move 25% slower compared to charging regular Bows.
 
 ## Tips
 - Stay at a safe distance and try to snipe all the targets. Due to its longer draw time, it is discouraged to use it in closer range battles.
+    - 60% more velocity means longer range, which further suggests sniping targets from a distance.
 
 ## Trivia
 - This item is based on Sabrewing from Minecraft: Dungeons.
-    - Surprisingly, its special ability isn't based on the weapon itself, but on an Enchant from this game - Dynamo.
-- Its tooltip is a reference to the fact that it has the ability to one shot almost everything with correct damage setup
+    - Surprisingly, its special ability isn't based on the weapon itself, but on enchantments from the game - Overcharge and Dynamo.
+- Its tooltip is a reference to the fact that during some time in development it had the ability take out every mob *(even bosses)* with Power V.
     - It is also a reference to FokaStudio's initial testing, where the item dealt about a 1000 damage per shot due to an oversight.
 - This items used to function differently some time during the development of 1.6a.
     - Its draw time used to be 15 seconds, and it applied a rising damage multiplier which scaled with it. Max multiplier was 9x.
-        - This was changed as Sabrewing's DPS was far smaller than any other end-game ranged weapon's.
+        - This was changed as even though the damage per hit was great, Sabrewing's DPS was inferior to any other end-game ranged weapon's.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |

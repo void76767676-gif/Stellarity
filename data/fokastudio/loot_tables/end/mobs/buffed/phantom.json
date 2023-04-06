@@ -100,8 +100,8 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance_with_looting",
-					"chance": 0.15,
-					"looting_multiplier": 0.015
+					"chance": 0.09,
+					"looting_multiplier": 0.01
 				},
 				{
 					"condition": "minecraft:location_check",

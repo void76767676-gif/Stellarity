@@ -1,6 +1,15 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
 **Clockwork Crossbow** is a modified variant of a Crossbow that is able to shoot as fast as you can right-click, but deals a bit less damage.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Clockwork Crossbow can be enchanted with any Crossbow enchantment. Due to it ignoring Crossbow charging, Quick Charge has a brand new effect.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Clockwork Crossbow can be repaired by fusing it with a different <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
@@ -24,17 +33,15 @@
 	<tr>
 		<td><b>Tooltip</b></td>
 		<td>
-		Shoots just as fast as you can click
+		Shoots incredibly fast
 		<br>
-		Fired arrows are converted to regular ones
+		but with reduced damage
 		<br>
-		and deal slightly less damage
+		Chance to save ammunition, increases
 		<br>
-		Has a chance to conserve Arrows
-		<br>
-		that increases with Quick Charge enchantment
+		with Quick Charge enchantment
 		<br><br>
-		<i>'Break your mouse, break someone's mouse, whatever'</i></td>
+		<i>'i'm not using auto!'</i></td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>
@@ -48,23 +55,20 @@
 Clockwork Crossbow has a chance to drop from Pillagers in [Strongholds](../structures/stronghold.md) with a 7% base chance. Each level of Looting increases the odds by 2%, up to a total of 13% with Looting III.
 
 ## Usage
-Holding Clockwork Crossbow in your hands will automatically load it, provided you have at least 1 Arrow in your inventory. Arrows will be stripped of its special properties (e.g. Spectral Arrows -> Arrows).
+Holding Clockwork Crossbow will automatically load it, provided there is at least 1 Arrow in player's inventory. Arrows will be stripped of all special properties (e.g. Spectral Arrows -> Arrows).
 
-There is a 40% chance to not consume any ammo upon loading. Quick Charge enchantment increases the odds by 7%, giving a maximum of 61% chance to save Arrows with Quick Charge III.
+There is a 50% chance to not consume any arrows upon loading. Quick Charge enchantment increases the odds by 7% per level, giving a maximum of 71% chance to save Arrows with Quick Charge III.
 
-Arrows shot by this weapon deal reduced damage compared to regular Crossbows, ranging from 5:heart: х ₂.₅ - 7:heart: х ₃.₅ with an average of 6:heart: х ₃ damage per shot. Additionally, they cannot be picked up once fired.
+Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked up once fired.
 
 ## Tips
+- Clockwork Crossbow loads itself every 6 ticks, meaning that on average it shoots about 3.33 Arrows per second.
+- Due to projectiles ignoring invulnerability ticks, fired Arrows will never `bounce off` the target dealing no damage.
+    - This effectively makes Multishot Clockwork Crossbow incredibly deadly up close, dealing triple damage.
 - All arrow types will be converted into regular Arrows, so save your stronger ammunition for use with other weapons.
-- It's low damage is compensated with an incredible attack speed, so DPS is even better than the one of a regular Crossbow.
-- This weapons can drain you of any Arrows really quickly! Make sure to enchant it with Quick Charge as soon as you can,
-- Due to how invincibilty frames work in Minecraft, some Arrows will bounce of enemies without dealing any damage, losing their damage potential in the process.
-    - Therefore, Piercing enchantment is better for general usage with Clockwork Crossbow, with Multishot being better for events like Raids or as a second chance to hit an enemy if your accuracy isn't the best.
-    - This is not an issue on Project: SMP, due to all projectiles inflicting no invulnerability frames at all.
 
 ## Trivia
 - This is the second ranged weapon to ever be added into FSEE, with first one being the [Sharanga](sharanga.md).
-- The tooltip is a reference to [tumblr](https://en.wikipedia.org/wiki/en:tumblr )'s old terms of service - `"Go nuts. Show nuts. Whatever."`
 - There are several unused textures for loading animation of Clockwork Crossbow, and one where it is loaded with a Firework instead of an Arrow.
 	- They cannot be seen in-game under any circumstances.
 
@@ -75,9 +79,12 @@ Arrows shot by this weapon deal reduced damage compared to regular Crossbows, ra
 
 ## History
 - **1.6a**
-    - Arrow damage nerfed (~8 -> ~7)
-    - Quick Charge now affects ammo conservation chance.
-    - Base ammo conservation chance increased (33% -> 40%)
+    - Arrow damage nerfed (~8 -> 3)
+    - Quick Charge now affects ammo conservation chance
+    - Base ammo conservation chance increased (33% -> 50%)
     - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)
+    - Fired Arrows per second reduced (20 -> 3.33)
+    - Shot Arrows ignore invulnerability ticks
+    - Simplified item description and changed flavor text
 - **1.5b**
     - Introduced

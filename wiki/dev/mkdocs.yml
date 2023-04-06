@@ -7,11 +7,11 @@ repo_url: https://github.com/FokaStudio/FSEE
 repo_name: Ender Expansion on Github
 
 nav:
-  #- Home:
-  #  - Home: index.md
-  #  - Installation: installation.md
-  #  - Downloads: downloads.md
-  #  - Troubleshooting: troubleshooting.md
+  - Home:
+    - Home: index.md
+    - Installation: installation.md
+    - Downloads: downloads.md
+    - Troubleshooting: troubleshooting.md
   #- Biomes: 
   #  - biomes/index.md
   #  - The Hallow: biomes/the_hallow.md
@@ -25,7 +25,6 @@ nav:
     - Sariel: items/sariel.md
     - Sabrewing: items/sabrewing.md
     - Spirit Dagger: items/spirit_dagger.md
-    - Ancient Wooden Sword: items/ancient_wooden_sword.md
     - Tamaris: items/tamaris.md
   #  - Armor sets:
   #    - items/armor/index.md
@@ -35,7 +34,9 @@ nav:
     - Trinkets:
       - items/trinkets/index.md
       - Ender Insignia: items/trinkets/ender_insignia.md
+      - Crest of The End: items/trinkets/crest_of_the_end.md
       - Duskberry: items/trinkets/duskberry.md
+      - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
   #  - Other:
   #    - items/other/index.md
   #    - Pixie Dust: items/other/pixie_dust.md
@@ -91,9 +92,9 @@ markdown_extensions:
       alternate_style: true 
   - toc:
       permalink: true
-      title: On this page
+      title: Contents
 
-copyright: Copyright &copy FokaStudio; 2021 - 2021  
+copyright: Copyright &copy FokaStudio; 2021 - 2023
 
 plugins:
   - search:
@@ -123,7 +124,6 @@ theme:
     - navigation.top
     - navigation.tabs
     - content.tabs.link
-    - toc.follow
 
   palette:
 
@@ -200,9 +200,7 @@ extra:
     - icon: fontawesome/brands/reddit
       link: https://www.reddit.com/user/_FokaStudio_
       name: FokaStudio on Reddit
-  homepage: https://fokastudio.github.io/FSEE
   generator: true
-  #disquis: dungoneery
   analytics:
     provider: google
     property: G-FS9Q7QS72S

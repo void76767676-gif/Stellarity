@@ -15,26 +15,26 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								{
-									"translate": "foka.items.trinkest.ender_insignia.description.1",
+									"translate": "foka.items.trinkets.ender_insignia.description.1",
 									"fallback": "Increases life regeneration while sneaking",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "foka.items.trinkest.ender_insignia.description.2",
+									"translate": "foka.items.trinkets.ender_insignia.description.2",
 									"fallback": "Bonus starts weak and slowly increases",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "foka.items.trinkest.ender_insignia.description.3",
+									"translate": "foka.items.trinkets.ender_insignia.description.3",
 									"fallback": "Standing up or being hurt resets it",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
-									"translate": "foka.items.trinkest.ender_insignia.description.4",
+									"translate": "foka.items.trinkets.ender_insignia.description.4",
 									"fallback": "The Dragon's Power is withing your hands",
 									"color": "dark_purple",
 									"font": "illageralt",
@@ -46,7 +46,7 @@
 						{
 							"function": "minecraft:set_name",
 							"name": {
-								"translate": "foka.items.trinkest.ender_insignia",
+								"translate": "foka.items.trinkets.ender_insignia",
 								"fallback": "Ender Insignia",
 								"color": "#A25AFF",
 								"italic": false

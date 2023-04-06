@@ -5,6 +5,15 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
 **Zephyr** is a post-Dragon shortsword that expands movement agility by providing a small speed bonus while held on top of a larger bonus after killing enemies.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Zephyr can be enchanted with any Sword enchantment.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Zephyr can be repaired with <i class="icon-minecraft icon-minecraft-iron-ingot"></i>Iron Ingots.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">

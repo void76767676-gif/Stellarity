@@ -1,0 +1,23 @@
+{
+	"parent": "fokastudio:end/cursed_tome/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"structure": "minecraft:end_city"
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"requirement"
+		]
+	],
+	"rewards": {
+		"function": "fokastudio:end/items/cursed_tome/unlock/event"
+	}
+}

@@ -159,7 +159,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,foka.special_item:\"frigid_harvester\",HideFlags:6,foka.aery_sword.extra_damage:0d}"
+							"tag": "{CustomModelData:90001,foka.special_item:\"frigid_harvester\",HideFlags:6,foka.aery_sword.damage:0d}"
 						}
 					]
 				}

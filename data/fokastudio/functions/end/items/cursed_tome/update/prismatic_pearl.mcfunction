@@ -1,0 +1,3 @@
+data modify storage fokastudio:end/temp cursed_tome.data.[25] set value '[{"translate":"  Prismatic Pearl","bold":true,"color":"light_purple"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Ender Pearls exposed to the magic of The Hallow slowly lose their darkness. They have the ability to return to its thrower after a short period of time.","bold": false,"color": "black"}]'
+
+data modify storage fokastudio:end/temp cursed_tome.data.[26] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Dropped by the Empress of Light","bold":false}]'

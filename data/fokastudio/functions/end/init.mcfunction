@@ -137,6 +137,7 @@ schedule function fokastudio:end/loops/2_tick 2t append
 schedule function fokastudio:end/loops/3_tick 3t append
 schedule function fokastudio:end/loops/5_tick 5t append
 schedule function fokastudio:end/loops/6_tick 6t append
+schedule function fokastudio:end/loops/10_tick 10t append
 schedule function fokastudio:end/loops/1_second 1s append
 schedule function fokastudio:end/loops/5_second 5s append
 schedule function fokastudio:end/loops/10_second 10s append

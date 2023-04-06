@@ -1,7 +1,17 @@
 @font-face {
 	font-family: 'AmaticSC';
+    font-style: normal;
+	font-weight: normal;
 	src: url(../assets/fonts/AmaticSC.ttf);
 }
+
+@font-face {
+	font-family: 'Trebuchet MS';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../assets/fonts/trebuc.ttf);
+}
+
 
 :root {
     --md-primary-fg-color: #ab47bd;
@@ -20,6 +30,8 @@
     --md-code-hl-color: rgba(66,135,255,0.15);
 
     --foka-bg-darken: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66));
+    --foka-bg-color: black;
+    --foka-toc-border: white;
 }
 
 
@@ -50,8 +62,8 @@ body::-webkit-scrollbar {
 }
 
 .md-content {
-    background-color: black;
-    border: black;
+    background-color: var(--foka-bg-color);
+    border: var(--foka-bg-color);
     border-radius: 10px;
     min-width: 71.5vw;
     margin-bottom: 50px;
@@ -81,7 +93,7 @@ h5, h6 {
     }
 }
 
-/* 
+/*
     Better anchors
 */
 .md-main a {
@@ -217,18 +229,6 @@ h2, h3, h4, h5, h6 {
     min-width: 100%;
 }
 
-/*
-    Enlarge logo a bit while hovering on it
-*/
-img[alt="logo"]:hover {
-    scale: 1.25;
-    transition-duration: 0.5s;
-}
-
-img[alt="logo"] {
-    transition-duration: 0.5s;
-}
-
 /* 
     Footer
 */
@@ -285,4 +285,32 @@ div.tabbed-labels:before {
 */
 .md-content ul {
     padding-left: 25px;
+}
+
+/*
+    A non-ugly font
+*/
+* {
+    font-family: 'Trebushet MS';
+}
+
+/*
+    Better table of contents
+*/
+.md-main .md-sidebar--secondary {
+    display: none;
+}
+
+.toc {
+    display: table;
+    padding: 15px;
+    border: 1px solid var(--foka-toc-border);
+    border-radius: 5px;
+    background-color: var(--foka-bg-color);
+    font-size: 95%;
+}
+
+.toc ul {
+    padding-left: 12.5px !important;
+    list-style: upper-roman;
 }

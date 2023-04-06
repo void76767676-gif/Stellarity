@@ -1,0 +1,3 @@
+data modify storage fokastudio:end/temp cursed_tome.data.[15] set value '[{"translate":"   Spirit Dagger","bold":true,"color":"#8AE0E5"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"This weapon won\'t work just by itself. If two are used simultaneously, attacks will attract lost Spirits, which then wielder can consume to get various buffs for a short time.","bold": false,"color": "black"}]'
+
+data modify storage fokastudio:end/temp cursed_tome.data.[16] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"Rare drop from Phantoms in the Outer End.","bold": false,"color":"black"}]'

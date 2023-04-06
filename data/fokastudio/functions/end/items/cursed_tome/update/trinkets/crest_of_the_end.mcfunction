@@ -1,0 +1,3 @@
+data modify storage fokastudio:end/temp cursed_tome.data.[35] set value '[{"translate":" Crest of The End","bold":true,"color":"#9936D6"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Sturdy and Durable, this shield is filled with destructive Dragon Rage, absorbing a chunk of damage into itself to empower its user next melee attack.","bold": false,"color": "black"}]'
+
+data modify storage fokastudio:end/temp cursed_tome.data.[36] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"66% chance to be dropped by the Ender Dragon.","bold": false,"color":"black"}]'

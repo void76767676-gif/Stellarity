@@ -1,6 +1,14 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Dragonblade** is a post-Dragon greatsword with an ability that can trigger a powerful punch. Punches deal heavy damage which ignores a substantial part of enemy defense.
+**Dragonblade** is a post-Dragon greatsword with the ability to trigger a powerful punch after hitting a mob 3 times. Punches deal heavy damage which ignores a substantial amount of enemy defense.
+
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Dragonblade can be enchanted with any Sword enchantment. Knockback enchantment further empowers its punch ability.
+
+<i class="icon-minecraft icon-minecraft-anvil"></i> Dragonblade is unbreakable and cannot be repaired with an Anvil. However, <i class="icon-minecraft icon-minecraft-netherite-sword"></i>Netherite Swords can be combined with Dragonblade to transfer enchantments.
+
+<br><br>
+
+[TOC]
 
 </div>
 <div class="foka-infobox-table">
@@ -13,11 +21,11 @@
 	</tr>
 	<tr>
 		<td><b>Damage</b></td>
-		<td>5</i></td>
+		<td>6</td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Very Slow (0.9)<i></i></td>
+		<td>Slow (1)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -38,38 +46,33 @@
 </div>
 
 ## Obtaining
-After defeating the Ender Dragon for the very first time, a Dragonblade will spawn, stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed). It can be picked up by anyone with right-click.
+After defeating the Ender Dragon for the first time, the Dragonblade will spawn stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed). It can be picked up by anyone with right-click.
 
 Only one Dragonblade generates on each world, making it the rarest item in the entire datapack.
 
 ## Usage
-Hitting enemies will inflict *'Dragon Stacks'*. The amount of Stacks an enemy has is represented by a growing sphere above their head. After inflicting 3 Stacks, player can sneak for a moment to trigger a powerful punch. Applied Stacks are reset after 16 seconds.
+Hitting enemies will inflict *'Dragon Stacks'*. The amount of Stacks an enemy has is represented by a growing sphere above their head. After hitting a mob 3 times, a player can sneak to trigger a powerful punch. Stacks are reset after 16 seconds have passed without either a punch or another attack.
 
-Punching enemies warps them by 6.6 blocks, facing away from the player. Mobs won't be warped through blocks, stopping on them instead. They will also take 7:heart: х ₃.₅ damage, which is increased to 24:heart: х ₁₂ if punched into a wall. This damage ignores 25% of enemy defense, meaning that higher tier armor and enchantments won't reduce it as much as they would.
+Punching warps affected entity by 6.6 blocks, facing away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores a third of enemy armor, meaning that higher defense and enchantments will not protect from the damage as much as they would regularly do.
 
-Punched enemies will also be stunned for 3 seconds. being completely unable to move. Immobilization doesn't prevent jumping and fall damage. They are also afflicted with Weakness I for 7 seconds.
+Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stuns make mobs completely unable to move. Immobilization doesn't prevent jumping and fall damage.
 
-If an enemy is punched into blocks, neabry enemies will take 4:heart::heart: damage, also with 25% armor penetration.
+If an enemy is punched into blocks, the damage is boosted to 24:heart: x ₁₂. The duration of Weakness is boosted to 11 seconds and punched mobs are stunned for 2 seconds. Other enemies will take 4:heart::heart: splash damage, while also being afflicted with Weakness I for 3 seconds.
 
-**Knockback enchantmnet** increases Punch damage. Each level adds 1.5:heart: х ₃ ⁄₄ damage, or 4:heart::heart: if punched into blocks. Wall punch splash damage is increased by the same amount as base punch damage.
+Each level of **Knockback enchantment** enchances punch distance by 1.1 blocks while also increasing the damage. The increase per level is +1.5, +4 and +1.5 for regular, wall and splash type damage respectively.
 
-Punched mobs cannot be punched for the next 8.5 seconds, indicated by a cloud of dust above their head.
+Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indicated by a cloud of dust above their head.
 
 ## Tips
-- Don't be fooled by its awful base stats! The damage of the punches is enough to make its average DPS higher than any other end-gane melee weapon's!
 - Dragonblade is extremely slow compared to other weapons, meaning that accuracy is of high importance.
-- Spam-clicking the attack button will not work, as you need to deal at least 4:heart::heart: damage in one swing to apply Dragon Stacks.
-    - This means that enchanting Dragonblade with Sharpness might not be a bad idea, since you will reach the minimum damage requirement quicker.
 - Ranged weapons will not apply Dragon Stacks, meaning that direct melee hits are the only option for using it as efficiently as possible.
-- <i class="icon-fsee icon-fsee-ancient-armor"></i> Ancient Chestplate brings its attack speed up to 1.035, meaning that it is slightly quicker than higher tier axes.
-- Knockback II <i class="icon-fsee icon-fsee-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Since it also ignores 1/4th of enemy defense, this means that Netherite Armor fully enchanted with Protection IV still takes around 10:heart::heart::heart::heart::heart: damage.
+- Knockback II <i class="icon-fsee icon-fsee-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 33% of enemy defense, meaning it doesn't get reduced as much.
 - As Dragonblade is unbreakable, enchanting it with either Unbreaking or Mending is redundant.
 
 ## Trivia
 - The methods of obtaining the Dragonblade differed greatly throughout its development.
     - Upon its release in 1.5a, it was found stuck in the Altar of The Accursed, right after entering The End.
         - During the development of 1.6a, it dropped from the Ender Dragon with a 50% chance.
-            - After introducing [Crest of The End](trinkets/crest_of_the_end.md), its drop chance was changed to 33%.
             - However due to a community poll, it returned to its one-per-world state, with the only difference being it spawning after defeating the Dragon for the first time, and not prior.
     - Dragonblade can also be obtained with commands, but upon release they would return a broken item instead, meaning that it was truly one-per world.
         - This was patched in 1.5b, with its `/loot give` command functioning as intended.
@@ -79,22 +82,23 @@ Punched mobs cannot be punched for the next 8.5 seconds, indicated by a cloud of
 - Prior to 1.6a, it acted as an indirect upgrade to a Netherite Sword, with its special mechanic being spawning clouds of Dragon's Breath on hits and increasing damage temporarily after that.
 - During the development of 1.6a, it went through a total of 3 reworks.
     - First one was simply editing the Dragon's Breath cloud properties and damage increase.
-    - Second one was similair to current behavior, but the punch damage was always 22 and it also had upward motion. It also triggered on 4th hit, rather than when sneaking.
-    - Third one is the current verion.
+    - Second one was similair to current behavior, but the punch damage was always 22 and it had additional upward motion. It also always triggered on the 4th hit, rather than with sneaking.
+    - Third one is the one currently used in the pack.
 - Dying to a Dragonblade's punch in PvP will result in a custom death message - `VICTIM was punched into the otherworld by PLAYER`.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/obtain_draonblade` |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32(:heart: x 16) or more damage with a single punch | `fokastudio:end/aota/kaliyah` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32(:heart: x 16) or more damage with a single punch. | `fokastudio:end/aota/kaliyah` |
 
 ## History
 - **1.6a**
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
-	- Base damage reduced (8 -> 5)
-	- Attack speed reduced (1.6 -> 0.9)
+	- Base damage reduced (8 -> 6)
+	- Attack speed reduced (1.6 -> 1)
 	- Now spawns after defeating the Ender Dragon.
+	- Now unbreakable.
 
 - **1.5b**
     - Fixed a bug that caused Dragonblade's give command to return a broken item instead.
