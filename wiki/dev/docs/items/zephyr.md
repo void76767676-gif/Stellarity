@@ -38,7 +38,7 @@
 			<br>
 			stacking bonus to movement speed
 			<br><br>
-			<span style="color: #F96854;">Donator Item</span>
+			<span style="color: #F96854;">- Donator Item -</span>
 		</td>
 	</tr>
 	<tr>
@@ -47,33 +47,30 @@
 	</tr>
     <tr>
 		<td><b>Other</b></td>
-		<td>+10% Movements Speed (while held)</td>
+		<td>+10% Movement Speed (while held)</td>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Zephyr can be obtained in 2 different ways:
-- Crafitng by combining a <i class="icon-minecraft icon-minecraft-golden-sword"></i>Golden Sword, <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, 10 <i class="icon-minecraft icon-minecraft-feather"></i>Feathers and 6 <i class="icon-minecraft icon-minecraft-sugar"></i>Sugar over [Altar of The Accursed](../mechanics/altar_of_the_accursed.md). Enchantments from both swords will not be preserved and will be lost.
-- Being found in Top Tower Chests inside [End Cities](../structures/end_city.md) with a 14% chance.
+Zephyr can be found in Top Tower Chests inside [End Cities](../structures/end_city.md) with a 14% chance.
 
 ## Usage
-Holding Zephyr in main hand will give you a passive 10% Movement Speed bonus.
+Holding Zephyr in main hand gives a passive 10% Movement Speed bonus.
 
-Killing any mob with shortsword will spawn a small wind orb that quickly homes to the player. Once it comes into contact it grants Speed I effect for 33 seconds. The duration increases with each kill, capped at 4 minutes. The additional uptime decreases with duration of your current Speed effect. This stacks with Zephyr's passive speed increase for a grand total of 30% movement speed increase.
+Killing any mob with this shortsword spawns a small wind orb which quickly homes to the player. Once it comes into contact it grants Speed I for 33 seconds. The duration increases with each kill, capped at 4 minutes. The additional uptime decreases as current duration of Speed effect inceases. 
+
+The ability speed increase stacks with passive speed increase for a total of 30% extra movement speed.
 
 ## Tips
-- Zephyr can be used instead of crafting Swiftness Potions.
+- Setting up a mob farm can easily replace the need to craft Swiftness Potions.
+	- Maximum duration of Zephyr's speed boost is even greater than the duration of an extended Swiftness Potion.
+- Passive 10% boost doesn't work if Zephyr is held in the offhand.
 
 ## Trivia
 - Zephyr has almost identical stats as a Diamond Sword, with the only difference being its lower durability, being a bit higher than an Iron Sword's.
 - The word `zephyr` means a soft light breeze.
-
-## Advancements
-| Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/cursed_crafting` |
 
 ## History
 - **1.6a**

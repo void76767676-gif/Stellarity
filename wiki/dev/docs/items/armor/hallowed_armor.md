@@ -1,9 +1,14 @@
 # Hallowed Armor
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that provides a tiny bit less defense than <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>Diamond Armor, but instead boosts one's movement speed and provides a bit of Knockback Resistance.
+**Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities which focuses on boosting evasion and mobility.
 
-Full set bonus allows for dodging attacks, completely nullifying their damage and knockback. Dodging will also make player completely invulnerable for a few seconds.
+Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodging of attacks with a cooldown.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   	<table id="foka-infobox--item">
@@ -31,7 +36,9 @@ Full set bonus allows for dodging attacks, completely nullifying their damage an
 		</tr>
 		<tr>
 			<td><b>Full Set Bonus</b></td>
-			<td>Become immune to damage periodically</td>
+			<td>Grants the ability to dodge attacks,
+			<br>
+			nullifying all damage and knockback</td>
 		</tr>
 	</table>
 </div>
@@ -40,8 +47,9 @@ Full set bonus allows for dodging attacks, completely nullifying their damage an
 ## Obtaining
 Pieces of Hallowed Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
 
-## Set Bonus
+Each piece of Hallowed Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4/8/7/5 [Hallowed Ingots](../materials/hallowed_ingot.md).
 
+## Set Bonus
 Equipping full set of Hallowed armor will start a 20 seconds countdown. After reaching 0, player will get a buff - **Holy Protection**. Upon taking <u>ANY</u> damage, Holy Protection will set all incoming damage to 0 for next 5 seconds, as well as making player immune to all forms of knockback. Additionally, player will get Fire Protection and Water Breathing for next 8 seconds, as well as a short boost to Movement Speed that decays over timespan of 6 seconds.
 
 This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapplied only when player takes off Hallowed Armor.
@@ -52,12 +60,10 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 </figure>
 
 ## Tips
-
 - This armor is incredibly versatile, as it can be paired with any weapon or trinket.
 - Combining Hallowed Armor with [Duskberry](../trinkets/duskberry.md) and a Swiftness Potion is a fantastic strategy for the [Empress of Light](../../mobs/bosses/empress_of_light.md), making players able to outrun most of her attacks as well as providing them a second change if they fail to dodge them.
 
 ## Trivia
-
 - <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-fsee icon-fsee-hallowed-armor"></i>Hallowed Armor and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
@@ -69,7 +75,12 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
             - This has since been fixed.
 - When resource pack is enabled, golden parts of Hallowed Armor produce a faint glow in the dark.
 - During the development of 1.6a, Holy Protection used to timeout after 15 seconds without being damaged, altough it was removed a few weeks later.
-    - The official reason was because FokaStudio couldn't stand the constant '`Holy Protection ON and OFF`' sounds.
+    - The official reason was because FokaStudio couldn't stand the '`constant Holy Protection ON and OFF`' sounds.
+
+## Advancements
+| Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-fsee icon-fsee-hallowed-armor"></i></div> | <span style="color: #FFCC38;">Hallelujah!</span> | Dodge an attack with a full set of Hallowed Armor | Cursed Crafting | :x: | `fokastudio:end/aota/cancel_damage_hallowed_armor` |
 
 ## History
 - **1.6a**

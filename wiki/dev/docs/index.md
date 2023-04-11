@@ -1,29 +1,25 @@
 # FokaStudio's Ender Expansion Wiki
+----------
+
+![alt](assets/backgrounds/dragons_den_alt.png){ width=100% style="border: 3px solid whitesmoke; border-radius: 1px" }
+
+----------
 
 > Because appareantly I spend more time explaining things rather than actually programming.
 >
 > ~ *FokaStudio; every 20 seconds on Foka's Studios*
 
-**FokaStudio's Ender Expansion is a datapack that completely rehauls The End dimension in a way that is both spectacular and unique. And most notably - not dead and barren,**
+**FokaStudio's Ender Expansion** is a datapack which completely rehauls The End in a... unique way to say the least. Most notably - making the dimension not dead and barren, as well as creating some deeper lore for it. *Like we needed more lore for a block game.*
 
-FSEE has started as a direct port of [Far End](https://www.planetminecraft.com/data-pack/far-end-ender-expansion-datapack-v0-1/). Hex stated they do not have enough time to update the pack + some features were not possible back then, like island generation.
+FSEE has started as a direct port of [Far End](https://www.planetminecraft.com/data-pack/far-end-ender-expansion-datapack-v0-1/). The original creator - Hex - stated they do not have enough time to update the pack, so I have asked if I could do it for a server I used to be a datapack developer on.
 
-*AND THEN I APPEARED OUT OF NOWHERE LIKE A NEW POKEMON OF SOME SORT, AND DID THE IMPOSSIBLE!*
+*As you can guess, Hex said 'Yea, whatever, do what you wish'. And the first FSEE version was an absolute attrocity...*
 
-**And here we are today!** The pack is nothing like old Far End, not even one file was left untouched!
+**And here we are today**, 5 major updates of the pack later! It is now <u>NOTHING</u> like its older brother Far End, not even one file was left as it used to be!
 
-!!! note "What is in the pack as of right now"
+*And yeah, the pack is so large now that I actually had to setup a wiki.*
 
-    - 17 new biomes + complete revamp of 5 vanilla ones
-    - 3 new armor sets
-    - 3 new weapons
-    - 1 new mob, but these numbers will grow soon
-    - A handful of QOL features, like Endemites having a chance to drop back your Ender Pearl! Or Allays spawning naturally in The Hallow biome
-    - A couple new structures that generate all over The End
-    - Massive overhaul to the shape of End Islands. No more ugly isles on one Y level :sunglasses:
-    - Completely revamped End Cities
-    - Completely revamped Strongholds, which is something most packs do not really change.
-    - Full Multiplayer compatibility! It is actually more fun to play this with friends and conquer The End together!
+<br><br>
 
 --------
 

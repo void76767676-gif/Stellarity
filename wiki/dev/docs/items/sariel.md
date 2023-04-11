@@ -43,10 +43,10 @@
 </div>
 
 ## Obtaining
-Sariel can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining an <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, 5 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and 10 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md), meaning that in order to craft it, the player has to venture into [The Hallow](../biomes/the_hallow.md) first.
+Sariel can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining an <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, 5 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and 10 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md), meaning that in order to craft it, the player has to venture into [The Hallow](../biomes/the_hallow.md) first.
 
 ## Usage
-After attacking any mob, there is a 20% chance that a Healing Orb will spawn, slowly flying towards the nearest player while accelerating slighly. After coming into contact with one, player will be healed by 4:heart::heart: HP. Up to 2 Healing Orbs can be spawned at once, however only one will spawn most of the time.
+After attacking any mob, there is a 12% chance that a Healing Orb will spawn, slowly flying towards the nearest player while accelerating slighly. After coming into contact with one, player will be healed by 4:heart::heart: HP. Up to 2 Healing Orbs can be spawned at once, however only one will spawn most of the time.
 
 | Number of Healing Orbs | Chance |
 | :--- | :--- |

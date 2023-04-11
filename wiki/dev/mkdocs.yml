@@ -13,30 +13,34 @@ nav:
     - Downloads: downloads.md
     - Troubleshooting: troubleshooting.md
   #- Biomes: 
-  #  - biomes/index.md
   #  - The Hallow: biomes/the_hallow.md
-  - Items: 
-    - items/index.md
-    - Sharanga: items/sharanga.md
-    - Clockwork Crossbow: items/clockwork_crossbow.md
-    - Dragonblade: items/dragonblade.md
-    - Prismatic Punch: items/prismatic_punch.md
-    - Zephyr: items/zephyr.md
-    - Sariel: items/sariel.md
-    - Sabrewing: items/sabrewing.md
-    - Spirit Dagger: items/spirit_dagger.md
-    - Tamaris: items/tamaris.md
-  #  - Armor sets:
-  #    - items/armor/index.md
-  #    - Ancient Armor: items/armor/ancient_armor.md
-  #    - Hallowed Armor: items/armor/hallowed_armor.md
-  #    - Shulker Armor: items/armor/shulker_armor.md
+  - Items:
+    - Weapons: 
+      - Sharanga: items/sharanga.md
+      - Clockwork Crossbow: items/clockwork_crossbow.md
+      - Dragonblade: items/dragonblade.md
+      - Prismatic Punch: items/prismatic_punch.md
+      - Zephyr: items/zephyr.md
+      - Sariel: items/sariel.md
+      - Sabrewing: items/sabrewing.md
+      - Spirit Dagger: items/spirit_dagger.md
+      - Tamaris: items/tamaris.md
+      - Frigid Harvester: items/frigid_harvester.md
+    - Tools:
+      - Shulker Tools: items/tools/shulker_tools.md
+    - Armor sets:
+      - Ancient Armor: items/armor/ancient_armor.md
+      - Hallowed Armor: items/armor/hallowed_armor.md
+      - Shulker Armor: items/armor/shulker_armor.md
     - Trinkets:
-      - items/trinkets/index.md
       - Ender Insignia: items/trinkets/ender_insignia.md
       - Crest of The End: items/trinkets/crest_of_the_end.md
       - Duskberry: items/trinkets/duskberry.md
       - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
+    - Materials:
+      - Pixie Dust: items/materials/pixie_dust.md
+      - Ancient Plating: items/materials/ancient_plating.md
+      - Hallowed Ingot: items/materials/hallowed_ingot.md
   #  - Other:
   #    - items/other/index.md
   #    - Pixie Dust: items/other/pixie_dust.md

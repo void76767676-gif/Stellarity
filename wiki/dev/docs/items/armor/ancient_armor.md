@@ -1,9 +1,14 @@
 # Ancient Armor
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities that trades off a tiny fraction of defense in favor of increased combat capabilities.
+**Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities which focuses on boosting offensive capabilities.
 
-Wearing a full set of Ancient Armor will grant player a set bonus, which increases their damage on consecutive attacks.
+Wearing a full set of Ancient Armor grants player a set bonus, which increases their damage on consecutive attacks.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
 	<table id="foka-infobox--item">
@@ -44,15 +49,15 @@ Wearing a full set of Ancient Armor will grant player a set bonus, which increas
 ## Obtaining
 Pieces of Ancient Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
 
-Each piece can also be crafted by combining different amounts of <i class="icon-fsee icon-fsee-ancient-plating"></i>[Ancient Plating](../other/ancient_plating.md) over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md).
+Each piece of Ancient Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4/8/7/5 [Ancient Plating](../materials/ancient_ingot.md).
+
 
 ## Set Bonus
+While wearing a full set of Ancient Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 2 seconds before vanishing, unless another attack is made.
 
-While wearing a full set of Ancient Armor, players gain ability to increase their damage while combo-attacking. The bonus is 7% more damage per attack, stacking up to 5 times for a grand total of 35% extra damage. This stacks with 10% extra damage from all Armor pieces, meaning the actual damage increase is 45%.
+The set bonus extra damage stacks with the 10% extra damage from all armor pieces, meaning the actual damage increase is 35%.
 
 The amount of damage stacks a player has is indicated by differently pitched hit sounds, with higher pitch being equal to higher damage multiplier.
-
-
 
 Additionally, running with a full set of Ancient Armor will produce a purely cosmetic purple trail.
 <figure markdown>
@@ -61,29 +66,26 @@ Additionally, running with a full set of Ancient Armor will produce a purely cos
 </figure>
 
 ## Tips
-
-- This armor set pairs extremely well with:
-    - <i class="icon-fsee icon-fsee-ancient-wooden-sword"></i>[Ancient Wooden Sword](../ancient_wooden_sword.md) - with Sharpness V, it can deal 10.5:heart: x 5 1/4 damage per swing, which will make this weapon's single target DPS comparable to the one of a Sharpness V Netherite Sword *(without Ancient Armor)* 
-    - <i class="icon-fsee icon-fsee-sariel"></i>[Sariel](../sariel.md) - Sariel already has a very quick attack speed. Paired with Ancient Armor, its swing cooldown will be reduced even further, resulting in more hits *(which equals to increased heal chance)*
-    - <i class="icon-fsee icon-fsee-dragonblade"></i>[Dragonblade](../dragonblade.md) - Ancient Armor is enough to increase its swing speed, which is very needed due to how slow it really is. This effectively allows for quicker and more reliable application of Dragon Stacks.
+- This armor set pairs extremely well with really any weapon. The increased attack speed on top of extraordinary damage boosts is enough to make even a Wooden Sword an extremely deadly weapon.
+- The damage and attack speed bonuses stack with the ones of the [Duskberry](../trinkets/duskberry.md), which makes for a destructive build.
 
 ## Trivia
-
 - <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
-        - However, it was officialy removed as of 1.6a.
+        - It was officialy removed as of 1.6a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Ancient Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Attack Knockback and Movement Speed.
         - Due to how Attack Knockback works in Minecraft, it didn't increase anything.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
-- Prior to 1.5a, it used to have a different set bonus, which was just a flat 50% damage increase
+- Prior to 1.6a:
+	1. It used to have a different set bonus, which was just a flat 50% damage increase.
+	2. Ancient Leggings used to have Diamond Leggings as base item instead of Leather Pants.
 - Ancient Armor's set bonus is based on Nyx[^1] kit from Roblox BedWars[^2].
 
 ## History
 - **1.6a**
-	- Fixed Ancient Leggings being a piece of Diamond Armor 
-    	- This was a 1.5a rework leftover
+	- Fixed Ancient Leggings being a piece of Diamond Armor.
 	- Now has a custom texture.
 	- Damage boost from Armor pieces reduced *(+20% -> +10%)*
 	- Armor Toughness per-piece increased to match Netherite Armor.

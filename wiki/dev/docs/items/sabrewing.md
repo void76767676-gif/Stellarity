@@ -49,7 +49,7 @@
 </div>
 
 ## Obtaining
-Sabrewing can be crafted at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining a regular <i class="icon-minecraft icon-minecraft-bow"></i>Bow, 10 <i class="icon-minecraft icon-minecraft-feather"></i>Feathers, 12 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and a single <i class="icon-minecraft icon-minecraft-netherite-ingot
+Sabrewing can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining a regular <i class="icon-minecraft icon-minecraft-bow"></i>Bow, 10 <i class="icon-minecraft icon-minecraft-feather"></i>Feathers, 12 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and a single <i class="icon-minecraft icon-minecraft-netherite-ingot
 "></i>Netherite Bar. The enchantments from the <i class="icon-minecraft icon-minecraft-bow"></i>Bow used to craft it will be safely transferred to the outcome item.
 
 ## Usage

@@ -4,7 +4,7 @@ effect clear @s resistance
 
 execute rotated ~ 0 positioned ^ ^4 ^ run function fokastudio:end/items/armors/hallowed_armor/holy_protection/dodge_visual
 
-advancement grant @s only fokastudio:end/end_city/cancel_damage_hallowed_armor
+advancement grant @s only fokastudio:end/aota/cancel_damage_hallowed_armor
 
 # I-frames of some sort
 # Such high Amplifier values make sure that

@@ -1,6 +1,11 @@
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Ender Insignia** is a post-Dragon trinket that will slowly accelerate your health regeneration the longer you sneak. Taking damage will reset your regeneration.
+**Ender Insignia** is a post-Dragon trinket which slowly accelerates your health regeneration the longer player sneaks for. Taking damage resets this boost.
+
+<br><br>
+
+[TOC]
+
 </div>
 <div class="foka-infobox-table">
   <table id="foka-infobox--item">
@@ -12,47 +17,58 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>Greatly increases life regeneration while sneaking, the bonus starts weak and gets stronger with time.<br>Standing up or being hurt resets its healing capabilities<br><br><span style="color: #AA00AA;
-">The Dragon's Power is withing your hands</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+		<td>Increases life regeneration while sneaking
+		<br>
+		Bonus starts weak and slowly increases
+		<br>
+		Standing up or being hurt resets it
+		<br><br>
+		<span style="color: #AA00AA;">The Dragon's Power is withing your hands</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Ender Insignia has a 50% chance to drop from the [Ender Dragon](../mobs/bosses/ender_dragon.md).
+Ender Insignia has a 66% chance to be dropped by the Ender Dragon. It always drops with either an [Tamaris](../tamaris.md) or [Crest of The End](crest_of_the_end.md).
 
 ## Usage
-While holding Ender Insignia in any hand, sneaking will slowly accelerate your Health Regeneration. This progresses through a level-like system, with levels *(and what comes with it - regeneration speed)* increases every 5 seconds.
+Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aformentioned potion effect is increased by 1 every 1.5 seconds. This caps at Regeneration V.
 
-| Time Sneaking *(in seconds)* | Health Regeneration Bonus |
-| :--- | :--- |
-| < 5s | :x: |
-| 5s | 0.4:heart: × 0.2 | 
-| 10s | 0.8:heart: × 0.4 |
-| 15s | 1.67:heart: × 0.835 |
-| 20s | 3.33:heart: × 1.665 |
-| 25s | 6.67:heart: × 3.335 |
-| 30s+ | 20:heart: × 10 |
+Standing up or being hurt resets the Regeneration and applies a very short half a second cooldown before Ender Insignia starts working again.
 
+Movement speed is reduced by additional 66% while sneaking, meaning that moving around is going to be incredibly slow.
+
+### Regeneration Bonuses
+
+> This section is transcribed from Minecraft Wiki
+
+| Regeneration Level | Ticks per :heart: | :heart: per second |
+| :--- | :--- | :--- |
+| 1 | 100 | 0.4 (:heart: x ₀․₂) |
+| 2 | 50 | 0.4 (:heart: x ₀․₄) |
+| 3 | 24 | 1.67 (:heart: x ₀․₈₃₅) |
+| 4 | 12 | 3.33 (:heart: x ₁․₆₆₅) |
+| 5 | 6 | 6.67 (:heart: x ₃․₃₃₅) |
 
 ## Tips
 - Swift Sneak Enchantment pairs well with this item, since you can get a bit more mobility while keeping its regeneration bonus.
-- Your movement speed will be reduced even further than normally while sneaking, and you will lose the ability to jump.
-
+- You can quickly switch to holding Ender Insignia whenever you need to quickly regenerate some Health
 ## Trivia
 
-- Prior to 1.6a, it used to give a set Regeneration bonus anytime you are completely immobile.
-- Prior to 1.6a, due to the way Regeneration was implemented, it would be constantly reapplied, slowing down health gain.
+- Prior to 1.6a:
+	1. Ender Insignia used to give a set Regeneration bonus.
+	2. Due to the way Regeneration was implemented, it would be constantly reapplied, slowing down health gain or even preventing it in some scenarios.
+	3. Ender Insignia used to trigger while standing still rather than sneaking, but this was changed due to performance reasons.
 
 ## History
 
 - **1.6a**
-	- Drop rate reduced in favor of other items (100% -> 50%)
-	- Regeneration is no longer instantly at Level V, and it instead slowly goes through different stages with varying Regeneration bonuses.
+	- Drop rate reduced in favor of other items (100% -> 66%)
+	- Regeneration is no longer instantly at Level V, and it instead progressively goes through different amplifierss.
 	- Being hit now properly cancels Regeneration.
 	- Regeneration now gets applied while sneaking, rather than standing still.
-	- Fixed a bug that caused Regeneration to be constantly applied which was halting its healing.
+	- Fixed a bug that caused Regeneration to not work at all sometimes.
 
 - **1.5b**
     - Fixed a bug that caused Ender Insignia's give command to return a broken item instead.

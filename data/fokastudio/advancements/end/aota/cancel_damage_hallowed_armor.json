@@ -18,7 +18,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/end_city/whos_the_thief_now",
+	"parent": "fokastudio:end/aota/cursed_crafting",
 	"criteria": {
 		"dodge_damage": {
 			"trigger": "minecraft:impossible"

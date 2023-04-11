@@ -68,6 +68,7 @@ Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indica
 - Ranged weapons will not apply Dragon Stacks, meaning that direct melee hits are the only option for using it as efficiently as possible.
 - Knockback II <i class="icon-fsee icon-fsee-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 33% of enemy defense, meaning it doesn't get reduced as much.
 - As Dragonblade is unbreakable, enchanting it with either Unbreaking or Mending is redundant.
+- Punch damage cannot be increased by any bonuses like Strength Potions or [Ancient Armor](armor/ancient_armor.md)
 
 ## Trivia
 - The methods of obtaining the Dragonblade differed greatly throughout its development.
