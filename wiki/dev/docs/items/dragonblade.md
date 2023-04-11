@@ -91,7 +91,7 @@ Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indica
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/obtain_draonblade` |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32(:heart: x 16) or more damage with a single punch. | `fokastudio:end/aota/kaliyah` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | `fokastudio:end/aota/kaliyah` |
 
 ## History
 - **1.6a**

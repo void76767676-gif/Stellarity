@@ -128,4 +128,3 @@ Enchantment power scales with both Daggers, meaning that having Sweeping Edge II
 
 [^1]: [Evelynn kit](https://robloxbedwars.fandom.com/wiki/Evelynn) on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)
-[^3]: [Hannah kit](https://robloxbedwars.fandom.com/wiki/Hannah) on Roblox Bedwars Wiki

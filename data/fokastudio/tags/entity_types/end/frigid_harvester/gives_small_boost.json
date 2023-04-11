@@ -3,7 +3,6 @@
         "minecraft:zombie",
         "minecraft:skeleton",
         "minecraft:spider",
-        "minecraft:blaze",
         "minecraft:enderman",
         "minecraft:husk",
         "minecraft:stray",
@@ -11,6 +10,8 @@
         "minecraft:drowned",
         "minecraft:zombie_villager",
         "minecraft:zombified_piglin",
-        "minecraft:piglin"
+        "minecraft:piglin",
+        "minecraft:pillager",
+        "minecraft:vex"
     ]
 }

@@ -59,49 +59,62 @@
 ## Obtaining
 Frigid Harvester has a 10% chance to be found inside Frozen Crates fished up from [Void Fishing](../mechanics/void_fishing.md).
 
-Additionaly, Strays spawning in [Frosted Hills](../biomes/frosted_hills.md) have a 3% chance to spawn holding a Frigid Harvester. Killing them will cause them to drop the weapon. Strays equipped with Harvesters have increased health, defense and damage, and wear a <i class="icon-minecraft icon-minecraft-diamond-helmet"></i>Diamond Helmet.
+Additionaly, <i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Strays spawning in [Frosted Hills](../biomes/frosted_hills.md) have a 3% chance to spawn holding a Frigid Harvester. Killing them will cause them to drop the weapon. Strays equipped with Harvesters have increased health, defense and damage, and wear a <i class="icon-minecraft icon-minecraft-diamond-helmet"></i>Diamond Helmet.
 
 ## Usage
 Killing any living mob permanently increases Frigid Harvester's damage. The extra damage is listed in the item description.
 
 Stronger mobs give more extra damage, while passive mobs barely give any.
 
-### Damage fall off
-The extra damage calculation formula is `Y / [mod(Y, 100)]`
+Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage. First being at +4, then at +8 and final one at +12.
+
+While holding Frigid Harvester in main hand movement speed is reduced by 15%.
+
+### Extra Damage
+!!! info "Extra damage calculation formula"
+	`(gain / [mod(gain, 100) * 100]) / high_level_slicer`
+
+	<br>
+
+	`gain` - the amount of extra damage a killed mob awards, see the table below.
+
+	`high_level_slicer` - arbitrary values for additional damage cuts based on current extra damage stat value.
+
+	- **1** if current extra damage is below 14.
+	- **2** if current extra damage is between 14 - 15.
+	- **4** if current extra damage is between 16 - 17.
+	- **8** if current extra damage is between 18 - 19.
+	- **16** if current extra damage is 20 or higher, though this usually doesn't happen.
+
+| Extra Damage Amount | Mobs | Tag File |
+| :--- | :--- | :--- |
+| +0.04 | All passive mobs, <i class="icon-minecraft icon-minecraft-mob-bee-face"></i>Bee, <i class="icon-minecraft icon-minecraft-mob-polar-bear-face"></i>Polar Bear, <i class="icon-minecraft icon-minecraft-mob-snow-golem-face"></i>Snow Golem, <i class="icon-minecraft icon-minecraft-mob-iron-golem-face"></i>Iron Golem, <i class="icon-minecraft icon-minecraft-mob-slime-face"></i>Slime, <i class="icon-minecraft icon-minecraft-mob-magma-cube-face"></i>Magma Cube, <i class="icon-minecraft icon-minecraft-mob-cave-spider-face"></i>Cave Spider, <i class="icon-minecraft icon-minecraft-mob-guardian-face"></i>Guardian | `#fokastudio:end/frigid_harvester/gives_minor_boost` |
+| +0.11 | <i class="icon-minecraft icon-minecraft-mob-zombie-face"></i>Zombie, <i class="icon-minecraft icon-minecraft-mob-skeleton-face"></i>Skeleton, <i class="icon-minecraft icon-minecraft-mob-spider-face"></i>Spider, <i class="icon-minecraft icon-minecraft-mob-enderman-face"></i>Enderman, <i class="icon-minecraft icon-minecraft-mob-husk-face"></i>Husk, <i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Stray, <i class="icon-minecraft icon-minecraft-mob-pillager-face"></i>Pillager, <i class="icon-minecraft icon-minecraft-mob-drowned-face"></i>Drowned, <i class="icon-minecraft icon-minecraft-mob-zombie-villager-face"></i>Zombie Villager, <i class="icon-minecraft icon-minecraft-mob-zombified-piglin-face"></i>Zombified Piglin, <i class="icon-minecraft icon-minecraft-mob-piglin-face"></i>Piglin, <i class="icon-minecraft icon-minecraft-mob-pillager-face"></i>Pillager, <i class="icon-minecraft icon-minecraft-mob-vex-face"></i>Vex | `#fokastudio:end/frigid_harvester/gives_small_boost` |
+| +0.28 | <i class="icon-minecraft icon-minecraft-mob-wither-skeleton-face"></i>Wither Skeleton, <i class="icon-minecraft icon-minecraft-mob-blaze-face"></i>Blaze, <i class="icon-minecraft icon-minecraft-mob-vindicator-face"></i>Vindicator, <i class="icon-minecraft icon-minecraft-mob-witch-face"></i>Witch, <i class="icon-minecraft icon-minecraft-mob-phantom-face"></i>Phantom, <i class="icon-minecraft icon-minecraft-mob-shulker-face"></i>Shulker, <i class="icon-minecraft icon-minecraft-mob-hoglin-face"></i>Hoglin, <i class="icon-minecraft icon-minecraft-mob-creeper-face"></i>Creeper, other players (PvP) | `#fokastudio:end/frigid_harvester/gives_big_boost` |
+| +0.52 | <i class="icon-minecraft icon-minecraft-mob-evoker-face"></i>Evoker, <i class="icon-minecraft icon-minecraft-mob-illusioner-face"></i>Illusioner, <i class="icon-minecraft icon-minecraft-mob-piglin-brute-face"></i>Piglin Brute, <i class="icon-minecraft icon-minecraft-mob-ghast-face"></i>Ghast, <i class="icon-minecraft icon-minecraft-mob-zoglin-face"></i>Zoglin, <i class="icon-minecraft icon-minecraft-mob-ravager-face"></i>Ravager | `#fokastudio:end/frigid_harvester/gives_large_boost` |
+| +3.4 | <i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Wither, <i class="icon-minecraft icon-minecraft-mob-giant-face"></i>Giant, <i class="icon-minecraft icon-minecraft-mob-elder-guardian-face"></i>Elder Guardian, <i class="icon-minecraft icon-minecraft-mob-warden-face"></i>Warden | `#fokastudio:end/frigid_harvester/gives_huge_boost` |
 
 ## Tips
-- Spirits can be attracted by ANY damage, including *(but not limited to)* other Swords, Crossbows, Bows, etc., for as long as you are holding a Spirit Dagger in any hand.
-    - However, the damage dealt has to be higher than 3:heart: х ₁.₅. Anything lower will simply not work.
-- Teleporting has a distance limit of <u><b>70 blocks</b></u>, meaning that you could potentialy attract a Spirit by shooting an enemy with a Bow and teleport a great range.
-    - Spyglass comes in handy in this scenario, since you can easily position your cursor on a Spirit and then switch to a Spirit Dagger in order to consume it.
-- To fully use this weapon you have to obtain 2 of them. Using a weapon enchanted with Looting III is heavily encouraged due to how uncommon Phantoms are in The End.
-    - Despite the drop chance being relatively low, this item can be easily obtained in great quantities by opening multiple [Pandora's Barrels](other/pandoras_barrel.md). Be careful though, as Pandora's Barrel also increases stats of spawned mobs.
-- Slash attack won't deal any knockback, so you might still get damaged by mobs after teleporting.
-    - Luckily, the 4:yellow_heart::yellow_heart: Absorption should be enough to tank at least part of the contact damage.
-    - This can be remedied by enchanting your Spirit Daggers with Knockback.
-- This item pairs extremely well with [Sharanga](sharanga.md), since Arrows shot from are unaffected by gravity, meaning that it is easier to snipe targets from far away in order to potentially attract Spirits.
+- It is relatively easy to get Frigid Harvester to +3 or +4 damage. It can be achieved in one night by just running around and killing Zombies or Skeletons.
+- Getting Frigid Harvester to +12 might be difficult, as weaker mobs quickly stop giving extra damage.
+    - Getting past +12 requires grinding <i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Withers or <i class="icon-minecraft icon-minecraft-mob-warden-face"></i>Wardens.
+- Even though Frigid Harvester starts extremely weak compared to other late-game weapons, it can outdamage them with right setup and a lot of extra damage.
+- You get slowed down while holding a Frigid Harvester. This can be cancelled out by a Swiftness Potion.
 
 ## Trivia
-- This is the second Developer weapon to get added into FSEE, the first being [Prismatic Punch](prismatic_punch.md).
-- This weapon is based on Spirit Daggers - a weapon used by Evelynn[^1] in Roblox BedWars[^2].
-    - This is also a reference to the fact that FokaStudio loves this game and plays it far more often than he is coding.
-- This item had a total of 3 different drop chances prior to official release.
-    - It first started with 12.5% base chance with 2.5% Looting bonus, then 15%/+3.5% before being nerfed to 10%/+1%, which stayed to this date.
-- Prior to official release of 1.6a, Spirits used to directly heal 4:heart::heart: HP instead of granting 4:yellow_heart::yellow_heart: Absorption like it does now. This change was made to further replicate how Evelynn kit works in Roblox Bedwars.
-- Spirit Dagger holds the title of the most tweaked weapon before its official release in a stable version, having been tweaked countless times prior to its release in 1.6a.
-    - Some of the changes haven't even been listed on changelog Discord channel.
-- In a development log made on January 27th 2023, Spirits were said have a light blue glowing outline, however this wasn't actually implemented.
-- In PvP, dying to AoE slash attack will result in a custom death message - `VICTIM had their spirit consumed by PLAYER`.
-
+- This is the third Developer weapon to get added into FSEE, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](spirit_dagger.md).
+- This weapon is based on Aery[^1] kit from Roblox BedWars[^2].
+	- In some places in the code, Frigid Harvester is reffered to as `Aery Sword`.
+- Lorewise, Frigid Harvester is said to have been made by Iceologers who settled in Frosted Hills, and is said to be made out of Enchanted Ice.
+ 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with a pair of Spirit Daggers | Remote Getaway | :x: | `fokastudio:end/exploration/spirit_assasin` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-fsee icon-fsee-frigid-harvester"></i></div> | Frozen Reaper | Reach +12 Extra Damage on Frigid Harvester<br><span style="color: #727272;">ᴛɪᴘ: ᴛʜɪѕ ᴍɪɢʜᴛ ʀᴇǫᴜɪʀᴇ ѕᴏᴍᴇ ɢʀɪɴᴅɪɴɢ...</span> | Remote Getaway | :x: | `fokastudio:end/exploration/max_out_aery_sword` |
 
 ## History
 - **1.6a**
 	- Introduced
 
-[^1]: [Evelynn kit](https://robloxbedwars.fandom.com/wiki/Evelynn) on Roblox Bedwars Wiki
+[^1]: [Aery kit](https://robloxbedwars.fandom.com/wiki/Aery) on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)
-[^3]: [Hannah kit](https://robloxbedwars.fandom.com/wiki/Hannah) on Roblox Bedwars Wiki
