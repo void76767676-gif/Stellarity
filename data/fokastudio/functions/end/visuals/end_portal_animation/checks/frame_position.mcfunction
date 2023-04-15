@@ -1,4 +1,5 @@
 # Insant stopsound didn't work 100% of the time
+function fokastudio:end/visuals/end_portal_animation/stopsound
 schedule function fokastudio:end/visuals/end_portal_animation/stopsound 1t
 schedule function fokastudio:end/visuals/end_portal_animation/stopsound 2t
 

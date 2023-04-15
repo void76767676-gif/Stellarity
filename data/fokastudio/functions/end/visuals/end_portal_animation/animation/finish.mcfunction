@@ -1,4 +1,6 @@
-particle end_rod ~ ~ ~ 0 0 0 0.15 50
+particle explosion_emitter ~ ~ ~ 0 0 0 1 1 force
+particle end_rod ~ ~ ~ 0 0 0 0.33 50
+particle minecraft:dragon_breath ~ ~ ~ 0 0 0 0.5 200
 
 playsound minecraft:item.trident.thunder block @a ~ ~ ~ 3 0.75
 scoreboard players set #global foka.misc 1

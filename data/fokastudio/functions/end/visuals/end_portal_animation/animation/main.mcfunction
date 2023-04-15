@@ -2,8 +2,8 @@ scoreboard players add @s foka.misc.end_portal_animation 1
 
 tp @s ~ ~ ~ ~5 ~
 
+execute if score @s foka.misc.end_portal_animation matches 2 run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/spawn
 execute if score @s foka.misc.end_portal_animation matches 2.. run function fokastudio:end/visuals/end_portal_animation/animation/smoke
-execute if score @s foka.misc.end_portal_animation matches 2 run function fokastudio:end/visuals/end_portal_animation/animation/smoke
 
 execute if score @s foka.misc.end_portal_animation matches 2 run playsound minecraft:entity.zombie_villager.converted block @a ~ ~ ~ 1 0
 execute if score @s foka.misc.end_portal_animation matches 12 run playsound minecraft:entity.zombie_villager.converted block @a ~ ~ ~ 0.4 0
@@ -13,34 +13,33 @@ execute if score @s foka.misc.end_portal_animation matches 42 run playsound mine
 execute if score @s foka.misc.end_portal_animation matches 52 run playsound minecraft:entity.zombie_villager.converted block @a ~ ~ ~ 0.12 0
 execute if score @s foka.misc.end_portal_animation matches 62 run playsound minecraft:entity.zombie_villager.converted block @a ~ ~ ~ 0.05 0
 
-execute if score @s foka.misc.end_portal_animation matches 6 run playsound block.beacon.ambient block @a ~ ~ ~ 2.3 0
-execute if score @s foka.misc.end_portal_animation matches 106 run playsound block.beacon.ambient block @a ~ ~ ~ 2.3 0
-execute if score @s foka.misc.end_portal_animation matches 206 run playsound block.beacon.ambient block @a ~ ~ ~ 2.3 0
+execute if score @s foka.misc.end_portal_animation matches 6.. run scoreboard players add @s foka.misc.end_portal_bg_loop 1
+execute if score @s foka.misc.end_portal_bg_loop matches 100 run scoreboard players reset @s foka.misc.end_portal_bg_loop
+execute if score @s foka.misc.end_portal_bg_loop matches 1 run playsound block.beacon.ambient block @a ~ ~ ~ 2.3 0
 
-execute if score @s foka.misc.end_portal_animation matches 2..70 run particle minecraft:enchant ~ ~1 ~ 0 0 0 5 3
-execute if score @s foka.misc.end_portal_animation matches 71..130 run particle minecraft:enchant ~ ~1 ~ 0 0 0 5 6
-execute if score @s foka.misc.end_portal_animation matches 131..190 run particle minecraft:enchant ~ ~1 ~ 0 0 0 5 9
-execute if score @s foka.misc.end_portal_animation matches 191..250 run particle minecraft:enchant ~ ~1 ~ 0 0 0 5 12
+execute if score @s foka.misc.end_portal_animation matches 2.. run particle minecraft:enchant ~ ~1 ~ 0 0 0 5 3
 
-execute if score @s foka.misc.end_portal_animation matches 2..70 run particle minecraft:portal ~ ~ ~ 0 0 0 5 4
-execute if score @s foka.misc.end_portal_animation matches 71..130 run particle minecraft:portal ~ ~ ~ 0 0 0 5 8
-execute if score @s foka.misc.end_portal_animation matches 131..190 run particle minecraft:portal ~ ~ ~ 0 0 0 5 12
-execute if score @s foka.misc.end_portal_animation matches 191..250 run particle minecraft:portal ~ ~ ~ 0 0 0 5 16
+execute if score @s foka.misc.end_portal_animation matches 2.. run particle minecraft:portal ~ ~ ~ 0 0 0 5 4
 
-execute if score @s foka.misc.end_portal_animation matches 110 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 160 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 200 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 230 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 250 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 270 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 280 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 290 run function fokastudio:end/visuals/end_portal_animation/animation/flash
-execute if score @s foka.misc.end_portal_animation matches 295 run function fokastudio:end/visuals/end_portal_animation/animation/flash
+execute as @e[type=vex,tag=foka.floaty_power] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/loop
+execute as @e[type=marker,tag=foka.floaty_power.homing] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/marker_loop
 
-function fokastudio:end/visuals/end_portal_animation/animation/circle
-execute rotated ~90 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
-execute rotated ~-90 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
-execute rotated ~180 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
+execute if score @s foka.misc.end_portal_animation matches 90 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 100 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 110 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 120 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 130 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 140 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 150 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 160 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 170 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 180 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 190 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 200 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 
-execute if score @s foka.misc.end_portal_animation matches 297 run particle explosion_emitter ~ ~ ~ 1.5 1.5 1.5 1 10 force
-execute if score @s foka.misc.end_portal_animation matches 300 run function fokastudio:end/visuals/end_portal_animation/animation/finish
+#function fokastudio:end/visuals/end_portal_animation/animation/circle
+#execute rotated ~90 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
+#execute rotated ~-90 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
+#execute rotated ~180 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle
+
+execute if score @s foka.misc.end_portal_eyes_consumed matches 12 run function fokastudio:end/visuals/end_portal_animation/animation/finish
