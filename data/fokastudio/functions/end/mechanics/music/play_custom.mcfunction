@@ -12,7 +12,6 @@ execute if predicate fokastudio:end/locations/biomes/in_end_wilds run playsound 
 execute if predicate fokastudio:end/locations/biomes/in_ender_waste run playsound fokastudio:music.ender_waste music @s
 execute if predicate fokastudio:end/locations/biomes/in_flesh_tundra run playsound fokastudio:music.flesh_tundra music @s
 execute if predicate fokastudio:end/locations/biomes/in_frosted_hills run playsound fokastudio:music.frosted_hills music @s
-execute if predicate fokastudio:end/locations/biomes/in_glowshroom_valley run playsound fokastudio:music.glowshroom_valley music @s
 execute if predicate fokastudio:end/locations/biomes/in_prismarine_forest run playsound fokastudio:music.prismarine_forest music @s
 execute if predicate fokastudio:end/locations/biomes/in_small_end_islands run playsound fokastudio:music.small_end_islands music @s
 execute if predicate fokastudio:end/locations/biomes/in_the_hallow run playsound fokastudio:music.the_hallow music @s

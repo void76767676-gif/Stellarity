@@ -2,62 +2,37 @@
 	"temperature": 0.5,
 	"downfall": 0.5,
 	"has_precipitation": false,
-	"temperature_modifier": "none",
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 4154283,
-		"water_fog_color": 3092340,
-		"grass_color": 5744071,
-		"foliage_color": 5744071,
-		"ambient_sound": "minecraft:ambient.warped_forest.loop",
-		"mood_sound": {
-			"sound": "minecraft:ambient.crimson_forest.mood",
-			"tick_delay": 700,
-			"block_search_extent": 6,
-			"offset": 2
-		},
-		"additions_sound": {
-			"sound": "minecraft:ambient.nether_wastes.additions",
-			"tick_chance": 0.005
-		},
-		"particle": {
-			"options": {
-				"type": "warped_spore"
-			},
-			"probability": 0.0003
-		}
+		"water_color": 0,
+		"water_fog_color": 0,
+		"grass_color": 0,
+		"foliage_color": 0
 	},
-	"spawners": {},
+	"spawners": {
+		"monster": [
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
 	"spawn_costs": {},
 	"carvers": {},
 	"features": [
-		[
-			"fokastudio:glowshroom_valley/stalactite"
-		],
 		[],
 		[],
 		[],
 		[],
-		[
-			"fokastudio:glowshroom_valley/blocks_random_replace",
-			"fokastudio:glowshroom_valley/replace_blocks"
-		],
 		[],
 		[],
 		[],
-		[
-			"fokastudio:glowshroom_valley/glowshroom_1",
-			"fokastudio:glowshroom_valley/glowshroom_2",
-			"fokastudio:glowshroom_valley/glowshroom_3",
-			"fokastudio:glowshroom_valley/glowshroom_4",
-			"fokastudio:glowshroom_valley/glowshroom_5",
-			"fokastudio:glowshroom_valley/grass",
-			"fokastudio:glowshroom_valley/jellolands",
-			"fokastudio:glowshroom_valley/small_glowshroom",
-			"fokastudio:glowshroom_valley/caves",
-			"fokastudio:glowshroom_valley/caves_top"
-		],
+		[],
+		[],
+		[],
 		[]
 	]
 }

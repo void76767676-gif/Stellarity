@@ -98,16 +98,6 @@
 				}
 			}
 		},
-		"glowshroom_valley": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "fokastudio:glowshroom_valley"
-					}
-				}
-			}
-		},
 		"end_highlands": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -220,9 +210,6 @@
 		],
 		[
 			"prismarine_forest"
-		],
-		[
-			"glowshroom_valley"
 		],
 		[
 			"end_highlands"
