@@ -8,10 +8,7 @@
 			}
 		},
 		"rim": {
-			"Name": "minecraft:basalt",
-			"Properties": {
-				"axis": "y"
-			}
+			"Name": "minecraft:mud"
 		},
 		"size": {
 			"type": "minecraft:uniform",
@@ -20,12 +17,6 @@
 				"max_inclusive": 10
 			}
 		},
-		"rim_size": {
-			"type": "uniform",
-			"value": {
-				"max_inclusive": 4,
-				"min_inclusive": 1
-			}
-		}
+		"rim_size": 0
 	}
 }

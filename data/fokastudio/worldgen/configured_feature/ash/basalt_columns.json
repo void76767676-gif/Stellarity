@@ -1,19 +1,46 @@
 {
-	"type": "minecraft:basalt_columns",
+	"type": "minecraft:random_selector",
 	"config": {
-		"reach": {
-			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": 0,
-				"max_inclusive": 3
+		"features": [
+			{
+				"chance": 0.7,
+				"feature": {
+					"feature": {
+						"type": "minecraft:basalt_columns",
+						"config": {
+							"reach": 0,
+							"height": 1
+						}
+					},
+					"placement": []
+				}
+			},
+			{
+				"chance": 0.4,
+				"feature": {
+					"feature": {
+						"type": "minecraft:basalt_columns",
+						"config": {
+							"reach": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 2,
+									"max_inclusive": 3
+								}
+							},
+							"height": {
+								"type": "minecraft:uniform",
+								"value": {
+									"min_inclusive": 3,
+									"max_inclusive": 6
+								}
+							}
+						}
+					},
+					"placement": []
+				}
 			}
-		},
-		"height": {
-			"type": "minecraft:uniform",
-			"value": {
-				"min_inclusive": 1,
-				"max_inclusive": 5
-			}
-		}
+		],
+		"default": "far_end:nothing"
 	}
 }

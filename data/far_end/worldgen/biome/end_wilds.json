@@ -19,7 +19,7 @@
 		},
 		"additions_sound": {
 			"sound": "ambient.soul_sand_valley.additions",
-			"tick_chance": 0.0111
+			"tick_chance": 0.0033
 		},
 		"particle": {
 			"options": {
