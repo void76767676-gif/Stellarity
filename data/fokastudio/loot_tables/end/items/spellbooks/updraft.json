@@ -26,28 +26,23 @@
 								"",
 								{
 									"translate": "foka.items.spellbooks.updraft.description.1",
-									"fallback": "Right Click to summon a cloud",
+									"fallback": "Right Click to push yourself upwards",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "foka.items.spellbooks.updraft.description.2",
-									"fallback": "that will boost upwards anything",
+									"fallback": "with a light gust of wind, giving you",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "foka.items.spellbooks.updraft.description.3",
-									"fallback": "that walks into it",
+									"fallback": "the ability to glide freely for a short time",
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								{
-									"translate": "foka.items.spellbooks.updraft.description.4",
-									"fallback": "You also fall slower while holding this book",
-									"color": "#EEEEEE",
-									"italic": false
-								},
+								"",
 								{
 									"translate": "foka.items.spellbooks.cooldown",
 									"fallback": "Cooldown: %s seconds",
@@ -55,7 +50,7 @@
 									"italic": false,
 									"with": [
 										{
-											"text": "7",
+											"text": "16",
 											"color": "#C6C6C6",
 											"italic": false
 										}

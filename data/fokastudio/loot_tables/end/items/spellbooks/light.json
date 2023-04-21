@@ -26,16 +26,23 @@
 								"",
 								{
 									"translate": "foka.items.spellbooks.light.description.1",
-									"fallback": "Right Click to summon up to 4 Healing Orbs",
+									"fallback": "Right Click to summon a friendly aura",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "foka.items.spellbooks.light.description.2",
-									"fallback": "that will heal any nearby player",
+									"fallback": "which grants healing and damage reduction",
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								{
+									"translate": "foka.items.spellbooks.light.description.3",
+									"fallback": "to all nearby players inside",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
 								{
 									"translate": "foka.items.spellbooks.cooldown",
 									"fallback": "Cooldown: %s seconds",
@@ -43,7 +50,7 @@
 									"italic": false,
 									"with": [
 										{
-											"text": "22",
+											"text": "31",
 											"color": "#C6C6C6",
 											"italic": false
 										}

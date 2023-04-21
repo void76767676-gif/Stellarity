@@ -49,6 +49,12 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								{
+									"translate": "foka.items.weapons.tamaris.description.3",
+									"fallback": "Applies Dark Decay on hit",
+									"color": "#EEEEEE",
+									"italic": false
+								},
 								"",
 								{
 									"translate": "foka.items.tamaris.flavor_text",

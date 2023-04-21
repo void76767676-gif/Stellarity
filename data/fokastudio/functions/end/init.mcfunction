@@ -45,6 +45,7 @@ scoreboard objectives add foka.items.sabrewing.until_charge_reset dummy "Sabrewi
 scoreboard objectives add foka.items.spellbook.conveyance.cooldown dummy "Spellbook Conveyance Cooldown"
 scoreboard objectives add foka.items.spellbook.conveyance.id dummy "Spellbook Conveyance Teleport ID"
 scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy "Spellbook Updraft Cooldown"
+scoreboard objectives add foka.items.spellbook.updraft.animation dummy "Spellbook Updraft Animation"
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy "Spellbook Light Cooldown"
 
 scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy "Mystical Heartfish Total Consumed"

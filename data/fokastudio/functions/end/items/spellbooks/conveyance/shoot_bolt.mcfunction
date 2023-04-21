@@ -1,4 +1,4 @@
-scoreboard players set @s foka.items.spellbook.conveyance.cooldown 240
+scoreboard players set @s foka.items.spellbook.conveyance.cooldown 260
 
 scoreboard players add #foka.book_of_conveyance foka.items.spellbook.conveyance.id 1
 

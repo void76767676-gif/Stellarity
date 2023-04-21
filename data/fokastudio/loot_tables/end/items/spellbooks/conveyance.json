@@ -42,6 +42,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								"",
 								{
 									"translate": "foka.items.spellbooks.cooldown",
 									"fallback": "Cooldown: %s seconds",
@@ -49,7 +50,7 @@
 									"italic": false,
 									"with": [
 										{
-											"text": "12",
+											"text": "13",
 											"color": "#C6C6C6",
 											"italic": false
 										}
