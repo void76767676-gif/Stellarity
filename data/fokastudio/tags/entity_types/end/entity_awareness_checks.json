@@ -5,6 +5,7 @@
 		"wandering_trader",
 		"allay",
 		"zombified_piglin",
-		"#fokastudio:end/stat_buff"
+		"#fokastudio:end/stat_buff",
+		"zombie"
 	]
 }

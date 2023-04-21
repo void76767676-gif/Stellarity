@@ -47,8 +47,9 @@
                         ],
                         "blocks": [
                             "minecraft:moss_block",
-                            "minecraft:end_stone",
-                            "warped_wart_block"
+                            "minecraft:coarse_dirt",
+                            "minecraft:rooted_dirt",
+                            "minecraft:warped_wart_block"
                         ]
                     },
                     {

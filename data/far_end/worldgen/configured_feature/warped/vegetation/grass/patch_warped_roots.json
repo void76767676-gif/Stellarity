@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:flower",
 	"config": {
-		"tries": 32,
+		"tries": 96,
 		"xz_spread": 7,
 		"y_spread": 3,
 		"feature": {
@@ -9,10 +9,33 @@
 				"type": "minecraft:simple_block",
 				"config": {
 					"to_place": {
-						"type": "minecraft:simple_state_provider",
-						"state": {
-							"Name": "minecraft:warped_roots"
-						}
+						"type": "minecraft:weighted_state_provider",
+						"entries": [
+							{
+								"weight": 2,
+								"data": {
+									"Name": "minecraft:nether_sprouts"
+								}
+							},
+							{
+								"weight": 4,
+								"data": {
+									"Name": "minecraft:warped_roots"
+								}
+							},
+							{
+								"weight": 1,
+								"data": {
+									"Name": "minecraft:warped_fungus"
+								}
+							},
+							{
+								"weight": 6,
+								"data": {
+									"Name": "minecraft:moss_carpet"
+								}
+							}
+						]
 					}
 				}
 			},

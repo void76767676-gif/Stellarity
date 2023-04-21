@@ -54,28 +54,6 @@
 									"waterlogged": "false"
 								}
 							}
-						},
-						{
-							"weight": 1,
-							"data": {
-								"Name": "minecraft:dark_oak_leaves",
-								"Properties": {
-									"distance": "1",
-									"persistent": "true",
-									"waterlogged": "false"
-								}
-							}
-						},
-						{
-							"weight": 1,
-							"data": {
-								"Name": "minecraft:mangrove_leaves",
-								"Properties": {
-									"distance": "1",
-									"persistent": "true",
-									"waterlogged": "false"
-								}
-							}
 						}
 					]
 				}

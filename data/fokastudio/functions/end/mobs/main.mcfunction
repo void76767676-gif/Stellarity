@@ -15,9 +15,11 @@ execute as @e[type=ender_dragon] at @s run function fokastudio:end/mobs/dragon/m
 execute as @e[type=slime,tag=foka.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true
 
 # Replace Skeletons with either Husks or Strays in certain biomes
-execute as @e[type=skeleton,tag=!foka.aware,predicate=fokastudio:end/locations/biomes/in_end_wilds] at @s run function fokastudio:end/mobs/wild_husk/convert
-execute as @e[type=skeleton,tag=!foka.aware,predicate=fokastudio:end/locations/biomes/in_frosted_hills] at @s run function fokastudio:end/mobs/frosted_stray/convert
+execute as @e[type=skeleton,tag=!foka.aware,predicate=fokastudio:end/locations/biomes/in_end_wilds] at @s run function fokastudio:end/mobs/wild_husk/spawn
+execute as @e[type=skeleton,tag=!foka.aware,predicate=fokastudio:end/locations/biomes/in_frosted_hills] at @s run function fokastudio:end/mobs/frosted_stray/spawn
 
 execute as @e[type=zombified_piglin,tag=!foka.aware,tag=!foka.flesh_piglin,predicate=fokastudio:end/locations/biomes/in_flesh_tundra] run function fokastudio:end/mobs/flesh_piglin/convert
 
 execute as @e[type=#fokastudio:end/stat_buff,tag=!foka.aware,tag=!foka.buffed,predicate=fokastudio:end/locations/in_the_end] run function fokastudio:end/mobs/stat_buff/main
+
+execute as @e[type=zombie,predicate=fokastudio:end/locations/biomes/in_warped_marsh,tag=!foka.aware] at @s run function fokastudio:end/mobs/warped_marsh_zombie_despawn

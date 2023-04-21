@@ -16,8 +16,8 @@
 		"xz_radius": {
 			"type": "minecraft:biased_to_bottom",
 			"value": {
-				"min_inclusive": 5,
-				"max_inclusive": 7
+				"min_inclusive": 2,
+				"max_inclusive": 4
 			}
 		},
 		"replaceable": "#minecraft:lush_ground_replaceable",

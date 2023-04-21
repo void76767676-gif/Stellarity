@@ -25,7 +25,7 @@
 			"options": {
 				"type": "falling_spore_blossom"
 			},
-			"probability": 0.006
+			"probability": 0.003
 		}
 	},
 	"spawners": {
@@ -39,10 +39,10 @@
 		],
 		"monster": [
 			{
-				"type": "minecraft:slime",
-				"weight": 25,
-				"minCount": 4,
-				"maxCount": 4
+				"type": "minecraft:zombie",
+				"weight": 10,
+				"minCount": 2,
+				"maxCount": 3
 			}
 		]
 	},
@@ -50,32 +50,30 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
-			"fokastudio:warped/patches"
+			"fokastudio:global/stalactite_1"
 		],
-		[],
+		[
+			"fokastudio:warped/dripping_water"
+		],
 		[],
 		[
 			"far_end:warped/aquatic/delta",
 			"fokastudio:warped/deltas",
 			"far_end:warped/vegetation/water/under_island_extra",
 			"far_end:warped/vegetation/water/pool",
-			"far_end:warped/aquatic/lake"
+			"far_end:warped/aquatic/lake",
+			"fokastudio:warped/patches"
 		],
 		[],
 		[],
 		[],
+		[],
 		[
-			"fokastudio:warped/spring"
-		],
-		[
-			"fokastudio:warped/trees",
 			"far_end:warped/vegetation/grass/patch_grass",
 			"far_end:warped/vegetation/grass/patch_blue_orchid",
 			"far_end:warped/vegetation/grass/patch_warped_roots",
-			"far_end:warped/vegetation/grass/patch_nether_sprouts",
-			"far_end:warped/vegetation/water/sea_pickle"
+			"far_end:warped/vegetation/water/sea_pickle",
+			"fokastudio:warped/slime"
 		],
 		[]
 	]

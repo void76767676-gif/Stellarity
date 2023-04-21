@@ -16,8 +16,8 @@
 		"xz_radius": {
 			"type": "minecraft:uniform",
 			"value": {
-				"min_inclusive": 4,
-				"max_inclusive": 6
+				"min_inclusive": 2,
+				"max_inclusive": 4
 			}
 		},
 		"replaceable": "#minecraft:dirt",
@@ -25,34 +25,19 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 50,
+					"weight": 25,
 					"data": {
 						"Name": "minecraft:coarse_dirt"
 					}
 				},
 				{
-					"weight": 34,
+					"weight": 13,
 					"data": {
 						"Name": "minecraft:rooted_dirt"
-					}
-				},
-				{
-					"weight": 3,
-					"data": {
-						"Name": "minecraft:slime_block"
 					}
 				}
 			]
 		},
-		"vegetation_feature": {
-			"feature": {
-				"type": "minecraft:random_boolean_selector",
-				"config": {
-					"feature_false": "fokastudio:warped/pond_plant_1",
-					"feature_true": "fokastudio:warped/pond_plant_2"
-				}
-			},
-			"placement": []
-		}
+		"vegetation_feature": "far_end:nothing"
 	}
 }
