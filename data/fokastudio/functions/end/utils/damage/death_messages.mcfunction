@@ -9,3 +9,5 @@ execute if entity @s[tag=foka.damage.spirit_dagger] run tellraw @a {"translate":
 execute if entity @s[tag=foka.damage.dragonblade] run tellraw @a {"translate":"foka.death_messages.dragonblade","fallback":"%1$s was punched into the otherworld by %2$s","with":[{"selector":"@s"},{"selector":"@p[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking]"}]}
 
 execute if entity @s[tag=foka.damage.tamaris_execute] run tellraw @a {"translate":"foka.death_messages.tamaris_execute","fallback":"%1$s was publicly executed by %2$s","with":[{"selector":"@s"},{"selector":"@p[predicate=fokastudio:end/items/holding_tamaris,predicate=fokastudio:end/utils/player/is_sneaking]"}]}
+
+execute if entity @s[tag=foka.damage.dot.dark_decay] run tellraw @a {"translate":"foka.death_messages.dot.dark_decay","fallback":"%1$s withered to ashes","with":[{"selector":"@s"}]}

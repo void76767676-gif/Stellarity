@@ -74,7 +74,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "6"
+												"text": "5"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -90,7 +90,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "1.6"
+												"text": "1.4"
 											},
 											{
 												"translate": "attribute.name.generic.attack_speed"
@@ -108,14 +108,14 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 5,
+									"amount": 4,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -2.4,
+									"amount": -2.6,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

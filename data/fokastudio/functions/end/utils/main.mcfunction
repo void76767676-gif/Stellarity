@@ -1,3 +1,5 @@
+function fokastudio:end/utils/dot/main
+
 # All 'as @a at @s' utility checks happen every 10th tick
 
 execute as @e[type=#fokastudio:end/entity_awareness_checks,tag=!foka.aware] run tag @s add foka.aware

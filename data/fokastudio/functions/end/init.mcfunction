@@ -151,3 +151,7 @@ function fokastudio:end/utils/rng/init
 
 # Get world difficulty
 execute store result score #difficulty foka.misc run difficulty
+
+# Initialize all DOT related scoreboards
+# Keeping them as separate files for the sake of readability
+function #fokastudio:end/dot/load

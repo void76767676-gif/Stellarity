@@ -1,0 +1,11 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:entity_killed_player"
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/utils/dot/on_player_death"
+	}
+}
