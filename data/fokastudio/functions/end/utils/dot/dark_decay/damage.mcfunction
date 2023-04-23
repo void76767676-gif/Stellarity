@@ -12,6 +12,8 @@ scoreboard players reset @s foka.dot.dark_decay.progress
 particle end_rod ~ ~1 ~ .3 .55 .3 0.01 7 force @a[distance=..32]
 particle dust 0.3 0.3 0.3 1 ~ ~1 ~ .3 .55 .3 0.01 7 force @a[distance=..32]
 
+playsound minecraft:entity.ender_eye.death neutral @a ~ ~ ~
+
 # Damage cause
 tag @s add foka.damage.dot.dark_decay
 

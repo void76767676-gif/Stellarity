@@ -13,3 +13,9 @@ tag @a[distance=..64] add foka.items.prismatic_punch.stopsound
 schedule function fokastudio:end/items/prismatic_punch/detonate/stopsound 2t append
 
 execute if entity @s[tag=foka.prismatic_blast.piercing] run tag @e[type=!#fokastudio:end/invalid_targets_with_player,sort=nearest,limit=1,tag=!foka.prismatic_blast.pierced] add foka.prismatic_blast.pierced
+
+scoreboard players set #dot.damage foka.misc 20
+scoreboard players set #dot.time foka.misc 40
+scoreboard players set #dot.delay foka.misc 20
+
+execute as @e[type=!#fokastudio:end/invalid_targets,distance=..3] run function fokastudio:end/utils/dot/prismatic_inferno/apply

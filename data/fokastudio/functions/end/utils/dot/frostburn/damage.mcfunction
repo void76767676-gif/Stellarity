@@ -11,6 +11,8 @@ scoreboard players reset @s foka.dot.frostburn.progress
 
 particle minecraft:soul_fire_flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..32]
 
+execute unless entity @s[type=player] run playsound minecraft:entity.player.hurt_freeze neutral @a ~ ~ ~
+
 # Damage cause
 tag @s add foka.damage.dot.frostburn
 
