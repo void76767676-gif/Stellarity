@@ -5,6 +5,6 @@ execute as @e[type=item,predicate=fokastudio:end/locations/biomes/in_the_hallow]
 execute in minecraft:overworld as @e[type=phantom,tag=!foka.phantom.aware,distance=0..] at @s run function fokastudio:end/mobs/phantom/enlarge 
 execute as @e[type=phantom] unless score @s foka.phantom.size matches 1.. run scoreboard players set @s foka.phantom.size 1
 
-execute as @e[type=marker,tag=foka.book_of_light.aura] at @s as @a[distance=..4.5] run function fokastudio:end/items/spellbooks/light/effects
+execute as @e[type=marker,tag=foka.book_of_light.aura] at @s as @a[distance=..5.5] run function fokastudio:end/items/spellbooks/light/effects
 
 schedule function fokastudio:end/loops/1_second 1s

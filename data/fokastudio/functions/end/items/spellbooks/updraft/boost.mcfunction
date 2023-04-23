@@ -1,8 +1,9 @@
-scoreboard players set @s foka.items.spellbook.updraft.cooldown 320
+scoreboard players set @s foka.items.spellbook.updraft.cooldown 2147483647
 
 tag @s add foka.book_of_updraft.animation
 
-effect give @s levitation 1 29 true
+execute if data entity @s {FallFlying:0b} run effect give @s levitation 1 23 true
+execute if data entity @s {FallFlying:1b} run effect give @s levitation 1 33 true
 
 scoreboard players reset @s foka.items.spellbook.updraft.animation
 

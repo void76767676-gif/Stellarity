@@ -4,12 +4,12 @@ execute if score @s foka.items.spellbook.updraft.animation matches ..20 run part
 
 execute if score @s foka.items.spellbook.updraft.animation matches 30.. run particle end_rod ~ ~1 ~ .3 .55 .3 0 2 force
 
-execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 8 248 true
-execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 7 251 true
-execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 6 252 true
-execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 5 253 true
-execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 4 254 true
+execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 7 248 true
+execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 6 251 true
+execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 5 252 true
+execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 4 253 true
+execute if score @s foka.items.spellbook.updraft.animation matches 30 run effect give @s levitation 3 254 true
 
-execute if score @s foka.items.spellbook.updraft.animation matches 190.. run effect give @s slow_falling infinite 0 true
+execute if score @s foka.items.spellbook.updraft.animation matches 170.. run effect give @s slow_falling infinite 0 true
 execute if score @s foka.items.spellbook.updraft.animation matches 5.. if data entity @s {OnGround:1b} run function fokastudio:end/items/spellbooks/updraft/animation_finish
 execute if predicate fokastudio:end/utils/player/is_sneaking run function fokastudio:end/items/spellbooks/updraft/animation_finish
