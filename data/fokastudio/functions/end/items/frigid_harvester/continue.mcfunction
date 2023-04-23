@@ -22,10 +22,10 @@ execute if score #temp2 foka.misc matches 80..89 run data modify storage fokastu
 execute if score #temp2 foka.misc matches 90..99 run data modify storage fokastudio:end/temp aery_sword.damage_round set value ".9"
 
 # Custom model data depending on extra damage
-execute if score #damage foka.misc matches 0..399 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90001
-execute if score #damage foka.misc matches 400..799 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90002
-execute if score #damage foka.misc matches 800..1199 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90003
-execute if score #damage foka.misc matches 1200.. run data modify storage fokastudio:end/temp aery_sword.cmd set value 90004
+execute if score #damage foka.misc matches 0..299 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90001
+execute if score #damage foka.misc matches 300..599 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90002
+execute if score #damage foka.misc matches 600..899 run data modify storage fokastudio:end/temp aery_sword.cmd set value 90003
+execute if score #damage foka.misc matches 900.. run data modify storage fokastudio:end/temp aery_sword.cmd set value 90004
 
 # Visual and sound effects
 execute anchored eyes positioned ^ ^ ^2.5 run function fokastudio:end/items/frigid_harvester/effects
@@ -36,4 +36,5 @@ playsound minecraft:block.glass.break player @s ~ ~ ~ 1 0.66
 
 execute store result storage fokastudio:end/temp aery_sword.damage_int int 0.01 run scoreboard players get #damage foka.misc
 execute store result storage fokastudio:end/temp aery_sword.damage double 0.01 run scoreboard players get #damage foka.misc
+
 item modify entity @s weapon.mainhand fokastudio:end/aery_sword_increase_damage

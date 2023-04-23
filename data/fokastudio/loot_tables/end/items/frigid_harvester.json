@@ -32,6 +32,12 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								{
+									"translate": "foka.items.weapons.frigid_harvester.description.3",
+									"fallback": "and unlocking passive abilities",
+									"color": "#EEEEEE",
+									"italic": false
+								},
 								"",
 								[
 									{

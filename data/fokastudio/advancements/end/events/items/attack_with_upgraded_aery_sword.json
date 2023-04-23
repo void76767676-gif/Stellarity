@@ -1,0 +1,29 @@
+{
+	"parent": "fokastudio:end/events/root",
+	"criteria": {
+		"click": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{foka.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"damage": {
+					"dealt": {
+						"min": 7.7
+					},
+					"blocked": false
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/frigid_harvester/attack"
+	}
+}
