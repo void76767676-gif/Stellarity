@@ -5,7 +5,7 @@ execute store result score #enchant foka.misc run data get entity @s SelectedIte
 scoreboard players set #dot.damage foka.misc 30
 scoreboard players operation #dot.damage foka.misc += #enchant foka.misc
 
-scoreboard players set #dot.time foka.misc 160
+scoreboard players set #dot.time foka.misc 161
 scoreboard players set #extra foka.misc 3
 scoreboard players operation #extra foka.misc *= #enchant foka.misc
 scoreboard players operation #dot.time foka.misc += #extra foka.misc
