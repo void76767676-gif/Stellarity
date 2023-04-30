@@ -47,6 +47,8 @@ scoreboard objectives add foka.items.spellbook.conveyance.id dummy "Spellbook Co
 scoreboard objectives add foka.items.spellbook.updraft.cooldown dummy "Spellbook Updraft Cooldown"
 scoreboard objectives add foka.items.spellbook.updraft.animation dummy "Spellbook Updraft Animation"
 scoreboard objectives add foka.items.spellbook.light.cooldown dummy "Spellbook Light Cooldown"
+scoreboard objectives add foka.items.spellbook.natures_wrath.cooldown.shoot dummy "Spellbook Nature's Wrath Shoot Cooldown"
+scoreboard objectives add foka.items.spellbook.natures_wrath.cooldown.wolves dummy "Spellbook Nature's Wrath Shoot Cooldown"
 
 scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy "Mystical Heartfish Total Consumed"
 

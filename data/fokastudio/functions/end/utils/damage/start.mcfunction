@@ -43,11 +43,15 @@ tag @s remove foka.damage.carcanet
 tag @s remove foka.damage.spirit_dagger
 tag @s remove foka.damage.dragonblade
 tag @s remove foka.damage.tamaris_execute
+tag @s remove foka.damage.natures_wrath
+tag @s remove foka.damage.dot.dark_decay
+tag @s remove foka.damage.dot.prismatic_inferno
+tag @s remove foka.damage.frostburn
 
 tag @e remove foka.damage.attacker
 
 scoreboard players reset #armor_penetration foka.misc
 scoreboard players reset #ignore_iframes foka.misc
-#scoreboard players reset #ignore_resistance foka.misc
+scoreboard players reset #ignore_resistance foka.misc
 scoreboard players reset #damage_type foka.misc
 scoreboard players reset #damage_effect foka.misc

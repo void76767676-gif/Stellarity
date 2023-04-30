@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "fokastudio:end/events/spellbooks/use_natures_wrath"
+			}
+		}
+	},
+	"rewards": {
+		"function": "fokastudio:end/items/spellbooks/natures_wrath/use"
+	}
+}

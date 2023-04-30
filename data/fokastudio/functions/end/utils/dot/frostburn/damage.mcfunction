@@ -1,5 +1,9 @@
 scoreboard players operation #damage foka.misc = @s foka.dot.frostburn.damage
 
+scoreboard players set #mul foka.misc 3
+
+execute if entity @s[type=#minecraft:freeze_hurts_extra_types] run scoreboard players operation #damage foka.misc *= #mul foka.misc
+
 scoreboard players set #armor_penetration foka.misc 0
 
 scoreboard players set #ignore_iframes foka.misc 1
