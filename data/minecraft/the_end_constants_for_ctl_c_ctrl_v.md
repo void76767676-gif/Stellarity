@@ -3,7 +3,7 @@
 
 <hr>
 
-**Dragon's Den** biome always generates at <u>hardcoded max erosion and continents noise values</u> to prevent it from generating outside of main island.
+**Dragon's Den** biome always generates at <u>hardcoded minimum erosion and continents noise values</u> to prevent it from generating outside of main island. These values are forced to -2 around X:0 Z:0.
 
 For more info look into `fokastudio/worldgen/density_function/end/erosion.json` and `./continents.json` files.
 

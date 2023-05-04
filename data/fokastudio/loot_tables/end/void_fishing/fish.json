@@ -110,8 +110,17 @@
 					"name": "fokastudio:end/void_fishing/drops/amethyst",
 					"conditions": [
 						{
-							"condition": "minecraft:reference",
-							"name": "fokastudio:end/locations/biomes/in_amethyst_forest"
+							"condition": "minecraft:alternative",
+							"terms": [
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_amethyst_forest"
+								},
+								{
+									"condition": "minecraft:reference",
+									"name": "fokastudio:end/locations/biomes/in_crystal_crags"
+								}
+							]
 						}
 					]
 				},

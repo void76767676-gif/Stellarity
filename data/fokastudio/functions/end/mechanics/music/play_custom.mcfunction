@@ -3,6 +3,7 @@ stopsound @s music music.end
 scoreboard players reset @s foka.mechanics.end_music
 
 execute if predicate fokastudio:end/locations/biomes/in_amethyst_forest run playsound fokastudio:music.amethyst_forest music @s
+execute if predicate fokastudio:end/locations/biomes/in_crystal_crags run playsound fokastudio:music.crystal_crags music @s
 execute if predicate fokastudio:end/locations/biomes/in_ashfall_delta run playsound fokastudio:music.ashfall_delta music @s
 execute if predicate fokastudio:end/locations/biomes/in_blazing_dunes run playsound fokastudio:music.blazing_dunes music @s
 execute if predicate fokastudio:end/locations/biomes/in_end_barrens run playsound fokastudio:music.end_barrens music @s
