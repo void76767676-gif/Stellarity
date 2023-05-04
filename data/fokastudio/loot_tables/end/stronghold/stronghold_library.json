@@ -4,14 +4,14 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 7,
-				"max": 9
+				"min": 6,
+				"max": 8
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 20,
+					"weight": 13,
 					"name": "minecraft:book",
 					"functions": [
 						{
@@ -19,6 +19,22 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 15,
+					"name": "minecraft:paper",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 2,
 								"max": 3
 							},
 							"add": false
@@ -27,22 +43,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 20,
-					"name": "minecraft:paper",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 7
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:map"
 				},
 				{
@@ -51,13 +52,57 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 14,
+					"weight": 4,
 					"name": "minecraft:book",
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 34,
+							"levels": {
+								"min": 18,
+								"max": 29
+							},
 							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 9,
+					"quality": -1,
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"quality": -1,
+					"name": "minecraft:ink_sac",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:writable_book",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1
 						}
 					]
 				}

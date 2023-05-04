@@ -3,8 +3,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 5,
-				"max": 8
+				"min": 2,
+				"max": 4
 			},
 			"entries": [
 				{
@@ -15,7 +15,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": true
 						}
@@ -29,7 +29,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": true
 						}
@@ -43,7 +43,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": true
 						}
@@ -52,7 +52,10 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": -1,
+				"max": 1
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -61,17 +64,11 @@
 						{
 							"function": "minecraft:set_damage",
 							"damage": {
-								"min": 0.25,
+								"min": 0.17,
 								"max": 0.88
 							}
 						}
 					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.72
 				}
 			]
 		}

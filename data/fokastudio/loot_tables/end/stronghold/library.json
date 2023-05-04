@@ -4,8 +4,8 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 5,
-				"max": 7
+				"min": 6,
+				"max": 8
 			},
 			"bonus_rolls": 0,
 			"entries": [
@@ -20,7 +20,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 2
 							},
 							"add": false
 						}
@@ -36,8 +36,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 6
+								"min": 1,
+								"max": 3
 							},
 							"add": false
 						}
@@ -53,8 +53,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 3
+								"min": 0,
+								"max": 2
 							},
 							"add": false
 						}
@@ -69,10 +69,40 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 20,
-								"max": 40
+								"min": 15,
+								"max": 28
 							},
 							"treasure": true
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 4,
+					"quality": -1,
+					"name": "minecraft:feather",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"quality": -1,
+					"name": "minecraft:ink_sac",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
 						}
 					]
 				}
@@ -86,41 +116,18 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:recovery_compass"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:compass"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:map"
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 2,
 					"name": "minecraft:clock"
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:wither_skeleton_skull"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:skeleton_skull"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.333
 				}
 			]
 		}

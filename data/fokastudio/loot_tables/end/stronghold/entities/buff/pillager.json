@@ -10,8 +10,8 @@
 						{
 							"function": "minecraft:set_damage",
 							"damage": {
-								"min": 0.11,
-								"max": 0.55
+								"min": 0.32,
+								"max": 0.6
 							}
 						},
 						{

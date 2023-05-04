@@ -6,6 +6,10 @@
 				"min": 2,
 				"max": 3
 			},
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -14,10 +18,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 3
-							},
+							"count": 2,
 							"add": false
 						}
 					]
@@ -26,6 +27,18 @@
 					"type": "minecraft:item",
 					"weight": 3,
 					"name": "minecraft:diamond",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": 1,
+							"add": false
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 10,
+					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -40,22 +53,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:iron_ingot",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 7,
 					"name": "minecraft:gold_ingot",
 					"functions": [
@@ -63,8 +60,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -75,7 +72,7 @@
 		{
 			"rolls": {
 				"min": 0,
-				"max": 1
+				"max": 2
 			},
 			"entries": [
 				{
@@ -140,13 +137,13 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 3,
 					"quality": 1,
 					"name": "minecraft:book",
 					"functions": [
 						{
 							"function": "minecraft:enchant_with_levels",
-							"levels": 45,
+							"levels": 25,
 							"treasure": true
 						}
 					]
@@ -182,28 +179,17 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:music_disc_otherside"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_mellohi"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:music_disc_stal"
 				}
 			],
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.66
+					"chance": 0.075
 				}
 			]
 		},
@@ -222,11 +208,19 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
+			"bonus_rolls": {
+				"min": 0,
+				"max": 1
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
 					"weight": 15,
+					"quality": -1,
 					"name": "minecraft:bread",
 					"functions": [
 						{
@@ -234,7 +228,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 2
 							},
 							"add": false
 						}
@@ -243,14 +237,15 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
+					"quality": -1,
 					"name": "minecraft:apple",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 5
+								"min": 2,
+								"max": 3
 							},
 							"add": false
 						}
@@ -259,7 +254,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 2,
-					"quality": 3,
+					"quality": 1,
 					"name": "minecraft:golden_apple"
 				}
 			]

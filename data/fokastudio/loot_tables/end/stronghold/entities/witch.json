@@ -198,8 +198,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/stronghold/random_potion",
-					"weight": 10
+					"weight": 10,
+					"name": "fokastudio:end/stronghold/random_potion"
 				}
 			]
 		}

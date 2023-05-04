@@ -249,7 +249,7 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "fokastudio:end/stronghold/storage",
+				"location": "fokastudio:end/stronghold/small_storage",
 				"processors": "fokastudio:end/stronghold_generic"
 			}
 		},
@@ -259,6 +259,42 @@
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:end/stronghold/farm",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 4,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/storage_large",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/workshop",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 6,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/crypt_small",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/amethyst_enchantery",
 				"processors": "fokastudio:end/stronghold_generic"
 			}
 		}

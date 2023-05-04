@@ -1,33 +1,44 @@
 {
-    "pools":[
-        {
-            "rolls":1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/bottled_darkness"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/endurance_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/lifeforce_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/luck_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/radiant_potion"
-                },
-                {
-                    "type": "loot_table",
-                    "name": "fokastudio:end/items/potions/unluck_potion"
-                }
-            ]
-        }
-    ]
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/bottled_darkness"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/endurance_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/lifeforce_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/luck_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/radiant_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 3,
+					"name": "fokastudio:end/items/potions/unluck_potion"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"quality": 1,
+					"name": "fokastudio:end/items/potions/amarena"
+				}
+			]
+		}
+	]
 }

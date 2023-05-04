@@ -11,7 +11,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:random_chance",
-							"chance": 0.33
+							"chance": 0.2
 						}
 					]
 				}
@@ -75,7 +75,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance_with_looting",
-					"chance": 0.17,
+					"chance": 0.15,
 					"looting_multiplier": 0.03
 				}
 			]

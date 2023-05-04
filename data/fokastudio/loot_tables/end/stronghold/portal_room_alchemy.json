@@ -3,8 +3,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 8,
-				"max": 10
+				"min": 5,
+				"max": 7
 			},
 			"entries": [
 				{
@@ -17,7 +17,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							}
 						}
 					]
@@ -31,7 +31,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -39,7 +39,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 4,
 					"quality": -1,
 					"name": "minecraft:glass_bottle",
 					"functions": [
@@ -47,7 +47,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 2
+								"max": 3
 							},
 							"add": false
 						}
@@ -61,6 +61,13 @@
 							"name": "minecraft:potion",
 							"functions": [
 								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 0,
+										"max": 2
+									}
+								},
+								{
 									"function": "minecraft:set_potion",
 									"id": "minecraft:water"
 								}
@@ -72,8 +79,11 @@
 		},
 		{
 			"rolls": {
-				"min": 1,
-				"max": 3
+				"min": 0,
+				"max": {
+					"min": 0,
+					"max": 1
+				}
 			},
 			"entries": [
 				{
