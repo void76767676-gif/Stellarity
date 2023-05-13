@@ -25,4 +25,4 @@ execute as @e[type=#fokastudio:end/stat_buff,tag=!foka.aware,tag=!foka.buffed,pr
 execute as @e[type=zombie,predicate=fokastudio:end/locations/biomes/in_warped_marsh,tag=!foka.aware] at @s run function fokastudio:end/mobs/warped_marsh_zombie_despawn
 
 # Villagers
-execute as @e[type=villager,predicate=fokastudio:end/locations/in_end_village,tag=!foka.villager.aware] at @s run function fokastudio:end/mobs/villager/main
+execute as @e[type=villager,predicate=fokastudio:end/locations/in_end_village,tag=!foka.villager.aware] at @s run function fokastudio:end/mobs/villager/check

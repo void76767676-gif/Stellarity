@@ -7,4 +7,7 @@ execute as @e[type=phantom] unless score @s foka.phantom.size matches 1.. run sc
 
 execute as @e[type=marker,tag=foka.book_of_light.aura] at @s as @a[distance=..5.5] run function fokastudio:end/items/spellbooks/light/effects
 
+# Villagers
+execute as @e[type=villager,tag=foka.villager.aware,predicate=!fokastudio:end/utils/is_baby,tag=!foka.villager.nitwit,tag=!foka.villager.has_job] at @s run function fokastudio:end/mobs/villager/main
+
 schedule function fokastudio:end/loops/1_second 1s

@@ -3,8 +3,8 @@
 	"pools": [
 		{
 			"rolls": {
-				"min": 4,
-				"max": 6
+				"min": 6,
+				"max": 9
 			},
 			"entries": [
 				{
@@ -39,34 +39,6 @@
 							"add": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 4,
-				"max": 6
-			},
-			"entries": [
-				{
-					"type": "minecraft:tag",
-					"name": "fokastudio:end/village/fish",
-					"expand": true
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/pufferfish"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.1
 				}
 			]
 		}

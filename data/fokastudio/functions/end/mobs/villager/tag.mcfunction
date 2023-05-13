@@ -1,4 +1,4 @@
-tag @s add foka.villager.aware
+tag @s add foka.villager.has_job
 
 data modify storage fokastudio:end/temp villager_type set from entity @s VillagerData.profession
 data remove storage fokastudio:end/temp villager_trades
@@ -19,3 +19,6 @@ execute if data storage fokastudio:end/temp {villager_type:"minecraft:weaponsmit
 
 data modify entity @s VillagerData.level set value 5
 data modify entity @s Offers.Recipes set from storage fokastudio:end/temp villager_trades
+
+particle minecraft:happy_villager ~ ~.5 ~ 0.5 .75 0.5 0 8
+particle minecraft:dragon_breath ~ ~.5 ~ 0.5 .75 0.5 0 8
