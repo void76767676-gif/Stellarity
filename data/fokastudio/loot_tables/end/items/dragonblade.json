@@ -71,7 +71,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "1"
+												"text": "1.1"
 											},
 											{
 												"translate": "attribute.name.generic.attack_speed"
@@ -96,7 +96,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -3,
+									"amount": -2.9,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

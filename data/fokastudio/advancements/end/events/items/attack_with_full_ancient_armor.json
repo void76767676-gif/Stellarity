@@ -35,7 +35,7 @@
 					"nbt": "{HurtTime:10s}",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}

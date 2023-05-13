@@ -4,7 +4,6 @@
 			"minecraft:end_barrens",
 			"minecraft:end_highlands",
 			"minecraft:end_midlands",
-			"minecraft:the_end",
 			"far_end:amethyst_forest",
 			"far_end:ashfall_delta",
 			"far_end:warped_marsh",
@@ -15,6 +14,7 @@
 			"fokastudio:blazing_dunes",
 			"fokastudio:the_hallow",
 			"fokastudio:frosted_hills",
-			"fokastudio:prismarine_forest"
+			"fokastudio:prismarine_forest",
+			"fokastudio:crystal_crags"
 		]
 }

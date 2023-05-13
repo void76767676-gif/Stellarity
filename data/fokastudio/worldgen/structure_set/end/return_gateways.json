@@ -1,15 +1,7 @@
 {
 	"structures": [
 		{
-			"structure": "fokastudio:end/return_gateways/bloody_ground",
-			"weight": 1
-		},
-		{
 			"structure": "fokastudio:end/return_gateways/bloody_flying",
-			"weight": 1
-		},
-		{
-			"structure": "fokastudio:end/return_gateways/snowy_ground",
 			"weight": 1
 		},
 		{
@@ -18,10 +10,6 @@
 		},
 		{
 			"structure": "fokastudio:end/return_gateways/base_flying",
-			"weight": 1
-		},
-		{
-			"structure": "fokastudio:end/return_gateways/swampy",
 			"weight": 1
 		}
 	],

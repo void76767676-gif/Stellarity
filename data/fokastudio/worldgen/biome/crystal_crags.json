@@ -78,7 +78,7 @@
 		],
 		[
 			"fokastudio:small_end_islands/bricks_scattered",
-			"fokastudio:structures/end/dungeon"
+			"fokastudio:global/end_dungeon"
 		]
 	]
 }

@@ -2,11 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": {
-				"type": "minecraft:uniform",
-				"min": 6,
-				"max": 9
-			},
+			"rolls": 4,
 			"bonus_rolls": 0,
 			"entries": [
 				{
@@ -18,8 +14,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -34,8 +30,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 4,
-								"max": 7
+								"min": 1,
+								"max": 3
 							},
 							"add": false
 						}
@@ -50,8 +46,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 4,
-								"max": 7
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -60,19 +56,14 @@
 				{
 					"type": "minecraft:item",
 					"weight": 7,
-					"name": "minecraft:diamond_sword"
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:coal",
-					"weight": 7,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 6,
-								"max": 10
+								"min": 1,
+								"max": 3
 							},
 							"add": false
 						}
@@ -81,8 +72,29 @@
 				{
 					"type": "minecraft:item",
 					"weight": 1,
-					"quality": 2,
 					"name": "minecraft:netherite_scrap"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:golden_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword"
 				}
 			]
 		}

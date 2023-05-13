@@ -69,7 +69,7 @@
 			"far_end:wilds/vegetation/chorus_plant"
 		],
 		[
-			"fokastudio:structures/end/dungeon"
+			"fokastudio:global/end_dungeon"
 		]
 	]
 }

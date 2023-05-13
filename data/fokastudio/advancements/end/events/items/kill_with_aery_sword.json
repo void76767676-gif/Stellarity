@@ -18,7 +18,7 @@
 					"type": "#fokastudio:end/frigid_harvester/gives_minor_boost",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}
@@ -41,7 +41,7 @@
 					"type": "#fokastudio:end/frigid_harvester/gives_small_boost",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}
@@ -64,7 +64,7 @@
 					"type": "#fokastudio:end/frigid_harvester/gives_big_boost",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}
@@ -87,7 +87,7 @@
 					"type": "#fokastudio:end/frigid_harvester/gives_large_boost",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}
@@ -110,7 +110,7 @@
 					"type": "#fokastudio:end/frigid_harvester/gives_huge_boost",
 					"distance": {
 						"absolute": {
-							"max": 5
+							"max": 6.5
 						}
 					}
 				}

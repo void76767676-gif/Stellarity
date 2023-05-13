@@ -95,6 +95,14 @@
 				"projection": "rigid",
 				"feature": "minecraft:pile_pumpkin"
 			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "minecraft:forest_rock"
+			}
 		}
 	]
 }

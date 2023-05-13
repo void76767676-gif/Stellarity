@@ -30,8 +30,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -45,18 +45,13 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
 					"weight": 2,
@@ -64,10 +59,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 2
-							}
+							"count": 1
 						}
 					]
 				},
@@ -79,8 +71,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 1,
+								"max": 3
 							}
 						}
 					]
@@ -104,7 +96,10 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
@@ -121,12 +116,30 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.66
+					"chance": 0.5
 				}
 			]
 		},
 		{
 			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "fokastudio:end/items/zephyr"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.25
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -3,
+				"max": 1
+			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -137,20 +150,9 @@
 							"count": {
 								"min": 1,
 								"max": 4
-							},
-							"add": false
+							}
 						}
 					]
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/items/zephyr"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.33
 				}
 			]
 		}

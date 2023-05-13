@@ -2,8 +2,8 @@
 	"values": [
 		"fokastudio:the_hallow",
 		"minecraft:end_highlands",
-		"far_end:end_wilds",
-		"far_end:warped_marsh",
-		"fokastudio:prismarine_forest"
+		"fokastudio:prismarine_forest",
+		"far_end:amethyst_forest",
+		"minecraft:end_midlands"
 	]
 }

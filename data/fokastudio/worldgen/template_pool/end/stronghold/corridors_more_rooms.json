@@ -200,6 +200,51 @@
 			}
 		},
 		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight_binary",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 2,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/straight_binary_alt",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/3_way_crossing_alt",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_1_alt",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
+			"weight": 3,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:end/stronghold/corridors/turn_2_alt",
+				"processors": "fokastudio:end/stronghold_generic"
+			}
+		},
+		{
 			"weight": 12,
 			"element": {
 				"element_type": "minecraft:single_pool_element",

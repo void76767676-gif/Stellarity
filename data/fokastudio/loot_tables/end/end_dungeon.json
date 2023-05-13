@@ -16,23 +16,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 1,
 					"name": "minecraft:enchanted_golden_apple"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:music_disc_mellohi"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:music_disc_stal"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:music_disc_strad"
 				},
 				{
 					"type": "minecraft:item",
@@ -47,8 +32,8 @@
 						{
 							"function": "minecraft:enchant_with_levels",
 							"levels": {
-								"min": 17,
-								"max": 40
+								"min": 25,
+								"max": 35
 							},
 							"treasure": true
 						}
@@ -57,16 +42,12 @@
 			]
 		},
 		{
-			"rolls": {
-				"type": "minecraft:uniform",
-				"min": 3,
-				"max": 4
-			},
+			"rolls": 3,
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 6,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
@@ -74,7 +55,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -82,7 +63,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 4,
 					"name": "minecraft:gold_ingot",
 					"functions": [
 						{
@@ -90,83 +71,47 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 4
+								"max": 2
 							},
 							"add": false
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 20,
-					"name": "minecraft:popped_chorus_fruit"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 20,
-					"name": "minecraft:chorus_fruit",
-					"functions": [
+					"type": "minecraft:alternatives",
+					"children": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:bucket"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:netherrack",
-					"functions": [
+							"type": "minecraft:loot_table",
+							"weight": 5,
+							"name": "fokastudio:end/items/materials/hallowed_ingot",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						},
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 15,
-					"name": "minecraft:cobbled_deepslate",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 4
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 10,
-					"name": "minecraft:beetroot_seeds",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 4
-							},
-							"add": false
+							"type": "minecraft:loot_table",
+							"name": "fokastudio:end/items/materials/ancient_plating",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							]
 						}
 					]
 				}
@@ -177,18 +122,39 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"weight": 8,
-					"name": "minecraft:bone",
-					"functions": [
+					"type": "minecraft:alternatives",
+					"children": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 1,
-								"max": 8
-							},
-							"add": false
+							"type": "minecraft:item",
+							"name": "minecraft:popped_chorus_fruit",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 2
+									},
+									"conditions": [
+										{
+											"condition": "minecraft:random_chance",
+											"chance": 0.5
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:chorus_fruit",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 1,
+										"max": 3
+									}
+								}
+							]
 						}
 					]
 				},
@@ -202,7 +168,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 8
+								"max": 6
 							},
 							"add": false
 						}
@@ -211,14 +177,14 @@
 				{
 					"type": "minecraft:item",
 					"weight": 8,
-					"name": "minecraft:rotten_flesh",
+					"name": "minecraft:end_stone",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 8
+								"max": 6
 							},
 							"add": false
 						}
@@ -234,7 +200,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 8
+								"max": 6
 							},
 							"add": false
 						}

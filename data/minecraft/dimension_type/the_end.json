@@ -3,7 +3,7 @@
 	"natural": false,
 	"piglin_safe": true,
 	"respawn_anchor_works": true,
-	"bed_works": false,
+	"bed_works": true,
 	"has_raids": false,
 	"has_skylight": false,
 	"has_ceiling": false,
@@ -15,6 +15,12 @@
 	"infiniburn": "#minecraft:infiniburn_end",
 	"min_y": 0,
 	"height": 256,
-	"monster_spawn_light_level": 10,
+	"monster_spawn_light_level": {
+		"type": "minecraft:uniform",
+		"value": {
+			"min_inclusive": 0,
+			"max_inclusive": 7
+		}
+	},
 	"monster_spawn_block_light_limit": 15
 }

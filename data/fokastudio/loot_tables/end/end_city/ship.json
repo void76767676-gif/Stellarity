@@ -12,13 +12,14 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
+							"weight": 5,
 							"name": "fokastudio:end/items/materials/pixie_dust",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
 									"count": {
-										"min": 3,
-										"max": 5
+										"min": 2,
+										"max": 4
 									}
 								}
 							],
@@ -33,13 +34,14 @@
 						},
 						{
 							"type": "minecraft:item",
+							"weight": 5,
 							"name": "minecraft:glowstone_dust",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
 									"count": {
-										"min": 3,
-										"max": 5
+										"min": 2,
+										"max": 4
 									}
 								}
 							]
@@ -48,6 +50,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:potion",
 					"functions": [
 						{
@@ -58,7 +61,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 5,
 					"name": "minecraft:blaze_powder",
 					"functions": [
 						{
@@ -72,7 +75,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:nether_wart",
 					"functions": [
 						{
@@ -120,7 +123,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 2,
 					"quality": -1,
 					"name": "minecraft:ender_pearl",
 					"functions": [
@@ -159,20 +162,20 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 3,
-								"max": 5
+								"max": 4
 							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 4,
 					"name": "minecraft:paper",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
+								"min": 2,
 								"max": 3
 							}
 						}
@@ -182,19 +185,16 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.66
+					"chance": 0.8
 				}
 			]
 		},
 		{
-			"rolls": {
-				"min": 2,
-				"max": 3
-			},
+			"rolls": 2,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 20,
+					"weight": 12,
 					"name": "minecraft:iron_ingot",
 					"functions": [
 						{
@@ -209,7 +209,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:gold_ingot",
 					"functions": [
 						{
@@ -221,26 +221,18 @@
 							"add": false
 						}
 					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"bonus_rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"entries": [
+				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 3,
+					"quality": 1,
 					"name": "minecraft:diamond",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]
@@ -264,7 +256,6 @@
 		{
 			"rolls": 1,
 			"bonus_rolls": {
-				"type": "minecraft:uniform",
 				"min": 0,
 				"max": 1
 			},

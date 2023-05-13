@@ -53,7 +53,7 @@
 		[],
 		[],
 		[
-			"fokastudio:structures/end/dungeon"
+			"fokastudio:global/end_dungeon"
 		]
 	]
 }

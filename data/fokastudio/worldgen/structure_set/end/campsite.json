@@ -1,0 +1,18 @@
+{
+	"structures": [
+		{
+			"structure": "fokastudio:end/campsite",
+			"weight": 1
+		}
+	],
+	"placement": {
+		"type": "minecraft:random_spread",
+		"salt": 278609929,
+		"exclusion_zone": {
+			"other_set": "fokastudio:end/village",
+			"chunk_count": 10
+		},
+		"spacing": 24,
+		"separation": 12
+	}
+}

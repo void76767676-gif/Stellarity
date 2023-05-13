@@ -4,14 +4,14 @@
 		{
 			"rolls": {
 				"type": "minecraft:uniform",
-				"min": 6,
-				"max": 8
+				"min": 3,
+				"max": 5
 			},
 			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 9,
 					"name": "minecraft:leather",
 					"functions": [
 						{
@@ -27,31 +27,33 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:leather_chestplate"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:leather_boots"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:leather_helmet"
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"name": "minecraft:leather_leggings"
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 3,
+					"quality": 1,
 					"name": "minecraft:saddle"
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:bundle"
+					"name": "minecraft:leather_horse_armor"
 				}
 			]
 		}

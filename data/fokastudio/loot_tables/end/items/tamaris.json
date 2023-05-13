@@ -74,7 +74,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "5"
+												"text": "7"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -108,7 +108,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 4,
+									"amount": 6,
 									"operation": "addition",
 									"slot": "mainhand"
 								},

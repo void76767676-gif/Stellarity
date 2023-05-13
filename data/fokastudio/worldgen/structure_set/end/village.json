@@ -1,16 +1,18 @@
 {
 	"structures": [
-		//{"structure": "fokastudio:end/village","weight": 1}
+		{
+			"structure": "fokastudio:end/village",
+			"weight": 1
+		}
 	],
 	"placement": {
 		"type": "minecraft:random_spread",
 		"salt": 1327375055,
 		"exclusion_zone": {
 			"other_set": "minecraft:end_cities",
-			"chunk_count": 12
+			"chunk_count": 9
 		},
-		"spread_type": "triangular",
-		"spacing": 25,
-		"separation": 17
+		"spacing": 32,
+		"separation": 24
 	}
 }

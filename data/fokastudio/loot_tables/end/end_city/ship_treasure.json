@@ -2,11 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": {
-				"type": "minecraft:uniform",
-				"min": 5,
-				"max": 6
-			},
+			"rolls": 4,
 			"bonus_rolls": 1,
 			"entries": [
 				{
@@ -20,7 +16,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -36,8 +32,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -52,8 +48,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 2,
-								"max": 3
+								"min": 1,
+								"max": 2
 							},
 							"add": false
 						}
@@ -69,8 +65,8 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"type": "minecraft:uniform",
-								"min": 3,
-								"max": 4
+								"min": 2,
+								"max": 3
 							},
 							"add": false
 						}
@@ -94,6 +90,53 @@
 				{
 					"condition": "minecraft:random_chance",
 					"chance": 0.66
+				}
+			]
+		},
+		{
+			"rolls": 3,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:gold_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:iron_nugget",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 5,
+								"max": 8
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:lapis_lazuli",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 5
+							}
+						}
+					]
 				}
 			]
 		}

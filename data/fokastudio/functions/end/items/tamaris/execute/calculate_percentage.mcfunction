@@ -7,9 +7,10 @@ scoreboard players operation @s foka.items.tamaris.math.health.percentage /= @s 
 tag @s remove foka.items.tamaris.executable
 # Wither, Warden, EoL
 execute if score @s[type=#fokastudio:end/boss] foka.items.tamaris.math.health.percentage matches ..15 run tag @s add foka.items.tamaris.executable
+execute if score @s[type=vindicator,tag=foka.eol] foka.items.tamaris.math.health.percentage matches ..15 run tag @s add foka.items.tamaris.executable
 # Other mobs
-execute if score @s[type=!#fokastudio:end/boss] foka.items.tamaris.math.health.percentage matches ..35 unless entity @s[type=vindicator,tag=foka.eol] unless entity @s[type=player] run tag @s add foka.items.tamaris.executable
+execute if score @s[type=!#fokastudio:end/boss] foka.items.tamaris.math.health.percentage matches ..25 unless entity @s[type=vindicator,tag=foka.eol] unless entity @s[type=player] run tag @s add foka.items.tamaris.executable
 # Players (PvP)
-execute if score @s[type=player] foka.items.tamaris.math.health.percentage matches ..25 run tag @s add foka.items.tamaris.executable
+execute if score @s[type=player] foka.items.tamaris.math.health.percentage matches ..20 run tag @s add foka.items.tamaris.executable
 
 #tellraw @a {"score":{"name": "@s","objective": "foka.items.tamaris.math.health.percentage"}}
