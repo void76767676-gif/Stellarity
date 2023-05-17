@@ -25,7 +25,7 @@
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Slow (1)</td>
+		<td>Slow (1.1)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -97,7 +97,7 @@ Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indica
 - **1.6a**
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
 	- Base damage reduced (8 -> 6)
-	- Attack speed reduced (1.6 -> 1)
+	- Attack speed reduced (1.6 -> 1.1)
 	- Now spawns after defeating the Ender Dragon.
 	- Now unbreakable.
 

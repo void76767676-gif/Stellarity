@@ -54,10 +54,12 @@
 ## Obtaining
 Clockwork Crossbow has a chance to drop from Pillagers in [Strongholds](../structures/stronghold.md) with a 7% base chance. Each level of Looting increases the odds by 2%, up to a total of 13% with Looting III.
 
+Fletchers in [End Villages](../structures/end_village.md) can also turn any existing Crossbow into Clockwork Crossbow for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
+
 ## Usage
 Holding Clockwork Crossbow will automatically load it, provided there is at least 1 Arrow in player's inventory. Arrows will be stripped of all special properties (e.g. Spectral Arrows -> Arrows).
 
-There is a 50% chance to not consume any arrows upon loading. Quick Charge enchantment increases the odds by 7% per level, giving a maximum of 71% chance to save Arrows with Quick Charge III.
+There is a 33% chance to not consume any arrows upon loading. Quick Charge enchantment increases the odds by 7% per level, giving a maximum of 54% chance to save Arrows with Quick Charge III.
 
 Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked up once fired.
 
@@ -81,10 +83,10 @@ Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked 
 - **1.6a**
     - Arrow damage nerfed (~8 -> 3)
     - Quick Charge now affects ammo conservation chance
-    - Base ammo conservation chance increased (33% -> 50%)
     - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)
     - Fired Arrows per second reduced (20 -> 3.33)
     - Shot Arrows ignore invulnerability ticks
     - Simplified item description and changed flavor text
+
 - **1.5b**
     - Introduced

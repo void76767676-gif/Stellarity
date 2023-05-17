@@ -18,7 +18,9 @@
 </div>
 
 ## Obtaining
-Hallowed Ingots can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md).
+Hallowed Ingots can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md) or Chests in Dungeons.
+
+Armorers, Weaponsmiths and Toolsmiths in [End Villages](../../structures/end_village.md) have a chance to sell 4 Hallowed Ingots for 12 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
 Alternatively, an Iron Block can be [consecrated](../../mechanics/consceration.md) into 2 Hallowed Ingots.
 

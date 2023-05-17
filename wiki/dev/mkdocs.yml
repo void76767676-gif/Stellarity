@@ -1,10 +1,10 @@
 site_name: FokaStudio's Ender Expansion Wiki
 site_url: https://fokastudio.github.io/wiki/
 site_description: >-
-  Wiki for FokaStudio's Ender Expansion Minecraft mod/datapack
+  Wiki for FokaStudio's Ender Expansion project
 
 repo_url: https://github.com/FokaStudio/FSEE
-repo_name: Ender Expansion on Github
+repo_name: FSEE on Github
 
 nav:
   - Home:
@@ -41,12 +41,14 @@ nav:
       - Pixie Dust: items/materials/pixie_dust.md
       - Ancient Plating: items/materials/ancient_plating.md
       - Hallowed Ingot: items/materials/hallowed_ingot.md
-  #  - Other:
-  #    - items/other/index.md
-  #    - Prismatic Pearl: items/other/prismatic_pearl.md
+    - Spellbooks:
+      - Book of Conveyance: items/spellbooks/conveyance.md
+      - Book of Updraft: items/spellbooks/updraft.md
+      - Book of Light: items/spellbooks/light.md
+  #    - Nature's Wrath: items/spellbooks/natures_wrath.md
+    - Other:
+      - Prismatic Pearl: items/other/prismatic_pearl.md
   #    - Pandora's Barrel: items/other/pandoras_barrel.md
-  #    - Spellbooks: items/other/spellbooks.md
-  #    - Cursed Tome: items/other/cursed_tome.md
   #    - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
   #    - Cursed Tome: items/other/cursed_tome.md
   #    - Potions: items/other/potions.md

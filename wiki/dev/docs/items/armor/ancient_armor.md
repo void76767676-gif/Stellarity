@@ -53,7 +53,7 @@ Each piece of Ancient Armor can also be crafted at the [Altar of The Accursed](.
 
 
 ## Set Bonus
-While wearing a full set of Ancient Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 2 seconds before vanishing, unless another attack is made.
+While wearing a full set of Ancient Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 2.5 seconds before vanishing, unless another attack has hit a mob.
 
 The set bonus extra damage stacks with the 10% extra damage from all armor pieces, meaning the actual damage increase is 35%.
 

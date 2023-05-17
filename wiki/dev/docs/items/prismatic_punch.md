@@ -4,7 +4,7 @@
 
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
-**Prismatic Punch** is a post-Empress crossbow that converts arrows into slow, powerful Prismatic Blasts that home in on enemies, exploding when they come into contact with them.
+**Prismatic Punch** is a post-Empress crossbow that converts arrows into slow, powerful Prismatic Blasts that home in on enemies, exploding when they come into contact with them. It also inflicts a new damage over time effect known as Prismatic Inferno.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Prismatic Punch can be enchanted with any Crossbow enchantment. Both Multishot and Piercing empower its Blasts in different ways.
 
@@ -54,21 +54,27 @@
 Prismatic Punch is dropped by the Empress of Light.
 
 ## Usage
-Prismatic Punch transforms any shot Arrow into a powerful Prismatic Blast. They are slow and deccelerate over a timespan of 20 seconds until detonating. They also bounce off walls.
+Prismatic Punch transforms any shot Arrow into a powerful Prismatic Blast. They are slow and deccelerate over a timespan of 20 seconds until detonating. They can also bounce off walls.
 
 Prismatic Blasts gain a huge speed bonus when an enemy is nearby, which they will target and home onto, detonating on contact.
  
-Explosions deal varying damage, between 4:heart::heart: and 10:heart::heart::heart::heart::heart: damage, with a bit of splash damage as well.
+Explosions deal varying damage, between 4:heart::heart: and 10:heart::heart::heart::heart::heart: damage, while also dealing a bit of splash damage to entities around.
 
-Multishot enchantment causes 3 different-colored blasts to be shot in a 50° cone. Piercing will cause blasts to sometimes create secondary explosions on other nearby entities, with the max amount of affected mobs being directly defined by the enchantment level.
+Multishot enchantment causes 3 different-colored blasts to be shot in a 50° cone. Piercing causes blasts to sometimes create secondary explosions on other nearby entities, with the max amount of extra explosions being directly defined by the enchantment level. Additional explosions from both Multishot and Piercing enchantments deal reduced damage.
+
+### Prismatic Inferno
+All explosions inflict new damage over time effect known as Prismatic Inferno, which acts as an upgraded version of Flame Enchantment, dealing twice the damage while lasting for the same duration.
+
+Prismatic Inferno lasts for 5 seconds, dealing 2:heart: damage every second for a total of 10:heart::heart::heart::heart::heart: damage.
 
 ## Tips 
 - Use regular Arrows with this weapon, since it converts ALL ammo into Blasts. Using Spectral/Tipped Arrows is a waste of ammo.
 - Explosions can hurt <u>you</u> if you stand too close to your target. Keep your distance.
 - Accuracy is not the most important thing, since Blasts will home on its targets. Be careful though, as Blasts tend to target different mobs than the ones you want!
 - Prismatic Blasts do not home onto players in PvP, but they can still hurt them if a player happened to step into them.
+    - This also means they can hurt you if you are not careful enough!
 - Explosions from Prismatic Punch ignore invulnerability frames.
-- Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) and End Crystals.
+- Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) or End Crystals.
 
 ## Trivia
 - This is first Developer Item to get added into FSEE.

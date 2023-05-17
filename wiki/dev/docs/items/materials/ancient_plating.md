@@ -18,7 +18,9 @@
 </div>
 
 ## Obtaining
-Ancient Plating can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md).
+Ancient Plating can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md) or Chests in Dungeons.
+
+Armorers, Weaponsmiths and Toolsmiths in [End Villages](../../structures/end_village.md) have a chance to sell 4 Ancient Plating for 12 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
 ## Usage
 Combining 5, 8, 7 or 4 Ancient Plating over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) crafts a piece of Ancient Armor.

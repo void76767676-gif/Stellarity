@@ -1,3 +1,4 @@
+# Ender Insignia
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
 **Ender Insignia** is a post-Dragon trinket which slowly accelerates your health regeneration the longer player sneaks for. Taking damage resets this boost.
@@ -30,7 +31,7 @@
 </div>
 
 ## Obtaining
-Ender Insignia has a 66% chance to be dropped by the Ender Dragon. It always drops with either an [Tamaris](../tamaris.md) or [Crest of The End](crest_of_the_end.md).
+Ender Insignia has a 66% chance to be dropped by the Ender Dragon. It always drops with either a [Tamaris](../tamaris.md) or a [Crest of The End](crest_of_the_end.md).
 
 ## Usage
 Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aformentioned potion effect is increased by 1 every 1.5 seconds. This caps at Regeneration V.
@@ -53,7 +54,8 @@ Movement speed is reduced by additional 66% while sneaking, meaning that moving 
 
 ## Tips
 - Swift Sneak Enchantment pairs well with this item, since you can get a bit more mobility while keeping its regeneration bonus.
-- You can quickly switch to holding Ender Insignia whenever you need to quickly regenerate some Health
+- You can quickly switch to holding Ender Insignia whenever you need to quickly regenerate some Health.
+
 ## Trivia
 
 - Prior to 1.6a:

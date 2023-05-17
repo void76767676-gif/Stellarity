@@ -1,3 +1,4 @@
+# Sharanga
 <div class="result foka-infobox-grid" markdown>
 <div markdown class="foka-infobox-text">
 **Sharanga** is a bow which converts <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows into Spectral bolts, which pierce infinite number of enemies and travel in a straight line. They also deal 25% more damage compared to regular Arrows. It is dropped by Illusioner in Strongholds. 
@@ -53,6 +54,8 @@
 
 ## Obtaining
 Sharanga has a chance to drop from Illusioners in [Strongholds](../structures/stronghold.md) with a 9% base chance. Each level of Looting increases the odds by 3%, up to a total of 18% with Looting III. It drops with 7 - 22 <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows.
+
+Fletchers in [End Villages](../structures/end_village.md) can turn any existing Bow into Sharanga for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
 ## Usage
 Unless <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows are used as ammunition for this Bow, it has no special properties other than increased durability.

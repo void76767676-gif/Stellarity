@@ -59,18 +59,19 @@ Zephyr can be found in Top Tower Chests inside [End Cities](../structures/end_ci
 ## Usage
 Holding Zephyr in main hand gives a passive 10% Movement Speed bonus.
 
-Killing any mob with this shortsword spawns a small wind orb which quickly homes to the player. Once it comes into contact it grants Speed I for 33 seconds. The duration increases with each kill, capped at 4 minutes. The additional uptime decreases as current duration of Speed effect inceases. 
+Killing any mob with this shortsword grants Speed I for 25 seconds. Each kill, rather than refreshing simply refreshing duration, adds extra uptime on the effect, capped at 2:45 minutes. Added time falls off based on current duration of Speed added by Zephyr.
 
 The ability speed increase stacks with passive speed increase for a total of 30% extra movement speed.
 
 ## Tips
 - Setting up a mob farm can easily replace the need to craft Swiftness Potions.
-	- Maximum duration of Zephyr's speed boost is even greater than the duration of an extended Swiftness Potion.
+	- Maximum duration of Zephyr's speed boost is slightly smaller than the duration of an extended Swiftness Potion.
 - Passive 10% boost doesn't work if Zephyr is held in the offhand.
+- Zephyr has almost identical stats as a Diamond Sword, with the only difference being its lower durability, being just a bit higher than the one of an Iron Sword.
 
 ## Trivia
-- Zephyr has almost identical stats as a Diamond Sword, with the only difference being its lower durability, being a bit higher than an Iron Sword's.
 - The word `zephyr` means a soft light breeze.
+- Before its introduction, Klee's Dedicated Item used to be a Knockback V Stick.
 
 ## History
 - **1.6a**
