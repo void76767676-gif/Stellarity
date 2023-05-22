@@ -19,31 +19,67 @@
 	},
 	"parent": "fokastudio:end/husbandry/plant_chorus",
 	"criteria": {
-		"plant_chorus_fruit_overworld": {
+		"plant_chorus_fruit_overworld":  {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:chorus_flower",
-				"location": {
-					"dimension": "minecraft:overworld"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
 			}
 		},
-		"plant_chorus_fruit_end": {
+		"plant_chorus_fruit_end":  {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:chorus_flower",
-				"location": {
-					"dimension": "minecraft:the_end"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_nether"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
 			}
 		},
 		"plant_chorus_fruit_nether": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:chorus_flower",
-				"location": {
-					"dimension": "minecraft:the_nether"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:the_end"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
 			}
 		}
 	},

@@ -20,20 +20,20 @@
 				"max_inclusive": 8
 			}
 		},
-		"replaceable": "#fokastudio:end/prismarine_forest/island_bottom",
+		"replaceable": "#far_end:amethyst_forest/island_bottom",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 1,
+					"weight": 2,
 					"data": {
-						"Name": "minecraft:prismarine_bricks"
+						"Name": "minecraft:calcite"
 					}
 				},
 				{
-					"weight": 3,
+					"weight": 1,
 					"data": {
-						"Name": "minecraft:prismarine"
+						"Name": "minecraft:diorite"
 					}
 				}
 			]
@@ -57,15 +57,15 @@
 								"type": "minecraft:weighted_state_provider",
 								"entries": [
 									{
-										"weight": 3,
+										"weight": 2,
 										"data": {
-											"Name": "minecraft:prismarine"
+											"Name": "minecraft:calcite"
 										}
 									},
 									{
 										"weight": 1,
 										"data": {
-											"Name": "minecraft:prismarine_bricks"
+											"Name": "minecraft:diorite"
 										}
 									}
 								]

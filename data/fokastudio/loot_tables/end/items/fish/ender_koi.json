@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:cooked_cod",
+					"name": "minecraft:tropical_fish",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",

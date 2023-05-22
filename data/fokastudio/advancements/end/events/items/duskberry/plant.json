@@ -2,19 +2,19 @@
 	"parent": "fokastudio:end/events/root",
 	"criteria": {
 		"plant_duskberry": {
-			"trigger": "minecraft:item_used_on_block",
+			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:sweet_berries"
-					],
-					"nbt": "{foka.special_item:\"duskberry\"}"
-				},
-				"location": {
-					"block": {
-						"tag": "fokastudio:end/duskberry_plantable_on"
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:sweet_berries"
+							],
+							"nbt": "{foka.special_item:\"duskberry\"}"
+						}
 					}
-				}
+				]
 			}
 		}
 	},

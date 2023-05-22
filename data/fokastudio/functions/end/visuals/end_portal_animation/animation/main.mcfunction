@@ -24,6 +24,11 @@ execute if score @s foka.misc.end_portal_animation matches 2.. run particle mine
 execute as @e[type=vex,tag=foka.floaty_power] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/loop
 execute as @e[type=marker,tag=foka.floaty_power.homing] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/marker_loop
 
+execute if score @s foka.misc.end_portal_animation matches 40 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 50 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 60 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 70 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
+execute if score @s foka.misc.end_portal_animation matches 80 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 execute if score @s foka.misc.end_portal_animation matches 90 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 execute if score @s foka.misc.end_portal_animation matches 100 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 execute if score @s foka.misc.end_portal_animation matches 110 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
@@ -31,11 +36,6 @@ execute if score @s foka.misc.end_portal_animation matches 120 as @e[type=vex,ta
 execute if score @s foka.misc.end_portal_animation matches 130 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 execute if score @s foka.misc.end_portal_animation matches 140 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 execute if score @s foka.misc.end_portal_animation matches 150 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
-execute if score @s foka.misc.end_portal_animation matches 160 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
-execute if score @s foka.misc.end_portal_animation matches 170 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
-execute if score @s foka.misc.end_portal_animation matches 180 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
-execute if score @s foka.misc.end_portal_animation matches 190 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
-execute if score @s foka.misc.end_portal_animation matches 200 as @e[type=vex,tag=foka.floaty_power,sort=nearest,limit=1] at @s run function fokastudio:end/visuals/end_portal_animation/animation/floaty_power/transform
 
 #function fokastudio:end/visuals/end_portal_animation/animation/circle
 #execute rotated ~90 ~ run function fokastudio:end/visuals/end_portal_animation/animation/circle

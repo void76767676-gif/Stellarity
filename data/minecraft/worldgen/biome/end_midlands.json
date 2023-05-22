@@ -44,13 +44,14 @@
 		[],
 		[],
 		[
-			"fokastudio:midlands/patches",
-			"fokastudio:midlands/chorus_plant"
+			"fokastudio:midlands/patches"
 		],
 		[],
 		[],
 		[],
-		[],
+		[
+			"fokastudio:midlands/chorus_plant"
+		],
 		[]
 	]
 }

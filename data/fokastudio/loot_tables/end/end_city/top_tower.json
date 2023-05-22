@@ -20,7 +20,7 @@
 			]
 		},
 		{
-			"rolls": 2,
+			"rolls": 3,
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -153,6 +153,21 @@
 							}
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spire_armor_trim_smithing_template"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.5
 				}
 			]
 		}

@@ -14,13 +14,16 @@
 					"output_state": {
 						"Name": "minecraft:end_gateway"
 					},
-					"output_nbt": {
-						"Age": 0,
-						"ExactTeleport": 1,
-						"ExitPortal": {
-							"X": 12,
-							"Y": 70,
-							"Z": 0
+					"block_entity_modifier": {
+						"type": "minecraft:append_static",
+						"data": {
+							"Age": 0,
+							"ExactTeleport": 1,
+							"ExitPortal": {
+								"X": 12,
+								"Y": 70,
+								"Z": 0
+							}
 						}
 					}
 				}

@@ -3,10 +3,7 @@
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 4
-		},
-		{
-			"type": "minecraft:biome"
+			"count": 5
 		},
 		{
 			"type": "minecraft:block_predicate_filter",
@@ -30,6 +27,9 @@
 					}
 				]
 			}
+		},
+		{
+			"type": "minecraft:biome"
 		}
 	]
 }

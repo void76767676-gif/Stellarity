@@ -27,8 +27,8 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
-									"amount": 0.1,
-									"operation": "multiply_total",
+									"amount": 0.075,
+									"operation": "multiply_base",
 									"slot": "mainhand"
 								}
 							]
@@ -112,7 +112,7 @@
 										"translate": "attribute.modifier.plus.1",
 										"with": [
 											{
-												"text": "10"
+												"text": "7.5"
 											},
 											{
 												"translate": "attribute.name.generic.movement_speed"

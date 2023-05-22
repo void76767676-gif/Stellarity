@@ -1,5 +1,5 @@
 kill @s
 
-kill @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:sweet_berries"}}]
+execute as @e[type=item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:sweet_berries"}},distance=..0.25] run kill @s
 
-loot spawn ~ ~.1 ~ loot fokastudio:end/items/trinkets/duskberry
+execute if entity @p[gamemode=!creative,gamemode=!spectator] run loot spawn ~ ~.1 ~ loot fokastudio:end/items/trinkets/duskberry

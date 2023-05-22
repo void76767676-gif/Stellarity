@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:random_patch",
 	"config": {
-		"tries": 96,
+		"tries": 72,
 		"xz_spread": 6,
 		"y_spread": 2,
 		"feature": {
@@ -18,7 +18,7 @@
 								}
 							},
 							{
-								"weight": 56,
+								"weight": 23,
 								"data": {
 									"Name": "minecraft:tall_grass",
 									"Properties": {
@@ -67,7 +67,7 @@
 								}
 							},
 							{
-								"weight": 22,
+								"weight": 8,
 								"data": {
 									"Name": "minecraft:acacia_leaves",
 									"Properties": {
@@ -84,13 +84,13 @@
 								}
 							},
 							{
-								"weight": 11,
+								"weight": 19,
 								"data": {
 									"Name": "minecraft:warped_roots"
 								}
 							},
 							{
-								"weight": 11,
+								"weight": 18,
 								"data": {
 									"Name": "minecraft:nether_sprouts"
 								}

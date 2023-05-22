@@ -25,6 +25,18 @@
 										"half": "lower"
 									}
 								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "minecraft:nether_sprouts"
+								}
+							},
+							{
+								"weight": 2,
+								"data": {
+									"Name": "minecraft:warped_roots"
+								}
 							}
 						]
 					}

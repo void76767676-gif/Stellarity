@@ -21,16 +21,16 @@
 		},
 		"particle": {
 			"options": {
-				"type": "firework"
+				"type": "cherry_leaves"
 			},
-			"probability": 0.001
+			"probability": 0.00012
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
 				"type": "minecraft:vex",
-				"weight": 5,
+				"weight": 20,
 				"minCount": 2,
 				"maxCount": 3
 			}
@@ -39,7 +39,7 @@
 	"spawn_costs": {
 		"minecraft:vex": {
 			"energy_budget": 0.33,
-			"charge": 1.3
+			"charge": 1.2
 		}
 	},
 	"carvers": {},
@@ -64,6 +64,7 @@
 		[],
 		[
 			"fokastudio:the_hallow/trees",
+			"fokastudio:the_hallow/cherry_petals",
 			"fokastudio:the_hallow/flowers",
 			"fokastudio:the_hallow/grass",
 			"fokastudio:the_hallow/lanterns",

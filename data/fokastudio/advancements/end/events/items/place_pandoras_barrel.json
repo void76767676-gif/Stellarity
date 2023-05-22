@@ -4,10 +4,17 @@
 		"use_pandoras_barrel": {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:barrel",
-				"item": {
-					"nbt": "{foka.special_item:\"pandoras_barrel\"}"
-				}
+				"location": [
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:barrel"
+							],
+							"nbt": "{foka.special_item:\"pandoras_barrel\"}"
+						}
+					}
+				]
 			}
 		}
 	},

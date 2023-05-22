@@ -1,6 +1,16 @@
 {
-    "pack": {
-        "pack_format": 13,
-        "description": [{"text":"FokaStudio's Ender Expansion v1.6a","color":"#CB4BFF"},{"translate":"foka.pack_mcmeta","fallback":"","color":"#EEEEEE"}]
-    }
+	"pack": {
+		"pack_format": 15,
+		"description": [
+			{
+				"text": "Ender Expansion v1.6a",
+				"color": "#CB4BFF"
+			},
+			{
+				"translate": "foka.pack_mcmeta",
+				"fallback": "",
+				"color": "#EEEEEE"
+			}
+		]
+	}
 }

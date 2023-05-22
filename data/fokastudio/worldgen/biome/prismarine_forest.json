@@ -6,8 +6,8 @@
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 5828317,
-		"water_fog_color": 5827822,
+		"water_color": 5818862,
+		"water_fog_color": 1456474,
 		"grass_color": 9764856,
 		"foliage_color": 11403007,
 		"grass_color_modifier": "none",
@@ -26,15 +26,14 @@
 			"options": {
 				"type": "dripping_dripstone_water"
 			},
-			"probability": 0.003
+			"probability": 0.001
 		}
 	},
 	"spawners": {},
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			 
- 			"fokastudio:end/ravine",
+			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},
@@ -43,7 +42,10 @@
 			"fokastudio:prismarine_forest/prismarine_bottom"
 		],
 		[],
-		[],
+		[
+			"fokastudio:prismarine_forest/puddle",
+			"fokastudio:prismarine_forest/lake"
+		],
 		[],
 		[],
 		[],
@@ -54,8 +56,7 @@
 			"fokastudio:prismarine_forest/trees",
 			"fokastudio:prismarine_forest/vegetation",
 			"fokastudio:prismarine_forest/grass",
-			"fokastudio:prismarine_forest/puddle",
-			"fokastudio:prismarine_forest/lake"
+			"fokastudio:amethyst/roots"
 		],
 		[]
 	]

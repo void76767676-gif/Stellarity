@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"biomes": "#fokastudio:end/has_structure/village",
-	"step": "top_layer_modification",
+	"step": "surface_structures",
 	"spawn_overrides": {
 		"ambient": {
 			"bounding_box": "full",

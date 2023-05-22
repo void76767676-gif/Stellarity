@@ -17,16 +17,25 @@
 	},
 	"parent": "fokastudio:end/husbandry/eat_chorus_fruit",
 	"criteria": {
-		"plant_chorus": {
+		"plant_chorus":  {
 			"trigger": "minecraft:placed_block",
 			"conditions": {
-				"block": "minecraft:chorus_flower",
-				"state": {
-					"age": "0"
-				},
-				"location": {
-					"dimension": "minecraft:overworld"
-				}
+				"location": [
+					{
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"dimension": "minecraft:overworld"
+						}
+					},
+					{
+						"condition": "minecraft:match_tool",
+						"predicate": {
+							"items": [
+								"minecraft:chorus_flower"
+							]
+						}
+					}
+				]
 			}
 		}
 	},

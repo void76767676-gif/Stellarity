@@ -4,7 +4,6 @@
 execute if predicate fokastudio:end/utils/end_portal_eye_delete run function fokastudio:end/visuals/end_portal_animation/fill_stop/checks
 
 tp @s ~ ~ ~ ~0.25 ~
-execute as @e[type=armor_stand,tag=foka.end_portal_animation.eye,predicate=fokastudio:end/utils/chance/50percent,distance=..6] at @s run particle witch ~ ~.85 ~
 execute as @e[type=armor_stand,tag=foka.end_portal_animation.eye] at @s facing entity @e[type=marker,limit=1,sort=nearest,tag=foka.end_portal] eyes run tp @s ~ ~ ~ ~ ~
 
 execute rotated ~0 ~ run tp @e[type=armor_stand,tag=foka.end_portal_animation.eye_1,limit=1,sort=nearest] ^ ^-2 ^5
@@ -21,4 +20,3 @@ execute rotated ~300 ~ run tp @e[type=armor_stand,tag=foka.end_portal_animation.
 execute rotated ~330 ~ run tp @e[type=armor_stand,tag=foka.end_portal_animation.eye_12,limit=1,sort=nearest] ^ ^-2 ^5
 
 particle mycelium ~ ~-1.65 ~ .8 0 .8 0 1 normal
-particle portal ~ ~-1.65 ~ .8 0 .8 1 1 normal

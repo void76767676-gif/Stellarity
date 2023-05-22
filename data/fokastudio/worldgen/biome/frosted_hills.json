@@ -23,7 +23,8 @@
 		},
 		"particle": {
 			"options": {
-				"type": "snowflake"
+				"type": "falling_dust",
+				"value": "snow_block"
 			},
 			"probability": 0.0033
 		}
@@ -61,24 +62,17 @@
 		],
 		[],
 		[],
-		[],
-		[],
-		[],
-		[],
-		[],
 		[
-			"fokastudio:frosted_hills/blocks_random_replace"
-		],
-		[
-			"fokastudio:global/snowy/first_layer",
-			"fokastudio:global/snowy/second_layer",
-			"fokastudio:global/snowy/third_layer",
-			"fokastudio:global/snowy/freeze_layers"
-		],
-		[
+			"fokastudio:frosted_hills/blocks_random_replace",
 			"fokastudio:frosted_hills/ore_blue_ice",
 			"fokastudio:frosted_hills/ore_snow"
-			 
-		]
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[]
 	]
 }

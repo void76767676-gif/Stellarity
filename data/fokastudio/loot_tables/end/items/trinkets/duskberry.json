@@ -24,42 +24,42 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "foka.duskberry.damage",
 									"amount": 0.12,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
 									"amount": 0.1,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "foka.duskberry.attack_speed",
 									"amount": 0.04,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "mainhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "foka.duskberry.damage",
 									"amount": 0.12,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "offhand"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "foka.duskberry.speed",
 									"amount": 0.1,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "offhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "foka.duskberry.attack_speed",
 									"amount": 0.04,
-									"operation": "multiply_total",
+									"operation": "multiply_base",
 									"slot": "offhand"
 								}
 							]

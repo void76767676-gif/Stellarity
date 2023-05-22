@@ -9,46 +9,69 @@
 				"type": "minecraft:simple_block",
 				"config": {
 					"to_place": {
-						"type": "minecraft:weighted_state_provider",
-						"entries": [
+						"type": "minecraft:noise_provider",
+						"seed": 12345,
+						"noise": {
+							"firstOctave": 1,
+							"amplitudes": [
+								1,
+								1
+							]
+						},
+						"scale": 1,
+						"states": [
 							{
-								"weight": 15,
-								"data": {
-									"Name": "minecraft:allium"
+								"Name": "minecraft:allium"
+							},
+							{
+								"Name": "minecraft:amethyst_cluster",
+								"Properties": {
+									"facing": "up",
+									"waterlogged": "false"
 								}
 							},
 							{
-								"weight": 11,
-								"data": {
-									"Name": "minecraft:pink_tulip"
+								"Name": "minecraft:pink_tulip"
+							},
+							{
+								"Name": "minecraft:peony",
+								"Properties": {
+									"half": "lower"
 								}
 							},
 							{
-								"weight": 2,
-								"data": {
-									"Name": "minecraft:peony",
-									"Properties": {
-										"half": "lower"
-									}
+								"Name": "minecraft:pink_tulip"
+							},
+							{
+								"Name": "minecraft:allium"
+							},
+							{
+								"Name": "minecraft:amethyst_cluster",
+								"Properties": {
+									"facing": "up",
+									"waterlogged": "false"
 								}
 							},
 							{
-								"weight": 7,
-								"data": {
-									"Name": "minecraft:lilac",
-									"Properties": {
-										"half": "lower"
-									}
+								"Name": "minecraft:pink_tulip"
+							},
+							{
+								"Name": "minecraft:allium"
+							},
+							{
+								"Name": "minecraft:lilac",
+								"Properties": {
+									"half": "lower"
 								}
 							},
 							{
-								"weight": 3,
-								"data": {
-									"Name": "minecraft:amethyst_cluster",
-									"Properties": {
-										"facing": "up",
-										"waterlogged": "false"
-									}
+								"Name": "minecraft:allium"
+							},
+							{
+								"Name": "minecraft:amethyst_cluster",
+								"Properties": {
+									"facing": "up",
+									"waterlogged": "false"
 								}
 							}
 						]
