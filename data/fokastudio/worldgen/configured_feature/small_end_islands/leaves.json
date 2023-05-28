@@ -12,20 +12,9 @@
 						"type": "minecraft:weighted_state_provider",
 						"entries": [
 							{
-								"weight": 15,
+								"weight": 6,
 								"data": {
 									"Name": "minecraft:oak_leaves",
-									"Properties": {
-										"distance": "1",
-										"persistent": "true",
-										"waterlogged": "false"
-									}
-								}
-							},
-							{
-								"weight": 5,
-								"data": {
-									"Name": "minecraft:dark_oak_leaves",
 									"Properties": {
 										"distance": "1",
 										"persistent": "true",

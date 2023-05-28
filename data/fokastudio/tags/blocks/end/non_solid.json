@@ -45,8 +45,7 @@
 
 		"#minecraft:fence_gates",
 		
-		"minecraft:lava",
-		"minecraft:water",
+		"#fokastudio:end/liquids",
 
 		"#minecraft:banners",
 		"#minecraft:rails",
@@ -131,6 +130,8 @@
 		"skeleton_skull",
 		"wither_skeleton_skull",
 		"dragon_head",
-		"zombie_head"
+		"zombie_head",
+
+		"#minecraft:all_signs"
 	]
 }

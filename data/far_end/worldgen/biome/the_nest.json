@@ -54,14 +54,12 @@
 		"air": [
 			 
  			"fokastudio:end/ravine",
-			"fokastudio:end/crack",
-			"fokastudio:end/the_nest/cave"
+			"fokastudio:end/crack"
 		]
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1",
-			"fokastudio:global/stalactite_2",
+			"fokastudio:global/stalactite",
 			"far_end:nest/hills/deepslate",
 			"far_end:nest/surface/tuff"
 		],

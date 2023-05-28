@@ -3,10 +3,16 @@
 	"config": {
 		"max_empty_corners_allowed": 3,
 		"fossil_structures": [
-			"fokastudio:end/dungeon/small"
+			"fokastudio:end/monster_box/1",
+			"fokastudio:end/monster_box/2",
+			"fokastudio:end/monster_box/3",
+			"fokastudio:end/monster_box/4"
 		],
 		"overlay_structures": [
-			"fokastudio:end/dungeon/small"
+			"fokastudio:end/monster_box/1",
+			"fokastudio:end/monster_box/2",
+			"fokastudio:end/monster_box/3",
+			"fokastudio:end/monster_box/4"
 		],
 		"fossil_processors": {
 			"processors": [

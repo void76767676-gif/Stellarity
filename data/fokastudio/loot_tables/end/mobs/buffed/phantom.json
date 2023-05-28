@@ -15,7 +15,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 0,
-								"max": 2
+								"max": 1
 							},
 							"add": false
 						},
@@ -39,7 +39,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 0,
-								"max": 2
+								"max": 1
 							},
 							"add": false
 						},
@@ -55,9 +55,7 @@
 					"conditions": [
 						{
 							"condition": "minecraft:damage_source_properties",
-							"predicate": {
-								"is_fire": true
-							}
+							"predicate": {}
 						}
 					]
 				},
@@ -72,7 +70,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 0,
-								"max": 2
+								"max": 1
 							},
 							"add": false
 						},

@@ -14,7 +14,7 @@
 				"max_inclusive": 4
 			}
 		},
-		"replaceable": "#fokastudio:end/warped_marsh/ground_replaceable",
+		"replaceable": "#minecraft:lush_ground_replaceable",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

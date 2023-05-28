@@ -7,8 +7,8 @@
 		"fog_color": 0,
 		"water_color": 7098782,
 		"water_fog_color": 7098782,
-		"grass_color": 12932068,
-		"foliage_color": 12932068,
+		"grass_color": 11559897,
+		"foliage_color": 12673499,
 		"mood_sound": {
 			"sound": "minecraft:ambient.nether_wastes.mood",
 			"tick_delay": 900,
@@ -34,7 +34,7 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite_1"
+			"fokastudio:global/stalactite"
 		],
 		[
 			"fokastudio:midlands/obsidian",

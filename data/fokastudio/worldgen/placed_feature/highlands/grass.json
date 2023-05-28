@@ -1,9 +1,9 @@
 {
-	"feature": "minecraft:chorus_plant",
+	"feature": "fokastudio:highlands/grass",
 	"placement": [
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 4
+			"count": 5
 		},
 		{
 			"type": "minecraft:biome"

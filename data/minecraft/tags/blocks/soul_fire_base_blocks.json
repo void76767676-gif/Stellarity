@@ -1,11 +1,7 @@
 {
-		"replace": false,
-		"values": [
-			"minecraft:end_stone",
-			"minecraft:end_stone_bricks",
-			"minecraft:end_stone_brick_slab",
-			"minecraft:end_stone_brick_stairs",
-			"minecraft:bedrock",
-			"minecraft:crying_obsidian"
-		]
+	"replace": false,
+	"values": [
+		"minecraft:bedrock",
+		"minecraft:crying_obsidian"
+	]
 }

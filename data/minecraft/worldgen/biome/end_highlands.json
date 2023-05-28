@@ -5,14 +5,14 @@
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 13198446,
-		"water_fog_color": 11871818,
-		"grass_color": 13198446,
-		"foliage_color": 14237542,
+		"water_color": 6141935,
+		"water_fog_color": 6141935,
+		"grass_color": 13652831,
+		"foliage_color": 14498900,
 		"mood_sound": {
 			"sound": "minecraft:ambient.crimson_forest.mood",
-			"tick_delay": 700,
-			"block_search_extent": 8,
+			"tick_delay": 850,
+			"block_search_extent": 2,
 			"offset": 2
 		},
 		"additions_sound": {
@@ -23,20 +23,20 @@
 			"options": {
 				"type": "crimson_spore"
 			},
-			"probability": 0.003
+			"probability": 0.005
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 15,
-				"minCount": 2,
-				"maxCount": 2
+				"weight": 17,
+				"minCount": 3,
+				"maxCount": 3
 			},
 			{
 				"type": "minecraft:hoglin",
-				"weight": 10,
+				"weight": 8,
 				"minCount": 3,
 				"maxCount": 3
 			}
@@ -49,21 +49,20 @@
 			"fokastudio:highlands/stalactite"
 		],
 		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
-		[],
 		[
-			"fokastudio:highlands/patches",
-			"fokastudio:highlands/trees",
-			"fokastudio:highlands/chorus_plant"
+			"fokastudio:highlands/dirt_patches/large",
+			"fokastudio:highlands/dirt_patches/small"
 		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
 		[
-			"fokastudio:highlands/replace_blocks"
-			 
-		]
+			"fokastudio:highlands/grass",
+			"fokastudio:highlands/trees"
+		],
+		[]
 	]
 }

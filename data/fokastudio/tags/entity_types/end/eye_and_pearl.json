@@ -1,6 +1,7 @@
 {
+	"replace": false,
 	"values": [
-		"eye_of_ender",
-		"ender_pearl"
+		"minecraft:eye_of_ender",
+		"minecraft:ender_pearl"
 	]
 }

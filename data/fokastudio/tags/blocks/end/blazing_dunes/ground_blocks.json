@@ -2,11 +2,9 @@
   "replace": false,
   "values": [
     "end_stone",
-    "red_sand",
-    "red_sandstone",
+    "smooth_red_sandstone",
     "blackstone",
     "smooth_basalt",
-    "magma_block",
-    "orange_concrete"
+    "magma_block"
   ]
 }

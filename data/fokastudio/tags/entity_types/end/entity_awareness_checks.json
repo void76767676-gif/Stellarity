@@ -1,11 +1,13 @@
 {
+	"replace": false,
 	"values": [
-		"vex",
 		"#fokastudio:end/ammo",
-		"wandering_trader",
-		"allay",
-		"zombified_piglin",
 		"#fokastudio:end/stat_buff",
-		"zombie"
+		"minecraft:allay",
+		"minecraft:vex",
+		"minecraft:wandering_trader",
+		"minecraft:zombie",
+		"minecraft:zombified_piglin"
+		
 	]
 }

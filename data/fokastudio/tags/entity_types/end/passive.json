@@ -1,5 +1,5 @@
 {
-	"required": false,
+	"replace": false,
 	"values": [
 		"minecraft:axolotl",
 		"minecraft:bat",
@@ -28,9 +28,6 @@
 		"minecraft:allay",
 		"minecraft:frog",
 		"minecraft:tadpole",
-		{
-			"id": "minecraft:sniffer",
-			"required": false
-		}
+		"minecraft:sniffer"
 	]
 }
