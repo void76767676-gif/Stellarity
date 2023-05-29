@@ -1,18 +1,14 @@
 name: FSEE-DEV
-
-on:
-  push:
-
+on: [push]
 jobs:
-  zip-files:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: vimtor/action-zip@v1
-        with:
-          files: data/ assets/ pack.mcmeta
-          dest: latest.zip
-      - uses: actions/upload-artifact@v1
-        with:
-          name: FSEE-DEV
-          path: ${{ github.workspace }}/dev_builds/latest.zip
+    - uses: actions/checkout@master
+    - uses: actions/upload-artifact@v3
+      with:
+        name: FSEE-DEV
+        path: |
+          assets/
+          data/
+          pack.mcmeta
