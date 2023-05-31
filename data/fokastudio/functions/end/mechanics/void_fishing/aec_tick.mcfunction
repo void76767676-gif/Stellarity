@@ -4,13 +4,13 @@ execute if score @s foka.mechanics.void_fishing_length matches 1 store result sc
 
 # Adds 1 per tick to time
 scoreboard players add @s foka.mechanics.void_fishing_length 1
-# 13% chance to add <INSERT LEVEL OF LURE ENCHANT> to overall time
-execute if predicate fokastudio:end/utils/chance/13percent run scoreboard players operation @s foka.mechanics.void_fishing_length += @s foka.misc
+# 16% chance to add <INSERT LEVEL OF LURE ENCHANT> to overall time
+execute if predicate fokastudio:end/utils/chance/16percent run scoreboard players operation @s foka.mechanics.void_fishing_length += @s foka.misc
 # Extra 35% chance to add 1 if using Fisher of Voids
-execute if entity @s[tag=foka.using_fisher] if predicate fokastudio:end/utils/chance/25percent run scoreboard players add @s foka.mechanics.void_fishing_length 1
+execute if entity @s[tag=foka.using_fisher] if predicate fokastudio:end/utils/chance/35percent run scoreboard players add @s foka.mechanics.void_fishing_length 1
 
 ## It's fishing time!
-# 0.5% chance EVERY TICK to fish smth after 7 seconds (not counting the bonuses)
+# 0.5% chance EVERY TICK to fish smth after 7 seconds (by default, excluding bonuses)
 execute if score @s foka.mechanics.void_fishing_length matches 140..279 if predicate fokastudio:end/void_fishing/chance/0_5 run function fokastudio:end/mechanics/void_fishing/fish
 # 1% chance EVERY TICK to fish smth after 14 seconds
 execute if score @s foka.mechanics.void_fishing_length matches 280..419 if predicate fokastudio:end/void_fishing/chance/1 run function fokastudio:end/mechanics/void_fishing/fish

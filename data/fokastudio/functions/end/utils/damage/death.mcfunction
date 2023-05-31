@@ -4,7 +4,7 @@
 
 tag @s add foka.dead
 tag @s remove foka.tag
-tag @s[predicate=fokastudio:end/utils/holding_totem] add foka.tag
+tag @s[predicate=fokastudio:end/utils/totem/holding] add foka.tag
 scoreboard players reset @s foka.misc
 execute store result score @s foka.misc run gamerule showDeathMessages
 execute if entity @s[tag=!foka.tag,scores={foka.misc=1}] if data entity @s Owner run gamerule showDeathMessages false
