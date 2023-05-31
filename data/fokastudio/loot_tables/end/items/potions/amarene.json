@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Amarena",
+								"text": "Amarene",
 								"color": "#C90D17",
 								"italic": false
 							}

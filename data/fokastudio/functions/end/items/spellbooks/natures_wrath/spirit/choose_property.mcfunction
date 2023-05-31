@@ -6,7 +6,8 @@ scoreboard players operation @s foka.misc2 = #upgrades foka.misc
 data remove storage fokastudio:end/temp "natures_wrath.spells"
 data remove storage fokastudio:end/temp "natures_wrath.chosen"
 
-execute unless score #upgrades foka.misc matches 9.. if predicate fokastudio:end/utils/chance/50percent run data modify storage fokastudio:end/temp "natures_wrath.chosen" set value "normal"
+execute unless score #upgrades foka.misc matches 1.. run data modify storage fokastudio:end/temp "natures_wrath.chosen" set value "normal"
+execute if score #upgrades foka.misc matches 1..8 if predicate fokastudio:end/utils/chance/50percent run data modify storage fokastudio:end/temp "natures_wrath.chosen" set value "normal"
 execute if score #upgrades foka.misc matches 9.. if predicate fokastudio:end/utils/chance/33percent run data modify storage fokastudio:end/temp "natures_wrath.chosen" set value "normal"
 execute if data storage fokastudio:end/temp {natures_wrath.chosen:"normal"} run tag @s add foka.natures_wrath.spirit.normal
 

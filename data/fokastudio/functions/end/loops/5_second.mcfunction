@@ -11,4 +11,7 @@ execute as @e[type=slime,tag=foka.gloop] at @s run function fokastudio:end/mobs/
 # End Portal noises
 execute as @e[type=marker,tag=foka.end_portal] at @s run function fokastudio:end/visuals/end_portal_animation/ambient_sounds
 
+# Duskberry Night Vision
+execute as @a[predicate=fokastudio:end/items/holding_duskberry] run effect give @s night_vision 17 0 true
+
 schedule function fokastudio:end/loops/5_second 5s

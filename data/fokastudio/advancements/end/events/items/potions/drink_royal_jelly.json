@@ -14,6 +14,6 @@
 		}
 	},
 	"rewards": {
-		"function": "fokastudio:end/items/potions/royal_jelly"
+		"function": "fokastudio:end/items/royal_jelly"
 	}
 }

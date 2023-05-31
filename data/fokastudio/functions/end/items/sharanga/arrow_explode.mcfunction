@@ -1,6 +1,6 @@
 particle flash ~ ~ ~ 0 0 0 0 1 force
-playsound block.respawn_anchor.deplete player @a ~ ~ ~ 1.7
-playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1.7 1.1
+playsound block.respawn_anchor.deplete player @a ~ ~ ~ 0.5 1
+playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.5 0.9
 
 execute store result score @s foka.misc run data get entity @s damage 10
 # Reduce damage by 33%

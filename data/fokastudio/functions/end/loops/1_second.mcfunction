@@ -10,4 +10,7 @@ execute as @e[type=marker,tag=foka.book_of_light.aura] at @s as @a[distance=..5.
 # Villagers
 execute as @e[type=villager,tag=foka.villager.aware,predicate=!fokastudio:end/utils/is_baby,tag=!foka.villager.nitwit,tag=!foka.villager.has_job] at @s run function fokastudio:end/mobs/villager/main
 
+# Shulker Tools
+execute as @a[predicate=fokastudio:end/items/holding_any_shulker_tool] run effect give @s haste 2 0 true
+
 schedule function fokastudio:end/loops/1_second 1s

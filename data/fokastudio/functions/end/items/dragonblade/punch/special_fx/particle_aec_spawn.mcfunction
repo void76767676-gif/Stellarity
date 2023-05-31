@@ -7,6 +7,6 @@ function fokastudio:end/items/dragonblade/punch/special_fx/end_rod
 
 particle minecraft:smoke ^ ^ ^ .35 .35 .35 0 25
 
-playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 0.1 1.25
-playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 0.6
-playsound minecraft:entity.firework_rocket.large_blast player @a ~ ~ ~ 1 0.6
+playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 0.2 1.25
+playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 0.9
+playsound minecraft:entity.firework_rocket.large_blast player @a ~ ~ ~ 1 0.9

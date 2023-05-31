@@ -1,1 +1,1 @@
-playsound entity.blaze.shoot player @a ~ ~ ~ .85 0
+playsound entity.blaze.shoot player @a ~ ~ ~ 1 0

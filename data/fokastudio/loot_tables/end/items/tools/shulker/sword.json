@@ -22,7 +22,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "9",
+												"text": "8",
 												"color": "dark_green",
 												"italic": false
 											},
@@ -96,7 +96,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"amount": 9,
+									"amount": 7,
 									"operation": "addition",
 									"slot": "mainhand"
 								},

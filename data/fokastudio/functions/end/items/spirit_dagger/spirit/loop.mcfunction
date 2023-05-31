@@ -1,6 +1,6 @@
 # Age
-scoreboard players add @s foka.misc 1
-execute if score @s foka.misc matches 11 run tag @s add foka.spirit_dagger.spirit_ready
+scoreboard players add @s foka.misc 2
+execute if score @s foka.misc matches 10 run tag @s add foka.spirit_dagger.spirit_ready
 execute if score @s foka.misc matches 301.. run function fokastudio:end/items/spirit_dagger/spirit/timeout
 
 # Particles
