@@ -5,10 +5,10 @@
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 15034111,
-		"water_fog_color": 14363390,
-		"grass_color": 5161443,
-		"foliage_color": 5219299,
+		"water_color": 15368447,
+		"water_fog_color": 15034111,
+		"grass_color": 6078719,
+		"foliage_color": 5819646,
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
 			"tick_delay": 900,
