@@ -4,3 +4,5 @@ particle flash
 
 playsound minecraft:item.trident.return block @a ~ ~ ~ 1
 playsound minecraft:item.trident.thunder block FokaStudio ~ ~ ~ 0.33 2
+
+advancement grant @p only fokastudio:end/exploration/transmute_item

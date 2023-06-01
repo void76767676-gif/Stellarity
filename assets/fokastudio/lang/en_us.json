@@ -21,6 +21,8 @@
     "foka.messages.cmd.get_shulker_armor": "Gave a full set of Shulker Armor",
     "foka.messages.cmd.get_random_head": "Gave a random 'Treasure Head', out of a total of 60",
 
+    "foka.void_fishing.warning": "Something tells you you should fish higher...",
+
     "foka.bossbars.crystals_left": "Crystals Left:",
 
     "foka.mobs.gloop": "Gloop",
@@ -349,6 +351,8 @@
     "foka.advancements.max_out_aery_sword": "Frozen Reaper",
     "foka.advancements.max_out_aery_sword.description": "Reach +9 Extra Damage on Frigid Harvester",
     "foka.advancements.max_out_aery_sword.tip": "ᴛɪᴘ: ᴛʜɪѕ ᴍɪɢʜᴛ ʀᴇǫᴜɪʀᴇ ѕᴏᴍᴇ ɢʀɪɴᴅɪɴɢ...",
+    "foka.advancements.transmute_item": "Hallowed Alchemy",
+    "foka.advancements.transmute_item.description": "Transmute an item into a different item in the waters of The Hallow",
 
     "foka.death_messages.example_cause": "%s died randomly due to an example of FSEE's custom damage system",
     "foka.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom",
