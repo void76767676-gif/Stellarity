@@ -5,7 +5,7 @@ execute if block ^ ^ ^ #fokastudio:end/liquids run scoreboard players set #in_li
 execute if score #in_liquid foka.misc matches 0 run tp @s[tag=!foka.natures_wrath.spirit.ocean,tag=!foka.natures_wrath.spirit.mountains,tag=!foka.natures_wrath.spirit.forest,tag=!foka.natures_wrath.spirit.jungle] ^ ^ ^1 ~ ~
 execute if score #in_liquid foka.misc matches 1 run tp @s[tag=!foka.natures_wrath.spirit.ocean,tag=!foka.natures_wrath.spirit.mountains,tag=!foka.natures_wrath.spirit.forest,tag=!foka.natures_wrath.spirit.jungle] ^ ^ ^0.5 ~ ~
 
-# Mountain Spirit moves 20% quicker
+# Mountain Spirit moves 30% quicker
 execute if score #in_liquid foka.misc matches 0 run tp @s[tag=foka.natures_wrath.spirit.mountains] ^ ^ ^1.3 ~ ~
 execute if score #in_liquid foka.misc matches 1 run tp @s[tag=foka.natures_wrath.spirit.mountains] ^ ^ ^0.65 ~ ~
 
@@ -19,5 +19,6 @@ execute if score #in_liquid foka.misc matches 1 run tp @s[tag=foka.natures_wrath
 
 
 # Ocean Spirit ignores liquid movement penalty
+# But moves 15% slower :(
 tp @s[tag=foka.natures_wrath.spirit.ocean] ^ ^ ^0.85 ~ ~
 

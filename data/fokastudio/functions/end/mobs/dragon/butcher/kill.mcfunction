@@ -25,5 +25,5 @@ execute if block 56 75 -78 end_gateway positioned 56 75 -78 run fill ~1 ~2 ~1 ~-
 execute if block 77 75 -57 end_gateway positioned 77 75 -57 run fill ~1 ~2 ~1 ~-1 ~-2 ~-1 air
 execute if block 91 75 -30 end_gateway positioned 91 75 -30 run fill ~1 ~2 ~1 ~-1 ~-2 ~-1 air
 
-# Post-gen does not trigger for some reason I don't really know...
-schedule function fokastudio:end/mobs/dragon/butcher/post_gen 1t
+bossbar set fokastudio:end/crystal_count players
+bossbar set fe:ender_dragon players

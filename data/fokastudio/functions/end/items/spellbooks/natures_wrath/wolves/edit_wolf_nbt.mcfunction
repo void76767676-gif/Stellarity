@@ -11,9 +11,10 @@ execute if score #upgrades foka.misc matches 9.. run function fokastudio:end/ite
 attribute @s generic.follow_range base set 24
 
 data modify entity @s CollarColor set value 3b
-data modify entity @s Owner set from entity @p[predicate=fokastudio:end/items/spellbooks/holding_natures_wrath] UUID
 
 execute store result entity @s Health float 1 run scoreboard players get #hp foka.misc
 
 data modify entity @s CustomName set value '{"translate":"foka.items.spellbooks.natures_wrath.spirit_wolf","fallback":"Spirit Wolf","color":"aqua"}'
 execute if predicate fokastudio:end/utils/chance/5percent run data modify entity @s CustomName set value '{"text":"Bluey","color":"blue"}'
+
+data modify entity @s Owner set from entity @p[predicate=fokastudio:end/items/spellbooks/holding_natures_wrath] UUID
