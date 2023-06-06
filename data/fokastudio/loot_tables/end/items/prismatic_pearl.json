@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "foka.items.prismatic_pearl",
 								"fallback": "Prismatic Pearl",
-								"color": "white",
+								"color": "magenta",
 								"italic": false
 							}
 						}

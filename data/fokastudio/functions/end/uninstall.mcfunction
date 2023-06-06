@@ -38,7 +38,7 @@ scoreboard objectives remove foka.items.spellbook.conveyance.cooldown
 scoreboard objectives remove foka.items.spellbook.conveyance.id
 scoreboard objectives remove foka.items.spellbook.updraft.cooldown
 scoreboard objectives remove foka.items.spellbook.light.cooldown
-scoreboard objectives remove foka.items.fish.mystical_heartfish.total_consumed
+scoreboard objectives remove foka.items.fish.crystal_heartfish.total_consumed
 scoreboard objectives remove foka.items.spirit_dagger.attract_cooldown
 scoreboard objectives remove foka.items.spirit_dagger.consume_time
 scoreboard objectives remove foka.items.spirit_dagger.until_consume_reset

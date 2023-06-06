@@ -51,15 +51,10 @@
 						}
 					},
 					{
-						"condition": "minecraft:any_of",
-						"terms": [
-							{
-								"condition": "minecraft:location_check",
-								"predicate": {
-									"biome": "fokastudio:frosted_hills"
-								}
-							}
-						]
+						"condition": "minecraft:location_check",
+						"predicate": {
+							"biome": "fokastudio:frosted_hills"
+						}
 					}
 				]
 			}

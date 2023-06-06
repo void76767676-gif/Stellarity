@@ -11,7 +11,6 @@
 		"grass_color": 9764856,
 		"foliage_color": 11403007,
 		"grass_color_modifier": "none",
-		"ambient_sound": "ambient.underwater.loop",
 		"mood_sound": {
 			"sound": "ambient.underwater.loop.additions.rare",
 			"tick_delay": 500,

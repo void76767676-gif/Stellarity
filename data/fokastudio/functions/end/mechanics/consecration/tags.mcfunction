@@ -3,7 +3,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:poisonous_potato"}}] run tag @s ad
 execute if entity @s[nbt={Item:{id:"minecraft:chorus_fruit"}}] run tag @s add foka.consecration.chorus_fruit
 execute if entity @s[nbt={Item:{id:"minecraft:sweet_berries"}}] run tag @s add foka.consecration.sweet_berries
 execute if entity @s[nbt={Item:{id:"minecraft:beetroot"}}] run tag @s add foka.consecration.beetroot
-execute if entity @s[nbt={Item:{id:"minecraft:mushroom_stew"}}] run tag @s add foka.consecration.mushroom_stew
+execute if entity @s[nbt={Item:{id:"minecraft:rabbit_stew"}}] run tag @s add foka.consecration.rabbit_stew
 
 execute if entity @s[nbt={Item:{id:"minecraft:oak_leaves"}}] run tag @s add foka.consecration.leaves
 execute if entity @s[nbt={Item:{id:"minecraft:birch_leaves"}}] run tag @s add foka.consecration.leaves

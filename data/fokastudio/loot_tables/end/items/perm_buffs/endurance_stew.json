@@ -5,7 +5,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:mushroom_stew",
+					"name": "minecraft:rabbit_stew",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
@@ -34,7 +34,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								"'n",
+								"",
 								{
 									"translate": "foka.items.perm_buffs.endurance_stew.flavor_text",
 									"fallback": "'Tastes like cobalt'",

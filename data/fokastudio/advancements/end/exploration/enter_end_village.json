@@ -10,7 +10,7 @@
 		},
 		"description": {
 			"translate": "foka.advancements.forever_stranded.description",
-			"fallback": "Find a Village in the middle of nowhere. How did they get here? Let's find out..."
+			"fallback": "Find a Village in the middle of nowhere. How did they even get there?"
 		},
 		"frame": "task",
 		"show_toast": true,

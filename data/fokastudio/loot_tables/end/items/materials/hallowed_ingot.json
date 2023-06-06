@@ -12,7 +12,8 @@
 							"entity": "this",
 							"name": {
 								"translate": "foka.items.materials.hallowed_ingot",
-								"fallback": "#D9E3ED",
+								"fallback": "Hallowed Ingot",
+								"color": "D9E3ED",
 								"italic": false
 							}
 						},

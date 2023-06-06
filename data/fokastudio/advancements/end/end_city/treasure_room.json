@@ -10,7 +10,7 @@
 		},
 		"description": {
 			"translate": "foka.advancements.treasure_room.description",
-			"fallback": "Obtain a rare Treasure Head from a chest in an End City. Can you find all 60?"
+			"fallback": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 60?"
 		},
 		"frame": "challenge",
 		"show_toast": true,

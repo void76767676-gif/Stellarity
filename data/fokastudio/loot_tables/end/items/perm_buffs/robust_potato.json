@@ -34,7 +34,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
-								"'n",
+								"",
 								{
 									"translate": "foka.items.perm_buffs.robust_potato.flavor_text",
 									"fallback": "'What a fancy word!'",

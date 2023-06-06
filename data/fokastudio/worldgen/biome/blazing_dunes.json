@@ -9,7 +9,6 @@
 		"water_fog_color": 10704640,
 		"grass_color": 11674660,
 		"foliage_color": 10294549,
-		"ambient_sound": "ambient.nether_wastes.loop",
 		"mood_sound": {
 			"sound": "ambient.nether_wastes.mood",
 			"tick_delay": 820,

@@ -9,13 +9,6 @@
 		"water_fog_color": 0,
 		"grass_color": 1186337,
 		"foliage_color": 1186337,
-		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
-		"mood_sound": {
-			"sound": "block.sculk_shrieker.shriek",
-			"tick_delay": 1150,
-			"block_search_extent": 10,
-			"offset": 2
-		},
 		"particle": {
 			"options": {
 				"type": "mycelium"
@@ -27,8 +20,7 @@
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			 
- 			"fokastudio:end/ravine",
+			"fokastudio:end/ravine",
 			"fokastudio:end/crack"
 		]
 	},

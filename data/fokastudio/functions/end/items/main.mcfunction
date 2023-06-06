@@ -1,7 +1,8 @@
 function fokastudio:end/items/armors/main
 function fokastudio:end/items/spellbooks/main
 function fokastudio:end/items/fish/main
-function fokastudio:end/items/perm_buffs/main
+
+effect clear @a[tag=foka.perm_buffs.robust_potato] poison
 
 # Dragonblade
 # Entity loops happen every 2nd tick

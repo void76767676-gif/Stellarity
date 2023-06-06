@@ -14,7 +14,7 @@
 					"type": "minecraft:loot_table",
 					"weight": 7,
 					"quality": 2,
-					"name": "fokastudio:end/items/fish/mystical_heartfish"
+					"name": "fokastudio:end/items/fish/crystal_heartfish"
 				},
 				{
 					"type": "minecraft:loot_table",

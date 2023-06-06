@@ -10,7 +10,7 @@
         },
         "description": {
             "translate": "foka.advancements.duskberry_find.description",
-            "fallback": "Pick up a Duskberry from a chest in Hallow's End Ship"
+            "fallback": "Pick up a Duskberry from a Chest in Hallow's End Ship"
         },
         "frame": "task",
 		"show_toast": true,

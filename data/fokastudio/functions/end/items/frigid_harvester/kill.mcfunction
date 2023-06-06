@@ -3,11 +3,11 @@ data remove storage fokastudio:end/temp aery_sword.lore[-1]
 
 execute store result score #damage foka.misc run data get entity @s SelectedItem.tag."foka.aery_sword.damage" 100
 
-execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={minor=true}}] run scoreboard players set #damage_extra foka.misc 6
-execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={small=true}}] run scoreboard players set #damage_extra foka.misc 12
-execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={big=true}}] run scoreboard players set #damage_extra foka.misc 24
-execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={large=true}}] run scoreboard players set #damage_extra foka.misc 36
-execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={huge=true}}] run scoreboard players set #damage_extra foka.misc 186
+execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={minor=true}}] run scoreboard players set #damage_extra foka.misc 7
+execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={small=true}}] run scoreboard players set #damage_extra foka.misc 14
+execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={big=true}}] run scoreboard players set #damage_extra foka.misc 29
+execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={large=true}}] run scoreboard players set #damage_extra foka.misc 43
+execute if entity @s[advancements={fokastudio:end/events/items/kill_with_aery_sword={huge=true}}] run scoreboard players set #damage_extra foka.misc 188
 
 # Contants
 scoreboard players set #3 foka.misc 3

@@ -50,7 +50,7 @@ scoreboard objectives add foka.items.spellbook.light.cooldown dummy "Spellbook L
 scoreboard objectives add foka.items.spellbook.natures_wrath.cooldown.shoot dummy "Spellbook Nature's Wrath Shoot Cooldown"
 scoreboard objectives add foka.items.spellbook.natures_wrath.cooldown.wolves dummy "Spellbook Nature's Wrath Shoot Cooldown"
 
-scoreboard objectives add foka.items.fish.mystical_heartfish.total_consumed dummy "Mystical Heartfish Total Consumed"
+scoreboard objectives add foka.items.fish.crystal_heartfish.total_consumed dummy "Mystical Heartfish Total Consumed"
 
 scoreboard objectives add foka.items.spirit_dagger.attract_cooldown dummy "Spirit Dagger Attract Cooldown"
 scoreboard objectives add foka.items.spirit_dagger.consume_time dummy "Spirit Dagger Consume Time"
