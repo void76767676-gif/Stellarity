@@ -31,15 +31,15 @@
 		"monster": [
 			{
 				"type": "minecraft:wither_skeleton",
-				"weight": 80,
-				"minCount": 2,
-				"maxCount": 2
+				"weight": 67,
+				"minCount": 1,
+				"maxCount": 3
 			},
 			{
 				"type": "minecraft:skeleton",
 				"weight": 90,
-				"minCount": 2,
-				"maxCount": 2
+				"minCount": 4,
+				"maxCount": 4
 			},
 			{
 				"type": "minecraft:silverfish",
