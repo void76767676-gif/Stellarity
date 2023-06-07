@@ -1,6 +1,6 @@
 scoreboard players set #cooldown foka.misc 10
-scoreboard players set #cooldown foka.misc 44
-scoreboard players set #2 foka.misc 2
+scoreboard players set #cooldown foka.misc 46
+scoreboard players set #3 foka.misc 3
 
 scoreboard players set #upgrades foka.misc 0
 execute if entity @s[advancements={fokastudio:end/events/items/spellbooks/natures_wrath/been_to_forest=true}] run scoreboard players add #upgrades foka.misc 1
@@ -14,7 +14,7 @@ execute if entity @s[advancements={fokastudio:end/events/items/spellbooks/nature
 execute if entity @s[advancements={fokastudio:end/events/items/spellbooks/natures_wrath/been_to_swamp=true}] run scoreboard players add #upgrades foka.misc 1
 
 scoreboard players operation #cooldown foka.misc -= #upgrades foka.misc
-scoreboard players operation #cooldown foka.misc /= #2 foka.misc
+scoreboard players operation #cooldown foka.misc /= #3 foka.misc
 scoreboard players operation @s foka.items.spellbook.natures_wrath.cooldown.shoot = #cooldown foka.misc
 
 execute at @s anchored eyes positioned ^ ^ ^ rotated as @s summon marker run function fokastudio:end/items/spellbooks/natures_wrath/spirit/choose_property
