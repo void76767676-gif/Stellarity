@@ -68,6 +68,13 @@
 									"amount": 0.08,
 									"operation": "multiply_base",
 									"slot": "feet"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"amount": 0.1,
+									"operation": "addition",
+									"slot": "chest"
 								}
 							]
 						}

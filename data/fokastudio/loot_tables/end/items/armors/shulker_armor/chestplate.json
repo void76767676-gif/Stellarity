@@ -71,8 +71,15 @@
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": " ",
-									"amount": 0.25,
+									"amount": 0.2,
 									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": " ",
+									"amount": -0.025,
+									"operation": "multiply_base",
 									"slot": "chest"
 								},
 								{

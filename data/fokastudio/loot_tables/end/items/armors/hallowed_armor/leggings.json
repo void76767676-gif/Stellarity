@@ -61,6 +61,13 @@
 									"amount": 3,
 									"operation": "addition",
 									"slot": "legs"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"amount": 0.1,
+									"operation": "addition",
+									"slot": "chest"
 								}
 							]
 						} 

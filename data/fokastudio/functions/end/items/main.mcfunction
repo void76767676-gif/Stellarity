@@ -9,6 +9,7 @@ effect clear @a[tag=foka.perm_buffs.robust_potato] poison
 execute as @a[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking] at @s as @e[distance=0.001..5,tag=foka.items.dragonblade.punch_ready] at @s run function fokastudio:end/items/dragonblade/punch/progress
 execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.until_punch_reset=1..}] run function fokastudio:end/items/dragonblade/punch/progress_reset_countdown
 execute as @e[type=area_effect_cloud,tag=foka.items.dragonblade.smthgram_aec] at @s rotated as @s run function fokastudio:end/items/dragonblade/punch/special_fx/smthgram
+execute as @e[type=!#fokastudio:end/invalid_targets,scores={foka.items.dragonblade.misc_cooldown=1}] run scoreboard players set @s foka.items.dragonblade.misc_cooldown 0
 
 # Clockwork Crossbow
 # Moved to a 6 tick clock

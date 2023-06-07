@@ -1,6 +1,6 @@
 scoreboard players operation #damage foka.misc = @s foka.dot.dark_decay.damage
 
-scoreboard players set #armor_penetration foka.misc 20
+scoreboard players set #armor_penetration foka.misc 80
 
 scoreboard players set #ignore_iframes foka.misc 1
 scoreboard players set #ignore_resistance foka.misc 0

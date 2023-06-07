@@ -65,7 +65,7 @@
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": "",
-									"amount": 0.2,
+									"amount": 0.1,
 									"operation": "addition",
 									"slot": "chest"
 								}

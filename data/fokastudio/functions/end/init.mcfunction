@@ -19,6 +19,7 @@ scoreboard objectives add foka.items.dragonblade.stacks dummy "Dragonblade Stack
 scoreboard objectives add foka.items.dragonblade.until_stack_reset dummy "Dragonblade Until Stack Reset"
 scoreboard objectives add foka.items.dragonblade.punch_progress dummy "Dragonblade Punch Animation Progress"
 scoreboard objectives add foka.items.dragonblade.until_punch_reset dummy "Dragonblade Until Punch Animation Progress Reset"
+scoreboard objectives add foka.items.dragonblade.misc_cooldown dummy "Dragonblade Misc Cooldown You Shouldn't Worry About"
 
 scoreboard objectives add foka.items.pandoras_barrel.raycast dummy "Pandora's Barrel Raycast"
 scoreboard objectives add foka.items.pandoras_barrel.animation dummy "Pandora's Barrel Animation Progress"
