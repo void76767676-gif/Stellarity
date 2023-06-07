@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 25,
+					"weight": 27,
 					"name": "fokastudio:end/items/fish/crimson_tigerfish",
 					"functions": [
 						{
@@ -18,7 +18,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 17,
+					"weight": 19,
 					"name": "fokastudio:end/items/fish/fleshy_piranha",
 					"functions": [
 						{
@@ -35,7 +35,7 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
+								"min": 3,
 								"max": 6
 							}
 						}
@@ -49,8 +49,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 4
+								"min": 3,
+								"max": 5
 							}
 						}
 					]

@@ -14,6 +14,17 @@
 							"function": "minecraft:set_count",
 							"count": 1
 						}
+					],
+					"conditions": [
+						{
+							"condition": "minecraft:inverted",
+							"term": {
+								"condition": "minecraft:location_check",
+								"predicate": {
+									"biome": "fokastudio:sculk_growth"
+								}
+							}
+						}
 					]
 				},
 				{
@@ -41,16 +52,11 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 30,
-					"name": "fokastudio:end/void_fishing/drops/frozen_biomes",
+					"name": "fokastudio:end/void_fishing/drops/frosted_hills",
 					"conditions": [
 						{
-							"condition": "minecraft:any_of",
-							"terms": [
-								{
-									"condition": "minecraft:reference",
-									"name": "fokastudio:end/locations/biomes/in_frosted_hills"
-								}
-							]
+							"condition": "minecraft:reference",
+							"name": "fokastudio:end/locations/biomes/in_frosted_hills"
 						}
 					]
 				},

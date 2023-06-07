@@ -1,4 +1,6 @@
-function fokastudio:end/mechanics/void_fishing/main
+# Void Fishing
+execute as @e[type=fishing_bobber,predicate=fokastudio:end/locations/in_the_end,tag=!foka.checked_bobber,predicate=!fokastudio:end/locations/in_dragons_den] at @s if entity @a[distance=20..23,limit=1,sort=nearest,x_rotation=0..90] run function fokastudio:end/mechanics/void_fishing/start
+execute as @e[type=area_effect_cloud,tag=foka.void_fishing_aec] at @s run function fokastudio:end/mechanics/void_fishing/aec_tick
 
 # Totem of Undying gives Levitation when falling out of the world
 execute as @a[scores={foka.mechanics.void_totem_protection_time=1..}] run scoreboard players remove @s foka.mechanics.void_totem_protection_time 1

@@ -12,13 +12,12 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
-					"quality": 2,
+					"weight": 11,
 					"name": "fokastudio:end/items/fish/crystal_heartfish"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 5,
+					"weight": 6,
 					"name": "fokastudio:end/items/trinkets/duskberry"
 				},
 				{
@@ -31,6 +30,20 @@
 							"count": {
 								"min": 3,
 								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 8,
+					"name": "minecraft:cherry_leaves",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 3,
+								"max": 6
 							}
 						}
 					]

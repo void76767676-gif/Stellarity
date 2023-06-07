@@ -9,8 +9,13 @@
 					"name": "fokastudio:end/items/fish/chaos_fish"
 				},
 				{
+					"type": "minecraft:loot_table",
+					"weight": 8,
+					"name": "fokastudio:end/items/fish/overgrown_cod"
+				},
+				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 5,
 					"name": "minecraft:chorus_flower",
 					"functions": [
 						{
@@ -18,34 +23,6 @@
 							"count": {
 								"min": 1,
 								"max": 2
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:chorus_plant",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 2,
-								"max": 3
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 4,
-					"name": "minecraft:shulker_shell",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
 							}
 						}
 					]
