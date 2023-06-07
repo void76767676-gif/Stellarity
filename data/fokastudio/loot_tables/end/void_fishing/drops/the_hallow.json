@@ -7,30 +7,30 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 21,
+					"weight": 23,
 					"name": "fokastudio:end/items/fish/prismite"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 7,
+					"weight": 10,
 					"quality": 2,
 					"name": "fokastudio:end/items/fish/crystal_heartfish"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 4,
+					"weight": 5,
 					"name": "fokastudio:end/items/trinkets/duskberry"
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 10,
+					"weight": 13,
 					"name": "fokastudio:end/items/materials/pixie_dust",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 3,
-								"max": 5
+								"max": 4
 							}
 						}
 					]

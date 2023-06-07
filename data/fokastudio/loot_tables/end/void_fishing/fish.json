@@ -7,7 +7,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 12,
+					"weight": 15,
 					"name": "fokastudio:end/items/fish/ender_koi",
 					"functions": [
 						{
