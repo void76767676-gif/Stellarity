@@ -1,9 +1,5 @@
 scoreboard players set #cooldown foka.misc 10
-<<<<<<< HEAD
 scoreboard players set #cooldown foka.misc 42
-=======
-scoreboard players set #cooldown foka.misc 42
->>>>>>> 296f1c80e0b78a66a7b6b89b118a61a517c84da9
 scoreboard players set #3 foka.misc 3
 
 scoreboard players set #upgrades foka.misc 0
