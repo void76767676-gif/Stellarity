@@ -7,6 +7,7 @@ scoreboard players operation #damage foka.misc += #enchant foka.misc
 scoreboard players set #armor_penetration foka.misc 33
 scoreboard players set #ignore_iframes foka.misc 1
 scoreboard players set #damage_effects foka.misc 0
+scoreboard players set #damage_type foka.misc 3
 
 tag @p[predicate=fokastudio:end/items/holding_dragonblade,predicate=fokastudio:end/utils/player/is_sneaking] add foka.damage.attacker
 tag @s add foka.damage.dragonblade

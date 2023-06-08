@@ -1,6 +1,7 @@
 scoreboard players operation #damage foka.misc = @e[type=spectral_arrow,limit=1,sort=nearest] foka.misc
 scoreboard players set #armor_penetration foka.misc 20
 scoreboard players set #ignore_iframes foka.misc 0
+scoreboard players set #damage_type foka.misc 2
 
 tag @s add foka.damage.sharanga_explosion
 

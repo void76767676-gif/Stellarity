@@ -8,7 +8,7 @@ scoreboard players set #armor_penetration foka.misc 0
 
 scoreboard players set #ignore_iframes foka.misc 1
 scoreboard players set #ignore_resistance foka.misc 0
-scoreboard players set #damage_type foka.misc 0
+scoreboard players set #damage_type foka.misc 1
 scoreboard players set #damage_effects foka.misc 3
 
 scoreboard players reset @s foka.dot.frostburn.progress

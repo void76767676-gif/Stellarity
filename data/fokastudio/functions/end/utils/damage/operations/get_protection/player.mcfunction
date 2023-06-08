@@ -1,8 +1,5 @@
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:103b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc = #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:102b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:101b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
-execute store result score #temp_0 foka.misc run data get entity @s Inventory[{Slot:100b}].tag.Enchantments[{id:"minecraft:protection"}].lvl
-scoreboard players operation #temp_1 foka.misc += #temp_0 foka.misc
+function fokastudio:end/utils/damage/operations/get_protection/player/prot
+
+execute if score #damage_type foka.misc matches 1 run function fokastudio:end/utils/damage/operations/get_protection/player/fire_prot
+execute if score #damage_type foka.misc matches 2 run function fokastudio:end/utils/damage/operations/get_protection/player/projectile_prot
+execute if score #damage_type foka.misc matches 3 run function fokastudio:end/utils/damage/operations/get_protection/player/blast_prot
