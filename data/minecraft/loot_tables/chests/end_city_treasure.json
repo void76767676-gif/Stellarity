@@ -4,8 +4,9 @@
 		{
 			"rolls": 1,
 			"bonus_rolls": {
-				"min": 0,
-				"max": 1
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.3
 			},
 			"entries": [
 				{
@@ -72,6 +73,11 @@
 		},
 		{
 			"rolls": 1,
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.15
+			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
@@ -86,23 +92,52 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 0,
+				"max": 1
+			},
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.3
+			},
 			"entries": [
 				{
-					"type": "minecraft:loot_table",
-					"weight": 1,
-					"name": "fokastudio:end/hallowed_armor"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 1,
-					"name": "fokastudio:end/ancient_armor"
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:random_chance",
-					"chance": 0.33
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:loot_table",
+							"name": "fokastudio:end/items/materials/hallowed_ingot",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.5
+								}
+							]
+						},
+						{
+							"type": "minecraft:loot_table",
+							"name": "fokastudio:end/items/materials/ancient_plating",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -112,6 +147,22 @@
 				"max": 2
 			},
 			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 11,
+					"quality": 1,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 22,
+								"max": 32
+							},
+							"treasure": true
+						}
+					]
+				},
 				{
 					"type": "minecraft:item",
 					"weight": 3,
@@ -167,15 +218,21 @@
 					"function": "minecraft:enchant_with_levels",
 					"levels": {
 						"type": "minecraft:uniform",
-						"min": 15,
-						"max": 30
+						"min": 22,
+						"max": 28
 					},
-					"treasure": true
+					"treasure": true,
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
 				},
 				{
 					"function": "minecraft:set_damage",
 					"damage": {
-						"min": 0.1,
+						"min": 0.4,
 						"max": 0.87
 					},
 					"add": false
@@ -183,14 +240,11 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": -1,
-				"max": 1
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 10,
 					"quality": -1,
 					"name": "minecraft:purpur_block",
 					"functions": [
@@ -206,7 +260,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
+					"weight": 10,
 					"quality": -1,
 					"name": "minecraft:end_stone",
 					"functions": [
@@ -221,17 +275,41 @@
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"weight": 2,
-					"name": "minecraft:crying_obsidian",
-					"functions": [
+					"type": "minecraft:alternatives",
+					"children": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
+							"type": "minecraft:item",
+							"weight": 3,
+							"name": "minecraft:crying_obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 3
+									}
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.33333
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"weight": 3,
+							"name": "minecraft:obsidian",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 2,
+										"max": 4
+									}
+								}
+							]
 						}
 					]
 				}
@@ -245,7 +323,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 6,
 					"quality": -1,
 					"name": "minecraft:ender_pearl",
 					"functions": [
@@ -261,21 +339,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:firework_rocket",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 1,
-								"max": 3
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 6,
 					"quality": -1,
 					"name": "minecraft:amethyst_shard",
 					"functions": [
@@ -291,6 +355,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:shulker_shell",
 					"functions": [
 						{
@@ -305,7 +370,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 6,
 					"name": "minecraft:phantom_membrane",
 					"functions": [
 						{
@@ -320,7 +385,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 8,
 					"quality": -1,
 					"name": "minecraft:chorus_fruit",
 					"functions": [
@@ -353,7 +418,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.1
+					"chance": 0.15
 				}
 			]
 		}

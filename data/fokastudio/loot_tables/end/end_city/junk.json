@@ -6,6 +6,11 @@
 				"min": 1,
 				"max": 2
 			},
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.5
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -106,8 +111,8 @@
 					"children": [
 						{
 							"type": "minecraft:item",
-							"weight": 1,
-							"quality": 2,
+							"weight": 3,
+							"quality": 1,
 							"name": "minecraft:obsidian",
 							"functions": [
 								{
@@ -122,8 +127,8 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 1,
-							"quality": 2,
+							"weight": 3,
+							"quality": 1,
 							"name": "minecraft:crying_obsidian",
 							"functions": [
 								{
@@ -138,7 +143,7 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 3,
+							"weight": 6,
 							"name": "minecraft:purpur_block",
 							"functions": [
 								{
@@ -153,7 +158,7 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 6,
+							"weight": 10,
 							"quality": -1,
 							"name": "minecraft:end_stone",
 							"functions": [
@@ -169,7 +174,7 @@
 						},
 						{
 							"type": "minecraft:item",
-							"weight": 3,
+							"weight": 6,
 							"name": "minecraft:dirt",
 							"functions": [
 								{

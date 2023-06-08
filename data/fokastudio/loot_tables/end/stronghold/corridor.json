@@ -7,8 +7,9 @@
 				"max": 3
 			},
 			"bonus_rolls": {
-				"min": 0,
-				"max": 1
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.25
 			},
 			"entries": [
 				{
@@ -198,6 +199,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"quality": 2,
 					"name": "minecraft:ender_eye"
 				},
 				{
@@ -270,7 +272,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.1
+					"chance": 0.2
 				}
 			]
 		}

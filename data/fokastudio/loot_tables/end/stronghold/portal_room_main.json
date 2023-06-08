@@ -4,7 +4,12 @@
 		{
 			"rolls": {
 				"min": 3,
-				"max": 5
+				"max": 4
+			},
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.2
 			},
 			"entries": [
 				{
@@ -15,6 +20,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 4,
+					"quality": 1,
 					"name": "minecraft:ender_eye"
 				},
 				{
@@ -24,7 +30,7 @@
 				},
 				{
 					"type": "minecraft:empty",
-					"weight": 5
+					"weight": 7
 				}
 			]
 		}

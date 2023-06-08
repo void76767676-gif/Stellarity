@@ -6,6 +6,11 @@
 				"min": 1,
 				"max": 2
 			},
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.33
+			},
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
@@ -123,7 +128,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
+					"weight": 4,
 					"quality": -1,
 					"name": "minecraft:ender_pearl",
 					"functions": [
@@ -139,8 +144,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
-					"quality": -1,
+					"weight": 6,
 					"name": "minecraft:phantom_membrane",
 					"functions": [
 						{
@@ -155,7 +159,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 8,
+					"quality": -1,
 					"name": "minecraft:gunpowder",
 					"functions": [
 						{
@@ -169,7 +174,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 4,
+					"weight": 8,
+					"quality": -1,
 					"name": "minecraft:paper",
 					"functions": [
 						{
@@ -191,6 +197,11 @@
 		},
 		{
 			"rolls": 2,
+			"bonus_rolls": {
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.25
+			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -256,8 +267,9 @@
 		{
 			"rolls": 1,
 			"bonus_rolls": {
-				"min": 0,
-				"max": 1
+				"type": "minecraft:binomial",
+				"n": 1,
+				"p": 0.15
 			},
 			"entries": [
 				{
