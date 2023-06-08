@@ -4,20 +4,20 @@ execute if score @s foka.mechanics.void_fishing_length matches 1 store result sc
 
 # Adds 1 per tick to time
 scoreboard players add @s foka.mechanics.void_fishing_length 1
-# 16% chance to add <INSERT LEVEL OF LURE ENCHANT> to overall time
-execute if predicate fokastudio:end/utils/chance/16percent run scoreboard players operation @s foka.mechanics.void_fishing_length += @s foka.misc
-# Extra 35% chance to add 1 if using Fisher of Voids
-execute if entity @s[tag=foka.using_fisher] if predicate fokastudio:end/utils/chance/35percent run scoreboard players add @s foka.mechanics.void_fishing_length 1
+# 18% chance to add <INSERT LEVEL OF LURE ENCHANT> to overall time
+execute if predicate fokastudio:end/utils/chance/18percent run scoreboard players operation @s foka.mechanics.void_fishing_length += @s foka.misc
+# Extra 25% chance to add 1 if using Fisher of Voids
+execute if entity @s[tag=foka.using_fisher] if predicate fokastudio:end/utils/chance/25percent run scoreboard players add @s foka.mechanics.void_fishing_length 1
 
 ## It's fishing time!
-# 0.5% chance EVERY TICK to fish smth after 7 seconds (by default, excluding bonuses)
-execute if score @s foka.mechanics.void_fishing_length matches 140..279 if predicate fokastudio:end/void_fishing/chance/0_5 run function fokastudio:end/mechanics/void_fishing/fish
-# 1% chance EVERY TICK to fish smth after 14 seconds
-execute if score @s foka.mechanics.void_fishing_length matches 280..419 if predicate fokastudio:end/void_fishing/chance/1 run function fokastudio:end/mechanics/void_fishing/fish
-# 1.5% chance EVERY TICK to fish smth after 21 seconds
-execute if score @s foka.mechanics.void_fishing_length matches 420..559 if predicate fokastudio:end/void_fishing/chance/1_5 run function fokastudio:end/mechanics/void_fishing/fish
-# And a guaranteed catch after 28 seconds
-execute if score @s foka.mechanics.void_fishing_length matches 560.. run function fokastudio:end/mechanics/void_fishing/fish
+# 0.5% chance EVERY TICK to fish smth after 5 seconds (by default, excluding bonuses)
+execute if score @s foka.mechanics.void_fishing_length matches 100..199 if predicate fokastudio:end/void_fishing/chance/0_5 run function fokastudio:end/mechanics/void_fishing/fish
+# 1% chance EVERY TICK to fish smth after 10 seconds
+execute if score @s foka.mechanics.void_fishing_length matches 200..299 if predicate fokastudio:end/void_fishing/chance/1 run function fokastudio:end/mechanics/void_fishing/fish
+# 1.5% chance EVERY TICK to fish smth after 15 seconds
+execute if score @s foka.mechanics.void_fishing_length matches 300..399 if predicate fokastudio:end/void_fishing/chance/1_5 run function fokastudio:end/mechanics/void_fishing/fish
+# And a guaranteed catch after 20 seconds
+execute if score @s foka.mechanics.void_fishing_length matches 400.. run function fokastudio:end/mechanics/void_fishing/fish
 
 # Stop the process if Fishing Bobber is not present
 # This also removes the Area Effect Cloud after fishing out an item
