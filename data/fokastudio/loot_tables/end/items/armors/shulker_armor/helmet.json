@@ -57,7 +57,7 @@
 								{
 									"attribute": "minecraft:generic.armor",
 									"name": " ",
-									"amount": 4,
+									"amount": 5,
 									"operation": "addition",
 									"slot": "head"
 								},
@@ -78,7 +78,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": " ",
-									"amount": -0.025,
+									"amount": -0.0375,
 									"operation": "multiply_base",
 									"slot": "head"
 								},

@@ -78,7 +78,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": " ",
-									"amount": -0.025,
+									"amount": -0.0375,
 									"operation": "multiply_base",
 									"slot": "legs"
 								},
