@@ -1,5 +1,5 @@
 tag @s remove foka.holy_protection
-scoreboard players set @s foka.items.armors.holy_protection_cooldown 480
+scoreboard players set @s foka.items.armors.holy_protection_cooldown 520
 effect clear @s resistance
 
 execute rotated ~ 0 positioned ^ ^4 ^ run function fokastudio:end/items/armors/hallowed_armor/holy_protection/dodge_visual
