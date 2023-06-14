@@ -81,7 +81,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "fokastudio:end/treasure_heads"
+					"name": "stellarity:treasure_heads"
 				}
 			],
 			"conditions": [
@@ -107,7 +107,7 @@
 					"children": [
 						{
 							"type": "minecraft:loot_table",
-							"name": "fokastudio:end/items/materials/hallowed_ingot",
+							"name": "stellarity:items/materials/hallowed_ingot",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -126,7 +126,7 @@
 						},
 						{
 							"type": "minecraft:loot_table",
-							"name": "fokastudio:end/items/materials/ancient_plating",
+							"name": "stellarity:items/materials/ancient_plating",
 							"functions": [
 								{
 									"function": "minecraft:set_count",
@@ -403,7 +403,7 @@
 					"type": "minecraft:loot_table",
 					"weight": 2,
 					"quality": 2,
-					"name": "fokastudio:end/items/golden_chorus_fruit"
+					"name": "stellarity:items/golden_chorus_fruit"
 				}
 			]
 		},

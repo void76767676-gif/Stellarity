@@ -1,6 +1,6 @@
 [
 	{
-		"section":"§dFokaStudio's Ender Expansion",
+		"section":"§dstellarity",
 		"disciplines":[
 			{
 				"discipline":"Programming",
@@ -8,7 +8,7 @@
 					{
 						"title": "Lead Developer",
 						"names": [
-							"FokaStudio"
+							"kohara_"
 						]
 					},
 					{
@@ -25,7 +25,7 @@
 					{
 						"title": "Artists",
 						"names": [
-							"FokaStudio",
+							"kohara_",
 							"IEatPotatoes_",
 							"DuskAdler",
 							"YaGirlGiulles"
@@ -59,13 +59,13 @@
 					{
 						"title": "Builders",
 						"names": [
-							"IEatPotatoes_",
-							"RaiderRoss",
 							"Bush_King",
+                            "IEatPotatoes_",
+							"RaiderRoss",
 							"MidasDaEpik",
 							"inqizzo",
 							"DuskAdler",
-							"FokaStudio"
+							"kohara_"
 						]
 					}
 				]
@@ -99,7 +99,8 @@
 							"PancakeKlee",
 							"Verak",
                             "QuantumEmpress",
-                            "Kier"
+                            "Kier",
+                            "GWDdoS"
 						]
 					}
 				]
@@ -115,7 +116,12 @@
 							"catter",
                             "theammir",
                             "diego.",
-                            ".purejosh"
+                            ".purejosh",
+                            "Sylwia Wołoszyńska",
+                            "Duolingo Owl",
+                            "Taylor Swift",
+                            "Relogic",
+                            "easy.gg"
 						]
 					}
 				]

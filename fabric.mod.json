@@ -1,21 +1,15 @@
 {
 	"schemaVersion": 1,
-	"id": "fsee",
+	"id": "stellarity",
 	"version": "1.6a",
-	"name": "FokaStudio's Ender Expansion",
+	"name": "Stellarity",
 	"description": "Harder End, new biomes, items and more!",
 	"authors": [
-		"FokaStudio (Code)",
-		"DuskAdler (Art)",
-		"YaGirlGiulles_ (Art)",
-		"IEatPotatoes_ (Art & Structures)",
-		"MidasDaEpik (Structures)",
-		"RaiderRoss (Structures)",
-		"Hex (Former Author)"
+		"kohara"
 	],
 	"contact": {
-		"homepage": "https://fokastudio.github.io/FSEE",
-		"sources": "https://github.com/FokaStudio/FSEE",
+		"homepage": "https://kohara.github.io/Stellarity",
+		"sources": "https://github.com/kohara/Stellarity",
 		"issues": "https://discord.gg/J6guYAySN"
 	  },
 	"license": "All Rights Reserved",

@@ -26,4 +26,4 @@ execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:end
 # Post generation for Altar of the Accursed
 # Can't really do it with pure Worldgen sadly
 # Or I could, but definitely not in the way I would want to
-execute if entity @s[tag=!foka.post_gen.initialized] in minecraft:the_end run function fokastudio:end/post_gen/initialize
+execute if entity @s[tag=!stellarity.post_gen.initialized] in minecraft:the_end run function stellarity:post_gen/initialize

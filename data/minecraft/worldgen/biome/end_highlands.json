@@ -46,12 +46,12 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:highlands/stalactite"
+			"stellarity:highlands/stalactite"
 		],
 		[],
 		[
-			"fokastudio:highlands/dirt_patches/large",
-			"fokastudio:highlands/dirt_patches/small"
+			"stellarity:highlands/dirt_patches/large",
+			"stellarity:highlands/dirt_patches/small"
 		],
 		[],
 		[],
@@ -60,8 +60,8 @@
 		[],
 		[],
 		[
-			"fokastudio:highlands/grass",
-			"fokastudio:highlands/trees"
+			"stellarity:highlands/grass",
+			"stellarity:highlands/trees"
 		],
 		[]
 	]

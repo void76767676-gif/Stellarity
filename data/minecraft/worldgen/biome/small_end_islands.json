@@ -46,8 +46,8 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite",
-			"fokastudio:wastes/hills",
+			"stellarity:global/stalactite",
+			"stellarity:wastes/hills",
 			"minecraft:end_island_decorated"
 		],
 		[],
@@ -59,12 +59,12 @@
 		[],
 		[],
 		[
-			"fokastudio:small_end_islands/chorus_plant",
-			"fokastudio:small_end_islands/leaves"
+			"stellarity:small_end_islands/chorus_plant",
+			"stellarity:small_end_islands/leaves"
 		],
 		[
-			"fokastudio:small_end_islands/bricks_scattered",
-			"fokastudio:global/end_dungeon"
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
 		]
 	]
 }

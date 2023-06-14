@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ingot",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.materials.hallowed_ingot",
+								"fallback": "Hallowed Ingot",
+								"color": "D9E3ED",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"hallowed_ingot\",CustomModelData:90000}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

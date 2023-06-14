@@ -23,7 +23,7 @@
 		"lava": 0,
 		"temperature": {
 			"type": "minecraft:shifted_noise",
-			"noise": "fokastudio:end/temperature",
+			"noise": "stellarity:temperature",
 			"xz_scale": 0.25,
 			"y_scale": 0,
 			"shift_x": "minecraft:shift_x",
@@ -32,19 +32,19 @@
 		},
 		"vegetation": {
 			"type": "minecraft:shifted_noise",
-			"noise": "fokastudio:end/vegetation",
+			"noise": "stellarity:vegetation",
 			"xz_scale": 0.25,
 			"y_scale": 0,
 			"shift_x": "minecraft:shift_x",
 			"shift_y": 0,
 			"shift_z": "minecraft:shift_z"
 		},
-		"continents": "fokastudio:end/continents",
-		"erosion": "fokastudio:end/erosion",
-		"depth": "fokastudio:end/depth",
-		"ridges": "fokastudio:end/ridges",
-		"initial_density_without_jaggedness": "fokastudio:end/initial_density",
-		"final_density": "fokastudio:end/final_density",
+		"continents": "stellarity:continents",
+		"erosion": "stellarity:erosion",
+		"depth": "stellarity:depth",
+		"ridges": "stellarity:ridges",
+		"initial_density_without_jaggedness": "stellarity:initial_density",
+		"final_density": "stellarity:final_density",
 		"vein_toggle": 0,
 		"vein_ridged": 0,
 		"vein_gap": 0
@@ -58,7 +58,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:dragons_den"
+						"stellarity:dragons_den"
 					]
 				},
 				"then_run": {
@@ -157,7 +157,7 @@
 						"if_true": {
 							"type": "minecraft:biome",
 							"biome_is": [
-								"fokastudio:prismarine_forest"
+								"stellarity:prismarine_forest"
 							]
 						},
 						"then_run": {
@@ -193,7 +193,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:blazing_dunes"
+						"stellarity:blazing_dunes"
 					]
 				},
 				"then_run": {
@@ -410,8 +410,8 @@
 					"biome_is": [
 						"minecraft:end_highlands",
 						"far_end:amethyst_forest",
-						"fokastudio:prismarine_forest",
-						"fokastudio:the_hallow"
+						"stellarity:prismarine_forest",
+						"stellarity:the_hallow"
 					]
 				},
 				"then_run": {
@@ -517,7 +517,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:frosted_hills"
+						"stellarity:frosted_hills"
 					]
 				},
 				"then_run": {
@@ -581,7 +581,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:frosted_hills"
+						"stellarity:frosted_hills"
 					]
 				},
 				"then_run": {
@@ -617,7 +617,7 @@
 				"if_true": {
 					"type": "minecraft:biome",
 					"biome_is": [
-						"fokastudio:sculk_growth"
+						"stellarity:sculk_growth"
 					]
 				},
 				"then_run": {
@@ -657,7 +657,7 @@
 							"type": "minecraft:biome",
 							"biome_is": [
 								"far_end:amethyst_forest",
-								"fokastudio:the_hallow"
+								"stellarity:the_hallow"
 							]
 						},
 						"then_run": {
@@ -717,7 +717,7 @@
 						"if_true": {
 							"type": "minecraft:biome",
 							"biome_is": [
-								"fokastudio:prismarine_forest"
+								"stellarity:prismarine_forest"
 							]
 						},
 						"then_run": {

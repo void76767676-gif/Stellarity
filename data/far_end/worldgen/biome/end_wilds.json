@@ -48,7 +48,7 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite"
+			"stellarity:global/stalactite"
 		],
 		[
 			"far_end:wilds/surface/grassy_plain"
@@ -67,7 +67,7 @@
 			"far_end:wilds/vegetation/chorus_plant"
 		],
 		[
-			"fokastudio:global/end_dungeon"
+			"stellarity:global/end_dungeon"
 		]
 	]
 }

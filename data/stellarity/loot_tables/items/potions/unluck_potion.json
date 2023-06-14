@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:splash_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:27,Duration:6000}]}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.unluck_potion",
+								"fallback": "Unluck Potion",
+								"color": "white",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -48,7 +48,7 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite"
+			"stellarity:global/stalactite"
 		],
 		[
 			"far_end:ash/aquatic/lake"
@@ -57,7 +57,7 @@
 		[
 			"far_end:ash/aquatic/delta",
 			"far_end:ash/surface/grass_delta",
-			"fokastudio:ash/basalt_columns"
+			"stellarity:ash/basalt_columns"
 		],
 		[],
 		[],
@@ -66,12 +66,12 @@
 		[
 			"far_end:ash/vegetation/water/seagrass",
 			"far_end:ash/vegetation/land/trees",
-			"fokastudio:ash/vegetation",
-			"fokastudio:ash/grass"
+			"stellarity:ash/vegetation",
+			"stellarity:ash/grass"
 		],
 		[
-			"fokastudio:ash/magma",
-			"fokastudio:ash/ash_pile"
+			"stellarity:ash/magma",
+			"stellarity:ash/ash_pile"
 		]
 	]
 }

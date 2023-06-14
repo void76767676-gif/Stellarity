@@ -46,9 +46,9 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:barrens/hills",
-			"fokastudio:global/stalactite",
-			"fokastudio:barrens/stalactite"
+			"stellarity:barrens/hills",
+			"stellarity:global/stalactite",
+			"stellarity:barrens/stalactite"
 		],
 		[],
 		[],
@@ -60,8 +60,8 @@
 		[],
 		[],
 		[
-			"fokastudio:small_end_islands/bricks_scattered",
-			"fokastudio:global/end_dungeon"
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
 		]
 	]
 }

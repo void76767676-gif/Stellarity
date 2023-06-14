@@ -3,6 +3,6 @@
 		"minecraft:arrow",
 		"minecraft:fireworks",
 
-		"#fokastudio:end/custom_damage_related"
+		"#stellarity:custom_damage_related"
 	]
 }

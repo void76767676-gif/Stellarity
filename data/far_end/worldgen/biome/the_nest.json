@@ -53,13 +53,13 @@
 	"carvers": {
 		"air": [
 			 
- 			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
+ 			"stellarity:ravine",
+			"stellarity:crack"
 		]
 	},
 	"features": [
 		[
-			"fokastudio:global/stalactite",
+			"stellarity:global/stalactite",
 			"far_end:nest/hills/deepslate",
 			"far_end:nest/surface/tuff"
 		],
@@ -76,7 +76,7 @@
 		],
 		[],
 		[
-			"fokastudio:nest/transition"
+			"stellarity:nest/transition"
 		]
 	]
 }

@@ -1,72 +1,32 @@
 {
-	"temperature": -0.5,
-	"downfall": 0.4,
+	"temperature": 0.5,
+	"downfall": 0.5,
 	"has_precipitation": false,
-	"temperature_modifier": "frozen",
-	"creature_spawn_probability": 0,
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 7515062,
-		"water_fog_color": 4420745,
-		"grass_color": 30592,
-		"foliage_color": 105867,
-		"mood_sound": {
-			"sound": "ambient.warped_forest.mood",
-			"tick_delay": 500,
-			"block_search_extent": 10,
-			"offset": 100
-		},
-		"additions_sound": {
-			"sound": "ambient.warped_forest.additions",
-			"tick_chance": 0.01
-		},
-		"particle": {
-			"options": {
-				"type": "falling_dust",
-				"value": "snow_block"
-			},
-			"probability": 0.0033
-		}
+		"water_color": 0,
+		"water_fog_color": 0,
+		"grass_color": 0,
+		"foliage_color": 0
 	},
 	"spawners": {
 		"monster": [
-			{
-				"type": "minecraft:enderman",
-				"weight": 10,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:skeleton",
-				"weight": 20,
-				"minCount": 3,
-				"maxCount": 4
-			}
-		]
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
 	},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			 
- 			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
-		[
-			"fokastudio:frosted_hills/stalactite",
-			"fokastudio:frosted_hills/hills",
-			"fokastudio:frosted_hills/icicle",
-			"fokastudio:frosted_hills/icicle_upwards"
-		],
 		[],
 		[],
-		[
-			"fokastudio:frosted_hills/blocks_random_replace",
-			"fokastudio:frosted_hills/ore_blue_ice",
-			"fokastudio:frosted_hills/ore_snow"
-		],
+		[],
+		[],
 		[],
 		[],
 		[],

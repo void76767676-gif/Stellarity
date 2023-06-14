@@ -3,11 +3,11 @@
 		"pack_format": 15,
 		"description": [
 			{
-				"text": "Ender Expansion v1.6a",
+				"text": "Stellarity v1.6a",
 				"color": "#CB4BFF"
 			},
 			{
-				"translate": "foka.pack_mcmeta",
+				"translate": "stellarity.pack_mcmeta",
 				"fallback": "",
 				"color": "#EEEEEE"
 			}

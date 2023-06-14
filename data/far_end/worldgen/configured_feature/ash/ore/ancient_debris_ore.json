@@ -10,7 +10,7 @@
         },
         "target": {
           "predicate_type": "tag_match",
-          "tag": "fokastudio:end/ashfall_deltas/ancient_debris_replacable"
+          "tag": "stellarity:ashfall_deltas/ancient_debris_replacable"
         }
       }
       

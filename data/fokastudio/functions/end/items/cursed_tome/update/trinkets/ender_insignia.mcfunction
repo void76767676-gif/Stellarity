@@ -1,3 +1,0 @@
-data modify storage fokastudio:end/temp cursed_tome.data.[13] set value '[{"translate":"   Ender Insignia","bold":true,"color":"#A25AFF"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Amethyst Shard corrupted by the magic of The End. Boosts life regeneration while sneaking. Effects start weak and grow stronger the longer the user is sneaking for.","bold": false,"color": "black"}]'
-
-data modify storage fokastudio:end/temp cursed_tome.data.[14] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"66% chance to be dropped by the Ender Dragon.","bold": false,"color":"black"}]'

@@ -52,8 +52,8 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite",
-			"fokastudio:wastes/hills"
+			"stellarity:global/stalactite",
+			"stellarity:wastes/hills"
 		],
 		[],
 		[],
@@ -66,8 +66,8 @@
 			"far_end:waste/chorus_plant"
 		],
 		[
-			"fokastudio:small_end_islands/bricks_scattered",
-			"fokastudio:global/end_dungeon"
+			"stellarity:small_end_islands/bricks_scattered",
+			"stellarity:global/end_dungeon"
 		]
 	]
 }

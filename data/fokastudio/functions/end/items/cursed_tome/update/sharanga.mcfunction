@@ -1,3 +1,0 @@
-data modify storage fokastudio:end/temp cursed_tome.data.[13] set value '[{"translate":"     Sharanga","bold":true,"color":"#873600"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Sturdy mangrove Bow. If Spectral Arrows are used as ammunition, it channels the light from them and diverts it into a powerful quick Bolt of energy.","bold": false,"color": "black"}]'
-
-data modify storage fokastudio:end/temp cursed_tome.data.[14] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"Rare drop from Illusioners in Strongholds. Drops with 7 - 22 Spectral Arrows.","bold": false,"color":"black"}]'

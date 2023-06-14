@@ -1,8 +1,0 @@
-{
-    "values": [
-        "fokastudio:end/utils/respawn_detection/remove_tag",
-        "fokastudio:end/items/fish/crystal_heartfish/increase_max_hp",
-        "fokastudio:end/items/fish/crystal_heartfish/respawn_heal",
-        "fokastudio:end/items/perm_buffs/respawn"
-        ]
-}

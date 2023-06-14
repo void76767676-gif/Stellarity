@@ -1,21 +1,21 @@
 modLoader="lowcodefml"
 loaderVersion="[40,)"
 license="All Rights Reserved"
-issueTrackerURL="https://github.com/FokaStudio/FSEE/issues"
+issueTrackerURL="https://github.com/kohara/Stellarity/issues"
 
 [[mods]]
-	modId="fsee"
+	modId="stellarity"
 	version="1.6a"
-	displayName="FokaStudio's Ender Expansion"
-	displayURL="https://fokastudio.github.io/FSEE"
+	displayName="Stellarity"
+	displayURL="https://kohara.github.io/Stellarity"
 	logoFile="pack.png"
 	logoBlur=false
-	authors="FokaStudio"
+	authors="kohara"
 	description='''
 		Harder End, new biomes, items and more!
 	'''
 	credits="Hex, misode"
-	itemIcon="minecraft:ender_eye"
+	itemIcon="minecraft:chorus_flower"
 
 	[[dependencies.fsee]]
 		modId="forge"

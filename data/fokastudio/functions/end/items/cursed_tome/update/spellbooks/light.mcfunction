@@ -1,3 +1,0 @@
-data modify storage fokastudio:end/temp cursed_tome.data.[39] set value '[{"translate":"   Book of Light","bold":true,"color":"#FFF300"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Divine light is said to have healing properties, being able to cure any ailments and wounds. Casts a small aura which provides life regeneration to anyone inside.","bold": false,"color": "black"}]'
-
-data modify storage fokastudio:end/temp cursed_tome.data.[40] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"Rare drop from Evokers in Strongholds.","bold": false,"color":"black"}]'

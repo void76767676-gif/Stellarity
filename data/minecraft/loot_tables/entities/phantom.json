@@ -5,7 +5,7 @@
 			"rolls": {
 				"type": "minecraft:score",
 				"target": "this",
-				"score": "foka.phantom.size",
+				"score": "stellarity.phantom.size",
 				"scale": 1
 			},
 			"bonus_rolls": 0,
@@ -39,7 +39,7 @@
 			"rolls": {
 				"type": "minecraft:score",
 				"target": "this",
-				"score": "foka.phantom.size",
+				"score": "stellarity.phantom.size",
 				"scale": 1
 			},
 			"bonus_rolls": 0,

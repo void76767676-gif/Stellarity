@@ -1,0 +1,3 @@
+data modify storage stellarity:temp cursed_tome.data.[29] set value '[{"translate":"       Zephyr","bold":true,"color":"#E3E3E3"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Legends say it belonged to the wind deity himself. Killing enemies gives a boost to movement speed, which increases in duration with more kills.","bold": false,"color": "black"}]'
+
+data modify storage stellarity:temp cursed_tome.data.[30] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Sometimes found in End Cities","bold":false}]'

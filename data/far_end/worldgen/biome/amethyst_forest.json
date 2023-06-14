@@ -48,7 +48,7 @@
 			"far_end:amethyst/geode/amethyst",
 			"far_end:amethyst/rock/tuff",
 			"far_end:amethyst/vegetation/patch_crying_obsidian",
-			"fokastudio:amethyst/dirt"
+			"stellarity:amethyst/dirt"
 		],
 		[],
 		[],
@@ -57,11 +57,11 @@
 		[],
 		[],
 		[
-			"fokastudio:amethyst/trees",
+			"stellarity:amethyst/trees",
 			"far_end:amethyst/vegetation/amethyst",
 			"far_end:amethyst/vegetation/flower",
 			"far_end:amethyst/vegetation/patch_grass",
-			"fokastudio:amethyst/roots"
+			"stellarity:amethyst/roots"
 		],
 		[]
 	]

@@ -5,29 +5,24 @@
 	"effects": {
 		"sky_color": 0,
 		"fog_color": 0,
-		"water_color": 856599,
+		"water_color": 0,
 		"water_fog_color": 0,
-		"grass_color": 1186337,
-		"foliage_color": 1186337,
-		"particle": {
-			"options": {
-				"type": "mycelium"
-			},
-			"probability": 0.012
-		}
+		"grass_color": 0,
+		"foliage_color": 0
 	},
-	"spawners": {},
+	"spawners": {
+		"monster": [
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
 	"spawn_costs": {},
-	"carvers": {
-		"air": [
-			"fokastudio:end/ravine",
-			"fokastudio:end/crack"
-		]
-	},
+	"carvers": {},
 	"features": [
-		[
-			"fokastudio:global/stalactite"
-		],
 		[],
 		[],
 		[],
@@ -35,12 +30,9 @@
 		[],
 		[],
 		[],
-		[
-			"fokastudio:sculk_growth/patches",
-			"fokastudio:sculk_growth/sculk_patches",
-			"fokastudio:sculk_growth/sculk_sensor",
-			"fokastudio:sculk_growth/tree"
-		],
+		[],
+		[],
+		[],
 		[]
 	]
 }

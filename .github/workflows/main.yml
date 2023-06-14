@@ -1,4 +1,4 @@
-name: FSEE-DEV
+name: Stellarity-DEV
 on: [push]
 jobs:
   build:
@@ -7,7 +7,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: actions/upload-artifact@v3
       with:
-        name: FSEE-DEV
+        name: Stellarity-DEV
         path: |
           assets/
           data/

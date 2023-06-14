@@ -1,79 +1,38 @@
 {
-	"temperature": 0.6,
-	"downfall": 0.6,
+	"temperature": 0.5,
+	"downfall": 0.5,
 	"has_precipitation": false,
 	"effects": {
-		"sky_color": 8103167,
-		"fog_color": 12638463,
-		"water_color": 15368447,
-		"water_fog_color": 15034111,
-		"grass_color": 6078719,
-		"foliage_color": 5819646,
-		"mood_sound": {
-			"sound": "ambient.soul_sand_valley.mood",
-			"tick_delay": 900,
-			"block_search_extent": 2,
-			"offset": 2
-		},
-		"additions_sound": {
-			"sound": "ambient.underwater.loop.additions.rare",
-			"tick_chance": 0.00055
-		},
-		"particle": {
-			"options": {
-				"type": "cherry_leaves"
-			},
-			"probability": 0.00036
-		}
+		"sky_color": 0,
+		"fog_color": 0,
+		"water_color": 0,
+		"water_fog_color": 0,
+		"grass_color": 0,
+		"foliage_color": 0
 	},
 	"spawners": {
 		"monster": [
-			{
-				"type": "minecraft:vex",
-				"weight": 20,
-				"minCount": 2,
-				"maxCount": 3
-			}
-		]
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
 	},
-	"spawn_costs": {
-		"minecraft:vex": {
-			"energy_budget": 0.33,
-			"charge": 1
-		}
-	},
+	"spawn_costs": {},
 	"carvers": {},
 	"features": [
-		[
-			"fokastudio:the_hallow/stalactite",
-			"fokastudio:the_hallow/patches"
-		],
-		[
-			"fokastudio:the_hallow/crystals",
-			"fokastudio:the_hallow/crystals_amethyst",
-			"fokastudio:the_hallow/rock"
-		],
-		[
-			"fokastudio:the_hallow/large_lake"
-		],
 		[],
 		[],
 		[],
 		[],
 		[],
 		[],
-		[
-			"fokastudio:the_hallow/trees",
-			"fokastudio:the_hallow/cherry_petals",
-			"fokastudio:the_hallow/flowers",
-			"fokastudio:the_hallow/grass",
-			"fokastudio:the_hallow/lanterns",
-			"fokastudio:the_hallow/lanterns_trees",
-			"fokastudio:the_hallow/weeping_vines",
-			"fokastudio:the_hallow/roots"
-		],
-		[
-			"fokastudio:the_hallow/calcite"
-		]
+		[],
+		[],
+		[],
+		[],
+		[]
 	]
 }

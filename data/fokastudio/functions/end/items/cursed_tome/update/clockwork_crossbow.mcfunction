@@ -1,3 +1,0 @@
-data modify storage fokastudio:end/temp cursed_tome.data.[11] set value '[{"translate":" Clockwork X-Bow","bold":true,"color":"#873600"},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"translate":"Just a Crossbow augmented with some cogs. They allow it to charge and shoot ridiculously quickly, sacrificing a bit of damage. Has a chance to save ammunition.","bold": false,"color": "black"}]'
-
-data modify storage fokastudio:end/temp cursed_tome.data.[12] set value '[{"translate":"     OBTAINING","bold": true},"\\n",{"text":"                             ","strikethrough": true,"color":"black","bold": false},{"text":"Rare drop from Pillagers in Strongholds.","bold": false,"color":"black"}]'

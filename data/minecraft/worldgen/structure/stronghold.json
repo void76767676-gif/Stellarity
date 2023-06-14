@@ -40,7 +40,7 @@
 		}
 	},
 	"terrain_adaptation": "bury",
-	"start_pool": "fokastudio:end/stronghold/portal_room",
+	"start_pool": "stellarity:stronghold/portal_room",
 	"size": 7,
 	"start_height": {
 		"type": "minecraft:uniform",

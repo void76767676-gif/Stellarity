@@ -41,7 +41,7 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:void/stalactite"
+			"stellarity:void/stalactite"
 		],
 		[],
 		[],
@@ -53,7 +53,7 @@
 		[],
 		[],
 		[
-			"fokastudio:global/end_dungeon"
+			"stellarity:global/end_dungeon"
 		]
 	]
 }

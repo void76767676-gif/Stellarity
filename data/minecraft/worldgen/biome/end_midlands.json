@@ -34,23 +34,23 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:global/stalactite"
+			"stellarity:global/stalactite"
 		],
 		[
-			"fokastudio:midlands/obsidian",
-			"fokastudio:midlands/rocks"
-		],
-		[],
-		[],
-		[],
-		[
-			"fokastudio:midlands/patches"
+			"stellarity:midlands/obsidian",
+			"stellarity:midlands/rocks"
 		],
 		[],
 		[],
 		[],
 		[
-			"fokastudio:midlands/chorus_plant"
+			"stellarity:midlands/patches"
+		],
+		[],
+		[],
+		[],
+		[
+			"stellarity:midlands/chorus_plant"
 		],
 		[]
 	]

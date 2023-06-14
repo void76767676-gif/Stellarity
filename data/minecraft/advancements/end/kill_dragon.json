@@ -8,7 +8,7 @@
 			"color": "#D400FF"
 		},
 		"description": {
-			"translate": "foka.advancements.kill_dragon.description",
+			"translate": "stellarity.advancements.kill_dragon.description",
 			"fallback": "The Beast is dead, and The End is waiting for you to discover its secrets...",
 			"color": "#E562FF"
 		},
@@ -17,7 +17,7 @@
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "fokastudio:end/dragons_den/final_showdown",
+	"parent": "stellarity:dragons_den/final_showdown",
 	"criteria": {
 		"kill_dragon": {
 			"trigger": "minecraft:impossible"

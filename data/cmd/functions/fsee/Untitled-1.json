@@ -1,11 +1,11 @@
-give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,generation:3,pages:[
+give @p written_book{stellarity.special_item:"cursed_tome",author:test,title:test,generation:3,pages:[
 '
 [
 {
 "text": "\\n\\n\\n\\n"
 },
 {
-    "translate": "foka.items.cursed_tome.discover_hint",
+    "translate": "stellarity.items.cursed_tome.discover_hint",
 "fallback": "The more you discover, the more knowledge this book contains...",
 "italic": true
 }
@@ -35,7 +35,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 }
 },
 {
-"translate": "foka.items.cursed_tome.chapter.items",
+"translate": "stellarity.items.cursed_tome.chapter.items",
 "fallback": "Items",
 "clickEvent": {
 "action": "change_page",
@@ -50,11 +50,11 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 "+-----------------+\\n",
 "|",
 {
-    "translate": "foka.items.cursed_tome.chapter.items.center",
+    "translate": "stellarity.items.cursed_tome.chapter.items.center",
     "fallback": "          "
 },
 {
-    "translate": "foka.items.cursed_tome.chapter.items",
+    "translate": "stellarity.items.cursed_tome.chapter.items",
 "fallback": "Items"
 },
 "|\\n",
@@ -75,7 +75,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -95,28 +95,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
-"fallback": "Not discovered yet.",
-"italic": true
-}
-
-]
-','
-
-','
-[
-{
-"text": "\\n\\n\\n\\n"
-},
-{
-"text": "????",
-"italic": true,
-"obfuscated": true,
-"font": "illageralt"
-},
-"\\n",
-{
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -137,7 +116,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -158,7 +137,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -179,7 +158,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -200,7 +179,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -221,7 +200,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -242,7 +221,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -263,7 +242,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -284,7 +263,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -305,7 +284,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -326,7 +305,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -347,7 +326,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -368,7 +347,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -389,7 +368,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -410,7 +389,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -431,7 +410,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -452,7 +431,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -473,7 +452,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -494,7 +473,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -515,7 +494,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -536,7 +515,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -557,7 +536,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -578,7 +557,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -599,7 +578,7 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }
@@ -620,7 +599,28 @@ give @p written_book{foka.special_item:"cursed_tome",author:test,title:test,gene
 },
 "\\n",
 {
-"translate": "foka.items.cursed_tome.not_discovered",
+"translate": "stellarity.items.cursed_tome.not_discovered",
+"fallback": "Not discovered yet.",
+"italic": true
+}
+
+]
+','
+
+','
+[
+{
+"text": "\\n\\n\\n\\n"
+},
+{
+"text": "????",
+"italic": true,
+"obfuscated": true,
+"font": "illageralt"
+},
+"\\n",
+{
+"translate": "stellarity.items.cursed_tome.not_discovered",
 "fallback": "Not discovered yet.",
 "italic": true
 }

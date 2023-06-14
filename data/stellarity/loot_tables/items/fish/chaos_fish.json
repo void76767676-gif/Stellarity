@@ -1,0 +1,30 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"bonus_rolls": 0,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cooked_cod",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.fish.chaos_fish",
+								"fallback": "Chaos Fish",
+								"color": "#51336D",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90007,stellarity.special_item:\"chaos_fish\"}"
+						}
+					]
+				}
+            ]
+        }
+    ]
+}

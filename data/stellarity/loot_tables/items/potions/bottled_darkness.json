@@ -1,0 +1,29 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:lingering_potion",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{Potion:\"minecraft:water\",CustomPotionEffects:[{Id:33,Duration:640}],CustomPotionColor:0}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.bottled_darkness",
+								"fallback": "Bottled Darkness",
+								"color": "white",
+								"italic": false
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

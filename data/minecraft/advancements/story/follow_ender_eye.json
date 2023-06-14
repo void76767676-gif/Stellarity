@@ -12,7 +12,7 @@
 			},
 			". ",
 			{
-				"translate": "foka.advancements.follow_ender_eye.extra",
+				"translate": "stellarity.advancements.follow_ender_eye.extra",
 				"fallback": "Something is definitely hidden there..."
 			}
 		],
@@ -21,7 +21,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "fokastudio:end/story/strengthened_by_fire",
+	"parent": "stellarity:story/strengthened_by_fire",
 	"criteria": {
 		"in_stronghold": {
 			"trigger": "minecraft:location",

@@ -46,7 +46,7 @@
 	"carvers": {},
 	"features": [
 		[
-			"fokastudio:tundra/stalactite",
+			"stellarity:tundra/stalactite",
 			"far_end:tundra/island/island_bottom"
 		],
 		[
@@ -55,7 +55,7 @@
 		],
 		[
 			"minecraft:basalt_pillar",
-			"fokastudio:tundra/bone_ceiling"
+			"stellarity:tundra/bone_ceiling"
 		],
 		[],
 		[],
@@ -68,8 +68,8 @@
 		],
 		[
 			"far_end:tundra/vegetation/surface_plants",
-			"fokastudio:tundra/weeping_vines",
-			"fokastudio:tundra/roots"
+			"stellarity:tundra/weeping_vines",
+			"stellarity:tundra/roots"
 		],
 		[]
 	]

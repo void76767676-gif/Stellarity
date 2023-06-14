@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "#fokastudio:end/amethyst_forest/diorite_and_calcite",
+		"replaceable": "#stellarity:amethyst_forest/diorite_and_calcite",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

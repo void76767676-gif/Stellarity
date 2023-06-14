@@ -5,19 +5,19 @@
 
 **Dragon's Den** biome always generates at <u>hardcoded minimum erosion and continents noise values</u> to prevent it from generating outside of main island. These values are forced to -2 around X:0 Z:0.
 
-For more info look into `fokastudio/worldgen/density_function/end/erosion.json` and `./continents.json` files.
+For more info look into `stellaritystudio/worldgen/density_function/end/erosion.json` and `./continents.json` files.
 
 <hr>
 
 **The Void**, AKA **The Utility Biome** always generates at hardcoded <u>2 depth</u> which ranges from <u>Y0 to ~Y24</u>. The biome is used only for preventing structures from generating in the void, which was a bug that plagued 1.4...
 
-For more info look into `fokastudio/worldgen/density_function/end/depth.json` file.
+For more info look into `stellaritystudio/worldgen/density_function/end/depth.json` file.
 
 <hr>
 
 ```json
 {
-    "biome": "fokastudio:dragons_den",
+    "biome": "stellarity:dragons_den",
     "parameters": {
         "temperature": 0,
         "humidity": 0,
