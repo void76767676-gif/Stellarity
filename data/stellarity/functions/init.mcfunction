@@ -107,10 +107,10 @@ scoreboard objectives add stellarity.misc.motion.z1 dummy "Motion Calc: Z1"
 scoreboard objectives add stellarity.misc.motion.z2 dummy "Motion Calc: Z2"
 
 
-# Hook for checking if FSEE is installed
-scoreboard players set #fsee.is_installed stellarity.misc 1
+# Hook for checking if Stellarity is installed
+scoreboard players set #stellarity.is_installed stellarity.misc 1
 
-# Detecting whether FSEE is being used on a server, or as a mod
+# Detecting whether Stellarity is being used on a server, or as a mod
 # Different things happen on different loaders
 # This is executed only once on first pack load to avoid unnecessary lag!
 execute unless score #reload stellarity.misc matches 1.. unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw 5t

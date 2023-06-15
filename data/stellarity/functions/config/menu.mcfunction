@@ -10,7 +10,7 @@ tellraw @s ["\n",{"text":"1","color":"green"},{"text":" stands for ","color":"wh
 #tellraw @s " "
 
 tellraw @s {"text":"Join Message","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "stellarity.config.join_message","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Enabled","color":"#91FF7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #stellarity.config stellarity.config.join_message "}}
-tellraw @s [{"text":"Whether to send a short message about FSEE being loaded properly upon entering this world","color":"#C8ADD6"}]
+tellraw @s [{"text":"Whether to send a short message about Stellarity being loaded properly upon entering this world","color":"#C8ADD6"}]
 execute if score #stellarity.config stellarity.config.join_message matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
 execute if score #stellarity.config stellarity.config.join_message matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "

@@ -356,7 +356,7 @@
     "stellarity.advancements.kill_large_phantom": "Worsening Nightmares",
     "stellarity.advancements.kill_large_phantom.description": "Kill a Phantom that is bigger than normal",
 
-    "stellarity.death_messages.example_cause": "%s died randomly due to an example of FSEE's custom damage system",
+    "stellarity.death_messages.example_cause": "%s died randomly due to an example of Stellarity's custom damage system",
     "stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom",
     "stellarity.death_messages.carcanet": "%1$s was struck too hard by %2$s's star",
     "stellarity.death_messages.spirit_dagger": "%1$s had their spirit consumed by %2$s",

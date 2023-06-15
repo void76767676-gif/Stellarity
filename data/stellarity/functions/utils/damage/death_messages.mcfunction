@@ -1,4 +1,4 @@
-execute if entity @s[tag=stellarity.damage.example_cause] run tellraw @a {"translate":"stellarity.death_messages.example_cause","fallback":"%s died randomly due to an example of FSEE's custom damage system","with":[{"selector":"@s"}]}
+execute if entity @s[tag=stellarity.damage.example_cause] run tellraw @a {"translate":"stellarity.death_messages.example_cause","fallback":"%s died randomly due to an example of Stellarity's custom damage system","with":[{"selector":"@s"}]}
 
 execute if entity @s[tag=stellarity.damage.sharanga_explosion] run tellraw @a {"translate":"stellarity.death_messages.sharanga_explosion","fallback":"%1$s was torn apart by %2$s's Spectral Boom","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding_sharanga]"}]}
 

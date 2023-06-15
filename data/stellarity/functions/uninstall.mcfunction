@@ -81,7 +81,7 @@ schedule clear stellarity:loops/1_second
 schedule clear stellarity:loops/5_second
 schedule clear stellarity:loops/10_second
 
-scoreboard players reset #fsee.is_installed stellarity.misc
+scoreboard players reset #stellarity.is_installed stellarity.misc
 
 # Does not remove entities/clear worldgen/etc.
 # Btw since you cannot remove worldgen datapacks withouth editing your
