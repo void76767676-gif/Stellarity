@@ -33,6 +33,6 @@ schedule function stellarity:visuals/end_portal_animation/animation/scheduled_po
 
 function stellarity:visuals/end_portal_animation/ambient_sounds
 
-advancement grant @a[distance=..32] only stellarity:story/journeys_end
+advancement grant @a[distance=..48] only stellarity:story/journeys_end
 
 kill @s

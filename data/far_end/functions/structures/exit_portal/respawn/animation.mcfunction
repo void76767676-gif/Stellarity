@@ -18,37 +18,37 @@ execute unless score @s fe.count matches 4 run function far_end:structures/exit_
 execute if score @s fe.timer matches 30 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/0
 
 execute if score @s fe.timer matches 100 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/1
-execute if score @s fe.timer matches 140 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/2
-execute if score @s fe.timer matches 180 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/3
-execute if score @s fe.timer matches 220 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/4
-execute if score @s fe.timer matches 260 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/5
-execute if score @s fe.timer matches 300 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/6
-execute if score @s fe.timer matches 340 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/7
-execute if score @s fe.timer matches 380 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/8
-execute if score @s fe.timer matches 420 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/9
-execute if score @s fe.timer matches 460 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/10
+execute if score @s fe.timer matches 120 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/2
+execute if score @s fe.timer matches 140 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/3
+execute if score @s fe.timer matches 160 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/4
+execute if score @s fe.timer matches 180 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/5
+execute if score @s fe.timer matches 200 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/6
+execute if score @s fe.timer matches 220 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/7
+execute if score @s fe.timer matches 240 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/8
+execute if score @s fe.timer matches 260 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/9
+execute if score @s fe.timer matches 280 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/10
 
-execute if score @s fe.timer matches 500 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/0
+execute if score @s fe.timer matches 300 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function far_end:structures/exit_portal/respawn/crystal_beam/0
 
 # place crystal
-execute if score @s fe.timer matches 140 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 63 101 0 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 180 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 50 106 36 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 220 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 18 95 59 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 260 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -19 107 59 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 300 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -51 106 36 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 340 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -63 94 0 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 380 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -51 101 -39 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 420 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -19 97 -60 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 460 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 18 88 -60 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
-execute if score @s fe.timer matches 500 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 50 96 -39 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 120 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 63 101 0 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 140 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 50 106 36 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 160 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 18 95 59 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 180 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -19 107 59 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 200 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -51 106 36 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 220 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -63 94 0 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 240 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -51 101 -39 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 260 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal -19 97 -60 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 280 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 18 88 -60 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
+execute if score @s fe.timer matches 300 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run summon minecraft:end_crystal 50 96 -39 {ShowBottom:1b,Tags:["fe.new_crystal"],BeamTarget:{X:0,Y:128, Z:0}}
 
 # crystal cage
-execute if score @s fe.timer matches 220 positioned 18 94 59 run function far_end:structures/exit_portal/respawn/repair_cage
-execute if score @s fe.timer matches 260 positioned -19 106 59 run function far_end:structures/exit_portal/respawn/repair_cage
-execute if score @s fe.timer matches 420 positioned -19 96 -60 run function far_end:structures/exit_portal/respawn/repair_cage
-execute if score @s fe.timer matches 500 positioned 50 95 -39 run function far_end:structures/exit_portal/respawn/repair_cage
+execute if score @s fe.timer matches 160 positioned 18 94 59 run function far_end:structures/exit_portal/respawn/repair_cage
+execute if score @s fe.timer matches 220 positioned -63 93 0 run function far_end:structures/exit_portal/respawn/repair_cage
+execute if score @s fe.timer matches 260 positioned -19 96 -60 run function far_end:structures/exit_portal/respawn/repair_cage
+execute if score @s fe.timer matches 300 positioned 50 95 -39 run function far_end:structures/exit_portal/respawn/repair_cage
 
 # crystal replacement
 execute as @e[type=minecraft:end_crystal,tag=fe.new_crystal] at @s run function far_end:structures/exit_portal/respawn/replace_crystal
 
-execute if score @s fe.timer matches 700 run function stellarity:mobs/dragon/respawn_finish
+execute if score @s fe.timer matches 420 run function stellarity:mobs/dragon/respawn_finish

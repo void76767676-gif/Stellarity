@@ -1,6 +1,6 @@
 # Beam at the end
-execute if score @s stellarity.misc matches 600 run setblock 0 63 0 end_gateway
-execute if score @s stellarity.misc matches 640 positioned 0 66 0 run function stellarity:visuals/dragon_respawn_animation/beam/shoot
+execute if score @s stellarity.misc matches 360 run setblock 0 63 0 end_gateway
+execute if score @s stellarity.misc matches 360 positioned 0 66 0 run function stellarity:visuals/dragon_respawn_animation/beam/shoot
 execute as @e[type=marker,tag=stellarity.dragon_respawn.beam] at @s run function stellarity:visuals/dragon_respawn_animation/beam/loop
 
 # Enchant particles
@@ -13,9 +13,5 @@ tp @s ~ ~ ~ ~2.5 ~
 
 # Ambient sounds
 execute if score @s stellarity.misc matches 1 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
-execute if score @s stellarity.misc matches 100 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
 execute if score @s stellarity.misc matches 200 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
 execute if score @s stellarity.misc matches 300 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
-execute if score @s stellarity.misc matches 400 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
-execute if score @s stellarity.misc matches 500 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
-execute if score @s stellarity.misc matches 600 run playsound minecraft:block.beacon.ambient block @a ~ ~ ~ 3 0.75
