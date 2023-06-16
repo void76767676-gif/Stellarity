@@ -1,9 +1,9 @@
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
-> This feature is dedicated to FokaStudio (*Developer*)
+> This feature is dedicated to kohara (*Developer*)
 
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Spirit Dagger** is a special dagger that can attract Spirits on attacks. Consuming them instantly teleports to their location and gives attack buffs for short duration.
 
 It is intended to be a post-Dragon item, however obtaining it before killing the Ender Dragon is possible, but extremely tedious.
@@ -17,10 +17,10 @@ It is intended to be a post-Dragon item, however obtaining it before killing the
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/spirit_dagger.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/spirit_dagger.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -66,7 +66,7 @@ Spirit Dagger has a 9% chance to drop from Phantoms **found anywhere in The End*
 
 ## Usage
 <div class="result" markdown>
-<figure class="foka-side-image--right" markdown>
+<figure class="kohara-side-image--right" markdown>
   ![Spirit](../assets/items/spirit_dagger/spirit.png){ align=right width="200vw" .border }
   <figcaption>Attracted Spirit</figcaption>
 </figure>
@@ -106,13 +106,13 @@ Enchantment power scales with both Daggers, meaning that having Sweeping Edge II
 - This item pairs extremely well with [Sharanga](sharanga.md), since Arrows shot from are unaffected by gravity, meaning that it is easier to snipe targets from far away in order to potentially attract Spirits.
 
 ## Trivia
-- This is the second Developer weapon to get added into FSEE, the first being [Prismatic Punch](prismatic_punch.md).
+- This is the second Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md).
 - This weapon is based on Spirit Daggers - a weapon used by Evelynn[^1] in Roblox BedWars[^2].
-    - This is also a reference to the fact that FokaStudio loves this game and plays it far more often than he is coding.
+    - This is also a reference to the fact that kohara loves this game and plays it far more often than he is coding.
 - This item had a total of 3 different drop chances prior to official release.
     - It first started with 12.5% base chance with 2.5% Looting bonus, then 15%/+3.5% before being nerfed to 10%/+1%, which stayed to this date.
-- Prior to official release of 1.6a, Spirits used to directly heal 4:heart::heart: HP instead of granting 4:yellow_heart::yellow_heart: Absorption like it does now. This change was made to further replicate how Evelynn kit works in Roblox Bedwars.
-- Spirit Dagger holds the title of the most tweaked weapon before its official release in a stable version, having been tweaked countless times prior to its release in 1.6a.
+- Prior to official release of 2.0a, Spirits used to directly heal 4:heart::heart: HP instead of granting 4:yellow_heart::yellow_heart: Absorption like it does now. This change was made to further replicate how Evelynn kit works in Roblox Bedwars.
+- Spirit Dagger holds the title of the most tweaked weapon before its official release in a stable version, having been tweaked countless times prior to its release in 2.0a.
     - Some of the changes haven't even been listed on changelog Discord channel.
 - In a development log made on January 27th 2023, Spirits were said have a light blue glowing outline, however this wasn't actually implemented.
 - In PvP, dying to AoE slash attack will result in a custom death message - `VICTIM had their spirit consumed by PLAYER`.
@@ -120,10 +120,10 @@ Enchantment power scales with both Daggers, meaning that having Sweeping Edge II
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with a pair of Spirit Daggers | Remote Getaway | :x: | `fokastudio:end/exploration/spirit_assasin` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with a pair of Spirit Daggers | Remote Getaway | :x: | `stellarity:exploration/spirit_assasin` |
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Introduced
 
 [^1]: [Evelynn kit](https://robloxbedwars.fandom.com/wiki/Evelynn) on Roblox Bedwars Wiki

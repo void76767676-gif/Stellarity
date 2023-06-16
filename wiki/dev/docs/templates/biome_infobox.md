@@ -2,14 +2,14 @@
 	title: Template - Biome Infobox
 	summary: Infobox template for biomes, for use with CTRL + C and CTRL + V
 	authors:
-		- FokaStudio
+		- kohara
 ---
 
 <div class="result" markdown>
 
-  ![Image title](../assets/biomes/changeme.png){ align=left width=800vw #foka-infobox--image}
+  ![Image title](../assets/biomes/changeme.png){ align=left width=800vw #kohara-infobox--image}
 
-  <table id="foka-infobox" >
+  <table id="kohara-infobox" >
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
@@ -34,19 +34,19 @@
 	</tr>
 	<tr>
 		<td><b>Grass</b></td>
-		<td><span style="background-color: #4EC1E3;" class="foka-infobox-color"></span> grass</td>
+		<td><span style="background-color: #4EC1E3;" class="kohara-infobox-color"></span> grass</td>
 	</tr>
 	<tr>
 		<td><b>Foliage</b></td>
-		<td><span style="background-color: #4FA3E3;" class="foka-infobox-color"></span> foliage</td>
+		<td><span style="background-color: #4FA3E3;" class="kohara-infobox-color"></span> foliage</td>
 	</tr>
 	<tr>
 		<td><b>Water</b></td>
-		<td><span style="background-color: #F937ED;" class="foka-infobox-color"></span> water</td>
+		<td><span style="background-color: #F937ED;" class="kohara-infobox-color"></span> water</td>
 	</tr>
 	<tr>
 		<td><b>Water Fog</b></td>
-		<td><span style="background-color: #C639F9;" class="foka-infobox-color"></span> waterfog</td>
+		<td><span style="background-color: #C639F9;" class="kohara-infobox-color"></span> waterfog</td>
 	</tr>
 </table>
 </div>

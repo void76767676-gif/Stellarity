@@ -1,6 +1,6 @@
 # Ancient Armor
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Ancient Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities which focuses on boosting offensive capabilities.
 
 Wearing a full set of Ancient Armor grants player a set bonus, which increases their damage on consecutive attacks.
@@ -10,10 +10,10 @@ Wearing a full set of Ancient Armor grants player a set bonus, which increases t
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-	<table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+	<table id="kohara-infobox--item">
 		<tr>
-			<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/ancient/full.png" style="height: auto; image-rendering: auto;"></th>
+			<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/armor/ancient/full.png" style="height: auto; image-rendering: auto;"></th>
 		</tr>
 		<tr>
 			<th colspan="2">Info</th>
@@ -70,21 +70,21 @@ Additionally, running with a full set of Ancient Armor will produce a purely cos
 - The damage and attack speed bonuses stack with the ones of the [Duskberry](../trinkets/duskberry.md), which makes for a destructive build.
 
 ## Trivia
-- <i class="icon-fsee icon-fsee-ancient-armor"></i>Ancient Armor, <i class="icon-fsee icon-fsee-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>Ancient Armor, <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into Stellarity.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
-        - It was officialy removed as of 1.6a.
+    - While it got added as far back as 1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before 1.5a.
+        - It was officialy removed as of 2.0a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Ancient Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Attack Knockback and Movement Speed.
         - Due to how Attack Knockback works in Minecraft, it didn't increase anything.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
-- Prior to 1.6a:
+- Prior to 2.0a:
 	1. It used to have a different set bonus, which was just a flat 50% damage increase.
 	2. Ancient Leggings used to have Diamond Leggings as base item instead of Leather Pants.
 - Ancient Armor's set bonus is based on Nyx[^1] kit from Roblox BedWars[^2].
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Fixed Ancient Leggings being a piece of Diamond Armor.
 	- Now has a custom texture.
 	- Damage boost from Armor pieces reduced *(+20% -> +10%)*

@@ -1,6 +1,6 @@
 # Hallowed Armor
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities which focuses on boosting evasion and mobility.
 
 Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodging of attacks with a cooldown.
@@ -10,10 +10,10 @@ Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodgin
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  	<table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  	<table id="kohara-infobox--item">
 		<tr>
-			<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto; image-rendering: auto;"></th>
+			<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/armor/hallowed/full.png" style="height: auto; image-rendering: auto;"></th>
 		</tr>
 		<tr>
 			<th colspan="2">Info</th>
@@ -64,26 +64,26 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 - Combining Hallowed Armor with [Duskberry](../trinkets/duskberry.md) and a Swiftness Potion is a fantastic strategy for the [Empress of Light](../../mobs/bosses/empress_of_light.md), making players able to outrun most of her attacks as well as providing them a second change if they fail to dodge them.
 
 ## Trivia
-- <i class="icon-fsee icon-fsee-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-fsee icon-fsee-hallowed-armor"></i>Hallowed Armor and <i class="icon-fsee icon-fsee-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into FSEE.
+- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into Stellarity.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, <i class="icon-fsee icon-fsee-living-flesh"></i>Living Flesh had no use before 1.5a.
-        - However, it was officialy removed as of 1.6a.
+    - While it got added as far back as 1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before 1.5a.
+        - However, it was officialy removed as of 2.0a.
 - Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Hallowed Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Armor Toughness and Movement Speed.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
         - Sometimes Armor Toughness would get listed twice due to some errors in loot tables. 
             - This has since been fixed.
 - When resource pack is enabled, golden parts of Hallowed Armor produce a faint glow in the dark.
-- During the development of 1.6a, Holy Protection used to timeout after 15 seconds without being damaged, altough it was removed a few weeks later.
-    - The official reason was because FokaStudio couldn't stand the '`constant Holy Protection ON and OFF`' sounds.
+- During the development of 2.0a, Holy Protection used to timeout after 15 seconds without being damaged, altough it was removed a few weeks later.
+    - The official reason was because kohara couldn't stand the '`constant Holy Protection ON and OFF`' sounds.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-fsee icon-fsee-hallowed-armor"></i></div> | <span style="color: #FFCC38;">Hallelujah!</span> | Dodge an attack with a full set of Hallowed Armor | Cursed Crafting | :x: | `fokastudio:end/aota/cancel_damage_hallowed_armor` |
+| <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-stellarity icon-stellarity-hallowed-armor"></i></div> | <span style="color: #FFCC38;">Hallelujah!</span> | Dodge an attack with a full set of Hallowed Armor | Cursed Crafting | :x: | `stellarity:aota/cancel_damage_hallowed_armor` |
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Now has a custom texture.
 	- Armor Toughness per-piece increased to match Netherite Armor.
 	- Fixed Holy Protection cooldown being 3 - 4 seconds shorter than usual because of it going off right with invincibility.

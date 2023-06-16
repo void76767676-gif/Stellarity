@@ -1,23 +1,23 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Sabrewing** is a post-Dragon bow with the ability to supercharge shots for massively increased damage and arrow velocity.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Sabrewing can be enchanted with any Bow enchantment.
 
-<i class="icon-minecraft icon-minecraft-anvil"></i> Prismatic Punch can be repaired by fusing it with a different <i class="icon-minecraft icon-minecraft-bow"></i>Bow.
+<i class="icon-minecraft icon-minecraft-anvil"></i> Sabrewing can be repaired by fusing it with a different <i class="icon-minecraft icon-minecraft-bow"></i>Bow.
 
 <br><br>
 
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/sabrewing.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/sabrewing.png"></th>
 	</tr>
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/sabrewing_pulling.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/sabrewing_pulling.gif"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -53,7 +53,7 @@ Sabrewing can be crafted at the [Altar of The Accursed](../mechanics/altar_of_th
 "></i>Netherite Bar. The enchantments from the <i class="icon-minecraft icon-minecraft-bow"></i>Bow used to craft it will be safely transferred to the outcome item.
 
 ## Usage
-With Sabrewing, players can choose to supercharge their shot by drawing it for a total of 2 seconds. Supercharging will directly increase arrow velocity and damage by 60%. Arrows will also gain the ability to pierce through 1 mob to hit another one directly behind it. However, shot arrows will combust after colliding with a block, making them irrecoverable.
+With Sabrewing, players can choose to supercharge their shot by drawing it for a total of 3 seconds. Supercharging will directly increase arrow velocity and damage by 60%. Arrows will also gain the ability to pierce through 1 mob to hit another one directly behind it. However, shot arrows will combust after colliding with a block, making them irrecoverable.
 
 While charging Sabrewing, players move 25% slower compared to charging regular Bows.
 
@@ -65,16 +65,16 @@ While charging Sabrewing, players move 25% slower compared to charging regular B
 - This item is based on Sabrewing from Minecraft: Dungeons.
     - Surprisingly, its special ability isn't based on the weapon itself, but on enchantments from the game - Overcharge and Dynamo.
 - Its tooltip is a reference to the fact that during some time in development it had the ability take out every mob *(even bosses)* with Power V.
-    - It is also a reference to FokaStudio's initial testing, where the item dealt about a 1000 damage per shot due to an oversight.
-- This items used to function differently some time during the development of 1.6a.
+    - It is also a reference to kohara's initial testing, where the item dealt about a 1000 damage per shot due to an oversight.
+- This items used to function differently some time during the development of 2.0a.
     - Its draw time used to be 15 seconds, and it applied a rising damage multiplier which scaled with it. Max multiplier was 9x.
         - This was changed as even though the damage per hit was great, Sabrewing's DPS was inferior to any other end-game ranged weapon's.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/cursed_crafting` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `stellarity:aota/cursed_crafting` |
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

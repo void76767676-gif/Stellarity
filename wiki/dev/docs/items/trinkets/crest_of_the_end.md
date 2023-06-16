@@ -1,5 +1,5 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Crest of The End** is a post-Dragon trinket with the ability to store a part of blocked damage and use it to empower its wielder next melee attack.
 
 <br><br>
@@ -7,10 +7,10 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/crest.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/crest.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -45,5 +45,5 @@ Blocking damage with Crest of The End stores a part of blocked damage, adding +1
 
 ## History
 
-- **1.6a**
+- **2.0a**
 	- Introduced

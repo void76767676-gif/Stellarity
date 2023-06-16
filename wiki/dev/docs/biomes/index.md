@@ -1,1 +1,1 @@
-# FSEE biomes
+# Stellarity biomes

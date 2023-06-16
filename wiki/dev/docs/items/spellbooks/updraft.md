@@ -1,15 +1,15 @@
 # Book of Conveyance
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Book of Updraft** is a spellbook which pushes its user upwards when used and gives them the ability to freely glide for a couple of seconds.
 
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/book_of_updraft.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/book_of_updraft.png"></th>
 	</tr>
     <tr>
 		<th colspan="2">Info</th>
@@ -44,5 +44,5 @@ This has a cooldown of 16 seconds, which starts counting **after** landing.
 - The book's name is very similair to Tome of Updraft from Minecraft: Dungeons, however instead of pushing mobs around upwards it pushes players.
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

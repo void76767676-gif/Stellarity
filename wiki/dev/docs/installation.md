@@ -1,6 +1,6 @@
 # Installation Instructions
 
-All download files can be found on [FSEE's Download Section](https://fokastudio.github.io/FSEE/downloads.html), both Datapack version as well as a Datapack-Pacakged-As-Mod one.
+All download files can be found on [Stellarity's Download Section](https://kohy-creates.github.io/Stellarity/downloads.html), both Datapack version as well as a Datapack-Pacakged-As-Mod one.
 
 ## Installing on Singleplayer
 === "Datapack Installation"
@@ -19,7 +19,7 @@ All download files can be found on [FSEE's Download Section](https://fokastudio.
     
     :tada:{ .mirror } **Congrats! Now you can explore the new, terrifying and absurdly rewarding End dimension!** :tada:
 
-    > Beware tho, as datapacks are per-world, meaning that you will have to repeat these steps every time you want to create a new world with FSEE installed on it!
+    > Beware tho, as datapacks are per-world, meaning that you will have to repeat these steps every time you want to create a new world with Stellarity installed on it!
 
 === "Mod Installation"
     1. Install either [Forge](https://minecraftforge.net), [Fabric](https://fabricmc.net/) or [Quilt](https://quiltmc.org/en/)[^1].
@@ -27,11 +27,11 @@ All download files can be found on [FSEE's Download Section](https://fokastudio.
     3. Drop downloaded **JAR** file into opened folder.
 
         !!! danger "Forge or Fabric?"
-            Downloaded FSEE jars support both loaders! You don't have to look for a version supporting a specific loader!
+            Downloaded Stellarity jars support both loaders! You don't have to look for a version supporting a specific loader!
 
     :tada:{ .mirror } **Congrats! Now you can explore the new, terrifying and absurdly rewarding End dimension!** :tada:
 
-    > Mod version loads data from FSEE into EVERY world you create, which means that you don't have to install it separately on each world of yours unlike Datapack version!
+    > Mod version loads data from Stellarity into EVERY world you create, which means that you don't have to install it separately on each world of yours unlike Datapack version!
     > *Mod compatibility is also probably a lot better, but I can't test every mod out there.* 
 
 ## Installing on Servers
@@ -54,4 +54,4 @@ All download files can be found on [FSEE's Download Section](https://fokastudio.
     <br>
     If you happen to be that unfortunate 1%, just try again!
 
-[^1]: Quilt is a direct fork of Fabric, meaning that Fabric version of FSEE has native support for this loader.
+[^1]: Quilt is a direct fork of Fabric, meaning that Fabric version of Stellarity has native support for this loader.

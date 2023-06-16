@@ -1,5 +1,5 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Tamaris** is a post-Dragon greatsword which allows players to trigger a powerful Execute ability, warping to nearby enemies with low health and killing them instantly. It also applies new DoT effect called **Dark Decay** on hit.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Tamaris can be enchanted with any Sword enchantment. Curse of Vanishing strengthens Dark Decay.
@@ -11,17 +11,17 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/tamaris.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/tamaris.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>
 		<td><b>Damage</b></td>
-		<td>7</i></td>
+		<td>6</i></td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
@@ -58,14 +58,14 @@ After sneaking for a moment, you will warp to the nearest weak mob, instantly ki
 Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying will apply a 11 second cooldown in order to prevent saved mob from being executed a second after using a Totem. Cooldown is indicated by a <span style="color: red;">DISABLED</span> text in player's action bar.
 
 ### Dark Decay
-Regular attacks inflict **Dark Decay** for 6 seconds. Dark Decay deals 3:heart: х ₁.₅ damage every 2 seconds for a total of 9:heart: х ₄.₅. It also has 20% armor penetration.
+Regular attacks inflict **Dark Decay** for 6 seconds. Dark Decay deals 1:heart: х ₀.₅ damage every 1.5 seconds for a total of 4:heart::heart: damage. While this doesn't sound any special at first, Decay has an armor penetration of <u>80%</u>, which means that its damage almost ignores armor.
 
-This damage over time effect stacks with likes of Wither, Poison or Fire.
+Enchanting Tamaris with Curse of Vanishing doubles the Decay damage.
 
-Enchanting Tamaris with Curse of Vanishing upgrades Dark Decay to Dark Decay II, increasing its duration by 1 second and damage by 1:heart: х ₀.₅ for a total of 16:heart: х ₈ damage.
+Dark Decay effect stacks with other means of damage over time, like Wither, Poison or Fire.
 
 ## Tips
-- You can use it as a secondary weapon among your weapon of choice. Just switch to it once you think enemy is low enough to be executed.
+- Tamaris is intended to be used as a support weapon. Switching to it to reapply Decay or to execute a weak enemy is the best way to use it.
 - Tamaris prioritizes nearest weak mob while choosing a target to execute next. Keep in mind while trying to chain execute a group of weak mobs.
 - The execute treshold is lower for certain mobs.
     - In PvP, health percentage required to mark a player 'executable' is **20%**.
@@ -78,33 +78,34 @@ Enchanting Tamaris with Curse of Vanishing upgrades Dark Decay to Dark Decay II,
         - This does not apply to modded bosses or bosses from other datapacks, following 25% treshold instead. 
     - Non-living entities *(Item Frames, Armor Stands, etc.)* and the Ender Dragon are immune to Tamaris' execute.
 - Try not to use this weapon in Multiplayer while teaming up with other players, as it could potentialy lead to one of your allies being accidentaly executed.
+	- Execute move targets the closest weak mob, so use it to avoid mistakes.
 
 ## Trivia
 - The way how execute ability works is that it deals 999 damage with 100% armor penetration, instead of directly doing `/kill`.
     - This is because `/kill` ignores <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totems of Undying.
-- This item was supposed to be called `Void Star`, but the official name was changed before release.
+- This item was intended to be called `Void Star`, but the official name was changed before release.
     - It was also supposed to have a [consecrated](../mechanics/consecration.md) variant called `Hallow Star`, which would simply have different visual and sound effects.
 - This item and its ability is based on Hannah[^1] kit from Roblox BedWars[^2].
     - Sounds used for triggering the Execute ability are actual sounds of Hannah triggering her Execute move from Roblox Bedwars.
-        - Additionally, FokaStudio uses a different execute sound, being the one of Victorious Hannah kit skin.
+        - Additionally, kohara uses a different execute sound, being the one of Victorious Hannah instead.
 - Tamaris was supposed to replace Dragonblade as its one-per-world kind of item.
     - However due to a community vote, it became a Dragon drop instead.
-- Its name `Tamaris` is a reference to FokaStudio's grandma's cat's name - *Tamara*.
-    - The name *Tamara* is a polish name derivating from hebrew. It rougly translates into `palm tree`.
-    - FokaStudio chose to base the name off the aformentioned cat because he had always seen the pet as a `hidden assasin who is ready to scratch to death absolutely everyone`.
+- Its name `Tamaris` is a reference to kohara's grandma's cat's name - *Tamara*.
+    - The name *Tamara* is a polish name derivating from hebrew, which rougly translates into `palm tree`.
+    - kohara chose to base the name off the aformentioned cat because he had always seen it as a `hidden assasin who is ready to scratch anyone`.
         - To make things funnier, the cat is not hostile at all, and loves hugs.
-- The advancement name `Kill la Kill` is a reference to a popular anime with the same name.
+- The advancement name `Kill la Kill` is a reference to an anime series of the same name.
     - It means `Kill the prey` in French.
 - Dying to the Execute ability in PvP will result in a custom death message - `VICTIM was publicly executed by PLAYER`.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-tamaris"></i></div> | Disassembly | Use Tamaris to execute a mob with low health | The Next Generation | :x: | `fokastudio:end/dragons_den/disassembly` |
-| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-fsee icon-fsee-tamaris"></i></div> | Kill la Kill | Trigger the Execute ability on a Warden. **Good luck...** | Disassembly | :x: | `fokastudio:end/dragons_den/kill_la_kill` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Disassembly | Use Tamaris to execute a mob with low health | The Next Generation | :x: | `stellarity:dragons_den/disassembly` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Kill la Kill | Trigger the Execute ability on a Warden. **Good luck...** | Disassembly | :x: | `stellarity:dragons_den/kill_la_kill` |
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced
 
 [^1]: [Hannah](https://robloxbedwars.fandom.com/wiki/Hannah) kit on Roblox Bedwars Wiki

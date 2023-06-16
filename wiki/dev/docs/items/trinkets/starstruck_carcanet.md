@@ -1,15 +1,15 @@
 # Starstruck Carcanet
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Starstruck Carcanet** is a utility spellbook which casts a slow moving spark on use, which teleports player to the first block it hits.
 
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -52,5 +52,5 @@ Stars will spawn on any type of damage. If spawned inside blocks, they won't col
     - Star damage was reduced by 25% (4 -> 3).
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

@@ -1,15 +1,15 @@
 # Prismatic Pearl
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Prismatic Pearl** is a post-Empress item which acts like an infinite supply of Ender Pearls. As an added bonus, it also flies faster and further compared to a regular Ender Pearl.
 
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/prismatic_pearl.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/prismatic_pearl.gif"></th>
 	</tr>
 </table>
 </div>
@@ -34,5 +34,5 @@ Prismatic Pearl leaves a rainbow trail as it flies.
     - Spoiler alert: it didn't work :pensive:.
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

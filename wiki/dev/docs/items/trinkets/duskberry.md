@@ -2,8 +2,8 @@
 >
 > This feature is dedicated to DuskAdler (*Member 666*)
 
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Duskberry** is a post-Dragon trinket that grants increased Damage, Speed and Night Vision while held and curses player who eats it.
 
 <br><br>
@@ -11,10 +11,10 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/duskberry.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/duskberry.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -32,7 +32,7 @@ Duskberries can be found in Ships in [End Cities](../../structures/end_city.md),
 
 ## Usage
 <div class="result" markdown>
-<figure class="foka-side-image--right" markdown>
+<figure class="kohara-side-image--right" markdown>
   ![Planted Duskberry](../../assets/items/duskberry/planted.png){ align=right width="200vw" .border }
   <figcaption>Planted Duskberry</figcaption>
 </figure>
@@ -54,7 +54,7 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 - Duskberries are really versatile, fantastic both for combat (due to a 12% damage increase) as well as simple exploration (due to a 10% movement speed bonus). They are also perfect for caving because of permanent Night Vision.
 
 ## Trivia
-<figure class="foka-side-image--right" markdown>
+<figure class="kohara-side-image--right" markdown>
   ![Old Duskberry](../../assets/items/duskberry_old.png){ align=right width=200px .border style="padding: 10px; margin: auto; image-rendering: pixelated;"}
   <figcaption>Old Duskberry sprite</figcaption>
 </figure>
@@ -67,11 +67,11 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-sweet-berries"></i></div> | Don't Bush Your Luck! | Pick up a Duskberry from a chest in Hallow's End Ship | Husbandry | :x: | `fokastudio:end/husbandry/duskberry/discover` |
-| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-fsee icon-fsee-sweet-berries"></i></div> | Poor Life Choices. | Eat, plant and feed a Fox a Duskberry | Don't Bush Your Luck! | :x: | `fokastudio:end/husbandry/duskberry/discover` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sweet-berries"></i></div> | Don't Bush Your Luck! | Pick up a Duskberry from a chest in Hallow's End Ship | Husbandry | :x: | `stellarity:husbandry/duskberry/discover` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-sweet-berries"></i></div> | Poor Life Choices. | Eat, plant and feed a Fox a Duskberry | Don't Bush Your Luck! | :x: | `stellarity:husbandry/duskberry/discover` |
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Introduced
 
 [^1]: This part is obfuscated and written with Illageralt font, meaning that it is normally undecipherable

@@ -1,8 +1,8 @@
 # Troubleshooting Guide
 
-This Troubleshooting page is here to help you if you have issues installing or using FSEE.
+This Troubleshooting page is here to help you if you have issues installing or using Stellarity.
 
-If your issues persist, do not hesitate to ask on the [Foka's Studios :fontawesome-brands-discord:{ style="color: #7289da;" }Discord server](https://discord.gg/J6guYAySN8)!
+If your issues persist, do not hesitate to ask on [kohara's :fontawesome-brands-discord:{ style="color: #7289da;" }Discord server](https://discord.gg/J6guYAySN8)!
 
 <br><br>
 
@@ -10,9 +10,9 @@ If your issues persist, do not hesitate to ask on the [Foka's Studios :fontaweso
 
 ## Realms
 !!! question
-    FokaStudio's Ender Expansion does not work on my realm!
+    Stellarity does not work on my realm!
     
-    Does FSEE work on Realms?
+    Does Stellarity work on Realms?
 
 **No, it does not.** 
 
@@ -38,7 +38,7 @@ Mojang still referrs to custom worldgen as `experimental feature`. Experimental 
 !!! question
     Just simply being in The End badly lags my game! What should I do?
 
-    My server lags out badly with FSEE.
+    My server lags out badly with Stellarity.
 
 **There are a few possible fixes:**
 

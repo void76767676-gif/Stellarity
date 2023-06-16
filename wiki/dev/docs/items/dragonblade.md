@@ -1,5 +1,5 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Dragonblade** is a post-Dragon greatsword with the ability to trigger a powerful punch after hitting a mob 3 times. Punches deal heavy damage which ignores a substantial amount of enemy defense.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Dragonblade can be enchanted with any Sword enchantment. Knockback enchantment further empowers its punch ability.
@@ -11,10 +11,10 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/dragonblade.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/dragonblade.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -51,9 +51,9 @@ After defeating the Ender Dragon for the first time, the Dragonblade will spawn 
 Only one Dragonblade generates on each world, making it the rarest item in the entire datapack.
 
 ## Usage
-Hitting enemies will inflict *'Dragon Stacks'*. The amount of Stacks an enemy has is represented by a growing sphere above their head. After hitting a mob 3 times, a player can sneak to trigger a powerful punch. Stacks are reset after 16 seconds have passed without either a punch or another attack.
+Hitting enemies inflicts *'Dragon Stacks'*. The amount of Stacks an enemy has at the given moment is represented by a purple sphere above their head - brighter color is equal to more stacks. After hitting a mob 3 times, a player can sneak to trigger a powerful punch. Stacks are reset after 16 seconds have passed without either a punch or another attack.
 
-Punching warps affected entity by 6.6 blocks, facing away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores a third of enemy armor, meaning that higher defense and enchantments will not protect from the damage as much as they would regularly do.
+Punching warps affected entity by 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores a third of enemy armor, meaning that higher defense and enchantments will not protect from the damage as much as they would regularly do.
 
 Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stuns make mobs completely unable to move. Immobilization doesn't prevent jumping and fall damage.
 
@@ -63,25 +63,28 @@ Each level of **Knockback enchantment** enchances punch distance by 1.1 blocks w
 
 Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indicated by a cloud of dust above their head.
 
+Punches deal explosion damage, meaning that **Blast Protection enchantment** is going to be more efficient at blocking it.
+
 ## Tips
 - Dragonblade is extremely slow compared to other weapons, meaning that accuracy is of high importance.
 - Ranged weapons will not apply Dragon Stacks, meaning that direct melee hits are the only option for using it as efficiently as possible.
-- Knockback II <i class="icon-fsee icon-fsee-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 33% of enemy defense, meaning it doesn't get reduced as much.
+- Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 33% of enemy defense, meaning it doesn't get reduced as much.
 - As Dragonblade is unbreakable, enchanting it with either Unbreaking or Mending is redundant.
 - Punch damage cannot be increased by any bonuses like Strength Potions or [Ancient Armor](armor/ancient_armor.md)
+- In PvP, it might be a good idea to use a Blast Protection armor set if going against someone with the Dragonblade as even with Knockback II wall punch, the enchantment can reduce the damage to almost nothing.
 
 ## Trivia
 - The methods of obtaining the Dragonblade differed greatly throughout its development.
     - Upon its release in 1.5a, it was found stuck in the Altar of The Accursed, right after entering The End.
-        - During the development of 1.6a, it dropped from the Ender Dragon with a 50% chance.
+        - During the development of 2.0a, it dropped from the Ender Dragon with a 50% chance.
             - However due to a community poll, it returned to its one-per-world state, with the only difference being it spawning after defeating the Dragon for the first time, and not prior.
     - Dragonblade can also be obtained with commands, but upon release they would return a broken item instead, meaning that it was truly one-per world.
         - This was patched in 1.5b, with its `/loot give` command functioning as intended.
 - This item and its ability is based on Kaliyah[^1] kit from Roblox BedWars[^2].
     - Its description is also a reference to Kaliyahkit description - `A fearsome warrior with a fiery punch!`.
     - The quoted line is a reference to Terraria's S.D.M.G.[^3] tooltip, `It came from the edge of space`.
-- Prior to 1.6a, it acted as an indirect upgrade to a Netherite Sword, with its special mechanic being spawning clouds of Dragon's Breath on hits and increasing damage temporarily after that.
-- During the development of 1.6a, it went through a total of 3 reworks.
+- Prior to 2.0a, it acted as an indirect upgrade to a Netherite Sword, with its special mechanic being spawning clouds of Dragon's Breath on hits and increasing damage temporarily after that.
+- During the development of 2.0a, it went through a total of 3 reworks.
     - First one was simply editing the Dragon's Breath cloud properties and damage increase.
     - Second one was similair to current behavior, but the punch damage was always 22 and it had additional upward motion. It also always triggered on the 4th hit, rather than with sneaking.
     - Third one is the one currently used in the pack.
@@ -90,11 +93,11 @@ Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indica
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/obtain_draonblade` |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | `fokastudio:end/aota/kaliyah` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | `stellarity:aota/obtain_draonblade` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | `stellarity:aota/kaliyah` |
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
 	- Base damage reduced (8 -> 6)
 	- Attack speed reduced (1.6 -> 1.1)

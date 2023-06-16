@@ -1,15 +1,15 @@
 # Book of Conveyance
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Book of Conveyance** is a spellbook which allows for infinite teleportation with a cooldown.
 
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/book_of_conveyance.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/book_of_conveyance.png"></th>
 	</tr>
     <tr>
 		<th colspan="2">Info</th>
@@ -39,5 +39,5 @@ This has a cooldown of 16 seconds.
 - Verb `to convey` means `to transport or carry to a place`.
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

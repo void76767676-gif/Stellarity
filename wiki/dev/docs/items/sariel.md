@@ -1,5 +1,5 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Sariel** is a post-Dragon dagger that can sometimes spawn healing orbs on enemy hits. Healing orbs slowly fly towards the nearest player and heal them for 4:heart::heart: HP. Healing orbs won't spawn when players are damaged in PvP.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Sariel can be enchanted with any Sword enchantment.
@@ -11,10 +11,10 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/sariel.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/sariel.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -43,15 +43,15 @@
 </div>
 
 ## Obtaining
-Sariel can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining an <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, 5 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and 10 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md), meaning that in order to craft it, the player has to venture into [The Hallow](../biomes/the_hallow.md) first.
+Sariel can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by combining an <i class="icon-minecraft icon-minecraft-iron-sword"></i>Iron Sword, 5 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots and 10 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md), meaning that in order to craft it, the player has to venture into [The Hallow](../biomes/the_hallow.md) first.
 
 ## Usage
-After attacking any mob, there is a 12% chance that a Healing Orb will spawn, slowly flying towards the nearest player while accelerating slighly. After coming into contact with one, player will be healed by 4:heart::heart: HP. Up to 2 Healing Orbs can be spawned at once, however only one will spawn most of the time.
+After attacking any mob, there is a 18% chance that a Healing Orb will spawn, slowly flying towards the nearest player while accelerating slighly. After coming into contact with one, player will be healed by 4:heart::heart: HP. Up to 2 Healing Orbs can be spawned at once, however only one will spawn most of the time.
 
 | Number of Healing Orbs | Chance |
 | :--- | :--- |
-| 1 | 12% |
-| 2 | 1.44% |
+| 1 | 18% |
+| 2 | 3.24% |
 
 ## Tips
 - Due to Sariel's low damage, it is heavily discouraged to use it as a primary weapon. It should be used as a support weapon players quickly switch to in order to heal a bit.
@@ -68,21 +68,20 @@ After attacking any mob, there is a 12% chance that a Healing Orb will spawn, sl
     - Its tooltip is a reference to [Sariel's first theme](https://youtu.be/YiN9rqnxw20), that has the exact same title.
     - Sariels are also archangels, mainly from Judaic tradition.
 - Healing Orbs move  a bit slower than player's running speed, but a bit faster than their walking speed.
-- Sariel has went through a total of 6 changes to its healing chance during development of 1.6a.
-    - These were as following: `18%` -> `27%` -> `22%` -> `33%` -> `20%` -> `15%` -> `12%`.
-        - Looking at this graph we can deduce that it was buffed initially before being nerfed again, then re-buffed and only nerfed afterwards.
+- Sariel has went through a total of 7 changes to its healing chance during the development of 2.0a.
+    - These were as following: `18%` -> `27%` -> `22%` -> `33%` -> `20%` -> `15%` -> `12%` -> `18%`.
 - During some time in its development, the Healing Orbs used to slowly gain momentum as they flew.
     - Alotugh this was changed and now they always move at set speed in.
-    - This was made so that players have to stick near attacked enemy to not outspeed the Healing Orb, but FokaStudio changed it because it felt annoying.
+    - This was made so that players have to stick near attacked enemy to not outspeed the Healing Orb, but kohara changed it because it felt annoying.
 - Upon initial release, instead of using 5 <i class="icon-minecraft icon-minecraft-gold-ingot"></i>Gold Ingots to craft it, a <i class="icon-minecraft icon-minecraft-wither-skeleton-skull"></i>Wither Skeleton Skull was used instead.
     - This was changed in order to make it cheaper to craft and require less grinding for materials.
-- Its durability used to be 777 - is a number symbolizing divine guidance.
+- During development it used to have a durability value of 777, which is a number symbolizing divine guidance.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `fokastudio:end/aota/cursed_crafting` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `stellarity:aota/cursed_crafting` |
 
 ## History
-- **1.6a**
+- **2.0a**
 	- Introduced

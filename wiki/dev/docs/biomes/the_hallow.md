@@ -1,6 +1,6 @@
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
-> This feature is dedicated to FokaStudio (*Developer*)
+> This feature is dedicated to kohara (*Developer*)
 
 **The Hallow** is an exceptionally rare [biome](index.md) found in The End. It is themed around light and magic, seen by having lots of lights and quite a lot of colors compared to other less vibrant biomes of The End.
 
@@ -8,15 +8,15 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 
 <div class="result" markdown>
 
-  ![Image title](../assets/biomes/hallow.png){ align=left #foka-infobox--image}
+  ![Image title](../assets/biomes/hallow.png){ align=left #kohara-infobox--image}
 
-  <table id="foka-infobox" >
+  <table id="kohara-infobox" >
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>
 		<td><b>ID</b></td>
-		<td style="text-align: center;"><code>fokastudio:the_hallow</code></td>
+		<td style="text-align: center;"><code>koharastudio:the_hallow</code></td>
 	</tr>
 	<tr>
 		<td><b>Category</b></td>
@@ -35,19 +35,19 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 	</tr>
 	<tr>
 		<td><b>Grass</b></td>
-		<td style="text-align: center;"><span style="background-color: #4EC1E3;" class="foka-infobox-color"></span> #4EC1E3</td>
+		<td style="text-align: center;"><span style="background-color: #4EC1E3;" class="kohara-infobox-color"></span> #4EC1E3</td>
 	</tr>
 	<tr>
 		<td><b>Foliage</b></td>
-		<td style="text-align: center;"><span style="background-color: #4FA3E3;" class="foka-infobox-color"></span> #4FA3E3</td>
+		<td style="text-align: center;"><span style="background-color: #4FA3E3;" class="kohara-infobox-color"></span> #4FA3E3</td>
 	</tr>
 	<tr>
 		<td><b>Water</b></td>
-		<td style="text-align: center;"><span style="background-color: #F937ED;" class="foka-infobox-color"></span> #F937ED</td>
+		<td style="text-align: center;"><span style="background-color: #F937ED;" class="kohara-infobox-color"></span> #F937ED</td>
 	</tr>
 	<tr>
 		<td><b>Water Fog</b></td>
-		<td style="text-align: center;"><span style="background-color: #C639F9;" class="foka-infobox-color"></span> #C639F9</td>
+		<td style="text-align: center;"><span style="background-color: #C639F9;" class="kohara-infobox-color"></span> #C639F9</td>
 	</tr>
 </table>
 </div>
@@ -60,7 +60,7 @@ Grass found here is blue, and Water has a magenta tint.
 
 The biome tends to generate on hilly, continental terrain, although it rarely generates on forms of terrain that are a bit more shattered.
 
-It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain <i class="icon-fsee icon-fsee-duskberry"></i>[Dusbkerries](../items/trinkets/duskberry.md).
+It is one of a few biomes where [End Villages](../structures/end_village.md) can be found. Apart from that, [End Cities](../structures/end_city.md) generate here as well, with Chests in the Ships having a small chance to contain <i class="icon-stellarity icon-stellarity-duskberry"></i>[Dusbkerries](../items/trinkets/duskberry.md).
 
 ## Music
 Apart from regular End music, these tracks play when the player is in The Hallow specifically.
@@ -80,23 +80,23 @@ Apart from regular End music, these tracks play when the player is in The Hallow
 
 ## Trivia
 
-- So far it is the only dedicated biome in FSEE.
+- So far it is the only dedicated biome in Stellarity.
 - It is the only biome to have only passive mobs spawning.
 - The Hallow was the first biome to get a boss based around it.
-- Music that plays while inside this biome are all FokaStudio's most favorite tracks from the main game.
+- Music that plays while inside this biome are all kohara's most favorite tracks from the main game.
 - The verb 'to hallow' means 'to make holy'.
 - The description of its special Advancement is a reference to what Painter NPC says about The Hallow in Terraria upon interacting with him in Hardmode.
 
 ## History
 
--  **1.6a**
+-  **2.0a**
     - Reduced number of Large Amethyst Stalactites.
     - Pixie Dust can now be used to craft [Prismatic Punch](../items/prismatic_punch.md) and [Sariel](../items/sariel.md).
     - Added Empress of Light - a boss themed around this biome.
     - Fixed abnormal amounts of [Pixies](../mobs/pixie.md) spawning all over The Hallow.
     - Allays can rarely replace Pixies on spawn.
 * **1.5b**
-    - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [<i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](../items/other/pixie_dust.md).
+    - Added [Pixies](../mobs/pixie.md), they served no purpose other than ambience or aquiring [<i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](../items/other/pixie_dust.md).
 * **1.5a**
     - [Hallowed Crate](../mechanics/void_fishing.md#crates), [Mystical Heartfish](../mechanics/void_fishing.md#fish) and [Prismite](../mechanics/void_fishing.md#fish)) can now be caught while [Void Fishing](../mechanics/void_fishing.md) in The Hallow.
 * **1.4a**

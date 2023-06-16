@@ -24,7 +24,7 @@ Treasure Heads serve no purpose other than being fun collectibles.
 | Texture | Player Name | Tooltip | Additional Notes |
 | :--- | :--- | :--- | :--- |
 | ![Head](https://mc-heads.net/head/ApolloDev/384){ width=64px } | ApolloDev | • 'Don't do worldgen, kids.' | :x: |
-| ![Head](https://mc-heads.net/head/FokaStudio/384){ width=64px } | FokaStudio | • 'downloading this pack was your last mistake'<br>• 'this head is fabulous!'<br>• 'there are now two princesses looking at each other' | Text of one Head was changed during development |
+| ![Head](https://mc-heads.net/head/kohara/384){ width=64px } | kohara | • 'downloading this pack was your last mistake'<br>• 'this head is fabulous!'<br>• 'there are now two princesses looking at each other' | Text of one Head was changed during development |
 | ![Head](https://mc-heads.net/head/ArubikU/384){ width=64px } | ArubikU | • 'Sometimes the code doesn't work'<br>• 'The darkness is lighter'<br>• 'Worship the great turtle god!'<br>• 'Cooding is hard!?' | 4 Heads, even tho the limit was 3 |
 | ![Head](https://mc-heads.net/head/Devilcasters/384){ width=64px } | Devilcasters | • 'It must do something...' | :x: |
 | ![Head](https://mc-heads.net/head/purejosh/384){ width=64px } | purejosh | • 'Can probably be found in his office, drinking a bougie coffee and creating a github ticket.' | :x: |
@@ -48,7 +48,7 @@ Treasure Heads serve no purpose other than being fun collectibles.
 | ![Head](https://mc-heads.net/head/_Quamsy/384){ width=64px } | _Quamsy | • 'Quam was here' | :x: |
 | ![Head](https://mc-heads.net/head/Sylixa/384){ width=64px } | Sylixa | • 'Moew~' | :x: |
 | ![Head](https://mc-heads.net/head/Moood/384){ width=64px } | Moood | • 'this pack is sponsored by church taxes' | :x: |
-| ![Head](https://mc-heads.net/head/INQIZZO/384){ width=64px } | INQIZZO | • 'FSEEX?'<br>• 'The best method of suicide is pinging starmute on discord' | :x: |
+| ![Head](https://mc-heads.net/head/INQIZZO/384){ width=64px } | INQIZZO | • 'StellarityX?'<br>• 'The best method of suicide is pinging starmute on discord' | :x: |
 | ![Head](https://mc-heads.net/head/potato10l/384){ width=64px } | potato10l | • 'Wisdom always chased me but i was faster' | :x: |
 | ![Head](https://mc-heads.net/head/Pailomots/384){ width=64px } | Pailomots | • 'Did someone say... salmon?' | :x: |
 | ![Head](https://mc-heads.net/head/catter1/384){ width=64px } | catter1 | • 'Did someone say... salmon?' | :x: |
@@ -68,17 +68,17 @@ Treasure Heads serve no purpose other than being fun collectibles.
 | ![Head](../assets/heads/TheTechnoFakerz.png){ width=64px } | TheTechnoFakerz | • 'Are you dead yet , i need to eat toasts.' | Cracked Head<br>Always generates with Zichee's Head |
 
 ## Trivia
-- Before 1.6a, there used to be 105 Treasure Heads total, with some being borrowed from [Dungeon Now Loading](https://www.planetminecraft.com/data-pack/dungeon-now-loading-5-new-dungeons-5-new-bosses/) datapack.
-- ArubikU currently has 4 Treasure Heads of theirs added into FSEE, while the limit for Head submissions was 3.
-    - This was due to FokaStudio's oversight in counting, resulting in 4th Head being added. However, he decided not to remove it.
+- Before 2.0a, there used to be 105 Treasure Heads total, with some being borrowed from [Dungeon Now Loading](https://www.planetminecraft.com/data-pack/dungeon-now-loading-5-new-dungeons-5-new-bosses/) datapack.
+- ArubikU currently has 4 Treasure Heads of theirs added into Stellarity, while the limit for Head submissions was 3.
+    - This was due to kohara's oversight in counting, resulting in 4th Head being added. However, he decided not to remove it.
 - Treasure Heads of TheTechnoFakerz and Zichee will always generate toghether in one Chest.
     - This was done per request of TheTechnoFakerz (Oreki) on Discord
 - MrBoopkins' quote *'Kinda dating a frog'* might be a reference to a discussion that was started in event chat channel about gender-changing frogs.
-- Treasure Heads were first special mechanic added to FSEE, dating back as far as version 1.1a.
-    - Since their public release, they haven't been changed for almost a year, not until 1.6a.
+- Treasure Heads were first special mechanic added to Stellarity, dating back as far as version 1.1a.
+    - Since their public release, they haven't been changed for almost a year, not until 2.0a.
 
 ## History
-- 1.6a
+- 2.0a
     - Removed 105 old Treasure Heads and replaced them with 60 new ones
     - Reformatted and restructurised loot table file used for generating Treasure Heads
 

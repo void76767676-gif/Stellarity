@@ -1,6 +1,6 @@
 # Ender Insignia
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Ender Insignia** is a post-Dragon trinket which slowly accelerates your health regeneration the longer player sneaks for. Taking damage resets this boost.
 
 <br><br>
@@ -8,10 +8,10 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/ender_insignia.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/ender_insignia.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -34,7 +34,7 @@
 Ender Insignia has a 66% chance to be dropped by the Ender Dragon. It always drops with either a [Tamaris](../tamaris.md) or a [Crest of The End](crest_of_the_end.md).
 
 ## Usage
-Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aformentioned potion effect is increased by 1 every 1.5 seconds. This caps at Regeneration V.
+Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aformentioned potion effect is increased by 1 every 2 seconds. This caps at Regeneration IV.
 
 Standing up or being hurt resets the Regeneration and applies a very short half a second cooldown before Ender Insignia starts working again.
 
@@ -58,14 +58,14 @@ Movement speed is reduced by additional 66% while sneaking, meaning that moving 
 
 ## Trivia
 
-- Prior to 1.6a:
+- Prior to 2.0a:
 	1. Ender Insignia used to give a set Regeneration bonus.
 	2. Due to the way Regeneration was implemented, it would be constantly reapplied, slowing down health gain or even preventing it in some scenarios.
 	3. Ender Insignia used to trigger while standing still rather than sneaking, but this was changed due to performance reasons.
 
 ## History
 
-- **1.6a**
+- **2.0a**
 	- Drop rate reduced in favor of other items (100% -> 66%)
 	- Regeneration is no longer instantly at Level V, and it instead progressively goes through different amplifierss.
 	- Being hit now properly cancels Regeneration.

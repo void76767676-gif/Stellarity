@@ -1,6 +1,6 @@
 # Ancient Plating
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Ancient Plating** is a post-Dragon crafting material used solely to craft [Ancient Armor](../armor/ancient_armor.md).
 
 <br><br>
@@ -8,17 +8,17 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../../assets/items/ancient_plating.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/ancient_plating.png"></th>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Ancient Plating can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md) or Chests in Dungeons.
+Ancient Plating can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md) or Chests in Dungeons and End Cities.
 
 Armorers, Weaponsmiths and Toolsmiths in [End Villages](../../structures/end_village.md) have a chance to sell 4 Ancient Plating for 12 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
@@ -29,5 +29,5 @@ Combining 5, 8, 7 or 4 Ancient Plating over the [Altar of The Accursed](../../me
 - Before the addition of Ancient Plating, Ancient Armor used to be found directly inside Crates.
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced

@@ -1,10 +1,10 @@
-site_name: FokaStudio's Ender Expansion Wiki
-site_url: https://fokastudio.github.io/wiki/
+site_name: Stellarity Wiki
+site_url: https://hohy-creates.github.io/Stellarity/
 site_description: >-
-  Wiki for FokaStudio's Ender Expansion project
+  Wiki for the Stellarity project
 
-repo_url: https://github.com/FokaStudio/FSEE
-repo_name: FSEE on Github
+repo_url: https://github.com/kohy-creates/Stellarity
+repo_name: Stellarity on Github
 
 nav:
   - Home:
@@ -99,7 +99,7 @@ markdown_extensions:
       permalink: true
       title: Contents
 
-copyright: Copyright &copy FokaStudio; 2021 - 2023
+copyright: Copyright &copy kohara; 2021 - 2023
 
 plugins:
   - search:
@@ -112,7 +112,7 @@ plugins:
       minify_html: true
   - redirects:
       redirect_maps:
-          'downloads.md': 'http://fokastudio.github.io/FSEE/downloads.html'
+          'downloads.md': 'http://kohy-creates.github.io/Stellarity/downloads.html'
 
 theme:
   name: material
@@ -185,7 +185,7 @@ extra_css:
   - css/extra.css
   - css/themes.css
   - css/icons-minecraft-0.5.css
-  - css/icons-fsee.css
+  - css/icons-stellarity.css
   - css/advancements.css
 
 extra_javascript:
@@ -195,17 +195,17 @@ extra:
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.gg/J6guYAySN8
-      name: Foka's Studios Discord Server
+      name: kohara's Discord Server
     - icon: fontawesome/brands/github
-      link: https://github.com/FokaStudio
-      name: FokaStudio on GitHub
+      link: https://github.com/kohy-creates
+      name: kohara on GitHub
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/channel/UCVCTmGZW1aGHE9Uszz3mucQ
-      name: FokaStudio's Youtube Channel
+      link: https://www.youtube.com/channel/UCRqeCM1qtK9R8f2Q8mCPJ1g
+      name: kohara's Youtube Channel
     - icon: fontawesome/brands/reddit
-      link: https://www.reddit.com/user/_FokaStudio_
-      name: FokaStudio on Reddit
+      link: https://www.reddit.com/user/kohara_
+      name: kohara on Reddit
   generator: true
   analytics:
     provider: google
-    property: G-FS9Q7QS72S
+    property: G-FGQEDQRDJK

@@ -1,9 +1,9 @@
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
-> This feature is dedicated to FokaStudio (*Developer*)
+> This feature is dedicated to kohara (*Developer*)
 
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Prismatic Punch** is a post-Empress crossbow that converts arrows into slow, powerful Prismatic Blasts that home in on enemies, exploding when they come into contact with them. It also inflicts a new damage over time effect known as Prismatic Inferno.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Prismatic Punch can be enchanted with any Crossbow enchantment. Both Multishot and Piercing empower its Blasts in different ways.
@@ -15,13 +15,13 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
 	</tr>
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/prismatic_punch_pulling.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch_pulling.gif"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -77,14 +77,14 @@ Prismatic Inferno lasts for 5 seconds, dealing 2:heart: damage every second for 
 - Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) or End Crystals.
 
 ## Trivia
-- This is first Developer Item to get added into FSEE.
+- This is first Developer Item to get added into Stellarity.
 - This is the second Crossbow to get added, first being the [Clockwork Crossbow](clockwork_crossbow.md).
 - According to one of Ender Expansion's texture artists - YaGirlGiulles - the color palette is based on trans pride flag[^1].
     - They are also a reference to colors of [Last Prism](https://terraria.wiki.gg/wiki/Last_Prism), a Terraria item.
-- During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-fsee icon-fsee-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
+- During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
 
 ## History
-- **1.6a**
+- **2.0a**
     - Introduced
 
 [^1]: [YaGirlGiulles original message](https://canary.discord.com/channels/727033287343734885/727033287666696209/1035208257188397086)

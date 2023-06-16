@@ -1,5 +1,5 @@
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Clockwork Crossbow** is a modified variant of a Crossbow that is able to shoot as fast as you can right-click, but deals a bit less damage.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Clockwork Crossbow can be enchanted with any Crossbow enchantment. Due to it ignoring Crossbow charging, Quick Charge has a brand new effect.
@@ -11,13 +11,13 @@
 [TOC]
 
 </div>
-<div class="foka-infobox-table">
-  <table id="foka-infobox--item">
+<div class="kohara-infobox-table">
+  <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/clockwork_crossbow.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/clockwork_crossbow.png"></th>
 	</tr>
     <tr>
-		<th colspan="2" class="foka-infobox--top-image"><img src="../../assets/items/clockwork_crossbow_arrow.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/clockwork_crossbow_arrow.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -70,17 +70,17 @@ Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked 
 - All arrow types will be converted into regular Arrows, so save your stronger ammunition for use with other weapons.
 
 ## Trivia
-- This is the second ranged weapon to ever be added into FSEE, with first one being the [Sharanga](sharanga.md).
+- This is the second ranged weapon to ever be added into Stellarity, with first one being the [Sharanga](sharanga.md).
 - There are several unused textures for loading animation of Clockwork Crossbow, and one where it is loaded with a Firework instead of an Arrow.
 	- They cannot be seen in-game under any circumstances.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-fsee icon-fsee-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `fokastudio:end/story/drop_rare_illager_loot` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `stellarity:story/drop_rare_illager_loot` |
 
 ## History
-- **1.6a**
+- **2.0a**
     - Arrow damage nerfed (~8 -> 3)
     - Quick Charge now affects ammo conservation chance
     - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)
