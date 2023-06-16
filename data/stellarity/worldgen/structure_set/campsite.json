@@ -12,7 +12,7 @@
 			"other_set": "stellarity:village",
 			"chunk_count": 10
 		},
-		"spacing": 24,
-		"separation": 12
+		"spacing": 16,
+		"separation": 9
 	}
 }
