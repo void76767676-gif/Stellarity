@@ -87,7 +87,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.2
+					"chance": 0.25
 				}
 			]
 		},
@@ -143,26 +143,10 @@
 		},
 		{
 			"rolls": {
-				"min": 0,
+				"min": 1,
 				"max": 2
 			},
 			"entries": [
-				{
-					"type": "minecraft:item",
-					"weight": 11,
-					"quality": 1,
-					"name": "minecraft:enchanted_book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 22,
-								"max": 32
-							},
-							"treasure": true
-						}
-					]
-				},
 				{
 					"type": "minecraft:item",
 					"weight": 3,
@@ -404,6 +388,21 @@
 					"weight": 2,
 					"quality": 2,
 					"name": "stellarity:items/golden_chorus_fruit"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:enchanted_book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 22,
+								"max": 32
+							},
+							"treasure": true
+						}
+					]
 				}
 			]
 		},

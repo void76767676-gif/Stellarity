@@ -2,7 +2,7 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
-			"rolls": 4,
+			"rolls": 3,
 			"bonus_rolls": {
 				"type": "minecraft:binomial",
 				"n": 1,
@@ -97,7 +97,10 @@
 			]
 		},
 		{
-			"rolls": 3,
+			"rolls": {
+				"min": 2,
+				"max": 3
+			},
 			"bonus_rolls": {
 				"type": "minecraft:binomial",
 				"n": 1,

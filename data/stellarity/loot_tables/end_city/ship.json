@@ -9,7 +9,7 @@
 			"bonus_rolls": {
 				"type": "minecraft:binomial",
 				"n": 1,
-				"p": 0.33
+				"p": 0.5
 			},
 			"entries": [
 				{
@@ -316,7 +316,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.2
+					"chance": 0.25
 				}
 			]
 		}
