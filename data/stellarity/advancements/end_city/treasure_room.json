@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "player_head",
-			"nbt": "{SkullOwner:\"kohara\"}"
+			"nbt": "{SkullOwner:\"kohara_\"}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.treasure_room",
