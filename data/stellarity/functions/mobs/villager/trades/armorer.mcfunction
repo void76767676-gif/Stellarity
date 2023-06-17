@@ -39,3 +39,22 @@ execute if score out stellarity.misc matches 2 run data modify storage stellarit
 execute if score out stellarity.misc matches 2 run loot spawn ~ ~-5 ~ loot stellarity:items/materials/ancient_plating
 execute if score out stellarity.misc matches 2 positioned ~ ~-5 ~ run data modify storage stellarity:temp villager_trades[-1].sell.tag set from entity @e[type=item,limit=1,sort=nearest] Item.tag
 execute if score out stellarity.misc matches 2 positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]
+
+
+scoreboard players set in stellarity.misc 1
+scoreboard players set in1 stellarity.misc 2
+function stellarity:utils/rng/range
+execute if score out stellarity.misc matches 1 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.05,demand:12,specialPrice:0,buy:{id:"emerald",Count:28,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"sentry_armor_trim_smithing_template",Count:1,tag:{}}}
+execute if score out stellarity.misc matches 2 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.05,demand:12,specialPrice:0,buy:{id:"emerald",Count:28,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"vex_armor_trim_smithing_template",Count:1,tag:{}}}
+
+scoreboard players set in stellarity.misc 1
+scoreboard players set in1 stellarity.misc 5
+function stellarity:utils/rng/range
+execute if score out stellarity.misc matches 1..4 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.05,demand:12,specialPrice:0,buy:{id:"emerald",Count:28,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"ward_armor_trim_smithing_template",Count:1,tag:{}}}
+execute if score out stellarity.misc matches 5 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.3,demand:12,specialPrice:0,buy:{id:"emerald",Count:48,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"silence_armor_trim_smithing_template",Count:1,tag:{}}}
+
+scoreboard players set in stellarity.misc 1
+scoreboard players set in1 stellarity.misc 2
+function stellarity:utils/rng/range
+execute if score out stellarity.misc matches 1 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.05,demand:12,specialPrice:0,buy:{id:"emerald",Count:28,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"wild_armor_trim_smithing_template",Count:1,tag:{}}}
+execute if score out stellarity.misc matches 2 run data modify storage stellarity:temp villager_trades append value {maxUses:12,rewardExp:1b,priceMultiplier:0.05,demand:12,specialPrice:0,buy:{id:"emerald",Count:28,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"coast_armor_trim_smithing_template",Count:1,tag:{}}}
