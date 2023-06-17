@@ -9,5 +9,5 @@ jobs:
       with:
         name: Stellarity-DEV
         path: |
-          Stellarity/data/
-          Stellarity/pack.mcmeta
+          data/
+          pack.mcmeta

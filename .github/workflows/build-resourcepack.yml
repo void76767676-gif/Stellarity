@@ -10,5 +10,5 @@ jobs:
         name: Stellarity-ResourcePack
         path: |
           ResourcePack/assets/
-          ResourcePack/pack.mcmeta
           ResourcePack/pack.png
+          pack.mcmeta
