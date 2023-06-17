@@ -13,4 +13,6 @@ execute as @e[type=villager,tag=stellarity.villager.aware,predicate=!stellarity:
 # Shulker Tools
 execute as @a[predicate=stellarity:items/holding_any_shulker_tool] run effect give @s haste 2 0 true
 
+execute as @a[scores={stellarity.items.flask_of_frost.duration=1..}] run scoreboard players remove @s stellarity.items.flask_of_frost.duration 1
+
 schedule function stellarity:loops/1_second 1s

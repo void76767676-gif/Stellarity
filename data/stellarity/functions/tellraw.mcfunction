@@ -1,6 +1,6 @@
 tellraw @a ""
 
-tellraw @a [{"text":""},{"text":"F","bold":true,"color":"#c457d6"},{"text":"o","bold":true,"color":"#c658d6"},{"text":"k","bold":true,"color":"#c859d6"},{"text":"a","bold":true,"color":"#cb5ad7"},{"text":"S","bold":true,"color":"#cd5bd7"},{"text":"t","bold":true,"color":"#cf5dd8"},{"text":"u","bold":true,"color":"#d25ed8"},{"text":"d","bold":true,"color":"#d45fd9"},{"text":"i","bold":true,"color":"#d660d9"},{"text":"o","bold":true,"color":"#d962d9"},{"text":"'","bold":true,"color":"#db63da"},{"text":"s ","bold":true,"color":"#dd64da"},{"text":"E","bold":true,"color":"#e065db"},{"text":"n","bold":true,"color":"#e267db"},{"text":"d","bold":true,"color":"#e568dc"},{"text":"e","bold":true,"color":"#e769dc"},{"text":"r ","bold":true,"color":"#e96add"},{"text":"E","bold":true,"color":"#ec6cdd"},{"text":"x","bold":true,"color":"#ee6ddd"},{"text":"p","bold":true,"color":"#f06ede"},{"text":"a","bold":true,"color":"#f36fde"},{"text":"n","bold":true,"color":"#f571df"},{"text":"s","bold":true,"color":"#f772df"},{"text":"i","bold":true,"color":"#fa73e0"},{"text":"o","bold":true,"color":"#fc74e0"},{"text":"n","bold":true,"color":"#ff76e1"},{"text":" has succesfully loaded!","bold":false,"color":"#DF9BDC"}]
+tellraw @a [{"text":"Stellarity","bold":true,"color":"#ff76e1"},{"text":" has succesfully loaded!","bold":false,"color":"#DF9BDC"}]
 
 tellraw @a ""
 

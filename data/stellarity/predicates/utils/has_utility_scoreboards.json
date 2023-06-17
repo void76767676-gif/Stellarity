@@ -14,15 +14,6 @@
 			"condition": "minecraft:entity_scores",
 			"entity": "this",
 			"scores": {
-				"stellarity.misc.thrown_trident": {
-					"min": 1
-				}
-			}
-		},
-        {
-			"condition": "minecraft:entity_scores",
-			"entity": "this",
-			"scores": {
 				"stellarity.misc.used_ender_pearl": {
 					"min": 1
 				}

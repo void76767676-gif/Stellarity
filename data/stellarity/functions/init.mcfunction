@@ -66,6 +66,8 @@ scoreboard objectives add stellarity.items.tamaris.math.health.percentage dummy 
 scoreboard objectives add stellarity.items.tamaris.animation.progress dummy "Tamaris Animation Progress"
 scoreboard objectives add stellarity.items.tamaris.execute_cooldown dummy "Tamaris Execute Cooldown"
 
+scoreboard objectives add stellarity.items.flask_of_frost.duration dummy "Flask of Frost Duration"
+
 ## Mobs
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy "EoL Animation Progress"
@@ -88,14 +90,10 @@ scoreboard objectives add stellarity.mechanics.end_music dummy "End Music Timer"
 scoreboard objectives add stellarity.misc dummy "Misc"
 scoreboard objectives add stellarity.misc2 dummy "Misc 2"
 scoreboard objectives add stellarity.misc.end_portal_animation dummy "End Portal Animation Progress"
-scoreboard objectives add stellarity.misc.end_portal_eyes_consumed dummy "End Portal Animation Progress 2"
-scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy "End Portal Animation Progress 3"
+scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy "End Portal Animation Progress 2"
 
 scoreboard objectives add stellarity.misc.shot_bow minecraft.used:minecraft.bow "Events: Shot Bow"
-scoreboard objectives add stellarity.misc.thrown_trident minecraft.used:minecraft.trident "Events: Thrown Trident"
 scoreboard objectives add stellarity.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl "Events: Thrown Ender Pearl"
-scoreboard objectives add stellarity.misc.hunger food "Player: Saturation"
-scoreboard objectives add stellarity.misc.invul_timer dummy "Player: Damage System Invulnerability Ticks"
 scoreboard objectives add stellarity.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm "Player: Elytra Current Flight Speed"
 scoreboard objectives add stellarity.misc.respawn_detection minecraft.custom:minecraft.deaths "Player: Respawn Detection"
 scoreboard objectives add stellarity.misc.time_since_rest minecraft.custom:minecraft.time_since_rest "Player: Time Since Last Rest"

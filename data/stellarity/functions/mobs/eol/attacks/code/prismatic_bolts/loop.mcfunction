@@ -17,6 +17,6 @@ execute if entity @s[tag=stellarity.eol.prismatic_bolt.magenta] run particle dus
 execute if entity @s[tag=stellarity.eol.prismatic_bolt.purple] run particle dust 0.647 0.243 0.98 1.5 ^ ^ ^ 0.13 0.13 0.13 0 3 force
 execute if entity @s[tag=stellarity.eol.prismatic_bolt.gold] run particle dust 1 0.816 0 1.5 ^ ^ ^ 0.13 0.13 0.13 0 3 force
 
-execute positioned ^ ^-.5 ^ as @a[distance=..1.33,scores={stellarity.misc.invul_timer=0},gamemode=!spectator,gamemode=!creative] at @s rotated 0 0 anchored eyes positioned ^ ^1 ^ run function stellarity:mobs/eol/attacks/code/prismatic_bolts/hurt
+execute positioned ^ ^-.5 ^ as @a[distance=..1.33,gamemode=!spectator,gamemode=!creative] at @s rotated 0 0 anchored eyes positioned ^ ^1 ^ run function stellarity:mobs/eol/attacks/code/prismatic_bolts/hurt
 
 execute if score @s stellarity.eol.projectile_age matches 75.. run kill @s

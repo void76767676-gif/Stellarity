@@ -43,25 +43,6 @@
 										"color": "blue",
 										"italic": false
 									}
-								],
-								[
-									{
-										"translate": "effect.minecraft.regeneration",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"translate": "potion.potency.2",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"text": "(0:14)",
-										"color": "blue",
-										"italic": false
-									}
 								]
 							]
 						}

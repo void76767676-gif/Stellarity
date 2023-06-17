@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomPotionEffects:[{Id:21,Amplifier:1,Duration:4800}],CustomPotionColor:16733011}"
+							"tag": "{CustomPotionEffects:[{Id:21,Amplifier:1,Duration:2400}],CustomPotionColor:16733011}"
 						},
 						{
 							"function": "minecraft:set_name",

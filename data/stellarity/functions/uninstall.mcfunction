@@ -63,10 +63,7 @@ scoreboard objectives remove stellarity.misc
 scoreboard objectives remove stellarity.misc2
 scoreboard objectives remove stellarity.misc.end_portal_animation
 scoreboard objectives remove stellarity.misc.shot_bow
-scoreboard objectives remove stellarity.misc.thrown_trident
 scoreboard objectives remove stellarity.misc.used_ender_pearl
-scoreboard objectives remove stellarity.misc.hunger
-scoreboard objectives remove stellarity.misc.invul_timer
 scoreboard objectives remove stellarity.misc.flight_speed
 scoreboard objectives remove stellarity.misc.respawn_detection
 
