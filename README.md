@@ -17,3 +17,9 @@
 Stellarity started off as a direct port of [Far End](https://www.planetminecraft.com/data-pack/far-end-ender-expansion-datapack-v0-1/), for a server called Azalea Network, but grew into its own independent project as time passed.
 
 Needless to say, **the pack is now nothing like its predecessor**. Everything has changed drastically, with more changes to the original being made each day.
+
+# Notes
+- There is an [optional resource pack for Stellarity](https://github.com/kohy-creates/Stellarity/actions/workflows/build-resourcepack.yml). It isn't required at all, but it allows all new items to have custom textures!
+- Stellarity is incompatible with [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape). Other End mods were **untested**.
+- Adding it to an already existing world requires you to reset The End. (or just use a new world)
+
