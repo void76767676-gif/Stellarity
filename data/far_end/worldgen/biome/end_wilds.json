@@ -32,7 +32,7 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 15,
+				"weight": 10,
 				"minCount": 4,
 				"maxCount": 4
 			},
