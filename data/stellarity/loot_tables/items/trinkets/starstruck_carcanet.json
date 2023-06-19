@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}]}"
+							"tag": "{stellarity.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}],HideFlags:2}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -37,6 +37,18 @@
 								}
 							],
 							"replace": false
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
 						}
 					]
 				}

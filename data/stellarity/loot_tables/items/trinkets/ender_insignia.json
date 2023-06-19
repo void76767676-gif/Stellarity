@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"ender_insignia\",CustomModelData:90000,Enchantments:[{}]}"
+							"tag": "{stellarity.special_item:\"ender_insignia\",CustomModelData:90000,Enchantments:[{}],HideFlags:2}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -51,6 +51,18 @@
 								"color": "#A25AFF",
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
 						}
 					]
 				}
