@@ -1,7 +1,7 @@
 modLoader="lowcodefml"
 loaderVersion="[40,)"
 license="All Rights Reserved"
-issueTrackerURL="https://github.com/kohara/Stellarity/issues"
+issueTrackerURL="https://github.com/kohy-creates/Stellarity/issues"
 
 [[mods]]
 	modId="stellarity"

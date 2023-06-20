@@ -1,4 +1,4 @@
-# 'stellaritystudio' biomes
+# 'fokastudio' biomes
 
 These are kept for compatibility purposes.
 

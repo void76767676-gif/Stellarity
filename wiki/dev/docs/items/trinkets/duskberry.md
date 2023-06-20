@@ -60,7 +60,7 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 </figure>
 
 - Duskberries are said to taste like bismuth.
-- Duskberries are a special item dedicated to DuskAdler for being 666th member to join Foka's Studios Discord server.
+- Duskberries are a special item dedicated to DuskAdler for being 666th member to join kohara's Discord server.
 - Their original color scheme used for this item was Dark Red, but Dusk didn't really like it, so it was changed to Otherwordly Purple instead.
 - During development stage, Duskberry used to have a different texture than it has now. It resembled a berry more than the current one.
 

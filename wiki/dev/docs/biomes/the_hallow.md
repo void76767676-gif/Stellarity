@@ -16,7 +16,7 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 	</tr>
 	<tr>
 		<td><b>ID</b></td>
-		<td style="text-align: center;"><code>koharastudio:the_hallow</code></td>
+		<td style="text-align: center;"><code>stellarity:the_hallow</code></td>
 	</tr>
 	<tr>
 		<td><b>Category</b></td>
