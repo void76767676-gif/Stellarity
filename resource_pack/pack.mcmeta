@@ -3,13 +3,8 @@
 		"pack_format": 15,
 		"description": [
 			{
-				"text": "Stellarity v1.6a",
+				"text": "Optional textures for Stellarity items (and more!)",
 				"color": "#CB4BFF"
-			},
-			{
-				"translate": "stellarity.pack_mcmeta",
-				"fallback": "",
-				"color": "#EEEEEE"
 			}
 		]
 	}

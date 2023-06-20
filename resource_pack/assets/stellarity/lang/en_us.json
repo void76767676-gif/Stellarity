@@ -1,6 +1,4 @@
 {
-    "stellarity.pack_mcmeta": "\nUsing optional resource pack!",
-
     "stellarity.advancement_grant_everything": "Don't use this command",
    
     "stellarity.messages.load.fabric": "Fabric Mod Loader detected!\nActivating custom music in The End automatically!",
@@ -119,6 +117,11 @@
     "stellarity.items.potions.red_potion.flavor_text": "'Just drink it, what could go wrong?'",
     "stellarity.items.potions.royal_jelly": "Royal Jelly",
     "stellarity.items.potions.unluck_potion": "Unluck Potion",
+    "stellarity.items.potions.infernal_concoction": "Infernal Concoction",
+    "stellarity.items.potions.regenerative_mix": "Regenerative Mix",
+    "stellarity.items.potions.flask_of_frost": "Flask of Frost",
+    "stellarity.items.potions.flask_of_frost.buff_name": "Frost Imbuement",
+    "stellarity.items.potions.flask_of_frost.description": "Melee attacks inflict Frostburn",
     
     "stellarity.items.spellbooks.cooldown": "Cooldown: %s seconds",
     "stellarity.items.spellbooks.conveyance": "Book of Conveyance",
@@ -355,7 +358,7 @@
     "stellarity.advancements.kill_large_phantom": "Worsening Nightmares",
     "stellarity.advancements.kill_large_phantom.description": "Kill a Phantom that is bigger than normal",
 
-    "stellarity.death_messages.example_cause": "%s died randomly due to an example of Stellarity's custom damage system",
+    "stellarity.death_messages.example_cause": "%s died randomly due to an example of FSEE's custom damage system",
     "stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom",
     "stellarity.death_messages.carcanet": "%1$s was struck too hard by %2$s's star",
     "stellarity.death_messages.spirit_dagger": "%1$s had their spirit consumed by %2$s",
@@ -365,5 +368,25 @@
     "Enderman attacks": "Enderman attacks",
     "Endermite attacks": "Endermite attacks",
     "Tamaris executes": "Tamaris executes",
-    "kohy slays": "kohy slays"
+    "kohy slays": "kohy slays",
+    
+    "biome.far_end.amethyst_forest": "Amethyst Forest",
+    "biome.far_end.ashfall_delta": "Ashfall Delta",
+    "biome.far_end.end_wilds": "End Wilds",
+    "biome.far_end.ender_waste": "Ender Waste",
+    "biome.far_end.flesh_tundra": "Flesh Tundra",
+    "biome.far_end.the_nest": "The Nest",
+    "biome.far_end.void": "Void",
+    "biome.far_end.warped_marsh": "Warped Marsh",
+    "biome.minecraft.end_barrens": "End Barrens",
+    "biome.minecraft.end_highlands": "End Highlands",
+    "biome.minecraft.end_midlands": "End Midlands",
+    "biome.minecraft.small_end_islands": "Small End Islands",
+    "biome.stellarity.blazing_dunes": "Blazing Dunes",
+    "biome.stellarity.crystal_crags": "Crystal Crags",
+    "biome.stellarity.dragons_den": "Dragons Den",
+    "biome.stellarity.frosted_hills": "Frosted Hills",
+    "biome.stellarity.prismarine_forest": "Prismarine Forest",
+    "biome.stellarity.sculk_growth": "Sculk Growth",
+    "biome.stellarity.the_hallow": "The Hallow"
 }

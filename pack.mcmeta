@@ -3,13 +3,8 @@
 		"pack_format": 15,
 		"description": [
 			{
-				"text": "Stellarity v1.6a",
+				"text": "This ender expansion is kinda beyond hardcore :drum:",
 				"color": "#CB4BFF"
-			},
-			{
-				"translate": "stellarity.pack_mcmeta",
-				"fallback": "",
-				"color": "#EEEEEE"
 			}
 		]
 	}

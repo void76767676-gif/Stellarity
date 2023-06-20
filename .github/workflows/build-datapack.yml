@@ -11,3 +11,4 @@ jobs:
         path: |
           data/
           pack.mcmeta
+          pack.png

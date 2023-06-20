@@ -445,11 +445,12 @@ Place hanging sign here
 
 Has stuff beyond the ending!
 §7Slenderman§r!!
-§4r u n
-§dMay contain dragons!
-Does not contain Gipples!
-§oMaybe compatible??
+§4§lr u n
+dunno, it might contain §ddragons§r!
+Without Gipples!
+§oMaybe §rcompatible??
 not made with §9c++§r!
+100% nonsense
 now with a proper §6main island§r!
 1 dragon 1 command block
 fancy animations!
@@ -459,33 +460,26 @@ perfect mix with §6Incendium§r!
 An enderman stole my homework!
 §l192.168.0.1
 does not work on realms!
-Now 1.16.5!
+Now on 1.16.5!
+Now on 1.7.10!
 Mojang giveth, and Mojang taketh away.
 Jesse wake up we need to kill the dragon!
-does not contain rhodochrosite!
 TOUHOU REFERENCE???
 TERRARIA REFERENCE???
-there is no §fAether§r biome
 I have a bad feeling about this...
 Installing this was your last mistake
 #sAvEMIneCRafT
 §e§l§oe
-with 90% less postgen!
-somewhat inspired by Terraria!
+with 99% less postgen!
 Known to cause insanity!
-Open source!
-Broken and buggy!
-Fixed, reworked and redesigned!
 it is actually quite fun!
 rick roll free!
-§fGlowy§r!
 wow, this is garbage, you actually like this?
 don't mix with §5Nullscape§r!
 not made by a studio!
 contains actual §llore§r!
 Made in §cPol§fand§e!
 Made with §9VisualStudioCode§e!
-don't stop make it pop!
 :D
 :3
 >:3
@@ -496,7 +490,7 @@ feedback wanted!
 §o§kthe dragon is like a gender-changing frog
 piglins are NOT smart and friendly
 self-hosting spells §acatter§r!
-https://discord.gg/J6guYAySN8
+discord.gg/J6guYAySN8
 Now on 1.20!
 No longer on 1.19.4!
 No longer on 1.19.3!
@@ -524,3 +518,4 @@ The Beginning of The End is HERE!!!
 Welcome Back
 [deleted]
 sample text
+yiff
