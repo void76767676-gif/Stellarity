@@ -76,7 +76,6 @@ schedule clear stellarity:loops/3_tick
 schedule clear stellarity:loops/5_tick
 schedule clear stellarity:loops/1_second
 schedule clear stellarity:loops/5_second
-schedule clear stellarity:loops/10_second
 
 scoreboard players reset #stellarity.is_installed stellarity.misc
 

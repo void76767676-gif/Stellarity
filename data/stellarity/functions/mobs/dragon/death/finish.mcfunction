@@ -31,3 +31,5 @@ execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=!stellarity.aota_
 
 # 500 seconds is about 8.3 minutes
 scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
+
+schedule function stellarity:mobs/dragon/play_track 3s

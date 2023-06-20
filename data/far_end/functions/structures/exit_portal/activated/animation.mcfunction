@@ -1,6 +1,8 @@
 ### Timer ###
 scoreboard players add @s fe.timer 1
 
+stopsound @a[predicate=stellarity:locations/in_dragons_den] music
+
 # - bossbar disable
 execute if score @s fe.timer matches 1 run bossbar set stellarity:crystal_count players
 # - save dragon kill count
