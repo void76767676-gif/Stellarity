@@ -77,6 +77,8 @@ scoreboard objectives add stellarity.eol.attack_duration dummy "EoL Attack Durat
 scoreboard objectives add stellarity.eol.attack_cooldown dummy "EoL Attack Cooldown"
 scoreboard objectives add stellarity.eol.projectile_age dummy "EoL Projectile Age"
 
+# Ender Dragon
+
 scoreboard objectives add stellarity.phantom.size dummy "Phantom Size"
 
 ## Mechanics

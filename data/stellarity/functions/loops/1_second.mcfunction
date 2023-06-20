@@ -15,4 +15,6 @@ execute as @a[predicate=stellarity:items/holding_any_shulker_tool] run effect gi
 
 execute as @a[scores={stellarity.items.flask_of_frost.duration=1..}] run scoreboard players remove @s stellarity.items.flask_of_frost.duration 1
 
+execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run scoreboard players remove #stellarity.dragon.ash_duration stellarity.misc 1
+
 schedule function stellarity:loops/1_second 1s

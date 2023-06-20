@@ -11,8 +11,6 @@ execute if entity @s[tag=fe.deactivated.spawn_dragon] run function far_end:struc
 
 # Generate the activated portal once the dragon is killed.
 execute if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/activated/animation
-# Generate End Gateway
-execute if entity @s[tag=fe.generate_gateway] run function far_end:structures/exit_portal/gateway/choose_location
 
 ## Respawn stuff
 # Count the number of respawn Crystals placed
@@ -27,3 +25,5 @@ execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:end
 # Can't really do it with pure Worldgen sadly
 # Or I could, but definitely not in the way I would want to
 execute if entity @s[tag=!stellarity.post_gen.initialized] in minecraft:the_end run function stellarity:post_gen/initialize
+
+execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run function stellarity:mobs/dragon/ash

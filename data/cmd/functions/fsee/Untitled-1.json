@@ -48,16 +48,15 @@ give @p written_book{stellarity.special_item:"cursed_tome",author:test,title:tes
 "===================",
 "\\n",
 "+-----------------+\\n",
-"|",
 {
     "translate": "stellarity.items.cursed_tome.chapter.items.center",
-    "fallback": "          "
+    "fallback": "           "
 },
 {
     "translate": "stellarity.items.cursed_tome.chapter.items",
 "fallback": "Items"
 },
-"|\\n",
+"\\n",
 "+-----------------+",
 "\\n\\n\\n\\n\\n\\n\\n\\n",
 "==================="

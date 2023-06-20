@@ -10,6 +10,7 @@ execute as @e[type=wandering_trader,predicate=!stellarity:locations/in_the_end,t
 
 # Dragon stuff
 execute as @e[type=ender_dragon] at @s run function stellarity:mobs/dragon/main
+execute as @e[type=item,tag=stellarity.boss_drop] at @s run particle end_rod ~ ~ ~ .2 .2 .2 0.011 1 force @a[distance=..96]
 
 # Gloop Froggo protection
 execute as @e[type=slime,tag=stellarity.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true

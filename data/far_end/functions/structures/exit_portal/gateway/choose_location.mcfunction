@@ -1,5 +1,3 @@
-tag @s remove fe.generate_gateway
-
 scoreboard players add #stellarity.exit_gateway_count stellarity.misc 1
 
 execute if score #stellarity.exit_gateway_count stellarity.misc matches 1 run function far_end:structures/exit_portal/gateway/locations/1
