@@ -34,8 +34,8 @@ execute if entity @s[tag=stellarity.prismatic_blast.piercing] run tag @e[type=!#
 
 kill @s[type=marker]
 
-scoreboard players set #dot.damage stellarity.misc 20
-scoreboard players set #dot.time stellarity.misc 100
+scoreboard players set #dot.damage stellarity.misc 15
+scoreboard players set #dot.time stellarity.misc 60
 scoreboard players set #dot.delay stellarity.misc 20
 
 execute as @e[type=!#stellarity:invalid_targets,distance=..3] run function stellarity:utils/dot/prismatic_inferno/apply

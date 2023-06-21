@@ -14,7 +14,7 @@ schedule function stellarity:items/prismatic_punch/detonate/stopsound 2t append
 
 execute if entity @s[tag=stellarity.prismatic_blast.piercing] run tag @e[type=!#stellarity:invalid_targets_with_player,sort=nearest,limit=1,tag=!stellarity.prismatic_blast.pierced] add stellarity.prismatic_blast.pierced
 
-scoreboard players set #dot.damage stellarity.misc 20
+scoreboard players set #dot.damage stellarity.misc 15
 scoreboard players set #dot.time stellarity.misc 40
 scoreboard players set #dot.delay stellarity.misc 20
 

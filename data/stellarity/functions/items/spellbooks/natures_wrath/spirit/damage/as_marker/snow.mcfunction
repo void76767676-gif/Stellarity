@@ -6,9 +6,9 @@ playsound minecraft:block.snow.break neutral @a ~ ~ ~ 1 0.9
 playsound minecraft:block.glass.break neutral @a ~ ~ ~ 1 0.8
 playsound minecraft:entity.shulker_bullet.hurt neutral @a ~ ~ ~ 1 1
 
-scoreboard players set #dot.time stellarity.misc 60
+scoreboard players set #dot.time stellarity.misc 40
 
-scoreboard players set #add stellarity.misc 5
+scoreboard players set #add stellarity.misc 4
 scoreboard players operation #add stellarity.misc *= @s stellarity.misc2
 scoreboard players operation #dot.time stellarity.misc += #add stellarity.misc
 

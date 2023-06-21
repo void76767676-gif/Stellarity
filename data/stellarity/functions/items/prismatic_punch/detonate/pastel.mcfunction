@@ -14,7 +14,7 @@ schedule function stellarity:items/prismatic_punch/detonate/stopsound 2t append
 
 kill @s
 
-scoreboard players set #dot.damage stellarity.misc 20
+scoreboard players set #dot.damage stellarity.misc 15
 scoreboard players set #dot.time stellarity.misc 40
 scoreboard players set #dot.delay stellarity.misc 20
 

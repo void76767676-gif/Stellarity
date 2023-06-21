@@ -58,6 +58,8 @@ scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy "Spi
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy "Spirit Dagger Until Consume Time Reset"
 scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy "Spirit Dagger Effects Duration"
 
+scoreboard objectives add stellarity.items.stella.fire_stacks dummy "Stella Fire Stack Amount"
+
 scoreboard objectives add stellarity.items.prismatic_pearl.cooldown dummy "Prismatic Pearl Cooldown"
 
 scoreboard objectives add stellarity.items.tamaris.math.health.current dummy "Tamaris Current Health"

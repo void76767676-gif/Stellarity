@@ -13,7 +13,7 @@ tag @s add stellarity.damage.natures_wrath
 effect give @s slowness 7 0 false
 effect give @s weakness 3 0 false
 
-scoreboard players set #dot.damage stellarity.misc 20
+scoreboard players set #dot.damage stellarity.misc 15
 scoreboard players set #dot.delay stellarity.misc 20
 
 execute if predicate stellarity:utils/chance/66percent run function stellarity:utils/dot/frostburn/apply

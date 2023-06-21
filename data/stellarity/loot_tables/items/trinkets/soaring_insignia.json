@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.trinkets.soaring_insignia",
 								"fallback": "Soaring Insignia",
-								"color": "magenta",
+								"color": "light_purple",
 								"italic": false
 							}
 						},

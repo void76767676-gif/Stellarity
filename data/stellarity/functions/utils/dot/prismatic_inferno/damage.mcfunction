@@ -20,6 +20,11 @@ particle dust 0.647 0.243 0.98 1.4 ~ ~1 ~ .3 .55 .3 0 3 force @a[distance=..32]
 
 particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..32]
 
+# Additional particles from Stella's stacking
+execute if score @s stellarity.items.stella.fire_stacks matches 2 run particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 4 force @a[distance=..32]
+execute if score @s stellarity.items.stella.fire_stacks matches 3 run particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 8 force @a[distance=..32]
+execute if score @s stellarity.items.stella.fire_stacks matches 4 run particle minecraft:flame ~ ~1 ~ .3 .55 .3 0.01 12 force @a[distance=..32]
+
 playsound minecraft:block.amethyst_cluster.break neutral @a ~ ~ ~
 
 
