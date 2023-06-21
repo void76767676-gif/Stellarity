@@ -62,3 +62,7 @@ execute as @a[tag=stellarity.items.tamaris.doing_execute] at @s run function ste
 # Soaring Insignia
 execute as @a[predicate=stellarity:items/holding_insignia] run function stellarity:items/soaring_insignia/loop
 execute as @a[predicate=!stellarity:items/holding_insignia,tag=stellarity.insignia.flying] run function stellarity:items/soaring_insignia/force_stop
+
+# Kaleidoscope
+execute as @a[predicate=stellarity:items/holding_kaleidoscope] run function stellarity:items/kaleidoscope/loop
+execute as @a[predicate=!stellarity:items/holding_kaleidoscope,scores={stellarity.items.kaleidoscope.charge=1..}] run scoreboard players reset @s stellarity.items.kaleidoscope.charge

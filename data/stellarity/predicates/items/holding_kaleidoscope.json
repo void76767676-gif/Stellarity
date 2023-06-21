@@ -9,9 +9,9 @@
 					"equipment": {
 						"mainhand": {
 							"items": [
-								"minecraft:iron_sword"
+								"minecraft:netherite_sword"
 							],
-							"nbt": "{stellarity.special_item:\"sariel\"}"
+							"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
 						}
 					}
 				}
@@ -23,9 +23,9 @@
 					"equipment": {
 						"offhand": {
 							"items": [
-								"minecraft:iron_sword"
+								"minecraft:netherite_sword"
 							],
-							"nbt": "{stellarity.special_item:\"sariel\"}"
+							"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
 						}
 					}
 				}
