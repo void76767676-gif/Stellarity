@@ -1,4 +1,4 @@
-scoreboard players set #damage stellarity.misc 200
+scoreboard players set #damage stellarity.misc 230
 
 scoreboard players set #armor_penetration stellarity.misc 0
 scoreboard players set #ignore_iframes stellarity.misc 1

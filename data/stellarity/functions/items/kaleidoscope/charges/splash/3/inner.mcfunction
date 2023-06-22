@@ -1,9 +1,5 @@
-scoreboard players operation #charge stellarity.misc = @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge
-
-scoreboard players set #damage stellarity.misc 120
-scoreboard players operation #damage stellarity.misc += #charge stellarity.misc
-scoreboard players set #2 stellarity.misc 2
-scoreboard players operation #damage stellarity.misc /= #2 stellarity.misc
+# Base discharge damage: 30
+scoreboard players set #damage stellarity.misc 210
 
 scoreboard players set #armor_penetration stellarity.misc 0
 scoreboard players set #ignore_iframes stellarity.misc 1

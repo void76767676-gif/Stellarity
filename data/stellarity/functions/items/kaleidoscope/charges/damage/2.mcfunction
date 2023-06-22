@@ -1,6 +1,4 @@
-scoreboard players operation #charge stellarity.misc = @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge
-
-scoreboard players set #damage stellarity.misc 40
+scoreboard players set #damage stellarity.misc 60
 scoreboard players operation #damage stellarity.misc += #charge stellarity.misc
 
 scoreboard players set #armor_penetration stellarity.misc 0
