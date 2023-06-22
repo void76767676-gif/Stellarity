@@ -4,7 +4,7 @@ scoreboard players operation #enchant stellarity.misc *= #mul stellarity.misc
 scoreboard players set #damage stellarity.misc 240
 scoreboard players operation #damage stellarity.misc += #enchant stellarity.misc
 
-scoreboard players set #armor_penetration stellarity.misc 33
+scoreboard players set #armor_penetration stellarity.misc 40
 scoreboard players set #ignore_iframes stellarity.misc 1
 scoreboard players set #damage_effects stellarity.misc 0
 scoreboard players set #damage_type stellarity.misc 3
