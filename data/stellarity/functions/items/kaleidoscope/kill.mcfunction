@@ -6,5 +6,3 @@ execute if score @s[advancements={stellarity:events/items/attack_with_kaleidosco
 
 advancement revoke @s only stellarity:events/items/kill_with_kaleidoscope
 
-scoreboard players reset @s stellarity.items.kaleidoscope.charge
-scoreboard players reset @s stellarity.items.kaleidoscope.sec
