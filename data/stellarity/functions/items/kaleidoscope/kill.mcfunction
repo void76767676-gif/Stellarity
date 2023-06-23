@@ -4,6 +4,7 @@ execute if score @s[advancements={stellarity:events/items/attack_with_kaleidosco
 execute if score @s[advancements={stellarity:events/items/attack_with_kaleidoscope=false}] stellarity.items.kaleidoscope.charge matches 66..99 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/kaleidoscope/charges/2
 execute if score @s[advancements={stellarity:events/items/attack_with_kaleidoscope=false}] stellarity.items.kaleidoscope.charge matches 100 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/kaleidoscope/charges/3
 
-scoreboard players reset @s stellarity.items.kaleidoscope.charge
-
 advancement revoke @s only stellarity:events/items/kill_with_kaleidoscope
+
+scoreboard players reset @s stellarity.items.kaleidoscope.charge
+scoreboard players reset @s stellarity.items.kaleidoscope.sec

@@ -61,6 +61,7 @@ scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy 
 scoreboard objectives add stellarity.items.stella.fire_stacks dummy "Stella Fire Stack Amount"
 
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy "Kaleidoscope Charge"
+scoreboard objectives add stellarity.items.kaleidoscope.sec dummy "Kaleidoscope Secondary"
 
 scoreboard objectives add stellarity.items.prismatic_pearl.cooldown dummy "Prismatic Pearl Cooldown"
 

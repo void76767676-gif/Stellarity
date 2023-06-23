@@ -8,3 +8,4 @@ tag @s add stellarity.items.kaleidoscope.cooldown
 schedule function stellarity:items/kaleidoscope/cooldown/schedule 1t append
 
 scoreboard players reset @s stellarity.items.kaleidoscope.charge
+scoreboard players reset @s stellarity.items.kaleidoscope.sec

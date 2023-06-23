@@ -65,4 +65,4 @@ execute as @a[predicate=!stellarity:items/holding_insignia,tag=stellarity.insign
 
 # Kaleidoscope
 execute as @a[predicate=stellarity:items/holding_kaleidoscope] run function stellarity:items/kaleidoscope/loop
-execute as @a[predicate=!stellarity:items/holding_kaleidoscope,scores={stellarity.items.kaleidoscope.charge=1..}] run scoreboard players reset @s stellarity.items.kaleidoscope.charge
+execute as @a[predicate=!stellarity:items/holding_kaleidoscope,scores={stellarity.items.kaleidoscope.charge=1..}] run function stellarity:items/kaleidoscope/reset_charge
