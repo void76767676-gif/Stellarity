@@ -15,21 +15,45 @@
 		],
 		"subtitle":"Endermite attacks"
 	},
+	"item.kaleidoscope.ready":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/ready_1",
+				"stellarity:item/kaleidoscope/ready_2",
+				"stellarity:item/kaleidoscope/ready_3",
+				"stellarity:item/kaleidoscope/ready_4",
+				"stellarity:item/kaleidoscope/ready_5"
+		]
+	},
+	"item.kaleidoscope.level_1":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_1_1",
+				"stellarity:item/kaleidoscope/level_1_2",
+				"stellarity:item/kaleidoscope/level_1_3"
+		]
+	},
+	"item.kaleidoscope.level_2":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_2_1",
+				"stellarity:item/kaleidoscope/level_2_2",
+				"stellarity:item/kaleidoscope/level_2_3"
+		]
+	},
+	"item.kaleidoscope.level_3":{
+		"sounds":[
+				"stellarity:item/kaleidoscope/level_3_1",
+				"stellarity:item/kaleidoscope/level_3_2",
+				"stellarity:item/kaleidoscope/level_3_3"
+		]
+	},
 	"item.tamaris.execute":{
 		"sounds":[
-			{
-				"name":"stellarity:item/tamaris/execute",
-				"volume":1
-			}
+			"stellarity:item/tamaris/execute"
 		],
 		"subtitle":"Tamaris executes"
 	},
 	"item.tamaris.execute_special":{
 		"sounds":[
-			{
-				"name":"stellarity:item/tamaris/execute_special",
-				"volume":1
-			}
+			"stellarity:item/tamaris/execute_special"
 		],
 		"subtitle":"kohy slays"
 	},
