@@ -14,6 +14,8 @@ execute if biome ~ ~ ~ far_end:the_nest run summon area_effect_cloud ~0.5 ~-0.5 
 execute if biome ~ ~ ~ far_end:void run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec"],Duration:1000}
 
 execute if biome ~ ~ ~ far_end:flesh_tundra run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec"],Duration:1000}
+execute if biome ~ ~ ~ stellarity:frosted_hills run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"instant_effect",Tags:["stellarity.void_fishing_aec"],Duration:1000}
+
 
 execute if biome ~ ~ ~ far_end:end_wilds run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec"],Duration:1000}
 execute if biome ~ ~ ~ far_end:ender_waste run summon area_effect_cloud ~0.5 ~-0.5 ~0.5 {Radius:2,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec"],Duration:1000}
