@@ -17,3 +17,5 @@ tag @s remove fe.deactivated.spawn_dragon
 execute store result entity @e[type=ender_dragon,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result entity @e[type=ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result bossbar fe:ender_dragon max run scoreboard players get #stellarity.config stellarity.config.dragon_health
+
+stopsound @a[predicate=stellarity:locations/in_dragons_den] music
