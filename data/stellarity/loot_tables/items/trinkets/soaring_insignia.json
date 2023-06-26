@@ -23,6 +23,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "stellarity.items.trinkets.soaring_insignia.description.1",
 									"fallback": "Grants infinite flight",

@@ -67,6 +67,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "stellarity.items.trinkets.duskberry.description.1",
 									"fallback": "Empowers your speed, sight",

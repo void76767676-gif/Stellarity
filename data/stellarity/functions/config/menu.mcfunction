@@ -1,4 +1,4 @@
-tellraw @s [{"text":"F","color":"#f100f1"},{"text":"o","color":"#eb00eb"},{"text":"k","color":"#e600e6"},{"text":"a","color":"#e000e0"},{"text":"S","color":"#db00db"},{"text":"t","color":"#d600d6"},{"text":"u","color":"#d000d0"},{"text":"d","color":"#cb00cb"},{"text":"i","color":"#c500c5"},{"text":"o","color":"#c000c0"},{"text":"'","color":"#bb00bb"},{"text":"s ","color":"#b500b5"},{"text":"E","color":"#b000b0"},{"text":"n","color":"#aa00aa"},{"text":"d","color":"#a500a5"},{"text":"e","color":"#a000a0"},{"text":"r ","color":"#9a009a"},{"text":"E","color":"#950095"},{"text":"x","color":"#8f008f"},{"text":"p","color":"#8a008a"},{"text":"a","color":"#850085"},{"text":"n","color":"#7f007f"},{"text":"s","color":"#7a007a"},{"text":"i","color":"#740074"},{"text":"o","color":"#6f006f"},{"text":"n","color":"#6a006a"},{"text":"'s","color":"white"}," ",{"text":"Configuration","color":"white"}]
+tellraw @s [{"text":"Stellarity","color":"#f100f1"}," ",{"text":"Configuration","color":"white"}]
 
 tellraw @s ["\n",{"text":"1","color":"green"},{"text":" stands for ","color":"white"},{"text":"Enabled","color":"green"},{"text":",\nwhile ","color":"white"},{"text":"0","color":"red"},{"text":" is ","color":"white"},{"text":"Disabled","color":"red"},"\n\n",{"text":"Click config entries' names to edit them","color":"white"}]
 
@@ -21,11 +21,10 @@ execute if score #stellarity.config stellarity.config.always_generate_egg matche
 execute if score #stellarity.config stellarity.config.always_generate_egg matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
 tellraw @s " "
 
-execute unless score #stellarity.is_fabric stellarity.misc matches 1 unless score #stellarity.is_forge stellarity.misc matches 1 run tellraw @s {"text":"Custom End Music","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "stellarity.config.custom_music","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"Disabled","color":"#FF7B7B"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #stellarity.config stellarity.config.custom_music "}}
-execute unless score #stellarity.is_fabric stellarity.misc matches 1 unless score #stellarity.is_forge stellarity.misc matches 1 run tellraw @s {"text":"Replaces default End Music with custom one. Requires a resource pack that I am still yet to make, so this setting is useless for now","color":"#C8ADD6"}
-execute unless score #stellarity.is_fabric stellarity.misc matches 1 unless score #stellarity.is_forge stellarity.misc matches 1 run execute if score #stellarity.config stellarity.config.custom_music matches 1 run tellraw @s {"text":"Enabled","color":"#91FF7B"}
-execute unless score #stellarity.is_fabric stellarity.misc matches 1 unless score #stellarity.is_forge stellarity.misc matches 1 run execute if score #stellarity.config stellarity.config.custom_music matches 0 run tellraw @s {"text":"Disabled","color":"#FF7B7B"}
-execute unless score #stellarity.is_fabric stellarity.misc matches 1 unless score #stellarity.is_forge stellarity.misc matches 1 run tellraw @s " "
+tellraw @s {"text":"Dragon Max Health","color":"#C076E5","hoverEvent": {"action": "show_text","contents": [{"text": "stellarity.config.dragon_health","color":"#DFDFDF"},"\n",{"text": "Click to edit","color":"#CEADD6"},"\n",{"text":"Default: ","color":"#C8ADD6"},{"text":"300","color":"#EEEEEE"}]},"clickEvent": {"action": "suggest_command","value": "/scoreboard players set #stellarity.config stellarity.config.dragon_health "}}
+tellraw @s {"text":"Changes maximum health of the Ender Dragon","color":"#C8ADD6"}
+tellraw @s [{"text":"Current Value: ","color": "#EEEEEE"},{"score":{"name": "#stellarity.config","objective": "stellarity.config.dragon_health"},"color": "#EEEEEE"}]
+tellraw @s " "
 
 tellraw @s " "
 tellraw @s " "

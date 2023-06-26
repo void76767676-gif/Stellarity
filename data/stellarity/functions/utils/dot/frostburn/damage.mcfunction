@@ -1,6 +1,6 @@
 scoreboard players operation #damage stellarity.misc = @s stellarity.dot.frostburn.damage
 
-scoreboard players set #mul stellarity.misc 3
+scoreboard players set #mul stellarity.misc 2
 
 execute if entity @s[type=#minecraft:freeze_hurts_extra_types] run scoreboard players operation #damage stellarity.misc *= #mul stellarity.misc
 

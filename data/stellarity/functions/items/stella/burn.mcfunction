@@ -1,4 +1,4 @@
-execute unless score @s stellarity.items.stella.fire_stacks matches 5.. run scoreboard players add @s stellarity.items.stella.fire_stacks 1
+execute unless score @s stellarity.items.stella.fire_stacks matches 4.. run scoreboard players add @s stellarity.items.stella.fire_stacks 1
 
 scoreboard players set #dot.damage stellarity.misc 15
 

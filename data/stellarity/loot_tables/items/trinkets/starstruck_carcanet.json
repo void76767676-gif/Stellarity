@@ -23,6 +23,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "stellarity.items.trinkets.starstruck_carcanet.description.1",
 									"fallback": "Stars fall when hurt, which ignore",

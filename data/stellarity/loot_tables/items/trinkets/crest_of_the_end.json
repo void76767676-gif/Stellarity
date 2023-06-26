@@ -61,6 +61,7 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								"",
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.1",
 									"fallback": "Blocking damage adds extra",
