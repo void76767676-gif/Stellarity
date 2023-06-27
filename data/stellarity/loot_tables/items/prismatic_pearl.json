@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.prismatic_pearl",
 								"fallback": "Prismatic Pearl",
-								"color": "magenta",
+								"color": "light_purple",
 								"italic": false
 							}
 						}

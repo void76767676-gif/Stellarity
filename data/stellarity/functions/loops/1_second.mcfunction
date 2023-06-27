@@ -2,8 +2,8 @@ execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=stellarity.aota_a
 
 execute as @e[type=item,predicate=stellarity:locations/biomes/in_the_hallow] at @s if block ~ ~ ~ water run function stellarity:mechanics/consecration/main
 
-execute in minecraft:overworld as @e[type=phantom,tag=!stellarity.phantom.aware,distance=0..] at @s run function stellarity:mobs/phantom/enlarge 
-execute as @e[type=phantom] unless score @s stellarity.phantom.size matches 1.. run scoreboard players set @s stellarity.phantom.size 1
+execute in minecraft:overworld as @e[type=phantom,tag=!stellarity.phantom.aware,distance=0..,nbt={Size:0}] at @s run function stellarity:mobs/phantom/enlarge 
+execute as @e[type=phantom] unless score @s stellarity.phantom.size matches 1.. run function stellarity:mobs/phantom/score
 
 execute as @e[type=marker,tag=stellarity.book_of_light.aura] at @s as @a[distance=..5.5] run function stellarity:items/spellbooks/light/effects
 

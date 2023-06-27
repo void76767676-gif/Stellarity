@@ -6,7 +6,7 @@ execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.bow,distance
 
 execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.enchanted_book,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_cursed_tome
 
-execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.wooden_sword,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_ancient_wooden_sword
+#execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.wooden_sword,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_ancient_wooden_sword
 
 execute if entity @e[type=item,tag=stellarity.altar_of_the_accursed.golden_sword,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.10_feathers,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.iron_sword,distance=..1.5] if entity @e[type=item,tag=stellarity.altar_of_the_accursed.6_sugar,distance=..1.5] run function stellarity:mechanics/altar_crafting/items/craft_zephyr
 

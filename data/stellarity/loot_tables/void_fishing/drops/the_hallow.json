@@ -12,13 +12,8 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 11,
+					"weight": 12,
 					"name": "stellarity:items/fish/crystal_heartfish"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"weight": 6,
-					"name": "stellarity:items/trinkets/duskberry"
 				},
 				{
 					"type": "minecraft:loot_table",

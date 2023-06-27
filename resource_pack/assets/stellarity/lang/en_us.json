@@ -1,11 +1,6 @@
 {
     "stellarity.advancement_grant_everything": "Don't use this command",
    
-    "stellarity.messages.load.fabric": "Fabric Mod Loader detected!\nActivating custom music in The End automatically!",
-    "stellarity.messages.load.forge": "Forge Mod Loader detected!\nActivating custom music in The End automatically!",
-    "stellarity.messages.load.spigot": "Spigot/Paper detected!\nAutomatically changing certain gamerules in The End!",
-    
-    "stellarity.messages.cmd.reset_config": "All configs were reset completely!",
     "stellarity.messages.cmd.reset_config_to_default": "All configs were reset to default!",
     "stellarity.messages.cmd.hard_reset_dragon": "Completely reset the Ender Dragon, witness the horror!",
     "stellarity.messages.cmd.kill_ender_dragon": "Succesfully slain the Ender Dragon, cheating for the win!",
@@ -16,7 +11,7 @@
     "stellarity.messages.cmd.generate_end_island_features.warning": "If they haven't generated automatically, this is a bug and has to be reported!",
     "stellarity.messages.cmd.get_ancient_armor": "Gave a full set of Ancient Armor",
     "stellarity.messages.cmd.get_hallowed_armor": "Gave a full set of Hallowed Armor",
-    "stellarity.messages.cmd.get_shulker_armor": "Gave a full set of Shulker Armor",
+    "stellarity.messages.cmd.get_blank": "Gave a full set of Shulker Armor",
     "stellarity.messages.cmd.get_random_head": "Gave a random 'Treasure Head', out of a total of 60",
 
     "stellarity.void_fishing.warning": "Something tells you you should fish higher...",
@@ -49,13 +44,13 @@
     "stellarity.items.armors.hallowed_armor.set_bonus.1": "Grants the ability to dodge attacks,",
     "stellarity.items.armors.hallowed_armor.set_bonus.2": "nullifying all damage and knockback",
 
-    "stellarity.items.armors.shulker_armor.helmet": "Shulker Mask",
-    "stellarity.items.armors.shulker_armor.chestplate": "Shulker Breastplate",
-    "stellarity.items.armors.shulker_armor.leggings": "Shulker Leggings",
-    "stellarity.items.armors.shulker_armor.boots": "Shulker Boots",
-    "stellarity.items.armors.shulker_armor.set_bonus.1": "Shulker Bullets will hunt down your attackers",
-    "stellarity.items.armors.shulker_armor.set_bonus.2": "Incoming damage reduced by 20%",
-    "stellarity.items.armors.shulker_armor.set_bonus.3": "Immunity to Levitation and Wither",
+    "stellarity.items.armors.blank.helmet": "Shulker Mask",
+    "stellarity.items.armors.blank.chestplate": "Shulker Breastplate",
+    "stellarity.items.armors.blank.leggings": "Shulker Leggings",
+    "stellarity.items.armors.blank.boots": "Shulker Boots",
+    "stellarity.items.armors.blank.set_bonus.1": "Shulker Bullets will hunt down your attackers",
+    "stellarity.items.armors.blank.set_bonus.2": "Incoming damage reduced by 20%",
+    "stellarity.items.armors.blank.set_bonus.3": "Immunity to Levitation and Wither",
 
     "stellarity.items.crates.place_down": "Place down and open!",
     "stellarity.items.crates.amethyst": "Amethyst Crate",
@@ -238,18 +233,126 @@
     "stellarity.items.prismatic_pearl": "Prismatic Pearl",
 
     "stellarity.items.cursed_tome": "Cursed Tome",
-    "stellarity.items.cursed_tome.discover_hint": "The more you discover, the more knowledge this book contains...",
+    "stellarity.items.cursed_tome.description.1": "Contains all the information",
+    "stellarity.items.cursed_tome.description.2": "about Stellarity items",
+    "stellarity.items.cursed_tome.description.flavor_text": "'Your miniature wiki!'",
+    "stellarity.items.cursed_tome.discover_hint": "The more you explore, the more knowledge this book will be filled with...",
     "stellarity.items.cursed_tome.not_discovered": "Not discovered yet.",
+    "stellarity.items.cursed_tome.obtaining":"     OBTAINING",
+    "stellarity.items.cursed_tome.ingredients":"    INGREDIENTS",
 
-    "stellarity.items.cursed_tome.chapter.items": "Items",
-    "stellarity.items.cursed_tome.chapter.items.center": "          ",
+    "stellarity.items.cursed_tome.entries.sharanga.center": "      ",
+    "stellarity.items.cursed_tome.entries.sharanga.description": "A sturdy mangrove Bow.\nIf Spectral Arrows are used as ammunition, it channels the light from them and diverts it into a powerful quick bolt of energy.",
+    "stellarity.items.cursed_tome.entries.sharanga.obtaining": "Rare drop from Illusioners in Strongholds.\nDrops paired with 7 - 22 Spectral Arrows.",
 
-    "stellarity.items.cursed_tome.entries.obtaining.crafted": "Crafted at the Altar of The Accursed.",
+    "stellarity.items.cursed_tome.entries.clockwork_crossbow.center": "",
+    "stellarity.items.cursed_tome.entries.clockwork_crossbow.description": "Just a Crossbow augmented with some cogs. They allow it to charge and shoot at ridiculous speed, altough sacrificing a large portion of damage.",
+    "stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Rare drop from Pillagers in Strongholds.",
 
-    "stellarity.items.cursed_tome.entries.shulker_armor.title": "Shulker Armor",
-    "stellarity.items.cursed_tome.entries.shulker_armor.center": "Shulker Armor",
-    "stellarity.items.cursed_tome.entries.shulker_armor.description": "Shulker Armor",
-    "stellarity.items.cursed_tome.entries.shulker_armor.obtaining.misc": "Shulker Armor",
+    "stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "",
+    "stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "The teleports of Ender Pearl are too chaotic for a human body to handle, causing it to take some damage. This book was made to streamline the chaotic magic into a pure warp, making it much safer to use.",
+    "stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Rare drop from Evokers in Strongholds.",
+
+    "stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
+    "stellarity.items.cursed_tome.entries.spellbooks.light.description": "Creates a small aura of divine light, which heals any player inside, cures ailments and grants damage reduction.",
+    "stellarity.items.cursed_tome.entries.spellbooks.light.obtaining": "Rare drop from Evokers in Strongholds.",
+
+    "stellarity.items.cursed_tome.entries.spellbooks.updraft.center": " ",
+    "stellarity.items.cursed_tome.entries.spellbooks.updraft.description": "Manufactured by the Enchanters from the high mountains with focus on making moving around easier. Pushes its user upwards and grants them ability to glide for a short while.",
+    "stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Rare drop from Evokers in Strongholds.",
+
+    "stellarity.items.cursed_tome.entries.tamaris.center": "       ",
+    "stellarity.items.cursed_tome.entries.tamaris.description": "Even the sword itself is falling under the decaying magic it holds inside.\nMakes hit enemies decay away, as well as gives its user the ability to perform a finishing strike whenever said mob is low on health.",
+    "stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% chance to be dropped by the Ender Dragon.",
+
+    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.center": "   ",
+    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.description": "An Amethyst Shard corrupted by the magic of The End.\nBoosts life regeneration while sneaking. Effect starts weak and grow stronger the longer the user is sneaking for.",
+    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.obtaining": "66% chance to be dropped by the Ender Dragon.",
+
+    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.center": " ",
+    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.description": "Enchanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
+    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.obtaining": "66% chance to be dropped by the Ender Dragon.",
+
+    "stellarity.items.cursed_tome.entries.dragonblade.center": "    ",
+    "stellarity.items.cursed_tome.entries.dragonblade.description": "Nobody knows what it is.\n\nNobody knows where it came from.\n\nNobody knows who made it.",
+    "stellarity.items.cursed_tome.entries.dragonblade.obtaining": "Spawns stuck in the Altar after killing the Ender Dragon.\n\nThere can be only one.",
+
+    "stellarity.items.cursed_tome.entries.shulker_armor.center": "   ",
+    "stellarity.items.cursed_tome.entries.shulker_armor.title": "Shulker Tools",
+    "stellarity.items.cursed_tome.entries.shulker_armor.description": "The mightiest and sturdiest of all the armor sets to have ever been forged.\nMakes its wearer almost invulnerable, as well as provides resistance to certain debuffs.",
+    "stellarity.items.cursed_tome.entries.shulker_armor.obtaining": "Crafted at the Altar of The Accursed.",
+    "stellarity.items.cursed_tome.entries.shulker_armor.misc": "Any piece of Netherite Armor",
+
+    "stellarity.items.cursed_tome.entries.shulker_tools.center": "   ",
+    "stellarity.items.cursed_tome.entries.shulker_tools.title": "Shulker Armor",
+    "stellarity.items.cursed_tome.entries.shulker_tools.description": "The fastest and strongest of all the tools to have ever been created.\nThose who hold them experience a sudden energy surge going through their body allowing them to dig and attack faster than usual.",
+    "stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Crafted at the Altar of The Accursed.",
+    "stellarity.items.cursed_tome.entries.shulker_tools.misc": "Any Netherite Tool",
+
+    "stellarity.items.cursed_tome.entries.sariel.center": "      ",
+    "stellarity.items.cursed_tome.entries.sariel.description": "This tiny dagger steals the light of anything it hits, using it to heal its user or any of their allies.",
+    "stellarity.items.cursed_tome.entries.sariel.obtaining": "Crafted at the Altar of The Accursed.",
+
+    "stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
+    "stellarity.items.cursed_tome.entries.sabrewing.description": "The name is extremely deceving.\nSabrewing can supercharge its shots to increase their power, making it devastating at long range.",
+    "stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Crafted at the Altar of The Accursed.",
+
+    "stellarity.items.cursed_tome.entries.pandoras_barrel.center": " ",
+    "stellarity.items.cursed_tome.entries.pandoras_barrel.description": "An attempt at making something from nothing.\nOpening it yields various loot and spawns random mobs, depending on biome.",
+    "stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Sometimes found in End Cities.\nAlso craftable at the Altar of The Accursed.",
+
+    "stellarity.items.cursed_tome.entries.ancient_armor.center": "    ",
+    "stellarity.items.cursed_tome.entries.ancient_armor.title": "Ancient Armor",
+    "stellarity.items.cursed_tome.entries.ancient_armor.description": "Blesses its user with Wrath of The Ancients, providing a rising damage multiplier which increases with every hit.",
+    "stellarity.items.cursed_tome.entries.ancient_armor.obtaining": "Crafted at the Altar of The Accursed with 5/8/7/4 Ancient Plating (for Helmet/Chestplate/Leggins/Boots respectively)\n\nAncient Plating can be found in Crates, End Cities and can be bought in End Villages.",
+
+    "stellarity.items.cursed_tome.entries.hallowed_armor.center": "   ",
+    "stellarity.items.cursed_tome.entries.hallowed_armor.title": "Hallowed Armor",
+    "stellarity.items.cursed_tome.entries.hallowed_armor.description": "The wearer of this sacred armor is said to be protected by the heaven itself, granting them the ability to completely ignore all damage for a short time.",
+    "stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Crafted at the Altar of The Accursed with 5/8/7/4 Hallowed Ingots (for Helmet/Chestplate/Leggins/Boots respectively)\n\nHallowed Ingots can be found in Crates, End Cities and can be bought in End Villages.",
+
+    "stellarity.items.cursed_tome.entries.spirit_dagger.center": "    ",
+    "stellarity.items.cursed_tome.entries.spirit_dagger.description": "This weapon won't work just by itself. If two are used simultaneously, attacks will sometimes attract lost Spirits. Wielder can consume them to warp to them and get various combat buffs for a short time.",
+    "stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Rare drop from Phantoms in the outer End.",
+
+    "stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
+    "stellarity.items.cursed_tome.entries.frigid_harvester.description": "The hard ice captures the spirit of defeated mobs, using them to increase its power.\nThe more it kills, the more damage it deals, combined with unlocking passive abilities.",
+    "stellarity.items.cursed_tome.entries.frigid_harvester.obtaining": "Drops from Strays found in Frosted Hills, which have a rare chance being equipped with it.\n\n10% chance to be found inside Frozen Crates.",
+
+    "stellarity.items.cursed_tome.entries.zephyr.center": "        ",
+    "stellarity.items.cursed_tome.entries.zephyr.description": "First ever item to be created by the Illagers using the magic of The End. Killing enemies gives a boost to movement speed, which increases in duration with more kills.",
+    "stellarity.items.cursed_tome.entries.zephyr.obtaining": "Sometimes found in End Cities in Top Towers.",
+
+    "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
+    "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Villagers' attempt at crafting magical items.\nThis book imbues itself with the energy of biomes its user explores, enchancing its abilities.",
+    "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Sometimes sold by Librarians in End Villages.",
+    
+    "stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "      ",
+    "stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Perhaps the most peculiar fruit The Hallow has ever given birth to. This cursed berry shares its magic with anyone who holds it, greatly empowering their senses and abilities.\nSaid to taste like bizmuth.",
+    "stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Found in End Ships in The Hallow at a very specific 57.14% chance.\n\nAlso found in Hallowed Crates at the exact same oddly specific chance.",
+    
+    "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "",
+    "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "Unlike typical carcanets, this one is held for some odd reason. Causes stars to fall nearby when hurt, dealing high damage to anything caught in their trajectory.",
+    "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "25% chance to be dropped by the Empress of Light.",
+    
+    "stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": "  ",
+    "stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "An emblem imbued with the fraction of Empress' power.\nGrants its wielder the ability to freely fly, as if gravity wasn't a thing.",
+    "stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Rare drop from the Empress of Light.\n\nGuaranteed to drop if killed in the Overworld during the day.",
+    
+    "stellarity.items.cursed_tome.entries.stella.center": "         ",
+    "stellarity.items.cursed_tome.entries.stella.description": "Made out of the purest of Hallow's crystals, filled with blazing energy. The more accurate hits are landend on one's enemy, the hotter the flames become.",
+    "stellarity.items.cursed_tome.entries.stella.obtaining": "25% chance to be dropped by the Empress of Light.",
+    
+    "stellarity.items.cursed_tome.entries.prismatic_pearl.center": "   ",
+    "stellarity.items.cursed_tome.entries.prismatic_pearl.description": "Ender Pearls exposed to the magic of The Hallow slowly lose their darkness. They have the ability to return to its thrower after a short period of time.",
+    "stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "25% chance to be dropped by the Empress of Light.",
+    
+    "stellarity.items.cursed_tome.entries.prismatic_punch.description": "An arbalest manufactured from crystallized Wood from Hallow's trees. Transforms all arrows into rainbow blasts which seek out and explode on impact.",
+    "stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "25% chance to be dropped by the Empress of Light.",
+    
+    "stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
+    "stellarity.items.cursed_tome.entries.kaleidoscope.description": "A greatsword of incredible power, which comes directly from the sun. Charges itself and releases the stored energy in a powerful discharge once swung.",
+    "stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Dropped by the Empress of Light, but only if killed in the Overworld in daytime.",
     
     "stellarity.advancements.blindfolded": "Blindfolded",
     "stellarity.advancements.blindfolded.description": "Enrage an Enderman by looking at it",

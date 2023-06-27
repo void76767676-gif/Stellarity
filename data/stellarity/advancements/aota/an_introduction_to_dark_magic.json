@@ -7,7 +7,7 @@
 		"title": {
 			"translate": "stellarity.advancements.aota_intro",
 			"fallback": "An Introduction to Dark Magic",
-            "color": "#E30000"
+            "color": "#8000B8"
 		},
 		"description": [
 			{
