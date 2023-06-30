@@ -12,3 +12,4 @@ jobs:
           data/
           pack.mcmeta
           pack.png
+          LICENSE
