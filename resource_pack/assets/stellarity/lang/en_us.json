@@ -20,6 +20,7 @@
 
     "stellarity.mobs.gloop": "Gloop",
     "stellarity.mobs.pixie": "Pixie",
+    "stellarity.mobs.empress": "Empress of Light",
     "stellarity.mobs.wandering_trader.mysterious_banner": "Mysterious Banner",
 
     "stellarity.items.special.donator": "Donator Item",
@@ -231,6 +232,7 @@
     "stellarity.items.pandoras_barrel.description.2": "Much friendlier mobs spawn while in a lit up area",
     "stellarity.items.pandoras_barrel.flavor_text": "'Get it? Because it is a barrel and not a box?'",
     "stellarity.items.prismatic_pearl": "Prismatic Pearl",
+    "stellarity.items.altar_of_light": "Altar of The Light",
 
     "stellarity.items.cursed_tome": "Cursed Tome",
     "stellarity.items.cursed_tome.description.1": "Contains all the information",
@@ -333,7 +335,7 @@
     
     "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "",
     "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "Unlike typical carcanets, this one is held for some odd reason. Causes stars to fall nearby when hurt, dealing high damage to anything caught in their trajectory.",
-    "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "25% chance to be dropped by the Empress of Light.",
+    "stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "33% chance to be dropped by the Empress of Light.",
     
     "stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": "  ",
     "stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "An emblem imbued with the fraction of Empress' power.\nGrants its wielder the ability to freely fly, as if gravity wasn't a thing.",
@@ -341,14 +343,14 @@
     
     "stellarity.items.cursed_tome.entries.stella.center": "         ",
     "stellarity.items.cursed_tome.entries.stella.description": "Made out of the purest of Hallow's crystals, filled with blazing energy. The more accurate hits are landend on one's enemy, the hotter the flames become.",
-    "stellarity.items.cursed_tome.entries.stella.obtaining": "25% chance to be dropped by the Empress of Light.",
+    "stellarity.items.cursed_tome.entries.stella.obtaining": "33% chance to be dropped by the Empress of Light.",
     
     "stellarity.items.cursed_tome.entries.prismatic_pearl.center": "   ",
     "stellarity.items.cursed_tome.entries.prismatic_pearl.description": "Ender Pearls exposed to the magic of The Hallow slowly lose their darkness. They have the ability to return to its thrower after a short period of time.",
-    "stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "25% chance to be dropped by the Empress of Light.",
+    "stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "33% chance to be dropped by the Empress of Light.",
     
     "stellarity.items.cursed_tome.entries.prismatic_punch.description": "An arbalest manufactured from crystallized Wood from Hallow's trees. Transforms all arrows into rainbow blasts which seek out and explode on impact.",
-    "stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "25% chance to be dropped by the Empress of Light.",
+    "stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "33% chance to be dropped by the Empress of Light.",
     
     "stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
     "stellarity.items.cursed_tome.entries.kaleidoscope.description": "A greatsword of incredible power, which comes directly from the sun. Charges itself and releases the stored energy in a powerful discharge once swung.",
@@ -407,7 +409,7 @@
     "stellarity.advancements.super_sonic": "Super Sonic",
     "stellarity.advancements.super_sonic.description": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s",
     "stellarity.advancements.treasure_room": "Treasure Room",
-    "stellarity.advancements.treasure_room.description": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 60?",
+    "stellarity.advancements.treasure_room.description": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 55?",
     "stellarity.advancements.open_chest_in_end_city": "Who's The Thief Now",
     "stellarity.advancements.open_chest_in_end_city.description": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now",
     "stellarity.advancements.ender_adventurer": "Timeless Traveler",
@@ -470,6 +472,13 @@
     "stellarity.advancements.transmute_item.description": "Transmute an item into a different item in the waters of The Hallow",
     "stellarity.advancements.kill_large_phantom": "Worsening Nightmares",
     "stellarity.advancements.kill_large_phantom.description": "Kill a Phantom that is bigger than normal",
+    "stellarity.advancements.headhunter": "Headhunter",
+    "stellarity.advancements.headhunter.description": "Find EVERY collectible Head",
+    "stellarity.advancements.headhunter.tip": "ᴛɪᴘ: ʏᴏᴜ ᴄᴀɴ ʀᴇ-ʀᴏʟʟ ᴅᴜᴘʟɪᴄᴀᴛᴇs ᴀᴛ ᴛʜᴇ ᴀʟᴛᴀʀ ᴏғ ᴛʜᴇ ʟɪɢʜᴛ",
+    "stellarity.advancements.summon_empress": "The Pristine Queen",
+    "stellarity.advancements.summon_empress.description": "Throw Pixie Dust onto Altar of The Light to summon Her Majesty",
+    "stellarity.advancements.fae_flayer": "Fae Flayer",
+    "stellarity.advancements.fae_flayer.description": "Move an Altar of The Light to the Overworld, then summon and kill the Empress during the day. Your reward shall be great",
 
     "stellarity.death_messages.example_cause": "%s died randomly due to an example of Stellarity's custom damage system",
     "stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom Boom",
