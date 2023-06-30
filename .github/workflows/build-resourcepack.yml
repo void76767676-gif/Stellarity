@@ -12,4 +12,3 @@ jobs:
           resource_pack/assets/
           resource_pack/pack.png
           resource_pack/pack.mcmeta
-          LICENSE
