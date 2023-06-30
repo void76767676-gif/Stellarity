@@ -22,5 +22,3 @@ execute if entity @s[tag=stellarity.eol.ethereal_lance.purple] run function stel
 execute if entity @s[tag=stellarity.eol.ethereal_lance.gold] run function stellarity:mobs/eol/attacks/code/ethereal_lance/models/gold
 
 execute if score @s stellarity.misc matches 61.. run kill @s
-
-execute positioned ^ ^-.5 ^ as @a[distance=..1.33,scores={stellarity.misc.invul_timer=0},gamemode=!spectator,gamemode=!creative] run function stellarity:mobs/eol/attacks/code/ethereal_lance/hurt

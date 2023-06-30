@@ -22,11 +22,10 @@ execute if score @s stellarity.eol.animation matches 101 run function stellarity
 execute if score @s stellarity.eol.animation matches 106 run particle explosion_emitter
 
 execute if score @s stellarity.eol.animation matches 101..145 as @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] at @s run tp @s ~ ~-0.033 ~
-execute if score @s stellarity.eol.animation matches 101..145 as @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] run effect give @s instant_health 1 2
 
 execute if entity @s[tag=stellarity.eol.nighttime] run function stellarity:mobs/eol/animations/spawn/flower/night
 execute if entity @s[tag=stellarity.eol.daytime] run function stellarity:mobs/eol/animations/spawn/flower/day
 
 execute if score @s stellarity.eol.animation matches 165 run data merge entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] {Invulnerable:0b}
-execute if score @s stellarity.eol.animation matches 165 run tag @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] add stellarity.eol.spawn_anim_finished
+execute if score @s stellarity.eol.animation matches 165 run tag @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] add stellarity.eol.can_attack
 execute if score @s stellarity.eol.animation matches 165 run kill @s

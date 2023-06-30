@@ -10,9 +10,9 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.treasure_room.description",
-			"fallback": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 60?"
+			"fallback": "Obtain a rare Treasure Head from a Chest in an End City. Can you find all 55?"
 		},
-		"frame": "challenge",
+		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true

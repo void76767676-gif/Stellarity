@@ -18,16 +18,18 @@ execute as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s
 execute store result score @s stellarity.eol.health run data get entity @s Health
 execute store result bossbar stellarity:eol value run scoreboard players get @s stellarity.eol.health
 
-# Phase 2
-## TRANSITION CHECK IS IN ATTACKS/LOOP!!!
-execute if entity @s[tag=stellarity.eol.phase_2_animation] run function stellarity:mobs/eol/animations/phase2/main
+execute store result score @s stellarity.eol.hurt_time run data get entity @s HurtTime
 
 # Death animation
-execute if score @s[tag=stellarity.eol.spawn_anim_finished] stellarity.eol.health matches 1 run say 1 health
-
-# Hurt animation
-execute if data entity @s {HurtTime:9s} as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/hurt
-execute if data entity @s {HurtTime:1s} as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/normal
+execute if score @s[tag=stellarity.eol.can_attack] stellarity.eol.health matches 1 run function stellarity:mobs/eol/animations/death/start
+execute if entity @s[tag=stellarity.eol.death_animation] run function stellarity:mobs/eol/animations/death/main
 
 # Attacks
-execute if entity @s[tag=stellarity.eol.spawn_anim_finished] run function stellarity:mobs/eol/attacks/loop
+execute if entity @s[tag=stellarity.eol.can_attack] run function stellarity:mobs/eol/attacks/loop
+
+scoreboard players add #ambient stellarity.misc 1
+execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.vex.ambient hostile @a ~ ~ ~ 2.2 1
+execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.allay.ambient_without_item hostile @a ~ ~ ~ 2.2 1
+execute if score #ambient stellarity.misc matches 200 run scoreboard players reset #ambient stellarity.misc
+
+execute unless entity @a[distance=..60] run function stellarity:mobs/eol/core/despawn

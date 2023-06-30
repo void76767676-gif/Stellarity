@@ -1,2 +1,3 @@
 tp @s ^ ^ ^1
-particle electric_spark ~ ~ ~ .11 .11 .11 0 3 normal
+
+execute positioned ^ ^-.5 ^ as @a[distance=..1.33,nbt={HurtTime:0s}] run function stellarity:mobs/eol/attacks/code/ethereal_lance/damage

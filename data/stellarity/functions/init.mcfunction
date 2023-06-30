@@ -76,6 +76,7 @@ scoreboard objectives add stellarity.items.flask_of_frost.duration dummy
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy
 scoreboard objectives add stellarity.eol.health dummy
+scoreboard objectives add stellarity.eol.hurt_time dummy
 scoreboard objectives add stellarity.eol.attack_cycle dummy
 scoreboard objectives add stellarity.eol.attack_duration dummy
 scoreboard objectives add stellarity.eol.attack_cooldown dummy
@@ -139,7 +140,7 @@ bossbar add stellarity:eol {"text":"Empress of Light","color":"pink"}
 bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players
-bossbar set stellarity:eol max 800
+bossbar set stellarity:eol max 500
 bossbar set stellarity:eol style notched_10
 
 # Scheduling loops that do not need

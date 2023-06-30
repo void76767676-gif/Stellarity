@@ -1,4 +1,5 @@
-execute if score @s[tag=stellarity.eol.spawn_anim_finished,tag=!stellarity.eol.phase_2_animation_finished,tag=!stellarity.eol.phase_2_animation] stellarity.eol.health matches ..400 run tag @s add stellarity.eol.phase_2_animation
+execute if score @s stellarity.eol.health matches ..250 run function stellarity:mobs/eol/attacks/decide/phase_2_transition
 
-tag @s[scores={stellarity.eol.health=401..},tag=stellarity.eol.phase_1] add stellarity.eol.attack_ready
-tag @s[tag=stellarity.eol.phase_2] add stellarity.eol.attack_ready
+# I don't exactly remember what this was supposed to be for
+# but deleting this line disables the boss entirely
+tag @s[scores={stellarity.eol.health=251..}] add stellarity.eol.attack_ready

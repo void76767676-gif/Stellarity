@@ -1,7 +1,0 @@
-{
-	"criteria": {
-		"kill_eol": {
-			"trigger": "minecraft:impossible"
-		}
-	}
-}

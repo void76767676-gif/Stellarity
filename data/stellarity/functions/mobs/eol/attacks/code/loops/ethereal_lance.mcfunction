@@ -1,6 +1,6 @@
 scoreboard players add @s stellarity.eol.attack_duration 1
 
-execute facing entity @p eyes run tp @s ^ ^ ^0.05
+execute facing entity @p eyes run tp @s ^ ^ ^0.023
 
 # Type 1
 execute if score #ethereal_lance.type stellarity.misc matches 1 if score @s stellarity.eol.attack_duration matches 3 at @a[distance=..40] run function stellarity:mobs/eol/attacks/code/ethereal_lance/pick_point
@@ -41,5 +41,5 @@ execute if score #ethereal_lance.type stellarity.misc matches 3 if score @s stel
 execute if score #ethereal_lance.type stellarity.misc matches 3 if score @s stellarity.eol.attack_duration matches 54 at @a[distance=..40] run function stellarity:mobs/eol/attacks/code/ethereal_lance/pick_point
 
 
-execute if score @s stellarity.eol.attack_duration matches 62.. run tag @s remove stellarity.eol.face_player
-execute if score @s stellarity.eol.attack_duration matches 62.. run tag @s remove stellarity.eol.ethereal_lance
+execute if score @s stellarity.eol.attack_duration matches 55.. run tag @s remove stellarity.eol.face_player
+execute if score @s stellarity.eol.attack_duration matches 55.. run tag @s remove stellarity.eol.ethereal_lance

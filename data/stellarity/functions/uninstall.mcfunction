@@ -45,6 +45,7 @@ scoreboard objectives remove stellarity.items.tamaris.execute_cooldown
 scoreboard objectives remove stellarity.items.flask_of_frost.duration
 scoreboard objectives remove stellarity.eol.animation
 scoreboard objectives remove stellarity.eol.health
+scoreboard objectives remove stellarity.eol.hurt_time
 scoreboard objectives remove stellarity.eol.attack_cycle
 scoreboard objectives remove stellarity.eol.attack_duration
 scoreboard objectives remove stellarity.eol.attack_cooldown

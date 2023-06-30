@@ -1,5 +1,11 @@
 tag @s add stellarity.eol.nighttime
 
-data merge entity @s {CustomName:'[{"text":"E","color":"light_purple"},{"text":"m","color":"#fe4afe"},{"text":"p","color":"#fe55fe"},{"text":"r","color":"#fe60fe"},{"text":"e","color":"#fe6bfe"},{"text":"s","color":"#fe77fe"},{"text":"s ","color":"#fe82fe"},{"text":"o","color":"#fe8dfe"},{"text":"f ","color":"#fe98fe"},{"text":"L","color":"#fea4fe"},{"text":"i","color":"#feaffe"},{"text":"g","color":"#febafe"},{"text":"h","color":"#fec5fe"},{"text":"t","color":"#ffd1ff"}]'}
+data merge entity @s {CustomName:'{"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"light_purple"}'}
+
 bossbar set stellarity:eol color pink
-bossbar set stellarity:eol name [{"text":"E","color":"light_purple"},{"text":"m","color":"#fe4afe"},{"text":"p","color":"#fe55fe"},{"text":"r","color":"#fe60fe"},{"text":"e","color":"#fe6bfe"},{"text":"s","color":"#fe77fe"},{"text":"s ","color":"#fe82fe"},{"text":"o","color":"#fe8dfe"},{"text":"f ","color":"#fe98fe"},{"text":"L","color":"#fea4fe"},{"text":"i","color":"#feaffe"},{"text":"g","color":"#febafe"},{"text":"h","color":"#fec5fe"},{"text":"t","color":"#ffd1ff"}]
+bossbar set stellarity:eol name [{"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"light_purple"}]
+
+execute if score @s stellarity.eol.hurt_time matches 9 as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/hurt
+execute if score @s stellarity.eol.hurt_time matches 0 as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/normal
+
+tag @s[tag=eol.full_daytime] remove eol.full_daytime

@@ -1,6 +1,9 @@
 tag @s add stellarity.eol.daytime
 
-data merge entity @s {CustomName:'[{"text":"E","color":"yellow"},{"text":"m","color":"#fefd4a"},{"text":"p","color":"#fefd55"},{"text":"r","color":"#fefc60"},{"text":"e","color":"#fefc6b"},{"text":"s","color":"#fefb77"},{"text":"s ","color":"#fefb82"},{"text":"o","color":"#fefa8d"},{"text":"f ","color":"#fefa98"},{"text":"L","color":"#fef9a4"},{"text":"i","color":"#fef9af"},{"text":"g","color":"#fef8ba"},{"text":"h","color":"#fef8c5"},{"text":"t","color":"#fff8d1"}]'}
+data merge entity @s {CustomName:'{"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"yellow"}'}
 
 bossbar set stellarity:eol color yellow
-bossbar set stellarity:eol name [{"text":"E","color":"yellow"},{"text":"m","color":"#fefd4a"},{"text":"p","color":"#fefd55"},{"text":"r","color":"#fefc60"},{"text":"e","color":"#fefc6b"},{"text":"s","color":"#fefb77"},{"text":"s ","color":"#fefb82"},{"text":"o","color":"#fefa8d"},{"text":"f ","color":"#fefa98"},{"text":"L","color":"#fef9a4"},{"text":"i","color":"#fef9af"},{"text":"g","color":"#fef8ba"},{"text":"h","color":"#fef8c5"},{"text":"t","color":"#fff8d1"}]
+bossbar set stellarity:eol name {"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"yellow"}
+
+execute if score @s stellarity.eol.hurt_time matches 9 as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/hurt
+execute if score @s stellarity.eol.hurt_time matches 0 as @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as] at @s run function stellarity:mobs/eol/core/model/daytime
