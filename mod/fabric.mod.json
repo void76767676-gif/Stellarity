@@ -1,33 +1,20 @@
 {
-	"schemaVersion": 1,
-	"id": "stellarity",
-	"version": "1.6a",
-	"name": "Stellarity",
-	"description": "Harder End, new biomes, items and more!",
-	"authors": [
+	"schemaVersion":1,
+	"id":"mr_stellarity",
+	"version":"2.0a",
+	"name":"Stellarity",
+	"description":"Extreme ender expansions! Adds 10+ new biomes, 15+ new items and 1 new boss, all to make End a more meaningful dimension.",
+	"authors":[
 		"kohara"
 	],
-	"contact": {
-		"homepage": "https://kohara.github.io/Stellarity",
-		"sources": "https://github.com/kohy-creates/Stellarity",
-		"issues": "https://discord.gg/J6guYAySN"
-	  },
-	"license": "All Rights Reserved",
-	"icon": "pack.png",
-	"environment": "*",
-	"entrypoints": {},
-	"mixins": [],
-	"depends": {
-		"fabricloader": ">=0.12.7",
-		"fabric-api-base": "*",
-		"minecraft": ">=1.19"
+	"contact":{
+		"homepage":"https://modrinth.com/datapack/stellarity",
+		"sources":"https://github.com/kohy-creates/Stellarity"
 	},
-	"custom": {
-		"modmenu": {
-			"links": {
-				"modmenu.discord": "https://discord.gg/J6guYAySN8",
-				"PlanetMinecraft": "https://www.planetminecraft.com/data-pack/fokastudio-s-ender-expansion/"
-			}
-		}
+	"license":"LicenseRef-",
+	"icon":"pack.png",
+	"environment":"*",
+	"depends":{
+		"fabric-resource-loader-v0":"*"
 	}
 }
