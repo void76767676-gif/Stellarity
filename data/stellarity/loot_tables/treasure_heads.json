@@ -376,7 +376,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:18,stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.head_id:18,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -397,7 +397,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:19,stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.head_id:19,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -423,7 +423,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:20,stellarity.special_item:\"treasure_head\",SkullOwner:\"Phoenix_Playz_YT\"}"
+							"tag": "{stellarity.head_id:20,stellarity.special_item:\"treasure_head\",SkullOwner:\"p_yt\"}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -574,7 +574,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.head_id:25,stellarity.special_item:\"treasure_head\",SkullOwner:\"Obtrudes\"}"
+							"tag": "{stellarity.head_id:25,stellarity.special_item:\"treasure_head\",SkullOwner:\"cclack\"}"
 						},
 						{
 							"function": "minecraft:set_lore",

@@ -1,7 +1,16 @@
 # :sparkles: Stellarity Wiki :sparkles:
+
 ----------
 
-![alt](assets/backgrounds/dragons_den_alt.png){ width=100% style="border: 3px solid whitesmoke; border-radius: 1px" }
+
+!!! danger "Warning!"
+
+    Stellarity wiki is still work in progress!
+
+
+----------
+
+![alt](assets/backgrounds/dragons_den_alt.png){ width=100% style="border: 3px solid whitesmoke; border-radius: 1px, image-rendering: pixelated;" }
 
 ----------
 
@@ -18,11 +27,3 @@ Stellarity has started as a direct port of [Far End](https://www.planetminecraft
 **And here we are today**, 5 major updates of the pack later! It is now <u>NOTHING</u> like its older brother Far End, not even one file was left as it used to be!
 
 *And yeah, the pack is so large now that I actually had to setup a wiki.*
-
-<br><br>
-
---------
-
-!!! danger "Warning!"
-
-    This wiki contains info relevant to **latest developer version of Stellarity**, meaning it doesn't necessarily add up to what is in Stable release!

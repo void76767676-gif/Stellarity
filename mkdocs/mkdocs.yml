@@ -12,8 +12,8 @@ nav:
     - Installation: installation.md
     - Downloads: downloads.md
     - Troubleshooting: troubleshooting.md
-  #- Biomes: 
-  #  - The Hallow: biomes/the_hallow.md
+  - Biomes: 
+    - The Hallow: biomes/the_hallow.md
   - Items:
     - Weapons: 
       - Sharanga: items/sharanga.md
@@ -25,9 +25,7 @@ nav:
       - Sabrewing: items/sabrewing.md
       - Spirit Dagger: items/spirit_dagger.md
       - Tamaris: items/tamaris.md
-      - Frigid Harvester: items/frigid_harvester.md
-    - Tools:
-      - Shulker Tools: items/tools/shulker_tools.md
+      - Frigid Harvester: items/frigid_harvester.md     
     - Armor sets:
       - Ancient Armor: items/armor/ancient_armor.md
       - Hallowed Armor: items/armor/hallowed_armor.md
@@ -45,24 +43,18 @@ nav:
       - Book of Conveyance: items/spellbooks/conveyance.md
       - Book of Updraft: items/spellbooks/updraft.md
       - Book of Light: items/spellbooks/light.md
-  #    - Nature's Wrath: items/spellbooks/natures_wrath.md
+      - Nature's Wrath: items/spellbooks/natures_wrath.md
     - Other:
       - Prismatic Pearl: items/other/prismatic_pearl.md
+      - Shulker Tools: items/tools/shulker_tools.md
   #    - Pandora's Barrel: items/other/pandoras_barrel.md
   #    - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
   #    - Cursed Tome: items/other/cursed_tome.md
   #    - Potions: items/other/potions.md
-  #- Mechanics:
-  #    - mechanics/index.md
-  #    - Treasure Heads: mechanics/treasure_heads.md
-  #    - Void Fishing: mechanics/void_fishing.md
-  #    - Other: mechanics/other.md
-  #- Resource Pack:
-  #    - resource_pack/index.md
-  #    - Tweaks: resource_pack/tweaks.md
-  #    - End Poem: resource_pack/poem.md
-  #    - Credits Screen: resource_pack/credits.md
-  #    - Splashes: resource_pack/splashes.md
+  - Mechanics:
+      - Treasure Heads: mechanics/treasure_heads.md
+      - Void Fishing: mechanics/void_fishing.md
+      - Other: mechanics/other.md
 
 markdown_extensions:
   - extra
@@ -112,7 +104,7 @@ plugins:
       minify_html: true
   - redirects:
       redirect_maps:
-          'downloads.md': 'http://kohy-creates.github.io/Stellarity/downloads.html'
+          'downloads.md': 'https://modrinth.com/datapack/stellarity'
 
 theme:
   name: material
@@ -135,32 +127,32 @@ theme:
     - scheme: hallow
       toggle:
         icon: material/brightness-4
-        name: Switch to test mode
+        name: Switch themes
 
     - scheme: den
       toggle:
         icon: material/brightness-7 
-        name: Switch to dark mode
+        name: Switch themes
     
     - scheme: amethyst
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch themes
     
     - scheme: prismarine
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch themes
     
     - scheme: barrens
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch themes
     
     - scheme: flesh
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch themes
   
   favicon: assets/logo.png
   logo: assets/text.png

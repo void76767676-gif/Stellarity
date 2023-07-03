@@ -51,7 +51,7 @@
 </div>
 
 ## Obtaining
-Prismatic Punch is dropped by the Empress of Light.
+Prismatic Punch is dropped by the [Empress of Light]() if killed during the night.
 
 ## Usage
 Prismatic Punch transforms any shot Arrow into a powerful Prismatic Blast. They are slow and deccelerate over a timespan of 20 seconds until detonating. They can also bounce off walls.
@@ -65,7 +65,7 @@ Multishot enchantment causes 3 different-colored blasts to be shot in a 50° con
 ### Prismatic Inferno
 All explosions inflict new damage over time effect known as Prismatic Inferno, which acts as an upgraded version of Flame Enchantment, dealing twice the damage while lasting for the same duration.
 
-Prismatic Inferno lasts for 5 seconds, dealing 2:heart: damage every second for a total of 10:heart::heart::heart::heart::heart: damage.
+Prismatic Inferno lasts for 3 seconds, dealing 1:heart: х ₀.₇₅ damage every second.
 
 ## Tips 
 - Use regular Arrows with this weapon, since it converts ALL ammo into Blasts. Using Spectral/Tipped Arrows is a waste of ammo.
@@ -74,10 +74,12 @@ Prismatic Inferno lasts for 5 seconds, dealing 2:heart: damage every second for 
 - Prismatic Blasts do not home onto players in PvP, but they can still hurt them if a player happened to step into them.
     - This also means they can hurt you if you are not careful enough!
 - Explosions from Prismatic Punch ignore invulnerability frames.
-- Prismatic Blasts will home on, but not damage the [Ender Dragon](../mobs/bosses/ender_dragon.md) or End Crystals.
+    - This means that:
+        - Multishot can deal much more damage if all blasts target the same mob.
+        - Different chain explosions from Piercing can damage the same mob, increasing or outright multiplying the damage if they were to be close to each other.
 
 ## Trivia
-- This is first Developer Item to get added into Stellarity.
+- This is first Developer Item to have been added into Stellarity.
 - This is the second Crossbow to get added, first being the [Clockwork Crossbow](clockwork_crossbow.md).
 - According to one of Ender Expansion's texture artists - YaGirlGiulles - the color palette is based on trans pride flag[^1].
     - They are also a reference to colors of [Last Prism](https://terraria.wiki.gg/wiki/Last_Prism), a Terraria item.
@@ -87,4 +89,4 @@ Prismatic Inferno lasts for 5 seconds, dealing 2:heart: damage every second for 
 - **2.0a**
     - Introduced
 
-[^1]: [YaGirlGiulles original message](https://canary.discord.com/channels/727033287343734885/727033287666696209/1035208257188397086)
+[^1]: [YaGirlGiulles original message](https://discord.com/channels/727033287343734885/727033287666696209/1035208257188397086)

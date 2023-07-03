@@ -2,8 +2,8 @@
 >
 > This feature is dedicated to FokaStudio (*Developer*)
 
-<div class="result foka-infobox-grid" markdown>
-<div markdown class="foka-infobox-text">
+<div class="result kohara-infobox-grid" markdown>
+<div markdown class="kohara-infobox-text">
 **Frigid Harvester** is a post-Dragon greatsword which permanently increases its dealt damage after killing a mob while also unlocking passive abilities.
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> Frigid Harvester can be enchanted with any Sword enchantment.
@@ -73,9 +73,9 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 ### Passive Abilities
 
 - **Chill** - **unlocked at +3 damage**; 20% chance per hit to apply Slowness I for 3 seconds to hit mob.
-- **Frostburn** - **unlocked at +6 damage**; 25% chance per hit to apply Frostburn, dealing 2:heart:[^3] damage every second for 4 seconds.
+- **Frostburn** - **unlocked at +6 damage**; 25% chance per hit to apply Frostburn, dealing 1.5:heart: х ₀.₇₅[^3] damage every second for 3 seconds.
 - **Chill II** - **unlocked at +9 damage**; chance per hit increased to 33%, duration increased to 4 seconds and now also inflicts Weakness I.
-- **Frostburn II** - **unlocked at +9 damage**; chance per hit increased to 50%, duration increased to 8 seconds.
+- **Frostburn II** - **unlocked at +9 damage**; chance per hit increased to 50%, duration increased to 5 seconds.
 
 | Extra Damage Amount | Mobs | Tag File |
 | :--- | :--- | :--- |
@@ -110,4 +110,4 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 
 [^1]: [Aery kit](https://robloxbedwars.fandom.com/wiki/Aery) on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)
-[^3]: Mobs which take extra damage from freezing take 5x the damage.
+[^3]: Mobs which take extra damage from freezing take double damage.

@@ -1,7 +1,7 @@
 # Starstruck Carcanet
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Starstruck Carcanet** is a utility spellbook which casts a slow moving spark on use, which teleports player to the first block it hits.
+**Starstruck Carcanet** is a utility trinket which causes 3 stars to fall nearby when hurt. Stars explode upon contact with ground and deal damage in an area of effect.
 
 [TOC]
 
@@ -9,7 +9,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/starstruck_carcanet.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>

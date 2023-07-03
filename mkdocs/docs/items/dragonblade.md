@@ -25,7 +25,7 @@
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Slow (1.1)</td>
+		<td>Slow (1.25)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -53,7 +53,7 @@ Only one Dragonblade generates on each world, making it the rarest item in the e
 ## Usage
 Hitting enemies inflicts *'Dragon Stacks'*. The amount of Stacks an enemy has at the given moment is represented by a purple sphere above their head - brighter color is equal to more stacks. After hitting a mob 3 times, a player can sneak to trigger a powerful punch. Stacks are reset after 16 seconds have passed without either a punch or another attack.
 
-Punching warps affected entity by 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores a third of enemy armor, meaning that higher defense and enchantments will not protect from the damage as much as they would regularly do.
+Punching warps affected entity by 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores 40% of enemy armor, meaning that higher defense and enchantments will not reduce the damage as much as they would regularly do.
 
 Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stuns make mobs completely unable to move. Immobilization doesn't prevent jumping and fall damage.
 
@@ -61,16 +61,17 @@ If an enemy is punched into blocks, the damage is boosted to 24:heart: x ₁₂.
 
 Each level of **Knockback enchantment** enchances punch distance by 1.1 blocks while also increasing the damage. The increase per level is +1.5, +4 and +1.5 for regular, wall and splash type damage respectively.
 
-Punched mobs cannot have stacks applied to them for the next 9.5 seconds, indicated by a cloud of dust above their head.
+Punched mobs cannot have stacks applied to them for the next 8 seconds, indicated by a cloud of dust above their head.
 
 Punches deal explosion damage, meaning that **Blast Protection enchantment** is going to be more efficient at blocking it.
 
 ## Tips
 - Dragonblade is extremely slow compared to other weapons, meaning that accuracy is of high importance.
-- Ranged weapons will not apply Dragon Stacks, meaning that direct melee hits are the only option for using it as efficiently as possible.
-- Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 33% of enemy defense, meaning it doesn't get reduced as much.
-- As Dragonblade is unbreakable, enchanting it with either Unbreaking or Mending is redundant.
-- Punch damage cannot be increased by any bonuses like Strength Potions or [Ancient Armor](armor/ancient_armor.md)
+- Only direct melee hits are the only option for using it as efficiently as possible.
+    - Due to how Dragonblade works, enchanting it with Sweeping Edge allows it to apply Stacks to multiple enemies at once with the sweep attack.
+- Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 40% of enemy defense, meaning it doesn't get reduced as much.
+- As Dragonblade is unbreakable, enchanting it with Unbreaking or Mending is redundant. Don't bother wasting your Enchanted Books.
+- Punch damage cannot be increased by any bonuses, e.g. Strength Potions.
 - In PvP, it might be a good idea to use a Blast Protection armor set if going against someone with the Dragonblade as even with Knockback II wall punch, the enchantment can reduce the damage to almost nothing.
 
 ## Trivia
@@ -100,7 +101,7 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 - **2.0a**
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
 	- Base damage reduced (8 -> 6)
-	- Attack speed reduced (1.6 -> 1.1)
+	- Attack speed reduced (1.6 -> 1.25)
 	- Now spawns after defeating the Ender Dragon.
 	- Now unbreakable.
 
