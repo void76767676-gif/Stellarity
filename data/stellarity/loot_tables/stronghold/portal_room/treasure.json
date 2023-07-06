@@ -3,11 +3,7 @@
 	"pools": [
 		{
 			"rolls": 5,
-			"bonus_rolls": {
-				"type": "minecraft:binomial",
-				"n": 1,
-				"p": 0.25
-			},
+			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:item",
