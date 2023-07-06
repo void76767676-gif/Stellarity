@@ -79,4 +79,7 @@ execute if entity @s[nbt={Item:{id:"minecraft:soul_campfire"}}] run tag @s add s
 execute if entity @s[nbt={Item:{id:"minecraft:glowstone"}}] run tag @s add stellarity.consecration.glowstone
 execute if entity @s[nbt={Item:{id:"minecraft:shroomlight"}}] run tag @s add stellarity.consecration.shroomlight
 
+execute if entity @s[nbt={Item:{id:"minecraft:enchanted_golden_apple"}}] run tag @s add stellarity.consecration.enchanted_golden_apple
+
+
 tag @s add stellarity.consecration.tagged

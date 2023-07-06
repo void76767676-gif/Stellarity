@@ -34,3 +34,4 @@ execute if entity @s[tag=stellarity.consecration.soul_campfire] run function ste
 execute if entity @s[tag=stellarity.consecration.glowstone] run function stellarity:mechanics/consecration/drops/conversions/glowstone
 execute if entity @s[tag=stellarity.consecration.shroomlight] run function stellarity:mechanics/consecration/drops/conversions/shroomlight
 execute if entity @s[tag=stellarity.consecration.iron_block] run function stellarity:mechanics/consecration/drops/conversions/iron_block
+execute if entity @s[tag=stellarity.consecration.enchanted_golden_apple] run function stellarity:mechanics/consecration/drops/conversions/enchanted_golden_apple
