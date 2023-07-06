@@ -13,13 +13,26 @@
 							"name": {
 								"translate": "stellarity.items.materials.hallowed_ingot",
 								"fallback": "Hallowed Ingot",
-								"color": "D9E3ED",
+								"color": "#D9E3ED",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{stellarity.special_item:\"hallowed_ingot\",CustomModelData:90000}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.materials.for_alta",
+									"fallback": "For use with the Altar of The Accursed",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
 						}
 					]
 				}

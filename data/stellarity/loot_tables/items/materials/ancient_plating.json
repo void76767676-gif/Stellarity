@@ -20,6 +20,19 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{stellarity.special_item:\"ancient_plating\",CustomModelData:90001}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.materials.for_alta",
+									"fallback": "For use with the Altar of The Accursed",
+									"color": "#EEEEEE",
+									"italic": false
+								}
+							]
 						}
 					]
 				}
