@@ -1,6 +1,6 @@
 ## Hallow Mobs
 # Pixies
-execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!stellarity.pixie,tag=!stellarity.aware] at @s run function stellarity:mobs/pixie/vex_to_pixie
+execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!stellarity.pixie,tag=!stellarity.aware] at @s run function stellarity:mobs/pixie/check
 
 # Slay Queen ✨✨✨✨✨
 # (Empress of Light)
