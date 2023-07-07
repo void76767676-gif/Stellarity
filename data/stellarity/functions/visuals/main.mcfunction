@@ -6,4 +6,5 @@ execute as @e[type=marker,tag=stellarity.altar_of_the_light] at @s run function 
 
 # Soul escape animation check triggers every 5 seconds
 
-execute as @e[type=#stellarity:eye_and_pearl,tag=!stellarity.prismatic_pearl] at @s run function stellarity:visuals/eye_and_pearl
+execute as @e[type=minecraft:ender_pearl,tag=!stellarity.prismatic_pearl] at @s run particle witch ~ ~ ~ .1 .1 .1 0.1 2 force
+execute as @e[type=minecraft:eye_of_ender] at @s run function stellarity:visuals/eye_of_ender
