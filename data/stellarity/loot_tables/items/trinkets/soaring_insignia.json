@@ -35,6 +35,12 @@
 									"fallback": "with fairly limited agility",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.soaring_insignia.description.3",
+									"fallback": "Sneak and look up/down to adjust height",
+									"color": "#EEEEEE",
+									"italic": false
 								}
 							],
 							"replace": false
