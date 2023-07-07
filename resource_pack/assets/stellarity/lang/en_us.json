@@ -79,6 +79,7 @@
 
     "stellarity.items.materials.ancient_plating": "Ancient Plating",
     "stellarity.items.materials.hallowed_ingot": "Hallowed Ingot",
+    "stellarity.items.materials.for_altar": "For use with the Altar of The Accursed",
     "stellarity.items.materials.pixie_dust": "Pixie Dust",
     "stellarity.items.materials.pixie_dust.flavor_text": "'May contain Fairy'",
 
@@ -163,6 +164,7 @@
     "stellarity.items.trinkets.soaring_insignia": "Soaring Insignia",
     "stellarity.items.trinkets.soaring_insignia.description.1": "Grants infinite flight",
     "stellarity.items.trinkets.soaring_insignia.description.2": "with fairly limited agility",
+    "stellarity.items.trinkets.soaring_insignia.description.3": "Sneak and look up/down to adjust height",
 
     "stellarity.items.weapons.ancient_wooden_sword": "Ancient Wooden Sword",
     "stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, embrace Indev'",
@@ -479,6 +481,8 @@
     "stellarity.advancements.summon_empress.description": "Throw Pixie Dust onto Altar of The Light to summon Her Majesty",
     "stellarity.advancements.fae_flayer": "Fae Flayer",
     "stellarity.advancements.fae_flayer.description": "Move an Altar of The Light to the Overworld, then summon and kill the Empress during the day. Your reward shall be great",
+    "stellarity.advancements.charge_anchor_end": "A Ship in The Sea of Eternity",
+    "stellarity.advancements.charge_anchor_end.description": "Use a Respawn Anchor to change your respawn location in The End",
 
     "stellarity.death_messages.example_cause": "%s died randomly due to an example of Stellarity's custom damage system",
     "stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom Boom",
