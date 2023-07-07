@@ -4,6 +4,15 @@
 		"criteria": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:reference",
+							"name": "stellarity:items/wearing_full_shulker_armor"
+						}
+					}
+				],
 				"damage": {
 					"blocked": false
 				},
