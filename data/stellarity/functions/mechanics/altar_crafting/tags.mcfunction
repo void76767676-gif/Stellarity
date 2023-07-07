@@ -1,5 +1,3 @@
-tag @s add stellarity.altar_of_the_accursed.tagged
-
 ## Tags for Shulker Stuff
 tag @s[nbt={Item:{id:"minecraft:shulker_shell",Count:8b}}] add stellarity.altar_of_the_accursed.shulker_shells
 # Tags for Shulker Armor
