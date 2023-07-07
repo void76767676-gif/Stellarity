@@ -33,3 +33,6 @@ execute if score #ambient stellarity.misc matches 200 run playsound minecraft:en
 execute if score #ambient stellarity.misc matches 200 run scoreboard players reset #ambient stellarity.misc
 
 execute unless entity @a[distance=..60] run function stellarity:mobs/eol/core/despawn
+
+# Prevents cheesing
+execute on vehicle run kill @s
