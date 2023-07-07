@@ -5,11 +5,11 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "stellarity.charge_anchor_end.imbuements.name",
+			"translate": "stellarity.advancements.charge_anchor_end",
 			"fallback": "A Ship in The Sea of Eternity"
 		},
 		"description": {
-			"translate": "advancements.nether.charge_anchor_end.description",
+			"translate": "stellarity.advancements.charge_anchor_end.description",
 			"fallback": "Use a Respawn Anchor to change your respawn location in The End"
 		},
 		"frame": "task",
