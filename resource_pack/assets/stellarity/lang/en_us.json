@@ -156,7 +156,7 @@
     "stellarity.items.trinkets.ender_insignia.description.1": "Increases life regeneration while sneaking",
     "stellarity.items.trinkets.ender_insignia.description.2": "Bonus starts weak and slowly increases",
     "stellarity.items.trinkets.ender_insignia.description.3": "Standing up or being hurt resets it",
-    "stellarity.items.trinkets.ender_insignia.description.4": "The Dragon's Power is within your hands",
+    "stellarity.items.trinkets.ender_insignia.description.4": "The Dragon's Power is withing your hands",
     "stellarity.items.trinkets.starstruck_carcanet": "Starstruck Carcanet",
     "stellarity.items.trinkets.starstruck_carcanet.description.1": "Stars fall when hurt, which ignore",
     "stellarity.items.trinkets.starstruck_carcanet.description.2": "half of enemy defense",
@@ -260,7 +260,7 @@
     "stellarity.items.cursed_tome.entries.spellbooks.light.description": "Creates a small aura of divine light, which heals any player inside, cures ailments and grants damage reduction.",
     "stellarity.items.cursed_tome.entries.spellbooks.light.obtaining": "Rare drop from Evokers in Strongholds.",
 
-    "stellarity.items.cursed_tome.entries.spellbooks.updraft.center": " ",
+    "stellarity.items.cursed_tome.entries.spellbooks.updraft.center": "  ",
     "stellarity.items.cursed_tome.entries.spellbooks.updraft.description": "Manufactured by the Enchanters from the high mountains with focus on making moving around easier. Pushes its user upwards and grants them ability to glide for a short while.",
     "stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Rare drop from Evokers in Strongholds.",
 
@@ -292,7 +292,6 @@
     "stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Crafted at the Altar of The Accursed.",
     "stellarity.items.cursed_tome.entries.shulker_tools.misc": "Any Netherite Tool",
 
-    "stellarity.items.cursed_tome.entries.sariel.center": "      ",
     "stellarity.items.cursed_tome.entries.sariel.description": "This tiny dagger steals the light of anything it hits, using it to heal its user or any of their allies.",
     "stellarity.items.cursed_tome.entries.sariel.obtaining": "Crafted at the Altar of The Accursed.",
 
