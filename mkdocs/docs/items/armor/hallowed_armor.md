@@ -74,7 +74,7 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
         - Sometimes Armor Toughness would get listed twice due to some errors in loot tables. 
             - This has since been fixed.
 - When resource pack is enabled, golden parts of Hallowed Armor produce a faint glow in the dark.
-- During the development of 2.0a, Holy Protection used to timeout after 15 seconds without being damaged, altough it was removed a few weeks later.
+- During the development of 2.0a, Holy Protection used to timeout after 15 seconds without being damaged, although it was removed a few weeks later.
     - The official reason was because kohara couldn't stand the '`constant Holy Protection ON and OFF`' sounds.
 
 ## Advancements
