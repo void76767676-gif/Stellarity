@@ -36,7 +36,7 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.ender_insignia.description.4",
-									"fallback": "The Dragon's Power is withing your hands",
+									"fallback": "The Dragon's Power is within your hands",
 									"color": "dark_purple",
 									"font": "illageralt",
 									"italic": false

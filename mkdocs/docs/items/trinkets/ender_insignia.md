@@ -24,7 +24,7 @@
 		<br>
 		Standing up or being hurt resets it
 		<br><br>
-		<span style="color: #AA00AA;">The Dragon's Power is withing your hands</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+		<span style="color: #AA00AA;">The Dragon's Power is within your hands</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 	</tr>
 </table>
 </div>
