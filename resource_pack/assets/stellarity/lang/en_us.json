@@ -268,13 +268,13 @@
     "stellarity.items.cursed_tome.entries.tamaris.description": "Even the sword itself is falling under the decaying magic it holds inside.\nMakes hit enemies decay away, as well as gives its user the ability to perform a finishing strike whenever said mob is low on health.",
     "stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% chance to be dropped by the Ender Dragon.",
 
-    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.center": "   ",
-    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.description": "An Amethyst Shard corrupted by the magic of The End.\nBoosts life regeneration while sneaking. Effect starts weak and grow stronger the longer the user is sneaking for.",
-    "stellarity.items.cursed_tome.entries.trinktes.ender_insignia.obtaining": "66% chance to be dropped by the Ender Dragon.",
+    "stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
+    "stellarity.items.cursed_tome.entries.trinkets.ender_insignia.description": "An Amethyst Shard corrupted by the magic of The End.\nBoosts life regeneration while sneaking. Effect starts weak and grow stronger the longer the user is sneaking for.",
+    "stellarity.items.cursed_tome.entries.trinkets.ender_insignia.obtaining": "66% chance to be dropped by the Ender Dragon.",
 
-    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.center": " ",
-    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.description": "Enchanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
-    "stellarity.items.cursed_tome.entries.trinktes.crest_of_the_end.obtaining": "66% chance to be dropped by the Ender Dragon.",
+    "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.center": " ",
+    "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Enchanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
+    "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.obtaining": "66% chance to be dropped by the Ender Dragon.",
 
     "stellarity.items.cursed_tome.entries.dragonblade.center": "    ",
     "stellarity.items.cursed_tome.entries.dragonblade.description": "Nobody knows what it is.\n\nNobody knows where it came from.\n\nNobody knows who made it.",
