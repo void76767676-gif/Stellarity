@@ -11,7 +11,7 @@
     "stellarity.messages.cmd.generate_end_island_features.warning": "If they haven't generated automatically, this is a bug and has to be reported!",
     "stellarity.messages.cmd.get_ancient_armor": "Gave a full set of Ancient Armor",
     "stellarity.messages.cmd.get_hallowed_armor": "Gave a full set of Hallowed Armor",
-    "stellarity.messages.cmd.get_blank": "Gave a full set of Shulker Armor",
+    "stellarity.messages.cmd.get_shulker_armor": "Gave a full set of Shulker Armor",
     "stellarity.messages.cmd.get_random_head": "Gave a random 'Treasure Head', out of a total of 60",
 
     "stellarity.void_fishing.warning": "Something tells you you should fish higher...",
