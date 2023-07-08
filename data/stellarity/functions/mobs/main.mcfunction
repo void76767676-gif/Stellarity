@@ -7,9 +7,6 @@ execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!
 execute as @e[type=marker,tag=stellarity.eol.spawn_animation] at @s run function stellarity:mobs/eol/animations/spawn/loop
 execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:mobs/eol/main
 
-# Wandering Trader extra End-themed recipe
-execute as @e[type=wandering_trader,predicate=!stellarity:locations/in_the_end,tag=!stellarity.wt_extra_end_trades,tag=!stellarity.aware,predicate=stellarity:utils/chance/75percent] run function stellarity:mobs/wandering_trader/add_extra_recipe 
-
 # Dragon stuff
 execute as @e[type=ender_dragon] at @s run function stellarity:mobs/dragon/main
 execute as @e[type=item,tag=stellarity.boss_drop] at @s run particle end_rod ~ ~ ~ .2 .2 .2 0.011 1 force @a[distance=..96]
