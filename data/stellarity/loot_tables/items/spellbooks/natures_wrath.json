@@ -41,6 +41,15 @@
 									"fallback": "Sneak and use to summon a pack of Spirit Wolves",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								" ",
+								{
+									"translate": "stellarity.items.special.member_777",
+									"fallback": "Member #777 Item",
+									"color": "#04CA01",
+									"font": "illageralt",
+									"italic": false,
+									"obfuscated": true
 								}
 							]
 						}
