@@ -71,7 +71,7 @@ Reel out a fish from the void, save yourself from losing all stuff with a Totem 
 
 After dropping the datapack into `world/datapacks` folder, delete `world_the_end` *(if present)* and turn on your server.
 
-There is a bug where Altar of The Accursed *(very important crafting station)* doesn't load correctly. You can do `/function cmd:stellarity/generate_end_island_features` to generate it manually. This is a very peculiar bug which I was unable to fix as of right now *(it doesn't occur on Singleplayer)*. This can be ran right after 
+There is a bug where Altar of The Accursed *(very important crafting station)* doesn't load correctly. You can do `/function cmd:stellarity/generate_end_island_features` to generate it manually. This is a very peculiar bug which I was unable to fix as of right now *(it occurs only on Spigot-based servers)*.
 
 If the vanilla portal generates overlapping the Stellarity's one, turn off your server and delete **only `DIM1` folder found inside `wordl_the_end`**, then turn it back on. After it is finished, run the command from earlier to generate missing End Island features.
 
