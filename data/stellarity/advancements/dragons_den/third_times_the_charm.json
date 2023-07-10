@@ -12,7 +12,7 @@
 			"translate": "stellarity.advancements.third_times_the_charm.description",
 			"fallback": "Summon the Ender Dragon a third time"
 		},
-		"frame": "challenge",
+		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": false
@@ -22,8 +22,5 @@
 		"kill_dragon_again": {
 			"trigger": "minecraft:impossible"
 		}
-	},
-	"rewards": {
-		"experience": 500
 	}
 }

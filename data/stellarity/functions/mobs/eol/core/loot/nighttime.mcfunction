@@ -14,4 +14,4 @@ execute if predicate stellarity:utils/chance/15percent run loot spawn ~ ~ ~ loot
 
 execute if score #temp1 stellarity.misc matches 0 if score #temp2 stellarity.misc matches 0 if score #temp3 stellarity.misc matches 0 if score #temp4 stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:mobs/eol/loot
 
-summon experience_orb ~ ~ ~ {Value:400s}
+summon experience_orb ~ ~ ~ {Value:600s}
