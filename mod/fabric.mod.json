@@ -1,9 +1,9 @@
 {
 	"schemaVersion":1,
 	"id":"mr_stellarity",
-	"version":"2.0a",
+	"version":"v2.0b",
 	"name":"Stellarity",
-	"description":"Extreme ender expansions! Adds 10+ new biomes, 15+ new items and 1 new boss, all to make End a more meaningful dimension.",
+	"description":"Extreme rehaul and expansion of The End! 'We have End Update at home.'",
 	"authors":[
 		"kohara"
 	],
