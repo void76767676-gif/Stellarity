@@ -14,4 +14,6 @@ execute as @e[type=marker,tag=stellarity.end_portal] at @s run function stellari
 # Duskberry Night Vision
 execute as @a[predicate=stellarity:items/holding_duskberry] run effect give @s night_vision 17 0 true
 
+execute as @a if data entity @s SelectedItem.tag."foka.special_item" unless data entity @s SelectedItem.tag."stellarity.special_item" run function stellarity:items/update_to_stellarity
+
 schedule function stellarity:loops/5_second 5s
