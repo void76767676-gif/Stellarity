@@ -66,7 +66,7 @@ Reel out a fish from the void, save yourself from losing all stuff with a Totem 
 - Stellarity is incompatible with [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape). Other End mods were **untested**.
 - Adding it to an already existing world requires you to reset The End. *(or just use a new world)*
 
-### Multiplayer Installation (SEVER OWNERS PLEASE READ!)
+### Multiplayer Installation (SERVER OWNERS PLEASE READ!)
 > Note: this section applies **only to Spigot/Paper servers**.
 
 After dropping the datapack into `world/datapacks` folder, delete `world_the_end` *(if present)* and turn on your server.
