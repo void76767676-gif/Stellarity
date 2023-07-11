@@ -13,7 +13,6 @@ execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword=
 scoreboard players set #2 stellarity.misc 2
 scoreboard players set #3 stellarity.misc 3
 scoreboard players set #100 stellarity.misc 100
-scoreboard players set #700 stellarity.misc 700
 
 # Scaling
 scoreboard players operation #temp3 stellarity.misc = #damage stellarity.misc
@@ -21,7 +20,7 @@ scoreboard players operation #temp3 stellarity.misc /= #100 stellarity.misc
 scoreboard players operation #temp3 stellarity.misc /= #2 stellarity.misc
 scoreboard players operation #damage_extra stellarity.misc /= #temp3 stellarity.misc
 
-execute if score #damage stellarity.misc matches 900.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
+execute if score #damage stellarity.misc matches 900.. run scoreboard players operation #damage_extra stellarity.misc /= #2 stellarity.misc
 execute if score #damage stellarity.misc matches 1100.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
 execute if score #damage stellarity.misc matches 1300.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
 execute if score #damage stellarity.misc matches 1500.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
