@@ -3,6 +3,7 @@
 	"biomes": "#stellarity:has_structure/chapel",
 	"step": "surface_structures",
 	"spawn_overrides": {},
+	"terrain_adaptation": "beard_thin",
 	"start_pool": "stellarity:chapel",
 	"size": 6,
 	"start_height": {
