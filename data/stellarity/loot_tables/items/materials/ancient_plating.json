@@ -27,7 +27,7 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.materials.for_alta",
+									"translate": "stellarity.items.materials.for_altar",
 									"fallback": "For use with the Altar of The Accursed",
 									"color": "#EEEEEE",
 									"italic": false
