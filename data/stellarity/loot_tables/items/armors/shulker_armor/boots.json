@@ -76,9 +76,9 @@
 									"slot": "feet"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:generic.attack_speed",
 									"name": " ",
-									"amount": -0.0375,
+									"amount": -0.025,
 									"operation": "multiply_base",
 									"slot": "feet"
 								},
