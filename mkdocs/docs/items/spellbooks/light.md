@@ -39,5 +39,5 @@ Aura lasts for 17 seconds. There is a 48 second cooldown between creating differ
 - Even though the description says it has a 48 second cooldown, it starts right when an aura is created, meaning the actual cooldown is 31 seconds instead.
 
 ## History
-- **2.0a**
+- **Indev-1.6a**
     - Introduced

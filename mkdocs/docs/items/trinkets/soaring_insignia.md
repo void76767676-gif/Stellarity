@@ -1,7 +1,7 @@
 # Starstruck Carcanet
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Soaring** is a utility spellbook which casts a slow moving spark on use, which teleports player to the first block it hits.
+**Soaring Insignia** is a utility trinket which grants its user the ability to fly, similar to creative mode flight. However, the flight agility is fairly limited.
 
 [TOC]
 
@@ -9,48 +9,42 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/soaring_insignia.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
-	<tr>
-		<td><b>Damage</b></td>
-		<td>3</td>
-	</tr>
 	<tr>	
 		<td><b>Tooltip</b></td>
-		<td>Stars fall when hurt, which ignore
+		<td>Grants infinite flight
         <br>
-        half of enemy defense</td>
+        with fairly limited agility
+		<br>
+		Sneak and look up/down to adjust height</td>
 	</tr>
 </table>
 </div>
 </div>
 
 ## Obtaining
-Starstruck Carcanet is dropped by the Empress of Light.
+When killed during the night or in The End, [Empress of Light](../../mobs/bosses/empress_of_light.md) has a 20% chance to drop the Soaring Insignia.
+
+Soaring Insignia is also **guaranteed** to drop if she is killed in the Overworld during the day.
 
 ## Usage
-Taking damage summons 3 stars which fall onto random locations around player. They explode after touching the ground, dealing 3:heart: x ₁.₅ damage with 50% armor penetration to all nearby mobs.
+While holding it in any hand, player gets the ability to fly, similair to creative flight. They can start flying by sneaking and looking slightly upwards. From then, sneaking and looking up or down will either make them slowly ascend or descend. Releasing sneak button will make them hover on a constant height.
 
-Stars ignore immunity frames, meaning that all 3 stars can properly deal damage when hitting the same enemy.
-
-Stars will spawn on any type of damage. If spawned inside blocks, they won't collide with any until coming into contact with a non-solid block, meaning they also work in caves.
+Coming into contact with ground, any liquid or swapping items immedietaly stops flight.
 
 ## Tips 
-- There is no minimum damage treshold required for stars to spawn.
-    - This means that Starstruck Carcanet synergizes well with Shulker Armor due to provided tankiness and damage resistance.
+- Max horizontal flight speed is the same as base running speed and can't be increased.
 
 ## Trivia
-- This item is based on Star Cloak from Terraria.
-- Despite being called a carcanet, it resembled a traditional necklace a lot more.
-    - Additionaly, it isn't even worn, but held instead.
-- During its development:
-    - Stars used to ignore all enemy defense, but dealt only 1 damage to players in PvP.
-    - Star explosion radius was increased by 60% compared to its original size.
-    - Star damage was reduced by 25% (4 -> 3).
+- This item is based on Soaring Insignia from Terraria.
+    - It even uses its texture.
 
 ## History
+- **2.0b**
+    - Added a notice to its description which mentions it only works while sneaking
 - **2.0a**
     - Introduced

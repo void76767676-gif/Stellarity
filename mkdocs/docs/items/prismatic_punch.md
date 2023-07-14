@@ -87,6 +87,9 @@ Prismatic Inferno lasts for 3 seconds, dealing 1:heart: х ₀.₇₅ damage eve
 
 ## History
 - **2.0a**
-    - Introduced
+    - Now drops from the Empress of Light
+    - Reduced damage and duration of Prismatic Inferno
+- **Indev-1.6a**
+    - Introduced, but unobtainable
 
 [^1]: [YaGirlGiulles original message](https://discord.com/channels/727033287343734885/727033287666696209/1035208257188397086)

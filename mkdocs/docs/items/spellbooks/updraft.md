@@ -44,5 +44,5 @@ This has a cooldown of 16 seconds, which starts counting **after** landing.
 - The book's name is very similair to Tome of Updraft from Minecraft: Dungeons, however instead of pushing mobs around upwards it pushes players.
 
 ## History
-- **2.0a**
+- **Indev-1.6a**
     - Introduced

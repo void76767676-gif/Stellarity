@@ -16,10 +16,10 @@
 </div>
 
 ## Obtaining
-Prismatic Pearl is dropped by the Empress of Light.
+Prismatic Pearl has a 33% chance to be dropped by the Empress of Light.
 
 ## Usage
-Prismatic Pearl works just the same way an Ender Pearl works, however after being thrown, it returns to the player after 6 seconds.
+Prismatic Pearl works just the same way an Ender Pearl works, however after being thrown, it returns to the player after 5 seconds.
 
 On top of that, it flies 25% faster, which translates into 25% greater teleport distance.
 
@@ -35,4 +35,7 @@ Prismatic Pearl leaves a rainbow trail as it flies.
 
 ## History
 - **2.0a**
-    - Introduced
+    - Reduced cooldown by 1s (6s -> 5s)
+    - Now drops from the Empress of Light.
+- **Indev-1.6a**
+    - Introduced, but unobtainable

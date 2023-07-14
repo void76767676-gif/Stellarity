@@ -72,6 +72,9 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 
 ## History
 - **2.0a**
+    - Speed bonus is now additive instead of multiplicative
+    - Night vision effect is now applied every 5 seconds rather than every tick
+- **Indev-1.6a**
 	- Introduced
 
 [^1]: This part is obfuscated and written with Illageralt font, meaning that it is normally undecipherable

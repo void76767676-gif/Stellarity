@@ -80,7 +80,7 @@ Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked 
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `stellarity:story/drop_rare_illager_loot` |
 
 ## History
-- **2.0a**
+- **Indev-1.6a**
     - Arrow damage nerfed (~8 -> 3)
     - Quick Charge now affects ammo conservation chance
     - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)

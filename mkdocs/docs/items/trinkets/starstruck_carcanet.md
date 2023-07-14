@@ -53,4 +53,6 @@ Stars will spawn on any type of damage. If spawned inside blocks, they won't col
 
 ## History
 - **2.0a**
+    - No longer stackable
+- **Indev-1.6a**
     - Introduced

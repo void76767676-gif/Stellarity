@@ -77,4 +77,7 @@ While charging Sabrewing, players move 25% slower compared to charging regular B
 
 ## History
 - **2.0a**
+    - Increased supercharge time by 1s (2s -> 3s)
+    - Improved visual and sound effects for supercharged shots
+- **Indev-1.6a**
     - Introduced

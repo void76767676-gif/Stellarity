@@ -64,8 +64,11 @@ Movement speed is reduced by additional 66% while sneaking, meaning that moving 
 	3. Ender Insignia used to trigger while standing still rather than sneaking, but this was changed due to performance reasons.
 
 ## History
-
 - **2.0a**
+    - No longer stackable
+    - Max regeneration level reduced by 1 (V -> IV)
+    - Increased time between Regeneration upgrades (1.5s -> 2.5s)
+- **Indev-1.6a**
 	- Drop rate reduced in favor of other items (100% -> 66%)
 	- Regeneration is no longer instantly at Level V, and it instead progressively goes through different amplifierss.
 	- Being hit now properly cancels Regeneration.

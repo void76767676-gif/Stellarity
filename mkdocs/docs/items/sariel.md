@@ -84,4 +84,8 @@ After attacking any mob, there is a 18% chance that a Healing Orb will spawn, sl
 
 ## History
 - **2.0a**
+    - Increased healing chance (12% -> 18%)
+    - Healing orbs make sharper turns and start homing earlier
+    - Improved healing orb visual and sound effects
+- **Indev-1.6a**
 	- Introduced

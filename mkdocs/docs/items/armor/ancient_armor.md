@@ -53,7 +53,7 @@ Each piece of Ancient Armor can also be crafted at the [Altar of The Accursed](.
 
 
 ## Set Bonus
-While wearing a full set of Ancient Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 2.5 seconds before vanishing, unless another attack has hit a mob.
+While wearing a full set of Ancient Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 5 seconds before vanishing, unless another attack has hit a mob.
 
 The set bonus extra damage stacks with the 10% extra damage from all armor pieces, meaning the actual damage increase is 35%.
 
@@ -82,17 +82,21 @@ Additionally, running with a full set of Ancient Armor will produce a purely cos
 	1. It used to have a different set bonus, which was just a flat 50% damage increase.
 	2. Ancient Leggings used to have Diamond Leggings as base item instead of Leather Pants.
 - Ancient Armor's set bonus is based on Nyx[^1] kit from Roblox BedWars[^2].
+- kohara has a special particle trail, being made of Cherry Leaves particles instead of 
 
 ## History
 - **2.0a**
+    - Increased combo duration (3s -> 5s)
+    - No longer found in End Cities, being directly replaced by Ancient Plating
+- **Indev-1.6a**
 	- Fixed Ancient Leggings being a piece of Diamond Armor.
 	- Now has a custom texture.
 	- Damage boost from Armor pieces reduced *(+20% -> +10%)*
 	- Armor Toughness per-piece increased to match Netherite Armor.
 	- Only Ancient Scalemail grants Attack Speed bonus. Bonus decreased *(+60% -> + 15%)*
 	- Nerfed quality of enchantments of armor pieces found in Chests.
-	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be an Ancient Armor piece 3/4 of the time.
-	- Set bonus reworked. It now provides an increasing damage bonus on melee attacks *(+7% per hit, stacks for up to 35%)* which quickly decays while out of combat. Total max damage bonus is now 45% *(down from 80%)*
+	- Chests in End Cities have a 50 - 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Ancient Armor. Previously, it would be an Ancient Armor piece 3/4 of the time.
+	- Set bonus reworked. It now provides an increasing damage bonus on melee attacks *(+5% per hit, stacks for up to 25%)* which quickly decays while out of combat. Total max damage bonus is now 35% *(down from 80%)*
 	- Can no longer be found in Crates fished out via Void Fishing, instead can be crafted with ingredients found inside.
 	- Set bonus trail now shows only while running, instead of while moving in general.
 

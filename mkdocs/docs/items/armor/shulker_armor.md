@@ -36,7 +36,9 @@ However, Shulker Armor comes with a drawback in form of reduced movement speed.
 			<td>
 				-10% Movement Speed
 				<br>
-				+100% Knockback Resistance
+				-10% Attack Speed
+				<br>
+				+80% Knockback Resistance
 				<br>
 				+20% Damage Reduction
 			</td>
@@ -59,20 +61,11 @@ However, Shulker Armor comes with a drawback in form of reduced movement speed.
 Each piece of Shulker Armor can be crafted by combining any piece of <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite Armor with 8 <i class="icon-minecraft icon-minecraft-shulker-shell"></i>Shulker Shells over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md). Enchantments from the armor piece used to craft it will be transfered in the process, however properties like custom name or other NBT modifications will be lost.
 
 ## Set Bonus
-While equipped with a full set of Shulker Armor being damaged spawns up to 3 friendly Shulker Bullets. They will automatically seek out nearby enemies, dealing 4:heart::heart: damage, as well as applying Levitation for 10 seconds for extra fall damage
+While equipped with a full set of Shulker Armor being damaged has a 33% spawns up to 3 friendly Shulker Bullets. They will automatically seek out nearby enemies, dealing 4:heart::heart: damage, as well as applying Levitation II for 5 seconds for extra fall damage
 
 Wearer also becomes fully immune to Levitation and Wither debuffs.
 
 Set bonus also applies permanent Resistance I, which is equal to flat 20% damage reduction.
-
-### Netherite vs Shulker Armor
-| X | <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite Armor | <i class="icon-stellarity icon-stellarity-shulker-armor"></i>Shulker Armor |
-| :--- | :--- | :--- |
-| Total Defense | 20 + 12 Armor Toughness | 24 + 16 Armor Toughness |
-| Obtainable After | Entering the Nether/Finding a Bastion Remnant[^1] | Killing the Dragon |
-| Damage Reduction | :x: | 20% *(with Set Bonus)* |
-| Knockback Resistance | 40% | 100% |
-| Drawbacks | :x: | Reduced movement agility |
 
 ## Tips
 - Set bonus won't remove Levitation given to players after being saved from falling into the Void by a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying.
@@ -93,7 +86,17 @@ Set bonus also applies permanent Resistance I, which is equal to flat 20% damage
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-shulker-armor"></i></div> | <span style="color: #B533FF;">I am Titanium!</span> | Craft a full set of Shulker Armor | Cursed Crafting | :x: | `stellarity:aota/craft_shulker_armor` |
 
 ## History
+- **2.0c**
+	- Replaced the -15% Damage penalty with a -10% Attack Speed penalty
+- **2.0b**
+    - Decreased the chance to spawn Shulker Bullets when hurt (60% -> 33%)
+    - Fixed infinite loop when hit with own Shulker Bullets
 - **2.0a**
+    - Reintroduced -15% Damage penalty.
+    - Full set knockback resistance reduced (100% -> 80%)
+    - Shulker Bullets now have a 60% chance to spawn when hurt.
+    - Shulker Bullet levitation duration reduced (10s -> 5s), increased potency (I -> II)
+- **Indev-1.6a**
 	- Now has a custom texture.
 	- Fixed CustomModelData values of Shulker Armor pieces being same as <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor's.
 	- Recipe now uses 8 <i class="icon-minecraft icon-minecraft-shulker-shell"></i>Shulker Shells instead of 15.

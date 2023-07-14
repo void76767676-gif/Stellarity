@@ -105,7 +105,10 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | Frozen Reaper | Reach +9 Extra Damage on Frigid Harvester<br><span style="color: #727272;">ᴛɪᴘ: ᴛʜɪѕ ᴍɪɢʜᴛ ʀᴇǫᴜɪʀᴇ ѕᴏᴍᴇ ɢʀɪɴᴅɪɴɢ...</span> | Remote Getaway | :x: | `stellarity:exploration/max_out_aery_sword` |
 
 ## History
-- **2.0a**
+- **2.0c**
+    - Lessened the damage scaling by a factor of 2
+
+- **Indev-1.6a**
 	- Introduced
 
 [^1]: [Aery kit](https://robloxbedwars.fandom.com/wiki/Aery) on Roblox Bedwars Wiki

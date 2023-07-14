@@ -13,6 +13,11 @@
 	<tr>
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/hallowed_ingot.png"></th>
 	</tr>
+	<tr>
+		<td><b>Tooltip</b></td>
+		<td>For use with the Altar of The Accursed
+        </td>
+	</tr>
 </table>
 </div>
 </div>
@@ -31,5 +36,10 @@ Combining 5, 8, 7 or 4 Hallowed Ingots over the [Altar of The Accursed](../../me
 - Before the addition of Hallowed Ingots, Hallowed Armor used to be found directly inside Crates.
 
 ## History
+- **2.0b**
+    - Added a line to the description which explains its usage
+    - Fixed incorrect name color
+- **2.0a**
+    - Now generates in End Cities in place of Hallowed Armor
 - **2.0a**
     - Introduced

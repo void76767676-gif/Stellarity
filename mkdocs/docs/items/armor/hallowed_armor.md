@@ -84,6 +84,10 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 
 ## History
 - **2.0a**
+    - No longer found in End Cities, being directly replaced by Ancient Plating
+	- Increased dodge cooldown by 10% (20s -> 22s)
+    - Hallowed Treads movement speed bonus reduced (+10% -> +8%) and is now additive instead of multiplicative
+- **Indev-1.6a**
 	- Now has a custom texture.
 	- Armor Toughness per-piece increased to match Netherite Armor.
 	- Fixed Holy Protection cooldown being 3 - 4 seconds shorter than usual because of it going off right with invincibility.
@@ -96,7 +100,7 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 	- Hallowed Chestplate now grants 20% reduced knockback.
 	- Fixed Holy Protection invincibility being removable with <i class="icon-minecraft icon-minecraft-milk-bucket"></i>Milk.
 	- Nerfed quality of enchantments of armor pieces found in Chests.
-	- Chests in End Cities have a 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Hallowed Armor. Previously, it would be a Hallowed Armor piece 1/4 of the time.
+	- Chests in End Cities have a 50 - 66% chance to contain an Armor piece, of which there is a 50/50 chance it is going to be a piece of Hallowed Armor. Previously, it would be a Hallowed Armor piece 1/4 of the time.
 	- Fixed Holy Protection being triggered even if damage is blocked with a Shield.
 	- Can no longer be found in Crates fished out via Void Fishing, instead can be crafted with ingredients found inside.
 

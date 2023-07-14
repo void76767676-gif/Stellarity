@@ -75,4 +75,8 @@ The ability speed increase stacks with passive speed increase for a total of 27.
 
 ## History
 - **2.0a**
+    - Chance to generate per chest increased (20% -> 35%)
+    - Base movement speed bonus reduced (10% -> 7.5%)
+    - Base movement speed bonus is now additive instead of multiplicative
+- **Indev-1.6a**
 	- Introduced

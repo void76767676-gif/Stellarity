@@ -36,9 +36,9 @@ execute if score out stellarity.misc matches 3 positioned ~ ~-5 ~ run data modif
 execute if score out stellarity.misc matches 3 positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]
 
 scoreboard players set #nature stellarity.misc 0
-execute if predicate stellarity:utils/chance/66percent run scoreboard players set #nature stellarity.misc 1
+execute if predicate stellarity:utils/chance/50percent run scoreboard players set #nature stellarity.misc 1
 
-execute if score #nature stellarity.misc matches 1 run data modify storage stellarity:temp villager_trades append value {maxUses:1,rewardExp:1b,priceMultiplier:0.5,demand:1,specialPrice:0,buy:{id:"enchanted_book",Count:1,tag:{}},buyB:{id:"oak_sapling",Count:24,tag:{}},sell:{id:"knowledge_book",Count:1,tag:{}}}
+execute if score #nature stellarity.misc matches 1 run data modify storage stellarity:temp villager_trades append value {maxUses:1,rewardExp:1b,priceMultiplier:0.5,demand:1,specialPrice:0,buy:{id:"enchanted_book",Count:1,tag:{}},buyB:{id:"oak_sapling",Count:12,tag:{}},sell:{id:"knowledge_book",Count:1,tag:{}}}
 execute if score #nature stellarity.misc matches 1 run loot spawn ~ ~-5 ~ loot stellarity:items/spellbooks/natures_wrath
 execute if score #nature stellarity.misc matches 1 positioned ~ ~-5 ~ run data modify storage stellarity:temp villager_trades[-1].sell.tag set from entity @e[type=item,limit=1,sort=nearest] Item.tag
 execute if score #nature stellarity.misc matches 1 positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]

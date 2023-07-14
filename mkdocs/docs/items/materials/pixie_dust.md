@@ -25,7 +25,7 @@
 </div>
 
 ## Obtaining
-Pixies drop 0 - 4 Pixie Dust on death.
+Pixies drop 0 - 4 Pixie Dust when killed.
 
 ## Usage
 Pixie Dust is used in a number of [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) recipes.
@@ -33,10 +33,12 @@ Pixie Dust is used in a number of [Altar of The Accursed](../../mechanics/altar_
 It can also be offered as a sacrifice at the Chapel of Light, which summons the Empress of Light boss.
 
 ## Trivia
-- 
+- The flavor text `May contain Fairy` is a play on how the material itself actually comes from fairies.
 
 ## History
 - **2.0a**
+    - Now used to summon the Empress of Light
+- **Indev-1.6a**
     - Now used in new crafting recipes.
     - Drop quantity increased (`0 - 2` -> `0 - 4`)
     - Now used to summon the Empress of Light

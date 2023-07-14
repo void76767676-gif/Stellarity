@@ -106,6 +106,13 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
 
 ## History
 - **2.0a**
+    - Reduced base damage by 1 (7 -> 6)
+    - Reworked Dark Decay
+        - Damage reduced (3 -> 1)
+        - Increased armor penetration (20% -> 80%)
+        - Curse of Vanishing now doubles the decay damage. No longer increases the duration.
+        - Increased damage tick speed, reduced the effect duration *(results in same amount of damage ticks in less time)* 
+- **Indev-1.6a**
     - Introduced
 
 [^1]: [Hannah](https://robloxbedwars.fandom.com/wiki/Hannah) kit on Roblox Bedwars Wiki

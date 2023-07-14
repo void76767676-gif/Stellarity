@@ -99,9 +99,16 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 
 ## History
 - **2.0a**
+    - Punch armor penetration increased (33% -> 40%)
+    - Reduced punch cooldown by 1.5s (9.5s -> 8s)
+    - Increased attack speed (1.1 -> 1.25)
+    - Punches now deal explosion damage
+    - Improved sound and visual effects
+    - Fixed a couple of issues with punches
+- **Indev-1.6a**
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
 	- Base damage reduced (8 -> 6)
-	- Attack speed reduced (1.6 -> 1.25)
+	- Attack speed reduced (1.6 -> 1.1)
 	- Now spawns after defeating the Ender Dragon.
 	- Now unbreakable.
 

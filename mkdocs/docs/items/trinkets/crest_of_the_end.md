@@ -45,5 +45,5 @@ Blocking damage with Crest of The End stores a part of blocked damage, adding +1
 
 ## History
 
-- **2.0a**
+- **Indev-1.6a**
 	- Introduced
