@@ -23,7 +23,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:warped_forset"
+						"biome": "minecraft:warped_forest"
 					}
 				}
 			}
