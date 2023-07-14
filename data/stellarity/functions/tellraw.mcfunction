@@ -1,6 +1,6 @@
 tellraw @a ""
 
-tellraw @a [{"text":"Stellarity","bold":true,"color":"#ff76e1"},{"text":" has succesfully loaded!","bold":false,"color":"#DF9BDC"}]
+tellraw @a [{"text":"Stellarity","bold":true,"color":"#ff76e1"},{"text":" has successfully loaded!","bold":false,"color":"#DF9BDC"}]
 
 tellraw @a ""
 
