@@ -3,7 +3,7 @@
    
     "stellarity.messages.cmd.reset_config_to_default": "All configs were reset to default!",
     "stellarity.messages.cmd.hard_reset_dragon": "Completely reset the Ender Dragon, witness the horror!",
-    "stellarity.messages.cmd.kill_ender_dragon": "Succesfully slain the Ender Dragon, cheating for the win!",
+    "stellarity.messages.cmd.kill_ender_dragon": "Successfully slain the Ender Dragon, cheating for the win!",
     "stellarity.messages.cmd.reset_ender_dragon": "Reset the Ender Dragon",
     "stellarity.messages.cmd.change_gamerules": "The End is raging",
     "stellarity.messages.cmd.reset_gamerules": "The End is calming down",
@@ -44,13 +44,13 @@
     "stellarity.items.armors.hallowed_armor.set_bonus.1": "Grants the ability to dodge attacks,",
     "stellarity.items.armors.hallowed_armor.set_bonus.2": "nullifying all damage and knockback",
 
-    "stellarity.items.armors.blank.helmet": "Shulker Mask",
-    "stellarity.items.armors.blank.chestplate": "Shulker Breastplate",
-    "stellarity.items.armors.blank.leggings": "Shulker Leggings",
-    "stellarity.items.armors.blank.boots": "Shulker Boots",
-    "stellarity.items.armors.blank.set_bonus.1": "Shulker Bullets will hunt down your attackers",
-    "stellarity.items.armors.blank.set_bonus.2": "Incoming damage reduced by 20%",
-    "stellarity.items.armors.blank.set_bonus.3": "Immunity to Levitation and Wither",
+    "stellarity.items.armors.shulker_armor.helmet": "Shulker Mask",
+    "stellarity.items.armors.shulker_armor.chestplate": "Shulker Breastplate",
+    "stellarity.items.armors.shulker_armor.leggings": "Shulker Leggings",
+    "stellarity.items.armors.shulker_armor.boots": "Shulker Boots",
+    "stellarity.items.armors.shulker_armor.set_bonus.1": "Shulker Bullets will hunt down your attackers",
+    "stellarity.items.armors.shulker_armor.set_bonus.2": "Incoming damage reduced by 20%",
+    "stellarity.items.armors.shulker_armor.set_bonus.3": "Immunity to Levitation and Wither",
 
     "stellarity.items.crates.place_down": "Place down and open!",
     "stellarity.items.crates.amethyst": "Amethyst Crate",
@@ -156,7 +156,7 @@
     "stellarity.items.trinkets.ender_insignia.description.1": "Increases life regeneration while sneaking",
     "stellarity.items.trinkets.ender_insignia.description.2": "Bonus starts weak and slowly increases",
     "stellarity.items.trinkets.ender_insignia.description.3": "Standing up or being hurt resets it",
-    "stellarity.items.trinkets.ender_insignia.description.4": "The Dragon's Power is withing your hands",
+    "stellarity.items.trinkets.ender_insignia.description.4": "The Dragon's Power is within your hands",
     "stellarity.items.trinkets.starstruck_carcanet": "Starstruck Carcanet",
     "stellarity.items.trinkets.starstruck_carcanet.description.1": "Stars fall when hurt, which ignore",
     "stellarity.items.trinkets.starstruck_carcanet.description.2": "half of enemy defense",
@@ -273,7 +273,7 @@
     "stellarity.items.cursed_tome.entries.trinkets.ender_insignia.obtaining": "66% chance to be dropped by the Ender Dragon.",
 
     "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.center": " ",
-    "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Enchanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
+    "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Enhanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
     "stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.obtaining": "66% chance to be dropped by the Ender Dragon.",
 
     "stellarity.items.cursed_tome.entries.dragonblade.center": "    ",
@@ -326,7 +326,7 @@
     "stellarity.items.cursed_tome.entries.zephyr.obtaining": "Sometimes found in End Cities in Top Towers.",
 
     "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
-    "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Villagers' attempt at crafting magical items.\nThis book imbues itself with the energy of biomes its user explores, enchancing its abilities.",
+    "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Villagers' attempt at crafting magical items.\nThis book imbues itself with the energy of biomes its user explores, enhancing its abilities.",
     "stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Sometimes sold by Librarians in End Villages.",
     
     "stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "      ",
