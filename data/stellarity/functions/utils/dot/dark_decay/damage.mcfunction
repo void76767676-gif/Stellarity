@@ -1,6 +1,6 @@
 scoreboard players operation #damage stellarity.misc = @s stellarity.dot.dark_decay.damage
 
-scoreboard players set #armor_penetration stellarity.misc 80
+scoreboard players set #armor_penetration stellarity.misc 60
 
 scoreboard players set #ignore_iframes stellarity.misc 1
 scoreboard players set #ignore_resistance stellarity.misc 0
