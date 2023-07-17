@@ -5,11 +5,7 @@ scoreboard players set #mul stellarity.misc 2
 execute if entity @s[type=#minecraft:freeze_hurts_extra_types] run scoreboard players operation #damage stellarity.misc *= #mul stellarity.misc
 
 scoreboard players set #armor_penetration stellarity.misc 0
-
 scoreboard players set #ignore_iframes stellarity.misc 1
-scoreboard players set #ignore_resistance stellarity.misc 0
-scoreboard players set #damage_type stellarity.misc 1
-scoreboard players set #damage_effects stellarity.misc 3
 
 scoreboard players reset @s stellarity.dot.frostburn.progress
 
