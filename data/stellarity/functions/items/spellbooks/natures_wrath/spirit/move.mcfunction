@@ -19,6 +19,6 @@ execute if score #in_liquid stellarity.misc matches 1 run tp @s[tag=stellarity.n
 
 
 # Ocean Spirit ignores liquid movement penalty
-# But moves 15% slower :(
-tp @s[tag=stellarity.natures_wrath.spirit.ocean] ^ ^ ^0.85 ~ ~
+# But moves 10% slower :(
+tp @s[tag=stellarity.natures_wrath.spirit.ocean] ^ ^ ^0.9 ~ ~
 

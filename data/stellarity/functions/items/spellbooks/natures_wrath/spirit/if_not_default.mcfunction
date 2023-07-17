@@ -3,7 +3,7 @@ execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wr
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_ocean=true}] run function stellarity:items/spellbooks/natures_wrath/spirit/extra_choose/ocean
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_mountains=true}] run function stellarity:items/spellbooks/natures_wrath/spirit/extra_choose/mountain
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_jungle=true}] run data modify storage stellarity:temp "natures_wrath.spells" append value "jungle"
-execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_snow=true}] run function stellarity:items/spellbooks/natures_wrath/spirit/extra_choose/snow
+execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_snow=true}] run data modify storage stellarity:temp "natures_wrath.spells" append value "snow"
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_sculk=true}] run function stellarity:items/spellbooks/natures_wrath/spirit/extra_choose/sculk
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_hallow=true}] run function stellarity:items/spellbooks/natures_wrath/spirit/extra_choose/hallow
 execute if entity @p[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_swamp=true}] run data modify storage stellarity:temp "natures_wrath.spells" append value "swamp"

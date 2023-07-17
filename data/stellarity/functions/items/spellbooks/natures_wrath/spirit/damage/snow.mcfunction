@@ -10,7 +10,7 @@ scoreboard players set #damage_effects stellarity.misc 4
 
 tag @s add stellarity.damage.natures_wrath
 
-effect give @s slowness 7 0 false
+effect give @s slowness 6 0 false
 effect give @s weakness 3 0 false
 
 scoreboard players set #dot.damage stellarity.misc 15
