@@ -20,4 +20,4 @@ execute if predicate stellarity:utils/chance/66percent run function stellarity:u
 
 tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add stellarity.damage.attacker
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

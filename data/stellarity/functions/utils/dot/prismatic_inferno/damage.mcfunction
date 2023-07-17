@@ -31,4 +31,4 @@ playsound minecraft:block.amethyst_cluster.break neutral @a ~ ~ ~
 # Damage cause
 tag @s add stellarity.damage.dot.prismatic_inferno
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

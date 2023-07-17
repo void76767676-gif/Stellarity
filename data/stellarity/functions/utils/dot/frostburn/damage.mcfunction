@@ -20,4 +20,4 @@ execute unless entity @s[type=player] run playsound minecraft:entity.player.hurt
 # Damage cause
 tag @s add stellarity.damage.dot.frostburn
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

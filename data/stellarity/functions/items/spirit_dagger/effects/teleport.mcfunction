@@ -18,8 +18,8 @@ function stellarity:items/spirit_dagger/effects/buff
 title @s actionbar ""
 
 # Damage
-execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 7.5
-execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 7.5
+execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 5
+execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 5
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #sweeping stellarity.misc = #temp_1 stellarity.misc
 

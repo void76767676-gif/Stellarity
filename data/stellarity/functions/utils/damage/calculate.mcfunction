@@ -1,8 +1,54 @@
-scoreboard players set #should_continue stellarity.misc 1
+# #damage stellarity.misc: damage to add to entity, to 1 decimal place
+# #armor_penetration stellarity.misc: how much damage (%) should ignore armor
 
-execute store result score #iframes stellarity.misc run data get entity @s HurtTime 1
-execute if score #ignore_iframes stellarity.misc matches 0 if score #iframes stellarity.misc matches 1.. run scoreboard players set #should_continue stellarity.misc 0
-execute if entity @s[type=#stellarity:invalid_targets] run scoreboard players set #should_continue stellarity.misc 0
-execute if entity @s[type=player] run function stellarity:utils/damage/player_continue_checks
+# Set variables to default values if they are not present
+execute unless score #ignore_iframes stellarity.misc matches 0..1 run scoreboard players set #ignore_iframes stellarity.misc 0
+execute unless score #armor_penetration stellarity.misc matches 0..100 run scoreboard players set #armor_penetration stellarity.misc 0
 
-execute if score #should_continue stellarity.misc matches 1 run function stellarity:utils/damage/start
+
+
+execute unless score #armor_penetration stellarity.misc matches 0 run function stellarity:utils/damage/armor_penetration
+
+execute store result score #death_messages stellarity.misc run gamerule showDeathMessages
+gamerule showDeathMessages false
+
+function stellarity:utils/damage/apply_damage
+
+# Fail execute if Totem of Undying is used
+# or Holy Protection invulnerability is triggered
+tag @s[predicate=stellarity:utils/totem/holding] add stellarity.tag
+execute if entity @s[tag=stellarity.tag,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
+execute if entity @s[type=player,tag=stellarity.holy_protection,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
+tag @s remove stellarity.tag
+
+# Remove Holy Protection if a player has it
+execute if entity @s[type=player,tag=stellarity.holy_protection] run function stellarity:items/armors/hallowed_armor/holy_protection/off
+
+execute store result score #health stellarity.misc run data get entity @s Health 1000000
+execute if score #health stellarity.misc matches 0 if entity @s[type=player] run function stellarity:utils/damage/death_messages
+execute if score #health stellarity.misc matches 0 if data entity @s Owner run function stellarity:utils/damage/death_messages
+
+tag @s remove stellarity.damage.example_cause
+tag @s remove stellarity.damage.sharanga_explosion
+tag @s remove stellarity.damage.eol.ethereal_lance
+tag @s remove stellarity.damage.eol.prismatic_bolt
+tag @s remove stellarity.damage.eol.dash
+tag @s remove stellarity.damage.carcanet
+tag @s remove stellarity.damage.spirit_dagger
+tag @s remove stellarity.damage.dragonblade
+tag @s remove stellarity.damage.tamaris_execute
+tag @s remove stellarity.damage.natures_wrath
+tag @s remove stellarity.damage.dot.dark_decay
+tag @s remove stellarity.damage.dot.prismatic_inferno
+tag @s remove stellarity.damage.dot.frostburn
+tag @s remove stellarity.damage.kaleidoscope
+
+tag @e[tag=stellarity.damage.attacker] remove stellarity.damage.attacker
+
+execute if score #death_messages stellarity.misc matches 1 run gamerule showDeathMessages true
+
+scoreboard players reset #damage stellarity.misc
+scoreboard players reset #damage_ap stellarity.misc
+scoreboard players reset #armor_penetration stellarity.misc
+scoreboard players reset #ignore_iframes stellarity.misc
+

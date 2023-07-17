@@ -18,4 +18,4 @@ scoreboard players set #damage_effects stellarity.misc 0
 tag @s add stellarity.damage.eol.ethereal_lance
 tag @e[type=marker,limit=1,sort=nearest] add stellarity.damage.attacker
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

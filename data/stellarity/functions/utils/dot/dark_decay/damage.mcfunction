@@ -17,4 +17,4 @@ playsound minecraft:entity.ender_eye.death neutral @a ~ ~ ~
 # Damage cause
 tag @s add stellarity.damage.dot.dark_decay
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

@@ -18,4 +18,4 @@ tag @s add stellarity.damage.eol.dash
 
 tag @e[type=vindicator,limit=1,sort=nearest] add stellarity.damage.attacker
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start

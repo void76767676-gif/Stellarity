@@ -4,9 +4,6 @@ scoreboard players set #damage stellarity.misc 50
 
 scoreboard players set #armor_penetration stellarity.misc 0
 scoreboard players set #ignore_iframes stellarity.misc 1
-scoreboard players set #ignore_resistance stellarity.misc 0
-scoreboard players set #damage_type stellarity.misc 2
-scoreboard players set #damage_effects stellarity.misc 4
 
 tag @s add stellarity.damage.natures_wrath
 
@@ -31,4 +28,4 @@ execute store result entity @s Motion.[0] double 0.027 run scoreboard players ge
 execute store result entity @s Motion.[1] double 0.042 run scoreboard players get @s stellarity.misc.motion.y2
 execute store result entity @s Motion.[2] double 0.027 run scoreboard players get @s stellarity.misc.motion.z2
 
-function stellarity:utils/damage/calculate
+function stellarity:utils/damage/start
