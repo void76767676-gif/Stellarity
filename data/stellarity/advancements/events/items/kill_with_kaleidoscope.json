@@ -13,6 +13,16 @@
 							"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
 						}
 					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
 				}
 			}
 		}

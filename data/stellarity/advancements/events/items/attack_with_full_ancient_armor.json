@@ -25,7 +25,7 @@
 					"type": {
 						"tags":[
 							{
-								"id": "stellarity:ancient_armor_boosts_combo",
+								"id": "stellarity:melee",
 								"expected": true
 							}	
 						]

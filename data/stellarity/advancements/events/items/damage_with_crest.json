@@ -14,8 +14,17 @@
 							}
 						}
 					}
-				]
-
+				],
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				}
 			}
 		}
 	},

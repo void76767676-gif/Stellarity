@@ -16,7 +16,15 @@
 				},
 				"damage": {
 					"dealt": {
-						"min": 4
+						"min": 4,
+						"type": {
+							"tags":[
+								{
+									"id": "stellarity:melee",
+									"expected": true
+								}	
+							]
+						}
 					},
 					"blocked": false
 				},
@@ -29,17 +37,6 @@
 							"scores": {
 								"stellarity.items.dragonblade.cooldown": {
 									"min": 1
-								}
-							}
-						}
-					},
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"distance": {
-								"absolute": {
-									"max": 6.5
 								}
 							}
 						}

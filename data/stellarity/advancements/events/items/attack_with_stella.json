@@ -15,7 +15,15 @@
 					}
 				},
 				"damage": {
-					"blocked": false
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
 				}
 			}
 		}

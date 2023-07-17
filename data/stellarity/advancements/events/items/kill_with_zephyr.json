@@ -14,11 +14,14 @@
 						}
 					}
 				},
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 6.5
-						}
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					}
 				}
 			}

@@ -18,7 +18,15 @@
 					"dealt": {
 						"min": 7.7
 					},
-					"blocked": false
+					"blocked": false,
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
 				}
 			}
 		}

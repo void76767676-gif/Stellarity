@@ -14,6 +14,16 @@
 						}
 					}
 				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_minor_boost",
 					"distance": {
@@ -35,6 +45,16 @@
 							],
 							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
 						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					}
 				},
 				"entity": {
@@ -60,6 +80,16 @@
 						}
 					}
 				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_big_boost",
 					"distance": {
@@ -81,6 +111,16 @@
 							],
 							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
 						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					}
 				},
 				"entity": {
@@ -106,6 +146,16 @@
 						}
 					}
 				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
+					}
+				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_huge_boost",
 					"distance": {
@@ -127,6 +177,16 @@
 							],
 							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
 						}
+					}
+				},
+				"damage": {
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					}
 				},
 				"entity": {

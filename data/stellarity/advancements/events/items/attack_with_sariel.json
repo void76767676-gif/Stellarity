@@ -17,13 +17,14 @@
 				"damage": {
 					"dealt": {
 						"min": 3
-					}
-				},
-				"entity": {
-					"distance": {
-						"absolute": {
-							"max": 6.5
-						}
+					},
+					"type": {
+						"tags":[
+							{
+								"id": "stellarity:melee",
+								"expected": true
+							}	
+						]
 					}
 				}
 			}
