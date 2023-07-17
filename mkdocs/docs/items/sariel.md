@@ -1,3 +1,5 @@
+# Sariel
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Sariel** is a post-Dragon dagger that can sometimes spawn healing orbs on enemy hits. Healing orbs slowly fly towards the nearest player and heal them for 4:heart::heart: HP. Healing orbs won't spawn when players are damaged in PvP.
@@ -83,9 +85,10 @@ After attacking any mob, there is a 18% chance that a Healing Orb will spawn, sl
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `stellarity:aota/cursed_crafting` |
 
 ## History
-- **2.0a**
-    - Increased healing chance (12% -> 18%)
-    - Healing orbs make sharper turns and start homing earlier
-    - Improved healing orb visual and sound effects
-- **Indev-1.6a**
-	- Introduced
+=== "**v2.0a**"
+    - Increased healing chance (12% -> 18%).
+    - Healing orbs make sharper turns and start homing earlier.
+    - Improved healing orb visual and sound effects.
+
+=== "**vIndev-1.6a**"
+	- Introduced.

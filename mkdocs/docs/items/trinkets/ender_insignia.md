@@ -1,4 +1,5 @@
 # Ender Insignia
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Ender Insignia** is a post-Dragon trinket which slowly accelerates your health regeneration the longer player sneaks for. Taking damage resets this boost.
@@ -64,21 +65,22 @@ Movement speed is reduced by additional 66% while sneaking, meaning that moving 
 	3. Ender Insignia used to trigger while standing still rather than sneaking, but this was changed due to performance reasons.
 
 ## History
-- **2.0a**
-    - No longer stackable
-    - Max regeneration level reduced by 1 (V -> IV)
-    - Increased time between Regeneration upgrades (1.5s -> 2.5s)
-- **Indev-1.6a**
-	- Drop rate reduced in favor of other items (100% -> 66%)
+=== "**v2.0a**"
+    - No longer stackable.
+    - Max regeneration level reduced by 1 (V -> IV).
+    - Increased time between Regeneration upgrades (1.5s -> 2.5s).
+
+=== "**vIndev-1.6a**"
+	- Drop rate reduced in favor of other items (100% -> 66%).
 	- Regeneration is no longer instantly at Level V, and it instead progressively goes through different amplifierss.
 	- Being hit now properly cancels Regeneration.
 	- Regeneration now gets applied while sneaking, rather than standing still.
 	- Fixed a bug that caused Regeneration to not work at all sometimes.
 
-- **1.5b**
+=== "**v1.5b**"
     - Fixed a bug that caused Ender Insignia's give command to return a broken item instead.
 
-- **1.5a**
-	- Introduced
+=== "**v1.5a**"
+	- Introduced.
 
 [^1]: This part is written with Illageralt font, meaning that it is normally undecipherable

@@ -1,3 +1,5 @@
+# Spirit Dagger
+
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
 > This feature is dedicated to kohara (*Developer*)
@@ -123,8 +125,8 @@ Enchantment power scales with both Daggers, meaning that having Sweeping Edge II
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with a pair of Spirit Daggers | Remote Getaway | :x: | `stellarity:exploration/spirit_assasin` |
 
 ## History
-- **Indev-1.6a**
-	- Introduced
+=== "**vIndev-1.6a**"
+	- Introduced.
 
 [^1]: [Evelynn kit](https://robloxbedwars.fandom.com/wiki/Evelynn) on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)

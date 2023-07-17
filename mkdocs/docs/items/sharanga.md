@@ -1,4 +1,5 @@
 # Sharanga
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Sharanga** is a bow which converts <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows into Spectral bolts, which pierce infinite number of enemies and travel in a straight line. They also deal 20% more damage compared to regular Arrows. It is dropped by Illusioner in Strongholds. 
@@ -97,20 +98,22 @@ Spectral Bolts also explode after hitting a block, or after 1 second. The explos
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `stellarity:story/drop_rare_illager_loot` |
 
 ## History
-- **2.0a**
-    - Extra velocity multiplier reduced (1.25x -> 1.2x)
+=== "**v2.0a**"
+    - Extra velocity multiplier reduced (1.25x -> 1.2x).
     - Reduced bolt lifespan back to 1s.
     - <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrow save chance reduced to 25%. Infinity chance reduced to 50%. 
-- **Indev-1.6a**
-	- Sharanga drop rate increased frequently (5% base chance -> 9%,  with 2% -> 3% extra chance from Looting)
+
+=== "**vIndev-1.6a**"
+	- Sharanga drop rate increased frequently (5% base chance -> 9%,  with 2% -> 3% extra chance from Looting).
 	- Spectral Bolt explosions no longer deal set 10 damage, and instead deal 66% of Arrow's base damage with 20% armor penetration.
 	- Spectral Bolts velocity buffed (1x -> 1.25x). This also increases damage output.
 	- Optimized and cleaned up Sharanga's code.
-	- Sharanga durability increased (384 -> 424)
+	- Sharanga durability increased (384 -> 424).
 	- Sound and particle effects tweaked slightly.
 	- Now drops paired with 7 - 22 <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows.
 	- Now has a 33% chance to not consume <i class="icon-minecraft icon-minecraft-spectral-arrow"></i>Spectral Arrows. This chance is increased to 66% if enchanted with Infinity.
 	- Dying to a Spectral Bolt explosion will now result in a custom death message.
-	- Increased Bolt lifespan to 1.5s
-- **1.5b**
+	- Increased Bolt lifespan to 1.5s.
+
+=== "**v1.5b**"
 	- Introduced

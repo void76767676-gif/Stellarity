@@ -1,3 +1,5 @@
+# Clockwork Crossbow
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Clockwork Crossbow** is a modified variant of a Crossbow that is able to shoot as fast as you can right-click, but deals a bit less damage.
@@ -80,13 +82,13 @@ Shot Arrows deal only 3:heart: x ₁․₅ damage per shot and cannot be picked 
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sharanga"></i></div> | Rare Find | Obtain an uncommon drop from the Illagers residing in Strongholds | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `stellarity:story/drop_rare_illager_loot` |
 
 ## History
-- **Indev-1.6a**
-    - Arrow damage nerfed (~8 -> 3)
-    - Quick Charge now affects ammo conservation chance
-    - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting)
-    - Fired Arrows per second reduced (20 -> 3.33)
-    - Shot Arrows ignore invulnerability ticks
-    - Simplified item description and changed flavor text
+=== "**vIndev-1.6a**"
+    - Arrow damage nerfed (~8 -> 3).
+    - Quick Charge now affects ammo conservation chance.
+    - Drop chance increased (4% base chance -> 7%, with 1% -> 2% extra chance from Looting).
+    - Fired Arrows per second reduced (20 -> 3.33).
+    - Shot Arrows ignore invulnerability ticks.
+    - Simplified item description and changed flavor text.
 
-- **1.5b**
-    - Introduced
+=== "**v1.5b**"
+    - Introduced.

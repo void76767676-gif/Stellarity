@@ -155,6 +155,7 @@ table#kohara-infobox--item {
     margin: 0px;
     width: 320px;
     max-width: 100%;
+    margin-left: 10px
 }
 
 table#kohara-infobox--item th.kohara-infobox--top-image {

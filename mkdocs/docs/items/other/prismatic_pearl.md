@@ -1,4 +1,5 @@
 # Prismatic Pearl
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Prismatic Pearl** is a post-Empress item which acts like an infinite supply of Ender Pearls. As an added bonus, it also flies faster and further compared to a regular Ender Pearl.
@@ -16,7 +17,7 @@
 </div>
 
 ## Obtaining
-Prismatic Pearl has a 33% chance to be dropped by the Empress of Light.
+Prismatic Pearl has a 33% chance to be dropped by the Empress of Light, but only if killed in The End or in the Overworld during nighttime.
 
 ## Usage
 Prismatic Pearl works just the same way an Ender Pearl works, however after being thrown, it returns to the player after 5 seconds.
@@ -34,8 +35,9 @@ Prismatic Pearl leaves a rainbow trail as it flies.
     - Spoiler alert: it didn't work :pensive:.
 
 ## History
-- **2.0a**
+=== "**v2.0a**"
     - Reduced cooldown by 1s (6s -> 5s)
     - Now drops from the Empress of Light.
-- **Indev-1.6a**
-    - Introduced, but unobtainable
+
+=== "**vIndev-1.6a**"
+    - Introduced, but unobtainable.

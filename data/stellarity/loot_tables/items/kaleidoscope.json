@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"kaleidoscope\",CustomModelData:90004,HideFlags:6}"
+							"tag": "{stellarity.special_item:\"kaleidoscope\",CustomModelData:90004,HideFlags:6,Unbreakable:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

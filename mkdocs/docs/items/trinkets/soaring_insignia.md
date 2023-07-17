@@ -1,4 +1,5 @@
-# Starstruck Carcanet
+# Soaring Insignia
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Soaring Insignia** is a utility trinket which grants its user the ability to fly, similar to creative mode flight. However, the flight agility is fairly limited.
@@ -44,7 +45,8 @@ Coming into contact with ground, any liquid or swapping items immedietaly stops 
     - It even uses its texture.
 
 ## History
-- **2.0b**
-    - Added a notice to its description which mentions it only works while sneaking
-- **2.0a**
-    - Introduced
+=== "**v2.0b**"
+    - Added a notice to its description which mentions it only works while sneaking.
+
+=== "**v2.0a**"
+    - Introduced.

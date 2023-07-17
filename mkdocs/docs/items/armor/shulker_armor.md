@@ -1,14 +1,14 @@
 # Shulker Armor
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Shulker Armor** is a post-Dragon a direct upgrade to <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite armor which focuses on boosting defense and damage reduction.
+**Shulker Armor** is a post-Dragon a direct upgrade to <i class="icon-minecraft icon-minecraft-netherite-chestplate"></i>Netherite Armor. It is oriented around defense.
 
-Wearing a full set of Shulker Armor grants player a set bonus, which grants multiple benefits:
+Wearing a full set of Shulker Armor grants player a set bonus with multiple benefits:
 	1. Shulker Bullets seek out anything that attacks the player.
 	2. Flat 20% damage reduction.
 	3. Immunity to Levitation and Wither debufffs.
 
-However, Shulker Armor comes with a drawback in form of reduced movement speed.
+However, Shulker Armor comes with a drawback in form of reduced movement and attack speed.
 
 <br><br>
 
@@ -76,9 +76,9 @@ Set bonus also applies permanent Resistance I, which is equal to flat 20% damage
 ## Trivia
 - This is the third set to be added into Stellarity, 4 months after <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](ancient_armor.md) and <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md).
 - The only reason why Levitation immunity was incorporated into the set bonus was because *(very rarely)* Shulker Bullets which were spawned on damage could hit player, levitating them upwards, which felt rather awkward.
-    - This was patched in 2.0a, however Levitation immunity still stayed.
-    - kohara later expanded it to also provide immunity to Wither debuff.
-- This armor set acts as an alternative to so-called `Enderite Armor`, since kohara didn't want to add an all-in-one armor set with a generic recipe that requires just gathering some End ore.
+    - This was patched in vIndev-1.6a, however Levitation immunity still stayed.
+    - kohara later expanded the effect to also provide immunity to Wither debuff.
+- This armor set acts as an alternative to so-called `Enderite Armor`, since kohara didn't want to add an all-in-one armor set with `a generic recipe that requires just gathering some End ore`.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
@@ -86,28 +86,29 @@ Set bonus also applies permanent Resistance I, which is equal to flat 20% damage
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-shulker-armor"></i></div> | <span style="color: #B533FF;">I am Titanium!</span> | Craft a full set of Shulker Armor | Cursed Crafting | :x: | `stellarity:aota/craft_shulker_armor` |
 
 ## History
-- **2.0c**
-	- Replaced the -15% Damage penalty with a -10% Attack Speed penalty
-- **2.0b**
-    - Decreased the chance to spawn Shulker Bullets when hurt (60% -> 33%)
-    - Fixed infinite loop when hit with own Shulker Bullets
-- **2.0a**
+=== "**v2.0c**"
+	- Replaced the -15% Damage penalty with a -10% Attack Speed penalty.
+
+=== "**v2.0b**"
+    - Decreased the chance to spawn Shulker Bullets when hurt (60% -> 33%).
+    - Fixed infinite loop when hit with own Shulker Bullets.
+
+=== "**v2.0a**"
     - Reintroduced -15% Damage penalty.
-    - Full set knockback resistance reduced (100% -> 80%)
+    - Full set knockback resistance reduced (100% -> 80%).
     - Shulker Bullets now have a 60% chance to spawn when hurt.
-    - Shulker Bullet levitation duration reduced (10s -> 5s), increased potency (I -> II)
-- **Indev-1.6a**
+    - Shulker Bullet levitation duration reduced (10s -> 5s), increased potency (I -> II).
+
+=== "**vIndev-1.6a**"
 	- Now has a custom texture.
 	- Fixed CustomModelData values of Shulker Armor pieces being same as <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor's.
 	- Recipe now uses 8 <i class="icon-minecraft icon-minecraft-shulker-shell"></i>Shulker Shells instead of 15.
 	- Added an advancement for crafting all 4 pieces of  <i class="icon-stellarity icon-stellarity-shulker-armor"></i>Shulker Armor.
 	- Shulker Armor pieces now keep enchantments of Netherite Armor pieces used to craft them.
-    - Removed Attack Speed and Damage penalty
-	- Reduced Movement Speed penalty (-14% -> -10%)
+    - Removed Attack Speed and Damage penalty.
+	- Reduced Movement Speed penalty (-14% -> -10%).
 	- Fixed Shulker Bullets spawned on damage not counting as player's.
 	- Set bonus now also provides immunity to Wither debuff.
 
-- **1.5a**
-	- Introduced
-  
-[^1]: Upcoming JE 1.20
+=== "**v1.5a**"
+	- Introduced.

@@ -1,3 +1,5 @@
+# Tamaris
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Tamaris** is a post-Dragon greatsword which allows players to trigger a powerful Execute ability, warping to nearby enemies with low health and killing them instantly. It also applies new DoT effect called **Dark Decay** on hit.
@@ -69,19 +71,20 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
 - Tamaris prioritizes nearest weak mob while choosing a target to execute next. Keep in mind while trying to chain execute a group of weak mobs.
 - The execute treshold is lower for certain mobs.
     - In PvP, health percentage required to mark a player 'executable' is **20%**.
-    - On bosses *(Wither, Empress of Light)* and Wardens, this treshold is **15%**.
-        - This means that: 
-            - The Wither can be executed while below 45:heart: x ₂₂․₅ health.
-            - The Empress of Light can be executed while below 120:heart: x ₆₀ health.
-                - This is a major help during the fight due to Empress' high defense and damage reduction.
-            - Warden can be executed while below 75:heart: x ₃₇․₅ health.
-        - This does not apply to modded bosses or bosses from other datapacks, following 25% treshold instead. 
+    - On bosses *(Wither, Empress of Light)* and Wardens, this treshold is **10%**.
+
+		!!! info "Adding compatibility"
+
+			Modders can extend the `stellarity:boss` tag with their own boss mob IDs to set their execute treshold to 10%
+
+			Boss Datapack developers can add the `stellarity.boss` tag to their boss entity. This does the same thing as extending the tag, but only for one particular entity.
+
     - Non-living entities *(Item Frames, Armor Stands, etc.)* and the Ender Dragon are immune to Tamaris' execute.
 - Try not to use this weapon in Multiplayer while teaming up with other players, as it could potentialy lead to one of your allies being accidentaly executed.
 	- Execute move targets the closest weak mob, so use it to avoid mistakes.
 
 ## Trivia
-- The way how execute ability works is that it deals 999 damage with 100% armor penetration, instead of directly doing `/kill`.
+- The execute ability deals 999 damage with 100% armor penetration instead of doing `/kill` directly.
     - This is because `/kill` ignores <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totems of Undying.
 - This item was intended to be called `Void Star`, but the official name was changed before release.
     - It was also supposed to have a [consecrated](../mechanics/consecration.md) variant called `Hallow Star`, which would simply have different visual and sound effects.
@@ -97,6 +100,7 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
 - The advancement name `Kill la Kill` is a reference to an anime series of the same name.
     - It means `Kill the prey` in French.
 - Dying to the Execute ability in PvP will result in a custom death message - `VICTIM was publicly executed by PLAYER`.
+- The file used for dealing ability damage is called `super_hyper_extra_heavy_damage_you_cannot_survive.mcfunction`.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
@@ -105,15 +109,20 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Kill la Kill | Trigger the Execute ability on a Warden. **Good luck...** | Disassembly | :x: | `stellarity:dragons_den/kill_la_kill` |
 
 ## History
-- **2.0a**
-    - Reduced base damage by 1 (7 -> 6)
-    - Reworked Dark Decay
-        - Damage reduced (3 -> 1)
-        - Increased armor penetration (20% -> 80%)
+=== "**v2.0c**"
+    - Reduced boss execute treshold (15% -> 10%).
+    - Fixed non-melee attacks being able to proc Dark Decay.
+
+=== "**v2.0a**"
+    - Reduced base damage by 1 (7 -> 6).
+    - Reworked Dark Decay.
+        - Damage reduced (3 -> 1).
+        - Increased armor penetration (20% -> 80%).
         - Curse of Vanishing now doubles the decay damage. No longer increases the duration.
-        - Increased damage tick speed, reduced the effect duration *(results in same amount of damage ticks in less time)* 
-- **Indev-1.6a**
-    - Introduced
+        - Increased damage tick speed, reduced the effect duration.
+
+=== "**vIndev-1.6a**"
+    - Introduced.
 
 [^1]: [Hannah](https://robloxbedwars.fandom.com/wiki/Hannah) kit on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)

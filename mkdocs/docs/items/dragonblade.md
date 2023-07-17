@@ -1,3 +1,5 @@
+# Dragonblade
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Dragonblade** is a post-Dragon greatsword with the ability to trigger a powerful punch after hitting a mob 3 times. Punches deal heavy damage which ignores a substantial amount of enemy defense.
@@ -77,19 +79,20 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 ## Trivia
 - The methods of obtaining the Dragonblade differed greatly throughout its development.
     - Upon its release in 1.5a, it was found stuck in the Altar of The Accursed, right after entering The End.
-        - During the development of 2.0a, it dropped from the Ender Dragon with a 50% chance.
+        - During the development of Indev-1.6a, it dropped from the Ender Dragon with a 50% chance.
             - However due to a community poll, it returned to its one-per-world state, with the only difference being it spawning after defeating the Dragon for the first time, and not prior.
     - Dragonblade can also be obtained with commands, but upon release they would return a broken item instead, meaning that it was truly one-per world.
         - This was patched in 1.5b, with its `/loot give` command functioning as intended.
 - This item and its ability is based on Kaliyah[^1] kit from Roblox BedWars[^2].
     - Its description is also a reference to Kaliyahkit description - `A fearsome warrior with a fiery punch!`.
     - The quoted line is a reference to Terraria's S.D.M.G.[^3] tooltip, `It came from the edge of space`.
-- Prior to 2.0a, it acted as an indirect upgrade to a Netherite Sword, with its special mechanic being spawning clouds of Dragon's Breath on hits and increasing damage temporarily after that.
+- Prior to Indev-1.6a, it acted as an indirect upgrade to a Netherite Sword, with its special mechanic being spawning clouds of Dragon's Breath on hits and increasing damage temporarily after that.
 - During the development of 2.0a, it went through a total of 3 reworks.
     - First one was simply editing the Dragon's Breath cloud properties and damage increase.
     - Second one was similair to current behavior, but the punch damage was always 22 and it had additional upward motion. It also always triggered on the 4th hit, rather than with sneaking.
     - Third one is the one currently used in the pack.
 - Dying to a Dragonblade's punch in PvP will result in a custom death message - `VICTIM was punched into the otherworld by PLAYER`.
+- The Dragonblade is one of the 3 unbreakable items in Stellarity, the other 2 being [Ancient Wooden Sword](ancient_wooden_sword.md) and [Kaleidoscope](kaleidoscope.md).
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
@@ -98,26 +101,27 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | `stellarity:aota/kaliyah` |
 
 ## History
-- **2.0a**
-    - Punch armor penetration increased (33% -> 40%)
-    - Reduced punch cooldown by 1.5s (9.5s -> 8s)
-    - Increased attack speed (1.1 -> 1.25)
-    - Punches now deal explosion damage
-    - Improved sound and visual effects
-    - Fixed a couple of issues with punches
-- **Indev-1.6a**
+=== "**v2.0a**"
+    - Punch armor penetration increased (33% -> 40%).
+    - Reduced punch cooldown by 1.5s (9.5s -> 8s).
+    - Increased attack speed (1.1 -> 1.25).
+    - Punches now deal explosion damage.
+    - Improved sound and visual effects.
+    - Fixed a couple of issues with punches.
+
+=== "**vIndev-1.6a**"
 	- Reworked completely. Previously it would spawn a cloud of Dragon's Breath on hit with a 5 seconds cooldown.
-	- Base damage reduced (8 -> 6)
-	- Attack speed reduced (1.6 -> 1.1)
+	- Base damage reduced (8 -> 6).
+	- Attack speed reduced (1.6 -> 1.1).
 	- Now spawns after defeating the Ender Dragon.
 	- Now unbreakable.
 
-- **1.5b**
+=== "**v1.5b**"
     - Fixed a bug that caused Dragonblade's give command to return a broken item instead.
     - Fixed Clouds spawning on Paintings and Chest Boats.
 
-- **1.5a**
-	- Introduced
+=== "**v1.5a**"
+	- Introduced.
 
 [^1]: [Kaliyah](https://robloxbedwars.fandom.com/wiki/Kaliyah) kit on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)

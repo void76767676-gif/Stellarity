@@ -1,3 +1,5 @@
+# Sabrewing
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Sabrewing** is a post-Dragon bow with the ability to supercharge shots for massively increased damage and arrow velocity.
@@ -76,8 +78,9 @@ While charging Sabrewing, players move 25% slower compared to charging regular B
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting | Use the <span style="color: #8000B8;">Altar of The Accursed</span> to craft some powerful gear | An Introduction to Dark Magic | :x: | `stellarity:aota/cursed_crafting` |
 
 ## History
-- **2.0a**
-    - Increased supercharge time by 1s (2s -> 3s)
-    - Improved visual and sound effects for supercharged shots
-- **Indev-1.6a**
-    - Introduced
+=== "**v2.0a**"
+    - Increased supercharge time by 1s (2s -> 3s).
+    - Improved visual and sound effects for supercharged shots.
+
+=== "**vIndev-1.6a**"
+    - Introduced.

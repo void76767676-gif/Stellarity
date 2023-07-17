@@ -1,3 +1,5 @@
+# Prismatic Punch
+
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
 > This feature is dedicated to kohara (*Developer*)
@@ -86,10 +88,11 @@ Prismatic Inferno lasts for 3 seconds, dealing 1:heart: х ₀.₇₅ damage eve
 - During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
 
 ## History
-- **2.0a**
-    - Now drops from the Empress of Light
-    - Reduced damage and duration of Prismatic Inferno
-- **Indev-1.6a**
-    - Introduced, but unobtainable
+=== "**v2.0a**"
+    - Now drops from the Empress of Light.
+    - Reduced damage and duration of Prismatic Inferno.
+
+=== "**vIndev-1.6a**"
+    - Introduced, but unobtainable.
 
 [^1]: [YaGirlGiulles original message](https://discord.com/channels/727033287343734885/727033287666696209/1035208257188397086)

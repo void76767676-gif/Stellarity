@@ -1,4 +1,5 @@
 # Starstruck Carcanet
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Starstruck Carcanet** is a utility trinket which causes 3 stars to fall nearby when hurt. Stars explode upon contact with ground and deal damage in an area of effect.
@@ -52,7 +53,8 @@ Stars will spawn on any type of damage. If spawned inside blocks, they won't col
     - Star damage was reduced by 25% (4 -> 3).
 
 ## History
-- **2.0a**
-    - No longer stackable
-- **Indev-1.6a**
-    - Introduced
+=== "**v2.0a**"
+    - No longer stackable.
+
+=== "**vIndev-1.6a**"
+    - Introduced.

@@ -1,3 +1,5 @@
+# Duskberry
+
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
 > This feature is dedicated to DuskAdler (*Member 666*)
@@ -71,10 +73,11 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-sweet-berries"></i></div> | Poor Life Choices. | Eat, plant and feed a Fox a Duskberry | Don't Bush Your Luck! | :x: | `stellarity:husbandry/duskberry/discover` |
 
 ## History
-- **2.0a**
-    - Speed bonus is now additive instead of multiplicative
-    - Night vision effect is now applied every 5 seconds rather than every tick
-- **Indev-1.6a**
-	- Introduced
+=== "**v2.0a**"
+    - Speed bonus is now additive instead of multiplicative.
+    - Night vision effect is now applied every 5 seconds rather than every tick.
+
+=== "**vIndev-1.6a**"
+	- Introduced.
 
 [^1]: This part is obfuscated and written with Illageralt font, meaning that it is normally undecipherable

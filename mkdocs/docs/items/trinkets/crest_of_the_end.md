@@ -1,3 +1,5 @@
+# Crest of The End
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Crest of The End** is a post-Dragon trinket with the ability to store a part of blocked damage and use it to empower its wielder next melee attack.
@@ -44,6 +46,5 @@ Blocking damage with Crest of The End stores a part of blocked damage, adding +1
 - During some point in its development, it used to give players the ability to dash, but it was confusing and hard to use so it was changed.
 
 ## History
-
-- **Indev-1.6a**
+=== "**vIndev-1.6a**"
 	- Introduced

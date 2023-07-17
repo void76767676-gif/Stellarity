@@ -1,7 +1,8 @@
-# Hallowed Ingot
+# Pixie Dust
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Pixie** is a post-Dragon crafting material dropped by [Pixies](../../mobs/pixie.md). It is used to craft multiple new weapons. Its secondary use is summoning the [Empress of Light](../../mobs/bosses/empress_of_light.md) when offered as a sacrifice at the [Chapel of Light](../../structures/chapel_of_light.md).
+**Pixie Dust** is a post-Dragon crafting material dropped by [Pixies](../../mobs/pixie.md).
 
 <br><br>
 
@@ -25,10 +26,10 @@
 </div>
 
 ## Obtaining
-Pixies drop 0 - 4 Pixie Dust when killed.
+Pixies drop 0 - 4 Pixie Dust when killed. Pixie Dust can also be found in End Ships in place of Glowstone Dust, but only if they generate in The Hallow.
 
 ## Usage
-Pixie Dust is used in a number of [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) recipes.
+Pixie Dust can be used at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) to craft <i class="icon-stellarity icon-stellarity-sariel"></i>[Sariel](../sariel.md), or in regular crafting recipes in place of <i class="icon-minecraft icon-minecraft-glowstone-dust"></i>Glowstone Dust.
 
 It can also be offered as a sacrifice at the Chapel of Light, which summons the Empress of Light boss.
 
@@ -36,11 +37,13 @@ It can also be offered as a sacrifice at the Chapel of Light, which summons the 
 - The flavor text `May contain Fairy` is a play on how the material itself actually comes from fairies.
 
 ## History
-- **2.0a**
-    - Now used to summon the Empress of Light
-- **Indev-1.6a**
+=== "**v2.0a**"
+    - Now used to summon the Empress of Light.
+
+=== "**vIndev-1.6a**"
     - Now used in new crafting recipes.
-    - Drop quantity increased (`0 - 2` -> `0 - 4`)
-    - Now used to summon the Empress of Light
-- **1.5b**
-    - Introduced
+    - Drop quantity increased (`0 - 2` -> `0 - 4`).
+    - Now used to summon the Empress of Light.
+
+=== "**v1.5b**"
+    - Introduced.

@@ -1,3 +1,5 @@
+# Zephyr
+
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
 >
 > This feature is dedicated to PancakeKlee (*Donator*)
@@ -74,9 +76,10 @@ The ability speed increase stacks with passive speed increase for a total of 27.
 - Before its introduction, Klee's Dedicated Item used to be a Knockback V Stick.
 
 ## History
-- **2.0a**
-    - Chance to generate per chest increased (20% -> 35%)
-    - Base movement speed bonus reduced (10% -> 7.5%)
-    - Base movement speed bonus is now additive instead of multiplicative
-- **Indev-1.6a**
-	- Introduced
+=== "**v2.0a**"
+    - Chance to generate per chest increased (20% -> 35%).
+    - Base movement speed bonus reduced (10% -> 7.5%).
+    - Base movement speed bonus is now additive instead of multiplicative.
+
+=== "**vIndev-1.6a**"
+	- Introduced.

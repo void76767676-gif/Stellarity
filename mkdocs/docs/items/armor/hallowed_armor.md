@@ -1,7 +1,7 @@
 # Hallowed Armor
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Hallowed Armor** is a post-Dragon armor set obtained from Treasure Chests in End Cities which focuses on boosting evasion and mobility.
+**Hallowed Armor** is a post-Dragon armor set crafted with [Hallowed Ingots](../materials/hallowed_ingot.md). It is oriented around mobility.
 
 Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodging of attacks with a cooldown.
 
@@ -66,15 +66,15 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 ## Trivia
 - <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into Stellarity.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
-    - While it got added as far back as 1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before 1.5a.
-        - However, it was officialy removed as of 2.0a.
-- Prior to 1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Hallowed Diamond Armor`.
+    - While it got added as far back as v1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before v1.5a.
+        - However, it was officialy removed as of vIndev-1.6a.
+- Prior to v1.5a, this armor set was known as <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>`Hallowed Diamond Armor`.
     - It also used to have random stats. It could provide a random amount of Defense, Attack Speed, Armor Toughness and Movement Speed.
         - Movement Speed increase was so huge that players could trigger vanilla anti-cheat in Singleplayer while wearing 2 or more armor pieces.
         - Sometimes Armor Toughness would get listed twice due to some errors in loot tables. 
             - This has since been fixed.
 - When resource pack is enabled, golden parts of Hallowed Armor produce a faint glow in the dark.
-- During the development of 2.0a, Holy Protection used to timeout after 15 seconds without being damaged, although it was removed a few weeks later.
+- During the development of vIndev-1.6a, Holy Protection used to timeout after 15 seconds without being damaged, although it was removed a few weeks later.
     - The official reason was because kohara couldn't stand the '`constant Holy Protection ON and OFF`' sounds.
 
 ## Advancements
@@ -83,20 +83,20 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 | <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-stellarity icon-stellarity-hallowed-armor"></i></div> | <span style="color: #FFCC38;">Hallelujah!</span> | Dodge an attack with a full set of Hallowed Armor | Cursed Crafting | :x: | `stellarity:aota/cancel_damage_hallowed_armor` |
 
 ## History
-- **2.0a**
-    - No longer found in End Cities, being directly replaced by Ancient Plating
-	- Increased dodge cooldown by 10% (20s -> 22s)
-    - Hallowed Treads movement speed bonus reduced (+10% -> +8%) and is now additive instead of multiplicative
-- **Indev-1.6a**
+=== "**v2.0a**"
+    - No longer found in End Cities, being directly replaced by Ancient Plating.
+	- Increased dodge cooldown by 10% (20s -> 22s).
+    - Hallowed Treads movement speed bonus reduced (+10% -> +8%) and is now additive instead of multiplicative.
+=== "**vIndev-1.6a**"
 	- Now has a custom texture.
 	- Armor Toughness per-piece increased to match Netherite Armor.
 	- Fixed Holy Protection cooldown being 3 - 4 seconds shorter than usual because of it going off right with invincibility.
-	- Holy Protection duration increased (3 seconds -> 4 seconds)
-	- Holy Protection Fire Resistance duration increased (3 seconds -> 7 seconds)
+	- Holy Protection duration increased (3 seconds -> 4 seconds).
+	- Holy Protection Fire Resistance duration increased (3 seconds -> 7 seconds).
 	- Holy Protection now also grants 7 seconds of Water Breathing.
 	- Holy Protection Speed boost now lasts longer (4 -> 6 seconds) and diminishes over time.
-	- Only Hallowed Treads now provide Movement Speed bonus (12% -> 10% boost)
-	- Each Hallowed Armor piece no longer provides extra 7.5%:heart:HP. 
+	- Only Hallowed Treads now provide Movement Speed bonus (12% -> 10% boost).
+	- Each Hallowed Armor piece no longer provides extra 7.5%:heart:HP.
 	- Hallowed Chestplate now grants 20% reduced knockback.
 	- Fixed Holy Protection invincibility being removable with <i class="icon-minecraft icon-minecraft-milk-bucket"></i>Milk.
 	- Nerfed quality of enchantments of armor pieces found in Chests.
@@ -104,11 +104,11 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 	- Fixed Holy Protection being triggered even if damage is blocked with a Shield.
 	- Can no longer be found in Crates fished out via Void Fishing, instead can be crafted with ingredients found inside.
 
-- **1.5a**
+=== "**v1.5a**"
 	- Reworked the entire set. It no longer has randomized stats and instead grants the ability to nullify attacks.
 	- Added a full set bonus.
 	- Turned into a dyed Leather Armor with custom durability, instead of using Diamond Armor as base item.
 
-- **1.3a**
+=== "**v1.3a**"
 	- Introduced.
   

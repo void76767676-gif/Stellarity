@@ -1,4 +1,5 @@
-# Book of Conveyance
+# Book of Light
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Book of Light** is a support spellbook which creates a healing aura around its user, giving all players inside health regeneration and damage reduction.
@@ -13,6 +14,15 @@
 	</tr>
     <tr>
 		<th colspan="2">Info</th>
+	</tr>
+	<tr>
+		<td><b>Tooltip</b></td>
+		<td>Right Click to summon a friendly aura
+		<br>
+		which grants healing and damage reduction
+		<br>
+		to all nearby players inside
+		</td>
 	</tr>
 	<tr>
 		<td><b>Cooldown</b></td>
@@ -39,5 +49,5 @@ Aura lasts for 17 seconds. There is a 48 second cooldown between creating differ
 - Even though the description says it has a 48 second cooldown, it starts right when an aura is created, meaning the actual cooldown is 31 seconds instead.
 
 ## History
-- **Indev-1.6a**
-    - Introduced
+=== "**vIndev-1.6a**"
+    - Introduced.
