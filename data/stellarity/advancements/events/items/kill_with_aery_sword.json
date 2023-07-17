@@ -115,6 +115,29 @@
 					}
 				}
 			}
+		},
+		"boss": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:diamond_sword"
+							],
+							"nbt": "{stellarity.special_item:\"frigid_harvester\"}"
+						}
+					}
+				},
+				"entity": {
+					"nbt": "{Tags:[\"stellarity.boss\"]}",
+					"distance": {
+						"absolute": {
+							"max": 6.5
+						}
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -123,7 +146,8 @@
 			"small",
 			"big",
 			"large",
-			"huge"
+			"huge",
+			"boss"
 		]
 	],
 	"rewards": {
