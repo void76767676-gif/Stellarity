@@ -1,7 +1,10 @@
-# Knockback
-damage @s 0.00000001 stellarity:natures_wrath by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
+# Sound
+damage @s[type=!player] 0.00000001 stellarity:natures_wrath
 
 data modify entity @s Silent set value 1b
+
+# Knockback
+damage @s 0.00000001 stellarity:natures_wrath by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
 
 execute if score #damage stellarity.misc matches 2048.. run damage @s 204.8 stellarity:natures_wrath
 execute if score #damage stellarity.misc matches 2048.. run scoreboard players remove #damage stellarity.misc 2048
@@ -49,4 +52,5 @@ stopsound @a[distance=..16] player minecraft:enchant.thorns.hit
 
 data modify entity @s Silent set value 0b
 
-damage @s 0.00000001 stellarity:natures_wrath
+# Playing twice because Players
+damage @s[type=player] 0.00000001 stellarity:natures_wrath

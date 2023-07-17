@@ -12,14 +12,14 @@ execute unless score #armor_penetration stellarity.misc matches 0 run function s
 execute store result score #death_messages stellarity.misc run gamerule showDeathMessages
 gamerule showDeathMessages false
 
-function stellarity:utils/damage/apply_damage
-
 # Fail execute if Totem of Undying is used
 # or Holy Protection invulnerability is triggered
 tag @s[predicate=stellarity:utils/totem/holding] add stellarity.tag
 execute if entity @s[tag=stellarity.tag,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
 execute if entity @s[type=player,tag=stellarity.holy_protection,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
 tag @s remove stellarity.tag
+
+function stellarity:utils/damage/apply_damage
 
 # Remove Holy Protection if a player has it
 execute if entity @s[type=player,tag=stellarity.holy_protection] run function stellarity:items/armors/hallowed_armor/holy_protection/off

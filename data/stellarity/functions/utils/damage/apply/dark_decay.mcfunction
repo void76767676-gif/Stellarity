@@ -1,3 +1,6 @@
+# Sound
+damage @s[type=!player] 0.00000001 stellarity:dark_decay
+
 data modify entity @s Silent set value 1b
 
 execute if score #damage stellarity.misc matches 2048.. run damage @s 204.8 stellarity:dark_decay
@@ -46,4 +49,5 @@ stopsound @a[distance=..16] player minecraft:enchant.thorns.hit
 
 data modify entity @s Silent set value 0b
 
-damage @s 0.00000001 stellarity:dark_decay
+# Playing twice because Players
+damage @s[type=player] 0.00000001 stellarity:dark_decay

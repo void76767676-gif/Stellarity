@@ -1,4 +1,10 @@
+# Sound
+damage @s[type=!player] 0.00000001 stellarity:empress_of_light/dash
+
 data modify entity @s Silent set value 1b
+
+# Knockback
+damage @s 0.00000001 stellarity:empress_of_light/dash by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
 
 execute if score #damage stellarity.misc matches 2048.. run damage @s 204.8 stellarity:empress_of_light/dash
 execute if score #damage stellarity.misc matches 2048.. run scoreboard players remove #damage stellarity.misc 2048
@@ -36,9 +42,6 @@ execute if score #damage stellarity.misc matches 2.. run scoreboard players remo
 execute if score #damage stellarity.misc matches 1.. run damage @s 0.1 stellarity:empress_of_light/dash
 execute if score #damage stellarity.misc matches 1.. run scoreboard players remove #damage stellarity.misc 1
 
-# Knockback
-damage @s 0.00000001 stellarity:empress_of_light/dash by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
-
 # Sounds 
 stopsound @a[distance=..16] player minecraft:entity.player.hurt
 stopsound @a[distance=..16] player minecraft:entity.player.hurt_drown
@@ -49,4 +52,5 @@ stopsound @a[distance=..16] player minecraft:enchant.thorns.hit
 
 data modify entity @s Silent set value 0b
 
-damage @s 0.00000001 stellarity:empress_of_light/dash
+# Playing twice because Players
+damage @s[type=player] 0.00000001 stellarity:empress_of_light/dash

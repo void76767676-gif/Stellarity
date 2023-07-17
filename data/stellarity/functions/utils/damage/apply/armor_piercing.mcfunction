@@ -1,8 +1,14 @@
-# Knockback
-damage @s 0.00000001 stellarity:armor_piercing by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
-
+# Tamaris
 execute if entity @s[tag=stellarity.damage.tamaris_execute] run damage @s 999 stellarity:armor_piercing
 execute if entity @s[tag=stellarity.damage.tamaris_execute] run scoreboard players set #damage_ap stellarity.misc 0
+
+# Sound
+execute if score #armor_penetration stellarity.misc matches 100 run damage @s[type=!player] 0.00000001 stellarity:armor_piercing
+
+data modify entity @s Silent set value 1b
+
+# Knockback
+damage @s 0.00000001 stellarity:armor_piercing by @e[limit=1,sort=nearest,tag=stellarity.damage.attacker]
 
 data modify entity @s Silent set value 1b
 
@@ -52,4 +58,5 @@ stopsound @a[distance=..16] player minecraft:enchant.thorns.hit
 
 data modify entity @s Silent set value 0b
 
-execute if score #armor_penetration stellarity.misc matches 100 run damage @s 0.00000001 stellarity:armor_piercing
+# Playing twice because Players
+execute if score #armor_penetration stellarity.misc matches 100 run damage @s[type=player] 0.00000001 stellarity:armor_piercing
