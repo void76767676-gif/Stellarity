@@ -38,6 +38,7 @@ nav:
       - Crest of The End: items/trinkets/crest_of_the_end.md
       - Duskberry: items/trinkets/duskberry.md
       - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
+      - Soaring Insignia: items/trinkets/soaring_insignia.md
     - Materials:
       - Pixie Dust: items/materials/pixie_dust.md
       - Ancient Plating: items/materials/ancient_plating.md
@@ -51,7 +52,7 @@ nav:
       - Prismatic Pearl: items/other/prismatic_pearl.md
       - Shulker Tools: items/tools/shulker_tools.md
   #    - Pandora's Barrel: items/other/pandoras_barrel.md
-  #    - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
+      - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
   #    - Cursed Tome: items/other/cursed_tome.md
   #    - Potions: items/other/potions.md
   - Mechanics:

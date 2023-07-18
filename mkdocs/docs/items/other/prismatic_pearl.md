@@ -31,6 +31,7 @@ Prismatic Pearl leaves a rainbow trail as it flies.
     - This means that Starstruck Carcanet synergizes well with Shulker Armor due to provided tankiness and damage resistance.
 
 ## Trivia
+- Players named `Bush_King` have an alternative pearl trail. Instead of a rainbow, it alternates between the colors of a bisexual flag.
 - This item was made just so Bush would shut up.
     - Spoiler alert: it didn't work :pensive:.
 

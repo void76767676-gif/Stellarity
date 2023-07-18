@@ -53,7 +53,9 @@ Kaleidoscope is a guaranteed drop from the [Empress of Light](../mobs/bosses/emp
 ## Usage
 Holding Kaleidoscope in main hand causes it to rapidly charge up. Current charge is displayed in player's action bar.
 
-Attacking a mob resets the charge back to 0. If charge is under 33, nothing happens. However, if player's charge is above that amount, a powerful discharge is going to happen which deals extra damage with some splash damage as well. The discharge damage stacks with weapons's base damage of 7.
+Attacking a mob resets the charge back to 0. If charge is under 33, nothing happens. However, if player's charge is above that amount, a powerful discharge is going to happen which deals extra damage with some splash damage as well.
+
+The discharge damage stacks with weapons's base damage of 7.
 
 | Charge | Damage | Splash radius | Armor penetration |
 | :--- | :--- | :--- | :--- |
@@ -61,7 +63,7 @@ Attacking a mob resets the charge back to 0. If charge is under 33, nothing happ
 | 66 | 6 + `charge`/10 | 2.4 | 20% |
 | 100 | 23 | 4.2 | 20% |
 
-Discharge damage is reduced further by Fire Protection and Blast Protection enchantments. This does not affect base sword damage.
+Discharge damage is reduced further by Blast Protection enchantment. This does not affect base sword damage.
 
 ## Tips
 - Enchantments like Sharpness, Smite or Bane of Arthropods only increase Kaleidoscope's base damage. Discharge damage can't be increased by any means.

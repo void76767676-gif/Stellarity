@@ -49,8 +49,28 @@
 									"color": "#04CA01",
 									"font": "illageralt",
 									"italic": false,
-									"obfuscated": true
-								}
+									"obfuscated": false
+								},
+								[
+									{
+										"text": "- ",
+										"color": "#04CA01",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.member_777",
+										"fallback": "Member #777 Item",
+										"color": "#04CA01",
+										"font": "illageralt",
+										"italic": false,
+										"obfuscated": false
+									},
+									{
+										"text": " -",
+										"color": "#04CA01",
+										"italic": false
+									}
+								]
 							]
 						}
 					]

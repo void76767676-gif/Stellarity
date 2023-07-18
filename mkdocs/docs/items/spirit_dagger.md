@@ -78,7 +78,7 @@ Spirit Dagger is quite unique in terms of usage. While using only one, damaging 
 
 Spirits can be consumed by focusing on them for 7 ticks while holding 2 Daggers. Consumption progress will be shown in the action bar.
 
-Consuming Spirits instantly teleports player to their location. Teleportation will create a large area of effect attack which damages all enemies around arrival location for 4:heart::heart: damage with 50% armor penetration. Afterwards player receives a small combat buff -  4:yellow_heart::yellow_heart: points of Absorption, +2:heart: damage and +30% movement speed. Buffs last for 5 seconds.
+Consuming Spirits instantly teleports player to their location. Teleportation will create a large area of effect attack which damages all enemies around arrival location for 4:heart::heart: damage with 100% armor penetration. Afterwards player receives a small combat buff -  4:yellow_heart::yellow_heart: points of Absorption, +2:heart: damage and +30% movement speed. Buffs last for 5 seconds.
 
 Attacked mobs that __have attracted a Spirit__ won't be able to do it again for 17 seconds, indicated by a spray of particles above their head.
 
@@ -88,10 +88,10 @@ As previously mentioned, certain enchantments are going to empower Spirit Dagger
 
 | Enchantment | Action |
 | :--- | :--- |
-| Sweeping Edge | Increases slash attack damage by 0.75/level. |
+| Sweeping Edge | Increases slash attack damage by 0.5/level. |
 | Fire Aspect | Slash attack sets mobs on fire for 1.5s/level. Does not work on players in PvP. |
 | Knockback | Adds knockback to the slash attack. Does not work on players in PvP. |
-| Bane of Arthropods | Arthropod type mobs will have Slowness IV inflicted to them for `1` to `(1.5 + [level * 0,5])` seconds. |
+| Bane of Arthropods | Arthropod type mobs will have Slowness IV inflicted to them for `1` to `(1.5 + [level * 0.5])` seconds. |
 
 Enchantment power scales with both Daggers, meaning that having Sweeping Edge III on one of them and Sweeping Edge II on the other one will act as Sweeping Edge V.
 

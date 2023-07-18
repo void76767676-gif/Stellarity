@@ -88,6 +88,9 @@ Prismatic Inferno lasts for 3 seconds, dealing 1:heart: х ₀.₇₅ damage eve
 - During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
 
 ## History
+= "**v2.0c**"
+	- Prismatic Inferno nerf: Prismatic Inferno no longer has 30% armor penetration.
+
 === "**v2.0a**"
     - Now drops from the Empress of Light.
     - Reduced damage and duration of Prismatic Inferno.

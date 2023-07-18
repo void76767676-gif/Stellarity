@@ -23,7 +23,7 @@
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>Empowers your speed, sight and strength while held.<br>Consuming or planting might have dire consequences<br><br><span style="color: #76389B;">Member #666 Item</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
+		<td>Empowers your speed, sight and strength while held.<br>Consuming or planting might have dire consequences<br><br><span style="color: #76389B;">- Member #666 Item -</span><sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></td>
 	</tr>
 </table>
 </div>
@@ -69,8 +69,8 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sweet-berries"></i></div> | Don't Bush Your Luck! | Pick up a Duskberry from a chest in Hallow's End Ship | Husbandry | :x: | `stellarity:husbandry/duskberry/discover` |
-| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-sweet-berries"></i></div> | Poor Life Choices. | Eat, plant and feed a Fox a Duskberry | Don't Bush Your Luck! | :x: | `stellarity:husbandry/duskberry/discover` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-duskberry"></i></div> | Don't Bush Your Luck! | Pick up a Duskberry from a chest in Hallow's End Ship | Husbandry | :x: | `stellarity:husbandry/duskberry/discover` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-duskberry"></i></div> | Poor Life Choices. | Eat, plant and feed a Fox a Duskberry | Don't Bush Your Luck! | :x: | `stellarity:husbandry/duskberry/poor_life_choices` |
 
 ## History
 === "**v2.0a**"
@@ -80,4 +80,4 @@ Duskberries can also be fed to Foxes. They won't be cursed, but poisoned instead
 === "**vIndev-1.6a**"
 	- Introduced.
 
-[^1]: This part is obfuscated and written with Illageralt font, meaning that it is normally undecipherable
+[^1]: This part is written with Illageralt font, meaning that it is normally undecipherable

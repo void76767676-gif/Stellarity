@@ -15,6 +15,17 @@
     <tr>
 		<th colspan="2">Info</th>
 	</tr>
+    <tr>
+		<td><b>Tooltip</b></td>
+		<td>Hold it while exploring to imbue it with a biome's magic,
+		<br>
+		permanently unlocking or upgrading its abilities
+		<br>
+		Sneak and use to summon a pack of Spirit Wolves
+        <br><br>
+        <span style="color: #04CA01;">- Member #777 Item -<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></span>
+		</td>
+	</tr>
 	<tr>
 		<td><b>Cooldown</b></td>
 		<td>1 - 1.2 Seconds (Nature's Spirit)
@@ -38,7 +49,7 @@ Visiting certain biomes **while holding Nature's Wrath in any hand** imbues it w
 | :--- | :---  | :--- | :--- | :--- | :--- | :--- |
 | Normal | Light Blue | :x: *(default)* | 4:heart::heart: | :x: | :x: | Damage increased to 6:heart::heart::heart: at 5 Spirit Upgrades |
 | Forest | Dark Green | Any forest biome | 5:heart: х ₂.₅ | :x: | Grants 4:yellow_heart::yellow_heart: points of Absorption for 8 seconds | Moves 10% quicker<br>Absorption amount doubled at 6 total Spirit Upgrades |
-| Fire | Orange | Any Nether biome[^1] | 5:heart: х ₂.₅ | :x: | Sets target on fire for 3 seconds | Fire duration is extented by 5 ticks for every Spirit Upgrade<br>Does not work on players in PvP |
+| Fire | Orange | Any Nether biome[^2] | 5:heart: х ₂.₅ | :x: | Sets target on fire for 3 seconds | Fire duration is extented by 5 ticks for every Spirit Upgrade<br>Does not work on players in PvP |
 | Jungle | Light Green | Jungle, Bamboo Jungle | 7:heart: х ₃.₅ | 10% | Inflicts Poison I for 11 seconds | At 5 Spirit Upgrades, Poison duration is reduced to 7 seconds, but potency increased to II<br>At 8 Spirit Upgrades, Poison Duration is reduced to 5 seconds, but potency is increased to III<br>Moves 15% quicker |
 | Ocean | Pink | Any ocean biome | 5:heart: х ₂.₅ | :x: | Grants Regeneration I for 13 seconds | At 7 Spirit Upgrades, Regeneration duration is reduced to 7 seconds, but potency is increased to II<br>Moves 10% slower<br>Ignores speed penalty in liquids |
 | Mountain | Yellow | Any mountain biome | 7:heart: х ₃.₅ | 15% | :x: | Moves 30% quicker | 
@@ -104,4 +115,5 @@ After Spirit Wolves despawn, there is a 20 seconds cooldown before they can be s
 === "**vIndev-1.6a**"
     - Introduced.
 
-[^1]: Supports modded biomes, as it only checks if the player is in The Nether dimension.
+[^1]: This part is written with Illageralt font, meaning that it is normally undecipherable
+[^2]: Supports modded biomes, as it only checks if the player is in The Nether dimension.

@@ -10,7 +10,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/starstruck_carcanet.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/starstruck_carcanet.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -30,10 +30,10 @@
 </div>
 
 ## Obtaining
-Starstruck Carcanet is dropped by the Empress of Light.
+Starstruck Carcanet has a 33% chance to be dropped by the Empress of Light, but only if killed in The End or in the Overworld during nighttime.
 
 ## Usage
-Taking damage summons 3 stars which fall onto random locations around player. They explode after touching the ground, dealing 3:heart: x ₁.₅ damage with 50% armor penetration to all nearby mobs.
+Taking damage summons 3 stars which fall onto random locations around player. They explode after touching the ground, dealing 4:heart::heart: damage with 50% armor penetration to all nearby mobs.
 
 Stars ignore immunity frames, meaning that all 3 stars can properly deal damage when hitting the same enemy.
 
@@ -50,9 +50,13 @@ Stars will spawn on any type of damage. If spawned inside blocks, they won't col
 - During its development:
     - Stars used to ignore all enemy defense, but dealt only 1 damage to players in PvP.
     - Star explosion radius was increased by 60% compared to its original size.
-    - Star damage was reduced by 25% (4 -> 3).
+    - Star damage was reduced (4 -> 3) and then increased (3 -> 4).
+- Despite its tooltip stating that star damage ignores half of an entity's armor, rather half of the damage ignores armor completely.
 
 ## History
+=== "**v2.0c**"
+	- Increased Falling Star damage (3 -> 4)
+
 === "**v2.0a**"
     - No longer stackable.
 

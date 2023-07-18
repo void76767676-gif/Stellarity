@@ -55,7 +55,7 @@ Only one Dragonblade generates on each world, making it the rarest item in the e
 ## Usage
 Hitting enemies inflicts *'Dragon Stacks'*. The amount of Stacks an enemy has at the given moment is represented by a purple sphere above their head - brighter color is equal to more stacks. After hitting a mob 3 times, a player can sneak to trigger a powerful punch. Stacks are reset after 16 seconds have passed without either a punch or another attack.
 
-Punching warps affected entity by 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores 40% of enemy armor, meaning that higher defense and enchantments will not reduce the damage as much as they would regularly do.
+Punching warps affected entity by 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. This damage ignores 60% of enemy armor, meaning that higher defense and enchantments will not reduce the damage as much as they would regularly do.
 
 Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stuns make mobs completely unable to move. Immobilization doesn't prevent jumping and fall damage.
 
@@ -71,7 +71,7 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 - Dragonblade is extremely slow compared to other weapons, meaning that accuracy is of high importance.
 - Only direct melee hits are the only option for using it as efficiently as possible.
     - Due to how Dragonblade works, enchanting it with Sweeping Edge allows it to apply Stacks to multiple enemies at once with the sweep attack.
-- Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that this damage ignores 40% of enemy defense, meaning it doesn't get reduced as much.
+- Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that 60% of that damage ignores armor completely.
 - As Dragonblade is unbreakable, enchanting it with Unbreaking or Mending is redundant. Don't bother wasting your Enchanted Books.
 - Punch damage cannot be increased by any bonuses, e.g. Strength Potions.
 - In PvP, it might be a good idea to use a Blast Protection armor set if going against someone with the Dragonblade as even with Knockback II wall punch, the enchantment can reduce the damage to almost nothing.
@@ -101,6 +101,10 @@ Punches deal explosion damage, meaning that **Blast Protection enchantment** is 
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | `stellarity:aota/kaliyah` |
 
 ## History
+=== "**v2.0c**"
+	- Debuffs from punches are now applied before dealing damage.
+	- Punch armor penetration increased (40% -> 60%).
+
 === "**v2.0a**"
     - Punch armor penetration increased (33% -> 40%).
     - Reduced punch cooldown by 1.5s (9.5s -> 8s).
