@@ -31,7 +31,7 @@ execute if score #health stellarity.misc matches 0 if data entity @s Owner run f
 tag @s remove stellarity.damage.example_cause
 tag @s remove stellarity.damage.sharanga_explosion
 tag @s remove stellarity.damage.eol.ethereal_lance
-tag @s remove stellarity.damage.eol.prismatic_bolt
+tag @s remove stellarity.damage.eol.prismatic_bolts
 tag @s remove stellarity.damage.eol.dash
 tag @s remove stellarity.damage.carcanet
 tag @s remove stellarity.damage.spirit_dagger

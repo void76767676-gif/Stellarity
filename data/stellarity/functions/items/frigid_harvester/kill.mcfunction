@@ -7,8 +7,8 @@ execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword=
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={small=true}}] run scoreboard players set #damage_extra stellarity.misc 12
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={big=true}}] run scoreboard players set #damage_extra stellarity.misc 23
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={large=true}}] run scoreboard players set #damage_extra stellarity.misc 33
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={huge=true}}] run scoreboard players set #damage_extra stellarity.misc 122
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={boss=true}}] run scoreboard players set #damage_extra stellarity.misc 122
+execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={huge=true}}] run scoreboard players set #damage_extra stellarity.misc 67
+execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={boss=true}}] run scoreboard players set #damage_extra stellarity.misc 67
 
 # Contants
 scoreboard players set #2 stellarity.misc 2

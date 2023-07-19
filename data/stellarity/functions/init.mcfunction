@@ -82,8 +82,7 @@ scoreboard objectives add stellarity.eol.attack_duration dummy
 scoreboard objectives add stellarity.eol.attack_cooldown dummy
 scoreboard objectives add stellarity.eol.projectile_age dummy
 
-# Ender Dragon
-
+# Phantoms
 scoreboard objectives add stellarity.phantom.size dummy
 
 ## Mechanics
@@ -122,21 +121,22 @@ scoreboard players set #stellarity.is_installed stellarity.misc 1
 execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw 5t
 
 ## Creating teams
-# Currently only used for purple glow color
-# of dropped Ender Insignia
 team add stellarity.purple_glow
 team modify stellarity.purple_glow color dark_purple
 
+team add stellarity.golden_glow
+team modify stellarity.golden_glow color gold
+
 ## Bossbars
 # 'Crystals Left'
-bossbar add stellarity:crystal_count {"text":"Crystals Left"}
+bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left:","color":"#4C0081"}
 bossbar set stellarity:crystal_count color purple
 bossbar set stellarity:crystal_count visible true
 bossbar set stellarity:crystal_count players
 bossbar set stellarity:crystal_count max 10
 bossbar set stellarity:crystal_count style notched_10
 # Empress of Light
-bossbar add stellarity:eol {"text":"Empress of Light","color":"pink"}
+bossbar add stellarity:eol {"translate":"stellarity.mobs.empress","fallback":"Empress of Light","color":"pink"}
 bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players

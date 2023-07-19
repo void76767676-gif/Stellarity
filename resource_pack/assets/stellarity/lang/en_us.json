@@ -493,6 +493,9 @@
     "stellarity.death_messages.dot.prismatic_inferno": "%1$s was burnt alive by rainbow lights",
     "stellarity.death_messages.kaleidoscope": "%1$s couldn't stand %2$s's heat",
     "stellarity.death_messages.natures_wrath": "%1$s experienced what nature's revenge looks like",
+    "stellarity.death_messages.eol.prismatic_bolts": "%1$s forgot to dodge the Empress of Light's attacks",
+    "stellarity.death_messages.eol.ethereal_lance": "%1$s was pierced through with the Empress of Light's Ethereal Lance",
+    "stellarity.death_messages.eol.dash": "%1$s didn't move out of the Empress of Light's way in time",
 
     "Enderman attacks": "Enderman attacks",
     "Endermite attacks": "Endermite attacks",

@@ -3,7 +3,7 @@ execute if score #damage_ap stellarity.misc matches 1.. run function stellarity:
 execute if entity @s[tag=stellarity.damage.example_cause] run function stellarity:utils/damage/apply/example
 execute if entity @s[tag=stellarity.damage.sharanga_explosion] run function stellarity:utils/damage/apply/sharanga
 execute if entity @s[tag=stellarity.damage.eol.ethereal_lance] run function stellarity:utils/damage/apply/empress_of_light/projectile
-execute if entity @s[tag=stellarity.damage.eol.prismatic_bolt] run function stellarity:utils/damage/apply/empress_of_light/projectile
+execute if entity @s[tag=stellarity.damage.eol.prismatic_bolts] run function stellarity:utils/damage/apply/empress_of_light/projectile
 execute if entity @s[tag=stellarity.damage.eol.dash] run function stellarity:utils/damage/apply/empress_of_light/dash
 execute if entity @s[tag=stellarity.damage.carcanet] run function stellarity:utils/damage/apply/carcanet
 execute if entity @s[tag=stellarity.damage.spirit_dagger] run function stellarity:utils/damage/apply/spirit_dagger

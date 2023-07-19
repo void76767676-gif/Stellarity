@@ -19,3 +19,9 @@ execute if entity @s[tag=stellarity.damage.dot.frostburn] run tellraw @a {"trans
 execute if entity @s[tag=stellarity.damage.natures_wrath] run tellraw @a {"translate":"stellarity.death_messages.natures_wrath","fallback":"%1$s felt nature's revenge","with":[{"selector":"@s"}]}
 
 execute if entity @s[tag=stellarity.damage.kaleidoscope] run tellraw @a {"translate":"stellarity.death_messages.kaleidoscope","fallback":"%1$s couldn't stand %2$s's heat","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding_kaleidoscope]"}]}
+
+execute if entity @s[tag=stellarity.damage.eol.prismatic_bolts] run tellraw @a {"translate":"stellarity.death_messages.eol.prismatic_bolts","fallback":"%1$s forgot to dodge the Empress of Light's attacks","with":[{"selector":"@s"}]}
+
+execute if entity @s[tag=stellarity.damage.eol.ethereal_lance] run tellraw @a {"translate":"stellarity.death_messages.eol.ethereal_lance","fallback":"%1$s was pierced through with the Empress of Light's Ethereal Lance","with":[{"selector":"@s"}]}
+
+execute if entity @s[tag=stellarity.damage.eol.dash] run tellraw @a {"translate":"stellarity.death_messages.eol.dash","fallback":"%1$s didn't move out of the Empress of Light's way in time","with":[{"selector":"@s"}]}

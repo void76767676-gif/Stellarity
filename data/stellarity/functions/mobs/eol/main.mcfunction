@@ -36,3 +36,6 @@ execute unless entity @a[distance=..60] run function stellarity:mobs/eol/core/de
 
 # Prevents cheesing
 execute on vehicle run kill @s
+
+# Remove Glowing
+effect clear @s glowing
