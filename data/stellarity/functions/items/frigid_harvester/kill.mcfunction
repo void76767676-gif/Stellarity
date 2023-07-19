@@ -12,7 +12,6 @@ execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword=
 
 # Contants
 scoreboard players set #2 stellarity.misc 2
-scoreboard players set #3 stellarity.misc 3
 scoreboard players set #100 stellarity.misc 100
 
 # Scaling
@@ -21,10 +20,9 @@ scoreboard players operation #temp3 stellarity.misc /= #100 stellarity.misc
 scoreboard players operation #temp3 stellarity.misc /= #2 stellarity.misc
 scoreboard players operation #damage_extra stellarity.misc /= #temp3 stellarity.misc
 
-execute if score #damage stellarity.misc matches 900.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
-execute if score #damage stellarity.misc matches 1100.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
-execute if score #damage stellarity.misc matches 1300.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
-execute if score #damage stellarity.misc matches 1500.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
+execute if score #damage stellarity.misc matches 1300.. run scoreboard players operation #damage_extra stellarity.misc /= #2 stellarity.misc
+execute if score #damage stellarity.misc matches 1500.. run scoreboard players operation #damage_extra stellarity.misc /= #2 stellarity.misc
+execute if score #damage stellarity.misc matches 1700.. run scoreboard players operation #damage_extra stellarity.misc /= #3 stellarity.misc
 
 execute unless score #damage_extra stellarity.misc matches 0..1 run function stellarity:items/frigid_harvester/continue
 
