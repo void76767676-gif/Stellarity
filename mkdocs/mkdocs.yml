@@ -15,6 +15,7 @@ nav:
   - Biomes: 
     - The Hallow: biomes/the_hallow.md
   - Items:
+    - Cursed Tome: items/cursed_tome.md
     - Weapons: 
       - Sharanga: items/sharanga.md
       - Clockwork Crossbow: items/clockwork_crossbow.md
@@ -53,7 +54,6 @@ nav:
       - Shulker Tools: items/tools/shulker_tools.md
   #    - Pandora's Barrel: items/other/pandoras_barrel.md
       - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
-  #    - Cursed Tome: items/other/cursed_tome.md
   #    - Potions: items/other/potions.md
   - Mechanics:
       - Treasure Heads: mechanics/treasure_heads.md
@@ -108,7 +108,7 @@ plugins:
       minify_html: true
   - redirects:
       redirect_maps:
-          'downloads.md': 'https://modrinth.com/datapack/stellarity'
+          'downloads.md': 'https://modrinth.com/datapack/stellarity/versions#all-versions'
 
 theme:
   name: material
