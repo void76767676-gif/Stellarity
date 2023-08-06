@@ -1,8 +1,27 @@
-
-modLoader = 'lowcodefml'
-loaderVersion = '[40,)'
-license = 'LicenseRef-Custom'
+modLoader = "lowcodefml"
+loaderVersion = "[40,)"
+license = "LicenseRef-Custom"
 showAsResourcePack = false
-mods = [
-	{ modId = 'mr_stellarity', version = 'v2.0d', displayName = 'Stellarity', description = "Extreme rehaul and expansion of The End! 'We have End Update at home.'", logoFile = 'pack.png', updateJSONURL = 'https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json', credits='Hex, misode, Bush_King, Brokenemp', authors = 'kohara', displayURL = 'https://modrinth.com/datapack/stellarity' },
-]
+issueTrackerURL = "https://discord.gg/J6guYAySN8"
+
+[[mods]]
+modId = "stellarity" 
+version = "2.1a"
+displayName = "Stellarity"
+displayURL = "https://modrinth.com/datapack/stellarity"
+description = '''
+Extreme rehaul and expansion of The End!
+'We have End Update at home.'
+'''
+logoFile = "pack.png"
+logoBlur = false
+updateJSONURL = "https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json"
+credits="Hex, misode, Bush_King, Brokenemp, Phoenix"
+authors = "kohara"
+
+[[dependencies.stellarity]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.20,1.20.2]"
+	ordering="AFTER"
+	side="BOTH"
