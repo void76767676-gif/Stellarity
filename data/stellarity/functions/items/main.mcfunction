@@ -56,7 +56,7 @@ execute as @a[tag=stellarity.ender_insignia.active] at @s run function stellarit
 execute as @e[type=armor_stand,tag=stellarity.pandoras_barrel.armor_stand] at @s positioned ~ ~1.7 ~ run function stellarity:items/pandoras_barrel/animation/progress
 
 # Tamaris
-execute as @a[predicate=stellarity:items/holding_tamaris] at @s if entity @e[type=!#stellarity:invalid_targets,distance=..16,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
+execute as @a[predicate=stellarity:items/holding_tamaris] at @s if entity @e[type=!#stellarity:invalid_targets,distance=..10,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
 execute as @a[tag=stellarity.items.tamaris.doing_execute] at @s run function stellarity:items/tamaris/execute/animation/progress
 
 # Soaring Insignia

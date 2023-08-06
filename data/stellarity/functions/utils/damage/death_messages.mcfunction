@@ -8,6 +8,8 @@ execute if entity @s[tag=stellarity.damage.spirit_dagger] run tellraw @a {"trans
 
 execute if entity @s[tag=stellarity.damage.dragonblade] run tellraw @a {"translate":"stellarity.death_messages.dragonblade","fallback":"%1$s was punched into the otherworld by %2$s","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking]"}]}
 
+# EASTER EGG??????
+execute if entity @s[type=player,tag=stellarity.damage.tamaris_execute] at @s if entity @a[sort=nearest,limit=1,distance=0.1..,name="kohara_"] run function stellarity:items/tamaris/execute/animation/rave
 execute if entity @s[tag=stellarity.damage.tamaris_execute] run tellraw @a {"translate":"stellarity.death_messages.tamaris_execute","fallback":"%1$s was publicly executed by %2$s","with":[{"selector":"@s"},{"selector":"@p[predicate=stellarity:items/holding_tamaris,predicate=stellarity:utils/player/is_sneaking]"}]}
 
 execute if entity @s[tag=stellarity.damage.dot.dark_decay] run tellraw @a {"translate":"stellarity.death_messages.dot.dark_decay","fallback":"%1$s decayed into nothingness","with":[{"selector":"@s"}]}

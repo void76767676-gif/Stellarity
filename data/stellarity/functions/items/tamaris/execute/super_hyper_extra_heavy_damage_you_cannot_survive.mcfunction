@@ -1,3 +1,4 @@
+# Hm? Just one damage?
 scoreboard players set #damage stellarity.misc 10
 scoreboard players set #armor_penetration stellarity.misc 100
 

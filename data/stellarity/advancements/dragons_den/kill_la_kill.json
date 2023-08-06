@@ -10,14 +10,8 @@
 		},
 		"description": [
 			{
-				"translate": "stellarity.advancements.kill_la_kill.description.1",
+				"translate": "stellarity.advancements.kill_la_kill.description",
 				"fallback": "Trigger the Execute ability on a Warden."
-			},
-			" ",
-			{
-				"translate": "stellarity.advancements.kill_la_kill.description.2",
-				"fallback": "Good luck...",
-				"bold": true
 			}
 		],
 		"frame": "challenge",
@@ -32,6 +26,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 1500
+		"experience": 1200
 	}
 }

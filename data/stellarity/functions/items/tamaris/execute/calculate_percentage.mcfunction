@@ -9,8 +9,6 @@ tag @s remove stellarity.items.tamaris.executable
 execute if score @s[type=#stellarity:boss] stellarity.items.tamaris.math.health.percentage matches ..10 run tag @s add stellarity.items.tamaris.executable
 execute if score @s[tag=stellarity.boss] stellarity.items.tamaris.math.health.percentage matches ..10 run tag @s add stellarity.items.tamaris.executable
 # Other mobs
-execute if score @s[type=!#stellarity:boss,tag=!stellarity.boss] stellarity.items.tamaris.math.health.percentage matches ..25 unless entity @s[type=player] run tag @s add stellarity.items.tamaris.executable
-# Players (PvP)
-execute if score @s[type=player] stellarity.items.tamaris.math.health.percentage matches ..20 run tag @s add stellarity.items.tamaris.executable
+execute if score @s[type=!#stellarity:boss,tag=!stellarity.boss] stellarity.items.tamaris.math.health.percentage matches ..25 run tag @s add stellarity.items.tamaris.executable
 
 #tellraw @a {"score":{"name": "@s","objective": "stellarity.items.tamaris.math.health.percentage"}}
