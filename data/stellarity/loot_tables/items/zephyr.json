@@ -27,11 +27,29 @@
 								{
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
-									"amount": 0.075,
+									"amount": 0.07,
 									"operation": "multiply_base",
 									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.movement_speed",
+									"name": "",
+									"amount": 0.07,
+									"operation": "multiply_base",
+									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_speed",
+									"name": "",
+									"amount": 0.07,
+									"operation": "multiply_base",
+									"slot": "offhand"
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"zephyr\",stellar_durability:{enabled:1b,max_dur:512},HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -112,7 +130,7 @@
 										"translate": "attribute.modifier.plus.1",
 										"with": [
 											{
-												"text": "7.5"
+												"text": "7"
 											},
 											{
 												"translate": "attribute.name.generic.movement_speed"
@@ -121,12 +139,46 @@
 										"color": "dark_green",
 										"italic": false
 									}
+								],
+								"",
+								{
+									"translate": "item.modifiers.offhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.plus.1",
+										"with": [
+											{
+												"text": "7"
+											},
+											{
+												"translate": "attribute.name.generic.movement_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
+								],
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.plus.1",
+										"with": [
+											{
+												"text": "7"
+											},
+											{
+												"translate": "attribute.name.generic.attack_speed"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
 								]
 							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"zephyr\",stellar_durability:{enabled:1b,max_dur:512},HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_name",
