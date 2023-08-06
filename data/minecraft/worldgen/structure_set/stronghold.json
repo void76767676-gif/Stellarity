@@ -8,9 +8,9 @@
 	"placement": {
 		"type": "minecraft:concentric_rings",
 		"salt": 0,
-		"distance": 32,
+		"distance": 64,
 		"spread": 3,
-		"count": 128,
+		"count": 4095,
 		"preferred_biomes": "#minecraft:stronghold_biased_to"
 	}
 }
