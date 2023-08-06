@@ -1,4 +1,4 @@
-execute rotated ~ ~ run particle minecraft:dragon_breath ~ ~ ~ ^ ^ ^1000000 0.00000027 0
+execute rotated ~ ~2 run particle minecraft:dragon_breath ~ ~ ~ ^ ^ ^1000000 0.00000027 0
 execute rotated ~3 ~-1 run particle minecraft:dragon_breath ~ ~ ~ ^ ^ ^1000000 0.00000035 0
 execute rotated ~-7 ~ run particle minecraft:dragon_breath ~ ~ ~ ^ ^ ^1000000 0.00000023 0
 execute rotated ~10 ~5 run particle minecraft:dragon_breath ~ ~ ~ ^ ^ ^1000000 0.00000048 0
