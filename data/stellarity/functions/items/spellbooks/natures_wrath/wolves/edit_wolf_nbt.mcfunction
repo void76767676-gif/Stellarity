@@ -17,4 +17,4 @@ execute store result entity @s Health float 1 run scoreboard players get #hp ste
 data modify entity @s CustomName set value '{"translate":"stellarity.items.spellbooks.natures_wrath.spirit_wolf","fallback":"Spirit Wolf","color":"aqua"}'
 execute if predicate stellarity:utils/chance/5percent run data modify entity @s CustomName set value '{"text":"Bluey","color":"blue"}'
 
-data modify entity @s Owner set from entity @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] UUID
+data modify entity @s Owner set from entity @p UUID
