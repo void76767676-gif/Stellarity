@@ -63,6 +63,7 @@
 									"color": "#EEEEEE",
 									"italic": true
 								},
+								"",
 								[
 									{
 										"text": "- ",
@@ -118,6 +119,28 @@
 										"color": "dark_green",
 										"italic": false
 									}
+								],
+								"",
+								{
+									"translate": "item.modifiers.offhand",
+									"color": "gray",
+									"italic": false
+								},
+								[
+									" ",
+									{
+										"translate": "attribute.modifier.plus.0",
+										"with": [
+											{
+												"text": "1"
+											},
+											{
+												"translate": "attribute.name.generic.attack_damage"
+											}
+										],
+										"color": "dark_green",
+										"italic": false
+									}
 								]
 							]
 						},
@@ -130,6 +153,13 @@
 									"amount": 4,
 									"operation": "addition",
 									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"amount": 1,
+									"operation": "addition",
+									"slot": "offhand"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
