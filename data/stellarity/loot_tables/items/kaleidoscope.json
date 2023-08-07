@@ -5,11 +5,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:netherite_sword",
+					"name": "minecraft:netherite_axe",
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"kaleidoscope\",CustomModelData:90004,HideFlags:6,Unbreakable:1b}"
+							"tag": "{stellarity.special_item:\"kaleidoscope\",CustomModelData:90001,HideFlags:6,Unbreakable:1b}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -70,7 +70,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "1.2"
+												"text": "0.8"
 											},
 											{
 												"translate": "attribute.name.generic.attack_speed"
@@ -95,7 +95,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"amount": -2.8,
+									"amount": -3.2,
 									"operation": "addition",
 									"slot": "mainhand"
 								}

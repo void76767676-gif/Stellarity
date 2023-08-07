@@ -9,7 +9,7 @@ particle firework ^ ^ ^ 0 0 0 0.3 45
 particle explosion ^ ^ ^
 particle flash ^ ^ ^
 
-execute unless entity @s[type=player,predicate=stellarity:items/holding_kaleidoscope] run function stellarity:items/kaleidoscope/charges/damage/3
+function stellarity:items/kaleidoscope/charges/damage/3
 execute as @e[type=!#stellarity:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=0.1..1.4] run function stellarity:items/kaleidoscope/charges/splash/3/inner
 execute as @e[type=!#stellarity:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=1.41..2.8] run function stellarity:items/kaleidoscope/charges/splash/3/middle
 execute as @e[type=!#stellarity:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=2.81..4.2] run function stellarity:items/kaleidoscope/charges/splash/3/outer

@@ -7,7 +7,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:netherite_sword"
+							"minecraft:netherite_axe"
 						],
 						"nbt": "{stellarity.special_item:\"kaleidoscope\"}"
 					}
