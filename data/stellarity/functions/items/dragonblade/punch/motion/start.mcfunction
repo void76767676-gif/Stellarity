@@ -23,7 +23,6 @@ scoreboard players operation #max_distance stellarity.misc += #extra stellarity.
 scoreboard players set #hit stellarity.misc 0
 scoreboard players set #distance stellarity.misc 0
 scoreboard players set #particles stellarity.misc 0
-scoreboard players set #particles2 stellarity.misc 0
 
 execute facing entity @p[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking] eyes rotated ~180 0 anchored feet positioned ^ ^.5 ^ run function stellarity:items/dragonblade/punch/motion/raycast
 

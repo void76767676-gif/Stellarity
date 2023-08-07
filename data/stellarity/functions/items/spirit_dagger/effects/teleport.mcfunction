@@ -7,7 +7,7 @@ execute if score #distance stellarity.misc matches 600.. run advancement grant @
 effect give @s slow_falling 1 0 true
 
 # Teleport
-tp @s ~ ~-0.2 ~
+tp @s ~ ~-0.35 ~
 tag @s add stellarity.spirit_dagger.teleport
 schedule function stellarity:items/spirit_dagger/effects/scheduled_remove_tag 1t append
 
@@ -38,7 +38,7 @@ execute store result score #temp_2 stellarity.misc run data get entity @s Invent
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
 
-execute as @e[type=!#stellarity:invalid_targets,distance=..4,predicate=!stellarity:items/spirit_dagger/holding,predicate=!stellarity:utils/player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
+execute as @e[type=!#stellarity:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding,predicate=!stellarity:utils/player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
 # Visuals
 function stellarity:items/spirit_dagger/effects/teleport/visuals
@@ -48,3 +48,4 @@ function stellarity:items/spirit_dagger/effects/teleport/sounds
 
 # Kill Spirit
 kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]

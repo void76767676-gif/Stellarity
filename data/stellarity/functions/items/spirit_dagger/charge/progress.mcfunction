@@ -1,14 +1,21 @@
-execute unless score @s stellarity.items.spirit_dagger.consume_time matches 7.. run scoreboard players add @s stellarity.items.spirit_dagger.consume_time 1
-scoreboard players set @s stellarity.items.spirit_dagger.until_consume_reset 61
+execute unless score @s stellarity.items.spirit_dagger.consume_time matches 10.. run scoreboard players add @s stellarity.items.spirit_dagger.consume_time 1
+scoreboard players set @s stellarity.items.spirit_dagger.until_consume_reset 30
 
 title @s actionbar [{"score":{"name": "@s","objective": "stellarity.items.spirit_dagger.consume_time"},"color":"#8DE1E4"},{"text":"/","color":"#EEEEEE"},{"text":"7","color":"#C781E6"}]
 
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.5
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 2 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.65
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 3 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.9
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 4 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.05
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 5 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.2
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 6 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.35
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 7 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.5
+title @s actionbar [{"text":"•","color":"#EEEEEE"},{"text":" 🗡 ","color":"#8DE1E4"},{"score":{"name": "@s","objective": "stellarity.items.spirit_dagger.consume_time"},"color":"#8DE1E4"},{"text":"/","color":"#EEEEEE"},{"text":"10","color":"#C781E6"},{"text":" 🗡 ","color":"#C781E6"},{"text":"•","color":"#EEEEEE"}]
 
-execute if score @s stellarity.items.spirit_dagger.consume_time matches 7 as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function stellarity:items/spirit_dagger/raycast/start_ray
+execute if score @s[name="kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge_kohara player @a ~ ~ ~ 1 1
+execute if score @s[name=!"kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge player @a ~ ~ ~ 1 1
+
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.5
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 2 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.6
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 3 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.7
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 4 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.8
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 5 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.9
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 6 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 7 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.2
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 8 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.3
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 9 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 1.4
+
+execute if score @s stellarity.items.spirit_dagger.consume_time matches 10 as @s at @s anchored eyes positioned ^ ^ ^ anchored feet run function stellarity:items/spirit_dagger/raycast/start_ray
