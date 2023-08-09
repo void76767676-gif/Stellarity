@@ -154,7 +154,7 @@ bossbar set stellarity:eol style notched_10
 schedule function stellarity:loops/2_tick 2t append
 schedule function stellarity:loops/3_tick 3t append
 schedule function stellarity:loops/5_tick 5t append
-schedule function stellarity:loops/6_tick 6t append
+schedule function stellarity:loops/7_tick 7t append
 schedule function stellarity:loops/10_tick 10t append
 schedule function stellarity:loops/1_second 1s append
 schedule function stellarity:loops/5_second 5s append

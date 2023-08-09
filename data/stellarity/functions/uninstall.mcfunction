@@ -74,6 +74,9 @@ scoreboard objectives remove stellarity.misc.motion.z2
 scoreboard players reset #stellarity.is_installed stellarity.misc
 
 team remove stellarity.purple_glow
+team remove stellarity.golden_glow
+team remove stellarity.spirit_glow
+team remove stellarity.rave_glow
 
 bossbar remove stellarity:crystal_count
 bossbar remove stellarity:eol
@@ -81,7 +84,7 @@ bossbar remove stellarity:eol
 schedule clear stellarity:loops/2_tick
 schedule clear stellarity:loops/3_tick
 schedule clear stellarity:loops/5_tick
-schedule clear stellarity:loops/6_tick
+schedule clear stellarity:loops/7_tick
 schedule clear stellarity:loops/10_tick
 schedule clear stellarity:loops/1_second
 schedule clear stellarity:loops/5_second
