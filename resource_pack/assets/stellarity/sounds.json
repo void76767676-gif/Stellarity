@@ -17,32 +17,42 @@
 	},
 	"item.kaleidoscope.ready":{
 		"sounds":[
-				"stellarity:item/kaleidoscope/ready_1",
-				"stellarity:item/kaleidoscope/ready_2",
-				"stellarity:item/kaleidoscope/ready_3",
-				"stellarity:item/kaleidoscope/ready_4",
-				"stellarity:item/kaleidoscope/ready_5"
+			"stellarity:item/kaleidoscope/ready_1",
+			"stellarity:item/kaleidoscope/ready_2",
+			"stellarity:item/kaleidoscope/ready_3",
+			"stellarity:item/kaleidoscope/ready_4",
+			"stellarity:item/kaleidoscope/ready_5"
 		]
 	},
 	"item.kaleidoscope.level_1":{
 		"sounds":[
-				"stellarity:item/kaleidoscope/level_1_1",
-				"stellarity:item/kaleidoscope/level_1_2",
-				"stellarity:item/kaleidoscope/level_1_3"
+			"stellarity:item/kaleidoscope/level_1_1",
+			"stellarity:item/kaleidoscope/level_1_2",
+			"stellarity:item/kaleidoscope/level_1_3"
 		]
 	},
 	"item.kaleidoscope.level_2":{
 		"sounds":[
-				"stellarity:item/kaleidoscope/level_2_1",
-				"stellarity:item/kaleidoscope/level_2_2",
-				"stellarity:item/kaleidoscope/level_2_3"
+			"stellarity:item/kaleidoscope/level_2_1",
+			"stellarity:item/kaleidoscope/level_2_2",
+			"stellarity:item/kaleidoscope/level_2_3"
 		]
 	},
 	"item.kaleidoscope.level_3":{
 		"sounds":[
-				"stellarity:item/kaleidoscope/level_3_1",
-				"stellarity:item/kaleidoscope/level_3_2",
-				"stellarity:item/kaleidoscope/level_3_3"
+			"stellarity:item/kaleidoscope/level_3_1",
+			"stellarity:item/kaleidoscope/level_3_2",
+			"stellarity:item/kaleidoscope/level_3_3"
+		]
+	},
+	"item.dragonblade.damage":{
+		"sounds":[
+			"stellarity:item/dragonblade/damage"
+		]
+	},
+	"item.dragonblade.punch":{
+		"sounds":[
+			"stellarity:item/dragonblade/punch"
 		]
 	},
 	"item.tamaris.execute":{
@@ -56,6 +66,42 @@
 			"stellarity:item/tamaris/execute_special"
 		],
 		"subtitle":"kohy slays"
+	},
+	"item.tamaris.exeggute":{
+		"sounds":[
+			"stellarity:item/tamaris/exeggute"
+		],
+		"subtitle":"Tamaris exeggutes"
+	},
+	"item.tamaris.execute_bg":{
+		"sounds":[
+			"stellarity:item/tamaris/execute_bg"
+		]
+	},
+	"item.tamaris.rave":{
+		"sounds":[
+			"stellarity:item/tamaris/dance"
+		]
+	},
+	"item.spirit_dagger.charge":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/charge"
+		]
+	},
+	"item.spirit_dagger.teleport":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/slash"
+		]
+	},
+	"item.spirit_dagger.charge_kohara":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/kohara_charge"
+		]
+	},
+	"item.spirit_dagger.slash_kohara":{
+		"sounds":[
+			"stellarity:item/spirit_dagger/kohara_slash"
+		]
 	},
     "music.enter_end":{
 		"sounds":[

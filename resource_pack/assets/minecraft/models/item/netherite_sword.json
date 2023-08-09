@@ -27,12 +27,6 @@
 				"custom_model_data":90003
 			},
 			"model":"stellarity:item/stella"
-		},
-		{
-			"predicate":{
-				"custom_model_data":90004
-			},
-			"model":"stellarity:item/kaleidoscope"
 		}
 	]
 }
