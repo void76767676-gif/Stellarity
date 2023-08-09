@@ -130,6 +130,9 @@ team modify stellarity.golden_glow color gold
 team add stellarity.spirit_glow
 team modify stellarity.spirit_glow color aqua
 
+team add stellarity.rave_glow
+team modify stellarity.rave_glow color red
+
 ## Bossbars
 # 'Crystals Left'
 bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left:","color":"#4C0081"}

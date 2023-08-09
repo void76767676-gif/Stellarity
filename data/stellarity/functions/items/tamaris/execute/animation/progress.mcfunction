@@ -2,10 +2,9 @@ scoreboard players add @s stellarity.items.tamaris.animation.progress 1
 
 execute if score @s stellarity.items.tamaris.animation.progress matches 1 run title @s actionbar " "
 
-# Resource pack only
 execute if score @s stellarity.items.tamaris.animation.progress matches 2 run function stellarity:items/tamaris/execute/animation/playsound
 
-execute if score @s stellarity.items.tamaris.animation.progress matches 5 run function stellarity:items/tamaris/execute/animation/teleport_particles/fx
+execute if score @s stellarity.items.tamaris.animation.progress matches 5 run function stellarity:items/tamaris/execute/animation/teleport_particles
 
 # Executing things as entity in question
 execute if score @s stellarity.items.tamaris.animation.progress matches 5 run scoreboard players set @s stellarity.items.tamaris.execute_cooldown 3

@@ -17,7 +17,7 @@ execute as @e[type=area_effect_cloud,tag=stellarity.carcanet.aec] at @s run func
 # Prismatic Pearl
 execute as @a[scores={stellarity.items.prismatic_pearl.cooldown=1..}] run function stellarity:items/prismatic_pearl/cooldown/countdown
 # Tamaris
-execute as @e[type=!#stellarity:invalid_targets,tag=stellarity.items.tamaris.executable] at @s anchored eyes rotated ~ 0 positioned ^ ^1.5 ^ run function stellarity:items/tamaris/execute/indicator
+execute as @e[type=!#stellarity:invalid_targets,tag=stellarity.items.tamaris.executable] at @s anchored eyes rotated ~ 0 run function stellarity:items/tamaris/execute/indicator
 execute as @e[type=!#stellarity:invalid_targets,scores={stellarity.items.tamaris.execute_cooldown=1..}] run function stellarity:items/tamaris/execute/cooldown_countdown
 # Spellbooks
 execute as @a[scores={stellarity.items.spellbook.conveyance.cooldown=1..}] run function stellarity:items/spellbooks/conveyance/cooldown_countdown
