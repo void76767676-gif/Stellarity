@@ -14,8 +14,8 @@ execute store result score #enchant stellarity.misc run data get entity @p[predi
 # No, this does not have a cap,
 # same applies to damage :D
 # Go ham with enchants through NBT >:D
-scoreboard players set #max_distance stellarity.misc 60
-scoreboard players set #1.1 stellarity.misc 15
+scoreboard players set #max_distance stellarity.misc 66
+scoreboard players set #1.1 stellarity.misc 11
 scoreboard players operation #extra stellarity.misc = #enchant stellarity.misc
 scoreboard players operation #extra stellarity.misc *= #1.1 stellarity.misc
 scoreboard players operation #max_distance stellarity.misc += #extra stellarity.misc
