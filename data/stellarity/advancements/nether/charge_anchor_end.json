@@ -19,58 +19,23 @@
 	},
 	"parent": "minecraft:nether/charge_respawn_anchor",
 	"criteria": {
-		"1": {
+		"charge_respawn_anchor": {
 			"trigger": "minecraft:item_used_on_block",
 			"conditions": {
 				"location": [
 					{
 						"condition": "minecraft:location_check",
 						"predicate": {
-							"dimension": "minecraft:the_end",
 							"block": {
 								"blocks": [
 									"minecraft:respawn_anchor"
 								],
 								"state": {
-									"charges": {
-										"min": 1
-									}
+									"charges": "4"
 								}
 							}
 						}
 					},
-					{
-						"condition": "minecraft:inverted",
-						"term": {
-							"condition": "minecraft:match_tool",
-							"predicate": {
-								"items": [
-									"minecraft:glowstone"
-								]
-							}
-						}
-					}
-				]
-			}
-		},
-		"2": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": [
-					{
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"dimension": "minecraft:the_end",
-							"block": {
-								"blocks": [
-									"minecraft:respawn_anchor"
-								],
-								"state": {
-									"charges": 4
-								}
-							}
-						}
-					}, 
 					{
 						"condition": "minecraft:match_tool",
 						"predicate": {
@@ -85,9 +50,7 @@
 	},
 	"requirements": [
 		[
-			"1",
-			"2"
+			"charge_respawn_anchor"
 		]
-	],
-	"sends_telemetry_event": true
+	]
 }
