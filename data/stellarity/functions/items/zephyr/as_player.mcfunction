@@ -18,5 +18,5 @@ execute if score #duration stellarity.misc matches ..550 run scoreboard players 
 
 execute if score #duration stellarity.misc matches 3301.. run scoreboard players set #duration stellarity.misc 3300
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.items.zephyr"],effects:[{id:"minecraft:speed",amplifier:0,duration:1}],Duration:2,ReapplicationDelay:0,WaitTime:-1, Age:-1}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["stellarity.items.zephyr"],effects:[{id:"minecraft:speed",amplifier:0,duration:1,ambient:1b,show_icon:1b}],Duration:2,ReapplicationDelay:0,WaitTime:-1,Age:-1}
 execute store result entity @e[type=area_effect_cloud,limit=1,sort=nearest,tag=stellarity.items.zephyr] effects[{id:"minecraft:speed"}].duration int 1 run scoreboard players get #duration stellarity.misc
