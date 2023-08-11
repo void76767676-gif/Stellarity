@@ -59,6 +59,8 @@ scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
 
 scoreboard objectives add stellarity.items.stella.fire_stacks dummy
 
+scoreboard objectives add stellarity.items.aery_sword.damage dummy
+
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy
 scoreboard objectives add stellarity.items.kaleidoscope.sec dummy
 

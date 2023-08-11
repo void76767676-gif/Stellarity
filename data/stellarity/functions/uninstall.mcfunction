@@ -34,6 +34,7 @@ scoreboard objectives remove stellarity.items.spirit_dagger.consume_time
 scoreboard objectives remove stellarity.items.spirit_dagger.until_consume_reset
 scoreboard objectives remove stellarity.items.spirit_dagger.effects_duration
 scoreboard objectives remove stellarity.items.stella.fire_stacks
+scoreboard objectives remove stellarity.items.aery_sword.damage
 scoreboard objectives remove stellarity.items.kaleidoscope.charge
 scoreboard objectives remove stellarity.items.kaleidoscope.sec
 scoreboard objectives remove stellarity.items.prismatic_pearl.cooldown

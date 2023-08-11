@@ -38,6 +38,12 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
+								{
+									"translate": "stellarity.items.weapons.frigid_harvester.description.4",
+									"fallback": "Gets less damage the more souls it absorbs",
+									"color": "#EEEEEE",
+									"italic": false
+								},
 								"",
 								[
 									{
@@ -105,23 +111,6 @@
 											},
 											{
 												"translate": "attribute.name.generic.movement_speed"
-											}
-										],
-										"color": "dark_green",
-										"italic": false
-									}
-								],
-								[
-									" ",
-									{
-										"translate": "attribute.modifier.plus.0",
-										"with": [
-											{
-												"text": "0"
-											},
-											{
-												"translate": "stellarity.items.frigid_harvester.attribute",
-												"fallback": "Extra Damage"
 											}
 										],
 										"color": "dark_green",
