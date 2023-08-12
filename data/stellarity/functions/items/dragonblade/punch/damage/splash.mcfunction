@@ -5,7 +5,7 @@ scoreboard players operation #enchant_splash stellarity.misc *= #mul stellarity.
 scoreboard players set #damage stellarity.misc 40
 scoreboard players operation #damage stellarity.misc += #enchant_splash stellarity.misc
 
-scoreboard players set #armor_penetration stellarity.misc 60
+scoreboard players set #armor_penetration stellarity.misc 70
 scoreboard players set #ignore_iframes stellarity.misc 1
 
 tag @s add stellarity.damage.dragonblade

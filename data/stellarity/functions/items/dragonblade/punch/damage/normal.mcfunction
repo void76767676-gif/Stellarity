@@ -4,7 +4,7 @@ scoreboard players operation #enchant stellarity.misc *= #mul stellarity.misc
 scoreboard players set #damage stellarity.misc 70
 scoreboard players operation #damage stellarity.misc += #enchant stellarity.misc
 
-scoreboard players set #armor_penetration stellarity.misc 60
+scoreboard players set #armor_penetration stellarity.misc 70
 scoreboard players set #ignore_iframes stellarity.misc 1
 
 tag @p[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking] add stellarity.damage.attacker
