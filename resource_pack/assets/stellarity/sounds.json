@@ -103,6 +103,25 @@
 			"stellarity:item/spirit_dagger/kohara_slash"
 		]
 	},
+	"block.end_portal.create":{
+		"sounds":[
+			"stellarity:block/end_portal/create"
+		]
+	},
+	"block.end_portal.ambient":{
+		"sounds":[
+			{
+				"attenuation_distance": 10,
+				"name": "stellarity:block/end_portal/ambient"
+			}
+		],
+		"subtitle": "subtitles.block.portal.ambient"
+	},
+	"block.end_portal.travel":{
+		"sounds":[
+			"stellarity:block/end_portal/travel"
+		]
+	},
     "music.enter_end":{
 		"sounds":[
 			{

@@ -39,214 +39,121 @@
 	},
 	"entity.enderman.stare":{
 		"sounds":[
-			"stellarity:mob/enderman/stare_1",
-			"stellarity:mob/enderman/stare_2"
+			"mob/endermen/stare_1",
+			"mob/endermen/stare_2"
 		],
 		"subtitle":"subtitles.entity.enderman.stare",
 		"replace":true
 	},
 	"entity.enderman.teleport":{
 		"sounds":[
-			"stellarity:mob/enderman/teleport_1",
-			"stellarity:mob/enderman/teleport_2",
-			"stellarity:mob/enderman/teleport_3",
-			"stellarity:mob/enderman/teleport_4",
-			"stellarity:mob/enderman/teleport_5",
-			"stellarity:mob/enderman/teleport_6",
-			"stellarity:mob/enderman/teleport_7",
-			"stellarity:mob/enderman/teleport_8"
+			"mob/endermen/teleport_1",
+			"mob/endermen/teleport_2",
+			"mob/endermen/teleport_3",
+			"mob/endermen/teleport_4",
+			"mob/endermen/teleport_5",
+			"mob/endermen/teleport_6",
+			"mob/endermen/teleport_7",
+			"mob/endermen/teleport_8"
 		],
 		"subtitle":"subtitles.entity.enderman.teleport",
 		"replace":true
 	},
 	"entity.endermite.ambient":{
 		"sounds":[
-			"stellarity:mob/endermite/idle_1",
-			"stellarity:mob/endermite/idle_2",
-			"stellarity:mob/endermite/idle_3"
+			"mob/endermite/idle_1",
+			"mob/endermite/idle_2",
+			"mob/endermite/idle_3"
 		],
 		"subtitle":"subtitles.entity.endermite.ambient",
 		"replace":true
 	},
 	"entity.endermite.death":{
 		"sounds":[
-			"stellarity:mob/endermite/death_1",
-			"stellarity:mob/endermite/death_2"
+			"mob/endermite/death_1",
+			"mob/endermite/death_2"
 		],
 		"subtitle":"subtitles.entity.endermite.death",
 		"replace":true
 	},
 	"entity.endermite.hurt":{
 		"sounds":[
-			"stellarity:mob/endermite/hurt_1",
-			"stellarity:mob/endermite/hurt_2",
-			"stellarity:mob/endermite/hurt_3"
+			"mob/endermite/hurt_1",
+			"mob/endermite/hurt_2",
+			"mob/endermite/hurt_3"
 		],
 		"subtitle":"subtitles.entity.endermite.hurt",
 		"replace":true
 	},
 	"entity.shulker.ambient":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/idle_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_4",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_5",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_6",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/idle_7",
-				"volume":0.42
-			}
+			"entity/shulker/idle_1",
+			"entity/shulker/idle_2",
+			"entity/shulker/idle_3",
+			"entity/shulker/idle_4",
+			"entity/shulker/idle_5",
+			"entity/shulker/idle_6",
+			"entity/shulker/idle_7"
 		],
 		"subtitle":"subtitles.entity.shulker.ambient",
 		"replace":true
 	},
 	"entity.shulker.close":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/close_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/close_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/close_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/close_4",
-				"volume":0.42
-			}
+			"entity/shulker/close_1",
+			"entity/shulker/close_2",
+			"entity/shulker/close_3",
+			"entity/shulker/close_4"
 		],
 		"subtitle":"subtitles.entity.shulker.close",
 		"replace":true
 	},
 	"entity.shulker.death":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/death_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/death_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/death_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/death_4",
-				"volume":0.42
-			}
+			"entity/shulker/death_1",
+			"entity/shulker/death_2",
+			"entity/shulker/death_3",
+			"entity/shulker/death_4"
 		],
 		"subtitle":"subtitles.entity.shulker.death",
 		"replace":true
 	},
 	"entity.shulker.hurt":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/hurt_open_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_open_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_open_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_open_4",
-				"volume":0.42
-			}
+			"entity/shulker/hurt_open_1",
+			"entity/shulker/hurt_open_2",
+			"entity/shulker/hurt_open_3",
+			"entity/shulker/hurt_open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
 		"replace":true
 	},
 	"entity.shulker.hurt_closed":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/hurt_closed_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_closed_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_closed_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/hurt_closed_4",
-				"volume":0.42
-			}
+			"entity/shulker/hurt_closed_1",
+			"entity/shulker/hurt_closed_2",
+			"entity/shulker/hurt_closed_3",
+			"entity/shulker/hurt_closed_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
 		"replace":true
 	},
 	"entity.shulker.open":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/open_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/open_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/open_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/open_4",
-				"volume":0.42
-			}
+			"entity/shulker/open_1",
+			"entity/shulker/open_2",
+			"entity/shulker/open_3",
+			"entity/shulker/open_4"
 		],
 		"subtitle":"subtitles.entity.shulker.open",
 		"replace":true
 	},
 	"entity.shulker.shoot":{
 		"sounds":[
-			{
-				"name":"stellarity:mob/shulker/shoot_1",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/shoot_2",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/shoot_3",
-				"volume":0.42
-			},
-			{
-				"name":"stellarity:mob/shulker/shoot_4",
-				"volume":0.42
-			}
+			"entity/shulker/shoot_1",
+			"entity/shulker/shoot_2",
+			"entity/shulker/shoot_3",
+			"entity/shulker/shoot_4"
 		],
 		"subtitle":"subtitles.entity.shulker.shoot",
 		"replace":true
@@ -261,10 +168,10 @@
 	},
 	"entity.shulker_bullet.hit":{
 		"sounds":[
-			"stellarity:mob/shulker_bullet/hit_1",
-			"stellarity:mob/shulker_bullet/hit_2",
-			"stellarity:mob/shulker_bullet/hit_3",
-			"stellarity:mob/shulker_bullet/hit_4"
+			"entity/shulker_bullet/hit_1",
+			"entity/shulker_bullet/hit_2",
+			"entity/shulker_bullet/hit_3",
+			"entity/shulker_bullet/hit_4"
 		],
 		"subtitle":"subtitles.entity.shulker_bullet.hit",
 		"replace":true
