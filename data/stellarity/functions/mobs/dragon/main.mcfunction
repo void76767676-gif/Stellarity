@@ -21,4 +21,4 @@ execute at @s run tp @e[type=marker,tag=stellarity.dragon_marker] ~ ~ ~
 # Executes stuff as Marker
 #execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run 
 
-function stellarity:mobs/dragon/attacks/loop
+#function stellarity:mobs/dragon/attacks/loop

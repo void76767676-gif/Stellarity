@@ -1,8 +1,8 @@
 playsound minecraft:block.beacon.power_select player @s ~ ~ ~ .8 1
-playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 0.5 0
+#playsound minecraft:entity.wither.hurt player @s ~ ~ ~ 0.5 0
 
-playsound minecraft:block.glass.break player @s ~ ~ ~ 0.9 0.5
-playsound minecraft:block.glass.break player @s ~ ~ ~ 0.9 0.8
+#playsound minecraft:block.glass.break player @s ~ ~ ~ 0.9 0.5
+#playsound minecraft:block.glass.break player @s ~ ~ ~ 0.9 0.8
 
 playsound minecraft:entity.snow_golem.death player @s ~ ~ ~ 0.8 0.8
 

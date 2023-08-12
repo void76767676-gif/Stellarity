@@ -4,9 +4,9 @@ particle minecraft:dragon_breath ~ ~ ~ 0 0 0 0.5 200
 
 playsound minecraft:item.trident.thunder block @a ~ ~ ~ 3 0.75
 scoreboard players set #global stellarity.misc 1
-function stellarity:visuals/end_portal_animation/animation/1.19.3/global_sound_events
-execute if score #global stellarity.misc matches 0 run function stellarity:visuals/end_portal_animation/animation/1.19.3/playsound
-execute if score #global stellarity.misc matches 1 run function stellarity:visuals/end_portal_animation/animation/1.19.3/playsound_global
+execute store result score #global stellarity.misc run gamerule globalSoundEvents
+execute if score #global stellarity.misc matches 0 run function stellarity:visuals/end_portal_animation/animation/sounds/globalnt
+execute if score #global stellarity.misc matches 1 run function stellarity:visuals/end_portal_animation/animation/sounds/global
 
 fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=north] replace end_portal_frame[eye=true,facing=north]
 fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=east] replace end_portal_frame[eye=true,facing=east]
