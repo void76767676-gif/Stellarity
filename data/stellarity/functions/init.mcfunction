@@ -160,7 +160,7 @@ schedule function stellarity:loops/7_tick 7t append
 schedule function stellarity:loops/10_tick 10t append
 schedule function stellarity:loops/1_second 1s append
 schedule function stellarity:loops/5_second 5s append
-schedule function stellarity:loops/10_second 10s append
+schedule function stellarity:loops/15_second 15s append
 
 # Initialize RNG
 function stellarity:utils/rng/init

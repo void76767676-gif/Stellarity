@@ -89,6 +89,7 @@ schedule clear stellarity:loops/7_tick
 schedule clear stellarity:loops/10_tick
 schedule clear stellarity:loops/1_second
 schedule clear stellarity:loops/5_second
+schedule clear stellarity:loops/15_second
 
 scoreboard objectives remove stellarity.dot.dark_decay.time
 scoreboard objectives remove stellarity.dot.dark_decay.damage

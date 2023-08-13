@@ -20,3 +20,4 @@ execute rotated ~300 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_anim
 execute rotated ~330 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_animation.eye_12,limit=1,sort=nearest] ^ ^-2 ^5
 
 particle mycelium ~ ~-1.65 ~ .8 0 .8 0 1 normal
+execute if predicate stellarity:utils/chance/3percent run particle sculk_soul ~ ~-1.65 ~ .8 0 .8 0 3 normal
