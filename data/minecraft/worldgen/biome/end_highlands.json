@@ -63,6 +63,8 @@
 			"stellarity:highlands/grass",
 			"stellarity:highlands/trees"
 		],
-		[]
+		[
+			"stellarity:global/end_dungeon"
+		]
 	]
 }

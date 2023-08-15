@@ -43,6 +43,8 @@
 		[
 			"stellarity:sculk_growth/tree"
 		],
-		[]
+		[
+			"stellarity:global/end_dungeon"
+		]
 	]
 }
