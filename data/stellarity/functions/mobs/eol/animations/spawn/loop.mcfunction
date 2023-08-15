@@ -7,8 +7,8 @@ execute if predicate stellarity:mobs/eol/is_daytime run tag @s add stellarity.eo
 
 scoreboard players add @s stellarity.eol.animation 1
 
-execute if score @s stellarity.eol.animation matches 1 run playsound minecraft:block.beacon.power_select hostile @a ~ ~ ~ 2 0
-execute if score @s stellarity.eol.animation matches 1 run playsound minecraft:block.sculk_shrieker.shriek hostile @a ~ ~ ~ .5 0
+execute if score @s stellarity.eol.animation matches 1 run playsound minecraft:block.beacon.power_select hostile @a[distance=0..] ~ ~ ~ 2 0
+execute if score @s stellarity.eol.animation matches 1 run playsound minecraft:block.sculk_shrieker.shriek hostile @a[distance=0..] ~ ~ ~ .5 0
 
 execute if score @s stellarity.eol.animation matches ..60 run particle portal ~ ~ ~ 0 0 0 3 12 force @a[distance=..50]
 

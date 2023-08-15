@@ -4,4 +4,4 @@ team join stellarity.spirit_glow @e[type=armor_stand,tag=stellarity.spirit_dagge
 summon interaction ~ ~ ~ {width:1.35f,height:1.35f,Tags:["stellarity.spirit_dagger.spirit"]}
 
 particle explosion ~ ~.5 ~ 0 0 0 0 1 force
-playsound minecraft:entity.shulker_bullet.hurt player @a ~ ~ ~ 1 1
+playsound minecraft:entity.shulker_bullet.hurt player @a[distance=0..] ~ ~ ~ 1 1

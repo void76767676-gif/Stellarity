@@ -5,8 +5,8 @@ title @s actionbar [{"score":{"name": "@s","objective": "stellarity.items.spirit
 
 title @s actionbar [{"text":"•","color":"#EEEEEE"},{"text":" 🗡 ","color":"#8DE1E4"},{"score":{"name": "@s","objective": "stellarity.items.spirit_dagger.consume_time"},"color":"#8DE1E4"},{"text":"/","color":"#EEEEEE"},{"text":"10","color":"#C781E6"},{"text":" 🗡 ","color":"#C781E6"},{"text":"•","color":"#EEEEEE"}]
 
-execute if score @s[name="kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge_kohara player @a ~ ~ ~ 1 1
-execute if score @s[name=!"kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge player @a ~ ~ ~ 1 1
+execute if score @s[name="kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge_kohara player @a[distance=0..] ~ ~ ~ 1 1
+execute if score @s[name=!"kohara_"] stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound stellarity:item.spirit_dagger.charge player @a[distance=0..] ~ ~ ~ 1 1
 
 execute if score @s stellarity.items.spirit_dagger.consume_time matches 1 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.5
 execute if score @s stellarity.items.spirit_dagger.consume_time matches 2 at @s run playsound minecraft:entity.experience_orb.pickup player @s ~ ~ ~ 0.1 0.6

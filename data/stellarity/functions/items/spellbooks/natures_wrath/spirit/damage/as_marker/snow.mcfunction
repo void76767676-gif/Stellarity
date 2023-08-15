@@ -2,9 +2,9 @@ particle block snow_block ~ ~ ~ 0 0 0 1 8 normal
 particle block ice ~ ~ ~ 0 0 0 1 7 normal
 particle firework ~ ~ ~ 0 0 0 0.1 12 normal
 
-playsound minecraft:block.snow.break neutral @a ~ ~ ~ 1 0.9
-playsound minecraft:block.glass.break neutral @a ~ ~ ~ 1 0.8
-playsound minecraft:entity.shulker_bullet.hurt neutral @a ~ ~ ~ 1 1
+playsound minecraft:block.snow.break neutral @a[distance=0..] ~ ~ ~ 1 0.9
+playsound minecraft:block.glass.break neutral @a[distance=0..] ~ ~ ~ 1 0.8
+playsound minecraft:entity.shulker_bullet.hurt neutral @a[distance=0..] ~ ~ ~ 1 1
 
 scoreboard players set #dot.time stellarity.misc 40
 

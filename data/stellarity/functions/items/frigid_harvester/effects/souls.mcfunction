@@ -10,6 +10,6 @@ execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword=
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={large=true}}] run particle minecraft:sculk_soul ~ ~ ~ 0.4 0.4 0.4 0 11 force
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={huge=true}}] run particle minecraft:sculk_soul ~ ~ ~ 0.5 0.5 0.5 0 21 force
 
-playsound minecraft:particle.soul_escape player @a ~ ~ ~ 1 0.7
-playsound minecraft:entity.wither.shoot player @a ~ ~ ~ 0.33 0.7
-playsound minecraft:entity.snow_golem.death player @a ~ ~ ~ 1 0.9
+playsound minecraft:particle.soul_escape player @a[distance=0..] ~ ~ ~ 1 0.7
+playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.33 0.7
+playsound minecraft:entity.snow_golem.death player @a[distance=0..] ~ ~ ~ 1 0.9

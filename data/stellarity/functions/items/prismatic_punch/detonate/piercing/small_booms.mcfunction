@@ -1,4 +1,4 @@
-playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1 1.25
+playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 1 1.25
 particle explosion ~ ~ ~
 
 scoreboard players set in stellarity.misc 1

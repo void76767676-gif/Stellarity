@@ -37,7 +37,7 @@ execute if score @s stellarity.items.pandoras_barrel.animation matches 150 run f
 execute if score @s stellarity.items.pandoras_barrel.animation matches 160 run function stellarity:items/pandoras_barrel/animation/growing_dust/5
 
 execute if score @s stellarity.items.pandoras_barrel.animation matches 170 run particle enchant ~ ~1 ~ 0 0 0 5 25 force
-execute if score @s stellarity.items.pandoras_barrel.animation matches 170 run playsound minecraft:entity.evoker.prepare_attack block @a ~ ~ ~ 1 1
+execute if score @s stellarity.items.pandoras_barrel.animation matches 170 run playsound minecraft:entity.evoker.prepare_attack block @a[distance=0..] ~ ~ ~ 1 1
 
 # That was a lot of functions for just particles and sounds...
 

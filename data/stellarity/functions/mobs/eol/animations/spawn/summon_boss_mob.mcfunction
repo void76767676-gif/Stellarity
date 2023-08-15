@@ -1,11 +1,11 @@
 particle explosion_emitter
 particle end_rod ~ ~1 ~ 0 0 0 1 150 force
 
-playsound minecraft:item.trident.thunder hostile @a ~ ~1 ~ 0.22 1
-playsound minecraft:entity.blaze.death hostile @a ~ ~1 ~ 0.55 0
-playsound minecraft:entity.allay.ambient_without_item hostile @a ~ ~1 ~ 2.2 0.8
-playsound entity.player.levelup hostile @a ~ ~ ~ .33 .55
-playsound minecraft:entity.generic.explode hostile @a ~ ~1 ~
+playsound minecraft:item.trident.thunder hostile @a[distance=0..] ~ ~1 ~ 0.22 1
+playsound minecraft:entity.blaze.death hostile @a[distance=0..] ~ ~1 ~ 0.55 0
+playsound minecraft:entity.allay.ambient_without_item hostile @a[distance=0..] ~ ~1 ~ 2.2 0.8
+playsound entity.player.levelup hostile @a[distance=0..] ~ ~ ~ .33 .55
+playsound minecraft:entity.generic.explode hostile @a[distance=0..] ~ ~1 ~
 
 # Vindicator for hitbox and HP
 summon minecraft:vindicator ~ ~-1.5 ~ {NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,active_effects:[{id:"minecraft:invisibility",duration:-1,show_particles:0b},{id:"minecraft:regeneration",duration:-1,amplifier:0b,show_particles:0b}],Tags:["stellarity.eol","stellarity.eol.phase_1"],Invulnerable:1b,Attributes:[{Name:"generic.armor",Base:12d},{Name:"generic.armor_toughness",Base:6d},{Name:"generic.max_health",Base:500d}],HandItems:[{id:"totem_of_undying",Count:1b}],HandDropChances:[0f],Health:500f,DeathLootTable:""}

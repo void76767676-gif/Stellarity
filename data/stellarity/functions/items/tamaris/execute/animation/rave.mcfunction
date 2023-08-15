@@ -1,4 +1,4 @@
-playsound stellarity:item.tamaris.rave player @a ~ ~1.05 ~ 1.6 1
+playsound stellarity:item.tamaris.rave player @a[distance=0..] ~ ~1.05 ~ 1.6 1
 
 effect give @s glowing
 team join stellarity.rave_glow @s

@@ -8,7 +8,7 @@ execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellar
 
 # Utility marker for secondary animations
 scoreboard players operation @e[type=marker,tag=stellarity.dragon_respawn.marker] stellarity.misc = @s fe.timer
-execute as @e[type=marker,tag=stellarity.dragon_respawn.marker] at @s run function stellarity:visuals/dragon_respawn_animation/loop
+execute as @e[type=marker,tag=stellarity.dragon_respawn.marker] at @s run function stellarity:sfx/dragon_respawn_animation/loop
 
 
 # Cancel animation if End Crystals are missing

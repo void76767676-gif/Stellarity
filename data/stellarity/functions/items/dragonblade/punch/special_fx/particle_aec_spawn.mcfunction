@@ -9,7 +9,7 @@ execute rotated ~90 ~ run function stellarity:items/dragonblade/punch/special_fx
 
 particle minecraft:smoke ^ ^ ^ .35 .35 .35 0 25
 
-playsound minecraft:entity.ender_dragon.ambient player @a ~ ~ ~ 0.1 1.25
-playsound minecraft:entity.firework_rocket.blast player @a ~ ~ ~ 1 0.9
-playsound minecraft:entity.firework_rocket.large_blast player @a ~ ~ ~ 1 0.9
-playsound stellarity:item.dragonblade.damage player @a ~ ~ ~
+playsound minecraft:entity.ender_dragon.ambient player @a[distance=0..] ~ ~ ~ 0.1 1.25
+playsound minecraft:entity.firework_rocket.blast player @a[distance=0..] ~ ~ ~ 1 0.9
+playsound minecraft:entity.firework_rocket.large_blast player @a[distance=0..] ~ ~ ~ 1 0.9
+playsound stellarity:item.dragonblade.damage player @a[distance=0..] ~ ~ ~

@@ -1,4 +1,3 @@
-particle minecraft:sculk_soul ~ ~1.5 ~ 0 0 0 .175 15
-playsound minecraft:block.sculk_shrieker.shriek player @a ~ ~ ~ 0.2 0 
+function far_end:structures/exit_portal/respawn/crystal_wave
 
 tag @s add fe.respawn_crystal

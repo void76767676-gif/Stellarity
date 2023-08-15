@@ -3,7 +3,7 @@ execute if score @s stellarity.items.sharanga.arrow_age matches 1.. run particle
 
 scoreboard players add @s stellarity.items.sharanga.arrow_age 1
 
-execute if score @s stellarity.items.sharanga.arrow_age matches 1 run playsound minecraft:entity.firework_rocket.launch player @a ~ ~ ~ 0.88 0.8
+execute if score @s stellarity.items.sharanga.arrow_age matches 1 run playsound minecraft:entity.firework_rocket.launch player @a[distance=0..] ~ ~ ~ 0.88 0.8
 
 execute if data entity @s inBlockState run function stellarity:items/sharanga/arrow_explode
 execute if score @s stellarity.items.sharanga.arrow_age matches 21.. run function stellarity:items/sharanga/arrow_explode

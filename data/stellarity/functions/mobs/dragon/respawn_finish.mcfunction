@@ -13,7 +13,7 @@ advancement grant @a[distance=..100] only stellarity:dragons_den/final_showdown
 tag @s add fe.deactivated.spawn_dragon
 tag @s remove fe.respawn
 
-execute as @e[type=minecraft:end_crystal,predicate=stellarity:locations/in_the_end] at @s run function stellarity:visuals/dragon_respawn_animation/crystal_transition
+execute as @e[type=minecraft:end_crystal,predicate=stellarity:locations/in_the_end] at @s run function stellarity:sfx/dragon_respawn_animation/crystal_transition
 
 execute in minecraft:the_end run setblock 0 63 0 bedrock
 

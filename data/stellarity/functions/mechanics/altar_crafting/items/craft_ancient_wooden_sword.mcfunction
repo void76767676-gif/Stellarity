@@ -6,6 +6,6 @@ loot spawn ~ ~ ~ loot stellarity:items/ancient_wooden_sword
 
 data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set from storage stellarity:temp enchants
 
-playsound minecraft:entity.player.breath block @a ~ ~ ~ 1 1
+playsound minecraft:entity.player.breath block @a[distance=0..] ~ ~ ~ 1 1
 
 function stellarity:mechanics/altar_crafting/global_effects

@@ -1,7 +1,7 @@
 function stellarity:items/main
 function stellarity:mechanics/main
 function stellarity:mobs/main
-function stellarity:visuals/main
+function stellarity:sfx/main
 function stellarity:advancements/main
 
 # Helpful stuff :D
@@ -19,4 +19,4 @@ execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_drag
 execute as @e[type=minecraft:marker,tag=fe.exit_portal] at @s run function far_end:structures/exit_portal/main
 
 # Scheduled checks for End Portal animation
-execute as @e[type=marker,tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] at @s run function stellarity:visuals/end_portal_animation/checks/base
+execute as @e[type=marker,tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] at @s run function stellarity:sfx/end_portal_animation/checks/base

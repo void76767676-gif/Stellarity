@@ -14,4 +14,4 @@ execute if entity @s[advancements={stellarity:events/items/spellbooks/natures_wr
 execute at @s run function stellarity:items/spellbooks/natures_wrath/wolves/spawn
 
 function stellarity:items/spellbooks/effects_all
-playsound minecraft:entity.evoker.cast_spell player @a
+playsound minecraft:entity.evoker.cast_spell player @a[distance=0..]

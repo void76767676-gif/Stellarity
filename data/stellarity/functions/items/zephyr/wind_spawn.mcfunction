@@ -1,7 +1,7 @@
 tag @s add stellarity.zephyr.killed_entity
 
-playsound minecraft:item.trident.return player @a ~ ~ ~ 1 1
-playsound item.trident.throw player @a ~ ~ ~ 1 2
+playsound minecraft:item.trident.return player @a[distance=0..] ~ ~ ~ 1 1
+playsound item.trident.throw player @a[distance=0..] ~ ~ ~ 1 2
 
 summon marker ^ ^ ^ {Tags:["stellarity.zephyr.wind"]}
 

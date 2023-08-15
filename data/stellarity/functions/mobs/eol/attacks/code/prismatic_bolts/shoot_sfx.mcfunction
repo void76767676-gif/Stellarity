@@ -1,1 +1,1 @@
-playsound minecraft:entity.arrow.shoot hostile @a ~ ~ ~ 2.2 1
+playsound minecraft:entity.arrow.shoot hostile @a[distance=0..] ~ ~ ~ 2.2 1

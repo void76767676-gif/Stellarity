@@ -33,6 +33,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:mechanics/end_crystal/place"
+		"function": "stellarity:sfx/end_crystal/place"
 	}
 }

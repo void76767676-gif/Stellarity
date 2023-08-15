@@ -1,7 +1,7 @@
-playsound stellarity:item.kaleidoscope.level_3 player @a ~ ~ ~ 1 1
+playsound stellarity:item.kaleidoscope.level_3 player @a[distance=0..] ~ ~ ~ 1 1
 
-playsound minecraft:entity.generic.explode player @a ~ ~ ~ 1 0.8
-playsound minecraft:item.firecharge.use player @a ~ ~ ~ 1 0.6
+playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 1 0.8
+playsound minecraft:item.firecharge.use player @a[distance=0..] ~ ~ ~ 1 0.6
 
 particle end_rod ^ ^ ^ 0 0 0 0.3 45
 particle flame ^ ^ ^ 0 0 0 0.3 68

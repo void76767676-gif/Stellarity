@@ -181,6 +181,6 @@ particle firework ~ ~0.15 ~ 0 0 0 0.11 12 force @a[distance=..32]
 
 particle flash ~ ~0.15 ~ 0 0 0 0 1 force @a[distance=..32]
 
-# Ik this is 'visuals' file, but gimme a break
-playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 0.45 1.3
-playsound minecraft:entity.generic.explode player @a ~ ~ ~ 0.2222 1.2
+# Ik this is a 'visual' file, but gimme a break
+playsound minecraft:block.respawn_anchor.deplete player @a[distance=0..] ~ ~ ~ 0.45 1.3
+playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 0.2222 1.2

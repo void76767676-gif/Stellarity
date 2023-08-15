@@ -12,7 +12,9 @@ execute as @e[type=area_effect_cloud,tag=stellarity.items.dragonblade.smthgram_a
 execute as @e[type=!#stellarity:invalid_targets,scores={stellarity.items.dragonblade.misc_cooldown=1}] run scoreboard players set @s stellarity.items.dragonblade.misc_cooldown 0
 
 # Clockwork Crossbow
-# Moved to a 6 tick clock
+execute as @a[scores={stellarity.items.clockwork_crossbow.slowdown_time=1..}] run function stellarity:items/clockwork_crossbow/slowdown_tickdown
+execute as @a[scores={stellarity.items.clockwork_crossbow.cooldown=1..}] run scoreboard players remove @s stellarity.items.clockwork_crossbow.cooldown 1
+execute as @a[predicate=stellarity:items/clockwork_crossbow/holding_unloaded_any] unless score @s stellarity.items.clockwork_crossbow.cooldown matches 1.. run function stellarity:items/clockwork_crossbow/check
 
 # Sharanga
 execute as @a[scores={stellarity.misc.shot_bow=1},predicate=stellarity:items/holding_sharanga] at @s run function stellarity:items/sharanga/shoot

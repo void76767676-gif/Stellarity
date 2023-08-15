@@ -8,7 +8,7 @@ execute if score @s[tag=!stellarity.eol.ethereal_lance.no_rotate] stellarity.mis
 execute if score @s[tag=!stellarity.eol.ethereal_lance.no_rotate] stellarity.misc matches 11..15 facing entity @p eyes run tp @s ^ ^ ^-.05 ~ ~5
 execute if score @s[tag=!stellarity.eol.ethereal_lance.no_rotate] stellarity.misc matches 16..20 facing entity @p eyes run tp @s ^ ^ ^-.018 ~ ~5
 
-execute if score @s stellarity.misc matches 26 run playsound entity.arrow.shoot hostile @a ~ ~ ~ 2 0.66
+execute if score @s stellarity.misc matches 26 run playsound entity.arrow.shoot hostile @a[distance=0..] ~ ~ ~ 2 0.66
 execute if score @s stellarity.misc matches 26.. run function stellarity:mobs/eol/attacks/code/ethereal_lance/move
 
 execute if entity @s[tag=stellarity.eol.ethereal_lance.red] run function stellarity:mobs/eol/attacks/code/ethereal_lance/models/red

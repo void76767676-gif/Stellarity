@@ -31,6 +31,9 @@ scoreboard objectives add stellarity.items.armors.ancient_armor.until_combo_rese
 scoreboard objectives add stellarity.items.sharanga.arrow_age dummy
 
 scoreboard objectives add stellarity.items.clockwork_crossbow.arrow_amount dummy
+scoreboard objectives add stellarity.items.clockwork_crossbow.slowdown_time dummy
+scoreboard objectives add stellarity.items.clockwork_crossbow.cooldown dummy
+scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
 
 scoreboard objectives add stellarity.items.crest.bonus_dmg dummy
 
@@ -156,7 +159,6 @@ bossbar set stellarity:eol style notched_10
 schedule function stellarity:loops/2_tick 2t append
 schedule function stellarity:loops/3_tick 3t append
 schedule function stellarity:loops/5_tick 5t append
-schedule function stellarity:loops/7_tick 7t append
 schedule function stellarity:loops/10_tick 10t append
 schedule function stellarity:loops/1_second 1s append
 schedule function stellarity:loops/5_second 5s append

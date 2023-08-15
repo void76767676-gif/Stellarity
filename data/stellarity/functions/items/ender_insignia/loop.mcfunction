@@ -7,10 +7,10 @@ execute if entity @s[scores={stellarity.misc.invul_timer=9}] run function stella
 execute if entity @s[predicate=!stellarity:utils/player/is_sneaking,tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/remove
 execute if entity @s[predicate=!stellarity:items/holding_ender_insignia,tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/remove
 
-execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run playsound minecraft:block.beacon.activate player @a ~ ~ ~
+execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run playsound minecraft:block.beacon.activate player @a[distance=0..] ~ ~ ~
 
 # Reduce momevemt speed
-execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run attribute @s generic.movement_speed modifier add 401458ce-37e6-408f-9b4d-0ec9a6e65947 "stellarity.ender_insignia" -0.66 multiply
+execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run attribute @s generic.movement_speed modifier add 401458ce-37e6-408f-9b4d-0ec9a6e65947 "stellarity.ender_insignia" -0.35 multiply
 
 # Tier 1
 execute if score @s stellarity.items.ender_insignia.hold_duration matches 50 run function stellarity:items/ender_insignia/effects/1

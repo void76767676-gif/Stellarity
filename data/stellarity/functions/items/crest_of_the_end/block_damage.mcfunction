@@ -21,5 +21,5 @@ title @s[scores={stellarity.items.crest.bonus_dmg=6}] actionbar [{"text":"⬛⬛
 title @s[scores={stellarity.items.crest.bonus_dmg=7}] actionbar [{"text":"⬛⬛⬛⬛⬛⬛⬛","color":"#B921E7"},{"text":"⬛","color":"#2C2C2C"}]
 title @s[scores={stellarity.items.crest.bonus_dmg=8}] actionbar [{"text":"⬛⬛⬛⬛⬛⬛⬛⬛","color":"#B921E7"}]
 
-playsound minecraft:entity.ender_dragon.flap player @a ~ ~ ~ 0.5 2
-playsound minecraft:entity.iron_golem.repair player @a ~ ~ ~ .75 1
+playsound minecraft:entity.ender_dragon.flap player @a[distance=0..] ~ ~ ~ 0.5 2
+playsound minecraft:entity.iron_golem.repair player @a[distance=0..] ~ ~ ~ .75 1

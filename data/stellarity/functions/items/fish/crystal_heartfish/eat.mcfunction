@@ -7,4 +7,4 @@ execute if score @s stellarity.items.fish.crystal_heartfish.total_consumed match
 particle dust_color_transition 1 0.51 0.878 1 1 0 0 ~ ~1 ~ .3 .55 .3 0 80 force
 particle firework ~ ~1 ~ .3 .55 .3 0 20 force
 
-playsound minecraft:entity.evoker.cast_spell player @a ~ ~ ~ 1 1.4
+playsound minecraft:entity.evoker.cast_spell player @a[distance=0..] ~ ~ ~ 1 1.4

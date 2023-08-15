@@ -4,4 +4,4 @@ execute unless score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 
 execute if score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 run particle dust 0.2 0.2 0.2 2.4 ~ ~ ~ 0.7 0.7 0.7 0.05 10 normal
 execute if score @s stellarity.items.pandoras_barrel.summon_id matches 19.. run particle dust 0.2 0.2 0.2 2.4 ~ ~ ~ 0.7 0.7 0.7 0.05 10 normal
 
-playsound minecraft:entity.tnt.primed block @a ~ ~ ~ 1 1
+playsound minecraft:entity.tnt.primed block @a[distance=0..] ~ ~ ~ 1 1

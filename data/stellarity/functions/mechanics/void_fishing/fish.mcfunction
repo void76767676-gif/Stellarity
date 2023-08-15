@@ -8,5 +8,5 @@ execute positioned ~ ~.5 ~ run function stellarity:mechanics/void_fishing/decide
 
 execute as @e[type=item,limit=1,sort=nearest] run function stellarity:mechanics/void_fishing/as_item
 
-playsound minecraft:entity.enderman.ambient neutral @a ~ ~ ~ 1.5 0.7
-playsound minecraft:entity.fishing_bobber.splash neutral @a ~ ~ ~ 1.5 0.88
+playsound minecraft:entity.enderman.ambient neutral @a[distance=0..] ~ ~ ~ 1.5 0.7
+playsound minecraft:entity.fishing_bobber.splash neutral @a[distance=0..] ~ ~ ~ 1.5 0.88

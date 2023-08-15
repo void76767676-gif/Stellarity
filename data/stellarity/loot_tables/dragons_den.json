@@ -10,10 +10,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": {
-								"min": 4,
-								"max": 7
-							},
+							"count": 4,
 							"add": false
 						}
 					]
@@ -112,6 +109,15 @@
 							"add": true
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/materials/empty_enchanted_book"
 				}
 			]
 		}

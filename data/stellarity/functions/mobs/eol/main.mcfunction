@@ -28,8 +28,8 @@ execute if entity @s[tag=stellarity.eol.death_animation] run function stellarity
 execute if entity @s[tag=stellarity.eol.can_attack] run function stellarity:mobs/eol/attacks/loop
 
 scoreboard players add #ambient stellarity.misc 1
-execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.vex.ambient hostile @a ~ ~ ~ 2.2 1
-execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.allay.ambient_without_item hostile @a ~ ~ ~ 2.2 1
+execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.vex.ambient hostile @a[distance=0..] ~ ~ ~ 2.2 1
+execute if score #ambient stellarity.misc matches 200 run playsound minecraft:entity.allay.ambient_without_item hostile @a[distance=0..] ~ ~ ~ 2.2 1
 execute if score #ambient stellarity.misc matches 200 run scoreboard players reset #ambient stellarity.misc
 
 execute unless entity @a[distance=..60] run function stellarity:mobs/eol/core/despawn
