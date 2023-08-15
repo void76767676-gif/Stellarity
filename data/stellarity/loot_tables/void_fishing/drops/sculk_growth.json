@@ -11,23 +11,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 3,
-								"max": 5
-							},
-							"add": false
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 3,
-					"name": "minecraft:gunpowder",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 5
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -36,13 +21,13 @@
 				{
 					"type": "minecraft:item",
 					"weight": 2,
-					"name": "minecraft:disc_fragment_5",
+					"name": "minecraft:gunpowder",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 1,
-								"max": 2
+								"min": 2,
+								"max": 4
 							},
 							"add": false
 						}
@@ -56,12 +41,16 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 7
+								"min": 3,
+								"max": 5
 							},
 							"add": false
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sculk_catalyst"
 				}
 			]
 		}

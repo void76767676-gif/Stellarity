@@ -19,7 +19,7 @@
 							"name": {
 								"translate": "stellarity.items.crates.ender",
 								"fallback": "Ender Crate",
-								"color": "#B978C6",
+								"color": "#905A9B",
 								"italic": false
 							}
 						},

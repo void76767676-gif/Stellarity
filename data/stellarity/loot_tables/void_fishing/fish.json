@@ -3,16 +3,24 @@
 	"pools": [
 		{
 			"rolls": 1,
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 15,
+					"weight": 17,
 					"name": "stellarity:items/fish/ender_koi",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
-							"count": 1
+							"count": {
+								"min": 2,
+								"max": 4
+							},
+							"conditions": [
+								{
+									"condition": "minecraft:random_chance",
+									"chance": 0.04
+								}
+							]
 						}
 					],
 					"conditions": [

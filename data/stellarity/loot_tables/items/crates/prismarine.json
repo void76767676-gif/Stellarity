@@ -19,7 +19,7 @@
 							"name": {
 								"translate": "stellarity.items.crates.prismarine",
 								"fallback": "Prismarine Crate",
-								"color": "#27DBFF",
+								"color": "#26C9EA",
 								"italic": false
 							}
 						},

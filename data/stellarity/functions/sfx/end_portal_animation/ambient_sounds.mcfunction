@@ -4,8 +4,7 @@
 
 execute store result score #ran stellarity.misc run random value 1..5
 
-execute if score #ran stellarity.misc matches 1..5 \
-	if predicate stellarity:utils/chance/33percent run \
+execute if predicate stellarity:utils/chance/33percent run \
 	playsound minecraft:entity.ender_dragon.growl block @a[distance=0..] ~ ~ ~ 0.15 1
 
 execute if score #ran stellarity.misc matches 1 run \

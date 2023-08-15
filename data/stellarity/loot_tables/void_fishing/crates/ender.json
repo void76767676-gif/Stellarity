@@ -25,8 +25,8 @@
 				"max": 3
 			},
 			"bonus_rolls": {
-				"min": 0,
-				"max": 1
+				"min": 1,
+				"max": 3
 			},
 			"entries": [
 				{
@@ -37,11 +37,58 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 4
+								"max": 3
 							}
 						}
 					]
 				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:purpur_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crying_obsidian",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": 0,
+				"max": 2
+			},
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:chorus_fruit",
@@ -63,44 +110,51 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]
 				},
 				{
-					"type": "minecraft:alternatives",
-					"children": [
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_flower"
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
 						{
-							"type": "minecraft:item",
-							"name": "minecraft:crying_obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.42
-								}
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:protection"
 							]
-						},
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
 						{
-							"type": "minecraft:item",
-							"name": "minecraft:obsidian",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:looting"
 							]
 						}
 					]

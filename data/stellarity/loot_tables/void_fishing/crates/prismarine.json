@@ -24,10 +24,6 @@
 				"min": 2,
 				"max": 3
 			},
-			"bonus_rolls": {
-				"min": 0,
-				"max": 1
-			},
 			"entries": [
 				{
 					"type": "minecraft:item",
@@ -117,7 +113,7 @@
 		},
 		{
 			"rolls": {
-				"min": -1,
+				"min": 0,
 				"max": 1
 			},
 			"entries": [
@@ -130,7 +126,35 @@
 							"id": "minecraft:water_breathing"
 						}
 					]
-				},
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:aqua_affinity"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:book",
@@ -140,16 +164,6 @@
 							"enchantments": [
 								"minecraft:depth_strider"
 							]
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:potion",
-					"functions": [
-						{
-							"function": "minecraft:set_potion",
-							"id": "minecraft:water"
 						}
 					]
 				}

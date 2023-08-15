@@ -19,7 +19,7 @@
 							"name": {
 								"translate": "stellarity.items.crates.hellfire",
 								"fallback": "Hellfire Crate",
-								"color": "#FF6016",
+								"color": "#E14514",
 								"italic": false
 							}
 						},

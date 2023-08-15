@@ -21,12 +21,8 @@
 		},
 		{
 			"rolls": {
-				"min": 2,
-				"max": 3
-			},
-			"bonus_rolls": {
-				"min": 0,
-				"max": 1
+				"min": 3,
+				"max": 5
 			},
 			"entries": [
 				{
@@ -43,166 +39,120 @@
 					]
 				},
 				{
-					"type": "minecraft:alternatives",
-					"children": [
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:red_wool",
+					"functions": [
 						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:red_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:orange_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:yellow_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:lime_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:light_blue_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:magenta_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:purple_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							],
-							"conditions": [
-								{
-									"condition": "minecraft:random_chance",
-									"chance": 0.5
-								}
-							]
-						},
-						{
-							"type": "minecraft:item",
-							"weight": 2,
-							"name": "minecraft:white_wool",
-							"functions": [
-								{
-									"function": "minecraft:set_count",
-									"count": {
-										"min": 2,
-										"max": 4
-									}
-								}
-							]
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
 						}
 					]
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:orange_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:yellow_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:lime_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:light_blue_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:magenta_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:purple_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 2,
+					"name": "minecraft:white_wool",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
 					"name": "minecraft:amethyst_shard",
 					"functions": [
 						{
@@ -216,6 +166,7 @@
 				},
 				{
 					"type": "minecraft:item",
+					"weight": 2,
 					"name": "minecraft:white_concrete_powder",
 					"functions": [
 						{
@@ -241,6 +192,46 @@
 				{
 					"condition": "minecraft:random_chance",
 					"chance": 0.5714
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:fortune"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -2,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:enchant_randomly",
+							"enchantments": [
+								"minecraft:feather_falling"
+							]
+						}
+					]
 				}
 			]
 		}

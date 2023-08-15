@@ -19,7 +19,7 @@
 							"name": {
 								"translate": "stellarity.items.crates.hallowed",
 								"fallback": "Hallowed Crate",
-								"color": "#F4A6FF",
+								"color": "#EA53FF",
 								"italic": false
 							}
 						},

@@ -91,10 +91,11 @@ scoreboard objectives add stellarity.eol.projectile_age dummy
 scoreboard objectives add stellarity.phantom.size dummy
 
 ## Mechanics
-scoreboard objectives add stellarity.mechanics.void_fishing_length dummy
+scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
+scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
+scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
 scoreboard objectives add stellarity.mechanics.crystal_count dummy
 scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
-scoreboard objectives add stellarity.mechanics.end_music dummy
 
 ## Misc
 # Temporar variables OR things that don't need its own variable

@@ -19,7 +19,7 @@
 							"name": {
 								"translate": "stellarity.items.crates.frozen",
 								"fallback": "Frozen Crate",
-								"color": "#9FC9F1",
+								"color": "#58B6F0",
 								"italic": false
 							}
 						},
