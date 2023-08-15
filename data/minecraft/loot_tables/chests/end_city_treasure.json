@@ -260,17 +260,47 @@
 				{
 					"type": "minecraft:item",
 					"weight": 2,
-					"name": "minecraft:shulker_shell"
+					"name": "minecraft:shulker_shell",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 6,
-					"name": "minecraft:phantom_membrane"
+					"name": "minecraft:phantom_membrane",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
 					"weight": 8,
-					"name": "minecraft:chorus_fruit"
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							},
+							"add": false
+						}
+					]
 				},
 				{
 					"type": "minecraft:item",
