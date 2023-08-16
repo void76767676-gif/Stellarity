@@ -5,21 +5,21 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:lodestone",
+					"name": "minecraft:chiseled_quartz_block",
 					"functions": [
 						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
 								"translate": "stellarity.items.altar_of_light",
-								"fallback": "Altar of The Light",
+								"fallback": "Altar of The Sacred",
 								"color": "light_purple",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{}],stellarity.special_item:\"altar_of_light\"}"
+							"tag": "{Enchantments:[{}],stellarity.special_item:\"altar_of_light\",CustomModelData:90000}"
 						}
 					]
 				}

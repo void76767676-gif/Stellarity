@@ -11,7 +11,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.summon_empress.description",
-			"fallback": "Throw Pixie Dust onto Altar of The Light to summon Her Majesty"
+			"fallback": "Throw Pixie Dust onto Altar of The Sacred to summon Her Majesty"
 		},
 		"frame": "goal",
 		"show_toast": true,

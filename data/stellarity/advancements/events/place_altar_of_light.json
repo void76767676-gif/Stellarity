@@ -9,7 +9,7 @@
 						"condition": "minecraft:match_tool",
 						"predicate": {
 							"items": [
-								"minecraft:lodestone"
+								"minecraft:chiseled_quartz_block"
 							],
 							"nbt": "{stellarity.special_item:\"altar_of_light\"}"
 						}

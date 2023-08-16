@@ -37,7 +37,7 @@
 							"italic": false
 						},
 						{
-							"translate": "stellarity.items.empty_enchanted_book.description.2",
+							"translate": "stellarity.items.empty_enchanted_book.description.3",
 							"fallback": "large opening in one of the pillars",
 							"color": "#EEEEEE",
 							"italic": false

@@ -8,3 +8,5 @@ execute as @e[type=marker,tag=stellarity.altar_of_the_light] at @s run function 
 
 execute as @e[type=minecraft:ender_pearl,tag=!stellarity.prismatic_pearl] at @s run particle witch ~ ~ ~ .1 .1 .1 0.1 2 force
 execute as @e[type=minecraft:eye_of_ender] at @s run function stellarity:sfx/eye_of_ender
+
+execute as @e[type=marker,tag=stellarity.dragons_den_chest] at @s run function stellarity:sfx/dragons_den_chest

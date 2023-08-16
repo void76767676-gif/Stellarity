@@ -13,4 +13,6 @@ execute as @a[predicate=stellarity:utils/totem/holding,predicate=stellarity:loca
 # Tridents return when in Void
 execute as @e[type=trident,predicate=stellarity:utils/trident_above_void] run data merge entity @s {DealtDamage:1b}
 
-execute as @e[type=marker,tag=stellarity.altar_of_the_light] at @s unless block ~ ~-1 ~ lodestone run function stellarity:mechanics/altar_of_light/drop_self
+execute as @e[type=marker,tag=stellarity.altar_of_accursed,tag=!stellarity.aota_activated] at @s if entity @e[type=item,distance=..1] run function stellarity:mechanics/altar_crafting/notice
+
+execute as @e[type=marker,tag=stellarity.altar_of_the_light] at @s unless block ~ ~-1 ~ minecraft:shroomlight run function stellarity:mechanics/altar_of_light/drop_self
