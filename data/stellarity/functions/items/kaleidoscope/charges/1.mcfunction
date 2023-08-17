@@ -8,6 +8,8 @@ playsound minecraft:entity.lightning_bolt.thunder player @a[distance=0..] ~ ~ ~ 
 particle end_rod ^ ^ ^ 0 0 0 0.08 18
 particle flame ^ ^ ^ 0 0 0 0.08 32
 particle firework ^ ^ ^ 0 0 0 0.08 18
+particle cloud ^ ^ ^ 0 0 0 0.08 18
+
 particle crit ^ ^ ^ 0 0 0 0.6 24
 
 execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/1_wave

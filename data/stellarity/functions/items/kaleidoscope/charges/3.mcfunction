@@ -15,6 +15,7 @@ particle firework ^ ^ ^ 0 0 0 0.3 72
 particle crit ^ ^ ^ 0 0 0 1.1 96
 particle explosion ^ ^ ^ 0.5 0.5 0.5 0 6 
 particle flash ^ ^ ^ 0.5 0.5 0.5 0 3
+particle cloud ^ ^ ^ 0 0 0 0.3 96
 
 execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/3_wave
 

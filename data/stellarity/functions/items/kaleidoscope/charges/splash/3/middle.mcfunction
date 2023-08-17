@@ -1,5 +1,4 @@
-scoreboard players set #2 stellarity.misc 2
-scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
+scoreboard players set #fire stellarity.misc 55
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 # Base discharge damage: 23
