@@ -24,7 +24,9 @@
 		"particle": {
 			"options": {
 				"type": "falling_dust",
-				"value": "snow_block"
+				"value": {
+					"Name": "snow_block"
+				}
 			},
 			"probability": 0.0033
 		}

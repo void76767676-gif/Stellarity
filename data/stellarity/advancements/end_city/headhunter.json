@@ -2,7 +2,7 @@
 	"display": {
 		"icon": {
 			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:\"kohara_\"}"
+			"nbt": "{SkullOwner:\"kohara_\",Enchantments:[{}]}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.headhunter",
@@ -912,6 +912,6 @@
 		]
 	],
 	"rewards": {
-		"experience": 10000
+		"experience": 20000
 	}
 }

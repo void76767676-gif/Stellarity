@@ -18,12 +18,6 @@
 		"additions_sound": {
 			"sound": "ambient.soul_sand_valley.additions",
 			"tick_chance": 0.003
-		},
-		"particle": {
-			"options": {
-				"type": "falling_dust"
-			},
-			"probability": 0.0006
 		}
 	},
 	"spawners": {
