@@ -1,7 +1,7 @@
 scoreboard players set #damage stellarity.misc 200
 
 # Ignore X% of entity armor (default: 0)
-scoreboard players set #armor_penetration stellarity.misc 100
+scoreboard players set #armor_penetration stellarity.misc 33
 
 # Whether to ignore I-frames (default: false)
 scoreboard players set #ignore_iframes stellarity.misc 0
