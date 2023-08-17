@@ -2,10 +2,6 @@
 # and then inserts return values into a storage
 function stellarity:utils/damage/to_storage
 
-# Armor penetration is handled as a separate damage instance
-execute if score #damage_ap stellarity.misc matches 1.. run \
-	function stellarity:utils/damage/apply/armor_piercing with storage stellarity:temp damage.damage_ap
-
 # All the damage macros
 execute if entity @s[tag=stellarity.damage.example_cause] run \
 	function stellarity:utils/damage/apply/example with storage stellarity:temp damage.damage
@@ -33,3 +29,8 @@ execute if entity @s[tag=stellarity.damage.dot.frostburn] run \
 	function stellarity:utils/damage/apply/frostburn with storage stellarity:temp damage.damage
 execute if entity @s[tag=stellarity.damage.kaleidoscope] run \
 	function stellarity:utils/damage/apply/kaleidoscope with storage stellarity:temp damage.damage
+
+
+# Armor penetration is handled as a separate damage instance
+execute if score #damage_ap stellarity.misc matches 1.. run \
+	function stellarity:utils/damage/apply/armor_piercing with storage stellarity:temp damage.damage_ap

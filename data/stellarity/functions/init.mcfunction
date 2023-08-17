@@ -65,7 +65,6 @@ scoreboard objectives add stellarity.items.stella.fire_stacks dummy
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
 
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy
-scoreboard objectives add stellarity.items.kaleidoscope.sec dummy
 
 scoreboard objectives add stellarity.items.prismatic_pearl.cooldown dummy
 

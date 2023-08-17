@@ -1,4 +1,8 @@
-scoreboard players set #damage stellarity.misc 130
+scoreboard players set #2 stellarity.misc 2
+scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
+execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
+
+scoreboard players set #damage stellarity.misc 40
 scoreboard players operation #damage stellarity.misc += #charge stellarity.misc
 scoreboard players set #100 stellarity.misc 100
 
@@ -14,7 +18,7 @@ scoreboard players operation #temp stellarity.misc -= #temp2 stellarity.misc
 scoreboard players operation #temp stellarity.misc /= #100 stellarity.misc
 scoreboard players operation #damage stellarity.misc = #temp stellarity.misc
 
-scoreboard players set #armor_penetration stellarity.misc 20
+scoreboard players set #armor_penetration stellarity.misc 25
 scoreboard players set #ignore_iframes stellarity.misc 1
 
 tag @s add stellarity.damage.kaleidoscope
