@@ -4,7 +4,13 @@
 # Set variables to default values if they are not present
 execute unless score #ignore_iframes stellarity.misc matches 0..1 run scoreboard players set #ignore_iframes stellarity.misc 0
 execute unless score #armor_penetration stellarity.misc matches 0..100 run scoreboard players set #armor_penetration stellarity.misc 0
+execute unless score #damage_boost_efficiency stellarity.misc matches 0..100 run scoreboard players set #damage_boost_efficiency stellarity.misc 0
 
+# Is there an attacker?
+scoreboard players set #has_attacker stellarity.misc 0
+execute if entity @e[tag=stellarity.damage.attacker] run scoreboard players set #has_attacker stellarity.misc 1
+
+execute if score #has_attacker stellarity.misc matches 1 unless score #damage_boost_efficiency stellarity.misc matches 0 as @e[tag=stellarity.damage.attacker,limit=1,sort=nearest] run function stellarity:utils/damage/bonus_damage
 execute unless score #armor_penetration stellarity.misc matches 0 run function stellarity:utils/damage/armor_penetration
 
 # Fail execute if Totem of Undying is used
@@ -13,10 +19,6 @@ tag @s[predicate=stellarity:utils/totem/holding] add stellarity.tag
 execute if entity @s[tag=stellarity.tag,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
 execute if entity @s[type=player,tag=stellarity.holy_protection,tag=stellarity.damage.tamaris_execute] as @p[tag=stellarity.damage.attacker] at @s run function stellarity:items/tamaris/execute/fail
 tag @s remove stellarity.tag
-
-# Is there an attacker?
-scoreboard players set #has_attacker stellarity.misc 0
-execute if entity @e[tag=stellarity.damage.attacker] run scoreboard players set #has_attacker stellarity.misc 1
 
 # Disable vanilla death messages
 execute store result score #death_messages stellarity.misc run gamerule showDeathMessages
@@ -57,7 +59,8 @@ tag @e[tag=stellarity.damage.attacker] remove stellarity.damage.attacker
 
 
 # Reset scores
-scoreboard players reset #damage stellarity.misc
-scoreboard players reset #damage_ap stellarity.misc
-scoreboard players reset #armor_penetration stellarity.misc
-scoreboard players reset #ignore_iframes stellarity.misc
+#scoreboard players reset #damage stellarity.misc
+#scoreboard players reset #damage_ap stellarity.misc
+#scoreboard players reset #armor_penetration stellarity.misc
+#scoreboard players reset #ignore_iframes stellarity.misc
+#scoreboard players reset #damage_boost_efficiency stellarity.misc

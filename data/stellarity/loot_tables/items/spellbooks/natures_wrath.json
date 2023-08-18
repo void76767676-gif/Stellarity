@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90005,stellarity.special_item:\"natures_wrath\",Recipes:[\"stellarity:events/spellbooks/use_natures_wrath\"]}"
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"natures_wrath\",Recipes:[\"stellarity:events/spellbooks/use_natures_wrath\"]}"
 						},
 						{
 							"function": "minecraft:set_lore",
@@ -43,14 +43,6 @@
 									"italic": false
 								},
 								" ",
-								{
-									"translate": "stellarity.items.special.member_777",
-									"fallback": "Member #777 Item",
-									"color": "#04CA01",
-									"font": "illageralt",
-									"italic": false,
-									"obfuscated": false
-								},
 								[
 									{
 										"text": "- ",

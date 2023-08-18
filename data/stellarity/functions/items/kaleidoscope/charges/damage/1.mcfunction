@@ -9,6 +9,7 @@ scoreboard players operation #damage stellarity.misc = #charge stellarity.misc
 
 scoreboard players set #armor_penetration stellarity.misc 15
 scoreboard players set #ignore_iframes stellarity.misc 1
+scoreboard players set #damage_boost_efficiency stellarity.misc 50
 
 tag @p[predicate=stellarity:items/holding_kaleidoscope] add stellarity.damage.attacker
 

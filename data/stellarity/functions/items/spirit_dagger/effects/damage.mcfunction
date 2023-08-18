@@ -3,6 +3,7 @@ scoreboard players operation #damage stellarity.misc += #sweeping stellarity.mis
 
 scoreboard players set #armor_penetration stellarity.misc 100
 scoreboard players set #ignore_iframes stellarity.misc 1
+scoreboard players set #damage_boost_efficiency stellarity.misc 60
 
 tag @s add stellarity.damage.spirit_dagger
 

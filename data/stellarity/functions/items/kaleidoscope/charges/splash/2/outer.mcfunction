@@ -39,6 +39,7 @@ scoreboard players operation #damage stellarity.misc = #temp stellarity.misc
 
 scoreboard players set #armor_penetration stellarity.misc 25
 scoreboard players set #ignore_iframes stellarity.misc 1
+scoreboard players set #damage_boost_efficiency stellarity.misc 50
 
 tag @s add stellarity.damage.kaleidoscope
 
