@@ -2,15 +2,31 @@ advancement revoke @s only stellarity:events/items/shoot_clockwork_crossbow
 
 #tellraw @a {"score":{"name": "@s","objective": "stellarity.items.clockwork_crossbow.should_save"},"color":"green"}
 
+## Unconserved arrow (non-critical)
+# Side Multishot arrows
 execute if score @s stellarity.items.clockwork_crossbow.should_save matches 0 \
 	anchored eyes positioned ^ ^ ^ \
-	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware] run \
-	data merge entity @s {damage:1.2d,pickup:1b,crit:0b,life:600}
+	as @e[type=arrow,limit=3,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:2b}] run \
+	data merge entity @s {damage:1d,pickup:2b,crit:0b,life:600}
 
+# Regular arrow
+execute if score @s stellarity.items.clockwork_crossbow.should_save matches 0 \
+	anchored eyes positioned ^ ^ ^ \
+	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
+	data merge entity @s {damage:1d,pickup:1b,crit:0b,life:600}
+
+## Conserved arrow (critical)
+# Side Multishot arrows
 execute if score @s stellarity.items.clockwork_crossbow.should_save matches 1 \
 	anchored eyes positioned ^ ^ ^ \
-	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware] run \
-	data merge entity @s {damage:1.2d,pickup:2b,crit:1b,life:600}
+	as @e[type=arrow,limit=3,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:2b}] run \
+	data merge entity @s {damage:1d,pickup:2b,crit:1b,life:600}
+
+# Regular arrow
+execute if score @s stellarity.items.clockwork_crossbow.should_save matches 1 \
+	anchored eyes positioned ^ ^ ^ \
+	as @e[type=arrow,limit=1,sort=nearest,distance=..1,tag=!stellarity.aware,nbt={pickup:1b}] run \
+	data merge entity @s {damage:1d,pickup:2b,crit:1b,life:600}
 
 #tellraw @a {"score":{"name": "@s","objective": "stellarity.items.clockwork_crossbow.should_save"},"color":"red"}
 
