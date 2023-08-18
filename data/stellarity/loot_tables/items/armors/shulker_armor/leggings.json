@@ -56,35 +56,40 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": " ",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
 									"amount": 7,
 									"operation": "addition",
 									"slot": "legs"
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": " ",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
 									"amount":  4,
 									"operation": "addition",
 									"slot": "legs"
 								},
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
-									"name": " ",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
 									"amount": 0.2,
 									"operation": "addition",
 									"slot": "legs"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
-									"name": " ",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
 									"amount": -0.025,
 									"operation": "multiply_base",
 									"slot": "legs"
 								},
 								{
 									"attribute": "minecraft:generic.movement_speed",
-									"name": " ",
+									"name": "",
+									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
 									"amount": -0.025,
 									"operation": "multiply_base",
 									"slot": "legs"

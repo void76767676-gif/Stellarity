@@ -125,6 +125,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
+									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
 									"amount": 4,
 									"operation": "addition",
 									"slot": "mainhand"
@@ -132,6 +133,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
+									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
 									"amount": -3.15,
 									"operation": "addition",
 									"slot": "mainhand"
@@ -146,6 +148,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "stellarity.aery_sword",
+									"id": "3fbfa2df-672d-4218-827d-afc14c72bb7c",
 									"amount": 0,
 									"operation": "addition",
 									"slot": "mainhand"

@@ -56,28 +56,32 @@
 							"modifiers": [
 								{
 									"attribute": "minecraft:generic.armor",
-									"name": " ",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 6,
 									"operation": "addition",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.armor_toughness",
-									"name": " ",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 3,
 									"operation": "addition",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.attack_damage",
-									"name": " ",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 0.025,
 									"operation": "multiply_base",
 									"slot": "chest"
 								},
 								{
 									"attribute": "minecraft:generic.attack_speed",
-									"name": " ",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 0.15,
 									"operation": "multiply_base",
 									"slot": "chest"
@@ -85,6 +89,7 @@
 								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
 									"amount": 0.1,
 									"operation": "addition",
 									"slot": "chest"

@@ -82,6 +82,7 @@
 								{
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
+									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
 									"amount": 5,
 									"operation": "addition",
 									"slot": "mainhand"
@@ -89,6 +90,7 @@
 								{
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
+									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
 									"amount": -2.4,
 									"operation": "addition",
 									"slot": "mainhand"
