@@ -4,7 +4,6 @@ execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!
 
 # Slay Queen ✨✨✨✨✨
 # (Empress of Light)
-execute as @e[type=marker,tag=stellarity.eol.spawn_animation] at @s run function stellarity:mobs/eol/animations/spawn/loop
 execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:mobs/eol/main
 
 # Dragon stuff

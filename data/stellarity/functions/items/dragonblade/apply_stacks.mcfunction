@@ -1,5 +1,3 @@
-scoreboard players set @s stellarity.items.dragonblade.misc_cooldown 1
-
 execute unless score @s stellarity.items.dragonblade.stacks matches 3.. run scoreboard players add @s stellarity.items.dragonblade.stacks 1
 scoreboard players set @s stellarity.items.dragonblade.until_stack_reset 320
 

@@ -1,3 +1,4 @@
+# Age
 scoreboard players add @s stellarity.misc 1
 
 particle dust 0.353 0.525 0.769 1 ~ ~.4 ~ 0.3 0.3 0.3 0 2 normal

@@ -115,6 +115,10 @@ scoreboard objectives add stellarity.misc.motion.y2 dummy
 scoreboard objectives add stellarity.misc.motion.z1 dummy
 scoreboard objectives add stellarity.misc.motion.z2 dummy
 
+scoreboard objectives add stellarity.misc.loop.2t dummy
+scoreboard objectives add stellarity.misc.loop.3t dummy
+scoreboard objectives add stellarity.misc.loop.5t dummy
+scoreboard objectives add stellarity.misc.loop.1s dummy
 
 # Hook for checking if Stellarity is installed
 # Idk, might be useful for someone
@@ -156,13 +160,13 @@ bossbar set stellarity:eol style notched_10
 
 # Scheduling loops that do not need
 # to be executed every single tick
-schedule function stellarity:loops/2_tick 2t append
-schedule function stellarity:loops/3_tick 3t append
-schedule function stellarity:loops/5_tick 5t append
-schedule function stellarity:loops/10_tick 10t append
-schedule function stellarity:loops/1_second 1s append
-schedule function stellarity:loops/5_second 5s append
-schedule function stellarity:loops/15_second 15s append
+schedule function stellarity:loops/timed/2_tick 2t append
+schedule function stellarity:loops/timed/3_tick 3t append
+schedule function stellarity:loops/timed/5_tick 5t append
+schedule function stellarity:loops/timed/10_tick 10t append
+schedule function stellarity:loops/timed/1_second 1s append
+schedule function stellarity:loops/timed/5_second 5s append
+schedule function stellarity:loops/timed/15_second 15s append
 
 # Initialize RNG
 function stellarity:utils/rng/init

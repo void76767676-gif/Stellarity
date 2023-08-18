@@ -2,7 +2,9 @@ function stellarity:items/main
 function stellarity:mechanics/main
 function stellarity:mobs/main
 function stellarity:sfx/main
-function stellarity:advancements/main
+
+execute as @e[type=marker] at @s run function stellarity:loops/marker_loop
+execute as @a at @s run function stellarity:loops/player_loop
 
 # Helpful stuff :D
 function stellarity:utils/main
@@ -14,9 +16,5 @@ function stellarity:utils/main
 execute unless score #stellarity.vanilla_dragon_butcher.setup stellarity.misc matches 1 in minecraft:the_end run function stellarity:mobs/dragon/butcher/setup
 execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:locations/in_dragons_den] run schedule function stellarity:mobs/dragon/butcher/scheduled 1t append
 
-# Exit Portal loop
-# Used for stuff like respawn checks, etc.
-execute as @e[type=minecraft:marker,tag=fe.exit_portal] at @s run function far_end:structures/exit_portal/main
-
-# Scheduled checks for End Portal animation
-execute as @e[type=marker,tag=stellarity.end_portal_animation,tag=stellarity.end_portal_animation.check_schedule] at @s run function stellarity:sfx/end_portal_animation/checks/base
+# Moved from far_end:structures/check
+execute as @e[type=minecraft:end_crystal,predicate=stellarity:utils/exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
