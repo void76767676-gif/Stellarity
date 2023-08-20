@@ -7,16 +7,16 @@ execute if predicate stellarity:items/clockwork_crossbow/holding_unloaded_offhan
 
 # Ammo conservation
 execute if predicate stellarity:items/clockwork_crossbow/quick_charge/0 \
-	unless predicate stellarity:utils/chance/25percent run \
+	if predicate stellarity:utils/chance/25percent run \
 	scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 1
 execute if predicate stellarity:items/clockwork_crossbow/quick_charge/1 \
-	unless predicate stellarity:utils/chance/31percent run \
+	if predicate stellarity:utils/chance/31percent run \
 	scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 1
 execute if predicate stellarity:items/clockwork_crossbow/quick_charge/2 \
-	unless predicate stellarity:utils/chance/37percent run \
+	if predicate stellarity:utils/chance/37percent run \
 	scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 1
 execute if predicate stellarity:items/clockwork_crossbow/quick_charge/3_and_more \
-	unless predicate stellarity:utils/chance/43percent run \
+	if predicate stellarity:utils/chance/43percent run \
 	scoreboard players set @s stellarity.items.clockwork_crossbow.should_save 1
 
 execute if score @s stellarity.items.clockwork_crossbow.should_save matches 0 run \

@@ -1,4 +1,3 @@
-execute if entity @s[scores={stellarity.items.spirit_dagger.effects_duration=1..}] run function stellarity:items/spirit_dagger/effects/reset/tick
 
 execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=1..}] run function stellarity:items/spellbooks/conveyance/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=1..}] run function stellarity:items/spellbooks/updraft/cooldown_countdown
@@ -6,7 +5,6 @@ execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=1..}] run
 execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.shoot=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/shoot
 execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.wolves=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/wolves
 
-execute if entity @s[scores={stellarity.items.tamaris.execute_cooldown=1..}] run function stellarity:items/tamaris/execute/cooldown_countdown
 
 # Prismatic Pearl
 execute if entity @s[scores={stellarity.items.prismatic_pearl.cooldown=1..}] run function stellarity:items/prismatic_pearl/cooldown/countdown

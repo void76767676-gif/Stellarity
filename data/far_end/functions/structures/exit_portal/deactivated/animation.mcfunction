@@ -1,5 +1,5 @@
 summon ender_dragon 0 128 0 {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,Attributes:[{Name:"generic.max_health",Base:300.0},{Name:"generic.armor",Base:8d},{Name:"generic.armor_toughness",Base:4d},{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.follow_range",Base:80d}]}
-summon marker 0 128 0 {Tags:["stellarity.dragon_marker"]}
+summon marker 0 128 0 {Tags:["stellarity.dragon_marker","stellarity.marker"]}
 
 particle minecraft:explosion_emitter 0 128 0 3 3 3 1 10 force
 particle minecraft:cloud 0 128 0 0 0 0 1 300 force

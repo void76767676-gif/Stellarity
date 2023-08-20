@@ -1,4 +1,4 @@
-summon marker ~ ~ ~ {Tags:["stellarity.eol.ethereal_lance"]}
+summon marker ~ ~ ~ {Tags:["stellarity.eol.ethereal_lance","stellarity.marker"]}
 execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.eol.ethereal_lance] at @s facing entity @p eyes run tp @s ~ ~ ~ ~ ~5
 
 scoreboard players reset #ethereal_lance.color stellarity.misc

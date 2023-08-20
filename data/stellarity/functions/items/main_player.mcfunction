@@ -20,7 +20,7 @@ execute if entity @s[scores={stellarity.misc.shot_bow=1,stellarity.items.sabrewi
 execute if entity @s[scores={stellarity.items.sabrewing.until_charge_reset=1..}] run function stellarity:items/sabrewing/reset_charge_countdown
 
 # Spirit Dagger
-execute if entity @s[predicate=stellarity:items/spirit_dagger/holding,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
+execute if entity @s[predicate=stellarity:items/spirit_dagger/holding_both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
 
 # Prismatic Pearl

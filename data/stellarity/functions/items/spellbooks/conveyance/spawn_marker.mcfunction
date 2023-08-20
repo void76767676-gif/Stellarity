@@ -1,4 +1,4 @@
-summon marker ^ ^ ^ {Tags:["stellarity.book_of_conveyance"]}
+summon marker ^ ^ ^ {Tags:["stellarity.book_of_conveyance","stellarity.marker"]}
 tp @e[type=marker,tag=stellarity.book_of_conveyance,limit=1,sort=nearest] ~ ~ ~ ~ ~
 
 scoreboard players operation @s stellarity.items.spellbook.conveyance.id = #stellarity.book_of_conveyance stellarity.items.spellbook.conveyance.id

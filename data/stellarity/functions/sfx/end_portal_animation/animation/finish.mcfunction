@@ -14,7 +14,7 @@ fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=south] replace end_port
 fill ~2 ~ ~2 ~-2 ~ ~-2 end_portal_frame[eye=false,facing=west] replace end_portal_frame[eye=true,facing=west]
 fill ~1 ~ ~1 ~-1 ~ ~-1 end_portal replace air
 
-summon marker ~ ~2 ~ {Tags:["stellarity.end_portal"]}
+summon marker ~ ~2 ~ {Tags:["stellarity.end_portal","stellarity.marker"]}
 
 execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_portal] at @s rotated ~0 ~ run summon armor_stand ^ ^-2 ^5 {NoGravity:1b,Tags:["stellarity.end_portal_animation.eye_1","stellarity.end_portal_animation.eye"],Small:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;907160796,1821854615,-1727336627,-176309982],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="}]}}}}]}
 execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_portal] at @s rotated ~30 ~ run summon armor_stand ^ ^-2 ^5 {NoGravity:1b,Tags:["stellarity.end_portal_animation.eye_2","stellarity.end_portal_animation.eye"],Small:1b,Marker:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"player_head",Count:1b,tag:{SkullOwner:{Id:[I;907160796,1821854615,-1727336627,-176309982],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ=="}]}}}}]}

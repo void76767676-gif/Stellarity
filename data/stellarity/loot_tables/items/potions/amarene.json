@@ -40,7 +40,7 @@
 								"",
 								{
 									"translate": "stellarity.items.potions.amarena.flavor_text",
-									"fallback": "'An English teacher's favorite'",
+									"fallback": "'forbidden juice'",
 									"italic": true,
                                     "color": "#EEEEEE"
 								}

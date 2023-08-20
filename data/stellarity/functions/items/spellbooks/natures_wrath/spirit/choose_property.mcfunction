@@ -1,5 +1,6 @@
 execute rotated as @p run tp @s ^ ^ ^ ~ ~
 tag @s add stellarity.natures_wrath.spirit
+tag @s add stellarity.marker
 
 scoreboard players operation @s stellarity.misc2 = #upgrades stellarity.misc
 
