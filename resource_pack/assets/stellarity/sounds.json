@@ -67,12 +67,6 @@
 		],
 		"subtitle":"kohy slays"
 	},
-	"item.tamaris.exeggute":{
-		"sounds":[
-			"stellarity:item/tamaris/exeggute"
-		],
-		"subtitle":"Tamaris exeggutes"
-	},
 	"item.tamaris.execute_bg":{
 		"sounds":[
 			"stellarity:item/tamaris/execute_bg"
@@ -108,15 +102,6 @@
 			"stellarity:block/end_portal/create"
 		]
 	},
-	"block.end_portal.ambient":{
-		"sounds":[
-			{
-				"attenuation_distance": 10,
-				"name": "stellarity:block/end_portal/ambient"
-			}
-		],
-		"subtitle": "subtitles.block.portal.ambient"
-	},
 	"block.end_portal.travel":{
 		"sounds":[
 			"stellarity:block/end_portal/travel"
@@ -125,7 +110,7 @@
     "music.enter_end":{
 		"sounds":[
 			{
-				"name":"stellarity:music/end",
+				"name":"stellarity:music/the",
 				"stream":true,
                 "volume": 1
 			}
