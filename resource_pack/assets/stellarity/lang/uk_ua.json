@@ -73,10 +73,10 @@
   "stellarity.items.fish.overgrown_cod": "Мегалосось",
   "stellarity.items.fish.prismite": "Призміт",
 
-  "stellarity.items.fish.mystical_heartfish": "Таємничий Живокарась",
-  "stellarity.items.fish.mystical_heartfish.description.1": "Споживається для постійного підвищення",
-  "stellarity.items.fish.mystical_heartfish.description.2": "вашого максимального здоров'я на 1 серце",
-  "stellarity.items.fish.mystical_heartfish.description.3": "Допускає до 10 додаткових сердець",
+  "stellarity.items.fish.crystal_heartfish": "Кристалічний Живокарась",
+  "stellarity.items.fish.crystal_heartfish.description.1": "Споживається для постійного підвищення",
+  "stellarity.items.fish.crystal_heartfish.description.2": "вашого максимального здоров'я на 1 серце",
+  "stellarity.items.fish.crystal_heartfish.description.3": "Допускає до 10 додаткових сердець",
 
   "stellarity.items.materials.ancient_plating": "Давні Пластини",
   "stellarity.items.materials.hallowed_ingot": "Священний Зливок",
