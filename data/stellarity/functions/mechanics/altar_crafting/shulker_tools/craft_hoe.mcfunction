@@ -11,3 +11,5 @@ particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function stellarity:mechanics/altar_crafting/global_effects
 
 advancement grant @p only stellarity:husbandry/absolute_devotion
+
+data remove storage stellarity:temp enchants

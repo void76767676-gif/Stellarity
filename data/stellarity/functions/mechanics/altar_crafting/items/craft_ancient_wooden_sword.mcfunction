@@ -9,3 +9,5 @@ data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set 
 playsound minecraft:entity.player.breath block @a[distance=0..] ~ ~ ~ 1 1
 
 function stellarity:mechanics/altar_crafting/global_effects
+
+data remove storage stellarity:temp enchants

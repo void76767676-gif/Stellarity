@@ -9,3 +9,5 @@ data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set 
 
 particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function stellarity:mechanics/altar_crafting/global_effects
+
+data remove storage stellarity:temp enchants

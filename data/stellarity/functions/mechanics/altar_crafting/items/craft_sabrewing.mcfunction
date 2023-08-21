@@ -14,3 +14,5 @@ particle end_rod ~ ~.1 ~ 0 0 0 0.25 50 normal
 particle end_rod ~ ~.1 ~ 0 0 0 0.1 25 normal
 
 function stellarity:mechanics/altar_crafting/global_effects
+
+data remove storage stellarity:temp enchants

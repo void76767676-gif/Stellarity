@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.spellbook.natures_wrath.cooldown.wolves 800
+scoreboard players set @s stellarity.items.spellbook.natures_wrath.cooldown.wolves 40
 
 scoreboard players set #upgrades stellarity.misc 0
 execute if entity @s[advancements={stellarity:events/items/spellbooks/natures_wrath/been_to_forest=true}] run scoreboard players add #upgrades stellarity.misc 1

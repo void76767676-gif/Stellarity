@@ -11,3 +11,5 @@ particle minecraft:happy_villager ~ ~-.4 ~ .2 .2 .2 0 15 normal
 function stellarity:mechanics/altar_crafting/global_effects
 
 advancement grant @p only stellarity:aota/craft_full_shulker_armor craft_shulker_chestplate
+
+data remove storage stellarity:temp enchants
