@@ -59,8 +59,8 @@ tag @e[tag=stellarity.damage.attacker] remove stellarity.damage.attacker
 
 
 # Reset scores
-#scoreboard players reset #damage stellarity.misc
-#scoreboard players reset #damage_ap stellarity.misc
-#scoreboard players reset #armor_penetration stellarity.misc
-#scoreboard players reset #ignore_iframes stellarity.misc
-#scoreboard players reset #damage_boost_efficiency stellarity.misc
+scoreboard players reset #damage stellarity.misc
+scoreboard players reset #damage_ap stellarity.misc
+scoreboard players reset #armor_penetration stellarity.misc
+scoreboard players reset #ignore_iframes stellarity.misc
+scoreboard players reset #damage_boost_efficiency stellarity.misc

@@ -8,5 +8,5 @@ execute if data entity @s {FallFlying:1b} run effect give @s levitation 1 33 tru
 scoreboard players reset @s stellarity.items.spellbook.updraft.animation
 
 function stellarity:items/spellbooks/effects_all
-playsound minecraft:entity.shulker.shoot player @a[distance=0..] ~ ~ ~ 0.33 1
-playsound minecraft:entity.bat.takeoff player @a[distance=0..] ~ ~ ~ 0.12 1
+playsound minecraft:entity.bat.takeoff player @a[distance=0..] ~ ~ ~ 0.8 1
+playsound minecraft:item.trident.riptide_1 player @a[distance=0..] ~ ~ ~ 1 1

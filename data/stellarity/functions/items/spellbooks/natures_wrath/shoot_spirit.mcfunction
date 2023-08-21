@@ -22,6 +22,6 @@ execute at @s anchored eyes positioned ^ ^ ^ rotated as @s summon marker run fun
 #function stellarity:items/spellbooks/effects_all
 
 playsound minecraft:item.book.page_turn player @a[distance=0..] ~ ~1 ~ 1 1
-particle enchant ~ ~1 ~ .3 .55 .3 0 30 normal
+particle enchant ~ ~1 ~ .4 .55 .4 0 30 normal
 
 playsound minecraft:entity.shulker.shoot player @a[distance=0..] ~ ~ ~ 1 1
