@@ -1,5 +1,5 @@
 site_name: Stellarity Wiki
-site_url: https://hohy-creates.github.io/Stellarity/
+site_url: https://stellarity.kohara.xyz/
 site_description: >-
   Wiki for the Stellarity project
 
@@ -190,7 +190,7 @@ extra_javascript:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/J6guYAySN8
+      link: https://discord.kohara.xyz/
       name: kohara's Discord Server
     - icon: fontawesome/brands/github
       link: https://github.com/kohy-creates
@@ -198,9 +198,6 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UCRqeCM1qtK9R8f2Q8mCPJ1g
       name: kohara's Youtube Channel
-    - icon: fontawesome/brands/reddit
-      link: https://www.reddit.com/user/kohara_
-      name: kohara on Reddit
   generator: true
   analytics:
     provider: google

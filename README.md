@@ -1,7 +1,7 @@
 <h1 align="center">Stellarity</h1>
 
 <p align="center">
-    <a href="https://discord.gg/J6guYAySN8"><img src="https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA" alt="Discord"/></a>
+    <a href="https://discord.kohara.xyz/"><img src="https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA" alt="Discord"/></a>
     <a href="https://kohy-creates.github.io/Stellarity/wiki"><img src="https://img.shields.io/badge/wiki-Click_to_go!-orange?style=for-the-badge&logo=ReadMe&logoColor=white" alt="Wiki"/></a>
     <a href="https://github.com/kohy-creates/Stellarity/network/members"><img src="https://img.shields.io/github/forks/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=green" alt="Spoons"/></a>
     <a href="https://modrinth.com/data-packs/stellarity"><img src="https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge">

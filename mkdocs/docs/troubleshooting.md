@@ -2,7 +2,7 @@
 
 This Troubleshooting page is here to help you if you have issues installing or using Stellarity.
 
-If your issues persist, do not hesitate to ask on [kohara's :fontawesome-brands-discord:{ style="color: #7289da;" }Discord server](https://discord.gg/J6guYAySN8)!
+If your issues persist, do not hesitate to ask on [kohara's :fontawesome-brands-discord:{ style="color: #7289da;" }Discord server](https://discord.kohara.xyz/)!
 
 <br><br>
 

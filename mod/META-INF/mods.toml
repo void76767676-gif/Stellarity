@@ -2,7 +2,7 @@ modLoader = "lowcodefml"
 loaderVersion = "[40,)"
 license = "LicenseRef-Custom"
 showAsResourcePack = false
-issueTrackerURL = "https://discord.gg/J6guYAySN8"
+issueTrackerURL = "https://discord.kohara.xyz/"
 
 [[mods]]
 modId = "stellarity" 
