@@ -57,7 +57,7 @@
 								},
 								"",
 								{
-									"translate": "stellarity.items.tamaris.flavor_text",
+									"translate": "stellarity.items.weapons.tamaris.flavor_text",
 									"fallback": "'Property of Captain Hannah'",
 									"color": "#EEEEEE",
 									"italic": true
