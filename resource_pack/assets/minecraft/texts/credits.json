@@ -1,122 +1,123 @@
 [
 	{
-		"section":"§dStellarity",
-		"disciplines":[
-			{
-				"discipline":"Programming",
-				"titles":[
-					{
-						"title": "Lead Developer",
-						"names": [
-							"kohara_"
-						]
-					},
-					{
-						"title": "Original Creator",
-						"names": [
-							"Hex"
-						]
-					}
-				]
-			},
-			{
-				"discipline":"Textures",
-				"titles":[
-					{
-						"title": "Artists",
-						"names": [
-							"kohara_",
-							"IEatPotatoes_",
-							"DuskAdler",
-							"YaGirlGiulles"
-						]
-					}
-				]
-			},
-			{
-				"discipline":"Sound Design",
-				"titles":[
-					{
-						"title": "Sound Effects",
-						"names": [
-							"Minecraft: §6Dungeons §rAudio Team",
-							"TheSavageHybrid §7(End Portal opening sound)"
-						]
-					},
-					{
-						"title": "Music",
-						"names": [
-							"C418 §7(\"Eleven\", \"Ki\", \"Intro\", \"Excuse\")",
-							"Sigma_ §7(\"Threshold\")",
+        "section": "§dStellarity",
+        "disciplines": [
+            {
+                "discipline": "Programming",
+                "titles": [
+                    {
+                        "title": "Lead Developer",
+                        "names": [
+                            "kohara_"
+                        ]
+                    },
+                    {
+                        "title": "Original Creator",
+                        "names": [
+                            "Hex"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Textures",
+                "titles": [
+                    {
+                        "title": "Artists",
+                        "names": [
+                            "kohara_",
+                            "IEatPotatoes_",
+                            "DuskAdler",
+                            "YaGirlGiulles",
+                            "BrokenEmp"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Sound Design",
+                "titles": [
+                    {
+                        "title": "Sound Effects",
+                        "names": [
+                            "Minecraft: §6Dungeons §rAudio Team",
+                            "TheSavageHybrid §7(End Portal opening sound)"
+                        ]
+                    },
+                    {
+                        "title": "Music",
+                        "names": [
+                            "C418 §7(\"Eleven\", \"Ki\", \"Intro\", \"Excuse\")",
+                            "Sigma_ §7(\"Threshold\")",
                             "solunary §7(\"voide\")",
                             "Johan Johnson §7(\"To The Beggining\", \"End.\")"
-						]
-					}
-					
-				]
-			},
-			{
-				"discipline": "Structures",
-				"titles":[
-					{
-						"title": "Builders",
-						"names": [
-							"Bush_King",
-                            "IEatPotatoes_",
-							"RaiderRoss",
-							"MidasDaEpik",
-							"inqizzo",
-							"DuskAdler",
-							"kohara_"
-						]
-					}
-				]
-			},
-			{
-				"discipline":"Translators",
-				"titles":[
-					{
-						"title": "No full translations",
-						"names": [
-							"have been made yet :<"
-						]
-					}
-				]
-			},
-			{
-				"discipline":"Donators",
-				"titles":[
-					{
-						"title": "Server Boosters",
-						"names": [
-							"theammir",
-							"TheNeonFish",
-							"CSS_Scripter"
-						]
-					},
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Structures",
+                "titles": [
                     {
-						"title": "Ko-Fi Supporters",
-						"names": [
-							"CSS_Scripter",
-							"TaintendTofu",
-							"DrakenStrike",
+                        "title": "Builders",
+                        "names": [
+                            "Bush_King",
+                            "IEatPotatoes_",
+                            "RaiderRoss",
+                            "MidasDaEpik",
+                            "inqizzo",
+                            "DuskAdler",
+                            "kohara_"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Translators",
+                "titles": [
+                    {
+                        "title": "Ukrainian (UA)",
+                        "names": [
+                            "Sprechstallmeister",
+                            "theammir"
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Donators",
+                "titles": [
+                    {
+                        "title": "Server Boosters",
+                        "names": [
+                            "theammir",
+                            "TheNeonFish",
+                            "CSS_Scripter"
+                        ]
+                    },
+                    {
+                        "title": "Ko-Fi Supporters",
+                        "names": [
+                            "CSS_Scripter",
+                            "TaintendTofu",
+                            "DrakenStrike",
                             "QuantumEmpress",
                             "Kier",
                             "GWDdoS",
                             "Cokenpizza",
                             "Budling"
-						]
-					}
-				]
-			},
-			{
-				"discipline":"Special Thanks",
-				"titles":[
-					{
-						"title": "",
-						"names": [
-							"Starmute",
-							"self-hosting (catter)",
+                        ]
+                    }
+                ]
+            },
+            {
+                "discipline": "Special Thanks",
+                "titles": [
+                    {
+                        "title": "",
+                        "names": [
+                            "Starmute",
+                            "self-hosting (catter)",
                             "theammir",
                             "diego.",
                             ".purejosh",
@@ -127,12 +128,12 @@
                             "Beyonce",
                             "His Majesty (Leo)",
                             "FokaStudio"
-						]
-					}
-				]
-			}
-		]
-	},
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
     {
         "section": "Mojang Studios",
         "disciplines": [
