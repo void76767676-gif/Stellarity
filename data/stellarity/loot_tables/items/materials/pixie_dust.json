@@ -26,7 +26,8 @@
 							"lore": [
 								"",
 								{
-									"translate": "'May contain Fairy'",
+									"translate": "stellarity.items.materials.pixie_dust.flavor_text",
+									"fallback": "'May contain Fairy'",
 									"color": "#EEEEEE",
 									"italic": true
 								}
