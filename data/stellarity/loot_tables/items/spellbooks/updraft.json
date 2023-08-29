@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90002,stellarity.special_item:\"book_of_updraft\",Recipes:[\"stellarity:events/spellbooks/use_updraft\"]}"
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"book_of_updraft\",Recipes:[\"stellarity:events/spellbooks/use_updraft\"],Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_lore",

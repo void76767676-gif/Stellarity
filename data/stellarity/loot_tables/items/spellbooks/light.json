@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90003,stellarity.special_item:\"book_of_light\",Recipes:[\"stellarity:events/spellbooks/use_light\"]}"
+							"tag": "{CustomModelData:90003,stellarity.special_item:\"book_of_light\",Recipes:[\"stellarity:events/spellbooks/use_light\"],Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_lore",

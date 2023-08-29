@@ -1,10 +1,24 @@
 {
-    "parent": "stellarity:events/root",
+	"parent": "stellarity:events/items/spellbooks/natures_wrath/root",
 	"criteria": {
 		"1": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
 					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
@@ -23,6 +37,20 @@
 			"conditions": {
 				"player": [
 					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
 					},
@@ -39,6 +67,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
 					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
@@ -57,6 +99,20 @@
 			"conditions": {
 				"player": [
 					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
 					},
@@ -73,6 +129,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
 					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
@@ -91,6 +161,20 @@
 			"conditions": {
 				"player": [
 					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
 					},
@@ -107,6 +191,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
 					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
@@ -125,6 +223,20 @@
 			"conditions": {
 				"player":[
 					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
+					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"
 					},
@@ -141,6 +253,20 @@
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player":[
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"nbt": "{stellarity.spirits:[\"snow\"]}"
+									}
+								}
+							}
+						}
+					},
 					{
 						"condition": "minecraft:reference",
 						"name": "stellarity:items/spellbooks/holding_natures_wrath"

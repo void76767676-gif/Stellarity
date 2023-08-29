@@ -1,7 +1,11 @@
 advancement revoke @s only stellarity:events/items/spellbooks/use_conveyance
 recipe take @s stellarity:events/spellbooks/use_conveyance
 
-execute unless score @s stellarity.items.spellbook.conveyance.cooldown matches 1.. at @s run function stellarity:items/spellbooks/conveyance/shoot_bolt
+scoreboard players set #mainhand stellarity.misc 0
+execute unless data entity @s SelectedItem run scoreboard players set #mainhand stellarity.misc 1
+execute if score #mainhand stellarity.misc matches 0 run loot replace entity @s weapon.offhand loot stellarity:items/spellbooks/conveyance
+execute if score #mainhand stellarity.misc matches 0 run item modify entity @s weapon.offhand stellarity:fix_spellbooks
+execute if score #mainhand stellarity.misc matches 1 run loot replace entity @s weapon.mainhand loot stellarity:items/spellbooks/conveyance
+execute if score #mainhand stellarity.misc matches 1 run item modify entity @s weapon.mainhand stellarity:fix_spellbooks
 
-tag @s[gamemode=!creative,gamemode=!spectator] add stellarity.give_back.spellbooks.conveyance
-schedule function stellarity:items/spellbooks/conveyance/give_back/scheduled 2t append
+execute unless score @s stellarity.items.spellbook.conveyance.cooldown matches 1.. at @s run function stellarity:items/spellbooks/conveyance/shoot_bolt

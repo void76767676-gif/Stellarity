@@ -2,7 +2,7 @@ execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.natures_wrath.spir
 
 scoreboard players set #damage stellarity.misc 50
 
-scoreboard players set #armor_penetration stellarity.misc 0
+scoreboard players set #armor_penetration stellarity.misc 20
 scoreboard players set #ignore_iframes stellarity.misc 1
 
 tag @s add stellarity.damage.natures_wrath

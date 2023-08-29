@@ -52,6 +52,7 @@ scoreboard objectives add stellarity.items.spellbook.updraft.animation dummy
 scoreboard objectives add stellarity.items.spellbook.light.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.shoot dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.wolves dummy
+scoreboard objectives add stellarity.items.spellbook.natures_wrath.homing_time dummy
 
 scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed dummy
 
@@ -100,6 +101,7 @@ scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
 # Temporar variables OR things that don't need its own variable
 scoreboard objectives add stellarity.misc dummy
 scoreboard objectives add stellarity.misc2 dummy
+scoreboard objectives add stellarity.misc3 dummy
 scoreboard objectives add stellarity.misc.end_portal_animation dummy
 scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy
 
@@ -139,6 +141,9 @@ team modify stellarity.golden_glow color gold
 team add stellarity.spirit_glow
 team modify stellarity.spirit_glow color aqua
 
+team add stellarity.homing_targets
+team modify stellarity.homing_targets color aqua
+
 team add stellarity.rave_glow
 team modify stellarity.rave_glow color red
 
@@ -163,10 +168,8 @@ bossbar set stellarity:eol style notched_10
 schedule function stellarity:loops/timed/2_tick 2t append
 schedule function stellarity:loops/timed/3_tick 3t append
 schedule function stellarity:loops/timed/5_tick 5t append
-schedule function stellarity:loops/timed/10_tick 10t append
 schedule function stellarity:loops/timed/1_second 1s append
 schedule function stellarity:loops/timed/5_second 5s append
-schedule function stellarity:loops/timed/15_second 15s append
 
 # Initialize RNG
 function stellarity:utils/rng/init
@@ -177,3 +180,5 @@ execute store result score #difficulty stellarity.misc run difficulty
 # Initialize all DOT related scoreboards
 # Keeping them as separate files for the sake of readability
 function #stellarity:dot/load
+
+data modify storage stellarity:temp spellbook_fix set value 1b

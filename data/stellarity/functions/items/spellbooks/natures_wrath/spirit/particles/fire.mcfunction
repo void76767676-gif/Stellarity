@@ -1,4 +1,4 @@
-particle dust 1 0.549 0 1.33 ~ ~ ~ 0.1 0.1 0.1 0 6 force @a
+particle dust 1 0.549 0 1.2 ~ ~ ~ 0.1 0.1 0.1 0 6 force @a
 particle minecraft:flame ~ ~ ~ 0.2 0.2 0.2 0 2 force
 particle minecraft:smoke ~ ~ ~ 0.2 0.2 0.2 0 1 force
 

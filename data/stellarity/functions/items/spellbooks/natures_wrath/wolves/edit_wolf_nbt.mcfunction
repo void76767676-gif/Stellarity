@@ -1,7 +1,5 @@
 particle explosion ~ ~ ~
 
-tag @s add stellarity.natures_wrath.spirit_wolf
-
 execute if score #upgrades stellarity.misc matches ..1 run function stellarity:items/spellbooks/natures_wrath/wolves/levels/1
 execute if score #upgrades stellarity.misc matches 2..3 run function stellarity:items/spellbooks/natures_wrath/wolves/levels/2
 execute if score #upgrades stellarity.misc matches 4..6 run function stellarity:items/spellbooks/natures_wrath/wolves/levels/3

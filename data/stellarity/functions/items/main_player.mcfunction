@@ -46,3 +46,6 @@ execute if entity @s[predicate=!stellarity:items/holding_kaleidoscope,scores={st
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation
+
+# Nature's Wrath
+execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.shoot=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/shoot

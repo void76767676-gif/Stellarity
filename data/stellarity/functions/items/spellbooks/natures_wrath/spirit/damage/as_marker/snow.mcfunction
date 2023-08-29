@@ -8,7 +8,7 @@ playsound minecraft:entity.shulker_bullet.hurt neutral @a[distance=0..] ~ ~ ~ 1 
 
 scoreboard players set #dot.time stellarity.misc 40
 
-scoreboard players set #add stellarity.misc 4
+scoreboard players set #add stellarity.misc 7
 scoreboard players operation #add stellarity.misc *= @s stellarity.misc2
 scoreboard players operation #dot.time stellarity.misc += #add stellarity.misc
 

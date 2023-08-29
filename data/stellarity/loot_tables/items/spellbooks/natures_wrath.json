@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90004,stellarity.special_item:\"natures_wrath\",Recipes:[\"stellarity:events/spellbooks/use_natures_wrath\"]}"
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"natures_wrath\",Recipes:[\"stellarity:events/spellbooks/use_natures_wrath\"],Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_lore",

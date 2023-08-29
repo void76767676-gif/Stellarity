@@ -18,7 +18,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"book_of_conveyance\",Recipes:[\"stellarity:events/spellbooks/use_conveyance\"]}"
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"book_of_conveyance\",Recipes:[\"stellarity:events/spellbooks/use_conveyance\"],Enchantments:[{}]}"
 						},
 						{
 							"function": "minecraft:set_lore",
