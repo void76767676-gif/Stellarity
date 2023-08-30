@@ -1,1 +1,1 @@
-title @s actionbar {"text":"Your Cursed Tome resonates with knowledge!","color":"light_purple"}
+title @s actionbar {"translate":"stellarity.items.cursed_tome.unlock_entry","fallback":"Your %s resonates with knowledge!","color":"light_purple","with":[{"translate":"stellarity.items.cursed_tome","fallback":"Cursed Enchiridion"}]}

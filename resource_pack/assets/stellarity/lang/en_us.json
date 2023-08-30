@@ -139,6 +139,7 @@
 	"stellarity.items.spellbooks.natures_wrath.description.2": "permanently unlocking or upgrading its abilities",
 	"stellarity.items.spellbooks.natures_wrath.description.3": "Sneak and use to summon a pack of Spirit Wolves",
 	"stellarity.items.spellbooks.natures_wrath.spirit_wolf": "Spirit Wolf",
+	"stellarity.items.spellbooks.natures_wrath.power": "Your Nature's Wrath grows in power!",
 
 	"stellarity.items.tools.shulker.axe": "Shulker Axe",
 	"stellarity.items.tools.shulker.hoe": "Shulker Hoe",
@@ -240,7 +241,8 @@
 	"stellarity.items.prismatic_pearl": "Prismatic Pearl",
 	"stellarity.items.altar_of_light": "Altar of The Sacred",
 
-	"stellarity.items.cursed_tome": "Cursed Tome",
+	"stellarity.items.cursed_tome": "Cursed Enchiridion",
+	"stellarity.items.cursed_tome.unlock_entry": "Your %s resonates with knowledge!",
 	"stellarity.items.cursed_tome.description.1": "Contains all the information",
 	"stellarity.items.cursed_tome.description.2": "about Stellarity items",
 	"stellarity.items.cursed_tome.description.flavor_text": "'Your miniature wiki!'",
@@ -454,8 +456,8 @@
 	"stellarity.advancements.a_step_to_the_end.description": "Blaze Powder is usually used for brewing, but perhaps something could be fused with it...?",
 	"stellarity.advancements.imbuements": "Imbuements",
 	"stellarity.advancements.imbuements.description": "...and use it to brew Lingering Potions!",
-	"stellarity.advancements.the_beggining": "The Beginning.",
-	"stellarity.advancements.the_beggining.description": "Kill the Wither in The End",
+	"stellarity.advancements.the_beginning": "The Beginning.",
+	"stellarity.advancements.the_beginning.description": "Kill the Wither in The End",
 	"stellarity.advancements.cloud_save": "Cloud Save",
 	"stellarity.advancements.cloud_save.description": "Craft an Ender Chest",
 	"stellarity.advancements.rare_find": "Rare Find",
