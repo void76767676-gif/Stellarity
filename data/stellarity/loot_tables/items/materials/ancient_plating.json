@@ -27,8 +27,8 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.materials.for_altar",
-									"fallback": "For use with the Altar of The Accursed",
+									"translate": "stellarity.items.materials.upgrade",
+									"fallback": "Used to upgrade Netherite Armor",
 									"color": "#EEEEEE",
 									"italic": false
 								}

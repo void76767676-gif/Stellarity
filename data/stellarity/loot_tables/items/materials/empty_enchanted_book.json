@@ -52,7 +52,7 @@
 						},
 						{
 							"translate": "stellarity.items.empty_enchanted_book.description.5",
-							"fallback": "of what's inside it",
+							"fallback": "of what's inside of it",
 							"color": "#EEEEEE",
 							"italic": false,
 							"bold": true

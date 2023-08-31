@@ -9,14 +9,12 @@ execute if entity @s[tag=stellarity.end_portal_animation,tag=stellarity.end_port
 
 execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:mobs/eol/animations/spawn/loop
 
-execute if entity @s[tag=stellarity.altar_of_accursed,tag=!stellarity.aota_activated] if entity @e[type=item,distance=..1] run function stellarity:mechanics/altar_crafting/notice
-
 execute if entity @s[tag=stellarity.altar_of_the_light] unless block ~ ~-1 ~ minecraft:shroomlight run function stellarity:mechanics/altar_of_light/drop_self
 
 execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal_animation/marker_loop
 execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal_animation/animation/main
 
-execute if entity @s[tag=stellarity.altar_of_accursed,tag=stellarity.aota_activated] run function stellarity:sfx/altar_of_the_accursed/loop
+execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
 execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:sfx/altar_of_light/loop
 
 execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:sfx/dragons_den_chest
