@@ -17,6 +17,9 @@
 	"stellarity.mobs.pixie": "Pixie",
 	"stellarity.mobs.empress": "Empress of Light",
 
+	"stellarity.explorer_map.end_city": "End City Explorer Map",
+	"stellarity.explorer_map.end_village": "End Village Explorer Map",
+
 	"stellarity.items.special.donator": "Donator Item",
 	"stellarity.items.special.developer": "Developer Item",
 	"stellarity.items.special.member_666": "Member #666 Item",
@@ -303,7 +306,7 @@
 	"stellarity.items.cursed_tome.entries.sariel.obtaining": "Crafted at the Altar of The Accursed.",
 
 	"stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
-	"stellarity.items.cursed_tome.entries.sabrewing.description": "The name is extremely deceving.\nSabrewing can supercharge its shots to increase their power, making it devastating at long range.",
+	"stellarity.items.cursed_tome.entries.sabrewing.description": "The name is extremely deceiving.\nSabrewing can supercharge its shots to increase their power, making it devastating at long range.",
 	"stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Crafted at the Altar of The Accursed.",
 
 	"stellarity.items.cursed_tome.entries.pandoras_barrel.center": " ",
@@ -443,7 +446,7 @@
 	"stellarity.advancements.plant_chorus_fruit_2": "Otherworldy Botanist",
 	"stellarity.advancements.plant_chorus_fruit_2.description": "Plant a Chorus Flower in every of the 3 dimensions",
 	"stellarity.advancements.plant_chors_fruit": "Otherwordly Biologist",
-	"stellarity.advancements.plant_chors_fruitx.description": "Plant a Chorus Flower in the Overworld",
+	"stellarity.advancements.plant_chors_fruit.description": "Plant a Chorus Flower in the Overworld",
 	"stellarity.advancements.supreme_server_owner": "Supreme Server Owner",
 	"stellarity.advancements.supreme_server_owner.description": "Fish out an 'ultra super rare (not really)' collectible from The Void",
 	"stellarity.advancements.the_void_provides": "The Void Provides",
