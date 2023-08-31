@@ -21,6 +21,19 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90009,stellarity.special_item:\"amethyst_budfish\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+								
 						}
 					]
 				}

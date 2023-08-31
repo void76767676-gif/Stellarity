@@ -20,6 +20,19 @@
 								"color": "#B265FF",
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+								
 						}
 					]
 				}

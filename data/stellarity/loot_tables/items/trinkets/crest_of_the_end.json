@@ -73,6 +73,13 @@
 									"fallback": "force to your next melee attack",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						}

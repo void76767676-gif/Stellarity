@@ -26,6 +26,13 @@
 									"fallback": "'Just drink it, what could go wrong?'",
 									"color": "#EEEEEE",
 									"italic": true
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						},

@@ -122,7 +122,14 @@
 										"color": "#BA02D7",
 										"italic": false
 									}
-								]
+								],
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
 							]
 						}
 					]

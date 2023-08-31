@@ -40,6 +40,13 @@
 									"fallback": "'Tastes like cobalt'",
 									"color": "#EEEEEE",
 									"italic": true
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						},

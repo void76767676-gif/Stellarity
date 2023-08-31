@@ -56,6 +56,13 @@
 									"fallback": "'i'm not using auto!'",
 									"color": "#EEEEEE",
 									"italic": true
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						}

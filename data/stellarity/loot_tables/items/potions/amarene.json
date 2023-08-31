@@ -43,6 +43,13 @@
 									"fallback": "'forbidden juice'",
 									"italic": true,
                                     "color": "#EEEEEE"
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							],
 							"replace": false

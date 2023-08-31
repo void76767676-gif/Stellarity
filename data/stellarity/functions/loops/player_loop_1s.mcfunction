@@ -1,5 +1,5 @@
 # Shulker Tools
-execute if entity @s[predicate=stellarity:items/holding_any_shulker_tool] run effect give @s haste 1 0 true
+execute if entity @s[predicate=stellarity:items/holding_any_shulker_tool] run effect give @s haste 2 0 true
 
 execute if entity @s[scores={stellarity.items.flask_of_frost.duration=1..}] run scoreboard players remove @s stellarity.items.flask_of_frost.duration 1
 

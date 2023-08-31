@@ -84,6 +84,13 @@
 									"text": "stability, and \"enterprise\" features.'",
 									"color": "#EEEEEE",
 									"italic": true
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						},

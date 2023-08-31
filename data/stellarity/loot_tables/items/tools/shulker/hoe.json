@@ -10,6 +10,32 @@
 						{
 							"function": "minecraft:set_lore",
 							"lore": [
+								" ",
+								[
+									{
+										"text": "- ",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"translate": "stellarity.items.special.donator",
+										"fallback": "Donator Item",
+										"color": "#F96854",
+										"italic": false
+									},
+									{
+										"text": " -",
+										"color": "#F96854",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								},
 								"",
 								{
 									"translate": "item.modifiers.mainhand",
@@ -22,7 +48,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "2",
+												"text": "1.5",
 												"color": "dark_green",
 												"italic": false
 											},
@@ -55,25 +81,6 @@
 										"color": "dark_green",
 										"italic": false
 									}
-								],
-								" ",
-								[
-									{
-										"text": "- ",
-										"color": "#F96854",
-										"italic": false
-									},
-									{
-										"translate": "stellarity.items.special.donator",
-										"fallback": "Donator Item",
-										"color": "#F96854",
-										"italic": false
-									},
-									{
-										"text": " -",
-										"color": "#F96854",
-										"italic": false
-									}
 								]
 							]
 						},
@@ -97,7 +104,7 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
 									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-									"amount": 1,
+									"amount": 0.5,
 									"operation": "addition",
 									"slot": "mainhand"
 								},

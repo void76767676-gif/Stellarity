@@ -20,6 +20,18 @@
 						{
 							"function": "minecraft:set_nbt",
 							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
 						}
 					]
 				}

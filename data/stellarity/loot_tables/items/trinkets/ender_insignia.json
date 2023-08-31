@@ -40,6 +40,13 @@
 									"color": "dark_purple",
 									"font": "illageralt",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							],
 							"replace": false

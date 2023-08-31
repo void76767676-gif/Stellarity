@@ -30,6 +30,13 @@
 									"fallback": "'May contain Fairy'",
 									"color": "#EEEEEE",
 									"italic": true
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						}

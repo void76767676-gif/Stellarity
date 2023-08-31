@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{custom_potion_effects:[{id:\"minecraft:strength\",amplifier:2b,duration:900}],CustomPotionColor:16565504}"
+							"tag": "{custom_potion_effects:[{id:\"minecraft:strength\",amplifier:2b,duration:600}],CustomPotionColor:16565504}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -19,6 +19,19 @@
 								"color": "white",
 								"italic": false
 							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+								
 						}
 					]
 				}

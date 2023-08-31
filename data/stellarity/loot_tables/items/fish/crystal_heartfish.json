@@ -9,10 +9,6 @@
 					"name": "minecraft:cooked_cod",
 					"functions": [
 						{
-							"function": "minecraft:set_count",
-							"count": 1
-						},
-						{
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
@@ -47,6 +43,13 @@
 									"fallback": "Allows for up to 10 extra hearts",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						}

@@ -10,6 +10,19 @@
 						{
 							"function": "minecraft:set_potion",
 							"id": "minecraft:luck"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+								
 						}
 					]
 				}

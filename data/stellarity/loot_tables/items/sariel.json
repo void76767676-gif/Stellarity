@@ -73,6 +73,13 @@
 								},
 								"",
 								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								},
+								"",
+								{
 									"translate": "item.modifiers.mainhand",
 									"color": "gray",
 									"italic": false

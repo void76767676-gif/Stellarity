@@ -55,6 +55,13 @@
 									"fallback": "doubles with Infinity enchantment",
 									"color": "#EEEEEE",
 									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
 								}
 							]
 						}
