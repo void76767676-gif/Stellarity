@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"tamaris\",stellar_durability:{enabled:1b,max_dur:1562},CustomModelData:90002,HideFlags:6}"
+							"tag": "{stellarity.special_item:\"tamaris\",stellar_durability:{enabled:1b,max_dur:1562},CustomModelData:90002,HideFlags:6,stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

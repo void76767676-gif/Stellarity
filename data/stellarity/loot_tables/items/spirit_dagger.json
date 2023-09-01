@@ -182,7 +182,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"spirit_dagger\",stellar_durability:{enabled:1b,max_dur:480},HideFlags:6}"
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"spirit_dagger\",stellar_durability:{enabled:1b,max_dur:480},HideFlags:6,stellarity.fireproof:1b}"
 						}
 					]
 				}

@@ -22,6 +22,11 @@
 				"op": "replace"
 			},
 			{
+				"source": "aery_sword.fireproof",
+				"target": "\"stellarity.fireproof\"",
+				"op": "replace"
+			},
+			{
 				"source": "aery_sword.cmd",
 				"target": "CustomModelData",
 				"op": "replace"

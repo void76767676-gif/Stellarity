@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"ender_insignia\",CustomModelData:90000,Enchantments:[{}],HideFlags:2}"
+							"tag": "{stellarity.special_item:\"ender_insignia\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_lore",

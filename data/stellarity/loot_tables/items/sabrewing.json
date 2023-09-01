@@ -50,7 +50,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"sabrewing\",stellar_durability:{enabled:1b,max_dur:504}}"
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"sabrewing\",stellar_durability:{enabled:1b,max_dur:504},stellarity.fireproof:1b}"
 						}
 					]
 				}

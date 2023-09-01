@@ -42,7 +42,11 @@ execute if score #damage stellarity.misc matches 900..1699 run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90004
 execute if score #damage stellarity.misc matches 1700.. run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90005
-	
+
+# Is fireproof?
+data modify storage stellarity:temp aery_sword.fireproof set value 0b
+execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fireproof set value 1b
+
 # Visual and sound effects
 execute anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/souls
 execute if score #damage stellarity.misc matches ..1699 run \
@@ -70,4 +74,4 @@ item modify entity @s weapon.mainhand stellarity:aery_sword_increase_damage
 
 # Maxing out the Aery Sword
 execute if score #damage stellarity.misc matches 1700.. run \
-	function stellarity:items/frigid_harvester/max_out
+	function stellarity:items/frigid_harvester/ultra_max_out

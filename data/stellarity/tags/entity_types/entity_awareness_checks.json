@@ -7,7 +7,7 @@
 		"minecraft:vex",
 		"minecraft:wandering_trader",
 		"minecraft:zombie",
-		"minecraft:zombified_piglin"
-		
+		"minecraft:zombified_piglin",
+		"minecraft:item"
 	]
 }

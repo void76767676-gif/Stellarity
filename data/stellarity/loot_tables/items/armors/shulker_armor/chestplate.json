@@ -56,7 +56,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90002,stellarity.special_item:\"shulker_armor\",display:{color:12219878},HideFlags:64,stellar_durability:{enabled:1b,max_dur:792}}"
+							"tag": "{CustomModelData:90002,stellarity.special_item:\"shulker_armor\",display:{color:12219878},HideFlags:64,stellar_durability:{enabled:1b,max_dur:792},stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_attributes",

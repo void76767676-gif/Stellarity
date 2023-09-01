@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}],HideFlags:2}"
+							"tag": "{stellarity.special_item:\"starstruck_carcanet\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

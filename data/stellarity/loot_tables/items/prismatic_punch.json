@@ -85,7 +85,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"prismatic_punch\",Charged:0b}"
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"prismatic_punch\",Charged:0b,stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_lore",

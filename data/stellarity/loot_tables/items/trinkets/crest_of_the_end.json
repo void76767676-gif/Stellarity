@@ -47,7 +47,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"crest_of_the_end\",CustomModelData:90000,HideFlags:32,stellar_durability:{enabled:1b,max_dur:442}}"
+							"tag": "{stellarity.special_item:\"crest_of_the_end\",CustomModelData:90000,HideFlags:32,stellar_durability:{enabled:1b,max_dur:442},stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

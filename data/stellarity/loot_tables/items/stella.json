@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"stella\",CustomModelData:90003,HideFlags:6}"
+							"tag": "{stellarity.special_item:\"stella\",CustomModelData:90003,HideFlags:6,stellarity.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",
