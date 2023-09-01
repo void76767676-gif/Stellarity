@@ -8,7 +8,7 @@
 			"fallback": "Beam Me Up"
 		},
 		"description": {
-			"translate": "stellarity.advancements.x.description",
+			"translate": "stellarity.advancements.beam_me_up.description",
 			"fallback": "Teleport over 100 meters from a single throw of an Ender Pearl"
 		},
 		"frame": "challenge",

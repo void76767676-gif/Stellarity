@@ -29,7 +29,7 @@ execute if score out stellarity.misc matches 1 run loot spawn ~ ~-5 ~ loot stell
 execute if score out stellarity.misc matches 1 positioned ~ ~-5 ~ run data modify storage stellarity:temp villager_trades[-1].sell.tag set from entity @e[type=item,limit=1,sort=nearest] Item.tag
 execute if score out stellarity.misc matches 1 positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]
 
-execute if score out stellarity.misc matches 2 run data modify storage stellarity:temp villager_trades append value {maxUses:6,rewardExp:1b,priceMultiplier:0.5,demand:6,specialPrice:0,buy:{id:"potion",Count:1,tag:{Potion:"minecraft:long_water_breathing"}},buyB:{id:"cooked_cod",Count:2,tag:{}},sell:{id:"potion",Count:1,tag:{}}}
+execute if score out stellarity.misc matches 2 run data modify storage stellarity:temp villager_trades append value {maxUses:6,rewardExp:1b,priceMultiplier:0.5,demand:6,specialPrice:0,buy:{id:"potion",Count:1,tag:{Potion:"minecraft:long_water_breathing"}},buyB:{id:"pufferfish",Count:2,tag:{}},sell:{id:"potion",Count:1,tag:{}}}
 execute if score out stellarity.misc matches 2 run loot spawn ~ ~-5 ~ loot stellarity:items/fish/bubblefish
 execute if score out stellarity.misc matches 2 positioned ~ ~-5 ~ run data modify storage stellarity:temp villager_trades[-1].buyB.tag set from entity @e[type=item,limit=1,sort=nearest] Item.tag
 execute if score out stellarity.misc matches 2 positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]

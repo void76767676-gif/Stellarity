@@ -8,7 +8,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.enter_end.description",
-			"fallback": "ᴏʀ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ? ʙᴇɢɢɪɴɪɴɢ?"
+			"fallback": "ᴏʀ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ?"
 		},
 		"background": "minecraft:textures/gui/advancements/backgrounds/end.png",
 		"frame": "goal",

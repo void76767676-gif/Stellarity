@@ -11,7 +11,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.topped_off.description",
-			"fallback": "Attain maximum health by consuming 10 Mystical Heartfish"
+			"fallback": "Attain maximum health by consuming 10 Crystal Heartfish"
 		},
 		"frame": "challenge"
 	},
