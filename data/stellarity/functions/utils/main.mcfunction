@@ -6,6 +6,4 @@ function #stellarity:dot/tick
 # Weird, but it works!
 execute as @e[type=player,scores={stellarity.misc.respawn_detection=1..}] run function stellarity:utils/respawn_detection/on_respawn
 
-execute as @e[type=item] at @s run function stellarity:utils/items/main
-
 execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware

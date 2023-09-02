@@ -4,6 +4,7 @@ function stellarity:mobs/main
 function stellarity:sfx/main
 
 execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:loops/marker_loop
+execute as @e[type=item] at @s run function stellarity:loops/item_loop
 execute as @a at @s run function stellarity:loops/player_loop
 
 # Helpful stuff :D

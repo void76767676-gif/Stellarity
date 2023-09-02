@@ -1,6 +1,7 @@
 ## Items
 function stellarity:items/main_player
 
+## Advancements
 function stellarity:advancements/main
 
 # Totem of Undying gives Levitation when falling out of the world

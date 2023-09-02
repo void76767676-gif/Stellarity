@@ -4,7 +4,7 @@ execute if score @s stellarity.misc matches 5.. run scoreboard players reset @s 
 
 
 scoreboard players add @s stellarity.misc2 1
-execute if score @s stellarity.misc2 matches 40 run function stellarity:utils/items/boss_drop/wave
+execute if score @s stellarity.misc2 matches 40 run function stellarity:sfx/boss_drop/wave
 execute if score @s stellarity.misc2 matches 40.. run scoreboard players reset @s stellarity.misc2
 
 scoreboard players add @s stellarity.misc3 1
