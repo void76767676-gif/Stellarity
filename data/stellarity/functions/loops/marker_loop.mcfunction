@@ -24,5 +24,5 @@ scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s
 
 scoreboard players add @s stellarity.misc.loop.15s 1
-execute if entity @s[scores={stellarity.misc.loop.1s=300}] run function stellarity:loops/marker_loop_15s
+execute if entity @s[scores={stellarity.misc.loop.15s=300}] run function stellarity:loops/marker_loop_15s
 

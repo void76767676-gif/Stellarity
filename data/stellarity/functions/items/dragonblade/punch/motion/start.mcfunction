@@ -1,6 +1,7 @@
 # Set punch cooldown
-# 9.5 seconds
+# 8 seconds
 scoreboard players set @s stellarity.items.dragonblade.cooldown 160
+tag @s add stellarity.items.dragonblade.cooldown
 
 # Reset stacks
 function stellarity:items/dragonblade/reset_stacks
