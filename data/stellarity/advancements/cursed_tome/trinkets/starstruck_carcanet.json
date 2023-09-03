@@ -9,7 +9,7 @@
 						"items": [
 							"minecraft:gold_nugget"
 						],
-						"nbt": "{stellarity.special_item:\"strastruck_carcanet\"}"
+						"nbt": "{stellarity.special_item:\"starstruck_carcanet\"}"
 					}
 				]
 			}

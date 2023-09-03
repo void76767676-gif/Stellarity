@@ -10,7 +10,7 @@ execute if entity @s[advancements={stellarity:cursed_tome/ancient_armor=true}] r
 execute if entity @s[advancements={stellarity:cursed_tome/clockwork_crossbow=true}] run function stellarity:items/cursed_tome/update/clockwork_crossbow
 execute if entity @s[advancements={stellarity:cursed_tome/hallowed_armor=true}] run function stellarity:items/cursed_tome/update/hallowed_armor
 execute if entity @s[advancements={stellarity:cursed_tome/pandoras_barrel=true}] run function stellarity:items/cursed_tome/update/pandoras_barrel
-execute if entity @s[advancements={stellarity:cursed_tome/prismatic_pearl=true}] run function stellarity:items/cursed_tome/update/prismatic_punch
+execute if entity @s[advancements={stellarity:cursed_tome/prismatic_punch=true}] run function stellarity:items/cursed_tome/update/prismatic_punch
 execute if entity @s[advancements={stellarity:cursed_tome/prismatic_pearl=true}] run function stellarity:items/cursed_tome/update/prismatic_pearl
 execute if entity @s[advancements={stellarity:cursed_tome/sharanga=true}] run function stellarity:items/cursed_tome/update/sharanga
 execute if entity @s[advancements={stellarity:cursed_tome/spirit_dagger=true}] run function stellarity:items/cursed_tome/update/spirit_dagger
