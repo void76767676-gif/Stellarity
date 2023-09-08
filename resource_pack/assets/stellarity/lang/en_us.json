@@ -1,4 +1,6 @@
 {
+	"stellarity": "Stellarity",
+
 	"stellarity.advancement_grant_everything": "Don't use this command",
    
 	"stellarity.messages.cmd.reset_config_to_default": "All configs were reset to default!",
@@ -12,6 +14,9 @@
 	"stellarity.aota.warning": "Its magic is sealed and needs to be released first",
 
 	"stellarity.bossbars.crystals_left": "Crystals Left:",
+
+	"stellarity.dragon_egg.description.1": "It is dormant, yet you",
+	"stellarity.dragon_egg.description.2": "can feel it silently beating...",
 
 	"stellarity.mobs.gloop": "Gloop",
 	"stellarity.mobs.pixie": "Pixie",
@@ -29,7 +34,7 @@
 	"stellarity.items.empty_enchanted_book.description.2": "It wiggles in the direction of a",
 	"stellarity.items.empty_enchanted_book.description.3": "large opening in one of the pillars",
 	"stellarity.items.empty_enchanted_book.description.4": "It wants to be thrown on top",
-	"stellarity.items.empty_enchanted_book.description.5": "of what's inside it",
+	"stellarity.items.empty_enchanted_book.description.5": "of what's inside of it",
 
 	"stellarity.items.armors.set_bonus": "FULL SET BONUS:",
 
@@ -83,26 +88,27 @@
 
 	"stellarity.items.materials.ancient_plating": "Ancient Plating",
 	"stellarity.items.materials.hallowed_ingot": "Hallowed Ingot",
-	"stellarity.items.materials.for_altar": "For use with the Altar of The Accursed",
+	"stellarity.items.materials.upgrade": "Used to upgrade Netherite Armor",
 	"stellarity.items.materials.pixie_dust": "Pixie Dust",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'May contain Fairy'",
 
 	"stellarity.items.perm_buffs.consume_to": "Consume to permanently",
 
-	"stellarity.items.perm_buffs.bloody_harvest": "Bloody Harvest",
-	"stellarity.items.perm_buffs.bloody_harvest.increase": "increase your strength",
-	"stellarity.items.perm_buffs.chaos_fruit": "Chaos Fruit",
-	"stellarity.items.perm_buffs.chaos_fruit.increase": "increase your movement speed",
-	"stellarity.items.perm_buffs.endurance_stew": "Endurance Stew",
-	"stellarity.items.perm_buffs.endurance_stew.increase": "increase your defense",
-	"stellarity.items.perm_buffs.endurance_stew.flavor_text": "'Tastes like cobalt'",
-	"stellarity.items.perm_buffs.ferocious_berries": "Ferocious Berries",
-	"stellarity.items.perm_buffs.ferocious_berries.increase": "increase your attack speed",
+	"stellarity.items.perm_buffs.rageroot": "Rageroot",
+	"stellarity.items.perm_buffs.rageroot.increase": "increase your strength",
+	"stellarity.items.perm_buffs.energizing_fruit": "Energizing Fruit",
+	"stellarity.items.perm_buffs.energizing_fruit.increase": "increase your movement speed",
+	"stellarity.items.perm_buffs.endurance_brew": "Endurance Brew",
+	"stellarity.items.perm_buffs.endurance_brew.increase": "increase your defense and damage reduction",
+	"stellarity.items.perm_buffs.endurance_brew.flavor_text": "'Not to be confused with Berserker Brew'",
+	"stellarity.items.perm_buffs.fury_berries": "Fury Berries",
+	"stellarity.items.perm_buffs.fury_berries.increase": "increase your melee attack speed",
 	"stellarity.items.perm_buffs.lucky_carrot": "Lucky Carrot",
 	"stellarity.items.perm_buffs.lucky_carrot.increase": "increase your luck",
-	"stellarity.items.perm_buffs.robust_potato": "Robust Potato",
-	"stellarity.items.perm_buffs.robust_potato.increase": "become immune to Poison",
-	"stellarity.items.perm_buffs.robust_potato.flavor_text": "'What a fancy word!'",
+	"stellarity.items.perm_buffs.cleansing_potato": "Cleansing Potato",
+	"stellarity.items.perm_buffs.cleansing_potato.increase": "become immune to Poison",
+	"stellarity.items.perm_buffs.miracle_fruit": "Miracle Fruit",
+	"stellarity.items.perm_buffs.miracle_fruit.increase": "increase your life regeneration",
 	
 	"stellarity.items.potions.blind_rage_potion": "Blind Rage Potion",
 	"stellarity.items.potions.amarena.description": "Looks like wine, but it really isn't",
@@ -196,7 +202,7 @@
 	"stellarity.items.weapons.sharanga.description.1": "Converts Spectral Arrows into",
 	"stellarity.items.weapons.sharanga.description.2": "Spectral Bolts which travel",
 	"stellarity.items.weapons.sharanga.description.3": "in a straight line",
-	"stellarity.items.weapons.sharanga.description.4": "33% chance to save Spectral Arrows,",
+	"stellarity.items.weapons.sharanga.description.4": "25% chance to save Spectral Arrows,",
 	"stellarity.items.weapons.sharanga.description.5": "doubles with Infinity enchantment",
 	"stellarity.items.weapons.spirit_dagger": "Spirit Dagger",
 	"stellarity.items.weapons.spirit_dagger.description.1": "Holding one attracts Spirits on slashes",
@@ -388,6 +394,8 @@
 	"stellarity.advancements.i_am_titanium.description": "Craft a full set of Shulker Armor",
 	"stellarity.advancements.cursed_crafting": "Cursed Crafting",
 	"stellarity.advancements.cursed_crafting.description": "Use the Altar of The Accursed to craft some of the most powerful of gear",
+	"stellarity.advancements.disenchant_item": "Breaking the Seal",
+	"stellarity.advancements.disenchant_item.description": "Unbind enchantments from an item by throwing it onto the Altar with an unenchanted book",
 	"stellarity.advancements.kaliyah": "KALIYAAAAH!",
 	"stellarity.advancements.kaliyah.description": "Deal maximum damage possible with a single Dragonblade's punch",
 	"stellarity.advancements.kaliyah.tip": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴅᴏᴇѕ ᴡᴏɴᴅᴇʀѕ",

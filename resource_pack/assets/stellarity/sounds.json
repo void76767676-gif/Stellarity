@@ -50,6 +50,11 @@
 			"stellarity:item/dragonblade/damage"
 		]
 	},
+	"item.dragonblade.drop":{
+		"sounds":[
+			"stellarity:item/dragonblade/drop"
+		]
+	},
 	"item.dragonblade.punch":{
 		"sounds":[
 			"stellarity:item/dragonblade/punch"
