@@ -27,3 +27,6 @@ execute if entity @s[scores={stellarity.misc.loop.5t=5}] run function stellarity
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/player_loop_1s
+
+scoreboard players add @s stellarity.misc.loop.10s 1
+execute if entity @s[scores={stellarity.misc.loop.10s=200}] run function stellarity:loops/player_loop_10s

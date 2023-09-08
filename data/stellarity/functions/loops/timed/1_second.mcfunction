@@ -2,8 +2,6 @@
 bossbar set stellarity:eol players
 execute at @e[type=vindicator,tag=stellarity.eol] run bossbar set stellarity:eol players @a[distance=..100]
 
-execute as @e[type=item,predicate=stellarity:locations/biomes/in_the_hallow] at @s if block ~ ~ ~ water run function stellarity:mechanics/consecration/main
-
 execute in minecraft:overworld as @e[type=phantom,tag=!stellarity.phantom.aware,distance=0..,nbt={Size:0}] at @s run function stellarity:mobs/phantom/enlarge 
 execute as @e[type=phantom] unless score @s stellarity.phantom.size matches 1.. run function stellarity:mobs/phantom/score
 

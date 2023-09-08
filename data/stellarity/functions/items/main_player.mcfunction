@@ -2,7 +2,7 @@
 function stellarity:items/armors/main
 
 # Robust Potato
-effect clear @s[tag=stellarity.perm_buffs.robust_potato] poison
+effect clear @s[tag=stellarity.perm_buffs.cleansing_potato] poison
 
 # Dragonblade
 execute if entity @s[predicate=stellarity:items/holding_dragonblade,predicate=stellarity:utils/player/is_sneaking] as @e[distance=0.001..5,tag=stellarity.items.dragonblade.punch_ready] at @s run function stellarity:items/dragonblade/punch/progress

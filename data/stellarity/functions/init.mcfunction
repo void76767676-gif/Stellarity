@@ -96,6 +96,7 @@ scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
 scoreboard objectives add stellarity.mechanics.crystal_count dummy
 scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
+scoreboard objectives add stellarity.mechanics.consecration.time dummy
 
 ## Misc
 # Temporar variables OR things that don't need its own variable
@@ -121,6 +122,8 @@ scoreboard objectives add stellarity.misc.loop.2t dummy
 scoreboard objectives add stellarity.misc.loop.3t dummy
 scoreboard objectives add stellarity.misc.loop.5t dummy
 scoreboard objectives add stellarity.misc.loop.1s dummy
+scoreboard objectives add stellarity.misc.loop.10s dummy
+scoreboard objectives add stellarity.misc.loop.15s dummy
 
 # Hook for checking if Stellarity is installed
 # Idk, might be useful for someone

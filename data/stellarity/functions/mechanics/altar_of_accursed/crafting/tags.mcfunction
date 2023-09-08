@@ -48,5 +48,5 @@ execute if entity @s[nbt={Item:{id:"minecraft:book",Count:1b}}] run tag @s add s
 execute if data entity @s Item.tag.Enchantments if data entity @s Item.tag.Enchantments[0].id run tag @s add stellarity.aota.enchanted
 
 data modify entity @s PickupDelay set value 32767s
-data modify entity @s Glowing set value 32767s
+data modify entity @s Glowing set value 1b
 team join stellarity.purple_glow @s

@@ -13,7 +13,7 @@
 							"name": {
 								"translate": "stellarity.items.perm_buffs.lucky_carrot",
 								"fallback": "Lucky Carrot",
-								"color": "light_purple",
+								"color": "#F22AD6",
 								"italic": false
 							}
 						},
@@ -28,7 +28,7 @@
 									"color": "#EEEEEE",
 									"italic": false
 								},
-                                {
+								{
 									"translate": "stellarity.items.perm_buffs.lucky_carrot.increase",
 									"fallback": "increase your luck",
 									"color": "#EEEEEE",
