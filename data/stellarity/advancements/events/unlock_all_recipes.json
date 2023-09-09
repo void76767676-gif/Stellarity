@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "stellarity:events/unlock_all_recipes"
+			}
+		}
+	},
+	"rewards": {
+		"function": "stellarity:utils/unlock_all_recipes"
+	}
+}

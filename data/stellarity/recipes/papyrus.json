@@ -1,19 +1,20 @@
 {
-	"type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shapeless",
 	"group": "paper",
-	"category": "misc",
-	"pattern": [
-		" W ",
-		"CCC"
-	],
-	"key": {
-		"W": {
-			"item": "minecraft:water_bucket"
-		},
-		"C": {
+	"ingredients": [
+		{
 			"item": "minecraft:chorus_plant"
+		},
+		{
+			"item": "minecraft:chorus_plant"
+		},
+		{
+			"item": "minecraft:chorus_plant"
+		},
+		{
+			"item": "minecraft:water_bucket"
 		}
-	},
+	],
 	"result": {
 		"item": "minecraft:paper",
 		"count": 6

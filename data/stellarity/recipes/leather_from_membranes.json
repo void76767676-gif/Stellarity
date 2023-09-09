@@ -1,7 +1,6 @@
 {
 	"type": "minecraft:crafting_shaped",
 	"group": "leather",
-	"category": "misc",
 	"pattern": [
 		"##",
 		"##"
@@ -12,6 +11,7 @@
 		}
 	},
 	"result": {
-		"item": "minecraft:leather"
+		"item": "minecraft:leather",
+		"count": 2
 	}
 }
