@@ -253,7 +253,7 @@
     "stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Item raro de saqueadores em Strongholds.",
 
     "stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "",
-    "stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Os teletransportes com pérolas do Ender são muito caóticos para um corpo humano lidar, fazendo com que sofra alguns danos. Este livro foi feito para simplificar a magia caótica em uma distorção pura, tornando-a muito mais segura de usar.",
+    "stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Os teletransportes com pérolas do Ender são muito caóticos para um corpo humano. Este livro foi feito para simplificar a magia caótica em uma distorção pura, tornando-a muito mais segura de usar.",
     "stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Item raro de invocadores em Strongholds.",
 
     "stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
@@ -265,7 +265,7 @@
     "stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Item raro de invocadores em Strongholds.",
 
     "stellarity.items.cursed_tome.entries.tamaris.center": "       ",
-    "stellarity.items.cursed_tome.entries.tamaris.description": "Até a própria espada está caindo sob a magia decadente que contém.\nFaz com que os inimigos atingidos se deteriorem, além de dar ao usuário a capacidade de realizar um golpe final sempre que uma criatura estiver com pouca vida.",
+    "stellarity.items.cursed_tome.entries.tamaris.description": "A espada está caindo sob a magia decadente que contém.\nFaz com que os inimigos se deteriorem, além de dar a capacidade de realizar um golpe final sempre que uma criatura estiver com pouca vida.",
     "stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% de chance de ser largado pelo Dragão Ender.",
 
     "stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
@@ -288,7 +288,7 @@
 
     "stellarity.items.cursed_tome.entries.shulker_tools.center": "   ",
     "stellarity.items.cursed_tome.entries.shulker_tools.title": "Ferramentas de shulker",
-    "stellarity.items.cursed_tome.entries.shulker_tools.description": "A mais rápida e forte de todas as ferramentas já criadas.\nAqueles que as seguram experimentam uma súbita onda de energia passando por seu corpo, permitindo que cavem e ataquem mais rápido do que o normal.",
+    "stellarity.items.cursed_tome.entries.shulker_tools.description": "A mais rápida e forte de todas as ferramentas.\nAqueles que as seguram experimentam uma súbita onda de energia por seu corpo, permitindo que cavem e ataquem mais rápido.",
     "stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Feito no altar dos amaldiçoados.",
     "stellarity.items.cursed_tome.entries.shulker_tools.misc": "Qualquer ferramenta de netherita",
 
@@ -306,15 +306,15 @@
     "stellarity.items.cursed_tome.entries.ancient_armor.center": "    ",
     "stellarity.items.cursed_tome.entries.ancient_armor.title": "Armadura ancestral",
     "stellarity.items.cursed_tome.entries.ancient_armor.description": "Abençoa seu usuário com ira dos ancestrais, fornecendo um multiplicador de dano que aumenta a cada golpe.",
-    "stellarity.items.cursed_tome.entries.ancient_armor.obtaining": "Feito no altar dos amaldiçoados com 5/8/7/4 peça ancestral (para capacete/peitoral/calças/botas respectivamente)\n\nPeça ancestral pode ser encontrado em caixas, cidades do End e pode ser comprado em vilas do End.",
+    "stellarity.items.cursed_tome.entries.ancient_armor.obtaining": "Feito no altar dos amaldiçoados com 5/8/7/4 peças ancestrais (para capacete/peitoral/calças/botas)\n\nPeças ancestrais pode ser encontradas em caixas, cidades do End e em vilas do End.",
 
     "stellarity.items.cursed_tome.entries.hallowed_armor.center": "   ",
     "stellarity.items.cursed_tome.entries.hallowed_armor.title": "Armadura sagrada",
     "stellarity.items.cursed_tome.entries.hallowed_armor.description": "Diz-se que o portador desta armadura sagrada é protegido pelo próprio céu, concedendo-lhe a capacidade de ignorar completamente todos os danos por um curto período de tempo.",
-    "stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Feito no altar dos amaldiçoados com 5/8/7/4 barras sagradas (para capacete/peitoral/calças/botas respectivamente)\n\nBarras sagradas podem ser encontradas em caixas, cidades do End e podem ser compradas em vilas do End.",
+    "stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Feito no altar dos amaldiçoados com 5/8/7/4 barras sagradas (para capacete/peitoral/calças/botas)\n\nBarras sagradas podem ser encontradas em caixas, cidades do End e vilas do End.",
 
     "stellarity.items.cursed_tome.entries.spirit_dagger.center": "    ",
-    "stellarity.items.cursed_tome.entries.spirit_dagger.description": "Esta arma não funcionará sozinha. Se duas forem usadas simultaneamente, os ataques às vezes atrairão espíritos perdidos. O portador pode consumi-los para se teletransportar para eles e obter várias melhorias de combate por um curto período de tempo.",
+    "stellarity.items.cursed_tome.entries.spirit_dagger.description": "Esta arma não funcionará sozinha. Se duas forem usadas, os ataques às vezes atrairão espíritos perdidos. O portador pode teletransportar para eles e obter várias melhorias de combate por um curto período de tempo.",
     "stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Item raro de phantoms no outro End.",
 
     "stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
@@ -437,7 +437,7 @@
     "stellarity.advancements.plant_chorus_fruit_2": "Botânico de outro mundo",
     "stellarity.advancements.plant_chorus_fruit_2.description": "Plante uma flor do coro em cada uma das 3 dimensões",
     "stellarity.advancements.plant_chors_fruit": "Biólogo de outro mundo",
-    "stellarity.advancements.plant_chors_fruitx.description": "Plante uma flor do coro no mundo superior",
+    "stellarity.advancements.plant_chors_fruit.description": "Plante uma flor do coro no mundo superior",
     "stellarity.advancements.supreme_server_owner": "Proprietário do servidor supremo",
     "stellarity.advancements.supreme_server_owner.description": "Pesque um colecionável 'ultra super raro (na verdade não)' do vazio",
     "stellarity.advancements.the_void_provides": "O vazio fornece",
@@ -474,7 +474,7 @@
     "stellarity.advancements.kill_large_phantom.description": "Mate um Phantom que é maior que o normal",
     "stellarity.advancements.headhunter": "Caçador de cabeças",
     "stellarity.advancements.headhunter.description": "Encontre TODAS as cabeças colecionáveis",
-    "stellarity.advancements.headhunter.tip": "ᴛɪᴘ: ʏᴏᴜ ᴄᴀɴ ʀᴇ-ʀᴏʟʟ ᴅᴜᴘʟɪᴄᴀᴛᴇs ᴀᴛ ᴛʜᴇ ᴀʟᴛᴀʀ ᴏғ ᴛʜᴇ ʟɪɢʜᴛ",
+    "stellarity.advancements.headhunter.tip": "ᴅɪᴄᴀ: ʏᴏᴜ ᴘᴏᴅᴇ ʀᴏʟᴀʀ ʀᴇᴛᴏʀɴᴏ ᴅᴇ ᴅᴜᴘʟɪᴄᴀᴅᴀs ɴᴏ ᴀʟᴛᴀʀ ᴅᴀ ʟᴜᴢ.",
     "stellarity.advancements.summon_empress": "A rainha intocada",
     "stellarity.advancements.summon_empress.description": "Largue pó de Pixie no altar da luz para invocar Sua Majestade",
     "stellarity.advancements.fae_flayer": "Devorador de fadas",
