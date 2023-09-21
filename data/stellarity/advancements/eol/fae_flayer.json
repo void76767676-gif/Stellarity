@@ -11,7 +11,8 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.fae_flayer.description",
-			"fallback": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day. Your reward shall be great"
+			"fallback": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day",
+			"color": "yellow"
 		},
 		"frame": "challenge",
 		"show_toast": true,

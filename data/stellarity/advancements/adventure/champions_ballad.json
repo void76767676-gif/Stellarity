@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.champions_ballad.description",
-			"fallback": "Can't fight a Boss without some good tunes!"
+			"fallback": "Can't fight a Dragon without some good tunes!"
 		},
 		"frame": "task",
 		"show_toast": true,

@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.kill_dragon.description",
-			"fallback": "The Beast is dead, and The End is waiting for you to discover its secrets...",
+			"fallback": "The Beast is dead and The End is waiting for you to discover its secrets...",
 			"color": "#E562FF"
 		},
 		"frame": "challenge",

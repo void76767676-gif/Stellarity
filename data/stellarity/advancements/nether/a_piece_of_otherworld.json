@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.find_warped_forest.description",
-			"fallback": "Enter the Warped Forest - the home of Endermen of The Nether"
+			"fallback": "Find a Warped Forest - home of Endermen in The Nether"
 		},
 		"frame": "goal",
 		"show_toast": true,

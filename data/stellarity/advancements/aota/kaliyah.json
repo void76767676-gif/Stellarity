@@ -11,7 +11,7 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.kaliyah.description",
-				"fallback": "Deal maximum damage possible with a single Dragonblade's punch"
+				"fallback": "Deal maximum damage possible with a single Dragonblade punch"
 			},
 			"\n",
 			{

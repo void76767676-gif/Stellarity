@@ -6,6 +6,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:utils/dot/on_player_death"
+		"function": "stellarity:utils/on_player_death"
 	}
 }

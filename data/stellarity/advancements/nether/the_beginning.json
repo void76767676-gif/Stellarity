@@ -6,11 +6,11 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.the_beginning",
-			"fallback": "The Beginning."
+			"fallback": "The Beginning And The End"
 		},
 		"description": {
 			"translate": "stellarity.advancements.the_beginning.description",
-			"fallback": "Kill the Wither in The End"
+			"fallback": "Summon and kill the Wither in The End"
 		},
 		"frame": "task",
 		"show_toast": true,

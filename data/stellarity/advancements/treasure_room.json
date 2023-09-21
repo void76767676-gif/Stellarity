@@ -2,22 +2,22 @@
 	"display": {
 		"icon": {
 			"item": "player_head",
-			"nbt": "{SkullOwner:\"kohara_\"}"
+			"nbt": "{SkullOwner:\"Bush__Lord\"}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.treasure_room",
-			"fallback": "Treasure Room"
+			"fallback": "Heading for The Secrets"
 		},
 		"description": {
 			"translate": "stellarity.advancements.treasure_room.description",
-			"fallback": "Obtain a rare Treasure Head from a Chest in an End City."
+			"fallback": "Find a rare Treasure Head. They serve no purpose, but are nice collectibles"
 		},
 		"frame": "goal",
 		"show_toast": true,
 		"announce_to_chat": true,
 		"hidden": true
 	},
-	"parent": "stellarity:end_city/whos_the_thief_now",
+	"parent": "minecraft:end/kill_dragon",
 	"criteria": {
 		"obtain_head": {
 			"trigger": "minecraft:inventory_changed",

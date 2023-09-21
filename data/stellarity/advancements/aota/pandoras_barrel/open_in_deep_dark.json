@@ -5,7 +5,7 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark",
-			"fallback": "Gambling Addiction"
+			"fallback": "All Bets Are Off"
 		},
 		"description": {
 			"translate": "stellarity.advancements.pandoras_barrel_open_in_deep_dark.description",

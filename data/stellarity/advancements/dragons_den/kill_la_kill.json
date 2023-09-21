@@ -11,7 +11,7 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.kill_la_kill.description",
-				"fallback": "Trigger the Execute ability on a Warden."
+				"fallback": "Execute a Warden"
 			}
 		],
 		"frame": "challenge",

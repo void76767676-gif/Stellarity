@@ -6,11 +6,11 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.rare_find",
-			"fallback": "Rare Find"
+			"fallback": "Robbing the Fortress"
 		},
 		"description": {
 			"translate": "stellarity.advancements.rare_find.description",
-			"fallback": "Obtain an uncommon drop from the Illagers residing in Strongholds"
+			"fallback": "Get a rare item from an Illager in the Stronghold"
 		},
 		"frame": "task",
 		"show_toast": true,

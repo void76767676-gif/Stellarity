@@ -59,6 +59,12 @@
 			"conditions": {
 				"loot_table": "stellarity:void_fishing/crates/prismarine"
 			}
+		},
+		"open8": {
+			"trigger": "minecraft:player_generates_container_loot",
+			"conditions": {
+				"loot_table": "stellarity:void_fishing/crates/sculk"
+			}
 		}
 	},
 	"requirements": [
@@ -69,7 +75,8 @@
 			"open4",
 			"open5",
 			"open6",
-			"open7"
+			"open7",
+			"open8"
 		]
 	]
 }

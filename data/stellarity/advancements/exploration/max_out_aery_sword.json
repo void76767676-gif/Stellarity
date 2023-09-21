@@ -11,7 +11,7 @@
 		"description": [
 			{
 				"translate": "stellarity.advancements.max_out_aery_sword.description",
-				"fallback": "Reach 14 damage on Frigid Harvester"
+				"fallback": "Upgrade a Frigid Harvester to 14 damage"
 			}
 		],
 		"frame": "task",

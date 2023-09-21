@@ -11,7 +11,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.find_gloop.description",
-			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome."
+			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome"
 		},
 		"frame": "challenge"
 	},
@@ -22,6 +22,6 @@
 		}
 	},
 	"rewards": {
-		"experience": 300
+		"experience": 50
 	}
 }

@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.open_chest_in_end_city.description",
-			"fallback": "Open a Treasure Chest in an End City. Congrats! You are propably a millionaire now"
+			"fallback": "Loot a Chest in an End City"
 		},
 		"frame": "goal",
 		"show_toast": true,

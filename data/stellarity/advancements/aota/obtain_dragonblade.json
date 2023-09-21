@@ -11,7 +11,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.dragonborn.description",
-			"fallback": "Obtain the Dragonblade, a legendary sword of a truly unknown origin..."
+			"fallback": "Obtain the Dragonblade, a sword of a truly unknown origin"
 		},
 		"frame": "goal"
 	},

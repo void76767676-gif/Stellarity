@@ -11,6 +11,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:utils/custom_durability/event"
+		"function": "stellarity:utils/durability/event"
 	}
 }

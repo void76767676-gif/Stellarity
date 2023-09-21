@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.kill_large_phantom.description",
-			"fallback": "Kill a Phantom that is bigger than normal"
+			"fallback": "Kill a Phantom that is bigger than usually"
 		},
 		"frame": "goal",
 		"show_toast": true,

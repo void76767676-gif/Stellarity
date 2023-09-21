@@ -15,7 +15,7 @@
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
 	"parent": "stellarity:dragons_den/god_slayer",
 	"criteria": {
