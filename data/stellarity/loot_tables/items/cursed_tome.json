@@ -69,6 +69,18 @@
 									"italic": true
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
 						}
 					]
 				}
