@@ -23,6 +23,9 @@ execute if entity @s[scores={stellarity.items.sabrewing.until_charge_reset=1..}]
 execute if entity @s[predicate=stellarity:items/spirit_dagger/holding_both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
 
+# Crest of The End
+execute if entity @s[scores={stellarity.items.crest.time=1..}] run function stellarity:items/crest_of_the_end/countdown
+
 # Prismatic Pearl
 execute if entity @s[tag=stellarity.prismatic_pearl.holding,scores={stellarity.misc.used_ender_pearl=1..}] run function stellarity:items/prismatic_pearl/throw
 tag @s[tag=stellarity.prismatic_pearl.holding] remove stellarity.prismatic_pearl.holding

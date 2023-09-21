@@ -36,6 +36,7 @@ scoreboard objectives add stellarity.items.clockwork_crossbow.cooldown dummy
 scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
 
 scoreboard objectives add stellarity.items.crest.bonus_dmg dummy
+scoreboard objectives add stellarity.items.crest.time dummy
 
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add stellarity.items.prismatic_punch.marker_age dummy
@@ -76,6 +77,10 @@ scoreboard objectives add stellarity.items.tamaris.animation.progress dummy
 scoreboard objectives add stellarity.items.tamaris.execute_cooldown dummy
 
 scoreboard objectives add stellarity.items.flask_of_frost.duration dummy
+
+scoreboard objectives add stellarity.custom_particle.despawn dummy
+scoreboard objectives add stellarity.custom_particle.display dummy
+scoreboard objectives add stellarity.custom_particle.spread.pos dummy
 
 ## Mobs
 # Empress of Light
@@ -181,7 +186,9 @@ function stellarity:utils/rng/init
 execute store result score #difficulty stellarity.misc run difficulty
 
 # Initialize all DOT related scoreboards
-# Keeping them as separate files for the sake of readability
+# Keeping them as separate files for the sake of easier management
 function #stellarity:dot/load
+# Same applies to status effects
+function #stellarity:status_effects/load
 
 data modify storage stellarity:temp spellbook_fix set value 1b
