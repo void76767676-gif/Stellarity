@@ -70,7 +70,13 @@
 								},
 								{
 									"translate": "stellarity.items.trinkets.crest_of_the_end.description.2",
-									"fallback": "force to your next melee attack",
+									"fallback": "force to your next attack",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.crest_of_the_end.description.3",
+									"fallback": "in retaliation",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -80,6 +86,25 @@
 									"fallback": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.crest_of_the_end.attack_damage",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"slot": "mainhand"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "stellarity.crest_of_the_end.attack_damage",
+									"amount": 0.05,
+									"operation": "multiply_total",
+									"slot": "offhand"
 								}
 							]
 						}

@@ -1,0 +1,91 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield",
+					"functions": [
+						{
+							"function": "minecraft:set_banner_pattern",
+							"patterns": [
+								{
+									"pattern": "base",
+									"color": "purple"
+								},
+								{
+									"pattern": "gradient",
+									"color": "magenta"
+								},
+								{
+									"pattern": "triangle_top",
+									"color": "black"
+								},
+								{
+									"pattern": "triangle_bottom",
+									"color": "black"
+								},
+								{
+									"pattern": "cross",
+									"color": "purple"
+								},
+								{
+									"pattern": "curly_border",
+									"color": "black"
+								},
+								{
+									"pattern": "flower",
+									"color": "purple"
+								},
+								{
+									"pattern": "flower",
+									"color": "black"
+								}
+							],
+							"append": false
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"copper_elektra_shield\",CustomModelData:90001,HideFlags:32}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.copper_elektra_shield",
+								"fallback": "Copper Elektra Shield",
+								"color": "#9936D6",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.1",
+									"fallback": "Sneak to perform an elektrifying dash",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.trinkets.copper_elektra_shield.description.2",
+									"fallback": "This dash has a cooldown of 5 seconds",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity",
+									"fallback": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

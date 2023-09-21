@@ -4,7 +4,7 @@ execute if entity @s[predicate=stellarity:items/holding_any_shulker_tool] run ef
 execute if entity @s[scores={stellarity.items.flask_of_frost.duration=1..}] run scoreboard players remove @s stellarity.items.flask_of_frost.duration 1
 
 # Duskberry Night Vision
-execute if entity @s[predicate=stellarity:items/holding_duskberry] run effect give @s night_vision 11 0 true
+execute if entity @s[predicate=stellarity:items/holding_duskberry] run effect give @s night_vision 12 0 true
 
 # Cooldowns
 execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}] run function stellarity:items/spellbooks/conveyance/cooldown_countdown

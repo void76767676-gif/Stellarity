@@ -5,9 +5,9 @@ execute if score #hit stellarity.misc matches 0 unless block ^ ^ ^1 #stellarity:
 particle minecraft:dragon_breath ^ ^1 ^ .1 .1 .1 0.01 1
 particle minecraft:smoke ^ ^1 ^ .1 .1 .1 0.01 1
 
-scoreboard players add #particles stellarity.misc 1
-execute if score #particles stellarity.misc matches 1 positioned ^ ^1 ^ rotated ~90 ~ run function stellarity:items/dragonblade/punch/special_fx/end_rod_secondary
-execute if score #particles stellarity.misc matches 21 run scoreboard players set #particles stellarity.misc 0
+#scoreboard players add #particles stellarity.misc 1
+#execute if score #particles stellarity.misc matches 1 positioned ^ ^1 ^ rotated ~90 ~ run function stellarity:items/dragonblade/punch/special_fx/end_rod_secondary
+#execute if score #particles stellarity.misc matches 21 run scoreboard players set #particles stellarity.misc 0
 
 scoreboard players add #distance stellarity.misc 1
 execute if block ^ ^ ^ #stellarity:liquids run scoreboard players add #distance stellarity.misc 1
