@@ -64,20 +64,22 @@ Frigid Harvester has a 10% chance to be found inside Frozen Crates fished up fro
 Additionaly<br><i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Strays spawning in [Frosted Hills](../biomes/frosted_hills.md) have a 3% chance to spawn holding a Frigid Harvester. Killing them will cause them to drop the weapon. Strays equipped with Harvesters have increased health, defense and damage, and wear a <i class="icon-minecraft icon-minecraft-diamond-helmet"></i>Diamond Helmet.
 
 ## Usage
-Killing any living mob permanently increases Frigid Harvester's damage. The extra damage is listed in the item description.
+Killing any living mob permanently increases Frigid Harvester's damage. Stronger mobs give more extra damage, while passive mobs barely grant any increase.
 
-Stronger mobs give more extra damage, while passive mobs barely give any.
-
-Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage. First being at +3, then at +6 and final one at +9. Extra damage isn't capped, however damage gains roll off quickly at higher amounts. If extra damage drops to 0 or 0.01, nothing is going to happen on kill. 
+Extra damage isn't capped, however damage gains roll off quickly at higher amounts. If extra damage drops to 0 or 0.01, nothing is going to happen on kill. 
 
 While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 
 ### Passive Abilities
 
-- **Chill** - **unlocked at +3 damage**; 20% chance per hit to apply Slowness I for 3 seconds to hit mob.
-- **Frostburn** - **unlocked at +6 damage**; 25% chance per hit to apply Frostburn, dealing 1.5:heart: х ₀.₇₅[^3] damage every second for 3 seconds.
-- **Chill II** - **unlocked at +9 damage**; chance per hit increased to 33%, duration increased to 4 seconds and now also inflicts Weakness I.
-- **Frostburn II** - **unlocked at +9 damage**; chance per hit increased to 50%, duration increased to 5 seconds.
+- **At 8 damage:**
+	- **Chill** - 20% chance per hit to apply Slowness I for 3 seconds to hit mob.
+- **At 11 damage:**
+	- **Frostburn** - 25% chance per hit to apply Frostburn, dealing 1.5:heart: х ₀.₇₅[^3] damage every second for 3 seconds.
+- **At 14 damage:**
+	- **Chill II** - chance per hit increased to 33%, duration increased to 4 seconds and now also inflicts Weakness I.
+	- **Frostburn II** - chance per hit increased to 50%, duration increased to 5 seconds.
+
 
 | Extra Damage Amount | Mobs | Tag File |
 | :--- | :--- | :--- |
@@ -90,17 +92,19 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 ## Tips
 - It is relatively easy to get Frigid Harvester to +3 or +4 damage. It can be achieved in one night by just running around and killing Zombies or Skeletons.
 - Getting Frigid Harvester to +9 might be difficult, as weaker mobs quickly stop giving extra damage.
-    - Going past +9 requires grinding <i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Withers or <i class="icon-minecraft icon-minecraft-mob-warden-face"></i>Wardens.
+	- Going past +9 requires grinding <i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Withers or <i class="icon-minecraft icon-minecraft-mob-warden-face"></i>Wardens.
 - Even though Frigid Harvester starts extremely weak compared to other late-game weapons, it can quickly outdamage them with right setup.
 - You get slowed down while holding a Frigid Harvester. This can be cancelled out by using Swiftness Potion.
 - Warden or Wither farming is an efficient to quickly level up a Frigid Harvester to even +10 or +11.
 
 ## Trivia
+- Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage. 
+    1. At 8 damage.
 - This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](spirit_dagger.md).
 - This weapon is based on Aery[^1] kit from Roblox BedWars[^2].
 	- In some places in the code, Frigid Harvester is reffered to as `aery_sword`.
-- Lorewise, Frigid Harvester is said to have been made out of Enchanted Ice by an uknown Illager.
-- Despite 2.0c reducing damage gains from mobs, the change it made to scaling means it is still easier to max out Frigid Harvester than in 2.0b and prior.
+- Lorewise, Frigid Harvester is said to have been made out of Enchanted Ice by an unknown Illager.
+- Despite 2.0c reducing damage gains from mobs, the change it made to scaling means it was still easier to max out Frigid Harvester than in 2.0b and prior.
  
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
@@ -109,8 +113,8 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%.
 
 ## History
 === "**v2.0c**"
-    - Lessened the damage scaling by a factor of 2.
-    - Reduced damage gains from mobs.
+	- Lessened the damage scaling by a factor of 2.
+	- Reduced damage gains from mobs.
 
 === "**vIndev-1.6a**"
 	- Introduced.

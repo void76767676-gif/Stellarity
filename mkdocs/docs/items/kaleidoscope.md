@@ -73,7 +73,7 @@ Discharge damage is reduced further by Blast Protection enchantment. This does n
 - Dying to a Kaleidoscope's discharge in PvP will result in a custom death message - `VICTIM couldn't stand PLAYER's heat`.
     - This is... quite an obvious joke right there.
 - The sounds used to indicate max charge and the ones used for discharges come from the Dynamo enchantment from Minecraft: Dungeons.
-- Kaleidoscope is one of the 3 unbreakable items in Stellarity, the other 2 being the [Dragonblade](dragonblade.md) and [Ancient Wooden Sword](ancient_wooden_sword.md).
+- Kaleidoscope is one of the 4 unbreakable items in Stellarity, the other 3 being the [Dragonblade](dragonblade.md), maxed out [Frigid Harvester](frigid_harvester.md) and [Ancient Wooden Sword](ancient_wooden_sword.md).
 
 ## History
 === "**v2.0c**"

@@ -35,7 +35,7 @@
 Ender Insignia has a 66% chance to be dropped by the Ender Dragon. It always drops with either a [Tamaris](../tamaris.md) or a [Crest of The End](crest_of_the_end.md).
 
 ## Usage
-Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aformentioned potion effect is increased by 1 every 2 seconds. This caps at Regeneration IV.
+Sneaking while holding the Ender Insignia in any hand accelerates life regeneration by applying Regeneration I. The amplifier of the aforementioned potion effect is increased by 1 every 2 seconds. This caps at Regeneration IV.
 
 Standing up or being hurt resets the Regeneration and applies a very short half a second cooldown before Ender Insignia starts working again.
 

@@ -53,10 +53,13 @@ Altough it has quite potent attack speed, its damage of only 4:heart::heart: mea
 - The texture used for this weapon is its original pre-1.14 Programmer Art texture.
 - The tooltip is kohara laughing at everyone who prefers 1.8 combat, <u>but can't justify why 1.9 one is bad with an argument other than `attack cooldowns`</u>.
 - During Indev-1.6a, its flavor text used to be `what do you mean I can't spam click???`
-- This is one of the 3 unbreakable items in Stellarity, other 2 being [Kaleidoscope](kaleidoscope.md) and the [Dragonblade](kaleidoscope.md).
+- This is one of the 4 unbreakable items in Stellarity, other 3 being [Kaleidoscope](kaleidoscope.md),maxed out [Frigid Harvester](frigid_harvester.md) and the [Dragonblade](kaleidoscope.md).
 - Before 2.0a, it used to be craftable by throwing a Wooden Sword onto the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md).
 
 ## History
+=== "**v2.1a**"
+	- Now immune to Fire and Lava.
+
 === "**v2.0a**"
     - Removed crafting recipe.
 
