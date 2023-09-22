@@ -1,7 +1,7 @@
-### THIS ITEM NO LONGER UTILIZES MATHS
+execute if score @s stellarity.items.sabrewing.charge matches 85.. run summon marker ~ ~ ~ {Tags:["stellarity.items.sabrewing.marker","stellarity.marker"]}
 
-execute store result score #power stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:power"}].lvl 1
+execute as @e[type=#arrows,limit=1,sort=nearest] at @s run function stellarity:items/sabrewing/charged_shots/as_arrow
 
-execute as @e[type=#arrows,limit=1,sort=nearest] run function stellarity:items/sabrewing/charged_shots/as_arrow
-
-playsound minecraft:item.trident.riptide_1 player @a ~ ~ ~ 1 1.5
+execute if score @s stellarity.items.sabrewing.charge matches 45..84 run playsound minecraft:item.trident.riptide_1 player @a[distance=0..] ~ ~ ~ 1 1.5
+execute if score @s stellarity.items.sabrewing.charge matches 85..124 run playsound minecraft:item.trident.riptide_2 player @a[distance=0..] ~ ~ ~ 1 1.25
+execute if score @s stellarity.items.sabrewing.charge matches 125.. run playsound minecraft:item.trident.riptide_3 player @a[distance=0..] ~ ~ ~ 1 1

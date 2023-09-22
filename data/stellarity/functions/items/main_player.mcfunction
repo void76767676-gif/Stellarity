@@ -16,7 +16,7 @@ execute if entity @s[predicate=stellarity:items/clockwork_crossbow/holding_unloa
 execute if entity @s[scores={stellarity.misc.shot_bow=1},predicate=stellarity:items/holding_sharanga] run function stellarity:items/sharanga/shoot
 
 # Sabrewing
-execute if entity @s[scores={stellarity.misc.shot_bow=1,stellarity.items.sabrewing.charge=60..},predicate=stellarity:items/holding_sabrewing] run function stellarity:items/sabrewing/shoot
+execute if entity @s[scores={stellarity.misc.shot_bow=1,stellarity.items.sabrewing.charge=45..},predicate=stellarity:items/holding_sabrewing] run function stellarity:items/sabrewing/shoot
 execute if entity @s[scores={stellarity.items.sabrewing.until_charge_reset=1..}] run function stellarity:items/sabrewing/reset_charge_countdown
 
 # Spirit Dagger
