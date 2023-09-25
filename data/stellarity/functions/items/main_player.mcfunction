@@ -32,7 +32,7 @@ tag @s[tag=stellarity.prismatic_pearl.holding] remove stellarity.prismatic_pearl
 execute if entity @s[predicate=stellarity:items/holding_prismatic_pearl] run tag @s add stellarity.prismatic_pearl.holding
 
 # Ender Insignia
-execute if entity @s[predicate=stellarity:items/holding_ender_insignia,predicate=stellarity:utils/player/is_sneaking,tag=!stellarity.ender_insignia.active] run tag @s add stellarity.ender_insignia.active
+execute if entity @s[predicate=stellarity:items/trinkets/holding_ender_insignia,predicate=stellarity:utils/player/is_sneaking,tag=!stellarity.ender_insignia.active] run tag @s add stellarity.ender_insignia.active
 execute if entity @s[tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/loop
 
 # Tamaris
@@ -40,11 +40,11 @@ execute if entity @s[predicate=stellarity:items/holding_tamaris] if entity @e[ty
 execute if entity @s[tag=stellarity.items.tamaris.doing_execute] run function stellarity:items/tamaris/execute/animation/progress
 
 # Soaring Insignia
-execute if entity @s[predicate=stellarity:items/holding_insignia] run function stellarity:items/soaring_insignia/loop
-execute if entity @s[predicate=!stellarity:items/holding_insignia,tag=stellarity.insignia.flying] run function stellarity:items/soaring_insignia/force_stop
+execute if entity @s[predicate=stellarity:items/trinkets/holding_soaring_insignia] run function stellarity:items/soaring_insignia/loop
+execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/trinkets/holding_soaring_insignia] run function stellarity:items/soaring_insignia/force_stop
 
 # Kaleidoscope
-execute if entity @s[predicate=stellarity:items/holding_kaleidoscope] run function stellarity:items/kaleidoscope/loop
+execute if entity @s[predicate=stellarity:items/holding_kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
 execute if entity @s[predicate=!stellarity:items/holding_kaleidoscope,scores={stellarity.items.kaleidoscope.charge=1..}] run function stellarity:items/kaleidoscope/reset_charge
 
 # Book of Updraft

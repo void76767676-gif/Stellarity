@@ -10,7 +10,7 @@ execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:
 execute as @e[type=ender_dragon] at @s run function stellarity:mobs/dragon/main
 
 # Gloop Froggo protection
-execute as @e[type=slime,tag=stellarity.gloop] at @s if entity @e[type=frog,distance=..4] run effect give @s resistance 1 5 true
+execute as @e[type=slime,tag=stellarity.gloop] at @s if entity @e[type=frog,distance=..6] run effect give @s resistance 1 5 true
 
 # Replace Skeletons with either Husks or Strays in certain biomes
 execute as @e[type=skeleton,tag=!stellarity.aware,predicate=stellarity:locations/biomes/in_end_wilds] at @s run function stellarity:mobs/wild_husk/spawn
