@@ -12,8 +12,9 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "In The Loving Memory of Gloop",
-								"color": "#7bc664",
+								"translate": "stellarity.items.memory_of_gloop",
+								"fallback": "In The Loving Memory of Gloop",
+								"color": "#7BC664",
 								"italic": false
 							}
 						},
@@ -25,11 +26,6 @@
 							"function": "minecraft:set_lore",
 							"entity": "this",
 							"lore": [
-								{
-									"translate": "'Gloop de Gloop...'",
-									"color": "#EEEEEE",
-									"italic": true
-								},
 								"",
 								[
 									{

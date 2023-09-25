@@ -2,6 +2,24 @@
 	"type": "minecraft:chest",
 	"pools": [
 		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:emerald",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 3
+							}
+						}
+					]
+				}
+			]
+		},
+		{
 			"rolls": {
 				"min": 4,
 				"max": 6
@@ -28,7 +46,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
+					"weight": 5,
 					"name": "minecraft:book"
 				},
 				{
@@ -57,93 +75,70 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_helmet",
-					"functions": [
+					"name": "minecraft:iron_helmet"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_chestplate"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_leggings"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_boots"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"min": 20,
+						"max": 32
+					},
+					"treasure": false,
+					"conditions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_chestplate",
-					"functions": [
+					"function": "minecraft:set_damage",
+					"damage": {
+						"min": 0.4,
+						"max": 0.88
+					}
+				},
+				{
+					"function": "minecraft:set_nbt",
+					"tag": "{Trim:{material:\"minecraft:iron\",pattern:\"minecraft:vex\"}}",
+					"conditions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_leggings",
-					"functions": [
+					"function": "minecraft:set_nbt",
+					"tag": "{Trim:{material:\"minecraft:gold\",pattern:\"minecraft:vex\"}}",
+					"conditions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 39
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_boots",
-					"functions": [
+					"function": "minecraft:set_nbt",
+					"tag": "{Trim:{material:\"minecraft:emerald\",pattern:\"minecraft:vex\"}}",
+					"conditions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"quality": 1,
-					"name": "minecraft:book",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 30,
-								"max": 40
-							},
-							"treasure": true
+							"condition": "minecraft:random_chance",
+							"chance": 0.2
 						}
 					]
 				}
@@ -166,108 +161,50 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:iron_axe",
-					"functions": [
+					"name": "minecraft:iron_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_axe"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond_sword"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:crossbow"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:shield"
+				}
+			],
+			"functions": [
+				{
+					"function": "minecraft:enchant_with_levels",
+					"levels": {
+						"min": 20,
+						"max": 32
+					},
+					"treasure": false,
+					"conditions": [
 						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
 						}
 					]
 				},
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:iron_sword",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_axe",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:diamond_sword",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:crossbow",
-					"functions": [
-						{
-							"function": "minecraft:enchant_with_levels",
-							"levels": {
-								"min": 20,
-								"max": 32
-							},
-							"treasure": false
-						},
-						{
-							"function": "minecraft:set_damage",
-							"damage": {
-								"min": 0.4,
-								"max": 0.88
-							}
-						}
-					]
+					"function": "minecraft:set_damage",
+					"damage": {
+						"min": 0.4,
+						"max": 0.88
+					}
 				}
 			]
 		},
@@ -297,6 +234,7 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 8,
 					"name": "minecraft:splash_potion",
 					"functions": [
 						{
@@ -307,7 +245,7 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 10,
+					"weight": 8,
 					"name": "minecraft:splash_potion",
 					"functions": [
 						{
@@ -319,13 +257,27 @@
 				{
 					"type": "minecraft:item",
 					"weight": 15,
-					"name": "minecraft:pumpkin_pie",
+					"name": "minecraft:bread",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
 								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 11,
+					"name": "minecraft:pumpkin_pie",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
 							}
 						}
 					]
@@ -342,6 +294,5 @@
 				}
 			]
 		}
-	],
-	"random_sequence": "minecraft:chests/shipwreck_supply"
+	]
 }

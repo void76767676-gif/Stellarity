@@ -7,7 +7,7 @@
 				"player": [
 					{
 						"condition": "minecraft:reference",
-						"name": "stellarity:items/holding_crest"
+						"name": "stellarity:items/trinkets/holding_crest"
 					}
 				],
 				"damage": {

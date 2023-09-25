@@ -55,7 +55,7 @@
 							"name": {
 								"translate": "stellarity.items.trinkets.living_flesh",
 								"fallback": "Living Flesh",
-								"color": "#A25AFF",
+								"color": "#E53F3F",
 								"italic": false
 							}
 						},

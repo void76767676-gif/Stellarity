@@ -16,7 +16,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 1,
-								"max": 3
+								"max": 2
 							}
 						}
 					]
@@ -30,7 +30,7 @@
 							"count": {
 								"type": "minecraft:uniform",
 								"min": 1,
-								"max": 3
+								"max": 2
 							},
 							"add": false
 						}
@@ -59,7 +59,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 5
+								"max": 4
 							}
 						}
 					]
@@ -72,7 +72,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 5
+								"max": 4
 							}
 						}
 					]
@@ -97,8 +97,8 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 4,
-								"max": 8
+								"min": 2,
+								"max": 5
 							}
 						}
 					]
@@ -110,6 +110,14 @@
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:lily_of_the_valley"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cobblestone"
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:poisonous_potato"
 				}
 			]
 		}
