@@ -19,6 +19,8 @@ execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:
 
 execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:sfx/dragons_den_chest
 
+execute if entity @s[tag=stellarity.items.elektra_shield.marker] run function stellarity:items/elektra_shield/dash/as_marker
+
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s
 

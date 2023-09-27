@@ -38,6 +38,9 @@ scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
 scoreboard objectives add stellarity.items.crest.bonus_dmg dummy
 scoreboard objectives add stellarity.items.crest.time dummy
 
+scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
+scoreboard objectives add stellarity.items.elektra_shield.animation dummy
+
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add stellarity.items.prismatic_punch.marker_age dummy
 
