@@ -24,7 +24,8 @@ void main() {
     endSky = 0;
     pos = IViewRotMat * Position;
     vec2 texsize = textureSize(Sampler0, 0);
-    if(!isGui(ProjMat) && texsize.x/texsize.y != 1.0) {
+	float depth = -(ModelViewMat * vec4(1.0)).z;
+    if(!isGui(ProjMat) && texsize.x/texsize.y != 1.0 && depth <= 1000) {
         texCoord0 = corners[(gl_VertexID + 2) % 4];
         endSky = 1;
     }

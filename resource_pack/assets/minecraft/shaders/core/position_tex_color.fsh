@@ -10,6 +10,7 @@ in vec2 texCoord0;
 in vec4 vertexColor;
 flat in int endSky;
 
+
 out vec4 fragColor;
 
 void main() {

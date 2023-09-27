@@ -59,6 +59,19 @@
 			}
 		]
 	},
+	"item.living_flesh.boost":{
+		"sounds":[
+			"stellarity:item/living_flesh/rush_1",
+			"stellarity:item/living_flesh/rush_2"
+		]
+	},
+	"item.elektra_shield.zap":{
+		"sounds":[
+			"stellarity:item/elektra_shield/zap_1",
+			"stellarity:item/elektra_shield/zap_2",
+			"stellarity:item/elektra_shield/zap_3"
+		]
+	},
 	"item.kaleidoscope.ready":{
 		"sounds":[
 			"stellarity:item/kaleidoscope/ready_1",

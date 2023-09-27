@@ -27,6 +27,8 @@
 	"stellarity.explorer_map.end_city": "End City Explorer Map",
 	"stellarity.explorer_map.end_village": "End Village Explorer Map",
 
+	"stellarity.items.memory_of_gloop": "In The Loving Memory of Gloop",
+
 	"stellarity.items.special.donator": "Donator Item",
 	"stellarity.items.special.developer": "Developer Item",
 	"stellarity.items.special.member_666": "Member #666 Item",
@@ -160,7 +162,13 @@
 
 	"stellarity.items.trinkets.crest_of_the_end": "Crest of The End",
 	"stellarity.items.trinkets.crest_of_the_end.description.1": "Blocking damage adds extra",
-	"stellarity.items.trinkets.crest_of_the_end.description.2": "force to your next melee attack",
+	"stellarity.items.trinkets.crest_of_the_end.description.2": "force to your next attack",
+	"stellarity.items.trinkets.crest_of_the_end.description.3": "in retaliation",
+	"stellarity.items.trinkets.living_flesh": "Living Flesh",
+	"stellarity.items.trinkets.living_flesh.description.1": "Increases life regeneration",
+	"stellarity.items.trinkets.living_flesh.description.2": "and movement speed when hurt",
+	"stellarity.items.trinkets.living_flesh.description.3": "Slightly weakens you while held",
+	"stellarity.items.trinkets.living_flesh.flavor_text": "'You can feel it beating...'",
 	"stellarity.items.trinkets.duskberry": "Duskberry",
 	"stellarity.items.trinkets.duskberry.description.1": "Empowers your speed, sight",
 	"stellarity.items.trinkets.duskberry.description.2": "and strength while held",
