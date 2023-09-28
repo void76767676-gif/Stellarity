@@ -54,7 +54,7 @@ It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallo
 
 
 ## Description
-Hallow is densely packed with vegetation, with domination of tall rainbow trees. The only mobs that spawn here are the [Allays](https://minecraft.fandom.com/wiki/Allay) and passive [Pixies](../mobs/pixie.md), making it one of the safest biomes in the entire pack. End Stone is replaced with Diorite and Calcite, and large Amethyst Crystals are growing from beneath the cliffs. 
+Hallow is densely packed with vegetation, with domination of tall rainbow trees. The only mobs that spawn here are the [Allays](https://minecraft.wiki/w/Allay) and passive [Pixies](../mobs/pixie.md), making it one of the safest biomes in the entire pack. End Stone is replaced with Diorite and Calcite, and large Amethyst Crystals are growing from beneath the cliffs. 
 
 Grass found here is blue, and Water has a magenta tint.
 

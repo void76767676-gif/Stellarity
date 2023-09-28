@@ -148,4 +148,4 @@ Punches receive only 40% of melee damage bonuses. Strength Potions do not increa
 [^1]: [Kaliyah](https://robloxbedwars.fandom.com/wiki/Kaliyah) kit on Roblox Bedwars Wiki
 [^2]: [Roblox BedWars](https://www.roblox.com/games/6872265039/)
 [^3]: [S.D.M.G.](https://terraria.wiki.gg/wiki/S.D.M.G.) on Terraria Wiki
-[^4]: [Obsidian Claymore](https://minecraft.fandom.com/wiki/Minecraft_Dungeons:Obsidian_Claymore) on Minecraft: Dungeons Wiki
+[^4]: [Obsidian Claymore](https://minecraft.wiki/w/Minecraft_Dungeons:Obsidian_Claymore) on Minecraft: Dungeons Wiki
