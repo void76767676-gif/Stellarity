@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/attack_with_tamaris
+advancement revoke @s only stellarity:events/items/attack/tamaris
 
 execute store result score #enchant stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:vanishing_curse"}].lvl 10
 

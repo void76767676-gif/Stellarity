@@ -1,4 +1,3 @@
-
 ### Process Durability
 
 #load data
@@ -28,10 +27,7 @@ execute if score $player.temp_4 stellarity.misc matches 1.. if score $player.tem
 execute if score $player.temp_4 stellarity.misc matches 1.. store result storage stellarity:temp object.tag.Damage int 1 run scoreboard players get $player.temp_4 stellarity.misc
 execute if score $player.temp_4 stellarity.misc matches 1.. store result storage stellarity:temp object.tag.stellar_durability.damage int 1 run scoreboard players get $player.temp_4 stellarity.misc
 
-#change durability of unbreakable items
-execute if score $player.temp_4 stellarity.misc matches 0 store result score $player.temp_0 stellarity.misc run data get storage stellarity:temp object.tag.stellar_durability.dur
-execute if score $player.temp_4 stellarity.misc matches 0 run scoreboard players remove $player.temp_0 stellarity.misc 1
-execute if score $player.temp_4 stellarity.misc matches 0 store result storage stellarity:temp object.tag.stellar_durability.dur int 1 run scoreboard players get $player.temp_0 stellarity.misc
+execute if score $player.temp_4 stellarity.misc matches 0 run function stellarity:utils/durability/mending
 
 #output state
 scoreboard players set $player.out_0 stellarity.misc 1

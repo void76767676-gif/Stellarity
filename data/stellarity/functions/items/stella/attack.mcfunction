@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/attack_with_stella
+advancement revoke @s only stellarity:events/items/attack/stella
 
 playsound minecraft:block.amethyst_cluster.break player @a[distance=0..] ~ ~ ~ 1 0.8
 

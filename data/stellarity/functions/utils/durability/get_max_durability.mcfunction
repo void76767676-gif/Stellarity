@@ -1,6 +1,7 @@
 
 scoreboard players set $player.temp_4 stellarity.misc 0
 
+# Tools
 execute if data storage stellarity:temp object{id:"minecraft:golden_sword"} run scoreboard players set $player.temp_4 stellarity.misc 32
 execute if data storage stellarity:temp object{id:"minecraft:golden_pickaxe"} run scoreboard players set $player.temp_4 stellarity.misc 32
 execute if data storage stellarity:temp object{id:"minecraft:golden_axe"} run scoreboard players set $player.temp_4 stellarity.misc 32
@@ -37,8 +38,7 @@ execute if data storage stellarity:temp object{id:"minecraft:netherite_axe"} run
 execute if data storage stellarity:temp object{id:"minecraft:netherite_shovel"} run scoreboard players set $player.temp_4 stellarity.misc 2031
 execute if data storage stellarity:temp object{id:"minecraft:netherite_hoe"} run scoreboard players set $player.temp_4 stellarity.misc 2031
 
-
-
+# Armor
 execute if data storage stellarity:temp object{id:"minecraft:leather_helmet"} run scoreboard players set $player.temp_4 stellarity.misc 55
 execute if data storage stellarity:temp object{id:"minecraft:leather_chestplate"} run scoreboard players set $player.temp_4 stellarity.misc 80
 execute if data storage stellarity:temp object{id:"minecraft:leather_leggings"} run scoreboard players set $player.temp_4 stellarity.misc 75
@@ -69,9 +69,11 @@ execute if data storage stellarity:temp object{id:"minecraft:netherite_chestplat
 execute if data storage stellarity:temp object{id:"minecraft:netherite_leggings"} run scoreboard players set $player.temp_4 stellarity.misc 555
 execute if data storage stellarity:temp object{id:"minecraft:netherite_boots"} run scoreboard players set $player.temp_4 stellarity.misc 481
 
+# Other items with durability
 execute if data storage stellarity:temp object{id:"minecraft:fishing_rod"} run scoreboard players set $player.temp_4 stellarity.misc 64
 execute if data storage stellarity:temp object{id:"minecraft:flint_and_steel"} run scoreboard players set $player.temp_4 stellarity.misc 64
 execute if data storage stellarity:temp object{id:"minecraft:carrot_on_a_stick"} run scoreboard players set $player.temp_4 stellarity.misc 25
+execute if data storage stellarity:temp object{id:"minecraft:warped_fungus_on_a_stick"} run scoreboard players set $player.temp_4 stellarity.misc 100
 execute if data storage stellarity:temp object{id:"minecraft:shears"} run scoreboard players set $player.temp_4 stellarity.misc 238
 execute if data storage stellarity:temp object{id:"minecraft:shield"} run scoreboard players set $player.temp_4 stellarity.misc 336
 execute if data storage stellarity:temp object{id:"minecraft:bow"} run scoreboard players set $player.temp_4 stellarity.misc 384
@@ -79,4 +81,4 @@ execute if data storage stellarity:temp object{id:"minecraft:trident"} run score
 execute if data storage stellarity:temp object{id:"minecraft:elytra"} run scoreboard players set $player.temp_4 stellarity.misc 432
 execute if data storage stellarity:temp object{id:"minecraft:crossbow"} run scoreboard players set $player.temp_4 stellarity.misc 465
 execute if data storage stellarity:temp object{id:"minecraft:turtle_helmet"} run scoreboard players set $player.temp_4 stellarity.misc 275
-execute if data storage stellarity:temp object{tag:{Unbreakable:1b}} run scoreboard players set $player.temp_4 stellarity.misc 0
+execute if data storage stellarity:temp object{id:"minecraft:brush"} run scoreboard players set $player.temp_4 stellarity.misc 64

@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/attack_with_sariel
+advancement revoke @s only stellarity:events/items/attack/sariel
 
 scoreboard players reset #sariel.spawn_count stellarity.misc
 

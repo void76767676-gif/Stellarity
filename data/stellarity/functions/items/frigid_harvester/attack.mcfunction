@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/attack_with_upgraded_aery_sword
+advancement revoke @s only stellarity:events/items/attack/upgraded_aery_sword
 
 # #cdamage stands for 'current damage'
 # Idk if it would conflict with #damage in 'kill.mcfunction',

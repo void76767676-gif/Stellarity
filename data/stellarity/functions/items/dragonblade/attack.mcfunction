@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/attack_with_dragonblade
+advancement revoke @s only stellarity:events/items/attack/dragonblade
 
 #playsound minecraft:entity.phantom.bite player @a ~ ~ ~ 0.4 1
 playsound minecraft:entity.ender_dragon.hurt player @a[distance=0..] ~ ~ ~ 0.4 1

@@ -14,15 +14,13 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		}
