@@ -56,3 +56,7 @@ execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.s
 # Copper Elektra Shield
 execute if entity @s[scores={stellarity.items.elektra_shield.cooldown=1..}] run function stellarity:items/elektra_shield/cooldown_countdown
 execute if entity @s[tag=stellarity.items.elektra_shield.using] run function stellarity:items/elektra_shield/dash
+
+# Chorus Dagger
+execute if entity @s[predicate=stellarity:items/holding_chorus_dagger,predicate=stellarity:utils/player/is_sneaking] unless score @s stellarity.items.chorus_dagger.cooldown matches 1.. if entity @e[type=!#stellarity:invalid_targets,distance=0.01..8] run function stellarity:items/chorus_dagger/dash
+execute if entity @s[scores={stellarity.items.chorus_dagger.cooldown=1..}] run function stellarity:items/chorus_dagger/cooldown_countdown

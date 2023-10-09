@@ -31,6 +31,8 @@ execute if entity @s[tag=stellarity.damage.dot.prismatic_inferno] run \
 	function stellarity:utils/damage/apply/prismatic_inferno with storage stellarity:temp damage.damage
 execute if entity @s[tag=stellarity.damage.dot.frostburn] run \
 	function stellarity:utils/damage/apply/frostburn with storage stellarity:temp damage.damage
+execute if entity @s[tag=stellarity.damage.dot.leeching] run \
+	function stellarity:utils/damage/apply/leeching with storage stellarity:temp damage.damage
 execute if entity @s[tag=stellarity.damage.kaleidoscope] run \
 	function stellarity:utils/damage/apply/kaleidoscope with storage stellarity:temp damage.damage
 

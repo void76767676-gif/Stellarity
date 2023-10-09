@@ -4,7 +4,7 @@
 execute if predicate stellarity:utils/end_portal_eye_delete run function stellarity:sfx/end_portal_animation/fill_stop/checks
 
 tp @s ~ ~ ~ ~0.25 ~
-execute as @e[type=armor_stand,tag=stellarity.end_portal_animation.eye] at @s facing entity @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_portal] eyes run tp @s ~ ~ ~ ~ ~
+execute as @e[type=armor_stand,tag=stellarity.end_portal_animation.eye,limit=12,sort=nearest,distance=..6] at @s facing entity @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_portal] eyes run tp @s ~ ~ ~ ~ ~
 
 execute rotated ~0 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_animation.eye_1,limit=1,sort=nearest] ^ ^-2 ^5
 execute rotated ~30 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_animation.eye_2,limit=1,sort=nearest] ^ ^-2 ^5

@@ -103,6 +103,13 @@
 									"amount": -0.06,
 									"operation": "multiply_total",
 									"slot": "offhand"
+								},
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
 								}
 							]
 						}

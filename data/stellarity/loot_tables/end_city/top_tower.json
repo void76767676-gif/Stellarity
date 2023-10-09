@@ -138,7 +138,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/zephyr"
+					"name": "stellarity:items/chorus_dagger"
 				}
 			],
 			"conditions": [

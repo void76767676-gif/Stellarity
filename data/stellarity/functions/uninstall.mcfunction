@@ -43,7 +43,6 @@ scoreboard objectives remove stellarity.items.tamaris.math.health.max
 scoreboard objectives remove stellarity.items.tamaris.math.health.percentage
 scoreboard objectives remove stellarity.items.tamaris.animation.progress
 scoreboard objectives remove stellarity.items.tamaris.execute_cooldown
-scoreboard objectives remove stellarity.items.flask_of_frost.duration
 scoreboard objectives remove stellarity.eol.animation
 scoreboard objectives remove stellarity.eol.health
 scoreboard objectives remove stellarity.eol.hurt_time

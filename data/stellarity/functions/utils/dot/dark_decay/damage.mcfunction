@@ -3,9 +3,6 @@ scoreboard players operation #damage stellarity.misc = @s stellarity.dot.dark_de
 scoreboard players set #armor_penetration stellarity.misc 60
 
 scoreboard players set #ignore_iframes stellarity.misc 1
-scoreboard players set #ignore_resistance stellarity.misc 0
-scoreboard players set #damage_type stellarity.misc 0
-scoreboard players set #damage_effects stellarity.misc 0
 
 scoreboard players reset @s stellarity.dot.dark_decay.progress
 

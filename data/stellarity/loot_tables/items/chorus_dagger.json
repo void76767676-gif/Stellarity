@@ -9,67 +9,28 @@
 					"functions": [
 						{
 							"function": "minecraft:set_name",
-							"entity": "this",
-							"name": [
-								{
-									"text": "S",
-									"color": "#f6f6f6",
-									"italic": false
-								},
-								{
-									"text": "a",
-									"color": "#f7f1d4",
-									"italic": false
-								},
-								{
-									"text": "r",
-									"color": "#f9ecb3",
-									"italic": false
-								},
-								{
-									"text": "i",
-									"color": "#fbe791",
-									"italic": false
-								},
-								{
-									"text": "e",
-									"color": "#fde270",
-									"italic": false
-								},
-								{
-									"text": "l",
-									"color": "#ffdd4f",
-									"italic": false
-								}
-							]
-						},
-						{
-							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"sariel\",CustomModelData:90000,stellar_durability:{enabled:1b,max_dur:384},HideFlags:6}"
+							"name": {
+								"translate": "stellarity.items.weapons.chorus_dagger",
+								"fallback": "Chorus Dagger",
+								"color": "#A773B2",
+								"italic": false
+							}
 						},
 						{
 							"function": "minecraft:set_lore",
-							"entity": "this",
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.weapons.sariel.description.1",
-									"fallback": "Has a chance to heal",
+									"translate": "stellarity.items.weapons.chorus_dagger.description.1",
+									"fallback": "Sneak to warp to a nearby enemy,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.weapons.sariel.description.2",
-									"fallback": "any nearby player on attacks",
+									"translate": "stellarity.items.weapons.chorus_dagger.description.2",
+									"fallback": "dealing damage and speeding you up",
 									"color": "#EEEEEE",
 									"italic": false
-								},
-								"",
-								{
-									"translate": "stellarity.items.weapons.sariel.flavor_text",
-									"fallback": "'Now, Until The Moment You Die'",
-									"color": "#EEEEEE",
-									"italic": true
 								},
 								"",
 								{
@@ -90,7 +51,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "4"
+												"text": "5"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -106,7 +67,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "2.3"
+												"text": "2.6"
 											},
 											{
 												"translate": "attribute.name.generic.attack_speed"
@@ -122,22 +83,26 @@
 							"function": "minecraft:set_attributes",
 							"modifiers": [
 								{
-									"attribute": "minecraft:generic.attack_speed",
+									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
-									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
-									"amount": -1.7,
+									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
+									"amount": 4,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
 								{
-									"attribute": "minecraft:generic.attack_damage",
+									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
-									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-									"amount": 3,
+									"id": "FA233E1C-4180-4865-B01B-BCCE9785ACA3",
+									"amount": -1.4,
 									"operation": "addition",
 									"slot": "mainhand"
 								}
 							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"chorus_dagger\",stellar_durability:{enabled:1b,max_dur:764},HideFlags:6}"
 						}
 					]
 				}

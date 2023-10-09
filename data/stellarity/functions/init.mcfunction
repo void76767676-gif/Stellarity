@@ -79,7 +79,7 @@ scoreboard objectives add stellarity.items.tamaris.math.health.percentage dummy
 scoreboard objectives add stellarity.items.tamaris.animation.progress dummy
 scoreboard objectives add stellarity.items.tamaris.execute_cooldown dummy
 
-scoreboard objectives add stellarity.items.flask_of_frost.duration dummy
+scoreboard objectives add stellarity.items.chorus_dagger.cooldown dummy
 
 scoreboard objectives add stellarity.custom_particle.despawn dummy
 scoreboard objectives add stellarity.custom_particle.display dummy
