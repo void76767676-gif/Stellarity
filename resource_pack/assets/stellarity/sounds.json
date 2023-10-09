@@ -72,6 +72,11 @@
 			"stellarity:item/elektra_shield/zap_3"
 		]
 	},
+	"item.chorus_dagger.ready":{
+		"sounds":[
+			"stellarity:item/chorus_dagger/cooldown_end"
+		]
+	},
 	"item.kaleidoscope.ready":{
 		"sounds":[
 			"stellarity:item/kaleidoscope/ready_1",

@@ -27,6 +27,12 @@
 				"custom_model_data":90004
 			},
 			"model":"stellarity:item/spellbooks/natures_wrath"
+		},
+		{
+			"predicate":{
+				"custom_model_data":90005
+			},
+			"model":"stellarity:item/spellbooks/jinx"
 		}
 	]
 }
