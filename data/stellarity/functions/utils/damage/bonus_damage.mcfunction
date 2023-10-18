@@ -25,23 +25,11 @@ scoreboard players operation #attribute.damage.ratio stellarity.misc = #attribut
 scoreboard players operation #attribute.damage.ratio stellarity.misc /= #attribute.damage.total stellarity.misc
 scoreboard players operation #attribute.damage.ratio stellarity.misc -= #100 stellarity.misc
 
-## DEBUG
-#tellraw @s [{"score":{"name": "#attribute.damage.current","objective": "stellarity.misc"}}," ",{"score":{"name": "#attribute.damage.total","objective": "stellarity.misc"}}," ",{"score":{"name": "#attribute.damage.ratio","objective": "stellarity.misc"}}]
-
 scoreboard players operation #attribute.damage.ratio stellarity.misc *= #damage_boost_efficiency stellarity.misc
 scoreboard players operation #attribute.damage.ratio stellarity.misc /= #100 stellarity.misc
-
-## DEBUG
-#tellraw @s [{"score":{"name": "#attribute.damage.ratio","objective": "stellarity.misc"}}]
-
-## DEBUG
-#tellraw @s [{"score":{"name": "#damage","objective": "stellarity.misc"}}]
 
 # Increase/decrease damage
 scoreboard players operation #temp stellarity.misc = #damage stellarity.misc
 scoreboard players operation #temp stellarity.misc *= #attribute.damage.ratio stellarity.misc
 scoreboard players operation #temp stellarity.misc /= #100 stellarity.misc
 scoreboard players operation #damage stellarity.misc += #temp stellarity.misc
-
-## DEBUG
-#tellraw @s [{"score":{"name": "#damage","objective": "stellarity.misc"}}]

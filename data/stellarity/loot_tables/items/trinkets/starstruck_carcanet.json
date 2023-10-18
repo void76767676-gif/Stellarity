@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.trinkets.starstruck_carcanet",
 								"fallback": "Starstruck Carcanet",
-								"color": "#FFDB6C",
+								"color": "#FFD500",
 								"italic": false
 							}
 						},
@@ -27,12 +27,6 @@
 								{
 									"translate": "stellarity.items.trinkets.starstruck_carcanet.description.1",
 									"fallback": "Causes 3 stars to fall when hurt",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.trinkets.starstruck_carcanet.description.2",
-									"fallback": "Stars partially ignore armor",
 									"color": "#EEEEEE",
 									"italic": false
 								},

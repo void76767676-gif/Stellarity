@@ -53,6 +53,10 @@ execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stel
 # Nature's Wrath
 execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.shoot=1..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/shoot
 
+# Prismember
+execute if entity @s[predicate=stellarity:items/holding_prismember] run function stellarity:items/prismember/main
+execute if score @s stellarity.items.prismember.until_charge_reset matches 1.. run function stellarity:items/prismember/charge/reset_charge_countdown
+
 # Copper Elektra Shield
 execute if entity @s[scores={stellarity.items.elektra_shield.cooldown=1..}] run function stellarity:items/elektra_shield/cooldown_countdown
 execute if entity @s[tag=stellarity.items.elektra_shield.using] run function stellarity:items/elektra_shield/dash

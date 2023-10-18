@@ -1,4 +1,4 @@
-tp @s ^ ^ ^.99
+tp @s ^ ^ ^1.2375
 
 scoreboard players add @s stellarity.misc 1
 
@@ -7,4 +7,4 @@ execute if score @s stellarity.misc matches 2 run playsound minecraft:entity.fir
 execute if score @s stellarity.misc matches 2 run scoreboard players reset @s stellarity.misc
 
 execute if entity @s[tag=!stellarity.carcanet.air] if block ^ ^ ^ #stellarity:non_solid run tag @s add stellarity.carcanet.air
-execute if entity @s[tag=stellarity.carcanet.air] unless block ^ ^ ^.99 #stellarity:non_solid run function stellarity:items/starstruck_carcanet/star_detonate
+execute if entity @s[tag=stellarity.carcanet.air] unless block ^ ^ ^1.2375 #stellarity:non_solid run function stellarity:items/starstruck_carcanet/star_detonate

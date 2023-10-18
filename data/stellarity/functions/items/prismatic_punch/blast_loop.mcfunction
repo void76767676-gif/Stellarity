@@ -1,17 +1,20 @@
-# Particles cycle betweem the colors of a rainbow
+# Timers
 scoreboard players add @s stellarity.items.prismatic_punch.particle_cycle 1
+scoreboard players add @s stellarity.misc 1
+scoreboard players remove @s stellarity.items.prismatic_punch.piercing_cooldown 1
 
-execute if entity @s[tag=!stellarity.prismatic_blast.monochrome,tag=!stellarity.prismatic_blast.pastel] run function stellarity:items/prismatic_punch/move/particles/regular
-execute if entity @s[tag=stellarity.prismatic_blast.monochrome] run function stellarity:items/prismatic_punch/move/particles/monochrome
-execute if entity @s[tag=stellarity.prismatic_blast.pastel] run function stellarity:items/prismatic_punch/move/particles/pastel
+# Accelerating projectile
+# Starting velocity: 0 blocks/second
+# Acceleration: 4 blocks/second squared
+# Final velocity: 6 blocks/second
+execute if score @s stellarity.misc matches 1 run scoreboard players set @s stellarity.items.prismatic_punch.teleport 40
+execute store result storage stellarity:temp prismatic_punch.distance float 0.01 run scoreboard players get @s stellarity.items.prismatic_punch.teleport
+function stellarity:items/prismatic_punch/move with storage stellarity:temp prismatic_punch
+scoreboard players add @s[scores={stellarity.items.prismatic_punch.teleport=..600}] stellarity.items.prismatic_punch.teleport 12
 
-execute if score @s stellarity.items.prismatic_punch.particle_cycle matches 33.. run scoreboard players reset @s stellarity.items.prismatic_punch.particle_cycle
-
-# Movement
-scoreboard players add @s stellarity.items.prismatic_punch.marker_age 1
-execute anchored eyes unless entity @e[type=!#stellarity:invalid_targets_with_player,limit=1,sort=nearest,distance=..12] run function stellarity:items/prismatic_punch/move/main
-execute anchored eyes facing entity @e[type=!#stellarity:invalid_targets_with_player,limit=1,sort=nearest,distance=..12] eyes run function stellarity:items/prismatic_punch/move/home
+execute if score @s stellarity.misc matches 2.. run function stellarity:items/prismatic_punch/blast_particles
 
 # Detonation
-execute anchored eyes if entity @e[type=!#stellarity:invalid_targets_with_player,distance=..2.5] if score @s stellarity.items.prismatic_punch.marker_age matches 5.. run function stellarity:items/prismatic_punch/detonate/check_self
-execute anchored eyes if entity @e[type=player,distance=..2.5] if score @s stellarity.items.prismatic_punch.marker_age matches 8.. run function stellarity:items/prismatic_punch/detonate/check_self
+execute unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @e[type=!#stellarity:invalid_targets,distance=..2.5,predicate=!stellarity:items/holding_prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
+
+execute if score @s stellarity.misc matches 100 run function stellarity:items/prismatic_punch/detonate/start_absolute

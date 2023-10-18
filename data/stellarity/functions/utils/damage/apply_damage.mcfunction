@@ -35,8 +35,9 @@ execute if entity @s[tag=stellarity.damage.dot.leeching] run \
 	function stellarity:utils/damage/apply/leeching with storage stellarity:temp damage.damage
 execute if entity @s[tag=stellarity.damage.kaleidoscope] run \
 	function stellarity:utils/damage/apply/kaleidoscope with storage stellarity:temp damage.damage
+execute if entity @s[tag=stellarity.damage.prismember] run \
+	function stellarity:utils/damage/apply/prismember with storage stellarity:temp damage.damage
 
 # ...and at 2 different times for mobs and players!
 execute if entity @s[type=!player] if score #damage_ap stellarity.misc matches 1.. run \
 	function stellarity:utils/damage/apply/armor_piercing with storage stellarity:temp damage.damage_ap
-

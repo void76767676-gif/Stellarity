@@ -24,41 +24,28 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								"",
-								[
-									{
-										"translate": "stellarity.items.weapons.tamaris.description.1",
-										"fallback": "Press",
-										"color": "#EEEEEE",
-										"italic": false
-									},
-									[
-										" [",
-										{
-											"keybind": "key.sneak"
-										},
-										"] "
-									],
-									{
-										"translate": "stellarity.items.weapons.tamaris.description.1_5",
-										"fallback": "to activate your Execute ability,"
-									}
-								],
+								{
+									"translate": "stellarity.items.weapons.tamaris.description.1",
+									"fallback": "Sneak to instantly kill",
+									"color": "#EEEEEE",
+									"italic": false
+								},
 								{
 									"translate": "stellarity.items.weapons.tamaris.description.2",
-									"fallback": "instantly killing nearby enemies with low health!",
+									"fallback": "a nearby enemy with low health",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.tamaris.description.3",
-									"fallback": "Applies Dark Decay on hit",
+									"fallback": "Hit enemies slowly decay away",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								"",
 								{
 									"translate": "stellarity.items.weapons.tamaris.flavor_text",
-									"fallback": "'Property of Captain Hannah'",
+									"fallback": "'Property of Captain Charo'",
 									"color": "#EEEEEE",
 									"italic": true
 								},

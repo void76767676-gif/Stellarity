@@ -2,18 +2,23 @@ data merge entity @s {DeathLootTable:"stellarity:stronghold/mobs/pillager",Patro
 
 loot replace entity @s weapon.mainhand loot stellarity:stronghold/mobs/buff/pillager
 
-scoreboard players set in stellarity.misc 1
-scoreboard players set in1 stellarity.misc 8
-execute if predicate stellarity:utils/chance/33percent run function stellarity:utils/rng/range
-
-execute if score out stellarity.misc matches 1 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"harming"} 64
-execute if score out stellarity.misc matches 2 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_slowness"} 64
-execute if score out stellarity.misc matches 3 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"strong_slowness"} 64
-execute if score out stellarity.misc matches 4 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"poison"} 64
-execute if score out stellarity.misc matches 5 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_poison"} 64
-execute if score out stellarity.misc matches 6 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"strong_poison"} 64
-execute if score out stellarity.misc matches 7 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"weakness"} 64
-execute if score out stellarity.misc matches 8 run item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_weakness"} 64
+execute store result score #arrow stellarity.misc run random value 1..8
+execute if score #arrow stellarity.misc matches 1 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"harming"} 64
+execute if score #arrow stellarity.misc matches 2 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_slowness"} 64
+execute if score #arrow stellarity.misc matches 3 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"strong_slowness"} 64
+execute if score #arrow stellarity.misc matches 4 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"poison"} 64
+execute if score #arrow stellarity.misc matches 5 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_poison"} 64
+execute if score #arrow stellarity.misc matches 6 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"strong_poison"} 64
+execute if score #arrow stellarity.misc matches 7 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"weakness"} 64
+execute if score #arrow stellarity.misc matches 8 run \
+	item replace entity @s weapon.offhand with tipped_arrow{Potion:"long_weakness"} 64
 
 tag @s add stellarity.stronghold.buffed
 

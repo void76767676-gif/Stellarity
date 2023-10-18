@@ -17,7 +17,7 @@ scoreboard objectives remove stellarity.items.sharanga.arrow_age
 scoreboard objectives remove stellarity.items.clockwork_crossbow.arrow_amount
 scoreboard objectives remove stellarity.items.crest.bonus_dmg
 scoreboard objectives remove stellarity.items.prismatic_punch.particle_cycle
-scoreboard objectives remove stellarity.items.prismatic_punch.marker_age
+scoreboard objectives remove stellarity.misc
 scoreboard objectives remove stellarity.items.ender_insignia.hold_duration
 scoreboard objectives remove stellarity.items.sabrewing.charge
 scoreboard objectives remove stellarity.items.sabrewing.until_charge_reset

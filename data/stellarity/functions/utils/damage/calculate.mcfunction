@@ -52,7 +52,9 @@ tag @s remove stellarity.damage.natures_wrath
 tag @s remove stellarity.damage.dot.dark_decay
 tag @s remove stellarity.damage.dot.prismatic_inferno
 tag @s remove stellarity.damage.dot.frostburn
+tag @s remove stellarity.damage.dot.leeching
 tag @s remove stellarity.damage.kaleidoscope
+tag @s remove stellarity.damage.prismember
 
 # Remove the attacker tag
 tag @e[tag=stellarity.damage.attacker] remove stellarity.damage.attacker

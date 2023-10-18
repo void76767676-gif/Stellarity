@@ -61,7 +61,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "7"
+												"text": "10"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"

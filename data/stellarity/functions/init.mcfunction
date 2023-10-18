@@ -42,7 +42,10 @@ scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
 scoreboard objectives add stellarity.items.elektra_shield.animation dummy
 
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
-scoreboard objectives add stellarity.items.prismatic_punch.marker_age dummy
+scoreboard objectives add stellarity.items.prismatic_punch.teleport dummy
+scoreboard objectives add stellarity.items.prismatic_punch.piercing dummy
+scoreboard objectives add stellarity.items.prismatic_punch.piercing_cooldown dummy
+scoreboard objectives add stellarity.items.prismatic_punch.multishot dummy
 
 scoreboard objectives add stellarity.items.ender_insignia.hold_duration dummy
 
@@ -65,13 +68,15 @@ scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
 scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
 
-scoreboard objectives add stellarity.items.stella.fire_stacks dummy
-
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
 
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy
 
 scoreboard objectives add stellarity.items.prismatic_pearl.cooldown dummy
+
+scoreboard objectives add stellarity.items.prismember.charge dummy
+scoreboard objectives add stellarity.items.prismember.until_charge_reset dummy
+scoreboard objectives add stellarity.items.prismember.cooldown dummy
 
 scoreboard objectives add stellarity.items.tamaris.math.health.current dummy
 scoreboard objectives add stellarity.items.tamaris.math.health.max dummy
