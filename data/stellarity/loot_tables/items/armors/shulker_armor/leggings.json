@@ -65,7 +65,7 @@
 									"attribute": "minecraft:generic.armor",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-									"amount": 7,
+									"amount": 6,
 									"operation": "addition",
 									"slot": "legs"
 								},
@@ -89,7 +89,7 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-									"amount": -0.025,
+									"amount": -0.04,
 									"operation": "multiply_base",
 									"slot": "legs"
 								},
@@ -97,7 +97,7 @@
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-									"amount": -0.025,
+									"amount": -0.04,
 									"operation": "multiply_base",
 									"slot": "legs"
 								}

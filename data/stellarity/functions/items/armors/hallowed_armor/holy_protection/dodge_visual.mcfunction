@@ -173,14 +173,18 @@ particle minecraft:dust 1 0.82 0 0.84 ^0.1875 ^-0.75 ^0 0 0 0 0 1 normal @a
 # All these were for the cross seen above players head
 # It is only visible when you have particles set to 'All',
 # as it causes like 200 particles to appear at once
-# My laptop, which I made this on, did not really like that
+# My laptop, which I made this on, did not really like that.
 # I was able to make a toast on it (10/10 toast)
 
-particle end_rod ~ ~0.15 ~ 0 0 0 0.11 12 force @a[distance=..32]
-particle firework ~ ~0.15 ~ 0 0 0 0.11 12 force @a[distance=..32]
+# Update - I'm here reading this over a year later. What the fuck XD.
 
-particle flash ~ ~0.15 ~ 0 0 0 0 1 force @a[distance=..32]
+particle end_rod ~ ~-2 ~ 0 0 0 0.11 12 force @a[distance=..32]
+particle firework ~ ~-2 ~ 0 0 0 0.11 12 force @a[distance=..32]
+
+particle flash ~ ~-2 ~ 0 0 0 0 1 force @a[distance=..32]
+particle minecraft:poof ~ ~-2 ~ 0.3 0.5 0.3 0 22
 
 # Ik this is a 'visual' file, but gimme a break
-playsound minecraft:block.respawn_anchor.deplete player @a[distance=0..] ~ ~ ~ 0.45 1.3
-playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 0.2222 1.2
+playsound minecraft:block.respawn_anchor.deplete player @a[distance=0..] ~ ~ ~ 0.6 1.3
+playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 0.333 1.2
+playsound minecraft:entity.bat.takeoff player @a[distance=0..] ~ ~ ~ 0.88 1.1

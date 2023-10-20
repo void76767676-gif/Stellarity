@@ -65,7 +65,7 @@
 									"attribute": "minecraft:generic.armor",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": 7,
+									"amount": 8,
 									"operation": "addition",
 									"slot": "chest"
 								},
@@ -89,7 +89,7 @@
 									"attribute": "minecraft:generic.attack_speed",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": -0.025,
+									"amount": -0.04,
 									"operation": "multiply_base",
 									"slot": "chest"
 								},
@@ -97,7 +97,7 @@
 									"attribute": "minecraft:generic.movement_speed",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": -0.025,
+									"amount": -0.04,
 									"operation": "multiply_base",
 									"slot": "chest"
 								}

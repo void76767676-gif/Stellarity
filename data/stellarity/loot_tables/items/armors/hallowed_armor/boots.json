@@ -59,8 +59,16 @@
 									"attribute": "minecraft:generic.armor",
 									"name": "",
 									"id": "845DB27C-C624-495F-8C9F-6020A9A58B6B",
-									"amount": 4,
+									"amount": 3,
 									"operation": "addition",
+									"slot": "feet"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -0.03,
+									"operation": "multiply_base",
 									"slot": "feet"
 								},
 								{

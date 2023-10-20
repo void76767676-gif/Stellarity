@@ -40,8 +40,6 @@ execute if score #death_messages kohara.misc matches 1 if data entity @s Owner i
 # But only if they were enabled beforehand
 execute if score #death_messages kohara.misc matches 1 run gamerule showDeathMessages true
 
-execute if entity @s[tag=kohara.example] run say a
-
 # Remove tags
 $tag @s remove $(tag)
 

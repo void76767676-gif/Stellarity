@@ -23,5 +23,3 @@ stopsound @a[distance=..24] * minecraft:item.armor.equip_netherite
 stopsound @a[distance=..24] * minecraft:item.armor.equip_turtle
 
 advancement revoke @s only kohara:custom_item_durability_change
-
-say a

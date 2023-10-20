@@ -73,7 +73,7 @@
 									"attribute": "minecraft:generic.armor_toughness",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-									"amount": 3,
+									"amount": 2,
 									"operation": "addition",
 									"slot": "legs"
 								},
@@ -89,7 +89,7 @@
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",
-									"amount": 0.1,
+									"amount": 0.08,
 									"operation": "addition",
 									"slot": "legs"
 								}

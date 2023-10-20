@@ -72,6 +72,14 @@
 									"slot": "legs"
 								},
 								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -0.03,
+									"operation": "multiply_base",
+									"slot": "legs"
+								},
+								{
 									"attribute": "minecraft:generic.knockback_resistance",
 									"name": "",
 									"id": "D8499B04-0E66-4726-AB29-64469D734E0D",

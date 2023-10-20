@@ -59,8 +59,16 @@
 									"attribute": "minecraft:generic.armor",
 									"name": "",
 									"id": "9F3D476D-C118-4544-8365-64846904B48E",
-									"amount": 6,
+									"amount": 8,
 									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -0.03,
+									"operation": "multiply_base",
 									"slot": "chest"
 								},
 								{

@@ -15,4 +15,4 @@ execute unless score #stellarity.vanilla_dragon_butcher.setup stellarity.misc ma
 execute if entity @e[type=minecraft:ender_dragon,tag=!fe.boss,tag=!fe.ender_dragon,tag=!fe.init,tag=!fe.mob,predicate=stellarity:locations/in_dragons_den] run schedule function stellarity:mobs/dragon/butcher/scheduled 1t append
 
 # Moved from far_end:structures/check
-execute as @e[type=minecraft:end_crystal,predicate=kohara:exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
+execute as @e[type=minecraft:end_crystal,predicate=stellarity:utils/exit_portal_crystal] at @s run function far_end:structures/replace/exit_portal
