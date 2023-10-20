@@ -1,3 +1,3 @@
-scoreboard objectives add stellarity.status_effect.voided.time dummy
-scoreboard objectives add stellarity.status_effect.voided.level dummy
-scoreboard objectives add stellarity.status_effect.voided.particle dummy
+scoreboard objectives add stellarity.status_effects.voided.time dummy
+scoreboard objectives add stellarity.status_effects.voided.level dummy
+scoreboard objectives add stellarity.status_effects.voided.particle dummy

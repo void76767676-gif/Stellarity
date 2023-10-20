@@ -13,5 +13,5 @@ execute if score #mainhand stellarity.misc matches 1 run \
 execute if score #mainhand stellarity.misc matches 1 run \
 	item modify entity @s[gamemode=!creative,gamemode=!spectator] weapon.mainhand stellarity:natures_wrath_update_biomes
 
-execute unless score @s stellarity.items.spellbook.natures_wrath.cooldown.shoot matches 1.. unless predicate stellarity:utils/player/is_sneaking at @s run function stellarity:items/spellbooks/natures_wrath/shoot_spirit
-execute unless score @s stellarity.items.spellbook.natures_wrath.cooldown.wolves matches 1.. if predicate stellarity:utils/player/is_sneaking at @s run function stellarity:items/spellbooks/natures_wrath/summon_wolves
+execute unless score @s stellarity.items.spellbook.natures_wrath.cooldown.shoot matches 1.. unless predicate kohara:player/is_sneaking at @s run function stellarity:items/spellbooks/natures_wrath/shoot_spirit
+execute unless score @s stellarity.items.spellbook.natures_wrath.cooldown.wolves matches 1.. if predicate kohara:player/is_sneaking at @s run function stellarity:items/spellbooks/natures_wrath/summon_wolves

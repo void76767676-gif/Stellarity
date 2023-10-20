@@ -12,4 +12,4 @@ execute if score @s stellarity.items.spellbook.updraft.animation matches 30 run 
 
 execute if score @s stellarity.items.spellbook.updraft.animation matches 170.. run effect give @s slow_falling infinite 0 true
 execute if score @s stellarity.items.spellbook.updraft.animation matches 5.. if data entity @s {OnGround:1b} run function stellarity:items/spellbooks/updraft/animation_finish
-execute if predicate stellarity:utils/player/is_sneaking run function stellarity:items/spellbooks/updraft/animation_finish
+execute if predicate kohara:player/is_sneaking run function stellarity:items/spellbooks/updraft/animation_finish

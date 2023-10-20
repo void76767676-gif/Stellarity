@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"soaring_insignia\",CustomModelData:90001,Enchantments:[{}],HideFlags:2,stellarity.fireproof:1b}"
+							"tag": "{stellarity.special_item:\"soaring_insignia\",CustomModelData:90001,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

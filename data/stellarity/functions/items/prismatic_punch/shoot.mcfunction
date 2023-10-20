@@ -1,6 +1,6 @@
 advancement revoke @s only stellarity:events/items/shoot_prismatic_punch
 
-kill @e[type=#stellarity:ammo,limit=3,sort=nearest,tag=!stellarity.aware]
+kill @e[type=#kohara:ammo,limit=3,sort=nearest,tag=!stellarity.aware]
 
 execute anchored eyes positioned ^ ^-0.287 ^ run function stellarity:items/prismatic_punch/spawn_blast
 

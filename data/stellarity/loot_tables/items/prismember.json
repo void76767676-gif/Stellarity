@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"prismember\",CustomModelData:90003,HideFlags:6,stellarity.fireproof:1b}"
+							"tag": "{stellarity.special_item:\"prismember\",CustomModelData:90003,HideFlags:6,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

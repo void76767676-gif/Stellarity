@@ -1,0 +1,10 @@
+{
+	"values": [
+		"stellarity:utils/status_effects/jinx/tick",
+		"stellarity:utils/status_effects/voided/tick",
+		"stellarity:utils/status_effects/dark_decay/tick",
+		"stellarity:utils/status_effects/frostburn/tick",
+		"stellarity:utils/status_effects/prismatic_inferno/tick",
+        "stellarity:utils/status_effects/leeching/tick"
+	]
+}

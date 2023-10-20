@@ -97,7 +97,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"alpha_wooden_sword\",Unbreakable:1,HideFlags:6,stellarity.fireproof:1b}"
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"alpha_wooden_sword\",Unbreakable:1,HideFlags:6,kohara.fireproof:1b}"
 						}
 					]
 				}

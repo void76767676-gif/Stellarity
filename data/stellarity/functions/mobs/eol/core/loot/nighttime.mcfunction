@@ -1,6 +1,6 @@
 execute store result score #temp1 stellarity.misc run loot spawn ~ ~ ~ loot stellarity:mobs/eol/loot_50
 
-execute if predicate stellarity:utils/chance/15percent run loot spawn ~ ~ ~ loot stellarity:items/trinkets/soaring_insignia
+execute if predicate kohara:chance/15percent run loot spawn ~ ~ ~ loot stellarity:items/trinkets/soaring_insignia
 
 execute if score #temp1 stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:mobs/eol/loot
 

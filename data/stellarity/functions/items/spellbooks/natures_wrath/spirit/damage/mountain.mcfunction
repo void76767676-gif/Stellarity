@@ -1,12 +1,7 @@
 execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.natures_wrath.spirit] at @s run function stellarity:items/spellbooks/natures_wrath/spirit/damage/as_marker/mountain
 
-scoreboard players set #damage stellarity.misc 70
+scoreboard players set #damage kohara.misc 70
 
-scoreboard players set #armor_penetration stellarity.misc 35
-scoreboard players set #ignore_iframes stellarity.misc 1
+tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add kohara.attacker
 
-tag @s add stellarity.damage.natures_wrath
-
-tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add stellarity.damage.attacker
-
-function stellarity:utils/damage/start
+function kohara:damage/calculate {armor_penetration:35,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

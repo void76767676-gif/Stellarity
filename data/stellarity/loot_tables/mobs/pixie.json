@@ -36,7 +36,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.custom_mob_death_sound:1b,stellarity.custom_mob_death_sound_id:\"pixie\"}"
+							"tag": "{kohara.mob_death_sound:1b,kohara.mob_death_sound_id:\"pixie\"}"
 						}
 					]
 				}

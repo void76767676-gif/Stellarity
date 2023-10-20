@@ -6,4 +6,4 @@ tag @e[type=minecraft:marker,tag=stellarity.dragons_den_chest,tag=!stellarity.ma
 
 tellraw @s ["\n",{"translate":"stellarity.messages.cmd.fix_markers","fallback":"Fixed all loaded Stellarity markers","color":"#DD6AFF","bold":false},"\n"]
 
-function stellarity:utils/send_command_feedback/off
+function kohara:send_command_feedback/off

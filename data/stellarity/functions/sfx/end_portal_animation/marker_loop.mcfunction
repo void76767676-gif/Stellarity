@@ -1,7 +1,7 @@
 # Post-animation loop for extra details, like orbiting Eyes and ambient sounds
 
 # Prevent Eyes of Ender being placed back into frames
-execute if predicate stellarity:utils/end_portal_eye_delete run function stellarity:sfx/end_portal_animation/fill_stop/checks
+execute if predicate kohara:end_portal_eye_delete run function stellarity:sfx/end_portal_animation/fill_stop/checks
 
 tp @s ~ ~ ~ ~0.25 ~
 execute as @e[type=armor_stand,tag=stellarity.end_portal_animation.eye,limit=12,sort=nearest,distance=..6] at @s facing entity @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_portal] eyes run tp @s ~ ~ ~ ~ ~
@@ -20,4 +20,4 @@ execute rotated ~300 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_anim
 execute rotated ~330 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_animation.eye_12,limit=1,sort=nearest] ^ ^-2 ^5
 
 particle mycelium ~ ~-1.65 ~ .8 0 .8 0 1 normal
-execute if predicate stellarity:utils/chance/3percent run particle sculk_soul ~ ~-1.65 ~ .8 0 .8 0 3 normal
+execute if predicate kohara:chance/3percent run particle sculk_soul ~ ~-1.65 ~ .8 0 .8 0 3 normal

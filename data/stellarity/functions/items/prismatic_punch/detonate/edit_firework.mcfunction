@@ -30,4 +30,4 @@ scoreboard players set #dot.delay stellarity.misc 20
 scoreboard players set #19 stellarity.misc 19
 scoreboard players operation #dot.time stellarity.misc += #19 stellarity.misc
 
-execute as @e[type=!#stellarity:invalid_targets,distance=..2.75] run function stellarity:utils/dot/prismatic_inferno/apply
+execute as @e[type=!#kohara:invalid_targets,distance=..2.75] run function stellarity:utils/status_effects/prismatic_inferno/apply

@@ -96,7 +96,7 @@
 				},
 				{
 					"type": "minecraft:tag",
-					"name": "stellarity:corals",
+					"name": "kohara:corals",
 					"expand": true,
 					"functions": [
 						{

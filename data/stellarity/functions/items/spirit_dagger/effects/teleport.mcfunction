@@ -38,7 +38,7 @@ execute store result score #temp_2 stellarity.misc run data get entity @s Invent
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
 
-execute as @e[type=!#stellarity:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!stellarity:utils/player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
+execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
 # Visuals
 function stellarity:items/spirit_dagger/effects/teleport/visuals

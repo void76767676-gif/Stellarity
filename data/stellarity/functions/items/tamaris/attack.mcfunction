@@ -7,4 +7,4 @@ scoreboard players operation #dot.damage stellarity.misc += #enchant stellarity.
 scoreboard players set #dot.time stellarity.misc 121
 scoreboard players set #dot.delay stellarity.misc 30
 
-execute as @e[type=!#stellarity:invalid_targets,distance=0.1..10,nbt={HurtTime:10s},limit=1,sort=nearest] run function stellarity:utils/dot/dark_decay/apply
+execute as @e[type=!#kohara:invalid_targets,distance=0.1..10,nbt={HurtTime:10s},limit=1,sort=nearest] run function stellarity:utils/status_effects/dark_decay/apply

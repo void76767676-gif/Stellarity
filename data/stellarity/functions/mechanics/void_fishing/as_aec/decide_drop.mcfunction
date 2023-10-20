@@ -6,11 +6,11 @@ scoreboard players set #catch.pufferfish stellarity.misc 0
 
 # Whether to replace default loot table with Fisher of Voids
 # 3% chance
-execute if predicate stellarity:utils/chance/3percent run scoreboard players set #catch.fisher_of_voids stellarity.misc 1
+execute if predicate kohara:chance/3percent run scoreboard players set #catch.fisher_of_voids stellarity.misc 1
 
 # Whether to replace default loot table with a collectible Pufferfish
 # 1% chance
-execute if predicate stellarity:utils/chance/1percent run scoreboard players set #catch.pufferfish stellarity.misc 1
+execute if predicate kohara:chance/1percent run scoreboard players set #catch.pufferfish stellarity.misc 1
 
 # And now for the drops...
 # Drop regular loot if both variables are 0

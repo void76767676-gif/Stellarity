@@ -16,7 +16,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "stellarity:glass_from_end_stone"
+				"recipe": "kohara:glass_from_end_stone"
 			}
 		}
 	},
@@ -28,7 +28,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"stellarity:glass_from_end_stone"
+			"kohara:glass_from_end_stone"
 		]
 	}
 }

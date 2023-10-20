@@ -1,4 +1,4 @@
-data merge entity @s {Item:{tag:{stellarity.fireproof:1b,display:{Name:\
+data merge entity @s {Item:{tag:{kohara.fireproof:1b,display:{Name:\
 	'{"translate":"block.minecraft.dragon_egg","color":"#6F0085","italic":false}',\
 	Lore:[\
 	'{"text":" "}',\

@@ -23,7 +23,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "stellarity:shulker_boxes",
+						"tag": "kohara:shulker_boxes",
 						"nbt": "{RepairCost:0}"
 					}
 				]

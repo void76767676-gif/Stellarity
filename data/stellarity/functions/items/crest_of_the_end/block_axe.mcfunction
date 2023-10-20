@@ -9,4 +9,4 @@ particle minecraft:dragon_breath ~ ~ ~ 1.75 1.75 1.75 0.05 200 normal
 
 playsound minecraft:entity.generic.explode player @a
 
-execute as @e[type=!#stellarity:invalid_targets,distance=0.01..3.5] run function stellarity:items/crest_of_the_end/explosion
+execute as @e[type=!#kohara:invalid_targets,distance=0.01..3.5] run function stellarity:items/crest_of_the_end/explosion

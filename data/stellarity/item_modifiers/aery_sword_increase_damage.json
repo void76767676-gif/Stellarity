@@ -23,7 +23,7 @@
 			},
 			{
 				"source": "aery_sword.fireproof",
-				"target": "\"stellarity.fireproof\"",
+				"target": "\"kohara.fireproof\"",
 				"op": "replace"
 			},
 			{

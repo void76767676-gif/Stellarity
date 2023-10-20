@@ -19,7 +19,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"sharanga\",stellar_durability:{enabled:1b,max_dur:424}}"
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"sharanga\",kohara.durability:{enabled:1b,max_dur:424}}"
 						},
 						{
 							"function": "minecraft:set_lore",

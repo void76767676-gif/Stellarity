@@ -12,6 +12,6 @@ scoreboard players set #temp2 stellarity.misc 2
 scoreboard players operation @s stellarity.misc /= #temp stellarity.misc
 scoreboard players operation @s stellarity.misc *= #temp2 stellarity.misc
 
-execute as @e[type=!#stellarity:invalid_targets,distance=..3] run function stellarity:items/sharanga/damage
+execute as @e[type=!#kohara:invalid_targets,distance=..3] run function stellarity:items/sharanga/damage
 
 kill @s

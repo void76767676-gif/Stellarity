@@ -1,8 +1,3 @@
-scoreboard players set #damage stellarity.misc 40
+scoreboard players set #damage kohara.misc 40
 
-scoreboard players set #armor_penetration stellarity.misc 80
-scoreboard players set #ignore_iframes stellarity.misc 1
-
-tag @s add stellarity.damage.carcanet
-
-function stellarity:utils/damage/start
+function kohara:damage/calculate {armor_penetration:80,damage_boost_efficiency:0,damage_type:"stellarity:carcanet",tag:"stellarity.damage.carcanet"}

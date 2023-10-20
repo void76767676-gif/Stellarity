@@ -8,7 +8,7 @@ scoreboard players set @s stellarity.items.prismember.cooldown 18
 
 # Spin damage
 function stellarity:items/prismember/spin/get_damage
-execute as @e[type=!#stellarity:invalid_targets,distance=0.001..3.5] at @s run function stellarity:items/prismember/spin/damage
+execute as @e[type=!#kohara:invalid_targets,distance=0.001..3.5] at @s run function stellarity:items/prismember/spin/damage
 
 function stellarity:items/prismember/charge/reset_charge
 scoreboard players reset @s stellarity.items.prismember.until_charge_reset

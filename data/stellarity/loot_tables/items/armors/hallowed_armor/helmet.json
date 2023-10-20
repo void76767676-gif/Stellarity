@@ -50,7 +50,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"hallowed_armor\",display:{color:16768338},HideFlags:64,stellar_durability:{enabled:1b,max_dur:407},stellarity.fireproof:1b}"
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"hallowed_armor\",display:{color:16768338},HideFlags:64,kohara.durability:{enabled:1b,max_dur:407},kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_attributes",

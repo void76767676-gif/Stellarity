@@ -1,14 +1,9 @@
-# Damage is set in 'spin/start'
+# Damage is set in 'spin/start', hence
+# the 0% bonus efficiency
 
-scoreboard players set #armor_penetration stellarity.misc 50
-scoreboard players set #ignore_iframes stellarity.misc 1
-scoreboard players set #damage_boost_efficiency stellarity.misc 0
+tag @p[predicate=stellarity:items/holding_prismember,distance=0.001..] add kohara.attacker
 
-tag @s add stellarity.damage.prismember
-
-tag @p[predicate=stellarity:items/holding_prismember,distance=0.001..] add stellarity.damage.attacker
-
-function stellarity:utils/damage/start
+function kohara:damage/calculate {armor_penetration:50,damage_boost_efficiency:0,damage_type:"stellarity:prismember",tag:"stellarity.damage.prismember"}
 
 # Prismatic Inferno
 scoreboard players set #dot.damage stellarity.misc 15
@@ -20,4 +15,4 @@ scoreboard players operation #dot.time stellarity.misc += #enchant stellarity.mi
 scoreboard players set #19 stellarity.misc 19
 scoreboard players operation #dot.time stellarity.misc += #19 stellarity.misc
 
-function stellarity:utils/dot/prismatic_inferno/apply
+function stellarity:utils/status_effects/prismatic_inferno/apply

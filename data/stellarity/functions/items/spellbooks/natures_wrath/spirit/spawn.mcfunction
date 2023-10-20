@@ -13,7 +13,7 @@ execute store result score #length stellarity.misc run data get storage stellari
 scoreboard players set in stellarity.misc 1
 scoreboard players operation in1 stellarity.misc = #length stellarity.misc
 scoreboard players reset out stellarity.misc
-execute unless score #length stellarity.misc matches 1 run function stellarity:utils/rng/range
+execute unless score #length stellarity.misc matches 1 run function kohara:rng/range
 
 execute if score #length stellarity.misc matches 1 run data modify storage stellarity:temp "natures_wrath.chosen" set value "normal"
 execute if score out stellarity.misc matches 1 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[0]

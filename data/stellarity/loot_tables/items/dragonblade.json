@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"dragonblade\",Unbreakable:1b,CustomModelData:90000,HideFlags:6,stellarity.fireproof:1b}"
+							"tag": "{stellarity.special_item:\"dragonblade\",Unbreakable:1b,CustomModelData:90000,HideFlags:6,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_name",

@@ -1,8 +1,8 @@
 {
 	"values": [
+		"kohara:armor_piercing",
 		"stellarity:kaleidoscope",
 		"stellarity:dragonblade",
-		"stellarity:armor_piercing",
 		"#stellarity:dot"
 	]
 }

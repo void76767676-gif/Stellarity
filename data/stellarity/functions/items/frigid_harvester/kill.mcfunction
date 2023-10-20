@@ -1,4 +1,4 @@
-execute store result score #damage stellarity.misc run data get entity @s SelectedItem.tag."stellarity.aery_sword.damage" 100
+execute store result score #damage kohara.misc run data get entity @s SelectedItem.tag."stellarity.aery_sword.damage" 100
 
 # Mostly passive mobs
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={minor=true}}] run \
@@ -22,9 +22,9 @@ execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword=
 execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={boss=true}}] run \
 	scoreboard players set #damage_extra stellarity.misc 67
 
-execute if score #damage stellarity.misc matches ..1699 run function stellarity:items/frigid_harvester/scale
-execute if score #damage stellarity.misc matches 1700.. run tag @s add stellarity.anima_conduit
-execute if score #damage stellarity.misc matches 1700.. run schedule function stellarity:items/frigid_harvester/abilities/anima_conduit_scheduled 1t append
+execute if score #damage kohara.misc matches ..1699 run function stellarity:items/frigid_harvester/scale
+execute if score #damage kohara.misc matches 1700.. run tag @s add stellarity.anima_conduit
+execute if score #damage kohara.misc matches 1700.. run schedule function stellarity:items/frigid_harvester/abilities/anima_conduit_scheduled 1t append
 
 tag @s add stellarity.items.frigid_harvester.remove_adv
 schedule function stellarity:items/frigid_harvester/remove_adv/schedule 1t append

@@ -3,7 +3,7 @@ scoreboard players add @s stellarity.items.ender_insignia.hold_duration 1
 # Removing effects
 execute if entity @s[nbt={HurtTime:9s}] run function stellarity:items/ender_insignia/hurt
 
-execute if entity @s[predicate=!stellarity:utils/player/is_sneaking,tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/stop_sneaking
+execute if entity @s[predicate=!kohara:player/is_sneaking,tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/stop_sneaking
 execute if entity @s[predicate=!stellarity:items/trinkets/holding_ender_insignia,tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/stop_sneaking
 
 execute if score @s stellarity.items.ender_insignia.hold_duration matches 1 run playsound minecraft:block.beacon.activate player @a[distance=0..] ~ ~ ~

@@ -22,7 +22,7 @@
 			"conditions": {
 				"items": [
 					{
-						"tag": "stellarity:colored_shulker_boxes"
+						"tag": "kohara:colored_shulker_boxes"
 					}
 				]
 			}

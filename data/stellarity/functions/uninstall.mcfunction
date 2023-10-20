@@ -59,11 +59,11 @@ scoreboard objectives remove stellarity.misc
 scoreboard objectives remove stellarity.misc2
 scoreboard objectives remove stellarity.misc.end_portal_animation
 scoreboard objectives remove stellarity.misc.end_portal_bg_loop
-scoreboard objectives remove stellarity.misc.shot_bow
-scoreboard objectives remove stellarity.misc.used_ender_pearl
-scoreboard objectives remove stellarity.misc.flight_speed
+scoreboard objectives remove kohara.shot_bow
+scoreboard objectives remove kohara.used_ender_pearl
+scoreboard objectives remove kohara.flight_speed
 scoreboard objectives remove stellarity.misc.respawn_detection
-scoreboard objectives remove stellarity.misc.time_since_rest 
+scoreboard objectives remove kohara.time_since_rest 
 scoreboard objectives remove stellarity.misc.motion.x1
 scoreboard objectives remove stellarity.misc.motion.x2
 scoreboard objectives remove stellarity.misc.motion.y1

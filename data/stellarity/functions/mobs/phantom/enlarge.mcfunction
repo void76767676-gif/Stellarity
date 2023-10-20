@@ -3,7 +3,7 @@ scoreboard players set #hour stellarity.misc 72000
 scoreboard players set #half_hour stellarity.misc 36000
 
 # Transform time since last rest from ticks to hours
-scoreboard players operation #last_rest stellarity.misc = @p stellarity.misc.time_since_rest
+scoreboard players operation #last_rest stellarity.misc = @p kohara.time_since_rest
 scoreboard players operation #last_rest stellarity.misc -= #hour stellarity.misc 
 execute if score #last_rest stellarity.misc matches ..0 run scoreboard players set #last_rest stellarity.misc 0
 

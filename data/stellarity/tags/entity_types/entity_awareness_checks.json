@@ -1,7 +1,7 @@
 {
 	"replace": false,
 	"values": [
-		"#stellarity:ammo",
+		"#kohara:ammo",
 		"#stellarity:stat_buff",
 		"minecraft:allay",
 		"minecraft:vex",

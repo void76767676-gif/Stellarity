@@ -96,7 +96,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}],HideFlags:1,stellarity.special_item:\"pufferfish\",stellarity.fireproof:1b}"
+							"tag": "{Enchantments:[{id:\"aqua_affinity\",lvl:1}],HideFlags:1,stellarity.special_item:\"pufferfish\",kohara.fireproof:1b}"
 						}
 					]
 				}

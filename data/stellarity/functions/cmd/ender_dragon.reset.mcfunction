@@ -6,4 +6,4 @@ tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal] add fe.deactiv
 
 tellraw @s ["\n",{"translate":"stellarity.messages.cmd.reset_ender_dragon","fallback":"Reset the Ender Dragon","color":"#DD6AFF","bold":true},"\n"]
 
-function stellarity:utils/send_command_feedback/off
+function kohara:send_command_feedback/off

@@ -1,4 +1,4 @@
-execute if entity @s[predicate=stellarity:utils/player/is_sneaking] \
+execute if entity @s[predicate=kohara:player/is_sneaking] \
 	unless score @s stellarity.items.prismember.cooldown matches 1.. run \
 	function stellarity:items/prismember/charge/main
 

@@ -1,3 +1,3 @@
-scoreboard objectives add stellarity.status_effect.jinx.time dummy
-scoreboard objectives add stellarity.status_effect.jinx.level dummy
-scoreboard objectives add stellarity.status_effect.jinx.particle dummy
+scoreboard objectives add stellarity.status_effects.jinx.time dummy
+scoreboard objectives add stellarity.status_effects.jinx.level dummy
+scoreboard objectives add stellarity.status_effects.jinx.particle dummy

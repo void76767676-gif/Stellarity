@@ -1,5 +1,5 @@
 item replace entity @s weapon with iron_sword
-execute if predicate stellarity:utils/chance/22percent run item replace entity @s weapon with bow
+execute if predicate kohara:chance/22percent run item replace entity @s weapon with bow
 
 attribute @s minecraft:generic.attack_damage modifier add e02b5f9f-6b28-43b8-9b3a-05d5b32ea718 "stellarity.damage_boost" 0.2 multiply_base
 attribute @s minecraft:generic.max_health modifier add 44f2f651-1e6f-4aa9-9f17-92021947fc70 "stellarity.health_boost" 8 add

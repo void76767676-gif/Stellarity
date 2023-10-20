@@ -86,7 +86,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90000,stellarity.special_item:\"shulker_tool\",stellar_durability:{enabled:1b,max_dur:2701},HideFlags:6}"
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"shulker_tool\",kohara.durability:{enabled:1b,max_dur:2701},HideFlags:6}"
 						},
 						{
 							"function": "minecraft:set_name",

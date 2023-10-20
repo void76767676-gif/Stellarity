@@ -10,4 +10,4 @@ particle dust_color_transition 0.733 0 1 1.33 0.106 0 0.145 ^ ^-1 ^-1 0 0 0 0 1 
 
 execute positioned ~ ~-1 ~ if block ~ ~ ~ end_portal_frame[eye=true] run function stellarity:mechanics/altar_of_accursed/sfx/replace_eye
 
-execute if predicate stellarity:utils/chance/33percent run particle enchant ~ ~ ~ 0 0 0 1 1 force @a[distance=..32]
+execute if predicate kohara:chance/33percent run particle enchant ~ ~ ~ 0 0 0 1 1 force @a[distance=..32]

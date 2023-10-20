@@ -86,10 +86,6 @@ scoreboard objectives add stellarity.items.tamaris.execute_cooldown dummy
 
 scoreboard objectives add stellarity.items.chorus_dagger.cooldown dummy
 
-scoreboard objectives add stellarity.custom_particle.despawn dummy
-scoreboard objectives add stellarity.custom_particle.display dummy
-scoreboard objectives add stellarity.custom_particle.spread.pos dummy
-
 ## Mobs
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy
@@ -119,11 +115,6 @@ scoreboard objectives add stellarity.misc3 dummy
 scoreboard objectives add stellarity.misc.end_portal_animation dummy
 scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy
 
-scoreboard objectives add stellarity.misc.shot_bow minecraft.used:minecraft.bow
-scoreboard objectives add stellarity.misc.used_ender_pearl minecraft.used:minecraft.ender_pearl
-scoreboard objectives add stellarity.misc.flight_speed minecraft.custom:minecraft.aviate_one_cm
-scoreboard objectives add stellarity.misc.respawn_detection minecraft.custom:minecraft.deaths
-scoreboard objectives add stellarity.misc.time_since_rest minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add stellarity.misc.motion.x1 dummy
 scoreboard objectives add stellarity.misc.motion.x2 dummy
 scoreboard objectives add stellarity.misc.motion.y1 dummy
@@ -188,15 +179,10 @@ schedule function stellarity:loops/timed/1_second 1s append
 schedule function stellarity:loops/timed/5_second 5s append
 
 # Initialize RNG
-function stellarity:utils/rng/init
+function kohara:rng/init
 
 # Get world difficulty
 execute store result score #difficulty stellarity.misc run difficulty
 
 # Initialize all DOT related scoreboards
-# Keeping them as separate files for the sake of easier management
-function #stellarity:dot/load
-# Same applies to status effects
-function #stellarity:status_effects/load
-
 data modify storage stellarity:temp spellbook_fix set value 1b

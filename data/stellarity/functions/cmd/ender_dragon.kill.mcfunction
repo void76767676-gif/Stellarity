@@ -3,4 +3,4 @@ function far_end:mobs/ender_dragon/phase/transition/killed
 
 tellraw @s ["\n",{"translate":"stellarity.messages.cmd.kill_ender_dragon","fallback":"Successfully slain the Ender Dragon, cheating for the win!","color":"#DD6AFF","bold":true},"\n"]
 
-function stellarity:utils/send_command_feedback/off
+function kohara:send_command_feedback/off
