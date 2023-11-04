@@ -6,7 +6,7 @@ The **Dragonblade** is a post-Dragon greatsword with the ability to trigger a po
 
 <i class="icon-minecraft icon-minecraft-enchanted-book"></i> The Dragonblade can be enchanted with any Sword enchantment. Knockback enchantment further empowers its punch ability.
 
-<i class="icon-minecraft icon-minecraft-anvil"></i> The Dragonblade is unbreakable and cannot be repaired or fused in an Anvil.
+<i class="icon-minecraft icon-minecraft-anvil"></i> The Dragoblade is unbreakable and cannot be repaired with an Anvil. However, <i class="icon-minecraft icon-minecraft-enchanted-book"></i>Enchanted Books can be fused with the Dragonblade to transfer enchantments.
 
 <br><br>
 
@@ -48,16 +48,16 @@ The **Dragonblade** is a post-Dragon greatsword with the ability to trigger a po
 </div>
 
 ## Obtaining
-After defeating the Ender Dragon for the first time, the Dragonblade will spawn stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed). It can be picked up by anyone with right-click.
+After defeating the Ender Dragon for the first time, the Dragonblade spawns stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed). It can be picked up by anyone with right-click.
 
 Only one Dragonblade generates on each world, making it the rarest item in the entire datapack.
 
 ## Usage
-Hitting enemies inflicts Dragon Stacks. The amount of Stacks an enemy has at the given moment is represented by a purple sphere above their head - brighter color is equal to more stacks. After inflicting 3 Stacks in total, player can sneak while holding the sword to trigger a powerful punch. Stacks are reset after 16 seconds have passed or after a succesful punch.
+Attacking enemies inflicts Dragon Stacks. After inflicting 3 Stacks are inflicted, player can sneak while holding the Dragonblade to perform a powerful punch. Stacks are reset after 16 seconds have passed or after a punch is triggered.
 
-Punching warps affected entity 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. Punches have 60% armor penetration, meaning that a huge portion of the damage completely ignores enemy armor.
+Punching warps affected entity 6.6 blocks away from the player. Mobs can't be warped through blocks, stopping in front of them instead. Punch deals 7:heart: х ₃.₅ of base damage. Punches have 70% armor penetration, meaning that a huge portion of the damage completely ignores enemy armor.
 
-Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to move, but it doesn't prevent them form jumping or attacking with ranged weapons.
+Punched enemies will also have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to move, but it doesn't prevent them form jumping or attacking with ranged weapons. Additionaly, punched mob will be cursed with [Voided I](../mechanics/status_effects#voided) for the next 6 seconds.
 
 If an enemy is punched into blocks, the damage is boosted to 24:heart: x ₁₂. The duration of Weakness is also increased to 11 seconds and punched mobs are stunned for 2 seconds. Enemies nearby punched mob take 4:heart::heart: splash damage, while also being afflicted with Weakness I for 3 seconds.
 
@@ -67,12 +67,27 @@ Punched mobs cannot have stacks applied to them for the next 8 seconds, indicate
 
 Punches receive only 40% of melee damage bonuses. Strength Potions do not increase punch damage, only boosting base weapon damage instead. 
 
+The Dragonblade is unbreakable on top of being immune to lava, fire, explosions and cacti. Additionaly, it automatically returns to the Altar of The Accursed if dropped away from it, meaning that it is truly indestructible.
+
 ## Tips
 - Dragonblade is extremely slow compared to other weapons, meaning that accuracy is of high importance.
 - Only direct melee hits are the only option for using it as efficiently as possible.
 	- Due to how Dragonblade works, enchanting it with Sweeping Edge allows it to apply Stacks to multiple enemies at once with the sweep attack.
 - Knockback II <i class="icon-stellarity icon-stellarity-dragonblade"></i>Dragonblade deals 32:heart: х ₁₆ damage on punches into blocks. Do keep in mind that 60% of that damage ignores armor completely, meaning that mobs with unenchanted Netherite Armor and 20 health or less can die in a single punch.
 - As the Dragonblade is unbreakable, enchanting it with Unbreaking or Mending is redundant. Don't bother wasting your Enchanted Books.
+
+## Sounds
+| Sound | Name | Description | Subtitle | Resource location |
+| :--- | :--- | :--- | :--- | :--- |
+| <audio controls src="../../assets/sounds/dragonblade/punch.ogg" style="max-width: 100%; width: 180px;"> | Punch Prepare | Plays when initiating the punch. | :x: | `item.dragonblade.punch` |
+| <audio controls src="../../assets/sounds/dragonblade/damage.ogg" style="max-width: 100%; width: 180px;"> | Punch Damage | Plays when punched entity takes damage. | :x: | `item.dragonblade.damage` |
+| <audio controls src="../../assets/sounds/dragonblade/drop.ogg" style="max-width: 100%; width: 180px;"> | Drop | Plays when the Dragonblade is right-clicked while stuck in the Altar of The Accursed. | :x: | `item.dragonblade.drop` |
+
+## Advancements
+| Icon | Title | Description | Parent | Actual requirements (if different) | Rewards | Resource Location |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | :x: | `stellarity:aota/obtain_draonblade` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | 50 EXP | `stellarity:aota/kaliyah` |
 
 ## Trivia
 - The methods of obtaining the Dragonblade differed greatly throughout its development.
@@ -96,19 +111,6 @@ Punches receive only 40% of melee damage bonuses. Strength Potions do not increa
 - The Dragonblade is one of the 4 unbreakable items in Stellarity, the other 3 being [Ancient Wooden Sword](ancient_wooden_sword.md), maxed out [Frigid Harvester](frigid_harvester.md) and [Kaleidoscope](kaleidoscope.md).
 - The sound made when the Dragonblade is dropped is the sound made when the Obsidian Claymore[^4] drops in Minecraft: Dungeons.
 
-## Sounds
-| Sound | Name | Description | Subtitle | Resource location |
-| :--- | :--- | :--- | :--- | :--- |
-| <audio controls src="../../assets/sounds/dragonblade/punch.ogg" style="max-width: 100%; width: 180px;"> | Punch Prepare | Punched when initiating the punch. | :x: | `item.dragonblade.punch` |
-| <audio controls src="../../assets/sounds/dragonblade/damage.ogg" style="max-width: 100%; width: 180px;"> | Punch Damage | Plays when punched entity takes damage. | :x: | `item.tamaris.damage` |
-| <audio controls src="../../assets/sounds/dragonblade/drop.ogg" style="max-width: 100%; width: 180px;"> | Drop | Plays when the Dragonblade is right-clicked while stuck in the Altar of The Accursed. | :x: | `item.dragonblade.drop` |
-
-## Advancements
-| Icon | Title | Description | Parent | Actual requirements (if different) | Rewards | Resource Location |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | <span style="color: #CD6AFF;">Dragonborn</span> | Obtain the Dragonblade, a legendary sword forged in the furthest corners of The End | An Introduction to Dark Magic | :x: | :x: | `stellarity:aota/obtain_draonblade` |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-dragonblade"></i></div> | KALIYAAAAH! | Deal maximum damage possible with a Dragonblade's punch<br><span style="color: #727272">ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɢʀᴇᴀᴛʟʏ ɪɴᴄʀᴇᴀѕᴇѕ ɪᴛ</span> | <span style="color: #CD6AFF;">Dragonborn</span> | Deal 32 or more damage with a single punch. | 50 EXP | `stellarity:aota/kaliyah` |
-
 ## History
 === "**v2.1a**"
 	- Now immune to any form of item destruction, except for being destroyed by the void.
@@ -118,6 +120,9 @@ Punches receive only 40% of melee damage bonuses. Strength Potions do not increa
 	- Punch damage no longer gets reduced by Blast Protection.
 	- Updated sounds and punch visual effect.
 	- Added a few new death messages.
+	- Punches now inflict Voided I for 6 seconds.
+	- Increased punch damage armor penetration (60% -> 70%).
+	- Reduced splash damage radius (3 blocks -> 2.75 blocks)
 
 === "**v2.0c**"
 	- Debuffs from punches are now applied before dealing damage.

@@ -37,7 +37,7 @@
 </div>
 
 ## Obtaining
-Librarians in [End Villages](../structures/end_village.md) can turn any Enchanted Book into Nature's Wrath for 12 <i class="icon-minecraft icon-minecraft-oak-sapling"></i>Oak Saplings. However, only half of them sell the Spellbook.
+Librarians in [End Villages](../../structures/end_village.md) can turn any Enchanted Book into Nature's Wrath for 12 <i class="icon-minecraft icon-minecraft-oak-sapling"></i>Oak Saplings. However, only half of them sell the Spellbook.
 
 ## Usage
 ### Nature's Spirits

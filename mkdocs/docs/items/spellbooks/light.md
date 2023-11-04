@@ -35,7 +35,7 @@
 ## Obtaining
 Book of Light has a 15% chance to be dropped by Evokers in [Strongholds](../../structures/stronghold.md). This chance is boosted by 3% for every level of Looting, for a maximum of 21%. However due to the drop being randomly chosen between [Book of Conveyance](conveyance.md), Light and [Updraft](updraft.md), this chance is about 1/3rd of this.
 
-Librarians in [End Villages](../structures/end_village.md) can turn any Enchanted Book into Books of Light for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
+Librarians in [End Villages](../../structures/end_village.md) can turn any Enchanted Book into Books of Light for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
 ## Usage
 Right-clicking creates a healing aura with a radius of 5.5 blocks. Any player who steps inside will get Regeneration II and Resistance I. They will also be cured from Weakness and Slowness debuffs.

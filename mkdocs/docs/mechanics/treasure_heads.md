@@ -70,13 +70,12 @@ Treasure Heads serve no purpose other than being fun collectibles.
 
 ## Trivia
 - Before 2.0a, there used to be 105 Treasure Heads total, with some being borrowed from [Dungeon Now Loading](https://www.planetminecraft.com/data-pack/dungeon-now-loading-5-new-dungeons-5-new-bosses/) datapack.
-- ArubikU currently has 4 Treasure Heads of theirs added into Stellarity, while the limit for Head submissions was 3.
-    - This was due to kohara's oversight in counting, resulting in 4th Head being added. However, he decided not to fix it.
+- ArubikU currently has 4 Treasure Heads of theirs added into Stellarity, while the maximum number of submissions was 3.
+    - This was due to kohara's oversight while counting, resulting in 4th Head being added. However, he decided not to remove it.
 - Treasure Heads of TheTechnoFakerz and Zichee will always generate toghether in one Chest.
     - This was done per request of TheTechnoFakerz (Oreki) on Discord.
-- MrBoopkins' quote `'Kinda dating a frog'` might possibly be a reference to a discussion that was started in #event-chat channel about frogs with the ability to change genders.
-- Treasure Heads were first special mechanic added to Stellarity, dating back as far as version 1.1a.
-    - Since their public release, they haven't been changed for almost a year, not until 2.0a.
+- Treasure Heads were first special mechanic added to Stellarity, dating back as far as version v1.1a.
+    - Since their public release, they haven't been changed for almost a year, not until v2.0a and then v2.1a.
 
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Resource Location |
@@ -85,9 +84,9 @@ Treasure Heads serve no purpose other than being fun collectibles.
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-minecraft icon-minecraft-player-head"></i></div> | Headhunter | Find EVERY collectible Head | Treasure Room | Have every of the 55 Heads at least once in your inventory | `stellarity:end_city/treasure_room` |
 
 ## History
-- **2.0a**
-    - Removed 105 previous Treasure Heads and replaced them with 55 new ones
-    - Reformatted loot table file used for drawing Treasure Heads
+- **v2.0a**
+    - Removed 105 previous Treasure Heads and replaced them with 55 new ones.
+    - Reformatted loot table file used for drawing Treasure Heads.
 
-- **1.1a**
-    - Introduced
+- **v1.1a**
+    - Introduced.

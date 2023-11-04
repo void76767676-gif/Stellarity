@@ -1,6 +1,6 @@
 ---
-	title: Template - Biome Infobox
-	summary: Infobox template for biomes, for use with CTRL + C and CTRL + V
+	title: Template - Armor Infobox
+	summary: Infobox template for armor.
 	authors:
 		- kohara
 ---

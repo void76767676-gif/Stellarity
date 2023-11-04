@@ -52,7 +52,7 @@ Wearing a full set of Ancient Armor grants player a set bonus, which increases d
 ## Obtaining
 Pieces of Ancient Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
 
-Each piece of Ancient Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4/8/7/5 [Ancient Plating](../materials/ancient_ingot.md).
+Each piece of Ancient Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4/8/7/5 [Ancient Plating](../materials/ancient_plating.md).
 
 
 ## Set Bonus
@@ -73,7 +73,7 @@ Additionally, running with a full set of Ancient Armor will produce a purely cos
 - The damage and attack speed bonuses stack with the ones of the [Duskberry](../trinkets/duskberry.md), which makes for a destructive build.
 
 ## Trivia
-- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>Ancient Armor, <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../other/living_flesh.md) were the first items to have ever been added into Stellarity.
+- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>Ancient Armor, <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md) and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../trinkets/living_flesh.md) were the first items to have ever been added into Stellarity.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as v1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before v1.5a.
         - It was officialy removed as of vIndev-1.6a.

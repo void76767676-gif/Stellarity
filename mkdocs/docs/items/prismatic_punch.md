@@ -85,7 +85,7 @@ Prismatic Inferno lasts for 3 seconds, dealing 1:heart: х ₀.₇₅ damage eve
 - This is the second Crossbow to get added, first being the [Clockwork Crossbow](clockwork_crossbow.md).
 - According to one of Ender Expansion's texture artists - YaGirlGiulles - the color palette is based on trans pride flag[^1].
     - They are also a reference to colors of [Last Prism](https://terraria.wiki.gg/wiki/Last_Prism), a Terraria item.
-- During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](other/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
+- During some time in its development, Prismatic Punch was craftable at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by using a <i class="icon-minecraft icon-minecraft-crossbow"></i>Crossbow, 24 <i class="icon-stellarity icon-stellarity-pixie-dust"></i>[Pixie Dust](materials/pixie_dust.md) and 6 <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds
 
 ## History
 = "**v2.0c**"

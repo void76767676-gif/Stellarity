@@ -1,6 +1,6 @@
 ---
-	title: Template - Biome Infobox
-	summary: Infobox template for biomes, for use with CTRL + C and CTRL + V
+	title: Template - Item Infobox
+	summary: Infobox template for items.
 	authors:
 		- kohara
 ---
@@ -23,15 +23,19 @@
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>speed</td>
+		<td>10</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
-		<td>lore</td>
+		<td>tooltip</td>
 	</tr>
 	<tr>
 		<td><b>Durability</b></td>
 		<td>1000</td>
+	</tr>
+	<tr>
+		<td><b>Other</b></td>
+		<td>+100</td>
 	</tr>
 </table>
 </div>

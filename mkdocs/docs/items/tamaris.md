@@ -82,6 +82,20 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
 
 	Boss Datapack developers can add the `stellarity.boss` tag to their boss entity. This does the same thing as extending the tag, but only for one particular entity.
 
+## Sounds
+| Sound | Name | Description | Subtitle | Resource location |
+| :--- | :--- | :--- | :--- | :--- |
+| <audio controls src="../../assets/sounds/tamaris/execute.ogg" style="max-width: 100%; width: 180px;"> | Execute | Plays when the execute ability is triggered | `Tamaris executes` | `item.tamaris.execute` |
+| <audio controls src="../../assets/sounds/tamaris/execute_special.ogg" style="max-width: 100%; width: 180px;"> | Execute Special | Plays when the execute ability is triggered by players named `kohara_`. | `kohy slays` | `item.tamaris.execute_special` |
+| <audio controls src="../../assets/sounds/tamaris/execute_bg.ogg" style="max-width: 100%; width: 180px;"> | Execute Background | Plays alongside regular execute sounds. | :x: | `item.tamaris.execute_bg` |
+| <audio controls src="../../assets/sounds/tamaris/dance.ogg" style="max-width: 100%; width: 180px;"> | Execute Rave | Played only when a player named `kohara_` executes another player. | :x: | `item.tamaris.rave` |
+
+## Advancements
+| Icon | Title | Description | Parent | Actual requirements (if different) | Rewards | Resource Location |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Disassembly | Use Tamaris to execute a mob with low health | The Next Generation | :x: | :x: | `stellarity:dragons_den/disassembly` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Kill la Kill | Trigger the Execute ability on a Warden | Disassembly | :x: | 1200 EXP | `stellarity:dragons_den/kill_la_kill` |
+
 ## Trivia
 - The execute ability deals 999 damage with 100% armor penetration instead of directly doing `/kill`.
 	- This is because `/kill` ignores <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totems of Undying.
@@ -109,20 +123,6 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
     - Its design is based on the cutlass the aforementioned OC uses.
 - <i class="icon-stellarity icon-stellarity-cursed-tome"></i> According to the [Cursed Enchiridion](cursed_tome.md), Tamaris is infused with dark destructive magic, which causes the sword to slowly decay on its own.
     - Despite this, the item doesn't change its appearance with time, neither does it lose any durability.
-
-## Sounds
-| Sound | Name | Description | Subtitle | Resource location |
-| :--- | :--- | :--- | :--- | :--- |
-| <audio controls src="../../assets/sounds/tamaris/execute.ogg" style="max-width: 100%; width: 180px;"> | Execute | Plays when the execute ability is triggered | `Tamaris executes`. | `item.tamaris.execute` |
-| <audio controls src="../../assets/sounds/tamaris/execute_special.ogg" style="max-width: 100%; width: 180px;"> | Execute Special | Plays when the execute ability is triggered by players named `kohara_`. | `kohy slays` | `item.tamaris.execute_special` |
-| <audio controls src="../../assets/sounds/tamaris/execute_bg.ogg" style="max-width: 100%; width: 180px;"> | Execute Background | Plays alongside regular execute sounds. | :x: | `item.tamaris.execute_bg` |
-| <audio controls src="../../assets/sounds/tamaris/dance.ogg" style="max-width: 100%; width: 180px;"> | Execute Rave | Played only when a player named `kohara_` executes another player. | :x: | `item.tamaris.rave` |
-
-## Advancements
-| Icon | Title | Description | Parent | Actual requirements (if different) | Rewards | Resource Location |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Disassembly | Use Tamaris to execute a mob with low health | The Next Generation | :x: | :x: | `stellarity:dragons_den/disassembly` |
-| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-tamaris"></i></div> | Kill la Kill | Trigger the Execute ability on a Warden | Disassembly | :x: | 1200 EXP | `stellarity:dragons_den/kill_la_kill` |
 
 ## History
 

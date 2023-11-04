@@ -31,7 +31,7 @@ Hallowed Ingots can be found inside any Crate fished up via [Void Fishing](../..
 
 Armorers, Weaponsmiths and Toolsmiths in [End Villages](../../structures/end_village.md) have a chance to sell 4 Hallowed Ingots for 12 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
-Alternatively, an Iron Block can be [consecrated](../../mechanics/consceration.md) into 2 Hallowed Ingots.
+Alternatively, an Iron Block can be [consecrated](../../mechanics/consecration.md) into 2 Hallowed Ingots.
 
 ## Usage
 Combining 5, 8, 7 or 4 Hallowed Ingots over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) crafts a piece of Hallowed Armor.

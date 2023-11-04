@@ -29,7 +29,6 @@ nav:
       - Frigid Harvester: items/frigid_harvester.md
       - Stella: items/stella.md
       - Kaleidoscope: items/kaleidoscope.md
-      - Ancient Wooden Sword: items/ancient_wooden_sword.md
     - Armor sets:
       - Ancient Armor: items/armor/ancient_armor.md
       - Hallowed Armor: items/armor/hallowed_armor.md
@@ -40,6 +39,9 @@ nav:
       - Duskberry: items/trinkets/duskberry.md
       - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
       - Soaring Insignia: items/trinkets/soaring_insignia.md
+      - Living Flesh: items/trinkets/living_flesh.md
+      - Copper Elektra Shield: items/trinkets/copper_elektra_shield.md
+      - Eye of The Dragon: items/trinkets/eye_of_the_dragon.md
     - Materials:
       - Pixie Dust: items/materials/pixie_dust.md
       - Ancient Plating: items/materials/ancient_plating.md
@@ -51,14 +53,42 @@ nav:
       - Nature's Wrath: items/spellbooks/natures_wrath.md
     - Other:
       - Prismatic Pearl: items/other/prismatic_pearl.md
-      - Shulker Tools: items/tools/shulker_tools.md
-  #    - Pandora's Barrel: items/other/pandoras_barrel.md
+      - Shulker Tools: items/other/shulker_tools.md
+      - Pandora's Barrel: items/other/pandoras_barrel.md
       - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
-  #    - Potions: items/other/potions.md
+      - Potions: items/other/potions.md
+    - Removed Contet:
+      - Ancient Wooden Sword: items/removed/ancient_wooden_sword.md
+      - Living Flesh (Old): items/removed/living_flesh.md
+      - Stella: items/removed/stella.md
+      - Zephyr: items/removed/zephyr.md
+  - Mobs:
+      - Changes: mobs/changes.md
+      - Pixie: mobs/pixie.md
+      - Gloop: mobs/gloop.md
+      - Bosses:
+        - Ender Dragon: mobs/bosses/ender_dragon.md
+        - Empress of Light: mobs/bosses/empress_of_light.md
   - Mechanics:
       - Treasure Heads: mechanics/treasure_heads.md
       - Void Fishing: mechanics/void_fishing.md
+      - Armor Penetration: mechanics/armor_penetration.md
+      - Altar of The Accursed: mechanics/altar_of_the_accursed.md
+      - Altar of The Sacred: mechanics/altar_of_the_sacred.md
+      - Consecration: mechanics/consecration.md
+      - Status Effects: mechanics/status_effects.md
       - Other: mechanics/other.md
+  - Structures:
+      - Stronghold: structures/stronghold.md
+      - End City: structures/end_city.md
+      - End Dungeons: structures/end_dungeon.md
+      - End Village: structures/end_village.md
+      - Chapel of Ligt: structures/chapel_of_light.md
+  - Resource Pack:
+      - Changes: resource_pack/tweaks.md
+      - End Poem: resource_pack/poem.md
+      - Credits: resource_pack/credits.md
+      - Splashes: resource_pack/splashes.md
 
 markdown_extensions:
   - extra

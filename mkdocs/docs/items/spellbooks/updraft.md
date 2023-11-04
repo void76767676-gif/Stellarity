@@ -35,7 +35,7 @@
 ## Obtaining
 Book of Updraft has a 15% chance to be dropped by Evokers in [Strongholds](../../structures/stronghold.md). This chance is boosted by 3% for every level of Looting, for a maximum of 21%. However due to the drop being randomly chosen between [Book of Conveyance](conveyance.md), [Light](light.md) and Updraft, this chance is about 1/3rd of this.
 
-Librarians in [End Villages](../structures/end_village.md) can turn any Enchanted Book into Books of Updraft for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
+Librarians in [End Villages](../../structures/end_village.md) can turn any Enchanted Book into Books of Updraft for 64 <i class="icon-minecraft icon-minecraft-emerald"></i>Emeralds.
 
 ## Usage
 Right-clicking gives its user immense vertical boost of about 22.5 blocks. Afterwards they are given the ability to glide for 7 seconds. After glide expires, Slow Falling is given until landing.
