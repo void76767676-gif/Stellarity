@@ -1,10 +1,22 @@
 {
-	"stellarity": "Stellarity",
+	// TIP:
+	// If you see ѕᴍᴀʟʟ ᴛᴇхᴛ ʟɪᴋᴇ ᴛʜɪѕ, you can use
+	// https://lingojam.com/MinecraftSmallFont
+	// to generate it for your translations!
+	// Make sure your input text is fully in lowercase characters
 
-	"stellarity.unlock_all_recipes": "Please remove any 'Unlock All Recipes' type of packs/mods, as they cause various issues with other datapacks",
+	// Don't edit these
+	// These get replaced with custom plates,
+	// which cannot really be translated
+	"Stellarity": "§fꑟ",
+	"- Donator Item -": "§fꐁ",
+	"- Developer Item -": "§fꑡ",
+	"- Member #666 Item -": "§fꐂ",
+	"- Member #777 Item -": "§fꑛ",
 
+	// Start translating from here
 	"stellarity.advancement_grant_everything": "Don't use this command",
-   
+
 	"stellarity.messages.cmd.reset_config_to_default": "All configs were reset to default!",
 	"stellarity.messages.cmd.kill_ender_dragon": "Successfully slain the Ender Dragon, cheating for the win!",
 	"stellarity.messages.cmd.reset_ender_dragon": "Reset the Ender Dragon",
@@ -24,22 +36,22 @@
 	"stellarity.mobs.pixie": "Pixie",
 	"stellarity.mobs.empress": "Empress of Light",
 
+	// Items
+	// Explorer Maps
 	"stellarity.explorer_map.end_city": "End City Explorer Map",
 	"stellarity.explorer_map.end_village": "End Village Explorer Map",
 
+	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "In The Loving Memory of Gloop",
 
-	"stellarity.items.special.donator": "Donator Item",
-	"stellarity.items.special.developer": "Developer Item",
-	"stellarity.items.special.member_666": "Member #666 Item",
-	"stellarity.items.special.member_777": "Member #777 Item",
-
+	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "It doesn't carry any enchantments",
 	"stellarity.items.empty_enchanted_book.description.2": "It wiggles in the direction of a",
 	"stellarity.items.empty_enchanted_book.description.3": "large opening in one of the pillars",
 	"stellarity.items.empty_enchanted_book.description.4": "It wants to be thrown on top",
 	"stellarity.items.empty_enchanted_book.description.5": "of what's inside of it",
 
+	// Armor sets
 	"stellarity.items.armors.set_bonus": "FULL SET BONUS:",
 
 	"stellarity.items.armors.ancient_armor.helmet": "Ancient Helm",
@@ -65,6 +77,7 @@
 	"stellarity.items.armors.shulker_armor.set_bonus.2": "Incoming damage reduced by 20%",
 	"stellarity.items.armors.shulker_armor.set_bonus.3": "Immunity to Levitation and Wither",
 
+	// Crates
 	"stellarity.items.crates.place_down": "Place down and open!",
 	"stellarity.items.crates.amethyst": "Amethyst Crate",
 	"stellarity.items.crates.ender": "Ender Crate",
@@ -75,6 +88,7 @@
 	"stellarity.items.crates.prismarine": "Prismarine Crate",
 	"stellarity.items.crates.sculk": "Sculk Crate",
 
+	// Void Fish
 	"stellarity.items.fish.amethyst_budfish": "Amethyst Budfish",
 	"stellarity.items.fish.bubblefish": "Bubblefish",
 	"stellarity.items.fish.crimson_tigerfish": "Crimson Tigerfish",
@@ -90,12 +104,14 @@
 	"stellarity.items.fish.crystal_heartfish.description.2": "your maximum health by 1 heart",
 	"stellarity.items.fish.crystal_heartfish.description.3": "Allows for up to 10 extra hearts",
 
+	// Crafting materials
 	"stellarity.items.materials.ancient_plating": "Ancient Plating",
 	"stellarity.items.materials.hallowed_ingot": "Hallowed Ingot",
 	"stellarity.items.materials.upgrade": "Used to upgrade Netherite Armor",
 	"stellarity.items.materials.pixie_dust": "Pixie Dust",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'May contain Fairy'",
 
+	// Permanent buffs
 	"stellarity.items.perm_buffs.consume_to": "Consume to permanently",
 
 	"stellarity.items.perm_buffs.rageroot": "Rageroot",
@@ -114,6 +130,7 @@
 	"stellarity.items.perm_buffs.miracle_fruit": "Miracle Fruit",
 	"stellarity.items.perm_buffs.miracle_fruit.increase": "increase your life regeneration",
 	
+	// Potions
 	"stellarity.items.potions.blind_rage_potion": "Blind Rage Potion",
 	"stellarity.items.potions.amarena.description": "Looks like wine, but it really isn't",
 	"stellarity.items.potions.amarena.flavor_text": "'forbidden juice'",
@@ -134,6 +151,7 @@
 	"stellarity.items.potions.flask_of_frost.buff_name": "Frost Imbuement",
 	"stellarity.items.potions.flask_of_frost.description": "Melee attacks inflict Frostburn",
 	
+	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Cooldown: %s seconds",
 	"stellarity.items.spellbooks.conveyance": "Book of Conveyance",
 	"stellarity.items.spellbooks.conveyance.description.1": "Casts a slow spark that",
@@ -154,12 +172,14 @@
 	"stellarity.items.spellbooks.natures_wrath.spirit_wolf": "Spirit Wolf",
 	"stellarity.items.spellbooks.natures_wrath.power": "Your Nature's Wrath grows in power!",
 
+	// Tools
 	"stellarity.items.tools.shulker.axe": "Shulker Axe",
 	"stellarity.items.tools.shulker.hoe": "Shulker Hoe",
 	"stellarity.items.tools.shulker.pickaxe": "Shulker Pickaxe",
 	"stellarity.items.tools.shulker.shovel": "Shulker Shovel",
 	"stellarity.items.tools.shulker.sword": "Shulker Sword",
 
+	// Trinkets
 	"stellarity.items.trinkets.crest_of_the_end": "Crest of The End",
 	"stellarity.items.trinkets.crest_of_the_end.description.1": "Blocking damage adds extra",
 	"stellarity.items.trinkets.crest_of_the_end.description.2": "force to your next attack",
@@ -187,6 +207,7 @@
 	"stellarity.items.trinkets.soaring_insignia.description.2": "with fairly limited agility",
 	"stellarity.items.trinkets.soaring_insignia.description.3": "Sneak and look up/down to adjust height",
 
+	// Weapons
 	"stellarity.items.weapons.ancient_wooden_sword": "Ancient Wooden Sword",
 	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, embrace Indev'",
 	"stellarity.items.weapons.clockwork_crossbow": "Clockwork Crossbow",
@@ -199,8 +220,8 @@
 	"stellarity.items.weapons.dragonblade.description": "A fearsome sword with an otherwordly punch!",
 	"stellarity.items.weapons.dragonblade.flavor_text": "'It came from the edge of The End'",
 	"stellarity.items.weapons.dragonblade.tip": "ᴛɪᴘ: ᴘᴜɴᴄʜ ᴛʜᴇᴍ ɪɴᴛᴏ ᴡᴀʟʟs",
-	"stellarity.items.weapons.prismatic_punch.description.1": "Converts Arrows to Prismatic Blasts",
-	"stellarity.items.weapons.prismatic_punch.description.2": "that produce colorful explosions on hit",
+	"stellarity.items.weapons.prismatic_punch": "Prismatic Punch",
+	"stellarity.items.weapons.prismatic_punch.description.1": "Shoots exploding Prismatic Blasts",
 	"stellarity.items.weapons.sabrewing": "Sabrewing",
 	"stellarity.items.weapons.sabrewing.description.1": "Supercharge your shots",
 	"stellarity.items.weapons.sabrewing.description.2": "for increased damage and velocity",
@@ -220,10 +241,9 @@
 	"stellarity.items.weapons.spirit_dagger.description.6": "Enchantments scale from both Daggers",
 	"stellarity.items.weapons.spirit_dagger.flavor_text": "'yes, I like roblox, okay?'",
 	"stellarity.items.weapons.tamaris": "Tamaris",
-	"stellarity.items.weapons.tamaris.description.1": "Press",
-	"stellarity.items.weapons.tamaris.description.1_5": "to activate your Execute ability,",
-	"stellarity.items.weapons.tamaris.description.2": "instantly killing nearby enemies with low health!",
-	"stellarity.items.weapons.tamaris.description.3": "Applies Dark Decay on hit",
+	"stellarity.items.weapons.tamaris.description.1": "Sneak to instantly kill",
+	"stellarity.items.weapons.tamaris.description.2": "a nearby enemy with low health",
+	"stellarity.items.weapons.tamaris.description.3": "Hit enemies slowly decay away",
 	"stellarity.items.weapons.tamaris.flavor_text": "'Property of Captain Charo'",
 	"stellarity.items.weapons.tamaris.disabled": "DISABLED",
 	"stellarity.items.weapons.frigid_harvester": "Frigid Harvester",
@@ -234,9 +254,8 @@
 	"stellarity.items.weapons.frigid_harvester.description.ultra_1": "It refuses to absorb any more souls,",
 	"stellarity.items.weapons.frigid_harvester.description.ultra_2": "now it breaks them down and converts to",
 	"stellarity.items.weapons.frigid_harvester.description.ultra_3": "a force which heals you and satisfies hunger",
-	"stellarity.items.weapons.stella": "Stella",
-	"stellarity.items.weapons.stella.description.1": "The more you attack, the more",
-	"stellarity.items.weapons.stella.description.2": "damage the prismatic flames do!",
+	"stellarity.items.weapons.prismember": "Prismember",
+	"stellarity.items.weapons.prismember.description.1": "Sneak to charge up a fiery spin",
 	"stellarity.items.weapons.kaleidoscope": "Kaleidoscope",
 	"stellarity.items.weapons.kaleidoscope.description.1": "Channels power from the core of the sun",
 	"stellarity.items.weapons.kaleidoscope.description.2": "Strike enemies to release stored energy",
@@ -248,6 +267,7 @@
 	"stellarity.items.weapons.chorus_dagger.description.1": "Sneak to warp to a nearby enemy,",
 	"stellarity.items.weapons.chorus_dagger.description.2": "dealing damage and speeding you up",
 
+	// Other items
 	"stellarity.items.fisher_of_voids": "Fisher of Voids",
 	"stellarity.items.fisher_of_voids.description.1": "Its hook is covered in weird mucus,",
 	"stellarity.items.fisher_of_voids.description.2": "fish from the Void",
@@ -260,6 +280,7 @@
 	"stellarity.items.prismatic_pearl": "Prismatic Pearl",
 	"stellarity.items.altar_of_light": "Altar of The Sacred",
 
+	// Cursed Enchiridion (AKA Cursed Tome)
 	"stellarity.items.cursed_tome": "Cursed Enchiridion",
 	"stellarity.items.cursed_tome.unlock_entry": "Your %s resonates with knowledge!",
 	"stellarity.items.cursed_tome.description.1": "Contains all the information",
@@ -375,6 +396,7 @@
 	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "A greatsword of incredible power, which comes directly from the sun. Charges itself and releases the stored energy in a powerful discharge once swung.",
 	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Dropped by the Empress of Light, but only if killed in the Overworld in daytime.",
 	
+	// Advancements
 	"stellarity.advancements.blindfolded": "Blindfolded",
 	"stellarity.advancements.blindfolded.description": "Enrage an Enderman by looking at it",
 	"stellarity.advancements.beam_me_up": "Beam Me Up",
@@ -497,6 +519,9 @@
 	"stellarity.advancements.charge_anchor_end": "A Ship in The Sea of Eternity",
 	"stellarity.advancements.charge_anchor_end.description": "Fully charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether",
 
+	// Death Messages
+	// %1$s - victim
+	// %2$ - attacker
 	"stellarity.death_messages.example_cause": "%s died randomly due to an example of Stellarity's custom damage system",
 	"stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom Boom",
 	"stellarity.death_messages.carcanet.1": "%1$s was struck too hard by %2$s's star",
@@ -513,7 +538,7 @@
 	"stellarity.death_messages.dot.leeching": "%1$s's life was leeched away",
 	"stellarity.death_messages.dot.dark_decay.1": "%1$s decayed into nothingness",
 	"stellarity.death_messages.dot.dark_decay.2": "%1$s decayed away",
-	"stellarity.death_messages.dot.dark_decay.3": "%1$s became a pile of ashes",
+	"stellarity.death_messages.dot.dark_decay.3": "%1$s became a pile of dust",
 	"stellarity.death_messages.dot.frostburn.1": "%1$s was turned into an icicle",
 	"stellarity.death_messages.dot.frostburn.2": "%1$s's blood froze",
 	"stellarity.death_messages.dot.prismatic_inferno.1": "%1$s was burnt alive by rainbow lights",
@@ -526,12 +551,24 @@
 	"stellarity.death_messages.eol.prismatic_bolts": "%1$s forgot to dodge the Empress of Light's attacks",
 	"stellarity.death_messages.eol.ethereal_lance": "%1$s was pierced through with the Empress of Light's Ethereal Lance",
 	"stellarity.death_messages.eol.dash": "%1$s didn't move out of the Empress of Light's way in time",
+	"stellarity.death_messages.prismember": "%1$s was reduced to ashes by %2$s",
 
+	// Subtitles for some sounds
+	// No translation strings here, as I would then
+	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Enderman attacks",
 	"Endermite attacks": "Endermite attacks",
 	"Tamaris executes": "Tamaris executes",
 	"kohy slays": "kohy slays",
+	"Chorus Dagger recharges": "Chorus Dagger recharges",
+	"Elektra Shield recharges": "Elektra Shield recharges",
+	"Living Flesh hurts": "Living Flesh hurts",
+	"Kaleidoscope charges": "Kaleidoscope charges",
+	"Spirit Dagger teleports": "Spirit Dagger teleports",
+	"kohara warps": "kohara warps",
 	
+	// Biomes
+	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Amethyst Forest",
 	"biome.far_end.ashfall_delta": "Ashfall Delta",
 	"biome.far_end.end_wilds": "End Wilds",

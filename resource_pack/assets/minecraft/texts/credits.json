@@ -6,7 +6,7 @@
 				"discipline": "Programming",
 				"titles": [
 					{
-						"title": "Lead Developer",
+						"title": "Developer",
 						"names": [
 							"kohara_"
 						]
@@ -29,7 +29,8 @@
 							"IEatPotatoes_",
 							"DuskAdler",
 							"YaGirlGiulles",
-							"BrokenEmp"
+							"BrokenEmp",
+							"WildPixel"
 						]
 					}
 				]
@@ -67,7 +68,8 @@
 							"MidasDaEpik",
 							"inqizzo",
 							"DuskAdler",
-							"kohara_"
+							"kohara_",
+							"WildPixel"
 						]
 					}
 				]
@@ -88,7 +90,7 @@
 				"discipline": "Donators",
 				"titles": [
 					{
-						"title": "Server Boosters",
+						"title": "§dServer Boosters",
 						"names": [
 							"theammir",
 							"TheNeonFish",
@@ -96,7 +98,7 @@
 						]
 					},
 					{
-						"title": "Ko-Fi Supporters",
+						"title": "§aKo-Fi Supporters",
 						"names": [
 							"CSS_Scripter",
 							"TaintendTofu",
@@ -105,7 +107,8 @@
 							"Kier",
 							"GWDdoS",
 							"Cokenpizza",
-							"Budling"
+							"Budling",
+							"ferroh"
 						]
 					}
 				]
@@ -126,8 +129,9 @@
 							"Relogic",
 							"easy.gg",
 							"Beyonce",
-							"His Majesty (Leo)",
-							"FokaStudio"
+							"Leo",
+							"FokaStudio",
+							"Squidward"
 						]
 					}
 				]

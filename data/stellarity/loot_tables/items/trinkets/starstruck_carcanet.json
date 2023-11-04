@@ -32,8 +32,7 @@
 								},
 								"",
 								{
-									"translate": "stellarity",
-									"fallback": "Stellarity",
+									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								}

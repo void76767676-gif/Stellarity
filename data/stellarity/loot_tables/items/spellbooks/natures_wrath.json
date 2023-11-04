@@ -43,30 +43,16 @@
 									"italic": false
 								},
 								" ",
-								[
-									{
-										"text": "- ",
-										"color": "#04CA01",
-										"italic": false
-									},
-									{
-										"translate": "stellarity.items.special.member_777",
-										"fallback": "Member #777 Item",
-										"color": "#04CA01",
-										"font": "illageralt",
-										"italic": false,
-										"obfuscated": false
-									},
-									{
-										"text": " -",
-										"color": "#04CA01",
-										"italic": false
-									}
-								],
+								{
+									"translate": "- Member #777 Item -",
+									"color": "#04CA01",
+									"font": "illageralt",
+									"italic": false,
+									"obfuscated": false
+								},
 								"",
 								{
-									"translate": "stellarity",
-									"fallback": "Stellarity",
+									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								}

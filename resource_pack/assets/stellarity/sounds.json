@@ -63,19 +63,22 @@
 		"sounds":[
 			"stellarity:item/living_flesh/rush_1",
 			"stellarity:item/living_flesh/rush_2"
-		]
+		],
+		"subtitle":"Living Flesh hurts"
 	},
 	"item.elektra_shield.zap":{
 		"sounds":[
 			"stellarity:item/elektra_shield/zap_1",
 			"stellarity:item/elektra_shield/zap_2",
 			"stellarity:item/elektra_shield/zap_3"
-		]
+		],
+		"subtitle":"Elektra Shield recharges"
 	},
 	"item.chorus_dagger.ready":{
 		"sounds":[
 			"stellarity:item/chorus_dagger/cooldown_end"
-		]
+		],
+		"subtitle":"Chorus Dagger recharges"
 	},
 	"item.kaleidoscope.ready":{
 		"sounds":[
@@ -84,7 +87,8 @@
 			"stellarity:item/kaleidoscope/ready_3",
 			"stellarity:item/kaleidoscope/ready_4",
 			"stellarity:item/kaleidoscope/ready_5"
-		]
+		],
+		"subtitle": "Kaleidoscope charges"
 	},
 	"item.kaleidoscope.level_1":{
 		"sounds":[
@@ -152,7 +156,8 @@
 	"item.spirit_dagger.teleport":{
 		"sounds":[
 			"stellarity:item/spirit_dagger/slash"
-		]
+		],
+		"subtitle": "Spirit Dagger teleports"
 	},
 	"item.spirit_dagger.charge_kohara":{
 		"sounds":[
@@ -162,7 +167,8 @@
 	"item.spirit_dagger.slash_kohara":{
 		"sounds":[
 			"stellarity:item/spirit_dagger/kohara_slash"
-		]
+		],
+		"subtitle": "kohara warps"
 	},
 	"block.end_portal.create":{
 		"sounds":[

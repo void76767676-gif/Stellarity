@@ -11,28 +11,14 @@
 							"function": "minecraft:set_lore",
 							"lore": [
 								" ",
-								[
-									{
-										"text": "- ",
-										"color": "#F96854",
-										"italic": false
-									},
-									{
-										"translate": "stellarity.items.special.donator",
-										"fallback": "Donator Item",
-										"color": "#F96854",
-										"italic": false
-									},
-									{
-										"text": " -",
-										"color": "#F96854",
-										"italic": false
-									}
-								],
+								{
+									"translate": "- Donator Item -",
+									"color": "#F96854",
+									"italic": false
+								},
 								"",
 								{
-									"translate": "stellarity",
-									"fallback": "Stellarity",
+									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								},

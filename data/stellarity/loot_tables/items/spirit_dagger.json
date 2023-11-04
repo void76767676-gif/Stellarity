@@ -64,28 +64,14 @@
 									"italic": true
 								},
 								"",
-								[
-									{
-										"text": "- ",
-										"color": "#BA02D7",
-										"italic": false
-									},
-									{
-										"translate": "stellarity.items.special.developer",
-										"fallback": "Developer Item",
-										"color": "#BA02D7",
-										"italic": false
-									},
-									{
-										"text": " -",
-										"color": "#BA02D7",
-										"italic": false
-									}
-								],
+								{
+									"translate": "- Developer Item -",
+									"color": "#BA02D7",
+									"italic": false
+								},
 								"",
 								{
-									"translate": "stellarity",
-									"fallback": "Stellarity",
+									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								},

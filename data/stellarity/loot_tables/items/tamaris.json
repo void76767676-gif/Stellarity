@@ -51,8 +51,13 @@
 								},
 								"",
 								{
-									"translate": "stellarity",
-									"fallback": "Stellarity",
+									"translate": "- Developer Item -",
+									"color": "#BA02D7",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
 								},
