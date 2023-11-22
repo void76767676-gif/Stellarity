@@ -64,3 +64,7 @@ execute if entity @s[tag=stellarity.items.elektra_shield.using] run function ste
 # Chorus Dagger
 execute if entity @s[predicate=stellarity:items/holding_chorus_dagger,predicate=kohara:player/is_sneaking] unless score @s stellarity.items.chorus_dagger.cooldown matches 1.. if entity @e[type=!#kohara:invalid_targets,distance=0.01..8] run function stellarity:items/chorus_dagger/dash
 execute if entity @s[scores={stellarity.items.chorus_dagger.cooldown=1..}] run function stellarity:items/chorus_dagger/cooldown_countdown
+
+# Dragon's Eye
+execute if entity @s[predicate=stellarity:items/trinkets/holding_dragons_eye] run function stellarity:items/dragons_eye/main
+execute if entity @s[tag=stellarity.items.dragons_eye.holding,predicate=!stellarity:items/trinkets/holding_dragons_eye] run function stellarity:items/dragons_eye/remove_from_team

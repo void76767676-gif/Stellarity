@@ -12,6 +12,7 @@
         "minecraft:zombified_piglin",
         "minecraft:piglin",
         "minecraft:pillager",
-        "minecraft:vex"
+        "minecraft:vex",
+		"minecraft:guardian"
     ]
 }

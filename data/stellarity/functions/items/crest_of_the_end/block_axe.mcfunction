@@ -5,7 +5,8 @@ attribute @s generic.attack_damage modifier add 09ba2f70-0cdf-4c47-b2c9-9ccf0ef9
 title @s actionbar [{"text":"• ","color":"#2A2A2A"},{"text":"🛡 ","color":"#731590"},{"text":"⬛⬛⬛","color":"#B921E7"},{"text":" 🛡","color":"#731590"},{"text":" •","color":"#2A2A2A"}]
 
 particle explosion_emitter ~ ~1.1 ~ 0 0 0 1 1 force @a[distance=..32]
-particle minecraft:dragon_breath ~ ~ ~ 1.75 1.75 1.75 0.05 200 normal
+particle minecraft:dragon_breath ~ ~ ~ 1.75 1.75 1.75 0.04 120 normal
+particle poof ~ ~ ~ 2.2 2.2 2.2 0 60 force
 
 playsound minecraft:entity.generic.explode player @a
 

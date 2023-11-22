@@ -14,3 +14,6 @@ execute if entity @s[tag=stellarity.items.sabrewing.marker] unless entity @e[typ
 
 # Prismember
 execute if entity @s[tag=stellarity.prismember] run function stellarity:items/prismember/spin/animation/main
+
+# Copper Elektra Shield
+execute if entity @s[tag=stellarity.items.elektra_shield.marker] run function stellarity:items/elektra_shield/dash/as_marker

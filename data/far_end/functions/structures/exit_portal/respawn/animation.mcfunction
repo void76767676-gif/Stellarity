@@ -1,15 +1,18 @@
 # Timer
 scoreboard players add @s fe.timer 1
 
+execute if score @s fe.timer matches 1 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run data merge entity @s {Glowing:0b,Invulnerable:1b}
+
 # Deactivate portal
 execute if score @s fe.timer matches 1 run function far_end:structures/exit_portal/deactivated/generate
 execute if score @s fe.timer matches 1 run advancement grant @a[distance=..32] only stellarity:dragons_den/sacrificial_ritual
 execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.marker","stellarity.marker"]}
 execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.marker2","stellarity.marker"]}
+execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.wind","stellarity.marker"]}
 
 # Utility marker for secondary animations
 scoreboard players operation @e[type=marker,tag=stellarity.dragon_respawn.marker] stellarity.misc = @s fe.timer
-execute as @e[type=marker,tag=stellarity.dragon_respawn.marker] at @s run function stellarity:sfx/dragon_respawn_animation/loop
+execute as @e[type=marker,tag=stellarity.dragon_respawn.marker] at @s run function stellarity:mobs/dragon/spawn/loop/main
 
 
 # Cancel animation if End Crystals are missing

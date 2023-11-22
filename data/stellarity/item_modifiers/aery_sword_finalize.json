@@ -5,42 +5,17 @@
 		"lore": [
 			"",
 			{
-				"translate": "stellarity.items.weapons.frigid_harvester.description.ultra_1",
-				"fallback": "It refuses to absorb any more souls,",
-				"color": "#EEEEEE",
-				"italic": false
-			},
-			{
-				"translate": "stellarity.items.weapons.frigid_harvester.description.ultra_2",
-				"fallback": "now it breaks them down and converts to",
-				"color": "#EEEEEE",
-				"italic": false
-			},
-			{
-				"translate": "stellarity.items.weapons.frigid_harvester.description.ultra_3",
-				"fallback": "a force which heals you and satisfies hunger",
+				"translate": "stellarity.items.weapons.frigid_harvester.description.ultra",
+				"fallback": "It refuses to absorb any more souls",
 				"color": "#EEEEEE",
 				"italic": false
 			},
 			"",
-			[
-				{
-					"text": "- ",
-					"color": "#BA02D7",
-					"italic": false
-				},
-				{
-					"translate": "stellarity.items.special.developer",
-					"fallback": "Developer Item",
-					"color": "#BA02D7",
-					"italic": false
-				},
-				{
-					"text": " -",
-					"color": "#BA02D7",
-					"italic": false
-				}
-			],
+			{
+				"translate": "- Developer Item -",
+				"color": "#BA02D7",
+				"italic": false
+			},
 			"",
 			{
 				"translate": "stellarity",

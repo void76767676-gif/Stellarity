@@ -1,7 +1,7 @@
 # Custom status effects
 # kohara's Libs only handles loading, ticking and removing,
 # the rest has to be set up manually
-function #kohara:status_effects/tick
+execute as @e[type=!#kohara:invalid_targets,tag=kohara.status_effect.tick] at @s run function #kohara:status_effects/tick
 
 # Detecting Bow shots, thrown Ender Pearls, etc.
 execute as @a run function kohara:as_players

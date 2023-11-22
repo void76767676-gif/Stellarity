@@ -8,6 +8,7 @@
 		"minecraft:wandering_trader",
 		"minecraft:zombie",
 		"minecraft:zombified_piglin",
-		"minecraft:item"
+		"minecraft:item",
+		"minecraft:area_effect_cloud"
 	]
 }

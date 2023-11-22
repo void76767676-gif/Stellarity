@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.weapons.tamaris",
                                 "fallback": "Tamaris",
-								"color": "#B2B2B2",
+								"color": "#9936D6",
 								"italic": false
 							}
 						},

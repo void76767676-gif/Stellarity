@@ -29,4 +29,6 @@ scoreboard players reset @s[scores={stellarity.dot.prismatic_inferno.particle_cy
 
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~
 
+tag @p add kohara.attacker
+
 function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/prismatic_inferno",tag:"stellarity.damage.dot.prismatic_inferno"}

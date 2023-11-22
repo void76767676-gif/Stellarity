@@ -17,27 +17,35 @@ function stellarity:items/spirit_dagger/effects/buff
 # Reset actionbar
 title @s actionbar ""
 
-# Damage
+## Enchantments
+# Sweeping Edge
+# Value is 5x higher than the actual level
 execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 5
 execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sweeping"}].lvl 5
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #sweeping stellarity.misc = #temp_1 stellarity.misc
-
+# Fire Aspect
 execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:fire_aspect"}].lvl 1
 execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:fire_aspect"}].lvl 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #fire_aspect stellarity.misc = #temp_1 stellarity.misc
-
+# Knockback
 execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
 execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:knockback"}].lvl 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #knockback stellarity.misc = #temp_1 stellarity.misc
-
+# Bane of Arthropods
 execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:bane_of_arthropods"}].lvl 1
 execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:bane_of_arthropods"}].lvl 1
 scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
+# Sharpness
+execute store result score #temp_1 stellarity.misc run data get entity @s SelectedItem.tag.Enchantments.[{id:"minecraft:sharpness"}].lvl 1
+execute store result score #temp_2 stellarity.misc run data get entity @s Inventory[{Slot:-106b}].tag.Enchantments.[{id:"minecraft:sharpness"}].lvl 1
+scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
+scoreboard players operation #sharpness stellarity.misc = #temp_1 stellarity.misc
 
+# Damage
 execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
 # Visuals

@@ -55,7 +55,7 @@
 							"name": {
 								"translate": "stellarity.items.trinkets.ender_insignia",
 								"fallback": "Ender Insignia",
-								"color": "#A25AFF",
+								"color": "#9936D6",
 								"italic": false
 							}
 						},

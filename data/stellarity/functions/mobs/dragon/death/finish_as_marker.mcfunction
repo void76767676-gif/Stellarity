@@ -14,8 +14,8 @@ particle minecraft:end_rod ~ ~ ~ 0 0 0 0.6 100 force
 playsound minecraft:entity.warden.death hostile @a[distance=0..] ~ ~ ~ 8 .7
 playsound minecraft:entity.warden.sonic_boom hostile @a[distance=0..] ~ ~ ~ 8 0
 
-execute store result score #temp1 stellarity.misc run loot spawn ~ ~ ~ loot stellarity:mobs/dragon/loot_50
-execute if score #temp1 stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:mobs/dragon/loot
+execute store result score #loot stellarity.misc run loot spawn ~ ~ ~ loot stellarity:mobs/dragon/loot_50
+execute if score #loot stellarity.misc matches 0 run loot spawn ~ ~ ~ loot stellarity:mobs/dragon/loot
 loot spawn ~ ~ ~ loot stellarity:mobs/dragon/head
 
 

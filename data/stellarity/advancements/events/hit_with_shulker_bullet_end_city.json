@@ -1,4 +1,5 @@
 {
+	"parent": "stellarity:events/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:entity_hurt_player",

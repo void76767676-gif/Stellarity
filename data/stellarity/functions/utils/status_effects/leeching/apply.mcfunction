@@ -5,3 +5,5 @@ scoreboard players operation @s stellarity.dot.leeching.time = #dot.time stellar
 
 playsound minecraft:block.amethyst_cluster.break player @a[distance=0..] ~ ~ ~ 1 0
 playsound minecraft:block.amethyst_cluster.break player @a[distance=0..] ~ ~ ~ 1 1
+
+tag @s add kohara.status_effect.tick

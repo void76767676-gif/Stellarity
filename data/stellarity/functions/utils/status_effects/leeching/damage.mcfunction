@@ -8,4 +8,6 @@ playsound minecraft:block.amethyst_cluster.break player @a[distance=0..] ~ ~ ~ 1
 playsound minecraft:block.amethyst_cluster.break player @a[distance=0..] ~ ~ ~ 1 1
 playsound minecraft:item.trident.return player @a[distance=0..] ~ ~ ~ 1 0.7
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/leeching",tag:"stellarity.damage.dot.leeching"}
+tag @p add kohara.attacker
+
+function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:0,damage_type:"stellarity:dot/leeching",tag:"stellarity.damage.dot.leeching"}

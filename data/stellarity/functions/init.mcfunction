@@ -96,6 +96,14 @@ scoreboard objectives add stellarity.eol.attack_duration dummy
 scoreboard objectives add stellarity.eol.attack_cooldown dummy
 scoreboard objectives add stellarity.eol.projectile_age dummy
 
+# Ender Dragon
+scoreboard objectives add stellarity.dragon.perch_cooldown dummy
+scoreboard objectives add stellarity.dragon.health_percent dummy
+scoreboard objectives add stellarity.dragon.health_old dummy
+scoreboard objectives add stellarity.dragon.time_chainfiring dummy
+scoreboard objectives add stellarity.dragon.shulker_hell dummy
+scoreboard objectives add stellarity.dragon.heartbeat dummy
+
 # Phantoms
 scoreboard objectives add stellarity.phantom.size dummy
 
@@ -103,7 +111,6 @@ scoreboard objectives add stellarity.phantom.size dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
-scoreboard objectives add stellarity.mechanics.crystal_count dummy
 scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
 scoreboard objectives add stellarity.mechanics.consecration.time dummy
 
@@ -129,13 +136,6 @@ scoreboard objectives add stellarity.misc.loop.1s dummy
 scoreboard objectives add stellarity.misc.loop.10s dummy
 scoreboard objectives add stellarity.misc.loop.15s dummy
 
-# Hook for checking if Stellarity is installed
-# Idk, might be useful for someone
-scoreboard players set #stellarity.is_installed stellarity.misc 1
-
-# Detecting whether Stellarity is being used on a server, or as a mod
-# Different things happen on different loaders
-# This is executed only once on first pack load to avoid unnecessary lag!
 execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw 5t
 
 ## Creating teams
@@ -153,6 +153,11 @@ team modify stellarity.homing_targets color aqua
 
 team add stellarity.rave_glow
 team modify stellarity.rave_glow color red
+
+team add stellarity.dragons_eye.pacified
+team modify stellarity.dragons_eye.pacified friendlyFire true
+team modify stellarity.dragons_eye.pacified seeFriendlyInvisibles false
+team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
 
 ## Bossbars
 # 'Crystals Left'

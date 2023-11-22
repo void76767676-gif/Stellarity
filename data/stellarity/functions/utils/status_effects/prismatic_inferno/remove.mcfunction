@@ -7,3 +7,5 @@ data modify entity @s[scores={stellarity.dot.prismatic_inferno.had_visual_fire=0
 scoreboard players reset @s stellarity.dot.prismatic_inferno.had_visual_fire
 
 tag @s remove stellarity.prismatic_inferno.burning
+
+function kohara:dot/stop_ticking

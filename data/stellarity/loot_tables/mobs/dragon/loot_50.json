@@ -44,6 +44,21 @@
 					]
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/trinkets/dragons_eye",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance",
+							"chance": 0.5
+						}
+					]
+				}
+			]
 		}
 	]
 }

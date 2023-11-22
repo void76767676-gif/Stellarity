@@ -13,8 +13,8 @@ execute store result score #enchant stellarity.misc run data get entity @p[predi
 # Base distance = 6.6 blocks
 # +1.1 per every Knockback level
 # No, this does not have a cap,
-# same applies to damage :D
-# Go ham with enchants through NBT >:D
+# same applies to damage
+# Go ham with illegal enchantments lol
 scoreboard players set #max_distance stellarity.misc 66
 scoreboard players set #1.1 stellarity.misc 11
 scoreboard players operation #extra stellarity.misc = #enchant stellarity.misc

@@ -18,7 +18,12 @@
 			},
 			{
 				"source": "aery_sword.damage",
-				"target": "\"stellarity.aery_sword.damage\"",
+				"target": "\"stellarity.aery_sword\".damage",
+				"op": "replace"
+			},
+			{
+				"source": "aery_sword.abilities",
+				"target": "\"stellarity.aery_sword\".abilities",
 				"op": "replace"
 			},
 			{

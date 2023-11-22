@@ -7,7 +7,7 @@ execute as @e[type=vex,predicate=stellarity:locations/biomes/in_the_hallow,tag=!
 execute as @e[type=vindicator,tag=stellarity.eol] at @s run function stellarity:mobs/eol/main
 
 # Dragon stuff
-execute as @e[type=ender_dragon] at @s run function stellarity:mobs/dragon/main
+execute as @e[type=ender_dragon,tag=fe.boss] at @s run function stellarity:mobs/dragon/main
 
 # Gloop Froggo protection
 execute as @e[type=slime,tag=stellarity.gloop] at @s if entity @e[type=frog,distance=..6] run effect give @s resistance 1 5 true
