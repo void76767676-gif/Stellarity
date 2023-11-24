@@ -5,7 +5,7 @@
 			"nbt": "{Potion:\"minecraft:strength\"}"
 		},
 		"title": {
-			"translate": "stellarity.advancements.imbuements.name",
+			"translate": "stellarity.advancements.imbuements",
 			"fallback": "Imbuements"
 		},
 		"description": {
