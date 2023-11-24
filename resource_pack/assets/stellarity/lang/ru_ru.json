@@ -1,36 +1,57 @@
 {
+	// TIP:
+	// If you see ѕᴍᴀʟʟ ᴛᴇхᴛ ʟɪᴋᴇ ᴛʜɪѕ, you can use
+	// https://lingojam.com/MinecraftSmallFont
+	// to generate it for your translations!
+	// Make sure your input text is fully in lowercase characters
+
+	// Don't edit these
+	// These get replaced with custom plates,
+	// which cannot really be translated
+	"Stellarity": "§fꑟ",
+	"- Donator Item -": "§fꐁ",
+	"- Developer Item -": "§fꑡ",
+	"- Member #666 Item -": "§fꐂ",
+	"- Member #777 Item -": "§fꑛ",
+
+	// Start translating from here
 	"stellarity.advancement_grant_everything": "Эту команду не трогать!",
-   
+
 	"stellarity.messages.cmd.reset_config_to_default": "Все конфиги были сброшены!",
 	"stellarity.messages.cmd.kill_ender_dragon": "Дракон Края был повержен, победителей не судят!",
 	"stellarity.messages.cmd.reset_ender_dragon": "Перерождаем Дракона Края",
 	"stellarity.messages.cmd.generate_end_island_features": "Особенности острова Края созданы вручную",
 
-	"stellarity.void_fishing.warning.too_deep": "Что-то подсказывает вам, что нужно рыбачить повыше...",
+	"stellarity.void_fishing.warning.too_deep": "Что-то подсказывает вам, что стоит рыбачить повыше...",
 	"stellarity.void_fishing.warning.dragons_den": "Ни одна рыбёшка не посмеет подплыть к этому месту...",
 
 	"stellarity.aota.warning": "Его магия запечатана и сперва её нужно освободить",
 
 	"stellarity.bossbars.crystals_left": "Осталось кристаллов:",
 
+	"stellarity.dragon_egg.description.1": "Оно неподвижно, но можно",
+	"stellarity.dragon_egg.description.2": "почувствовать беззвучное биение внутри...",
+
 	"stellarity.mobs.gloop": "Хлюп",
 	"stellarity.mobs.pixie": "Пикси",
 	"stellarity.mobs.empress": "Императрица Света",
 
+	// Items
+	// Explorer Maps
 	"stellarity.explorer_map.end_city": "Карта исследователя архитектуры Края",
 	"stellarity.explorer_map.end_village": "Карта исследователя поселений Края",
 
-	"stellarity.items.special.donator": "Donator Item",
-	"stellarity.items.special.developer": "Developer Item",
-	"stellarity.items.special.member_666": "Member #666 Item",
-	"stellarity.items.special.member_777": "Member #777 Item",
+	// Misc easter egg item
+	"stellarity.items.memory_of_gloop": "Светлая память Хлюпу...",
 
+	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "Не содержит зачарований",
 	"stellarity.items.empty_enchanted_book.description.2": "Она извивается и тянется по направлению к",
 	"stellarity.items.empty_enchanted_book.description.3": "крупному разлому в одном из столбов",
-	"stellarity.items.empty_enchanted_book.description.4": "Она хочет, чтобы её закинули на верхушку",
-	"stellarity.items.empty_enchanted_book.description.5": "того, что таится внутри",
+	"stellarity.items.empty_enchanted_book.description.4": "Она хочет, чтобы её поместили",
+	"stellarity.items.empty_enchanted_book.description.5": "на то, что таится внутри",
 
+	// Armor sets
 	"stellarity.items.armors.set_bonus": "Бонус полного комплекта:",
 
 	"stellarity.items.armors.ancient_armor.helmet": "Древний шлем",
@@ -54,8 +75,9 @@
 	"stellarity.items.armors.shulker_armor.boots": "Шалкеровые ботинки",
 	"stellarity.items.armors.shulker_armor.set_bonus.1": "Снаряды шалкеров будут преследовать противников",
 	"stellarity.items.armors.shulker_armor.set_bonus.2": "Входящий урон уменьшен на 20%",
-	"stellarity.items.armors.shulker_armor.set_bonus.3": "Иммунитет к левитации и иссушению",
+	"stellarity.items.armors.shulker_armor.set_bonus.3": "Невосприимчивость к левитации и иссушению",
 
+	// Crates
 	"stellarity.items.crates.place_down": "Поставьте и откройте!",
 	"stellarity.items.crates.amethyst": "Аметистовый ящик",
 	"stellarity.items.crates.ender": "Ящик Края",
@@ -66,6 +88,7 @@
 	"stellarity.items.crates.prismarine": "Призмариновый ящик",
 	"stellarity.items.crates.sculk": "Скалк-ящик",
 
+	// Void Fish
 	"stellarity.items.fish.amethyst_budfish": "Аметистовая рыбка",
 	"stellarity.items.fish.bubblefish": "Пузырёчек",
 	"stellarity.items.fish.crimson_tigerfish": "Багряный голиаф",
@@ -75,37 +98,41 @@
 	"stellarity.items.fish.frost_minnow": "Морозный гольян",
 	"stellarity.items.fish.overgrown_cod": "Мшистая треска",
 	"stellarity.items.fish.prismite": "Призмит",
-    
+	
 	"stellarity.items.fish.crystal_heartfish": "Кристальная сердцерыба",
 	"stellarity.items.fish.crystal_heartfish.description.1": "Скушайте, чтобы навсегда увеличить",
 	"stellarity.items.fish.crystal_heartfish.description.2": "максимальное здоровье на 1 сердце",
-	"stellarity.items.fish.crystal_heartfish.description.3": "Можно добавить до 10 сердец",
+	"stellarity.items.fish.crystal_heartfish.description.3": "Можно получить до 10 сердец",
 
+	// Crafting materials
 	"stellarity.items.materials.ancient_plating": "Древняя пластина",
 	"stellarity.items.materials.hallowed_ingot": "Святой слиток",
-	"stellarity.items.materials.for_altar": "Используется на алтаре проклятых",
+	"stellarity.items.materials.upgrade": "Используется для улучшения незеритовой брони",
 	"stellarity.items.materials.pixie_dust": "Пыльца пикси",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'Продукт может содержать фею'",
 
+	// Permanent buffs
 	"stellarity.items.perm_buffs.consume_to": "Используйте, чтобы навсегда",
 
-	"stellarity.items.perm_buffs.bloody_harvest": "Алый плод",
-	"stellarity.items.perm_buffs.bloody_harvest.increase": "увеличить силу",
-	"stellarity.items.perm_buffs.chaos_fruit": "Фрукт хаоса",
-	"stellarity.items.perm_buffs.chaos_fruit.increase": "придать грацию вашим движениям",
-	"stellarity.items.perm_buffs.endurance_stew": "Рагу стойкости",
-	"stellarity.items.perm_buffs.endurance_stew.increase": "укрепить вашу защиту",
-	"stellarity.items.perm_buffs.endurance_stew.flavor_text": "'По вкусу точь-в-точь кобальт'",
-	"stellarity.items.perm_buffs.ferocious_berries": "Свирепые ягодки",
-	"stellarity.items.perm_buffs.ferocious_berries.increase": "увеличить скорость вашей атаки",
+	"stellarity.items.perm_buffs.rageroot": "Алый плод",
+	"stellarity.items.perm_buffs.rageroot.increase": "увеличить силу",
+	"stellarity.items.perm_buffs.energizing_fruit": "Бодрящий фрукт",
+	"stellarity.items.perm_buffs.energizing_fruit.increase": "ускорить ваши движения",
+	"stellarity.items.perm_buffs.endurance_brew": "Рагу стойкости",
+	"stellarity.items.perm_buffs.endurance_brew.increase": "укрепить вашу защиту и сопротивление",
+	"stellarity.items.perm_buffs.endurance_brew.flavor_text": "'По вкусу точь-в-точь кобальт'",
+	"stellarity.items.perm_buffs.fury_berries": "Свирепые ягодки",
+	"stellarity.items.perm_buffs.fury_berries.increase": "увеличить скорость вашей атаки",
 	"stellarity.items.perm_buffs.lucky_carrot": "Счастливая морковь",
 	"stellarity.items.perm_buffs.lucky_carrot.increase": "обернуть к себе удачу",
-	"stellarity.items.perm_buffs.robust_potato": "Дюжий картофель",
-	"stellarity.items.perm_buffs.robust_potato.increase": "развить иммунитет к отравлению",
-	"stellarity.items.perm_buffs.robust_potato.flavor_text": "'Чудесатый, однако, мирок!'",
+	"stellarity.items.perm_buffs.cleansing_potato": "Очищающий картофель",
+	"stellarity.items.perm_buffs.cleansing_potato.increase": "развить иммунитет к отравлению",
+	"stellarity.items.perm_buffs.miracle_fruit": "Ньютоново яблоко",
+	"stellarity.items.perm_buffs.miracle_fruit.increase": "усилить способности регенерации",
 	
+	// Potions
 	"stellarity.items.potions.blind_rage_potion": "Зелье слепого гнева",
-	"stellarity.items.potions.amarena.description": "Похоже на вино, однако, всё же не оно",
+	"stellarity.items.potions.amarena.description": "Похоже на вино, однако всё же не оно",
 	"stellarity.items.potions.amarena.flavor_text": "'Запретный сок'",
 	"stellarity.items.potions.bottled_darkness": "Тьма в склянке",
 	"stellarity.items.potions.endurance_potion": "Зелье сопротивления",
@@ -124,11 +151,12 @@
 	"stellarity.items.potions.flask_of_frost.buff_name": "Окутанный стужей",
 	"stellarity.items.potions.flask_of_frost.description": "Атаки ближнего боя накладывают Ледяной ожог",
 	
+	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Перезарядка: %s секунд",
 	"stellarity.items.spellbooks.conveyance": "Томик-телепорт",
 	"stellarity.items.spellbooks.conveyance.description.1": "Выпускает медленную искру, которая",
 	"stellarity.items.spellbooks.conveyance.description.2": "перемещает вас к первому задетому блоку",
-	"stellarity.items.spellbooks.conveyance.description.3": "Поворачивайте голову, чтобы управлять ей",
+	"stellarity.items.spellbooks.conveyance.description.3": "Поворачивайте голову, чтобы направлять её",
 	"stellarity.items.spellbooks.light": "Фолиант света",
 	"stellarity.items.spellbooks.light.description.1": "Призывает область,",
 	"stellarity.items.spellbooks.light.description.2": "которая снижает входящий урон и исцеляет",
@@ -144,15 +172,27 @@
 	"stellarity.items.spellbooks.natures_wrath.spirit_wolf": "Призрачный волк",
 	"stellarity.items.spellbooks.natures_wrath.power": "Гнев Природы набирает силу!",
 
+	// Tools
 	"stellarity.items.tools.shulker.axe": "Шалкеровый топор",
 	"stellarity.items.tools.shulker.hoe": "Шалкеровая мотыга",
 	"stellarity.items.tools.shulker.pickaxe": "Шалкеровая кирка",
 	"stellarity.items.tools.shulker.shovel": "Шалкеровая лопата",
 	"stellarity.items.tools.shulker.sword": "Шалкеровый меч",
 
+	// Trinkets
 	"stellarity.items.trinkets.crest_of_the_end": "Герб Края",
-	"stellarity.items.trinkets.crest_of_the_end.description.1": "Отражение урона усиливает вашу",
-	"stellarity.items.trinkets.crest_of_the_end.description.2": "следующую атаку ближнего боя",
+	"stellarity.items.trinkets.crest_of_the_end.description.1": "Отражение урона усиливает",
+	"stellarity.items.trinkets.crest_of_the_end.description.2": "вашу следующую атаку",
+	"stellarity.items.trinkets.crest_of_the_end.description.3": "",
+	"stellarity.items.trinkets.dragons_eye": "Глаз Дракона",
+	"stellarity.items.trinkets.dragons_eye.description.1": "Усмиряет всех эндерменов, эндермитов и фантомов",
+	"stellarity.items.trinkets.dragons_eye.description.2": "Наделяет устойчивостью к некоторым отрицательным эффектам",
+	"stellarity.items.trinkets.dragons_eye.description.3": "Работает, только если держать в руке",
+	"stellarity.items.trinkets.living_flesh": "Живая плоть",
+	"stellarity.items.trinkets.living_flesh.description.1": "Увеличивает регенерацию",
+	"stellarity.items.trinkets.living_flesh.description.2": "и скорость движения при получении урона",
+	"stellarity.items.trinkets.living_flesh.description.3": "Слегка ослабляет владельца",
+	"stellarity.items.trinkets.living_flesh.flavor_text": "'Вы чувствуете слабое биение...'",
 	"stellarity.items.trinkets.duskberry": "Сумеречная ягода",
 	"stellarity.items.trinkets.duskberry.description.1": "Улучшает вашу скорость, зрение",
 	"stellarity.items.trinkets.duskberry.description.2": "и силу, когда в руках",
@@ -171,6 +211,7 @@
 	"stellarity.items.trinkets.soaring_insignia.description.2": "с весьма ограниченной подвижностью",
 	"stellarity.items.trinkets.soaring_insignia.description.3": "Зажмите shift и смотрите вверх-вниз, чтобы регулировать высоту",
 
+	// Weapons
 	"stellarity.items.weapons.ancient_wooden_sword": "Старинный деревянный меч",
 	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'забудьте \"Тропы и Сказки\", восхваляйте Indev'",
 	"stellarity.items.weapons.clockwork_crossbow": "Заводной арбалет",
@@ -183,21 +224,18 @@
 	"stellarity.items.weapons.dragonblade.description": "Грозное оружие с тяжёлыми ударами!",
 	"stellarity.items.weapons.dragonblade.flavor_text": "'Прибывший с самого края Края'",
 	"stellarity.items.weapons.dragonblade.tip": "совет: впечатайте врагов в стену",
-	"stellarity.items.weapons.prismatic_punch.description.1": "Превращает стрелы в призматические заряды,",
-	"stellarity.items.weapons.prismatic_punch.description.2": "что взрываются яркой разноцветной вспышкой",
+	"stellarity.items.weapons.prismatic_punch": "Призматический стрелок",
+	"stellarity.items.weapons.prismatic_punch.description.1": "Стреляет взрывными призматическими зарядами",
 	"stellarity.items.weapons.sabrewing": "Саблекрыл",
 	"stellarity.items.weapons.sabrewing.description.1": "Натягивайте тетиву дольше,",
 	"stellarity.items.weapons.sabrewing.description.2": "чтобы увеличить урон и скорость заряда",
 	"stellarity.items.weapons.sabrewing.flavor_text": "'Возможно... оно сломано'",
-	"stellarity.items.weapons.sariel.description.1": "При атаке есть шанс исцелить",
-	"stellarity.items.weapons.sariel.description.2": "ближайших союзников",
-	"stellarity.items.weapons.sariel.flavor_text": "'До тех пор, пока ты жив'",
 	"stellarity.items.weapons.sharanga": "Шаранга",
 	"stellarity.items.weapons.sharanga.description.1": "Превращает спектральные стрелы",
 	"stellarity.items.weapons.sharanga.description.2": "в спектральные залпы, выпускаемые",
 	"stellarity.items.weapons.sharanga.description.3": "строго по прямой",
-	"stellarity.items.weapons.sharanga.description.4": "33% не потратить спектральную стрелу,",
-	"stellarity.items.weapons.sharanga.description.5": " удваивается с зачарованием Бесконечность",
+	"stellarity.items.weapons.sharanga.description.4": "25% не потратить спектральную стрелу,",
+	"stellarity.items.weapons.sharanga.description.5": "удваивается с зачарованием Бесконечность",
 	"stellarity.items.weapons.spirit_dagger": "Призрачный кинжал",
 	"stellarity.items.weapons.spirit_dagger.description.1": "Один кинжал привлекает духов при ударах",
 	"stellarity.items.weapons.spirit_dagger.description.2": "Кинжалы в обеих руках",
@@ -207,15 +245,11 @@
 	"stellarity.items.weapons.spirit_dagger.description.6": "Зачарования учитываются с обоих кинжалов",
 	"stellarity.items.weapons.spirit_dagger.flavor_text": "'Да, автору нравится роблокс, проблемы?'",
 	"stellarity.items.weapons.tamaris": "Тамарис",
-	"stellarity.items.weapons.tamaris.description.1": "Нажмите",
-	"stellarity.items.weapons.tamaris.description.1_5": "чтобы исполнить Казнь,",
-	"stellarity.items.weapons.tamaris.description.2": "мгновенно убивающую ближайших врагов с низким здоровьем!",
-	"stellarity.items.weapons.tamaris.description.3": "При ударе накладывает Теневое разложение",
-	"stellarity.items.weapons.tamaris.flavor_text": "'Собственность капитана Ханны'",
+	"stellarity.items.weapons.tamaris.description.1": "Начните красться, чтобы мгновенно убить",
+	"stellarity.items.weapons.tamaris.description.2": "ближайшего врага с низким здоровьем",
+	"stellarity.items.weapons.tamaris.description.3": "Поражённые враги медленно разлагаются",
+	"stellarity.items.weapons.tamaris.flavor_text": "'Собственность капитана Чаро'",
 	"stellarity.items.weapons.tamaris.disabled": "ОТКЛЮЧЕНО",
-	"stellarity.items.weapons.zephyr": "Зефир",
-	"stellarity.items.weapons.zephyr.description.1": "Победа над врагами даёт кратковременный",
-	"stellarity.items.weapons.zephyr.description.2": "складывающийся бонус к скорости передвижения",
 	"stellarity.items.weapons.frigid_harvester": "Бездушный жнец",
 	"stellarity.items.weapons.frigid_harvester.description.1": "Наполняет себя душами поверженных существ,",
 	"stellarity.items.weapons.frigid_harvester.description.2": "навсегда увеличивая урон",
@@ -224,14 +258,20 @@
 	"stellarity.items.weapons.frigid_harvester.description.ultra_1": "Он отказывается поглощать больше душ,",
 	"stellarity.items.weapons.frigid_harvester.description.ultra_2": "теперь он разрушает их и превращает в силу,",
 	"stellarity.items.weapons.frigid_harvester.description.ultra_3": "которая лечит владельца и утоляет голод",
-	"stellarity.items.weapons.stella": "Стелла",
-	"stellarity.items.weapons.stella.description.1": "Чем больше вы атакуете, тем больше",
-	"stellarity.items.weapons.stella.description.2": "урона наносят призматические огни!",
+	"stellarity.items.weapons.prismember": "Зарница",
+	"stellarity.items.weapons.prismember.description.1": "Крадитесь, чтобы подготовить пламенное вращение",
 	"stellarity.items.weapons.kaleidoscope": "Калейдоскоп",
 	"stellarity.items.weapons.kaleidoscope.description.1": "Черпает силы из ядра Солнца",
 	"stellarity.items.weapons.kaleidoscope.description.2": "Ударьте врага, чтобы высвободить накопленную энергию",
 	"stellarity.items.weapons.kaleidoscope.description.3": "одним мощным разрядом",
+	"stellarity.items.weapons.starless_scythe": "Звездокос",
+	"stellarity.items.weapons.starless_scythe.description.1": "Медленно вытягивает жизнь из поражённых существ",
+	"stellarity.items.weapons.starless_scythe.description.2": "Зачаруйте на Эффективность для усиления эффекта",
+	"stellarity.items.weapons.chorus_dagger": "Хорус-кортик",
+	"stellarity.items.weapons.chorus_dagger.description.1": "Крадитесь, чтобы переместиться к врагу,",
+	"stellarity.items.weapons.chorus_dagger.description.2": "нанося урон и ускоряя ваши движения",
 
+	// Other items
 	"stellarity.items.fisher_of_voids": "Ловец бездны",
 	"stellarity.items.fisher_of_voids.description.1": "Крюк покрыт странной слизью.",
 	"stellarity.items.fisher_of_voids.description.2": "По-видимому, она привлекает",
@@ -244,6 +284,7 @@
 	"stellarity.items.prismatic_pearl": "Призматический жемчуг",
 	"stellarity.items.altar_of_light": "Святилище света",
 
+	// Cursed Enchiridion (AKA Cursed Tome)
 	"stellarity.items.cursed_tome": "Проклятый гримуар",
 	"stellarity.items.cursed_tome.unlock_entry": "Ваш %s наполняется знаниями!",
 	"stellarity.items.cursed_tome.description.1": "Содержит всю информацию",
@@ -302,9 +343,6 @@
 	"stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Создаются на алтаре проклятых.",
 	"stellarity.items.cursed_tome.entries.shulker_tools.misc": "Любой незеритовый инструмент",
 
-	"stellarity.items.cursed_tome.entries.sariel.description": "Этот кинжал похищает свет у всего, чего касается, исцеляя им раны владельца или его соратников.",
-	"stellarity.items.cursed_tome.entries.sariel.obtaining": "Создаётся на алтаре проклятых.",
-
 	"stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
 	"stellarity.items.cursed_tome.entries.sabrewing.description": "Недаром получил это прозвище.\nСаблекрыл может суперзаряжать выстрелы, увеличивая их силу и наделяя невероятной мощью.",
 	"stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Создаётся на алтаре проклятых.",
@@ -331,54 +369,49 @@
 	"stellarity.items.cursed_tome.entries.frigid_harvester.description": "Твёрдый лёд захватывает души поверженных существ, используя их для увеличения собственной силы.\nЧем больше оно поглощает, тем больше урона наносит, сверх того открывая пассивные умения.",
 	"stellarity.items.cursed_tome.entries.frigid_harvester.obtaining": "Выпадает с зимогоров со склонов Морозных холмов, есть небольшая вероятность, что вы встретите их вместе с мечом.\n\n10% шанс найти в заледеневших ящиках.",
 
-	"stellarity.items.cursed_tome.entries.zephyr.center": "        ",
-	"stellarity.items.cursed_tome.entries.zephyr.description": "Самое первое оружие, созданное разбойниками при помощи магии Края. Победа над врагами накладывает ускорение, длительность которого увеличивается с каждым поверженным противником.",
-	"stellarity.items.cursed_tome.entries.zephyr.obtaining": "Иногда можно найти в верхних башнях города Края.",
-
 	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
 	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Попытка крестьян создать магический предмет.\nЭта книга наполняет себя энергией биомов, исследуемых владельцем, и улучшает свои способности.",
 	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Иногда продаётся библиотекарем в деревнях Края.",
-    
+
 	"stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "",
 	"stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Пожалуй, самый своеобразный плод, порождённый Святыми землями. Эта проклятая ягода делит свою магию с любым, кто её держит.\nПо преданиям, на вкус как висмут.",
 	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Можно найти на борту кораблей Края в Святых землях с весьма точным шансом 57.14%.\n\nТакже встречается в святых ящиках с той же причудливой вероятностью.",
-    
+
 	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "  ",
 	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "В отличие от обычных ожерелий, почему-то именно это нужно держать в руке. При получении урона вызывает звёзды, наносящие урон всему, что попадётся им на пути.",
 	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "33% шанс выпадения с Императрицы Света.",
-    
+
 	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": " ",
 	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "Эмблема, наделённая крупицей силы Императрицы. \nДарует владельцу способность свободно летать, словно гравитации и не существует.",
 	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Редко выпадает с Императрицы Света.\n\nНепременно выпадет, если победить днём в Верхнем мире.",
-    
+
 	"stellarity.items.cursed_tome.entries.stella.center": "         ",
 	"stellarity.items.cursed_tome.entries.stella.description": "Выкована из чистейших кристаллов Святых земель и наполнена пылающей энергией. Чем больше точных ударов настигают врага, тем сильнее разгорается пламя.",
 	"stellarity.items.cursed_tome.entries.stella.obtaining": "33% шанс выпадения с Императрицы Света.",
-    
+
 	"stellarity.items.cursed_tome.entries.prismatic_pearl.center": "",
 	"stellarity.items.cursed_tome.entries.prismatic_pearl.description": "Эндер-жемчужины, подверженные волшебству Святых земель постепенно утрачивают темноту. Они способны возвращаться к метателю через какое-то время.",
 	"stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "33% шанс выпадения с Императрицы Света.",
-    
+
 	"stellarity.items.cursed_tome.entries.prismatic_punch.description": "Арбалет, изготовленный из жемчужной древесины святых деревьев. Превращает все стрелы в радужные заряды, которые самонаводятся и взрываются при попадании.",
 	"stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "33% шанс выпадения с Императрицы Света.",
-    
+
 	"stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
 	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "Меч невероятной силы, проводимой напрямую от Солнца. Заряжается и при ударе выпускает всю накопленную энергию одним мощным разрядом.",
 	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Выпадает с Императрицы Света, но только днём в Верхнем мире.",
-    
+
+	// Advancements
 	"stellarity.advancements.blindfolded": "С повязкой на глазах",
 	"stellarity.advancements.blindfolded.description": "Разозлите эндермена, посмотрев на него",
 	"stellarity.advancements.beam_me_up": "Вытащи меня отсюда!",
-	"stellarity.advancements.beam_me_up.description": "Переместитесь более, чем на 100 метров при помощи одного эндер-жемчуга",
-	"stellarity.advancements.bullseye_2": "В яблочко?",
-	"stellarity.advancements.bullseye_2.description": "Попадите жемчугом края в центр мишени как минимум с 10 блоков",
+	"stellarity.advancements.beam_me_up.description": "Переместитесь более чем на 100 метров при помощи одного эндер-жемчуга",
 	"stellarity.advancements.champions_ballad": "Баллада о чемпионе",
-	"stellarity.advancements.champions_ballad.description": "Нельзя сражаться с боссом без героической музыки!",
+	"stellarity.advancements.champions_ballad.description": "Нельзя побеждать Дракона без героической музыки!",
 	"stellarity.advancements.night_sky_stalkers": "Ловчие ночного неба",
 	"stellarity.advancements.night_sky_stalkers.description": "Победите фантома. Они всё равно испарятся, как только вы поспите",
 	"stellarity.advancements.postmortal_2": "Самоуверенный",
 	"stellarity.advancements.postmortal_2.description": "Спаситесь от гибели в пустоте благодаря тотему бессмертия",
-	"stellarity.advancements.pandoras_barrel_open_in_deep_dark": "Пристрастие к азарту",
+	"stellarity.advancements.pandoras_barrel_open_in_deep_dark": "Ставки сделаны",
 	"stellarity.advancements.pandoras_barrel_open_in_deep_dark.description": "Откройте бочку пандоры в Тёмных глубинах. Ах да, о ваших шансах на выживание...",
 	"stellarity.advancements.pandoras_barrel_place": "Коробка шоколадных конфет",
 	"stellarity.advancements.pandoras_barrel_place.description": "Поставьте и откройте бочку пандоры. Никогда не знаешь, что тебе попадётся!",
@@ -388,18 +421,20 @@
 	"stellarity.advancements.i_am_titanium.description": "Создайте полный комплект шалкеровой брони",
 	"stellarity.advancements.cursed_crafting": "Проклятое ремесло",
 	"stellarity.advancements.cursed_crafting.description": "Воспользуйтесь алтарём проклятых, чтобы создать сильнейшие из орудий",
+	"stellarity.advancements.disenchant_item": "Срывая печати",
+	"stellarity.advancements.disenchant_item.description": "Отделите зачарование от предмета, бросив его на Алтарь вместе с обычной книгой",
 	"stellarity.advancements.kaliyah": "Камня на камне...",
 	"stellarity.advancements.kaliyah.description": "Нанесите максимально возможный урон одним взмахом клинка дракона",
 	"stellarity.advancements.kaliyah.tip": "совет: чары отдачи творят чудеса",
 	"stellarity.advancements.dragonborn": "Драконорождённый",
-	"stellarity.advancements.dragonborn.description": "Получите клинок дракона, легендарное оружие неизвестного происхождения...",
+	"stellarity.advancements.dragonborn.description": "Получите клинок дракона, оружие поистине неизвестного происхождения",
 	"stellarity.advancements.disassembly": "Демонтаж",
 	"stellarity.advancements.disassembly.description": "Используя Тамарис, казните противника с низким уровнем здоровья",
 	"stellarity.advancements.final_showdown": "Последняя схватка",
 	"stellarity.advancements.god_slayer": "Истребитель Богов",
 	"stellarity.advancements.god_slayer.description": "Вы доказали свою доблесть, победив злостное чудовище во второй раз",
 	"stellarity.advancements.kill_la_kill": "Убей или умри",
-	"stellarity.advancements.kill_la_kill.description": "Используйте Казнь на хранителе.",
+	"stellarity.advancements.kill_la_kill.description": "Казните хранителя",
 	"stellarity.advancements.sacrificial_ritual": "Обряд жертвоприношения",
 	"stellarity.advancements.sacrificial_ritual.description": "Установите 4 кристалла Края на 4 возвышенности из бедрока и пробудите ужасающего зверя...",
 	"stellarity.advancements.third_times_the_charm": "Бог любит троицу",
@@ -417,10 +452,10 @@
 	"stellarity.advancements.portable_storage.description": "Создайте шалкеровый ящик",
 	"stellarity.advancements.super_sonic": "Сверхзвуковой",
 	"stellarity.advancements.super_sonic.description": "Пролетите на элитрах через отверстие 1 на 1 блок на скорости выше 40 метров в секунду",
-	"stellarity.advancements.treasure_room": "Сокровищница",
-	"stellarity.advancements.treasure_room.description": "Наткнитесь на редкую антикварную голову в сундуках города Края.",
+	"stellarity.advancements.treasure_room": "На голову выше",
+	"stellarity.advancements.treasure_room.description": "Наткнитесь на редкую антикварную голову. Просто милые безделушки для украшения",
 	"stellarity.advancements.open_chest_in_end_city": "И кто теперь воришка?",
-	"stellarity.advancements.open_chest_in_end_city.description": "Откройте сундук сокровищ в городе Края. Поздравляем! Скорее всего вы теперь миллионер",
+	"stellarity.advancements.open_chest_in_end_city.description": "Откройте сундук в городе Края",
 	"stellarity.advancements.ender_adventurer": "Вневременной странник",
 	"stellarity.advancements.ender_adventurer.description": "Исследуйте все биомы Края",
 	"stellarity.advancements.forever_stranded": "Утеряны навек",
@@ -442,44 +477,40 @@
 	"stellarity.advancements.confusing_fruit_2": "Невер(Au)ятное наслаждение!",
 	"stellarity.advancements.confusing_fruit_2.description": "Найдите и съешьте золотой плод хоруса",
 	"stellarity.advancements.find_gloop": "Хлюп-Хлюп",
-	"stellarity.advancements.find_gloop.description": "Выпустите Хлюпа из бочки пандоры, открытой в любом болоте.",
+	"stellarity.advancements.find_gloop.description": "Выпустите Хлюпа из бочки пандоры, открытой в любом болоте",
 	"stellarity.advancements.plant_chorus_fruit_2": "Агроном иных миров",
 	"stellarity.advancements.plant_chorus_fruit_2.description": "Посадите цветок хоруса в каждом из 3 измерений",
 	"stellarity.advancements.plant_chors_fruit": "Иноземный садовод",
 	"stellarity.advancements.plant_chors_fruit.description": "Посадите цветок хоруса в верхнем мире",
-	"stellarity.advancements.supreme_server_owner": "Верховный король сервера",
-	"stellarity.advancements.supreme_server_owner.description": "Выловите 'супер мега редкую (нет)' безделушку из пустоты",
 	"stellarity.advancements.the_void_provides": "Пустота представляет",
 	"stellarity.advancements.the_void_provides.description": "Выловите и откройте ящик из неизвестности",
 	"stellarity.advancements.void_reels": "Пустота завораживает",
 	"stellarity.advancements.void_reels.description": "Закиньте удочку в необозримую пустоту Края",
 	"stellarity.advancements.find_warped_forest": "Кусочек другого мира",
-	"stellarity.advancements.find_warped_forest.description": "Войдите в Искажённый лес - обитель эндерменов в нижнем мире",
-	"stellarity.advancements.a_step_to_the_end": "Чуть ближе к Краю",
-	"stellarity.advancements.a_step_to_the_end.description": "Огненный порошок используют в зельеварении, но вдруг его можно объединить с чем-то ещё...?",
+	"stellarity.advancements.find_warped_forest.description": "Войдите в Искажённый лес - обитель эндерменов в Нижнем мире",
 	"stellarity.advancements.imbuements": "Вдохновение",
 	"stellarity.advancements.imbuements.description": "...и используйте, чтобы изготовить туманные зелья!",
-	"stellarity.advancements.the_beginning": "Начало.",
-	"stellarity.advancements.the_beginning.description": "Победите визера в Краю",
+	"stellarity.advancements.the_beginning": "Начало и Конец",
+	"stellarity.advancements.the_beginning.description": "Призовите и одолейте визера в Краю",
 	"stellarity.advancements.cloud_save": "Облачное хранилище",
 	"stellarity.advancements.cloud_save.description": "Создайте сундук эндера",
-	"stellarity.advancements.rare_find": "Нечастая находка",
-	"stellarity.advancements.rare_find.description": "Получите необычный предмет с разбойников, обороняющих Крепость",
+	"stellarity.advancements.rare_find": "Разоряя Крепость",
+	"stellarity.advancements.rare_find.description": "Получите редкий предмет с разбойников, обороняющих Крепость",
 	"stellarity.advancements.journeys_end": "Конец путешествия",
-	"stellarity.advancements.journeys_end.description": "Воспользуйтесь 12 очами Края, чтобы открыть портал",
+	"stellarity.advancements.journeys_end.description": "Воспользуйтесь 12 очами Эндера, чтобы открыть портал",
 	"stellarity.advancements.obtain_ender_pearl": "Зеницы мрака",
 	"stellarity.advancements.obtain_ender_pearl.description": "Заполучите эндер-жемчуг - важный элемент вашего путешествия",
 	"stellarity.advancements.craft_ender_eye": "Закалённый в огне",
-	"stellarity.advancements.craft_ender_eye.description": "Как только вы объединили огненный порошок и эндер-жемчуг они превратились во... что-то особенное?",
+	"stellarity.advancements.craft_ender_eye.description": "Смешайте огненный порошок с эндер-жемчугом",
 	"stellarity.advancements.kill_dragon.description": "Чудовище повержено, и Край ждёт, когда вы раскроете все его тайны...",
 	"stellarity.advancements.enter_end.description": "или начало?",
 	"stellarity.advancements.follow_ender_eye.extra": "Там явно что-то сокрыто...",
 	"stellarity.advancements.max_out_aery_sword": "Хладнокровный",
 	"stellarity.advancements.max_out_aery_sword.description": "Улучшите Бездушного жнеца до 14 единиц атаки",
 	"stellarity.advancements.truly_max_out_aery_sword": "Ледяная могила",
-	"stellarity.advancements.truly_max_out_aery_sword.description": "Улучшите Бездушного жнеца до максимально возможных 22 единиц атаки",
+	"stellarity.advancements.truly_max_out_aery_sword.description": "Улучшите Бездушного жнеца до максимума",
 	"stellarity.advancements.transmute_item": "Алхимия святых",
-	"stellarity.advancements.transmute_item.description": "Превратите один предмет в другой в водах Святых земель",
+	"stellarity.advancements.transmute_item.description": "Превратите один предмет в другой, кинув его в воды Святых земель",
 	"stellarity.advancements.kill_large_phantom": "Ухудшающиеся кошмары",
 	"stellarity.advancements.kill_large_phantom.description": "Победите фантома, который явно больше обычного",
 	"stellarity.advancements.headhunter": "Охотник за головами",
@@ -488,10 +519,13 @@
 	"stellarity.advancements.summon_empress": "Праведная королева",
 	"stellarity.advancements.summon_empress.description": "Киньте пыльцу пикси на Святилище света и предстаньте перед её величеством",
 	"stellarity.advancements.fae_flayer": "Королевский палач",
-	"stellarity.advancements.fae_flayer.description": "Переместите Святилище света в Верхний мир, затем призовите и одолейте Императрицу днём. Вас ждёт достойная награда",
+	"stellarity.advancements.fae_flayer.description": "Переместите Святилище света в Верхний мир, затем призовите и одолейте Императрицу днём",
 	"stellarity.advancements.charge_anchor_end": "Маяк в океане вечности",
 	"stellarity.advancements.charge_anchor_end.description": "Полностью зарядите якорь возрождения в Краю. Работает так же, как в Нижнем мире",
 
+	// Death Messages
+	// %1$s - victim
+	// %2$ - attacker
 	"stellarity.death_messages.example_cause": "%s случайно умер из-за примера работы системы урона Stellarity",
 	"stellarity.death_messages.sharanga_explosion": "%1$s разорвало на части спектральным взрывом %2$s",
 	"stellarity.death_messages.carcanet.1": "%1$s слишком сильно ударило звездой %2$s",
@@ -505,6 +539,7 @@
 	"stellarity.death_messages.tamaris_execute.1": "%1$s был прилюдно казнён %2$s",
 	"stellarity.death_messages.tamaris_execute.2": "%2$s заставил %1$s почувствовать, что значит 999 урона",
 	"stellarity.death_messages.tamaris_execute.3": "%2$s забрал остатки здоровья %1$s",
+	"stellarity.death_messages.dot.leeching": "Жизненные силы %1$s были исчерпаны",
 	"stellarity.death_messages.dot.dark_decay.1": "%1$s превратился в ничто",
 	"stellarity.death_messages.dot.dark_decay.2": "%1$s разложился на атомы",
 	"stellarity.death_messages.dot.dark_decay.3": "%1$s стал кучкой пепла",
@@ -520,12 +555,24 @@
 	"stellarity.death_messages.eol.prismatic_bolts": "%1$s забыл уклониться от атаки Императрицы Света",
 	"stellarity.death_messages.eol.ethereal_lance": "%1$s был пронзён насквозь эфирным копьём Императрицы Света",
 	"stellarity.death_messages.eol.dash": "%1$s не убрался вовремя с пути Императрицы Света",
+	"stellarity.death_messages.prismember": "%1$s низведён в пепел %2$s",
 
+	// Subtitles for some sounds
+	// No translation strings here, as I would then
+	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Эндермен атакует",
 	"Endermite attacks": "Эндермит атакует",
 	"Tamaris executes": "Тамарис исполняет казнь",
 	"kohy slays": "kohy slays",
+	"Chorus Dagger recharges": "Хорус-кортик заряжен",
+	"Elektra Shield recharges": "Электрощит заряжен",
+	"Living Flesh hurts": "Живая плоть изнывает",
+	"Kaleidoscope charges": "Калейдоскоп заряжен",
+	"Spirit Dagger teleports": "Призрачный кинжал перемещает",
+	"kohara warps": "kohara warps",
 	
+	// Biomes
+	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Аметистовый лес",
 	"biome.far_end.ashfall_delta": "Пепельная дельта",
 	"biome.far_end.end_wilds": "Дебри Края",
