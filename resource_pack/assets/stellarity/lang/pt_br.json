@@ -48,7 +48,7 @@
   	"stellarity.items.empty_enchanted_book.description.1": "Não possui encantamentos",
   	"stellarity.items.empty_enchanted_book.description.2": "Ele se contorce na direção de uma",
   	"stellarity.items.empty_enchanted_book.description.3": "abertura grande em um dos pilares",
-  	"stellarity.items.empty_enchanted_book.description.4": "Quer ser lançado no topo",
+  	"stellarity.items.empty_enchanted_book.description.4": "Quer ser largado no topo",
   	"stellarity.items.empty_enchanted_book.description.5": "do que está dentro dele",
 
 	// Armor sets
@@ -115,20 +115,20 @@
 	"stellarity.items.perm_buffs.consume_to": "Consuma para permanentemente",
 
   	"stellarity.items.perm_buffs.rageroot": "Raiz da fúria",
-  	"stellarity.items.perm_buffs.rageroot.increase": "aumenta sua força",
+  	"stellarity.items.perm_buffs.rageroot.increase": "aumentar sua força",
   	"stellarity.items.perm_buffs.energizing_fruit": "Fruta energizante",
-  	"stellarity.items.perm_buffs.energizing_fruit.increase": "aumenta sua velocidade",
+  	"stellarity.items.perm_buffs.energizing_fruit.increase": "aumentar sua velocidade",
   	"stellarity.items.perm_buffs.endurance_brew": "Poção de resistência",
-  	"stellarity.items.perm_buffs.endurance_brew.increase": "aumenta sua defesa e redução de dano",
+  	"stellarity.items.perm_buffs.endurance_brew.increase": "aumentar sua defesa e redução de dano",
   	"stellarity.items.perm_buffs.endurance_brew.flavor_text": "'Não confunda com a poção de berserk'",
   	"stellarity.items.perm_buffs.fury_berries": "Bagas da fúria",
-  	"stellarity.items.perm_buffs.fury_berries.increase": "aumenta sua velocidade de ataque",
+  	"stellarity.items.perm_buffs.fury_berries.increase": "aumentar sua velocidade de ataque",
   	"stellarity.items.perm_buffs.lucky_carrot": "Cenoura da sorte",
-  	"stellarity.items.perm_buffs.lucky_carrot.increase": "aumenta sua sorte",
+  	"stellarity.items.perm_buffs.lucky_carrot.increase": "aumentar sua sorte",
   	"stellarity.items.perm_buffs.cleansing_potato": "Batata purificadora",
-  	"stellarity.items.perm_buffs.cleansing_potato.increase": "fique imune a veneno",
+  	"stellarity.items.perm_buffs.cleansing_potato.increase": "ficar imune a veneno",
   	"stellarity.items.perm_buffs.miracle_fruit": "Fruta milagrosa",
-  	"stellarity.items.perm_buffs.miracle_fruit.increase": "aumenta sua regeneração de vida",
+  	"stellarity.items.perm_buffs.miracle_fruit.increase": "aumentar sua regeneração de vida",
 	
 	// Potions
   	"stellarity.items.potions.blind_rage_potion": "Poção de fúria cega",
@@ -225,6 +225,7 @@
   	"stellarity.items.weapons.dragonblade.flavor_text": "'Veio das bordas do End'",
   	"stellarity.items.weapons.dragonblade.tip": "ᴅɪᴄᴀ: ᴘᴜɴᴄɪᴏɴᴇ-ᴏѕ ɴᴏѕ ᴍᴜʀᴏѕ",
   	"stellarity.items.weapons.prismatic_punch": "Soco prismático",
+	"stellarity.items.weapons.prismatic_punch.description.1": "Dispara explosões de rajadas prismáticas",
   	"stellarity.items.weapons.sabrewing": "Sabrewing",
   	"stellarity.items.weapons.sabrewing.description.1": "Potencializa seus tiros",
   	"stellarity.items.weapons.sabrewing.description.2": "para aumentar dano e velocidade",
@@ -301,7 +302,7 @@
   	"stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Item raro de saqueadores em fortalezas.",
 
   	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "",
-  	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Os teletransportes de pérola de ender são muito caóticos para um corpo humano suportar, causando-lhe algum dano. Este livro foi feito para simplificar a magia caótica em uma distorção pura, tornando-a muito mais segura de usar.",
+  	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Os teletransportes de pérola de ender são muito caóticos para um corpo humano, causando-lhe algum dano. Este livro foi feito para simplificar a magia caótica em uma distorção pura, tornando-a muito mais segura de usar.",
   	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Item raro de invocadores em fortalezas.",
 
   	"stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
@@ -313,7 +314,7 @@
   	"stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Item raro de invocadores em fortalezas.",
 
   	"stellarity.items.cursed_tome.entries.tamaris.center": "       ",
-  	"stellarity.items.cursed_tome.entries.tamaris.description": "Até a espada está sucumbindo à magia decadente que ela contém.\nFaz com que inimigos atingidos se deteriorem, além de dar ao usuário a capacidade de executar um golpe final quando esse monstro está com pouca vida.",
+  	"stellarity.items.cursed_tome.entries.tamaris.description": "Até a espada está sucumbindo à magia que ela contém.\nFaz com que inimigos se deteriorem, além de dar ao usuário a capacidade de executar um golpe final quando o inimigo está com pouca vida.",
   	"stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% de chance de ser lergado pelo Dragão Ender.",
 
   	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
@@ -336,7 +337,7 @@
 
   	"stellarity.items.cursed_tome.entries.shulker_tools.center": "   ",
   	"stellarity.items.cursed_tome.entries.shulker_tools.title": "Ferramentas de shulker",
-  	"stellarity.items.cursed_tome.entries.shulker_tools.description": "As mais rápidas e fortes de todas as ferramentas já criadas.\nAqueles que as seguram experimentam uma súbita onda de energia percorrendo seu corpo, permitindo-lhes cavar e atacar mais rápido do que o normal.",
+  	"stellarity.items.cursed_tome.entries.shulker_tools.description": "As mais rápidas e fortes de todas as ferramentas já criadas.\nAqueles que as seguram experimentam uma onda de energia percorrendo seu corpo, permitindo-lhes cavar e atacar mais rápido do que o normal.",
   	"stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Fabricadas no altar do amaldiçoado.",
   	"stellarity.items.cursed_tome.entries.shulker_tools.misc": "Qualquer ferramenta de netherita",
 
@@ -359,7 +360,7 @@
   	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Fabricada no altar do amaldiçoado com 5/8/7/4 barras sagradas (para capacete/peitoral/calças/botas, respectivamente)\n\nBarras sagradas podem ser encontradas em caixas, cidades do End e podem ser compradas em vilas do End.",
 
   	"stellarity.items.cursed_tome.entries.spirit_dagger.center": "    ",
-  	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "Esta arma não funcionará apenas por si só. Se duas forem usadas simultaneamente, os ataques às vezes atrairão espíritos perdidos. O portador pode consumi-los para se teletransportar até eles e obter vários benefícios de combate por um curto período.",
+  	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "Esta arma não funcionará sozinha. Se duas forem usadas, os ataques atrairão espíritos. O portador pode se teletransportar até eles e obter vários benefícios de combate por um curto período.",
   	"stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Item raro de phantoms no End exterior.",
 
   	"stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
@@ -448,7 +449,7 @@
   	"stellarity.advancements.portable_storage": "Armazenamento portátil",
   	"stellarity.advancements.portable_storage.description": "Crie uma caixa de shulker",
   	"stellarity.advancements.super_sonic": "Super sônico",
-  	"stellarity.advancements.super_sonic.description": "Use as élitros para voar por um espaço de 1 por 1 enquanto se move a mais de 40 m/s",
+  	"stellarity.advancements.super_sonic.description": "Use os élitros para voar por um espaço de 1 por 1 enquanto voa a mais de 40 m/s",
   	"stellarity.advancements.treasure_room": "Em busca dos segredos",
   	"stellarity.advancements.treasure_room.description": "Encontre uma cabeça de tesouro rara. Elas não servem para nada, mas são colecionáveis legais",
   	"stellarity.advancements.open_chest_in_end_city": "Quem é o ladrão agora",
