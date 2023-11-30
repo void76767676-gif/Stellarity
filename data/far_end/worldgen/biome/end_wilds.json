@@ -53,16 +53,13 @@
 		[
 			"far_end:wilds/surface/grassy_plain"
 		],
-		[
-			"far_end:wilds/geode/seed_of_life"
-		],
+		[],
 		[],
 		[],
 		[],
 		[],
 		[],
 		[
-			"far_end:wilds/vegetation/patch_chorus_flower",
 			"far_end:wilds/vegetation/patch_leaves",
 			"far_end:wilds/vegetation/chorus_plant"
 		],
