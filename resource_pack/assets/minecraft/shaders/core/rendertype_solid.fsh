@@ -115,7 +115,7 @@ mat4 end_portal_layer(float layer) {
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
     int id = int(color.a*255);
-    if ( id == 254 || id == 253) {
+    if ( id == 151 || id == 150) {
         vec2 screenSize = gl_FragCoord.xy / (screenLocation.xy/screenLocation.z*0.5+0.5);
         color.rgb = COLORS[0] * BACKGROUND_COLOR;
         for (int i = 0; i < 16; i++) {
@@ -124,7 +124,7 @@ void main() {
             color.rgb += (step(0.95, pixel)* 0.2 + step(0.99, pixel) * 0.8) * (COLORS[i]);
         }
         
-        if (id == 253) {
+        if (id == 150) {
             color *= vertexColor * ColorModulator * 0.7 + 0.3;
         }
     } else {

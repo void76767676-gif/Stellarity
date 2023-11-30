@@ -85,49 +85,6 @@
 		"subtitle":"subtitles.entity.endermite.hurt",
 		"replace":true
 	},
-	"entity.shulker.ambient":{
-		"sounds":[
-			"entity/shulker/idle_1",
-			"entity/shulker/idle_2",
-			"entity/shulker/idle_3",
-			"entity/shulker/idle_4",
-			"entity/shulker/idle_5",
-			"entity/shulker/idle_6",
-			"entity/shulker/idle_7"
-		],
-		"subtitle":"subtitles.entity.shulker.ambient",
-		"replace":true
-	},
-	"entity.shulker.close":{
-		"sounds":[
-			"entity/shulker/close_1",
-			"entity/shulker/close_2",
-			"entity/shulker/close_3",
-			"entity/shulker/close_4"
-		],
-		"subtitle":"subtitles.entity.shulker.close",
-		"replace":true
-	},
-	"entity.shulker.death":{
-		"sounds":[
-			"entity/shulker/death_1",
-			"entity/shulker/death_2",
-			"entity/shulker/death_3",
-			"entity/shulker/death_4"
-		],
-		"subtitle":"subtitles.entity.shulker.death",
-		"replace":true
-	},
-	"entity.shulker.hurt":{
-		"sounds":[
-			"entity/shulker/hurt_open_1",
-			"entity/shulker/hurt_open_2",
-			"entity/shulker/hurt_open_3",
-			"entity/shulker/hurt_open_4"
-		],
-		"subtitle":"subtitles.entity.shulker.hurt",
-		"replace":true
-	},
 	"entity.shulker.hurt_closed":{
 		"sounds":[
 			"entity/shulker/hurt_closed_1",
@@ -136,16 +93,6 @@
 			"entity/shulker/hurt_closed_4"
 		],
 		"subtitle":"subtitles.entity.shulker.hurt",
-		"replace":true
-	},
-	"entity.shulker.open":{
-		"sounds":[
-			"entity/shulker/open_1",
-			"entity/shulker/open_2",
-			"entity/shulker/open_3",
-			"entity/shulker/open_4"
-		],
-		"subtitle":"subtitles.entity.shulker.open",
 		"replace":true
 	},
 	"entity.shulker.shoot":{
