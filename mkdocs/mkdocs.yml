@@ -21,14 +21,13 @@ nav:
       - Clockwork Crossbow: items/clockwork_crossbow.md
       - Dragonblade: items/dragonblade.md
       - Prismatic Punch: items/prismatic_punch.md
-      - Zephyr: items/zephyr.md
-      - Sariel: items/sariel.md
       - Sabrewing: items/sabrewing.md
+      - Chorus Dagger: items/chorus_dagger.md
       - Spirit Dagger: items/spirit_dagger.md
       - Tamaris: items/tamaris.md
       - Frigid Harvester: items/frigid_harvester.md
-      - Stella: items/stella.md
       - Kaleidoscope: items/kaleidoscope.md
+      - Prismember: items/prismember.md
     - Armor sets:
       - Ancient Armor: items/armor/ancient_armor.md
       - Hallowed Armor: items/armor/hallowed_armor.md
@@ -62,6 +61,7 @@ nav:
       - Living Flesh (Old): items/removed/living_flesh.md
       - Stella: items/removed/stella.md
       - Zephyr: items/removed/zephyr.md
+      - Sariel: items/removed/sariel.md
   - Mobs:
       - Changes: mobs/changes.md
       - Pixie: mobs/pixie.md

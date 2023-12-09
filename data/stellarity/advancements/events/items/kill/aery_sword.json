@@ -14,16 +14,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_minor_boost",
 					"distance": {
@@ -31,6 +21,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		},
@@ -47,16 +45,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_small_boost",
 					"distance": {
@@ -64,6 +52,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		},
@@ -80,16 +76,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_big_boost",
 					"distance": {
@@ -97,6 +83,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		},
@@ -113,16 +107,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_large_boost",
 					"distance": {
@@ -130,6 +114,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		},
@@ -146,16 +138,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"type": "#stellarity:frigid_harvester/gives_huge_boost",
 					"distance": {
@@ -163,6 +145,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		},
@@ -179,16 +169,6 @@
 						}
 					}
 				},
-				"damage": {
-					"type": {
-						"tags":[
-							{
-								"id": "stellarity:melee",
-								"expected": true
-							}	
-						]
-					}
-				},
 				"entity": {
 					"nbt": "{Tags:[\"stellarity.boss\"]}",
 					"distance": {
@@ -196,6 +176,14 @@
 							"max": 6.5
 						}
 					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
 				}
 			}
 		}

@@ -22,11 +22,6 @@
 				"op": "replace"
 			},
 			{
-				"source": "aery_sword.abilities",
-				"target": "\"stellarity.aery_sword\".abilities",
-				"op": "replace"
-			},
-			{
 				"source": "aery_sword.fireproof",
 				"target": "\"kohara.fireproof\"",
 				"op": "replace"

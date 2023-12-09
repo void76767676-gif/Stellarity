@@ -68,3 +68,6 @@ execute if entity @s[scores={stellarity.items.chorus_dagger.cooldown=1..}] run f
 # Dragon's Eye
 execute if entity @s[predicate=stellarity:items/trinkets/holding_dragons_eye] run function stellarity:items/dragons_eye/main
 execute if entity @s[tag=stellarity.items.dragons_eye.holding,predicate=!stellarity:items/trinkets/holding_dragons_eye] run function stellarity:items/dragons_eye/remove_from_team
+
+# Frigid Harvester
+execute if entity @s[tag=stellarity.cryonics] run function stellarity:items/frigid_harvester/abilities/cryonics/loop

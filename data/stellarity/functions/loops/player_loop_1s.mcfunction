@@ -9,5 +9,6 @@ execute if entity @s[scores={stellarity.items.spellbook.conveyance.cooldown=0..}
 execute if entity @s[scores={stellarity.items.spellbook.updraft.cooldown=0..}] run function stellarity:items/spellbooks/updraft/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.light.cooldown=0..}] run function stellarity:items/spellbooks/light/cooldown_countdown
 execute if entity @s[scores={stellarity.items.spellbook.natures_wrath.cooldown.wolves=0..}] run function stellarity:items/spellbooks/natures_wrath/cooldown_countdown/wolves
+execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
 
 scoreboard players reset @s stellarity.misc.loop.1s

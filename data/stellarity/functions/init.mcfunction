@@ -68,7 +68,22 @@ scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
 scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
 
+# Frigid Harvester, AKA Aery Sword
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
+
+scoreboard objectives add stellarity.items.aery_sword.kills.iron_golem minecraft.killed:minecraft.iron_golem
+scoreboard objectives add stellarity.items.aery_sword.kills.ender_dragon minecraft.killed:minecraft.ender_dragon
+scoreboard objectives add stellarity.items.aery_sword.kills.witch minecraft.killed:minecraft.witch
+scoreboard objectives add stellarity.items.aery_sword.kills.blaze minecraft.killed:minecraft.blaze
+scoreboard objectives add stellarity.items.aery_sword.kills.stray minecraft.killed:minecraft.stray
+scoreboard objectives add stellarity.items.aery_sword.kills.wither minecraft.killed:minecraft.wither
+
+scoreboard objectives add stellarity.items.aery_sword.kills.witch.count dummy
+scoreboard objectives add stellarity.items.aery_sword.kills.blaze.count dummy
+scoreboard objectives add stellarity.items.aery_sword.kills.stray.count dummy
+
+scoreboard objectives add stellarity.items.aery_sword.cryonics.duration dummy
+scoreboard objectives add stellarity.items.aery_sword.cryonics.cooldown dummy
 
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy
 

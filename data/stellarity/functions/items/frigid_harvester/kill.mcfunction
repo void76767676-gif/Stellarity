@@ -1,30 +1,17 @@
-execute store result score #damage kohara.misc run data get entity @s SelectedItem.tag."stellarity.aery_sword.damage" 100
+data remove storage stellarity:temp aery_sword.item
 
-# Mostly passive mobs
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={minor=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 7
+data modify storage stellarity:temp aery_sword.item set from entity @s SelectedItem.tag
+execute store result score #damage stellarity.misc run data get storage stellarity:temp aery_sword.item."stellarity.aery_sword".damage 100
 
-# Weaker mobs, like e.g. Zombies, Skeletons, Endermen
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={small=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 14
+# Damage gains
+# Only goes until +14 damage, or 19 total damage
+execute if score #damage stellarity.misc matches ..1399 run function stellarity:items/frigid_harvester/scale
 
-# Stronger foes, like e.g. Creepers, Vindicators
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={big=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 24
+# Anima Conduit
+execute if data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["anima_conduit"]}}}} run function stellarity:items/frigid_harvester/abilities/anima_conduit/activate
 
-# Rarer stronger mobs. Evokers, Illusioners, Ravagers...
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={large=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 35
-
-# Wardens, Withers, datapack bosses
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={huge=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 67
-execute if entity @s[advancements={stellarity:events/items/kill_with_aery_sword={boss=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 67
-
-execute if score #damage kohara.misc matches ..1699 run function stellarity:items/frigid_harvester/scale
-execute if score #damage kohara.misc matches 1700.. run tag @s add stellarity.anima_conduit
-execute if score #damage kohara.misc matches 1700.. run schedule function stellarity:items/frigid_harvester/abilities/anima_conduit_scheduled 1t append
+# Frost Barrier
+execute if data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["frost_barrier"]}}}} run function stellarity:items/frigid_harvester/abilities/frost_barrier/dr
 
 tag @s add stellarity.items.frigid_harvester.remove_adv
 schedule function stellarity:items/frigid_harvester/remove_adv/schedule 1t append
