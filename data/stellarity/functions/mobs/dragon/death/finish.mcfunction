@@ -35,6 +35,3 @@ scoreboard players set #stellarity.dragon.ash_duration stellarity.misc 500
 
 # Delay the track by 3.5s
 schedule function stellarity:mobs/dragon/play_track 70t
-
-# Remove wind
-kill @e[type=marker,tag=stellarity.dragon.wind]

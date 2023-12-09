@@ -5,7 +5,6 @@ particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 kill @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal]
 kill @e[type=marker,tag=stellarity.dragon_respawn.marker]
 kill @e[type=marker,tag=stellarity.dragon_respawn.marker2]
-kill @e[type=marker,tag=stellarity.dragon_respawn.wind]
 kill @e[type=marker,tag=stellarity.dragon_respawn.beam]
 
 advancement grant @a[distance=..100,advancements={stellarity:dragons_den/final_showdown=true,minecraft:end/respawn_dragon=true}] only stellarity:dragons_den/third_times_the_charm

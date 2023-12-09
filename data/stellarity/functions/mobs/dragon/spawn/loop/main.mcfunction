@@ -16,8 +16,7 @@ execute rotated ~240 ~ run particle end_rod ^ ^0.35 ^9.5 0 0 0 0 1 force
 execute if score @s stellarity.misc matches 1 run function stellarity:mobs/dragon/spawn/wave
 # Secondary circle
 execute as @e[type=marker,tag=stellarity.dragon_respawn.marker2,limit=1,sort=nearest] at @s run function stellarity:mobs/dragon/spawn/loop/marker_2
-# Wind
-execute as @e[type=marker,tag=stellarity.dragon_respawn.wind,limit=1,sort=nearest] at @s run function stellarity:mobs/dragon/spawn/loop/marker_wind
+
 
 tp @s ~ ~ ~ ~2 ~
 

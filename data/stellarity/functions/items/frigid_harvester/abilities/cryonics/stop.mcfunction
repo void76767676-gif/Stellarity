@@ -8,7 +8,6 @@ playsound minecraft:block.glass.break player @a ~ ~ ~ 1 0.6
 playsound minecraft:block.amethyst_block.break player @a ~ ~ ~ 1 0.6
 playsound minecraft:block.respawn_anchor.deplete player @a ~ ~ ~ 1 0.8
 
-
 effect clear @s regeneration
 effect clear @s jump_boost
 effect clear @s slowness

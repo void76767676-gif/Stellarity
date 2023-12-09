@@ -39,13 +39,13 @@ bossbar set stellarity:crystal_count players @a[distance=..300]
 # 8 = charging player
 # 9 = flying to portal to die
 execute store result score @s stellarity.misc run data get entity @s DragonPhase
-execute unless score @s stellarity.misc matches 5..7 run function stellarity:mobs/dragon/trail
+execute unless score @s[tag=!stellarity.at_portal] stellarity.misc matches 5..7 run function stellarity:mobs/dragon/trail
 execute if score @s[tag=stellarity.dragon.invulnerable] stellarity.misc matches 2..3 run \
 	data modify entity @s DragonPhase set value 0
 execute if score @s stellarity.misc matches 5 run function stellarity:mobs/dragon/attacks/roar_breath/main
 execute unless score @s stellarity.dragon.shulker_hell matches 1 as @e[type=dragon_fireball] at @s run function stellarity:mobs/dragon/attacks/fireball/summon
 execute if score @s stellarity.dragon.shulker_hell matches 1 as @e[type=dragon_fireball] at @s run function stellarity:mobs/dragon/attacks/shulker_hell/trigger
-execute if score @s[scores={stellarity.dragon.health_percent=..99}] stellarity.misc matches 4 run function stellarity:mobs/dragon/attacks/take_off/main
+execute if score @s[tag=!stellarity.at_portal,scores={stellarity.dragon.health_percent=..99}] stellarity.misc matches 4 run function stellarity:mobs/dragon/attacks/take_off/main
 	
 execute if score @s[scores={stellarity.dragon.perch_cooldown=1..}] stellarity.misc matches 2..3 run \
 	data modify entity @s DragonPhase set value 0
@@ -57,12 +57,6 @@ scoreboard players remove @s[scores={stellarity.dragon.perch_cooldown=1..}] stel
 # A special helper Marker is spawned right with the Dragon and is used
 # for things like death animations, dropping loot at correct time, etc.
 execute at @s run tp @e[type=marker,tag=stellarity.dragon_marker] ~ ~ ~
-#execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run 
-
-# Wind
-#execute if score @s[tag=!stellarity.dragon.wind.1] stellarity.dragon.health_percent matches ..75 run function stellarity:mobs/dragon/wind/spawn
-#execute if score @s[tag=!stellarity.dragon.wind.2] stellarity.dragon.health_percent matches ..50 run function stellarity:mobs/dragon/wind/begin_wind_2
-#execute if score @s[tag=!stellarity.dragon.wind.3] stellarity.dragon.health_percent matches ..25 run function stellarity:mobs/dragon/wind/begin_wind_3
 
 # Revive 5 random End Crystals 
 execute if score @s[tag=!stellarity.dragon.respawned_crystals] stellarity.dragon.health_percent matches ..25 run function stellarity:mobs/dragon/attacks/revive_crystals/initiate

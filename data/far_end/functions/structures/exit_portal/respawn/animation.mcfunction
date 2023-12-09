@@ -8,7 +8,6 @@ execute if score @s fe.timer matches 1 run function far_end:structures/exit_port
 execute if score @s fe.timer matches 1 run advancement grant @a[distance=..32] only stellarity:dragons_den/sacrificial_ritual
 execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.marker","stellarity.marker"]}
 execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.marker2","stellarity.marker"]}
-execute if score @s fe.timer matches 1 run summon marker ~ ~-1 ~ {Tags:["stellarity.dragon_respawn.wind","stellarity.marker"]}
 
 # Utility marker for secondary animations
 scoreboard players operation @e[type=marker,tag=stellarity.dragon_respawn.marker] stellarity.misc = @s fe.timer

@@ -10,6 +10,5 @@ tag @s remove fe.respawn
 kill @e[type=marker,tag=stellarity.dragon_respawn.marker]
 kill @e[type=marker,tag=stellarity.dragon_respawn.beam]
 kill @e[type=marker,tag=stellarity.dragon_respawn.marker2]
-kill @e[type=marker,tag=stellarity.dragon_respawn.wind]
 
 setblock 0 63 0 bedrock 
