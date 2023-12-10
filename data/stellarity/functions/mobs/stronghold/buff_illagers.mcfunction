@@ -1,5 +1,3 @@
-# 'Semi switch case' my ass, this is literally a wall of 'elseif'
-
 tag @s add stellarity.stronghold.buffed
 
 execute if entity @s[type=witch] run function stellarity:mobs/stronghold/buff/witch

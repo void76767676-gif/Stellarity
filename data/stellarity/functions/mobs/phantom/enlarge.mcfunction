@@ -18,14 +18,14 @@ scoreboard players set #1 stellarity.misc 1
 scoreboard players operation @s stellarity.phantom.size = #size stellarity.misc
 
 scoreboard players operation #mul stellarity.misc = @s stellarity.phantom.size
-scoreboard players set #4 stellarity.misc 4
+scoreboard players set #3 stellarity.misc 3
 scoreboard players set #hp stellarity.misc 20
 
-scoreboard players operation #mul stellarity.misc *= #4 stellarity.misc
+scoreboard players operation #mul stellarity.misc *= #3 stellarity.misc
 scoreboard players operation #hp stellarity.misc += #mul stellarity.misc
 
 # Modify HP
-# 20 + 4 * size
+# 20 + 3 * size
 execute store result entity @s Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #hp stellarity.misc
 
 # Heal missing HP

@@ -63,9 +63,9 @@
 </div>
 
 ## Obtaining
-Frigid Harvester has a 10% chance to be found inside Frozen Crates fished up from [Void Fishing](../mechanics/void_fishing.md).
+Frigid Harvester has a 10% chance to be found inside Frozen Crates fished up during [Void Fishing](../mechanics/void_fishing.md).
 
-<i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Strays found in [Frosted Hills](../biomes/frosted_hills.md) have a 3% chance to spawn holding a Frigid Harvester, which they always drop on death. Strays equipped with Harvesters have increased stats and wear a <i class="icon-minecraft icon-minecraft-diamond-helmet"></i>Diamond Helmet.
+<i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Strays found in [Frosted Hills](../biomes/frosted_hills.md) have a 3% chance to spawn holding a Frigid Harvester, which they always drop on death. Strays equipped with Harvesters have increased stats and wear a <i class="icon-minecraft icon-minecraft-diamond-helmet"></i>Diamond Helmet and <i class="icon-minecraft icon-minecraft-diamond-chestplate"></i>Chestplate.
 
 ## Usage
 Killing any living mob permanently increases Frigid Harvester's damage. Stronger mobs give more extra damage, while passive mobs barely grant any increase. Displayed damage is rounded up to the lower tenth, meaning that e.g. damage value of `8.62` is going to be displayed as `8.6` instead.

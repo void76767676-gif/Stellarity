@@ -33,12 +33,6 @@
 				"weight": 17,
 				"minCount": 3,
 				"maxCount": 3
-			},
-			{
-				"type": "minecraft:hoglin",
-				"weight": 8,
-				"minCount": 3,
-				"maxCount": 3
 			}
 		]
 	},
