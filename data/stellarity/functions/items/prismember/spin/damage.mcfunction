@@ -3,7 +3,7 @@
 
 tag @p[predicate=stellarity:items/holding_prismember,distance=0.001..] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:50,damage_boost_efficiency:0,damage_type:"stellarity:prismember",tag:"stellarity.damage.prismember"}
+function kohara:damage/calculate {armor_penetration:65,damage_boost_efficiency:0,damage_type:"stellarity:prismember",tag:"stellarity.damage.prismember"}
 
 # Prismatic Inferno
 scoreboard players set #dot.damage stellarity.misc 15

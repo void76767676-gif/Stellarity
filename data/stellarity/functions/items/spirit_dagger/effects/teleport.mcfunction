@@ -48,11 +48,8 @@ scoreboard players operation #sharpness stellarity.misc = #temp_1 stellarity.mis
 # Damage
 execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
-# Visuals
-function stellarity:items/spirit_dagger/effects/teleport/visuals
-
-# Sounds
-function stellarity:items/spirit_dagger/effects/teleport/sounds
+# Teleport slash effect
+function stellarity:items/spirit_dagger/effects/teleport/slash
 
 # Kill Spirit
 kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
