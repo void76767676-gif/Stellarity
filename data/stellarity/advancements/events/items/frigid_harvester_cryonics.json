@@ -1,5 +1,5 @@
 {
-	"parent": "stellarity:event/root",
+	"parent": "stellarity:events/root",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:used_totem",
