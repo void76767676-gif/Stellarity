@@ -19,6 +19,8 @@ execute if score @s stellarity.eol.animation matches 60 run kill @s
 execute if score @s stellarity.eol.animation matches 60 run kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.eol.as]
 execute if score @s stellarity.eol.animation matches 60 run scoreboard players reset #timer1
 execute if score @s stellarity.eol.animation matches 60 run scoreboard players reset #ambient stellarity.misc
+execute if score @s stellarity.eol.animation matches 60 as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing] on passengers run kill @s
+execute if score @s stellarity.eol.animation matches 60 run kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing]
 
 execute if score @s[tag=stellarity.eol.full_daytime] stellarity.eol.animation matches 60 run function stellarity:mobs/eol/core/loot/daytime
 execute if score @s[tag=!stellarity.eol.full_daytime] stellarity.eol.animation matches 60 run function stellarity:mobs/eol/core/loot/nighttime

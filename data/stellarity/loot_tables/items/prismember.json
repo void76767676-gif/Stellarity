@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.weapons.prismember",
 								"fallback": "Prismember",
-								"color": "#FFD500",
+								"color": "#FF76D0",
 								"italic": false
 							}
 						},

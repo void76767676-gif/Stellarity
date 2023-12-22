@@ -16,7 +16,7 @@
 							"name": {
 								"translate": "stellarity.items.trinkets.starstruck_carcanet",
 								"fallback": "Starstruck Carcanet",
-								"color": "#FFD500",
+								"color": "#FF76D0",
 								"italic": false
 							}
 						},

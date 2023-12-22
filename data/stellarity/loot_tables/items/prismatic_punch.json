@@ -13,7 +13,7 @@
 							"name": {
 								"translate": "stellarity.items.weapons.prismatic_punch",
 								"fallback": "Prismatic Punch",
-								"color": "#FFD500",
+								"color": "#FF76D0",
 								"italic": false
 							}
 						},

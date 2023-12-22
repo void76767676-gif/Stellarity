@@ -9,7 +9,7 @@ execute if entity @s[tag=stellarity.end_portal_animation,tag=stellarity.end_port
 
 execute if entity @s[tag=stellarity.eol.spawn_animation] run function stellarity:mobs/eol/animations/spawn/loop
 
-execute if entity @s[tag=stellarity.altar_of_the_light] unless block ~ ~-1 ~ minecraft:shroomlight run function stellarity:mechanics/altar_of_light/drop_self
+execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:mechanics/altar_of_light/loop/marker
 
 execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal_animation/marker_loop
 execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal_animation/animation/main
@@ -21,7 +21,6 @@ execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:mob
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
-execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:sfx/altar_of_light/loop
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s
 
 scoreboard players add @s stellarity.misc.loop.15s 1
