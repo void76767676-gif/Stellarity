@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.chorus_dagger.cooldown 220
+scoreboard players set @s stellarity.items.chorus_dagger.cooldown 160
 
 function stellarity:items/chorus_dagger/damage/calculate
 

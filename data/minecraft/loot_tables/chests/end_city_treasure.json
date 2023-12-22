@@ -477,6 +477,21 @@
 					"name": "minecraft:spire_armor_trim_smithing_template"
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/chorus_dagger"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.10
+				}
+			]
 		}
 	]
 }
