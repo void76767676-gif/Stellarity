@@ -6,13 +6,13 @@
 		},
 		"title": {
 			"translate": "stellarity.advancements.truly_max_out_aery_sword",
-			"fallback": "Snow Graved",
+			"fallback": "20 Below Zero",
 			"color": "white"
 		},
 		"description": [
 			{
 				"translate": "stellarity.advancements.truly_max_out_aery_sword.description",
-				"fallback": "Upgrade Frigid Harvester to its absolute maximum",
+				"fallback": "Even the grim power of this ice sword has its limits...",
 				"color": "light_gray"
 			}
 		],
