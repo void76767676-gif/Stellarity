@@ -5,11 +5,11 @@ scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
 scoreboard players operation #fire stellarity.misc /= #2 stellarity.misc
 scoreboard players operation #fire stellarity.misc += #2s stellarity.misc
 
-# 70% of fire duration
+# 80% of fire duration
 scoreboard players operation #temp stellarity.misc = #fire stellarity.misc
 scoreboard players operation #temp stellarity.misc *= #100 stellarity.misc
 
-scoreboard players set #temp2 stellarity.misc 30
+scoreboard players set #temp2 stellarity.misc 20
 scoreboard players operation #temp2 stellarity.misc *= #fire stellarity.misc
 
 scoreboard players operation #temp stellarity.misc -= #temp2 stellarity.misc

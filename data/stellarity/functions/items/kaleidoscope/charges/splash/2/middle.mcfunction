@@ -1,11 +1,22 @@
 ## Fire
-# Half the duration
 scoreboard players set #2 stellarity.misc 2
 scoreboard players set #2s stellarity.misc 60
 scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
 scoreboard players operation #fire stellarity.misc /= #2 stellarity.misc
 scoreboard players operation #fire stellarity.misc += #2s stellarity.misc
-scoreboard players operation #fire stellarity.misc /= #2 stellarity.misc
+
+# 65% of fire duration
+scoreboard players operation #temp stellarity.misc = #fire stellarity.misc
+scoreboard players operation #temp stellarity.misc *= #100 stellarity.misc
+
+scoreboard players set #temp2 stellarity.misc 35
+scoreboard players operation #temp2 stellarity.misc *= #fire stellarity.misc
+
+scoreboard players operation #temp stellarity.misc -= #temp2 stellarity.misc
+
+scoreboard players operation #temp stellarity.misc /= #100 stellarity.misc
+scoreboard players operation #fire stellarity.misc = #temp stellarity.misc
+
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 ## Damage

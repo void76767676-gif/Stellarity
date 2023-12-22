@@ -1,4 +1,4 @@
-scoreboard players set #fire stellarity.misc 33
+scoreboard players set #fire stellarity.misc 60
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 # Base discharge damage: 23
