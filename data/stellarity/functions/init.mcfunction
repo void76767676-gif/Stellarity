@@ -40,6 +40,7 @@ scoreboard objectives add stellarity.items.crest.time dummy
 
 scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
 scoreboard objectives add stellarity.items.elektra_shield.animation dummy
+scoreboard objectives add stellarity.items.elektra_shield.dashes dummy
 
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add stellarity.items.prismatic_punch.teleport dummy
@@ -128,6 +129,7 @@ scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
 scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
 scoreboard objectives add stellarity.mechanics.consecration.time dummy
+scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
 
 ## Misc
 # Temporar variables OR things that don't need its own variable
