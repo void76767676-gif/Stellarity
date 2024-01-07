@@ -1,13 +1,13 @@
-name: Stellarity-MOD
+name: Stellarity-Mod-DEV
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
-        name: Stellarity-MOD
+        name: Stellarity-Mod-DEV
         path: |
           data/
           mod/
@@ -15,3 +15,5 @@ jobs:
           pack.mcmeta
           pack.png
           LICENSE
+        retention-days: 7
+        compression-level: 9
