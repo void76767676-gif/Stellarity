@@ -2,6 +2,7 @@ data modify storage stellarity:temp aota.enchants set from entity @e[type=item,t
 
 kill @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5,limit=1]
+kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 
 loot spawn ~ ~-.4 ~ loot stellarity:items/tools/shulker/pickaxe
 tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip

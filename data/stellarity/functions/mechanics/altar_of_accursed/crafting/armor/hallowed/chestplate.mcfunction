@@ -5,6 +5,7 @@ data modify storage stellarity:temp aota.trim set from storage stellarity:temp a
 
 kill @e[type=item,tag=stellarity.aota.hallowed_ingots,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_chestplate,distance=..1.5,limit=1]
+kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 
 loot spawn ~ ~-.4 ~ loot stellarity:items/armors/hallowed_armor/chestplate
 tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip
