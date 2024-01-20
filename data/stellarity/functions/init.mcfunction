@@ -3,13 +3,8 @@
 scoreboard objectives add stellarity.config.join_message dummy
 scoreboard objectives add stellarity.config.always_generate_egg dummy
 scoreboard objectives add stellarity.config.dragon_health dummy
-
-# Initialize config scoreboards that do not have a value at start,
-# but require them to work properly (or at all)
+# Initialize config scoreboards
 # Freshly created scoreboards have no value (not even set to 0)
-# The trick I used is checking whether a given scoreboard is SET TO A NUMBER
-# 'null' is not a number, remember!
-# *coughs in German*
 function stellarity:config/init
 
 ## Items
@@ -25,8 +20,8 @@ scoreboard objectives add stellarity.items.pandoras_barrel.animation dummy
 scoreboard objectives add stellarity.items.pandoras_barrel.summon_id dummy
 
 scoreboard objectives add stellarity.items.armors.holy_protection_cooldown dummy
-scoreboard objectives add stellarity.items.armors.ancient_armor.combo dummy
-scoreboard objectives add stellarity.items.armors.ancient_armor.until_combo_reset dummy
+scoreboard objectives add stellarity.items.armors.chorus_champion_armor.combo dummy
+scoreboard objectives add stellarity.items.armors.chorus_champion_armor.until_combo_reset dummy
 
 scoreboard objectives add stellarity.items.sharanga.arrow_age dummy
 
@@ -50,9 +45,6 @@ scoreboard objectives add stellarity.items.prismatic_punch.multishot dummy
 
 scoreboard objectives add stellarity.items.ender_insignia.hold_duration dummy
 
-scoreboard objectives add stellarity.items.sabrewing.charge dummy
-scoreboard objectives add stellarity.items.sabrewing.until_charge_reset dummy
-
 scoreboard objectives add stellarity.items.spellbook.conveyance.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.conveyance.id dummy
 scoreboard objectives add stellarity.items.spellbook.updraft.cooldown dummy
@@ -67,7 +59,7 @@ scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed
 scoreboard objectives add stellarity.items.spirit_dagger.attract_cooldown dummy
 scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
-scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
+scoreboard objectives add stellarity.items.spirit_dagger.efstellaritycts_duration dummy
 
 # Frigid Harvester, AKA Aery Sword
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
@@ -113,7 +105,10 @@ scoreboard objectives add stellarity.eol.attack_cooldown dummy
 scoreboard objectives add stellarity.eol.projectile_age dummy
 
 # Ender Dragon
+scoreboard objectives add stellarity.dragon.times_killed dummy
+scoreboard objectives add stellarity.dragon.respawn_animation_progress dummy
 scoreboard objectives add stellarity.dragon.perch_cooldown dummy
+scoreboard objectives add stellarity.dragon.health dummy
 scoreboard objectives add stellarity.dragon.health_percent dummy
 scoreboard objectives add stellarity.dragon.health_old dummy
 scoreboard objectives add stellarity.dragon.time_chainfiring dummy
@@ -127,9 +122,16 @@ scoreboard objectives add stellarity.phantom.size dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
-scoreboard objectives add stellarity.mechanics.void_totem_protection_time dummy
 scoreboard objectives add stellarity.mechanics.consecration.time dummy
 scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
+
+## Boss music
+scoreboard objectives add stellarity.music.ender_dragon.timer dummy
+scoreboard objectives add stellarity.music.ender_dragon.duration dummy
+
+scoreboard objectives add stellarity.music.empress_of_light.timer dummy
+scoreboard objectives add stellarity.music.ender_dragon.duration dummy
+
 
 ## Misc
 # Temporar variables OR things that don't need its own variable
@@ -153,8 +155,6 @@ scoreboard objectives add stellarity.misc.loop.1s dummy
 scoreboard objectives add stellarity.misc.loop.10s dummy
 scoreboard objectives add stellarity.misc.loop.15s dummy
 
-execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw 5t
-
 ## Creating teams
 team add stellarity.purple_glow
 team modify stellarity.purple_glow color dark_purple
@@ -171,14 +171,30 @@ team modify stellarity.homing_targets color aqua
 team add stellarity.rave_glow
 team modify stellarity.rave_glow color red
 
+team add stellarity.phantom_glow
+team modify stellarity.phantom_glow color green
+
+team add stellarity.eol.night_glow
+team modify stellarity.eol.night_glow color light_purple
+
+team add stellarity.eol.day_glow
+team modify stellarity.eol.day_glow color yellow
+
 team add stellarity.dragons_eye.pacified
 team modify stellarity.dragons_eye.pacified friendlyFire true
 team modify stellarity.dragons_eye.pacified seeFriendlyInvisibles false
 team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
 
 ## Bossbars
+# Ender Dragon
+bossbar add stellarity:ender_dragon {"translate":"entity.minecraft.ender_dragon","color":"#BF00C8"}
+bossbar set stellarity:ender_dragon color pink
+bossbar set stellarity:ender_dragon players
+bossbar set stellarity:ender_dragon max 300
+bossbar set stellarity:ender_dragon style progress
+bossbar set stellarity:ender_dragon visible true
 # 'Crystals Left'
-bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left:","color":"#4C0081"}
+bossbar add stellarity:crystal_count {"translate":"stellarity.bossbars.crystals_left","fallback":"Crystals Left: %s","color":"#4C0081"}
 bossbar set stellarity:crystal_count color purple
 bossbar set stellarity:crystal_count visible true
 bossbar set stellarity:crystal_count players
@@ -190,7 +206,7 @@ bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players
 bossbar set stellarity:eol max 500
-bossbar set stellarity:eol style notched_10
+bossbar set stellarity:eol style notched_20
 
 # Scheduling loops that do not need
 # to be executed every single tick
@@ -200,11 +216,7 @@ schedule function stellarity:loops/timed/5_tick 5t append
 schedule function stellarity:loops/timed/1_second 1s append
 schedule function stellarity:loops/timed/5_second 5s append
 
-# Initialize RNG
-function kohara:rng/init
-
 # Get world difficulty
 execute store result score #difficulty stellarity.misc run difficulty
 
-# Initialize all DOT related scoreboards
-data modify storage stellarity:temp spellbook_fix set value 1b
+execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw/schedule 5t

@@ -12,17 +12,17 @@ execute store result score #length stellarity.misc run data get storage stellari
 
 scoreboard players set in stellarity.misc 1
 scoreboard players operation in1 stellarity.misc = #length stellarity.misc
-scoreboard players reset out stellarity.misc
+scoreboard players reset #trade stellarity.misc
 execute unless score #length stellarity.misc matches 1 run function kohara:rng/range
 
 execute if score #length stellarity.misc matches 1 run data modify storage stellarity:temp "natures_wrath.chosen" set value "normal"
-execute if score out stellarity.misc matches 1 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[0]
-execute if score out stellarity.misc matches 2 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[1] 
-execute if score out stellarity.misc matches 3 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[2] 
-execute if score out stellarity.misc matches 4 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[3] 
-execute if score out stellarity.misc matches 5 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[4] 
-execute if score out stellarity.misc matches 6 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[5] 
-execute if score out stellarity.misc matches 7 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[6] 
+execute if score #trade stellarity.misc matches 1 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[0]
+execute if score #trade stellarity.misc matches 2 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[1] 
+execute if score #trade stellarity.misc matches 3 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[2] 
+execute if score #trade stellarity.misc matches 4 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[3] 
+execute if score #trade stellarity.misc matches 5 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[4] 
+execute if score #trade stellarity.misc matches 6 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[5] 
+execute if score #trade stellarity.misc matches 7 run data modify storage stellarity:temp "natures_wrath.chosen" set from storage stellarity:temp "natures_wrath.spells"[6] 
 
 execute if data storage stellarity:temp {natures_wrath.chosen:"normal"} run tag @s add stellarity.natures_wrath.spirit.normal
 execute if data storage stellarity:temp {natures_wrath.chosen:"forest"} run tag @s add stellarity.natures_wrath.spirit.forest

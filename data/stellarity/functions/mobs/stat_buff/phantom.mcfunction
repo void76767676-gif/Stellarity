@@ -7,3 +7,5 @@ attribute @s minecraft:generic.follow_range modifier add 5c71dae2-ad6e-4d51-8d18
 data modify entity @s Health set value 24.0f
 data modify entity @s Size set value 1
 data modify entity @s DeathLootTable set value "stellarity:mobs/buffed/phantom"
+
+team join stellarity.phantom_glow @s

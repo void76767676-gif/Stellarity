@@ -1,7 +1,6 @@
 ## Debuff immunity
 # Levitation
-execute unless score @s stellarity.mechanics.void_totem_protection_time matches 1.. run \
-	effect clear @s levitation 
+effect clear @s levitation 
 # Wither
 effect clear @s wither
 

@@ -1,4 +1,4 @@
-fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 barrier replace air
+fill ~-1 ~-1 ~-1 ~1 ~-2 ~1 barrier replace air
 
 execute align xyz positioned ~0.5 ~-0.5 ~0.5 run function stellarity:mechanics/void_fishing/as_bobber/biome_aec
 

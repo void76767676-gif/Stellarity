@@ -10,3 +10,7 @@ function #kohara:status_effects/clear_all
 
 effect give @s invisibility infinite 0 true
 effect clear @s regeneration
+
+playsound entity.allay.death hostile @a[distance=0..] ~ ~1 ~ 1.5 1.15
+playsound entity.vex.death hostile @a[distance=0..] ~ ~1 ~ 1.5 1.15
+playsound minecraft:entity.blaze.death hostile @a[distance=0..] ~ ~ ~ 0.2 0

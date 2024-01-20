@@ -3,10 +3,11 @@ data modify storage stellarity:temp aota.item set from entity @e[type=item,tag=s
 data modify storage stellarity:temp aota.enchants set from storage stellarity:temp aota.item.Enchantments
 data modify storage stellarity:temp aota.trim set from storage stellarity:temp aota.item.Trim
 
-kill @e[type=item,tag=stellarity.aota.ancient_plating,distance=..1.5,limit=1]
+kill @e[type=item,tag=stellarity.aota.chorus_plating,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_chestplate,distance=..1.5,limit=1]
+kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 
-loot spawn ~ ~-.4 ~ loot stellarity:items/armors/ancient_armor/chestplate
+loot spawn ~ ~-.4 ~ loot stellarity:items/armors/chorus_champion_armor/chestplate
 tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip
 
 data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set from storage stellarity:temp aota.enchants

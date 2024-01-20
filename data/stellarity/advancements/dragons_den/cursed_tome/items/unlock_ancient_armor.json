@@ -6,7 +6,7 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{stellarity.special_item:\"ancient_armor\"}"
+						"nbt": "{stellarity.special_item:\"chorus_champion_armor\"}"
 					}
 				]
 			}
@@ -16,7 +16,7 @@
 			"conditions": {
 				"items": [
 					{
-						"nbt": "{stellarity.special_item:\"ancient_plating\"}"
+						"nbt": "{stellarity.special_item:\"chorus_plating\"}"
 					}
 				]
 			}

@@ -7,9 +7,6 @@ execute as @e[type=area_effect_cloud,tag=stellarity.items.dragonblade.smthgram_a
 # Sharanga
 execute as @e[type=spectral_arrow,tag=stellarity.spectral_bolt] at @s run function stellarity:items/sharanga/arrow_loop
 
-# Sabrewing
-execute as @e[type=#arrows,tag=stellarity.items.sabrewing.arrow] at @s run function stellarity:items/sabrewing/charged_shots/loop
-
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=stellarity.duskberry_cloud] at @s run function stellarity:items/duskberry/as_aec
 

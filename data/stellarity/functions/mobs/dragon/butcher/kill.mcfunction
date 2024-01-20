@@ -26,4 +26,4 @@ execute if block 77 75 -57 end_gateway positioned 77 75 -57 run fill ~1 ~2 ~1 ~-
 execute if block 91 75 -30 end_gateway positioned 91 75 -30 run fill ~1 ~2 ~1 ~-1 ~-2 ~-1 air
 
 bossbar set stellarity:crystal_count players
-bossbar set fe:ender_dragon players
+bossbar set stellarity:ender_dragon players

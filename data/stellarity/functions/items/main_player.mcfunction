@@ -15,10 +15,6 @@ execute if entity @s[predicate=stellarity:items/clockwork_crossbow/holding_unloa
 # Prismatic Punch
 execute if entity @s[scores={kohara.shot_bow=1},predicate=stellarity:items/holding_sharanga] run function stellarity:items/sharanga/shoot
 
-# Sabrewing
-execute if entity @s[scores={kohara.shot_bow=1,stellarity.items.sabrewing.charge=45..},predicate=stellarity:items/holding_sabrewing] run function stellarity:items/sabrewing/shoot
-execute if entity @s[scores={stellarity.items.sabrewing.until_charge_reset=1..}] run function stellarity:items/sabrewing/reset_charge_countdown
-
 # Spirit Dagger
 execute if entity @s[predicate=stellarity:items/spirit_dagger/holding_both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
@@ -36,7 +32,7 @@ execute if entity @s[predicate=stellarity:items/trinkets/holding_ender_insignia,
 execute if entity @s[tag=stellarity.ender_insignia.active] run function stellarity:items/ender_insignia/loop
 
 # Tamaris
-execute if entity @s[predicate=stellarity:items/holding_tamaris] if entity @e[type=!#kohara:invalid_targets,distance=..10,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
+execute if entity @s[predicate=stellarity:items/holding_tamaris] if entity @e[type=!#kohara:invalid_targets,distance=0.01..10,limit=1,sort=nearest,tag=stellarity.items.tamaris.executable] run function stellarity:items/tamaris/holding_loop
 execute if entity @s[tag=stellarity.items.tamaris.doing_execute] run function stellarity:items/tamaris/execute/animation/progress
 
 # Soaring Insignia

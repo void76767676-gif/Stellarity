@@ -9,9 +9,6 @@ execute if entity @s[tag=stellarity.sariel.heal_orb] anchored eyes run function 
 # Starstruck Carcanet
 execute if entity @s[tag=stellarity.carcanet.star] run function stellarity:items/starstruck_carcanet/star_loop
 
-# Sabrewing
-execute if entity @s[tag=stellarity.items.sabrewing.marker] unless entity @e[type=arrow,distance=..0.05] run function stellarity:items/sabrewing/charged_shots/marker_no_arrow
-
 # Prismember
 execute if entity @s[tag=stellarity.prismember] run function stellarity:items/prismember/spin/animation/main
 

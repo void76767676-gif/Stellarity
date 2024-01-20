@@ -120,7 +120,7 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/materials/ancient_plating",
+					"name": "stellarity:items/materials/chorus_plating",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

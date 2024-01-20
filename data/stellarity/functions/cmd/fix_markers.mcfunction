@@ -4,6 +4,6 @@ tag @e[type=minecraft:marker,tag=stellarity.end_portal,tag=!stellarity.marker] a
 tag @e[type=minecraft:marker,tag=fe.structure,tag=fe.exit_portal,tag=!stellarity.marker] add stellarity.marker
 tag @e[type=minecraft:marker,tag=stellarity.dragons_den_chest,tag=!stellarity.marker] add stellarity.marker
 
-tellraw @s ["\n",{"translate":"stellarity.messages.cmd.fix_markers","fallback":"Fixed all loaded Stellarity markers","color":"#DD6AFF","bold":false},"\n"]
+function stellarity:utils/command_tellraw {string:"stellarity.messages.cmd.fix_markers",fallback:"Fixed all loaded Stellarity markers"}
 
 function kohara:send_command_feedback/off

@@ -5,8 +5,7 @@ execute if score #offhand stellarity.misc matches 1 run data modify storage stel
 
 execute if entity @s[advancements={stellarity:cursed_tome/shulker_things=true}] run function stellarity:items/cursed_tome/update/shulker_stuff
 execute if entity @s[advancements={stellarity:cursed_tome/frigid_harvester=true}] run function stellarity:items/cursed_tome/update/frigid_harvester
-execute if entity @s[advancements={stellarity:cursed_tome/sabrewing=true}] run function stellarity:items/cursed_tome/update/sabrewing
-execute if entity @s[advancements={stellarity:cursed_tome/ancient_armor=true}] run function stellarity:items/cursed_tome/update/ancient_armor
+execute if entity @s[advancements={stellarity:cursed_tome/chorus_champion_armor=true}] run function stellarity:items/cursed_tome/update/chorus_champion_armor
 execute if entity @s[advancements={stellarity:cursed_tome/clockwork_crossbow=true}] run function stellarity:items/cursed_tome/update/clockwork_crossbow
 execute if entity @s[advancements={stellarity:cursed_tome/hallowed_armor=true}] run function stellarity:items/cursed_tome/update/hallowed_armor
 execute if entity @s[advancements={stellarity:cursed_tome/pandoras_barrel=true}] run function stellarity:items/cursed_tome/update/pandoras_barrel

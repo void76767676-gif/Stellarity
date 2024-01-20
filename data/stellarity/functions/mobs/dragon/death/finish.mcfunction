@@ -2,19 +2,19 @@
 function far_end:structures/exit_portal/activated/generate
 
 # Make Dragon Egg magically appear out of thin air
-execute unless score #stellarity.config stellarity.config.always_generate_egg matches 1 if score @s fe.variable matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
+execute unless score #stellarity.config stellarity.config.always_generate_egg matches 1 if score @s stellarity.dragon.times_killed matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
 execute if score #stellarity.config stellarity.config.always_generate_egg matches 1 run setblock ~ ~5 ~ minecraft:dragon_egg
-execute if score @s fe.variable matches 1 run particle minecraft:poof ~ ~5 ~ 0 0 0 0.3 50 force
+execute if score @s stellarity.dragon.times_killed matches 1 run particle minecraft:poof ~ ~5 ~ 0 0 0 0.3 50 force
 
 # Generate End Gateways
 execute unless score #stellarity.exit_gateway_count stellarity.misc matches 20.. run function far_end:structures/exit_portal/gateway/choose_location
 
 # Disable bossbar
-bossbar set fe:ender_dragon players
+bossbar set stellarity:ender_dragon players
 
 execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stellarity:mobs/dragon/death/finish_as_marker
 
-scoreboard players reset @s fe.timer
+scoreboard players reset @s stellarity.dragon.respawn_animation_progress
 tag @s remove fe.activated
 
 ## Advancement

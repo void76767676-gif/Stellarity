@@ -7,22 +7,22 @@ execute if score #crystal_count stellarity.misc matches 1.. run function stellar
 execute unless score #crystal_count stellarity.misc matches 1.. run function stellarity:mobs/dragon/crystal/hide_bossbar
 
 # Get health
-execute store result score @s fe.health run data get entity @s Health 1
+execute store result score @s stellarity.dragon.health run data get entity @s Health 1
 # Convert to percentage
 execute store result score #max stellarity.misc run attribute @s generic.max_health get
 scoreboard players set #100 stellarity.misc 100
-scoreboard players operation @s stellarity.dragon.health_percent = @s fe.health
+scoreboard players operation @s stellarity.dragon.health_percent = @s stellarity.dragon.health
 scoreboard players operation @s stellarity.dragon.health_percent *= #100 stellarity.misc
 scoreboard players operation @s stellarity.dragon.health_percent /= #max stellarity.misc
 # Prevent Crystals from healing the Dragon
-execute if score @s stellarity.dragon.health_old < @s fe.health run function stellarity:mobs/dragon/prevent_heal
-scoreboard players operation @s stellarity.dragon.health_old = @s fe.health
+execute if score @s stellarity.dragon.health_old < @s stellarity.dragon.health run function stellarity:mobs/dragon/prevent_heal
+scoreboard players operation @s stellarity.dragon.health_old = @s stellarity.dragon.health
 # Update bossbar
-execute store result bossbar fe:ender_dragon value run scoreboard players get @s fe.health
+execute store result bossbar stellarity:ender_dragon value run scoreboard players get @s stellarity.dragon.health
 
 # Bossbar Visbility
-bossbar set fe:ender_dragon players
-bossbar set fe:ender_dragon players @a[distance=..300]
+bossbar set stellarity:ender_dragon players
+bossbar set stellarity:ender_dragon players @a[distance=..300]
 bossbar set stellarity:crystal_count players
 bossbar set stellarity:crystal_count players @a[distance=..300]
 
@@ -68,9 +68,9 @@ execute if score @s[tag=!stellarity.flying_to_portal,tag=!stellarity.at_portal] 
 
 
 # Fly to portal to die
-execute if score @s[tag=!stellarity.at_portal] fe.health matches 0..1 run function stellarity:mobs/dragon/death/fly_to_portal
-execute if score @s fe.health matches 1 if score @s[tag=stellarity.to_portal] stellarity.misc matches 5..7 run tag @s add stellarity.at_portal
-execute if score @s[tag=stellarity.at_portal] fe.health matches 0..1 run function stellarity:mobs/dragon/death/at_portal_loop
+execute if score @s[tag=!stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/fly_to_portal
+execute if score @s stellarity.dragon.health matches 1 if score @s[tag=stellarity.to_portal] stellarity.misc matches 5..7 run tag @s add stellarity.at_portal
+execute if score @s[tag=stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/at_portal_loop
 
 execute as @e[type=shulker,tag=stellarity.dragon_shulker] at @s run particle dragon_breath ~ ~0.2 ~ 0.4 0.4 0.4 0.04 1 normal
 execute as @e[type=shulker_bullet,tag=stellarity.dragon_bullet] at @s run function stellarity:mobs/dragon/attacks/shulker_hell/loop_as_bullet

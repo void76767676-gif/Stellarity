@@ -1,8 +1,7 @@
 ### Scoreboard Details ###
-# fe.variable - the number of times the dragon is killed.
-# fe.count - the number of end crystals set for respawning the dragon.
-# fe.timer - tracks the death animation of the dragon.
-#          - tracks the respawn animation of the dragon.
+# stellarity.dragon.times_killed - the number of times the dragon is killed ## Bound to the portal marker.
+# #respawn_crystal_count stellarity.misc - number of respawn crystals on the podium ## Global scoreboard not bound to an entity.
+# stellarity.dragon.respawn_animation_progress - timer for respawn animation ## Bound to the portal marker.
 
 ## Generation
 # Generate the deactivated portal with ender dragon.
@@ -16,7 +15,7 @@ execute if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dra
 # Count the number of respawn Crystals placed
 execute unless entity @e[type=minecraft:ender_dragon] run function far_end:structures/exit_portal/respawn/conditions
 # Start the respawn animation
-execute if entity @s[tag=fe.respawn] run function far_end:structures/exit_portal/respawn/animation
+execute if score #respawn_crystal_count stellarity.misc matches 4 run function far_end:structures/exit_portal/respawn/animation
 
 # Remove certain tags and add different ones once Dragon is dead
 execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/dragon/presence

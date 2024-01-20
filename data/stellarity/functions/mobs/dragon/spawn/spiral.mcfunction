@@ -64,4 +64,4 @@ execute rotated ~-84 0 run particle end_rod ^ ^ ^ ^ ^ ^10000000000000 0.00000000
 execute rotated ~-87 0 run particle end_rod ^ ^ ^ ^ ^ ^10000000000000 0.00000000000039 0 force @a[distance=..128]
 
 execute unless score #wave stellarity.misc matches 8.. rotated ~45 ~ run function stellarity:mobs/dragon/spawn/spiral
-execute if score #wave stellarity.misc matches 4.. run scoreboard players reset #wave stellarity.misc
+execute if score #wave stellarity.misc matches 8.. run scoreboard players reset #wave stellarity.misc
