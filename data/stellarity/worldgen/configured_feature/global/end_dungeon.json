@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:fossil",
 	"config": {
-		"max_empty_corners_allowed": 3,
+		"max_empty_corners_allowed": 5,
 		"fossil_structures": [
 			"stellarity:monster_box/1",
 			"stellarity:monster_box/2",
@@ -58,6 +58,27 @@
 							},
 							"output_state": {
 								"Name": "minecraft:end_stone"
+							}
+						}
+					]
+				},
+				{
+					"processor_type": "minecraft:rule",
+					"rules": [
+						{
+							"position_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"location_predicate": {
+								"predicate_type": "minecraft:random_block_match",
+								"block": "minecraft:purpur_pillar",
+								"probability": 0.15
+							},
+							"input_predicate": {
+								"predicate_type": "minecraft:always_true"
+							},
+							"output_state": {
+								"Name": "minecraft:purpur_block"
 							}
 						}
 					]

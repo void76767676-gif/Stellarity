@@ -9,8 +9,11 @@
 		"fog_color": 0,
 		"water_color": 4445678,
 		"water_fog_color": 270131,
-		"grass_color": 16767000,
-		"foliage_color": 16767000,
+		"grass_color": 16699956,
+		"foliage_color": 16699956,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
 			"tick_delay": 1000,
@@ -19,7 +22,7 @@
 		},
 		"additions_sound": {
 			"sound": "ambient.soul_sand_valley.additions",
-			"tick_chance": 0.0033
+			"tick_chance": 0.0111
 		},
 		"particle": {
 			"options": {
@@ -32,7 +35,7 @@
 		"monster": [
 			{
 				"type": "minecraft:enderman",
-				"weight": 10,
+				"weight": 25,
 				"minCount": 4,
 				"maxCount": 4
 			},

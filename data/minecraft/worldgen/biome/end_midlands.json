@@ -9,6 +9,9 @@
 		"water_fog_color": 7098782,
 		"grass_color": 11559897,
 		"foliage_color": 12673499,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.heavenly.grim"
+		},
 		"mood_sound": {
 			"sound": "minecraft:ambient.nether_wastes.mood",
 			"tick_delay": 900,

@@ -31,7 +31,7 @@
 					}
 				},
 				{
-					"weight": 40,
+					"weight": 35,
 					"data": {
 						"Name": "minecraft:grass_block",
 						"Properties": {

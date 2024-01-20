@@ -11,15 +11,18 @@
 		"grass_color": 9764856,
 		"foliage_color": 11403007,
 		"grass_color_modifier": "none",
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.heavenly.blessed"
+		},
 		"mood_sound": {
-			"sound": "ambient.underwater.loop.additions.rare",
+			"sound": "ambient.underwater.loop.additions.ultra_rare",
 			"tick_delay": 500,
-			"block_search_extent": 10,
-			"offset": 100
+			"block_search_extent": 0,
+			"offset": 0
 		},
 		"additions_sound": {
-			"sound": "ambient.underwater.loop.additions.ultra_rare",
-			"tick_chance": 0.001
+			"sound": "ambient.underwater.loop.additions.rare",
+			"tick_chance": 0.0111
 		},
 		"particle": {
 			"options": {
@@ -38,7 +41,7 @@
 	},
 	"features": [
 		[
-			"stellarity:prismarine_forest/prismarine_bottom"
+			"stellarity:prismarine_forest/island_bottom"
 		],
 		[],
 		[

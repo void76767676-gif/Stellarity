@@ -9,6 +9,9 @@
 		"water_fog_color": 1714487,
 		"grass_color": 2635843,
 		"foliage_color": 2635843,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark.calm"
+		},
 		"particle": {
 			"options": {
 				"type": "mycelium"

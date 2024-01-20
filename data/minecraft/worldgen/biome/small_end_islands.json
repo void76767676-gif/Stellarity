@@ -9,6 +9,9 @@
 		"water_fog_color": 8281766,
 		"grass_color": 11301308,
 		"foliage_color": 11429299,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
 		"mood_sound": {
 			"sound": "ambient.nether_wastes.mood",
 			"tick_delay": 1000,

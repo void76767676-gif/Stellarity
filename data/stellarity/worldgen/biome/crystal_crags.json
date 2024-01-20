@@ -9,6 +9,9 @@
 		"water_fog_color": 4073799,
 		"grass_color": 5319519,
 		"foliage_color": 5252192,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.heavenly.grim"
+		},
 		"mood_sound": {
 			"sound": "minecraft:ambient.basalt_deltas.mood",
 			"tick_delay": 1100,

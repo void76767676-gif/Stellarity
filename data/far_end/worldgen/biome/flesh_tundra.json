@@ -9,6 +9,9 @@
 		"water_fog_color": 16711680,
 		"grass_color": 12860219,
 		"foliage_color": 12860219,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.dark"
+		},
 		"mood_sound": {
 			"sound": "ambient.crimson_forest.mood",
 			"tick_delay": 1200,

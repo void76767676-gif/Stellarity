@@ -9,6 +9,9 @@
 		"water_fog_color": 15034111,
 		"grass_color": 6078719,
 		"foliage_color": 5819646,
+		"ambient_sound": {
+			"sound_id": "stellarity:ambient.end.heavenly.blessed"
+		},
 		"mood_sound": {
 			"sound": "ambient.soul_sand_valley.mood",
 			"tick_delay": 900,
