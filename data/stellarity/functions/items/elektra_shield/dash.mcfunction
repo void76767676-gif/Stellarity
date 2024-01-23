@@ -1,9 +1,6 @@
 scoreboard players add @s stellarity.items.elektra_shield.animation 1
 
 execute if score @s stellarity.items.elektra_shield.animation matches 1 run function stellarity:items/elektra_shield/dash/spawn_marker
-# 1 tick of extreme levitation to halt falling speed
-# Kind of locks the animation to one Y level
-execute if score @s stellarity.items.elektra_shield.animation matches 1 run effect clear @s minecraft:levitation
 
 # Invulnerability
 # Knockback resistance is applied in 'use.mcfunction'

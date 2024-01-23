@@ -1,8 +1,12 @@
 kill @s
+
 execute positioned 0 255 0 run fill ~3 ~ ~3 ~-3 ~-2 ~-3 air
+# Bonus line for better compatiblity with extended world heights
+# This one will parse, but not execute if max world height is 255
+execute positioned 0 255 0 run fill ~3 ~3 ~3 ~-3 ~ ~-3 air
 
 # Clear any vanilla End Gateways
-# 20 total, so 20 incredibly laggy /fill commands
+# 20 total, so 20 somewhat laggy /fill commands
 # Afaik, there is no better way to do this
 execute if block 96 75 0 end_gateway positioned 96 75 0 run fill ~1 ~2 ~1 ~-1 ~-2 ~-1 air
 execute if block 91 75 29 end_gateway positioned 91 75 29 run fill ~1 ~2 ~1 ~-1 ~-2 ~-1 air
