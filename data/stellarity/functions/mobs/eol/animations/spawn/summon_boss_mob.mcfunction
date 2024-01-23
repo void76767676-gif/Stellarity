@@ -20,4 +20,9 @@ scoreboard players set @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eo
 
 execute as @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] if predicate stellarity:mobs/eol/is_daytime run tag @s add stellarity.eol.full_daytime
 
+execute store result entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
+execute store result entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] Health float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
+execute store result bossbar stellarity:eol max run scoreboard players get #stellarity.config stellarity.config.eol_health
+
+
 function stellarity:mobs/eol/animations/spawn/summon_wings

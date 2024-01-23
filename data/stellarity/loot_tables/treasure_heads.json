@@ -2046,17 +2046,17 @@
 								{
 									"text": "насправді, безліч інших псів та людей,",
 									"color": "#9D9D9D",
-									"underlined": true,
 									"bold": true,
-									"italic": false
+									"italic": false,
+									"underlined": true
 								},
 								[
 									{
 										"text": "від яких залежить твоя безпека§r",
 										"color": "#9D9D9D",
-										"underlined": true,
 										"bold": true,
-										"italic": false
+										"italic": false,
+										"underlined": true
 									},
 									{
 										"text": "'",
@@ -2947,6 +2947,21 @@
 							]
 						}
 					]
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:value_check",
+					"value": {
+						"type": "minecraft:score",
+						"target": {
+							"type": "minecraft:fixed",
+							"name": "#stellarity.config"
+						},
+						"score": "stellarity.config.enable_treasure_heads",
+						"scale": 1
+					},
+					"range": 1
 				}
 			]
 		}
