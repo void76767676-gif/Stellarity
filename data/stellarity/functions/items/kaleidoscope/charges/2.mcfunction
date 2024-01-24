@@ -20,7 +20,7 @@ particle cloud ^ ^ ^ 0 0 0 0.147 48
 
 execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/2_wave
 
-function stellarity:items/kaleidoscope/charges/damage/2
+execute unless entity @s[advancements={stellarity:events/items/kill/kaleidoscope=true}] run function stellarity:items/kaleidoscope/charges/damage/2
 execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=0.1..0.9] run function stellarity:items/kaleidoscope/charges/splash/2/inner
 execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=0.91..1.8] run function stellarity:items/kaleidoscope/charges/splash/2/middle
 execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=1.81..2.7] run function stellarity:items/kaleidoscope/charges/splash/2/outer
