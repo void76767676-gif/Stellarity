@@ -15,3 +15,5 @@ playsound minecraft:entity.generic.explode hostile @a[distance=0..] ~ ~ ~ 10 0
 execute store result entity @e[type=ender_dragon,limit=1] Attributes[{Name:"minecraft:generic.max_health"}].Base float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result entity @e[type=ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result bossbar stellarity:ender_dragon max run scoreboard players get #stellarity.config stellarity.config.dragon_health
+
+execute as @a run function stellarity:mobs/dragon/music/reset

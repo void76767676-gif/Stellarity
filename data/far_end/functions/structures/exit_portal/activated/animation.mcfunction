@@ -14,4 +14,3 @@ execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stell
 
 # - death delay
 execute if score @s stellarity.dragon.respawn_animation_progress matches 180 run function stellarity:mobs/dragon/death/finish
-

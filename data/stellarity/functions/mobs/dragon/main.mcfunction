@@ -22,10 +22,12 @@ execute store result bossbar stellarity:ender_dragon value run scoreboard player
 
 # Bossbar Visbility
 bossbar set stellarity:ender_dragon players
-bossbar set stellarity:ender_dragon players @a[distance=..300]
+bossbar set stellarity:ender_dragon players @a[predicate=stellarity:locations/dragons_den_main_area]
 bossbar set stellarity:crystal_count players
-bossbar set stellarity:crystal_count players @a[distance=..300]
+bossbar set stellarity:crystal_count players @a[predicate=stellarity:locations/dragons_den_main_area]
 
+# Music
+execute if entity @s[tag=!stellarity.to_portal,tag=!stellarity.at_portal] run function stellarity:mobs/dragon/music/tick
 
 # Phase monitor
 # 0 = circling

@@ -24,6 +24,9 @@ execute at @e[type=vindicator,tag=stellarity.eol] run bossbar set stellarity:eol
 
 execute store result score @s stellarity.eol.hurt_time run data get storage stellarity:temp eol.entity.HurtTime
 
+# Music
+execute if entity @s[tag=!stellarity.eol.death_animation] run function stellarity:mobs/eol/music/tick
+
 # Death animation
 execute if score @s[tag=stellarity.eol.can_attack,tag=!stellarity.eol.death_animation] stellarity.eol.health matches 1 run \
 	function stellarity:mobs/eol/animations/death/start

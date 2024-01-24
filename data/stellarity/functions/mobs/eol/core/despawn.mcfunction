@@ -14,3 +14,5 @@ kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing]
 tellraw @a[distance=..250] ["\n",{"color":"light_purple","translate":"stellarity.eol.despawn","fallback": "%s flees as nobody is around...","with": [{"translate": "stellarity.mobs.empress","fallback": "Empress of Light"}]},"\n"]
 
 bossbar set stellarity:eol players
+
+execute as @a run function stellarity:mobs/eol/music/reset

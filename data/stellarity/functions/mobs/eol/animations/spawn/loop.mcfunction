@@ -10,6 +10,7 @@ execute if score @s stellarity.eol.animation matches 1 \
 	if predicate stellarity:mobs/eol/is_daytime run \
 	tag @s add stellarity.eol.daytime
 
+execute if score @s stellarity.eol.animation matches 1 as @a[distance=..60] run function stellarity:mobs/eol/animations/spawn/stopsound
 execute if score @s stellarity.eol.animation matches 1 run playsound minecraft:block.sculk_shrieker.shriek hostile @a[distance=0..] ~ ~ ~ .5 0
 
 execute if score @s stellarity.eol.animation matches ..60 run particle portal ~ ~ ~ 0 0 0 3 12 force @a[distance=..50]

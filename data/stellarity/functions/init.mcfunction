@@ -124,20 +124,16 @@ scoreboard objectives add stellarity.dragon.heartbeat dummy
 # Phantoms
 scoreboard objectives add stellarity.phantom.size dummy
 
+## Boss music
+scoreboard objectives add stellarity.music.ender_dragon.timer dummy
+scoreboard objectives add stellarity.music.empress_of_light.timer dummy
+
 ## Mechanics
 scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
 scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
 scoreboard objectives add stellarity.mechanics.consecration.time dummy
 scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
-
-## Boss music
-scoreboard objectives add stellarity.music.ender_dragon.timer dummy
-scoreboard objectives add stellarity.music.ender_dragon.duration dummy
-
-scoreboard objectives add stellarity.music.empress_of_light.timer dummy
-scoreboard objectives add stellarity.music.ender_dragon.duration dummy
-
 
 ## Misc
 # Temporar variables OR things that don't need its own variable
@@ -212,7 +208,7 @@ bossbar set stellarity:eol color pink
 bossbar set stellarity:eol visible true
 bossbar set stellarity:eol players
 bossbar set stellarity:eol max 500
-bossbar set stellarity:eol style notched_20
+bossbar set stellarity:eol style progress
 
 # Scheduling loops that do not need
 # to be executed every single tick

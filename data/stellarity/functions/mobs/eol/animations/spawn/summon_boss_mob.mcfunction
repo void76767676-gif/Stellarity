@@ -24,5 +24,6 @@ execute store result entity @e[type=vindicator,limit=1,sort=nearest,tag=stellari
 execute store result entity @e[type=vindicator,limit=1,sort=nearest,tag=stellarity.eol] Health float 1 run scoreboard players get #stellarity.config stellarity.config.eol_health
 execute store result bossbar stellarity:eol max run scoreboard players get #stellarity.config stellarity.config.eol_health
 
-
 function stellarity:mobs/eol/animations/spawn/summon_wings
+
+execute as @a run function stellarity:mobs/dragon/music/reset
