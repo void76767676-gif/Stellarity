@@ -1,8 +1,8 @@
 scoreboard players set #fire stellarity.misc 60
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
-# Base discharge damage: 23
-scoreboard players set #damage kohara.misc 69
+# Base discharge damage: 30
+scoreboard players set #damage kohara.misc 90
 
 tag @p[predicate=stellarity:items/holding_kaleidoscope] add kohara.attacker
 

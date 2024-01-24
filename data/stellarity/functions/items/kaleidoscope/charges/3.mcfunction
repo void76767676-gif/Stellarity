@@ -24,4 +24,5 @@ execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/ho
 execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=1.41..2.8] run function stellarity:items/kaleidoscope/charges/splash/3/middle
 execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding_kaleidoscope,distance=2.81..4.2] run function stellarity:items/kaleidoscope/charges/splash/3/outer
 
+scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge_progress
 scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge

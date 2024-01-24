@@ -14,6 +14,7 @@ particle crit ^ ^ ^ 0 0 0 0.6 24
 
 execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/1_wave
 
-function stellarity:items/kaleidoscope/charges/damage/1
+execute unless entity @s[advancements={stellarity:events/items/kill/kaleidoscope=true}] run function stellarity:items/kaleidoscope/charges/damage/1
 
+scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge_progress
 scoreboard players reset @p[predicate=stellarity:items/holding_kaleidoscope] stellarity.items.kaleidoscope.charge

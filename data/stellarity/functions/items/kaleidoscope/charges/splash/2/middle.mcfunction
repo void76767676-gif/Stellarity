@@ -9,9 +9,8 @@ function kohara:reduce_by_percent {percent:35,holder:"#fire",score:"stellarity.m
 
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
-
 ## Damage
-scoreboard players set #damage kohara.misc 40
+scoreboard players set #damage kohara.misc 80
 scoreboard players operation #damage kohara.misc += #charge stellarity.misc
 # 50% of discharge damage
 function kohara:reduce_by_percent {percent:50,holder:"#damage",score:"stellarity.misc"}
