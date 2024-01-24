@@ -66,13 +66,20 @@
 		],
 		"subtitle":"Living Flesh hurts"
 	},
-	"item.elektra_shield.zap":{
+	"item.elektra_shield.recharge":{
 		"sounds":[
 			"stellarity:item/elektra_shield/zap_1",
 			"stellarity:item/elektra_shield/zap_2",
 			"stellarity:item/elektra_shield/zap_3"
 		],
 		"subtitle":"Elektra Shield recharges"
+	},
+	"item.elektra_shield.zap":{
+		"sounds":[
+			"stellarity:item/elektra_shield/zap_1",
+			"stellarity:item/elektra_shield/zap_2",
+			"stellarity:item/elektra_shield/zap_3"
+		]
 	},
 	"item.chorus_dagger.ready":{
 		"sounds":[
@@ -180,34 +187,9 @@
 			"stellarity:block/end_portal/travel"
 		]
 	},
-    "music.enter_end":{
+	"block.altar_of_light.bless":{
 		"sounds":[
-			{
-				"name":"stellarity:music/the",
-				"stream":true,
-                "volume": 1
-			}
-		],
-		"replace":true
-	},
-    "music.kill_dragon":{
-		"sounds":[
-			{
-				"name":"stellarity:music/to_the_beggining",
-				"stream":true,
-                "volume": 1
-			}
-		],
-		"replace":true
-	},
-    "music.create_portal":{
-		"sounds":[
-			{
-				"name":"stellarity:music/threshold",
-				"stream":true,
-                "volume": 1
-			}
-		],
-		"replace":true
+			"stellarity:block/altar_of_light/blood_sacrifice"
+		]
 	}
 }

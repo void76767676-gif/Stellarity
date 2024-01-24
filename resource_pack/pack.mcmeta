@@ -4,7 +4,7 @@
 		"description": [
 			{
 				"translate": "stellarity.pack_mcmeta.rp",
-				"fallback": "Optional textures for Stellarity",
+				"fallback": "Optional resources for Stellarity",
 				"color": "#CB4BFF"
 			},
 			" ",
