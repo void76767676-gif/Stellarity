@@ -16,4 +16,6 @@ execute store result entity @e[type=ender_dragon,limit=1] Attributes[{Name:"mine
 execute store result entity @e[type=ender_dragon,limit=1] Health float 1 run scoreboard players get #stellarity.config stellarity.config.dragon_health
 execute store result bossbar stellarity:ender_dragon max run scoreboard players get #stellarity.config stellarity.config.dragon_health
 
+team join stellarity.dragon.pacify_others @e[type=minecraft:ender_dragon]
+
 execute as @a run function stellarity:mobs/dragon/music/reset

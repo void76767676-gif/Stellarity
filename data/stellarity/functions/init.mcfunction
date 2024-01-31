@@ -8,6 +8,7 @@ scoreboard objectives add stellarity.config.allow_disenchanting dummy
 scoreboard objectives add stellarity.config.enable_treasure_heads dummy
 scoreboard objectives add stellarity.config.track_loop_delay.eol dummy
 scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
+scoreboard objectives add stellarity.config.enable_dragon_screenshake dummy
 
 # Initialize config scoreboards
 # Freshly created scoreboards have no value (not even set to 0)
@@ -110,6 +111,7 @@ scoreboard objectives add stellarity.eol.projectile_age dummy
 
 # Ender Dragon
 scoreboard objectives add stellarity.dragon.times_killed dummy
+scoreboard objectives add stellarity.dragon.screenshake dummy
 scoreboard objectives add stellarity.dragon.respawn_animation_progress dummy
 scoreboard objectives add stellarity.dragon.perch_cooldown dummy
 scoreboard objectives add stellarity.dragon.health dummy
@@ -184,6 +186,9 @@ team add stellarity.dragons_eye.pacified
 team modify stellarity.dragons_eye.pacified friendlyFire true
 team modify stellarity.dragons_eye.pacified seeFriendlyInvisibles false
 team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
+
+team add stellarity.dragon.pacify_others
+team modify stellarity.dragon.pacify_others friendlyFire false
 
 ## Bossbars
 # Ender Dragon

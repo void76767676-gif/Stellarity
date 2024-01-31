@@ -40,6 +40,12 @@ tag @s remove stellarity.aota.popped_chorus_fruit
 execute if entity @s[nbt={Item:{id:"minecraft:iron_ingot",Count:1b}}] unless data entity @s Item.tag."stellarity.special_item" run tag @s add stellarity.aota.iron_ingot
 tag @s[nbt={Item:{id:"minecraft:popped_chorus_fruit",Count:2b}}] add stellarity.aota.popped_chorus_fruit
 
+# Copying Enderite Upgrade Smithing Templates
+tag @s remove stellarity.aota.3_diamonds
+tag @s[nbt={Item:{id:"minecraft:diamond",Count:3b}}] add stellarity.aota.3_diamonds
+tag @s remove stellarity.aota.9_purpur_blocks
+tag @s[nbt={Item:{id:"minecraft:purpur_block",Count:9b}}] add stellarity.aota.9_purpur_blocks
+
 # Discenchanting (while it is last, it takes priority over everything)
 tag @s remove stellarity.aota.book
 execute if entity @s[nbt={Item:{id:"minecraft:book",Count:1b}}] run tag @s add stellarity.aota.book

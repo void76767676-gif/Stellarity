@@ -19,5 +19,4 @@ execute as @e[type=minecraft:end_crystal,predicate=stellarity:locations/in_the_e
 execute in minecraft:the_end run setblock 0 63 0 bedrock
 
 scoreboard players reset @s stellarity.dragon.respawn_animation_progress
-scoreboard players reset #stellarity.dragon.ash_duration stellarity.misc
 scoreboard players reset #respawn_crystal_count stellarity.misc

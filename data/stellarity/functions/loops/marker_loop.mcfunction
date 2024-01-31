@@ -19,6 +19,8 @@ execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:s
 execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:mobs/dragon/attacks/fireball/main
 execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:mobs/dragon/attacks/take_off/shulkers/main
 
+execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sfx/end_gateway_anim/main
+
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s
