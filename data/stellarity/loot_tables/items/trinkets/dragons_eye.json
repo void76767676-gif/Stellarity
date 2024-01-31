@@ -17,7 +17,7 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.dragons_eye.description.1",
-									"fallback": "Pacifies all Endermen, Endermites and Phantoms",
+									"fallback": "Pacifies most End mobs",
 									"color": "#EEEEEE",
 									"italic": false
 								},
