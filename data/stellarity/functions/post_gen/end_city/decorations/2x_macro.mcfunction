@@ -1,4 +1,4 @@
-execute store result score #random stellarity.misc run random value 1..17
+execute store result score #random stellarity.misc run random value 1..23
 
 $execute if score #random stellarity.misc matches 1 run place template stellarity:end_city/decorations/2x/1 ~ ~ ~ $(direction)
 $execute if score #random stellarity.misc matches 2 run place template stellarity:end_city/decorations/2x/2 ~ ~ ~ $(direction)
@@ -12,8 +12,14 @@ $execute if score #random stellarity.misc matches 9 run place template stellarit
 $execute if score #random stellarity.misc matches 10 run place template stellarity:end_city/decorations/2x/10 ~ ~ ~ $(direction)
 $execute if score #random stellarity.misc matches 11 run place template stellarity:end_city/decorations/2x/11 ~ ~ ~ $(direction)
 $execute if score #random stellarity.misc matches 12 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
-$execute if score #random stellarity.misc matches 13 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
-$execute if score #random stellarity.misc matches 14 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
-$execute if score #random stellarity.misc matches 15 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
-$execute if score #random stellarity.misc matches 16 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
-$execute if score #random stellarity.misc matches 17 run place template stellarity:end_city/decorations/2x/12 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 13 run place template stellarity:end_city/decorations/2x/13 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 14 run place template stellarity:end_city/decorations/2x/14 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 15 run place template stellarity:end_city/decorations/2x/15 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 16 run place template stellarity:end_city/decorations/2x/16 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 17 run place template stellarity:end_city/decorations/2x/17 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 18 run place template stellarity:end_city/decorations/2x/18 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 19 run place template stellarity:end_city/decorations/2x/19 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 20 run place template stellarity:end_city/decorations/2x/20 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 21 run place template stellarity:end_city/decorations/2x/21 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 22 run place template stellarity:end_city/decorations/2x/22 ~ ~ ~ $(direction)
+$execute if score #random stellarity.misc matches 23 run place template stellarity:end_city/decorations/2x/23 ~ ~ ~ $(direction)
