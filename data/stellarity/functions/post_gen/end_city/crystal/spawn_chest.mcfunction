@@ -2,7 +2,29 @@ kill @s
 kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.end_city.crystal]
 kill @e[type=marker,limit=1,sort=nearest,tag=stellarity.end_city.crystal]
 
-setblock ~ ~-1 ~ chest{LootTable:"stellarity:end_city/top_tower"} replace
+execute if entity @s[tag=stellarity.end_city.crystal_small_tower] run setblock ~ ~-1 ~ barrel[facing=up]{LootTable:"stellarity:end_city/small_tower"} replace
+
+execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
+	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
+	if block ^ ^ ^-2 air run \
+	setblock ~ ~-1 ~ chest[facing=north]{LootTable:"stellarity:end_city/top_tower"} replace
+
+execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
+	rotated ~ ~ if block ^ ^ ^-2 magenta_stained_glass \
+	if block ^ ^ ^2 air run \
+	setblock ~ ~-1 ~ chest[facing=south]{LootTable:"stellarity:end_city/top_tower"} replace
+
+execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
+	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
+	if block ^ ^ ^-2 magenta_stained_glass \
+	if block ^-2 ^ ^ air run \
+	setblock ~ ~-1 ~ chest[facing=west]{LootTable:"stellarity:end_city/top_tower"} replace
+
+execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
+	rotated ~ ~ if block ^ ^ ^2 magenta_stained_glass \
+	if block ^ ^ ^-2 magenta_stained_glass \
+	if block ^2 ^ ^ air run \
+	setblock ~ ~-1 ~ chest[facing=east]{LootTable:"stellarity:end_city/top_tower"} replace
 
 fill ~-1 ~5 ~-1 ~1 ~5 ~1 iron_block replace obsidian
 fill ~ ~6 ~ ~ ~6 ~ beacon replace glass

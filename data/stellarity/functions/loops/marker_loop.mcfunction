@@ -23,6 +23,7 @@ execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sf
 
 execute if entity @s[tag=stellarity.end_city.crystal] run function stellarity:post_gen/end_city/crystal/visuals
 execute if entity @s[tag=stellarity.end_city.no_beacon] unless block ~ ~ ~ minecraft:beacon run function stellarity:post_gen/end_city/no_beacon
+execute if entity @s[tag=stellarity.end_city.small_tower_crystal] run function stellarity:post_gen/end_city/crystal/small_tower
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
@@ -30,4 +31,3 @@ execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarit
 
 scoreboard players add @s stellarity.misc.loop.15s 1
 execute if entity @s[scores={stellarity.misc.loop.15s=300}] run function stellarity:loops/marker_loop_15s
-
