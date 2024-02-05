@@ -9,6 +9,7 @@ scoreboard objectives add stellarity.config.enable_treasure_heads dummy
 scoreboard objectives add stellarity.config.track_loop_delay.eol dummy
 scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
 scoreboard objectives add stellarity.config.enable_dragon_screenshake dummy
+scoreboard objectives add stellarity.config.enable_creative_shock dummy
 
 # Initialize config scoreboards
 # Freshly created scoreboards have no value (not even set to 0)

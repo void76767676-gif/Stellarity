@@ -6,6 +6,8 @@ scoreboard players reset #stellarity.config stellarity.config.allow_disenchantin
 scoreboard players reset #stellarity.config stellarity.config.enable_treasure_heads
 scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.eol
 scoreboard players reset #stellarity.config stellarity.config.track_loop_delay.dragon
+scoreboard players reset #stellarity.config stellarity.config.enable_dragon_screenshake
+scoreboard players reset #stellarity.config stellarity.config.enable_creative_shock
 
 function stellarity:config/init
 
