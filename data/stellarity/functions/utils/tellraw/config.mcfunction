@@ -6,7 +6,7 @@ $tellraw @s {"text":"$(title)","color":"#C076E5","bold":true,"hoverEvent": {"act
 
 tellraw @s " "
 
-$tellraw @s [{"text":"$(description)","color":"#C8ADD6"}]
+$tellraw @s [" ",{"text":"$(description)","color":"#C8ADD6"}]
 
 tellraw @s " "
 
