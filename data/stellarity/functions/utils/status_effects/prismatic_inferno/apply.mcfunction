@@ -3,8 +3,9 @@ execute unless entity @s[type=!player,tag=stellarity.prismatic_inferno.burning] 
 data modify entity @s[type=!player] HasVisualFire set value 1b
 tag @s add stellarity.prismatic_inferno.burning
 
-scoreboard players operation @s stellarity.dot.prismatic_inferno.damage = #dot.damage stellarity.misc
-scoreboard players operation @s stellarity.dot.prismatic_inferno.delay = #dot.delay stellarity.misc
+scoreboard players set #19 stellarity.misc 19
+scoreboard players operation #dot.time stellarity.misc += #19 stellarity.misc
+
 scoreboard players operation @s stellarity.dot.prismatic_inferno.time = #dot.time stellarity.misc
 
 tag @s add kohara.status_effect.tick
