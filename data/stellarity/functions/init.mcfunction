@@ -61,6 +61,9 @@ scoreboard objectives add stellarity.items.spellbook.light.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.shoot dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.wolves dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.homing_time dummy
+scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
+scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
+scoreboard objectives add stellarity.items.spellbook.return.progress dummy
 
 scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed dummy
 
@@ -226,3 +229,5 @@ schedule function stellarity:loops/timed/5_second 5s append
 execute store result score #difficulty stellarity.misc run difficulty
 
 execute unless score #stellarity.config stellarity.config.join_message matches 0 run schedule function stellarity:tellraw/schedule 5t
+
+data modify storage stellarity:temp spellbook_fix set value 1b

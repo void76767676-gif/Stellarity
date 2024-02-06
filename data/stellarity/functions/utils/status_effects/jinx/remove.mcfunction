@@ -8,3 +8,5 @@ attribute @s generic.knockback_resistance modifier remove 05478580-dac6-4d50-b0b
 attribute @s generic.luck modifier remove 05478580-dac6-4d50-b0bf-1df6d1363c4c
 
 function kohara:dot/stop_ticking
+
+tag @s remove stellarity.jinxed
