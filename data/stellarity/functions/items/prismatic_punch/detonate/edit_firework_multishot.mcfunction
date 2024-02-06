@@ -10,11 +10,6 @@ data modify entity @s Owner set from entity @p[predicate=stellarity:items/holdin
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0.24 50
 
 # Prismatic Inferno
-scoreboard players set #dot.damage stellarity.misc 15
 scoreboard players set #dot.time stellarity.misc 60
-scoreboard players set #dot.delay stellarity.misc 20
-
-scoreboard players set #19 stellarity.misc 19
-scoreboard players operation #dot.time stellarity.misc += #19 stellarity.misc
 
 execute as @e[type=!#kohara:invalid_targets,distance=..5] run function stellarity:utils/status_effects/prismatic_inferno/apply
