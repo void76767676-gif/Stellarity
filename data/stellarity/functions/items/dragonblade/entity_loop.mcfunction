@@ -1,4 +1,4 @@
-scoreboard players remove @s stellarity.items.dragonblade.until_stack_reset 3
+scoreboard players remove @s stellarity.items.dragonblade.until_stack_reset 2
 
 execute if score @s stellarity.items.dragonblade.until_stack_reset matches ..0 run function stellarity:items/dragonblade/reset_stacks
 

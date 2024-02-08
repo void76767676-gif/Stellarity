@@ -1,4 +1,4 @@
-scoreboard players remove @s stellarity.items.dragonblade.cooldown 3
+scoreboard players remove @s stellarity.items.dragonblade.cooldown 2
 
 execute if score @s stellarity.items.dragonblade.cooldown matches ..0 run tag @s remove stellarity.items.dragonblade.cooldown
 

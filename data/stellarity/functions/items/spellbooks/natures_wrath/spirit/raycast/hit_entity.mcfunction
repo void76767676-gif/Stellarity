@@ -5,6 +5,7 @@ scoreboard players set #hit stellarity.misc 1
 #Running custom commands since the entity was found.
 
 tag @s add stellarity.natures_wrath.homing_target
+tag @s add stellarity.cooldown_tickdown
 
 scoreboard players set #time stellarity.misc 100
 scoreboard players set #extra_time stellarity.misc 5
