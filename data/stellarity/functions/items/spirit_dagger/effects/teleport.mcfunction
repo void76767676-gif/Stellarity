@@ -41,7 +41,7 @@ scoreboard players operation #temp_1 stellarity.misc += #temp_2 stellarity.misc
 scoreboard players operation #bane stellarity.misc = #temp_1 stellarity.misc
 
 # Damage
-execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/spirit_dagger/holding_both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
+execute as @e[type=!#kohara:invalid_targets,distance=..3.8,predicate=!stellarity:items/holding/spirit_dagger/both,predicate=!kohara:player/is_sneaking] at @s run function stellarity:items/spirit_dagger/effects/damage
 
 # Teleport slash effect
 function stellarity:items/spirit_dagger/effects/teleport/slash

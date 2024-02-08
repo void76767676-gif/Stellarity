@@ -1,4 +1,4 @@
-advancement revoke @s only stellarity:events/items/hurt_while_holding_flesh
+advancement revoke @s only stellarity:events/items/hurt_while_holding/flesh
 
 effect give @s speed 4 1 false
 effect give @s regeneration 4 1 false

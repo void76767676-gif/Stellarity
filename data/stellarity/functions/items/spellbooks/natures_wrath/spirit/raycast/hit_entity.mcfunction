@@ -13,7 +13,7 @@ scoreboard players operation #time stellarity.misc += #extra_time stellarity.mis
 
 scoreboard players operation @s stellarity.items.spellbook.natures_wrath.homing_time = #time stellarity.misc
 
-playsound minecraft:entity.arrow.hit_player player @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] ~ ~ ~ 1000 0
+playsound minecraft:entity.arrow.hit_player player @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] ~ ~ ~ 1000 0
 
 team join stellarity.homing_targets @s
 effect give @s glowing infinite 0 true

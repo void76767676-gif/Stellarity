@@ -6,6 +6,6 @@ execute if score #upgr stellarity.misc matches 0 run effect give @s poison 12 0 
 execute if score #upgr stellarity.misc matches 1 run effect give @s poison 8 1 false
 execute if score #upgr stellarity.misc matches 2 run effect give @s poison 6 2 false
 
-tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] add kohara.attacker
 
 function kohara:damage/calculate {armor_penetration:30,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

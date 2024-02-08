@@ -2,7 +2,7 @@
 scoreboard players set #damage kohara.misc 50
 scoreboard players operation #damage kohara.misc += #sweeping stellarity.misc
 
-tag @p[predicate=stellarity:items/spirit_dagger/holding_both] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/spirit_dagger/both] add kohara.attacker
 
 # Deal extra knockback
 execute unless score #knockback stellarity.misc matches 0 run function stellarity:items/spirit_dagger/effects/knockback/apply

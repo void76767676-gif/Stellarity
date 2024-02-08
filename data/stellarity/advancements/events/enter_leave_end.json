@@ -9,7 +9,7 @@
 						"condition": "minecraft:inverted",
 						"term": {
 							"condition": "minecraft:reference",
-							"name": "stellarity:items/spellbooks/holding_return"
+							"name": "stellarity:items/holding/spellbooks/return"
 						}
 					}
 				],
@@ -24,7 +24,7 @@
 						"condition": "minecraft:inverted",
 						"term": {
 							"condition": "minecraft:reference",
-							"name": "stellarity:items/spellbooks/holding_return"
+							"name": "stellarity:items/holding/spellbooks/return"
 						}
 					}
 				],

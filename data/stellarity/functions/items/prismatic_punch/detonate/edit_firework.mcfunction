@@ -18,7 +18,7 @@ data merge entity @s[scores={stellarity.misc=10}] \
 	{Type:0,Trail:0,Flicker:0,Colors:[I;16714241,9375743,3538723,16772661,2399487,15679743,16745006]}\
 	],Flight:1}}}}
 
-data modify entity @s Owner set from entity @p[predicate=stellarity:items/holding_prismatic_punch] UUID
+data modify entity @s Owner set from entity @p[predicate=stellarity:items/holding/prismatic_punch] UUID
 
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0.12 20
 

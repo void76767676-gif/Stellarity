@@ -12,7 +12,7 @@ execute if entity @s[tag=stellarity.pearl_advancement_pending] run function stel
 execute if entity @s[advancements={stellarity:end_city/super_sonic=false},scores={kohara.flight_speed=20..}] unless block ^ ^1 ^ #kohara:non_solid unless block ^ ^-1 ^ #kohara:non_solid unless block ^1 ^ ^ #kohara:non_solid unless block ^-1 ^ ^ #kohara:non_solid run advancement grant @s only stellarity:end_city/super_sonic
 
 # Totem of Undying gives Levitation when falling out of the world
-execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:utils/in_void] run function stellarity:mechanics/void_totem_protection/save
+execute if entity @s[predicate=kohara:holding/a_totem,predicate=stellarity:locations/in_void] run function stellarity:mechanics/void_totem_protection/save
 
 scoreboard players add @s stellarity.misc.loop.2t 1
 execute if entity @s[scores={stellarity.misc.loop.2t=2}] run function stellarity:loops/player_loop_2t

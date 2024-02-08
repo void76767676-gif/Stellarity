@@ -5,6 +5,6 @@ scoreboard players set #damage kohara.misc 50
 
 tag @s add stellarity.damage.natures_wrath
 
-tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] add kohara.attacker
 
 function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

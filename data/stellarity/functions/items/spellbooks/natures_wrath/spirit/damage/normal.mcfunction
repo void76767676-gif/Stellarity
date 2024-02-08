@@ -4,6 +4,6 @@ execute if score #upgr stellarity.misc matches 0 run scoreboard players set #dam
 execute if score #upgr stellarity.misc matches 1 run scoreboard players set #damage kohara.misc 50
 execute if score #upgr stellarity.misc matches 2 run scoreboard players set #damage kohara.misc 60
 
-tag @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] add kohara.attacker
+tag @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] add kohara.attacker
 
 function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

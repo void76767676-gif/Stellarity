@@ -4,7 +4,7 @@ execute store result score @s stellarity.misc.motion.x1 run data get entity @s P
 execute store result score @s stellarity.misc.motion.y1 run data get entity @s Pos.[1] 1000
 execute store result score @s stellarity.misc.motion.z1 run data get entity @s Pos.[2] 1000
 
-execute at @s facing entity @p[predicate=stellarity:items/spellbooks/holding_natures_wrath] feet rotated ~180 0 run tp @s ^ ^0.01 ^0.04 ~ ~
+execute at @s facing entity @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] feet rotated ~180 0 run tp @s ^ ^0.01 ^0.04 ~ ~
 
 execute store result score @s stellarity.misc.motion.x2 run data get entity @s Pos.[0] 1000
 execute store result score @s stellarity.misc.motion.y2 run data get entity @s Pos.[1] 1000

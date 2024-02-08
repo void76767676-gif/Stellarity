@@ -4,8 +4,7 @@ scoreboard players add @s stellarity.dragon.respawn_animation_progress 1
 # Cancel animation if End Crystals are missing
 execute unless score #respawn_crystal_count stellarity.misc matches 4 run function stellarity:mobs/dragon/spawn/cancel
 
-execute if score @s stellarity.dragon.respawn_animation_progress matches 1 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run data merge entity @s {Glowing:0b,Invulnerable:1b}
-execute if score @s stellarity.dragon.respawn_animation_progress matches 1 as @e[type=minecraft:interaction,distance=..5,tag=stellarity.end_crystal] run kill @s
+execute if score @s stellarity.dragon.respawn_animation_progress matches 1 as @e[type=minecraft:end_crystal,distance=..5,tag=fe.respawn_crystal] run function stellarity:mobs/dragon/spawn/respawn_crystal/prepare_for_anim
 execute if score @s stellarity.dragon.respawn_animation_progress matches 1 as @a[distance=..32] at @s run playsound minecraft:entity.blaze.shoot block @s ~ ~ ~ 0.33 0.9
 execute if score @s stellarity.dragon.respawn_animation_progress matches 1 as @a[distance=..32] at @s run playsound minecraft:entity.blaze.shoot block @s ~ ~ ~ 0.33 0.7
 

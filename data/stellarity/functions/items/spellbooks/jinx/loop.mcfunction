@@ -22,54 +22,54 @@ execute if score @s stellarity.misc matches 34..36 run particle dust 0.98 0.349 
 scoreboard players set #effect.duration stellarity.misc 240
 scoreboard players set #effect.level stellarity.misc 1
 
-execute if score @s stellarity.misc matches 1..3 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.75] run \
+execute if score @s stellarity.misc matches 1..3 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.75] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 4..6 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.85] run \
+execute if score @s stellarity.misc matches 4..6 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.85] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 7..9 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.95] run \
+execute if score @s stellarity.misc matches 7..9 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.95] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 10..12 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.05] run \
+execute if score @s stellarity.misc matches 10..12 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.05] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 13..15 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.15] run \
+execute if score @s stellarity.misc matches 13..15 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.15] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 16..18 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.25] run \
+execute if score @s stellarity.misc matches 16..18 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.25] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 19..21 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.35] run \
+execute if score @s stellarity.misc matches 19..21 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.35] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 21..24 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.45] run \
+execute if score @s stellarity.misc matches 21..24 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.45] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 25..27 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.55] run \
+execute if score @s stellarity.misc matches 25..27 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.55] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 28..30 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.65] run \
+execute if score @s stellarity.misc matches 28..30 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.65] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 31..33 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.75] run \
+execute if score @s stellarity.misc matches 31..33 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.75] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 34..36 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.85] run \
+execute if score @s stellarity.misc matches 34..36 as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.85] run \
 	function stellarity:utils/status_effects/jinx/apply
 
-execute if score @s stellarity.misc matches 1..3 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.75] run \
+execute if score @s stellarity.misc matches 1..3 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.75] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 4..6 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.85] run \
+execute if score @s stellarity.misc matches 4..6 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.85] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 7..9 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..0.95] run \
+execute if score @s stellarity.misc matches 7..9 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..0.95] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 10..12 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.05] run \
+execute if score @s stellarity.misc matches 10..12 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.05] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 13..15 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.15] run \
+execute if score @s stellarity.misc matches 13..15 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.15] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 16..18 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.25] run \
+execute if score @s stellarity.misc matches 16..18 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.25] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 19..21 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.35] run \
+execute if score @s stellarity.misc matches 19..21 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.35] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 21..24 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.45] run \
+execute if score @s stellarity.misc matches 21..24 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.45] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 25..27 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.55] run \
+execute if score @s stellarity.misc matches 25..27 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.55] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 28..30 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.65] run \
+execute if score @s stellarity.misc matches 28..30 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.65] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 31..33 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.75] run \
+execute if score @s stellarity.misc matches 31..33 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.75] run \
 	function stellarity:utils/status_effects/jinx/apply
-execute if score @s stellarity.misc matches 34..36 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/spellbooks/holding_jinx,distance=..1.85] run \
+execute if score @s stellarity.misc matches 34..36 positioned ^ ^-0.9 ^ as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/spellbooks/jinx,distance=..1.85] run \
 	function stellarity:utils/status_effects/jinx/apply
 
 execute if score @s stellarity.misc matches 60.. run kill @s

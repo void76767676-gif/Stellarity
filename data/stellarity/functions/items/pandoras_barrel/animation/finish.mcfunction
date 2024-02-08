@@ -6,8 +6,8 @@ particle minecraft:explosion ~ ~ ~ 1 1 1 0 10 force
 playsound minecraft:block.enchantment_table.use master @a[distance=0..] ~ ~ ~ 1 0.7
 playsound minecraft:entity.generic.explode master @a[distance=0..] ~ ~ ~ 1 0.9
 
-execute unless score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 unless score @s stellarity.items.pandoras_barrel.summon_id matches 19.. if predicate stellarity:locations/above_4_light_level run playsound minecraft:entity.player.levelup master @a[distance=0..] ~ ~ ~ 1 0.9
-execute unless score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 unless score @s stellarity.items.pandoras_barrel.summon_id matches 19.. unless predicate stellarity:locations/above_4_light_level run playsound minecraft:entity.phantom.bite master @a[distance=0..] ~ ~ ~ 1 0.86
+execute unless score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 unless score @s stellarity.items.pandoras_barrel.summon_id matches 19.. if predicate stellarity:items/pandoras_barrel/light_level_above_4 run playsound minecraft:entity.player.levelup master @a[distance=0..] ~ ~ ~ 1 0.9
+execute unless score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 unless score @s stellarity.items.pandoras_barrel.summon_id matches 19.. unless predicate stellarity:items/pandoras_barrel/light_level_above_4 run playsound minecraft:entity.phantom.bite master @a[distance=0..] ~ ~ ~ 1 0.86
 
 
 execute if score @s stellarity.items.pandoras_barrel.summon_id matches ..-2 run playsound minecraft:entity.phantom.bite master @a[distance=0..] ~ ~ ~ 1 0.86

@@ -26,9 +26,9 @@ execute store result bossbar stellarity:ender_dragon value run scoreboard player
 
 # Bossbar Visbility
 bossbar set stellarity:ender_dragon players
-bossbar set stellarity:ender_dragon players @a[predicate=stellarity:locations/dragons_den_main_area]
+bossbar set stellarity:ender_dragon players @a[predicate=stellarity:locations/dragons_den/in_main_area]
 bossbar set stellarity:crystal_count players
-bossbar set stellarity:crystal_count players @a[predicate=stellarity:locations/dragons_den_main_area]
+bossbar set stellarity:crystal_count players @a[predicate=stellarity:locations/dragons_den/in_main_area]
 
 # Music
 execute if entity @s[tag=!stellarity.to_portal,tag=!stellarity.at_portal] run function stellarity:mobs/dragon/music/tick
@@ -76,4 +76,4 @@ execute if score @s[tag=stellarity.at_portal] stellarity.dragon.health matches 0
 execute as @e[type=shulker,tag=stellarity.dragon_shulker] at @s run particle dragon_breath ~ ~0.2 ~ 0.4 0.4 0.4 0.04 1 normal
 execute as @e[type=shulker_bullet,tag=stellarity.dragon_bullet] at @s run function stellarity:mobs/dragon/attacks/shulker_hell/loop_as_bullet
 
-team join stellarity.dragon.pacify_others @e[type=enderman,predicate=stellarity:locations/dragons_den_main_area]
+team join stellarity.dragon.pacify_others @e[type=enderman,predicate=stellarity:locations/dragons_den/in_main_area]

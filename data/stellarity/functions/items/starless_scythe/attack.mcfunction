@@ -32,10 +32,10 @@ execute if score #is_critcal stellarity.misc matches 0 run \
 ## Enchant interactions
 # Regeneration I for 3 seconds after killing a mob
 # if enchanted with Silk Touch
-execute if entity @s[advancements={stellarity:events/items/deal_damage_with_starless_scythe={kill=true}},predicate=stellarity:utils/has_silk_touch] run function stellarity:items/starless_scythe/enchant_interactions/regeneration/get_duration
+execute if entity @s[advancements={stellarity:events/items/deal_damage_with_starless_scythe={kill=true}},predicate=stellarity:items/starless_scythe/has_silk_touch] run function stellarity:items/starless_scythe/enchant_interactions/regeneration/get_duration
 # Cripple hit mob(s) if enchanted with Efficiency
 scoreboard players set #cripple_duration stellarity.misc 0
-execute if predicate stellarity:utils/has_efficiency run function stellarity:items/starless_scythe/enchant_interactions/cripple/get_duration
+execute if predicate stellarity:items/starless_scythe/has_efficiency run function stellarity:items/starless_scythe/enchant_interactions/cripple/get_duration
 execute if score #cripple_duration stellarity.misc matches 1.. \
 	if entity @s[advancements={stellarity:events/items/deal_damage_with_starless_scythe={attack=true}}] \
 	as @e[type=!#kohara:invalid_targets,limit=1,sort=nearest,nbt={HurtTime:10s}] at @s run \

@@ -22,4 +22,4 @@ execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.b
 execute as @e[type=zombie,predicate=stellarity:locations/biomes/in_warped_marsh,tag=!stellarity.aware] at @s run function stellarity:mobs/warped_marsh_zombie_despawn
 
 # Villagers
-execute as @e[type=villager,predicate=stellarity:locations/in_end_village,tag=!stellarity.villager.aware] at @s run function stellarity:mobs/villager/check
+execute as @e[type=villager,predicate=stellarity:locations/structures/in_end_village,tag=!stellarity.villager.aware] at @s run function stellarity:mobs/villager/check

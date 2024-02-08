@@ -15,6 +15,6 @@ scoreboard players add @s[scores={stellarity.items.prismatic_punch.teleport=..60
 execute if score @s stellarity.misc matches 2.. run function stellarity:items/prismatic_punch/blast_particles
 
 # Detonation
-execute unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @e[type=!#kohara:invalid_targets,distance=..2.5,predicate=!stellarity:items/holding_prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
+execute unless score @s stellarity.items.prismatic_punch.piercing_cooldown matches 1.. anchored eyes if entity @e[type=!#kohara:invalid_targets,distance=..2.5,predicate=!stellarity:items/holding/prismatic_punch] run function stellarity:items/prismatic_punch/detonate/start
 
 execute if score @s stellarity.misc matches 100 run function stellarity:items/prismatic_punch/detonate/start_absolute
