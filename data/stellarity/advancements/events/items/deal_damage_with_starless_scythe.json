@@ -1,7 +1,7 @@
 {
 	"parent": "stellarity:events/root",
 	"criteria": {
-		"click": {
+		"attack": {
 			"trigger": "minecraft:player_hurt_entity",
 			"conditions": {
 				"player": {
@@ -15,9 +15,6 @@
 					}
 				},
 				"damage": {
-					"dealt": {
-						"min": 6.5
-					},
 					"blocked": false,
 					"type": {
 						"tags": [
@@ -29,8 +26,37 @@
 					}
 				}
 			}
+		},
+		"kill": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"player": {
+					"equipment": {
+						"mainhand": {
+							"items": [
+								"minecraft:netherite_hoe"
+							],
+							"nbt": "{stellarity.special_item:\"starless_scythe\"}"
+						}
+					}
+				},
+				"killing_blow": {
+					"tags": [
+						{
+							"id": "stellarity:melee",
+							"expected": true
+						}
+					]
+				}
+			}
 		}
 	},
+	"requirements": [
+		[	
+			"attack",
+			"kill"
+		]
+	],
 	"rewards": {
 		"function": "stellarity:items/starless_scythe/attack"
 	}

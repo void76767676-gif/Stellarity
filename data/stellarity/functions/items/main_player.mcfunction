@@ -67,3 +67,7 @@ execute if entity @s[tag=stellarity.items.dragons_eye.holding,predicate=!stellar
 
 # Frigid Harvester
 execute if entity @s[tag=stellarity.cryonics] run function stellarity:items/frigid_harvester/abilities/cryonics/loop
+
+# Starless Scythe
+execute if entity @s[predicate=stellarity:items/holding_starless_scythe] run function stellarity:items/starless_scythe/hold/loop
+execute if entity @s[predicate=!stellarity:items/holding_starless_scythe,tag=stellarity.items.starless_scythe.holding] run function stellarity:items/starless_scythe/hold/stop

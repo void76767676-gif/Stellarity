@@ -288,11 +288,18 @@
 			]
 		},
 		{
-			"rolls": 1,
+			"rolls": {
+				"min": 1,
+				"max": 2
+			},
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
 					"name": "stellarity:items/chorus_dagger"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/starless_scythe"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -302,7 +309,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.5
+					"chance": 0.66
 				}
 			]
 		},

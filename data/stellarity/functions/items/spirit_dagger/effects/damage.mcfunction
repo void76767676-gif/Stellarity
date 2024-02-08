@@ -10,7 +10,7 @@ execute unless score #knockback stellarity.misc matches 0 run function stellarit
 execute unless score #fire_aspect stellarity.misc matches 0 run function stellarity:items/spirit_dagger/effects/fire
 # Slow down arthropods
 # Probably the most useless effect here
-execute unless score #bane stellarity.misc matches 0 if entity @s[type=#kohara:arthropods] at @s run function stellarity:items/spirit_dagger/effects/bane_of_spiders
+execute unless score #bane stellarity.misc matches 0 if entity @s[type=#minecraft:arthropod] at @s run function stellarity:items/spirit_dagger/effects/bane_of_spiders
 
 # Not using its own damage type, because it has 100% AP
 function kohara:damage/calculate {armor_penetration:100,damage_boost_efficiency:50,damage_type:"kohara:armor_piercing",tag:"stellarity.damage.spirit_dagger"}

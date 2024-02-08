@@ -16,43 +16,48 @@ scoreboard objectives add stellarity.config.enable_creative_shock dummy
 function stellarity:config/init
 
 ## Items
+# Dragonblade
 scoreboard objectives add stellarity.items.dragonblade.cooldown dummy
 scoreboard objectives add stellarity.items.dragonblade.stacks dummy
 scoreboard objectives add stellarity.items.dragonblade.until_stack_reset dummy
 scoreboard objectives add stellarity.items.dragonblade.punch_progress dummy
 scoreboard objectives add stellarity.items.dragonblade.until_punch_reset dummy
-scoreboard objectives add stellarity.items.dragonblade.misc_cooldown dummy
 
+# Pandora's Barrel
 scoreboard objectives add stellarity.items.pandoras_barrel.raycast dummy
 scoreboard objectives add stellarity.items.pandoras_barrel.animation dummy
 scoreboard objectives add stellarity.items.pandoras_barrel.summon_id dummy
 
+# Armor sets
 scoreboard objectives add stellarity.items.armors.holy_protection_cooldown dummy
 scoreboard objectives add stellarity.items.armors.chorus_champion_armor.combo dummy
 scoreboard objectives add stellarity.items.armors.chorus_champion_armor.until_combo_reset dummy
 
-scoreboard objectives add stellarity.items.sharanga.arrow_age dummy
-
-scoreboard objectives add stellarity.items.clockwork_crossbow.arrow_amount dummy
+# Clockwork Crossbow
 scoreboard objectives add stellarity.items.clockwork_crossbow.slowdown_time dummy
 scoreboard objectives add stellarity.items.clockwork_crossbow.cooldown dummy
 scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
 
+# Crest of The End
 scoreboard objectives add stellarity.items.crest.bonus_dmg dummy
 scoreboard objectives add stellarity.items.crest.time dummy
 
+# Copper Elektra Shield
 scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
 scoreboard objectives add stellarity.items.elektra_shield.animation dummy
 scoreboard objectives add stellarity.items.elektra_shield.dashes dummy
 
+# Prismatic Punch
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
 scoreboard objectives add stellarity.items.prismatic_punch.teleport dummy
 scoreboard objectives add stellarity.items.prismatic_punch.piercing dummy
 scoreboard objectives add stellarity.items.prismatic_punch.piercing_cooldown dummy
 scoreboard objectives add stellarity.items.prismatic_punch.multishot dummy
 
+# Ender Insignia
 scoreboard objectives add stellarity.items.ender_insignia.hold_duration dummy
 
+# Spellbooks
 scoreboard objectives add stellarity.items.spellbook.conveyance.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.conveyance.id dummy
 scoreboard objectives add stellarity.items.spellbook.updraft.cooldown dummy
@@ -65,12 +70,15 @@ scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
 
+# Fish
+# yeah, only 1
 scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed dummy
 
+# Spirit Dagger
 scoreboard objectives add stellarity.items.spirit_dagger.attract_cooldown dummy
 scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
-scoreboard objectives add stellarity.items.spirit_dagger.efstellaritycts_duration dummy
+scoreboard objectives add stellarity.items.spirit_dagger.effects_duration dummy
 
 # Frigid Harvester, AKA Aery Sword
 scoreboard objectives add stellarity.items.aery_sword.damage dummy
@@ -86,22 +94,30 @@ scoreboard objectives add stellarity.items.aery_sword.kills.stray.count dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.duration dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.cooldown dummy
 
+# Kaleidoscope
 scoreboard objectives add stellarity.items.kaleidoscope.charge dummy
 scoreboard objectives add stellarity.items.kaleidoscope.charge_progress dummy
 
+# Prismatic Pearl
 scoreboard objectives add stellarity.items.prismatic_pearl.cooldown dummy
 
+# Prismember
 scoreboard objectives add stellarity.items.prismember.charge dummy
 scoreboard objectives add stellarity.items.prismember.until_charge_reset dummy
 scoreboard objectives add stellarity.items.prismember.cooldown dummy
 
+# Tamaris
 scoreboard objectives add stellarity.items.tamaris.math.health.current dummy
 scoreboard objectives add stellarity.items.tamaris.math.health.max dummy
 scoreboard objectives add stellarity.items.tamaris.math.health.percentage dummy
 scoreboard objectives add stellarity.items.tamaris.animation.progress dummy
 scoreboard objectives add stellarity.items.tamaris.execute_cooldown dummy
 
+# Chorus Dagger
 scoreboard objectives add stellarity.items.chorus_dagger.cooldown dummy
+
+# Starless Scythe
+scoreboard objectives add stellarity.items.starless_scythe.time_since_attack dummy
 
 ## Mobs
 # Empress of Light

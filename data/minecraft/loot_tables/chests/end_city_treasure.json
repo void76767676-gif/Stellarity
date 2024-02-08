@@ -380,6 +380,14 @@
 				{
 					"type": "minecraft:loot_table",
 					"name": "stellarity:items/chorus_dagger"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/starless_scythe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/spellbooks/jinx"
 				}
 			],
 			"conditions": [

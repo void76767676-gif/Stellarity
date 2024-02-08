@@ -19,6 +19,8 @@ scoreboard objectives add kohara.custom_particle.display dummy
 
 scoreboard objectives add kohara.respawn_detection minecraft.custom:minecraft.deaths
 
+scoreboard objectives add kohara.health_reset dummy
+
 # Custom status effects
 # kohara's Libs only handles loading, ticking and removing,
 # the rest has to be set up manually

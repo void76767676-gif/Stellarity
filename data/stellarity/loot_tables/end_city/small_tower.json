@@ -281,6 +281,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "stellarity:items/starless_scythe"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "stellarity:items/spellbooks/jinx"
 				}
 			],

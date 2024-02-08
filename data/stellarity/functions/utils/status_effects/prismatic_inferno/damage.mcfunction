@@ -1,7 +1,7 @@
 scoreboard players set #damage kohara.misc 15
 
 # Double damage to undead mobs
-execute if entity @s[type=#kohara:undead] run scoreboard players operation #damage kohara.misc += #damage kohara.misc
+execute if entity @s[type=#minecraft:undead] run scoreboard players operation #damage kohara.misc += #damage kohara.misc
 
 scoreboard players reset @s stellarity.dot.prismatic_inferno.progress
 
