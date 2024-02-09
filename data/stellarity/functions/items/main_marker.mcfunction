@@ -11,3 +11,6 @@ execute if entity @s[tag=stellarity.prismember] run function stellarity:items/pr
 
 # Copper Elektra Shield
 execute if entity @s[tag=stellarity.items.elektra_shield.marker] run function stellarity:items/elektra_shield/dash/as_marker
+
+# Copper Elektra Shield
+execute if entity @s[tag=stellarity.wisp] run function stellarity:items/spectral_fury/wisp/loop

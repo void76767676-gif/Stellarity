@@ -22,13 +22,13 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.1",
-									"fallback": "Slowly leaches life from attacked mobs",
+									"fallback": "Steals life from attacked mobs",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.starless_scythe.description.2",
-									"fallback": "Enchant with Efficiency for increased effect",
+									"fallback": "Can damage multiple mobs at once",
 									"color": "#EEEEEE",
 									"italic": false
 								},

@@ -119,6 +119,12 @@ scoreboard objectives add stellarity.items.chorus_dagger.cooldown dummy
 # Starless Scythe
 scoreboard objectives add stellarity.items.starless_scythe.time_since_attack dummy
 
+# Spectral Fury
+scoreboard objectives add stellarity.items.spectral_fury.charge dummy
+scoreboard objectives add stellarity.items.spectral_fury.until_charge_reset dummy
+scoreboard objectives add stellarity.items.spectral_fury.pierce_count dummy
+scoreboard objectives add stellarity.items.spectral_fury.damage dummy
+
 ## Mobs
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy

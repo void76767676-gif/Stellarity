@@ -71,3 +71,7 @@ execute if entity @s[tag=stellarity.cryonics] run function stellarity:items/frig
 # Starless Scythe
 execute if entity @s[predicate=stellarity:items/holding/starless_scythe] run function stellarity:items/starless_scythe/hold/loop
 execute if entity @s[predicate=!stellarity:items/holding/starless_scythe,tag=stellarity.items.starless_scythe.holding] run function stellarity:items/starless_scythe/hold/stop
+
+# Spectral Fury
+execute if entity @s[scores={kohara.shot_bow=1},predicate=stellarity:items/holding/spectral_fury] run function stellarity:items/spectral_fury/shoot
+execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1..}] run function stellarity:items/spectral_fury/charge_reset_countdown
