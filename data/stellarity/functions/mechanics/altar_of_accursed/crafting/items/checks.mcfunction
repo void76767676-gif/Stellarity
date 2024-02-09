@@ -24,3 +24,9 @@ execute if entity @e[type=item,tag=stellarity.aota.sharanga,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.8_membranes,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.3_diamonds,distance=..1.5] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/spectral_fury
+
+# Hematic Pickaxe
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.living_flesh,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.netherite_pickaxe,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/items/hematic_pickaxe

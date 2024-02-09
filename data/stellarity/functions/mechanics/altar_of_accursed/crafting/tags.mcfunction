@@ -48,7 +48,11 @@ tag @s[nbt={Item:{id:"minecraft:purpur_block",Count:9b}}] add stellarity.aota.9_
 
 # Spectral Fury
 execute if entity @s[nbt={Item:{id:"minecraft:bow",Count:1b,tag:{stellarity.special_item:"sharanga"}}}] run tag @s add stellarity.aota.sharanga
+tag @s remove stellarity.aota.8_membranes
 tag @s[nbt={Item:{id:"minecraft:phantom_membrane",Count:8b}}] add stellarity.aota.8_membranes
+
+# Hematic Pickaxe
+execute if entity @s[nbt={Item:{id:"minecraft:rotten_flesh",Count:1b,tag:{stellarity.special_item:"living_flesh"}}}] run tag @s add stellarity.aota.living_flesh
 
 # Discenchanting (while it is last, it takes priority over everything)
 tag @s remove stellarity.aota.book

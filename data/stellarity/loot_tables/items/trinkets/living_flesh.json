@@ -8,6 +8,15 @@
 					"name": "minecraft:rotten_flesh",
 					"functions": [
 						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.trinkets.living_flesh",
+								"fallback": "Living Flesh",
+								"color": "#E53F3F",
+								"italic": false
+							}
+						},
+						{
 							"function": "minecraft:set_nbt",
 							"tag": "{stellarity.special_item:\"living_flesh\",CustomModelData:90000,Enchantments:[{}],HideFlags:2,kohara.fireproof:1b}"
 						},
@@ -48,15 +57,6 @@
 								}
 							],
 							"replace": false
-						},
-						{
-							"function": "minecraft:set_name",
-							"name": {
-								"translate": "stellarity.items.trinkets.living_flesh",
-								"fallback": "Living Flesh",
-								"color": "#E53F3F",
-								"italic": false
-							}
 						},
 						{
 							"function": "minecraft:set_attributes",
