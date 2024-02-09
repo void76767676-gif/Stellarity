@@ -18,3 +18,9 @@ execute if entity @e[type=item,tag=stellarity.aota.barrel,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.1_iron_block,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.1_gold_block,distance=..1.5] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/items/pandoras_barrel
+
+# Spectral Fury
+execute if entity @e[type=item,tag=stellarity.aota.sharanga,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.8_membranes,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.3_diamonds,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/items/spectral_fury

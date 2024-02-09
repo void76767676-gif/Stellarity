@@ -46,6 +46,10 @@ tag @s[nbt={Item:{id:"minecraft:diamond",Count:3b}}] add stellarity.aota.3_diamo
 tag @s remove stellarity.aota.9_purpur_blocks
 tag @s[nbt={Item:{id:"minecraft:purpur_block",Count:9b}}] add stellarity.aota.9_purpur_blocks
 
+# Spectral Fury
+execute if entity @s[nbt={Item:{id:"minecraft:bow",Count:1b,tag:{stellarity.special_item:"sharanga"}}}] run tag @s add stellarity.aota.sharanga
+tag @s[nbt={Item:{id:"minecraft:phantom_membrane",Count:8b}}] add stellarity.aota.8_membranes
+
 # Discenchanting (while it is last, it takes priority over everything)
 tag @s remove stellarity.aota.book
 execute if entity @s[nbt={Item:{id:"minecraft:book",Count:1b}}] run tag @s add stellarity.aota.book
