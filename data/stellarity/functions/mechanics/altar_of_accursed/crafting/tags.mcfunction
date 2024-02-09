@@ -55,8 +55,7 @@ tag @s remove stellarity.aota.book
 execute if entity @s[nbt={Item:{id:"minecraft:book",Count:1b}}] run tag @s add stellarity.aota.book
 execute if data entity @s Item.tag.Enchantments if data entity @s Item.tag.Enchantments[0].id run tag @s add stellarity.aota.enchanted
 
-data modify entity @s PickupDelay set value 21s
-data modify entity @s Glowing set value 1b
+data merge entity @s {PickupDelay:21s,Glowing:1b}
 team join stellarity.purple_glow @s
 
 execute unless entity @s[tag=stellarity.aota.particles] at @s run particle minecraft:witch ~ ~.5 ~ 0 0 0 10 6 normal

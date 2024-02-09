@@ -1,4 +1,4 @@
-scoreboard players remove @s stellarity.items.spirit_dagger.attract_cooldown 2
+scoreboard players remove @s stellarity.items.spirit_dagger.attract_cooldown 3
 
 execute if score @s stellarity.items.spirit_dagger.attract_cooldown matches ..0 run tag @s remove stellarity.items.spirit_dagger.cooldown
 

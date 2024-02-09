@@ -4,7 +4,7 @@ summon marker ~ ~ ~ {Tags:["stellarity.marker","stellarity.prismember"]}
 execute rotated as @s as @e[type=marker,limit=1,sort=nearest,tag=stellarity.prismember] run tp @s ~ ~ ~ ~ 0
 
 # Apply cooldown
-scoreboard players set @s stellarity.items.prismember.cooldown 12
+scoreboard players set @s stellarity.items.prismember.cooldown 20
 
 
 ## Spin damage

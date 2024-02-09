@@ -11,5 +11,4 @@ attribute @s minecraft:generic.movement_speed modifier add ac60d56a-76b2-4e45-83
 attribute @s minecraft:generic.follow_range modifier add 5c71dae2-ad6e-4d51-8d18-7bb74abbdbc1 "stellarity.follow_range" 0.33 multiply
 attribute @s minecraft:zombie.spawn_reinforcements modifier add 4d5f1512-cde2-4447-af41-fd07eecf427c "stellarity.spawn_reinforcements" 0.08 add
 
-data modify entity @s Health set value 24.0f
-data modify entity @s DeathLootTable set value "stellarity:mobs/wild_husk"
+data merge entity @s {Health:24.0f,DeathLootTable:"stellarity:mobs/wild_husk"}
