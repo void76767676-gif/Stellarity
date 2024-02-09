@@ -16,4 +16,6 @@ scoreboard players operation #wisp_damage stellarity.misc += #arrow_damage stell
 
 scoreboard players operation @e[type=marker,limit=1,sort=nearest,tag=stellarity.wisp] stellarity.items.spectral_fury.damage = #wisp_damage stellarity.misc
 
+playsound minecraft:entity.wither.ambient player @a[distance=0..] ~ ~ ~ 0.1 2
+
 kill @s

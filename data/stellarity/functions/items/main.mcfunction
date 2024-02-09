@@ -5,7 +5,7 @@ execute as @e[type=!#kohara:invalid_targets,scores={stellarity.items.dragonblade
 execute as @e[type=area_effect_cloud,tag=stellarity.items.dragonblade.smthgram_aec] at @s rotated as @s run function stellarity:items/dragonblade/punch/special_fx/smthgram
 
 # Sharanga
-execute as @e[type=spectral_arrow,tag=stellarity.spectral_bolt] at @s run function stellarity:items/sharanga/arrow_loop
+execute as @e[type=spectral_arrow,tag=stellarity.spectral_bolt] at @s run function stellarity:items/sharanga/bolt/loop
 
 # Duskberry
 execute as @e[type=area_effect_cloud,tag=stellarity.duskberry_cloud] at @s run function stellarity:items/duskberry/as_aec
