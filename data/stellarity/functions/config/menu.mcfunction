@@ -36,6 +36,8 @@ function stellarity:utils/tellraw/config {title:"Enable Dragon Screenshake",desc
 
 function stellarity:utils/tellraw/config {title:"Enable End City Creative Shock",description:"Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_creative_shock",numerical:0,suggested_value:1}
 
+function stellarity:utils/tellraw/config {title:"Nerf Elytra",description:"Nerfs the Elytra by making them take extra damage from boosting.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"nerf_elytra",numerical:0,suggested_value:1}
+
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 
 playsound minecraft:block.chest.open player @s ~ ~ ~ 1 2

@@ -8,3 +8,4 @@ execute unless score #stellarity.config stellarity.config.track_loop_delay.eol m
 execute unless score #stellarity.config stellarity.config.track_loop_delay.dragon matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.track_loop_delay.dragon 4230
 execute unless score #stellarity.config stellarity.config.enable_dragon_screenshake matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_dragon_screenshake 1
 execute unless score #stellarity.config stellarity.config.enable_creative_shock matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_creative_shock 1
+execute unless score #stellarity.config stellarity.config.nerf_elytra matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.nerf_elytra 1

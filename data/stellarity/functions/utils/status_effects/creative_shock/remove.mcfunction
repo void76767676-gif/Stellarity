@@ -5,4 +5,4 @@ effect clear @s mining_fatigue
 
 tag @s remove stellarity.creative_shock
 
-function kohara:dot/stop_ticking
+function kohara:status_effect/stop_ticking

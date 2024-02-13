@@ -294,6 +294,32 @@
 					"chance": 0.33333333
 				}
 			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spire_armor_trim_smithing_template"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:empty",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/materials/enderite_smithing_template"
+				}
+			]
 		}
 	]
 }
