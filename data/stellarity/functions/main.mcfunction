@@ -6,7 +6,7 @@ function stellarity:utils/main
 
 execute as @a at @s run function stellarity:loops/player_loop
 execute as @e[type=marker,tag=stellarity.marker] at @s run function stellarity:loops/marker_loop
-execute as @e[type=item] at @s run function stellarity:loops/item_loop
+execute as @e[type=item,tag=stellarity.item] at @s run function stellarity:loops/item_loop
 
 # Some Minecraft change causes default Ender Dragon to spawn
 # no matter what in 1.19, and this is ruining the whole system
