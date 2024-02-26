@@ -1,5 +1,14 @@
 [
 	{
+		"condition": "minecraft:entity_scores",
+		"entity": "this",
+		"scores": {
+			"kohara.flight_speed": {
+				"min": 1
+			}
+		}
+	},
+	{
 		"condition": "minecraft:entity_properties",
 		"entity": "this",
 		"predicate": {

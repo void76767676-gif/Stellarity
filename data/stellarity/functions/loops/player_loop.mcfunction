@@ -13,9 +13,11 @@ execute if entity @s[advancements={stellarity:end_city/super_sonic=false},scores
 # Totem of Undying gives Levitation when falling out of the world
 execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:locations/in_void] run function stellarity:mechanics/void_totem_protection/save
 
+## Elytras
+# Trail
 execute if entity @s[scores={kohara.flight_speed=80..}] run function stellarity:sfx/elytra_trail/main
-# Elytra boost nerf
-execute if score #stellarity.config if entity @s[predicate=kohara:player/has_boosted_with_elytra,gamemode=!creative,gamemode=!spectator] run function stellarity:mechanics/elytra_nerf/boost
+# Boost nerf
+execute if score #stellarity.config stellarity.config.nerf_elytra matches 1 if entity @s[predicate=kohara:player/has_boosted_with_elytra,gamemode=!creative,gamemode=!spectator] run function stellarity:mechanics/elytra_nerf/boost
 
 scoreboard players add @s stellarity.misc.loop.2t 1
 execute if entity @s[scores={stellarity.misc.loop.2t=2}] run function stellarity:loops/player_loop_2t

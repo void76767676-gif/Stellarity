@@ -383,6 +383,10 @@
 				},
 				{
 					"type": "minecraft:loot_table",
+					"name": "stellarity:items/spirit_dagger"
+				},
+				{
+					"type": "minecraft:loot_table",
 					"name": "stellarity:items/starless_scythe"
 				},
 				{
@@ -393,7 +397,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.07
+					"chance": 0.15
 				}
 			]
 		},

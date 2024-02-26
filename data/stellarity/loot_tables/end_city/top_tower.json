@@ -288,14 +288,15 @@
 			]
 		},
 		{
-			"rolls": {
-				"min": 1,
-				"max": 2
-			},
+			"rolls": 1,
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
 					"name": "stellarity:items/chorus_dagger"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/spirit_dagger"
 				},
 				{
 					"type": "minecraft:loot_table",
@@ -309,7 +310,7 @@
 			"conditions": [
 				{
 					"condition": "minecraft:random_chance",
-					"chance": 0.66
+					"chance": 0.8
 				}
 			]
 		},

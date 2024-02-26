@@ -71,6 +71,9 @@ scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
 
+# Empress Wings
+scoreboard objectives add stellarity.items.empress_wings.particles dummy
+
 # Fish
 # yeah, only 1
 scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed dummy

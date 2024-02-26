@@ -1,5 +1,6 @@
 data modify storage stellarity:temp elytra_nerf.player_data set from entity @s
 execute store result score #damage stellarity.misc run data get storage stellarity:temp elytra_nerf.player_data.Inventory[{Slot:102b}].tag.Damage 
+execute unless score #damage stellarity.misc matches ..2147483647 run scoreboard players set #damage stellarity.misc 0
 
 execute if score @s kohara.used_firework matches 1.. run scoreboard players set #temp stellarity.misc 6
 execute if score @s kohara.thrown_trident matches 1.. run function stellarity:mechanics/elytra_nerf/trident
@@ -12,5 +13,4 @@ execute if score #damage stellarity.misc matches 431.. run scoreboard players se
 
 execute store result storage stellarity:temp elytra_nerf.damage int 1 run scoreboard players get #damage stellarity.misc
 
-# Yeah, doing it now is a waste of memory, but otherwise i'd have to do some other stuff to get the riptide animation working
 item modify entity @s armor.chest stellarity:elytra_apply_damage
