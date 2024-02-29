@@ -5,14 +5,11 @@
 	// to generate it for your translations!
 	// Make sure your input text is fully in lowercase characters
 
-	// Don't edit these
-	// These get replaced with custom plates,
-	// which cannot really be translated
-	"Stellarity": "§fꑟ",
-	"- Donator Item -": "§fꐁ",
-	"- Developer Item -": "§fꑡ",
-	"- Member #666 Item -": "§fꐂ",
-	"- Member #777 Item -": "§fꑛ",
+	//"Stellarity": "§fꑟ",
+	//"- Donator Item -": "§fꐁ",
+	//"- Developer Item -": "§fꑡ",
+	//"- Member #666 Item -": "§fꐂ",
+	//"- Member #777 Item -": "§fꑛ",
 
 	// Start translating from here
 	"stellarity.pack_mcmeta.rp": "Optional resources for Stellarity",
@@ -37,16 +34,44 @@
 
 	"stellarity.mobs.gloop": "Gloop",
 	"stellarity.mobs.pixie": "Pixie",
-
 	"stellarity.mobs.empress": "Empress of Light",
-
+	
 	"stellarity.eol.despawn": "%s flees as nobody is around...",
 
+	// Config
+	"stellarity.config.enabled": "Enabled",
+	"stellarity.config.disabled": "Disabled",
+	"stellarity.config.click_to_edit": "Click to edit",
+	"stellarity.config.default": "Default: %s",
+
+	"stellarity.config.join_message.title": "Join Message",
+	"stellarity.config.join_message.description": "Whether to send a short message about Stellarity being loaded upon entering this world. Modpack developers are asked to check the 'Disable Join Message Globally' addon!",
+	"stellarity.config.always_generate_egg.title": "Always Generate Egg",
+	"stellarity.config.always_generate_egg.description": "Always spawns a Dragon Egg after killing the Ender Dragon. If disabled, follows vanilla spawn rules of only 1 Egg and only the first kill.",
+	"stellarity.config.dragon_health.title": "Dragon Max Health",
+	"stellarity.config.dragon_health.description": "Changes maximum health of the Ender Dragon. Max: 1024",
+	"stellarity.config.eol_health.title": "Empress of Light Max Health",
+	"stellarity.config.eol_health.description": "Changes maximum health of the Empress of Light. Max: 1024",
+	"stellarity.config.allow_disenchanting.title": "Enable Disenchanting",
+	"stellarity.config.allow_disenchanting.description": "Makes Altar of The Accursed able to unbind enchantments from an enchanted item by combining it with a normal book. Could be considered a bit overpowered.",
+	"stellarity.config.enable_treasure_heads.title": "Enable Treasure Heads",
+	"stellarity.config.enable_treasure_heads.description": "Makes Treasure Heads randomly generate inside of some loot chests (The End). They serve as some funny little collectibles.",
+	"stellarity.config.track_loop_delay.dragon.title": "Dragon Music Loop Delay",
+	"stellarity.config.track_loop_delay.dragon.description": "Number of ticks Dragon's boss theme is going to loop after. Only edit if you actually have a reason to.",
+	"stellarity.config.track_loop_delay.eol.title": "EoL Loop Delay",
+	"stellarity.config.track_loop_delay.eol.description": "Number of ticks Empress of Light's boss theme is going to loop after. Only edit if you actually have a reason to.",
+	"stellarity.config.enable_dragon_screenshake.title": "Enable Dragon Screenshake",
+	"stellarity.config.enable_dragon_screenshake.description": "Enables a bootleg screenshake effect during the Dragon's spawn animation. Can be nauseating to some, so feel free to disable it. It isn't the best anyway.",
+	"stellarity.config.enable_creative_shock.title": "Enable End City Creative Shock",
+	"stellarity.config.enable_creative_shock.description": "Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed.",
+	"stellarity.config.nerf_elytra.title": "Nerf Elytra",
+	"stellarity.config.nerf_elytra.description": "Nerfs the Elytra by making them take extra damage from boosting.",
+	
 	// Items
 	// Explorer Maps
 	"stellarity.explorer_map.end_city": "End City Explorer Map",
 	"stellarity.explorer_map.end_village": "End Village Explorer Map",
-	"stellarity.explorer_map.chapel_of_light": "Chapel of Light Explorer Map",
+	"stellarity.explorer_map.chapel_of_light": "Chapel of Lighft Explorer Map",
 
 	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "In The Loving Memory of Gloop",
@@ -175,6 +200,7 @@
 	
 	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Cooldown: %s seconds",
+	"stellarity.items.spellbooks.cooldown_long": "Cooldown: %s minutes",
 	"stellarity.items.spellbooks.notification": "Your %s is ready to be used again",
 	
 	"stellarity.items.spellbooks.conveyance": "Book of Conveyance",
@@ -199,6 +225,14 @@
 	"stellarity.items.spellbooks.natures_wrath.spirit_wolf": "Spirit Wolf",
 	"stellarity.items.spellbooks.natures_wrath.power": "Your Nature's Wrath grows in power!",
 
+	"stellarity.items.spellbooks.jinx": "Book of Jinx",
+	"stellarity.items.spellbooks.jinx.description.1": "Shoots a growing cloud",
+	"stellarity.items.spellbooks.jinx.description.2": "which temporarily reduces defense",
+	"stellarity.items.spellbooks.jinx.description.3": "of anything caught in it",
+
+	"stellarity.items.spellbooks.return": "Tome of Return",
+	"stellarity.items.spellbooks.return.description": "Teleports you to your spawnpoint",
+
 	// Tools
 	"stellarity.items.tools.shulker.axe": "Shulker Axe",
 	"stellarity.items.tools.shulker.hoe": "Shulker Hoe",
@@ -213,7 +247,7 @@
 	"stellarity.items.trinkets.crest_of_the_end.description.3": "in retaliation",
 	
 	"stellarity.items.trinkets.dragons_eye": "Dragon's Eye",
-	"stellarity.items.trinkets.dragons_eye.description.1": "Pacifies all Endermen, Endermites and Phantoms",
+	"stellarity.items.trinkets.dragons_eye.description.1": "Pacifies most End mobs",
 	"stellarity.items.trinkets.dragons_eye.description.2": "Provides immunity to various debuffs",
 	"stellarity.items.trinkets.dragons_eye.description.3": "These effects work only while held",
 	
@@ -250,8 +284,8 @@
 	"stellarity.items.trinkets.copper_elektra_shield.description.3": "Third dash takes longer to recharge",
 
 	// Weapons
-	"stellarity.items.weapons.Chorus Champion_wooden_sword": "Chorus Champion Wooden Sword",
-	"stellarity.items.weapons.Chorus Champion_wooden_sword.flavor_text": "'reject Trails&Tales, embrace Indev'",
+	"stellarity.items.weapons.ancient_wooden_sword": "Ancient Wooden Sword",
+	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, embrace Indev'",
 	
 	"stellarity.items.weapons.clockwork_crossbow": "Clockwork Crossbow",
 	"stellarity.items.weapons.clockwork_crossbow.description.1": "Shoots incredibly fast",
@@ -274,25 +308,21 @@
 	"stellarity.items.weapons.sabrewing.flavor_text": "'It might be broken'",
 	
 	"stellarity.items.weapons.sharanga": "Sharanga",
-	"stellarity.items.weapons.sharanga.description.1": "Converts Spectral Arrows into",
-	"stellarity.items.weapons.sharanga.description.2": "Spectral Bolts which travel",
-	"stellarity.items.weapons.sharanga.description.3": "in a straight line",
-	"stellarity.items.weapons.sharanga.description.4": "25% chance to save Spectral Arrows,",
-	"stellarity.items.weapons.sharanga.description.5": "doubles with Infinity enchantment",
+	"stellarity.items.weapons.sharanga.description.1": "Spectral Arrows travel in a straight",
+	"stellarity.items.weapons.sharanga.description.2": "line and deal increased damage",
+	"stellarity.items.weapons.sharanga.description.3": "25% chance to save Spectral Arrows",
 	
-	"stellarity.items.weapons.spirit_dagger": "Spirit Dagger",
-	"stellarity.items.weapons.spirit_dagger.description.1": "Holding one attracts Spirits on slashes",
-	"stellarity.items.weapons.spirit_dagger.description.2": "Holding one in both left and right hand",
-	"stellarity.items.weapons.spirit_dagger.description.3": "allows you to consume said Spirits",
-	"stellarity.items.weapons.spirit_dagger.description.4": "to instantly teleport to them",
-	"stellarity.items.weapons.spirit_dagger.description.5": "and gain a short attack buff",
-	"stellarity.items.weapons.spirit_dagger.description.6": "Enchantments scale from both Daggers",
-	"stellarity.items.weapons.spirit_dagger.flavor_text": "'yes, I like roblox, okay?'",
+	"stellarity.items.weapons.spirit_dagger.1": "The Beginning",
+	"stellarity.items.weapons.spirit_dagger.2": "The End",
+	"stellarity.items.weapons.spirit_dagger.description.1": "Attracts Spirits on attacks",
+	"stellarity.items.weapons.spirit_dagger.description.2": "Hold %s in the other hand and look",
+	"stellarity.items.weapons.spirit_dagger.description.3": "at them to teleport to their location,",
+	"stellarity.items.weapons.spirit_dagger.description.4": "damaging all mobs and gaining a short buff",
+	"stellarity.items.weapons.spirit_dagger.flavor_text": "'RIP Spirit Daggers [*]'",
 	
 	"stellarity.items.weapons.tamaris": "Tamaris",
 	"stellarity.items.weapons.tamaris.description.1": "Sneak to instantly kill",
 	"stellarity.items.weapons.tamaris.description.2": "a nearby enemy with low health",
-	"stellarity.items.weapons.tamaris.description.3": "Hit enemies slowly decay away",
 	"stellarity.items.weapons.tamaris.flavor_text": "'Property of Captain Charo'",
 	"stellarity.items.weapons.tamaris.disabled": "DISABLED",
 	
@@ -329,12 +359,18 @@
 	"stellarity.items.weapons.kaleidoscope.description.3": "all at once in a powerful discharge",
 	
 	"stellarity.items.weapons.starless_scythe": "Starless Scythe",
-	"stellarity.items.weapons.starless_scythe.description.1": "Slowly leaches life from attacked mobs",
-	"stellarity.items.weapons.starless_scythe.description.2": "Enchant with Efficiency for increased effect",
+	"stellarity.items.weapons.starless_scythe.description.1": "Steals life from attacked mobs",
+	"stellarity.items.weapons.starless_scythe.description.2": "Can damage multiple mobs at once",
 	
 	"stellarity.items.weapons.chorus_dagger": "Chorus Dagger",
 	"stellarity.items.weapons.chorus_dagger.description.1": "Sneak to warp to a nearby enemy,",
 	"stellarity.items.weapons.chorus_dagger.description.2": "dealing damage and speeding you up",
+
+	"stellarity.items.weapons.spectral_fury": "Spectral Fury",
+	"stellarity.items.weapons.spectral_fury.description.1": "Fully charged shots convert",
+	"stellarity.items.weapons.spectral_fury.description.2": "Spectral Arrows into wisps",
+	"stellarity.items.weapons.spectral_fury.description.3": "which seek out and attack mobs",
+	"stellarity.items.weapons.spectral_fury.description.4": "33% chance to save Spectral Arrows",
 
 	// Other items
 	"stellarity.items.fisher_of_voids": "Fisher of Voids",
@@ -495,6 +531,8 @@
 	"stellarity.advancements.i_am_titanium.description": "Craft a full set of Shulker Armor",
 	"stellarity.advancements.cursed_crafting": "Cursed Crafting",
 	"stellarity.advancements.cursed_crafting.description": "Use the Altar of The Accursed to craft some of the most powerful of gear",
+	"stellarity.advancements.dye_elytra": "Fancy!",
+	"stellarity.advancements.dye_elytra.description": "Combine an Elytra with any Dye to change its flight trail",
 	"stellarity.advancements.disenchant_item": "Breaking the Seal",
 	"stellarity.advancements.disenchant_item.description": "Unbind enchantments from an item by throwing it onto the Altar with an unenchanted book",
 	"stellarity.advancements.kaliyah": "KALIYAAAAH!",
@@ -528,8 +566,8 @@
 	"stellarity.advancements.super_sonic.description": "Use Elytra to fly through a 1 by 1 gap while moving faster than 40 m/s",
 	"stellarity.advancements.treasure_room": "Heading for The Secrets",
 	"stellarity.advancements.treasure_room.description": "Find a rare Treasure Head. They serve no purpose, but are nice collectibles",
-	"stellarity.advancements.open_chest_in_end_city": "Who's The Thief Now",
-	"stellarity.advancements.open_chest_in_end_city.description": "Loot a Chest in an End City",
+	"stellarity.advancements.crystal_crusher": "Crystal Crusher",
+	"stellarity.advancements.crystal_crusher.description": "Destroy a protective End Crystal of an End City and collect its loot",
 	"stellarity.advancements.ender_adventurer": "Timeless Traveler",
 	"stellarity.advancements.ender_adventurer.description": "Discover all End biomes",
 	"stellarity.advancements.forever_stranded": "Forever Stranded",
@@ -537,7 +575,7 @@
 	"stellarity.advancements.keep_warm": "Keep Warm!",
 	"stellarity.advancements.keep_warm.description": "Wear a full set of Leather Armor in any of the coldest biomes of The End",
 	"stellarity.advancements.spirit_assasin": "Spirit Assasin",
-	"stellarity.advancements.spirit_assasin.description": "Teleport over 60 blocks with a pair of Spirit Daggers",
+	"stellarity.advancements.spirit_assasin.description": "Teleport over 60 blocks with The Beginning and The End",
 	"stellarity.advancements.topped_off": "Topped Off",
 	"stellarity.advancements.topped_off.description": "Increase your maximum health by eating 10 Crystal Heartfish",
 	"stellarity.advancements.duskberry_find": "Don't Bush Your Luck!",
@@ -564,7 +602,7 @@
 	"stellarity.advancements.find_warped_forest.description": "Find a Warped Forest - home of Endermen in The Nether",
 	"stellarity.advancements.imbuements": "Imbuements",
 	"stellarity.advancements.imbuements.description": "...and use it to brew Lingering Potions!",
-	"stellarity.advancements.the_beginning": "The Beginning And The End",
+	"stellarity.advancements.the_beginning": "The End of The Beginning",
 	"stellarity.advancements.the_beginning.description": "Summon and kill the Wither in The End",
 	"stellarity.advancements.cloud_save": "Cloud Save",
 	"stellarity.advancements.cloud_save.description": "Craft an Ender Chest",
@@ -636,15 +674,11 @@
 	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Enderman attacks",
 	"Endermite attacks": "Endermite attacks",
-	"Tamaris executes": "Tamaris executes",
-	"kohy slays": "kohy slays",
 	"Chorus Dagger recharges": "Chorus Dagger recharges",
 	"Elektra Shield recharges": "Elektra Shield recharges",
 	"Living Flesh hurts": "Living Flesh hurts",
 	"Kaleidoscope charges": "Kaleidoscope charges",
-	"Spirit Dagger teleports": "Spirit Dagger teleports",
-	"kohara warps": "kohara warps",
-	
+
 	// Biomes
 	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Amethyst Forest",
@@ -655,10 +689,6 @@
 	"biome.far_end.the_nest": "The Nest",
 	"biome.far_end.void": "Void",
 	"biome.far_end.warped_marsh": "Warped Marsh",
-	"biome.minecraft.end_barrens": "End Barrens",
-	"biome.minecraft.end_highlands": "End Highlands",
-	"biome.minecraft.end_midlands": "End Midlands",
-	"biome.minecraft.small_end_islands": "Small End Islands",
 	"biome.stellarity.blazing_dunes": "Blazing Dunes",
 	"biome.stellarity.crystal_crags": "Crystal Crags",
 	"biome.stellarity.dragons_den": "Dragon's Den",
