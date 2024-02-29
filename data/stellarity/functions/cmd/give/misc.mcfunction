@@ -18,7 +18,7 @@ loot give @s loot stellarity:items/explorer_maps/end_city
 loot give @s loot stellarity:items/explorer_maps/village
 loot give @s loot stellarity:items/explorer_maps/chapel_of_light
 
-loot give @s loot stellarity:items/materials/ancient_plating
+loot give @s loot stellarity:items/materials/chorus_plating
 loot give @s loot stellarity:items/materials/empty_enchanted_book
 loot give @s loot stellarity:items/materials/enderite_shard
 loot give @s loot stellarity:items/materials/enderite_smithing_template

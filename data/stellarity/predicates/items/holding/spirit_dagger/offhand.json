@@ -5,7 +5,7 @@
 		"equipment": {
 			"offhand": {
 				"items": [
-					"minecraft:diamond_sword"
+					"minecraft:netherite_sword"
 				],
 				"nbt": "{stellarity.special_item:\"spirit_dagger\"}"
 			}

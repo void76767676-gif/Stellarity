@@ -15,7 +15,7 @@ execute if entity @s[predicate=stellarity:items/holding/clockwork_crossbow/unloa
 # Prismatic Punch
 execute if entity @s[scores={kohara.shot_bow=1},predicate=stellarity:items/holding/sharanga] run function stellarity:items/sharanga/shoot
 
-# Spirit Dagger
+# The Beginning and The End
 execute if entity @s[predicate=stellarity:items/holding/spirit_dagger/both,predicate=stellarity:items/spirit_dagger/looking_at_spirit] run function stellarity:items/spirit_dagger/charge/progress
 execute if entity @s[scores={stellarity.items.spirit_dagger.until_consume_reset=1..}] run function stellarity:items/spirit_dagger/charge/reset_countdown
 
@@ -75,3 +75,7 @@ execute if entity @s[predicate=!stellarity:items/holding/starless_scythe,tag=ste
 # Spectral Fury
 execute if entity @s[scores={kohara.shot_bow=1},predicate=stellarity:items/holding/spectral_fury] run function stellarity:items/spectral_fury/shoot
 execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1..}] run function stellarity:items/spectral_fury/charge_reset_countdown
+
+# Stellar Striker
+execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
+execute if entity @s[predicate=!stellarity:items/holding/stellar_striker,tag=stellarity.holding_stellar_striker] run function stellarity:items/stellar_striker/holding/stop

@@ -7,7 +7,7 @@ loot give @s loot stellarity:items/kaleidoscope
 loot give @s loot stellarity:items/prismatic_punch
 loot give @s loot stellarity:items/prismember
 loot give @s loot stellarity:items/sharanga
-loot give @s loot stellarity:items/spirit_dagger
+loot give @s loot stellarity:items/the_beginning_and_the_end
 loot give @s loot stellarity:items/starless_scythe
 loot give @s loot stellarity:items/tamaris
 loot give @s loot stellarity:items/spectral_fury

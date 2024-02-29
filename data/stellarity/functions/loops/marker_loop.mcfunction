@@ -14,6 +14,8 @@ execute if entity @s[tag=stellarity.altar_of_the_light] run function stellarity:
 execute if entity @s[tag=stellarity.end_portal] run function stellarity:sfx/end_portal/marker_loop
 execute if entity @s[tag=stellarity.end_portal_animation] run function stellarity:sfx/end_portal/open_animation/main
 
+execute if entity @s[tag=stellarity.spirit_dagger.spirit] run function stellarity:items/spirit_dagger/spirit/loop
+
 # Dragon markers
 execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:sfx/dragons_den_chest
 execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:mobs/dragon/attacks/fireball/main
@@ -24,6 +26,8 @@ execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sf
 execute if entity @s[tag=stellarity.end_city.crystal] run function stellarity:post_gen/end_city/crystal/visuals
 execute if entity @s[tag=stellarity.end_city.no_beacon] unless block ~ ~ ~ minecraft:beacon run function stellarity:post_gen/end_city/no_beacon
 execute if entity @s[tag=stellarity.end_city.small_tower_crystal] run function stellarity:post_gen/end_city/crystal/small_tower
+
+execute if entity @s[tag=stellarity.stellar_striker] run function stellarity:items/stellar_striker/marker/loop
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main

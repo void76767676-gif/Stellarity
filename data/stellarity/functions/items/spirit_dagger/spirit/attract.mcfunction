@@ -1,4 +1,4 @@
-scoreboard players set @s stellarity.items.spirit_dagger.attract_cooldown 440
+scoreboard players set @s stellarity.items.spirit_dagger.attract_cooldown 500
 tag @s add stellarity.items.spirit_dagger.cooldown
 tag @s add stellarity.cooldown_tickdown
 

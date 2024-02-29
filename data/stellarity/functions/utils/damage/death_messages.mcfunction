@@ -8,7 +8,7 @@ execute if entity @s[tag=stellarity.damage.sharanga_explosion] run tellraw @a {"
 #> Starstruck Carcanet falling stars
 execute if entity @s[tag=stellarity.damage.carcanet] run function stellarity:utils/damage/death_messages/starstruck_carcanet
 
-#> Spirit Dagger teleport slash
+#> The Beginning and The End teleport slash
 execute if entity @s[tag=stellarity.damage.spirit_dagger] run function stellarity:utils/damage/death_messages/spirit_dagger
 
 #> Dragon punch

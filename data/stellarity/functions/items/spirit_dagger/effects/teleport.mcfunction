@@ -49,3 +49,4 @@ function stellarity:items/spirit_dagger/effects/teleport/slash
 # Kill Spirit
 kill @e[type=armor_stand,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
 kill @e[type=interaction,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]
+kill @e[type=marker,limit=1,sort=nearest,tag=stellarity.spirit_dagger.spirit]

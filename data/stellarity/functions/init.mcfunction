@@ -78,7 +78,7 @@ scoreboard objectives add stellarity.items.empress_wings.particles dummy
 # yeah, only 1
 scoreboard objectives add stellarity.items.fish.crystal_heartfish.total_consumed dummy
 
-# Spirit Dagger
+# The Beginning and The End
 scoreboard objectives add stellarity.items.spirit_dagger.attract_cooldown dummy
 scoreboard objectives add stellarity.items.spirit_dagger.consume_time dummy
 scoreboard objectives add stellarity.items.spirit_dagger.until_consume_reset dummy
@@ -122,6 +122,10 @@ scoreboard objectives add stellarity.items.chorus_dagger.cooldown dummy
 
 # Starless Scythe
 scoreboard objectives add stellarity.items.starless_scythe.time_since_attack dummy
+
+# Stellar Striker
+scoreboard objectives add stellarity.items.stellar_striker.stars.collect_time dummy
+scoreboard objectives add stellarity.items.stellar_striker.stars.amount dummy
 
 # Spectral Fury
 scoreboard objectives add stellarity.items.spectral_fury.charge dummy
