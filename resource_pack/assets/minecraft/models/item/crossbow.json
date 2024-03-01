@@ -194,6 +194,50 @@
 				"custom_model_data": 90001
 			},
 			"model": "stellarity:item/prismatic_punch_arrow"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow_pulling_0"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 0.58,
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow_pulling_1"
+		},
+		{
+			"predicate": {
+				"pulling": 1,
+				"pull": 1,
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow_pulling_2"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow_arrow"
+		},
+		{
+			"predicate": {
+				"charged": 1,
+				"firework": 1,
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/slayer_crossbow_arrow"
 		}
 	]
 }
