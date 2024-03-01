@@ -79,3 +79,6 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 # Stellar Striker
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[predicate=!stellarity:items/holding/stellar_striker,tag=stellarity.holding_stellar_striker] run function stellarity:items/stellar_striker/holding/stop
+
+# Call of The Void
+execute if entity @s[predicate=stellarity:items/holding/call_of_the_void,scores={kohara.shot_bow=1..}] run function stellarity:items/call_of_the_void/shoot 

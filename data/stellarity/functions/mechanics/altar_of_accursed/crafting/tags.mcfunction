@@ -43,8 +43,8 @@ execute if data storage stellarity:temp {aota:{item:{id:"minecraft:iron_ingot",C
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:popped_chorus_fruit",Count:2b}}} run tag @s add stellarity.aota.popped_chorus_fruit
 
 # Copying Enderite Upgrade Smithing Templates
-tag @s remove stellarity.aota.3_diamonds
-execute if data storage stellarity:temp {aota:{item:{id:"minecraft:diamond",Count:3b}}} run tag @s add stellarity.aota.3_diamonds
+tag @s remove stellarity.aota.5_enderite_shards
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:amethyst_shard",Count:5b,tag:{stellarity.special_item:"enderite_shard"}}}} run tag @s add stellarity.aota.5_enderite_shards
 tag @s remove stellarity.aota.9_purpur_blocks
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:purpur_block",Count:9b}}} run tag @s add stellarity.aota.9_purpur_blocks
 
@@ -52,6 +52,13 @@ execute if data storage stellarity:temp {aota:{item:{id:"minecraft:purpur_block"
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:bow",Count:1b,tag:{stellarity.special_item:"sharanga"}}}} run tag @s add stellarity.aota.sharanga
 tag @s remove stellarity.aota.8_membranes
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:phantom_membrane",Count:8b}}} run tag @s add stellarity.aota.8_membranes
+
+# Call of The Void
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:bow",Count:1b}}} unless data storage stellarity:temp aota.item.tag."stellarity.special_item" run tag @s add stellarity.aota.bow
+tag @s remove stellarity.aota.16_enderite_shards
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:amethyst_shard",Count:16b,tag:{stellarity.special_item:"enderite_shard"}}}} run tag @s add stellarity.aota.16_enderite_shards
+tag @s remove stellarity.aota.8_dragon_breath
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:dragon_breath",Count:8b}}} unless data storage stellarity:temp aota.item.tag."stellarity.special_item" run tag @s add stellarity.aota.8_dragon_breath
 
 # Hematic Pickaxe
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:rotten_flesh",Count:1b,tag:{stellarity.special_item:"living_flesh"}}}} run tag @s add stellarity.aota.living_flesh

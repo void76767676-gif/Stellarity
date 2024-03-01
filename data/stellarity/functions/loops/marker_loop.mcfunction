@@ -29,6 +29,8 @@ execute if entity @s[tag=stellarity.end_city.small_tower_crystal] run function s
 
 execute if entity @s[tag=stellarity.stellar_striker] run function stellarity:items/stellar_striker/marker/loop
 
+execute if entity @s[tag=stellarity.shrapnel] run function stellarity:items/call_of_the_void/shrapnel/loop
+
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s
