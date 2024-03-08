@@ -35,8 +35,7 @@ scoreboard objectives add stellarity.items.armors.chorus_champion_armor.combo du
 scoreboard objectives add stellarity.items.armors.chorus_champion_armor.until_combo_reset dummy
 
 # Clockwork Crossbow
-scoreboard objectives add stellarity.items.clockwork_crossbow.slowdown_time dummy
-scoreboard objectives add stellarity.items.clockwork_crossbow.cooldown dummy
+scoreboard objectives add stellarity.items.clockwork_crossbow.time_since_last_shot dummy
 scoreboard objectives add stellarity.items.clockwork_crossbow.should_save dummy
 
 # Crest of The End
@@ -126,6 +125,8 @@ scoreboard objectives add stellarity.items.starless_scythe.time_since_attack dum
 # Stellar Striker
 scoreboard objectives add stellarity.items.stellar_striker.stars.collect_time dummy
 scoreboard objectives add stellarity.items.stellar_striker.stars.amount dummy
+scoreboard objectives add stellarity.items.stellar_striker.time_since_attack dummy
+scoreboard objectives add stellarity.items.stellar_striker.cooldown dummy
 
 # Spectral Fury
 scoreboard objectives add stellarity.items.spectral_fury.charge dummy

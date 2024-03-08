@@ -1,4 +1,4 @@
-execute facing entity @p[tag=stellarity.items.tamaris.doing_execute] eyes rotated ~ 0 run function stellarity:items/tamaris/execute/animation/as_entity/facing_player
+execute facing entity @p[predicate=stellarity:items/holding/tamaris,predicate=kohara:player/is_sneaking] eyes rotated ~ 0 run function stellarity:items/tamaris/execute/animation/as_entity/facing_player
 
 playsound stellarity:item.tamaris.execute_bg player @a[distance=0..] ~ ~1.05 ~ 1 1
 
