@@ -22,3 +22,6 @@ execute rotated ~330 ~ run tp @e[type=armor_stand,tag=stellarity.end_portal_anim
 
 particle mycelium ~ ~-1.65 ~ .8 0 .8 0 1 normal
 execute if predicate kohara:chance/3percent run particle sculk_soul ~ ~-1.65 ~ .8 0 .8 0 3 normal
+
+scoreboard players add @s stellarity.misc2 1
+execute if entity @s[scores={stellarity.misc2=300}] run function stellarity:sfx/end_portal/ambient_sounds

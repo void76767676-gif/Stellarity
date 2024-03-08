@@ -11,18 +11,11 @@ execute if score #homing stellarity.misc matches 1 \
 
 execute store result storage stellarity:temp spectral_fury.damage float 0.01 run scoreboard players get @s stellarity.items.spectral_fury.damage
 
-execute as @e[type=!#kohara:invalid_targets_with_player,distance=..1,nbt=!{HurtTime:10s}] at @s run \
-	function stellarity:items/spectral_fury/wisp/damage with storage stellarity:temp spectral_fury
-execute positioned ~ ~-1.75 ~ \
-	as @e[type=!#kohara:invalid_targets_with_player,distance=..1,nbt=!{HurtTime:10s}] at @s run \
+execute as @e[type=!#kohara:invalid_targets_with_player,dx=0,nbt=!{HurtTime:10s}] at @s run \
 	function stellarity:items/spectral_fury/wisp/damage with storage stellarity:temp spectral_fury
 
 # Player damage
-execute if score @s stellarity.misc matches 4.. \
-	as @a[distance=..1,nbt=!{HurtTime:10s}] at @s run \
-	function stellarity:items/spectral_fury/wisp/damage with storage stellarity:temp spectral_fury
-execute if score @s stellarity.misc matches 4.. \
-	positioned ~ ~-1 ~ as @a[distance=..1,nbt=!{HurtTime:10s}] at @s run \
+execute as @a[predicate=!stellarity:items/holding/spectral_fury,dx=0,nbt=!{HurtTime:10s}] at @s run \
 	function stellarity:items/spectral_fury/wisp/damage with storage stellarity:temp spectral_fury
 
 execute unless block ~ ~ ~ #kohara:non_solid run function stellarity:items/spectral_fury/wisp/remove
