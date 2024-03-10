@@ -1,3 +1,7 @@
+# Prismatic Inferno
+scoreboard players set #dot.time stellarity.misc 60
+execute as @e[type=!#kohara:invalid_targets,distance=..2.75] run function stellarity:utils/status_effects/prismatic_inferno/apply
+
 execute store result score @s stellarity.misc run random value 1..10
 
 data merge entity @s[scores={stellarity.misc=1..5}] \
@@ -21,8 +25,3 @@ data merge entity @s[scores={stellarity.misc=10}] \
 data modify entity @s Owner set from entity @p[predicate=stellarity:items/holding/prismatic_punch] UUID
 
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0.12 20
-
-# Prismatic Inferno
-scoreboard players set #dot.time stellarity.misc 60
-
-execute as @e[type=!#kohara:invalid_targets,distance=..2.75] run function stellarity:utils/status_effects/prismatic_inferno/apply
