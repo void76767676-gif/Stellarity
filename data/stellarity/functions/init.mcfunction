@@ -66,6 +66,7 @@ scoreboard objectives add stellarity.items.spellbook.light.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.shoot dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.cooldown.wolves dummy
 scoreboard objectives add stellarity.items.spellbook.natures_wrath.homing_time dummy
+scoreboard objectives add stellarity.items.spellbook.natures_wrath.order dummy
 scoreboard objectives add stellarity.items.spellbook.jinx.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.cooldown dummy
 scoreboard objectives add stellarity.items.spellbook.return.progress dummy
@@ -175,6 +176,7 @@ scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
 scoreboard objectives add stellarity.misc dummy
 scoreboard objectives add stellarity.misc2 dummy
 scoreboard objectives add stellarity.misc3 dummy
+scoreboard objectives add stellarity.misc4 dummy
 scoreboard objectives add stellarity.misc.end_portal_animation dummy
 scoreboard objectives add stellarity.misc.end_portal_bg_loop dummy
 

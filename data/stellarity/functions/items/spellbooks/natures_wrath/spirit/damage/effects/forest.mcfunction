@@ -1,7 +1,6 @@
-execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.natures_wrath.spirit] at @s run function stellarity:items/spellbooks/natures_wrath/spirit/damage/as_marker/forest
+execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.natures_wrath.spirit] at @s run function stellarity:items/spellbooks/natures_wrath/spirit/damage/effects/as_marker/forest
 
 scoreboard players set #damage kohara.misc 50
-
 
 tag @s add stellarity.damage.natures_wrath
 
