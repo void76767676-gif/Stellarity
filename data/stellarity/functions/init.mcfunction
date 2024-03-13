@@ -23,12 +23,6 @@ scoreboard objectives add stellarity.items.dragonblade.stacks dummy
 scoreboard objectives add stellarity.items.dragonblade.until_stack_reset dummy
 scoreboard objectives add stellarity.items.dragonblade.punch_progress dummy
 scoreboard objectives add stellarity.items.dragonblade.until_punch_reset dummy
-
-# Pandora's Barrel
-scoreboard objectives add stellarity.items.pandoras_barrel.raycast dummy
-scoreboard objectives add stellarity.items.pandoras_barrel.animation dummy
-scoreboard objectives add stellarity.items.pandoras_barrel.summon_id dummy
-
 # Armor sets
 scoreboard objectives add stellarity.items.armors.holy_protection_cooldown dummy
 scoreboard objectives add stellarity.items.armors.chorus_champion_armor.combo dummy

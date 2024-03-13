@@ -8,7 +8,7 @@ scoreboard objectives remove stellarity.items.dragonblade.until_stack_reset
 scoreboard objectives remove stellarity.items.dragonblade.punch_progress
 scoreboard objectives remove stellarity.items.dragonblade.until_punch_reset
 
-scoreboard objectives remove stellarity.items.pandoras_barrel.raycast
+scoreboard objectives remove stellarity.misc
 scoreboard objectives remove stellarity.items.pandoras_barrel.animation
 scoreboard objectives remove stellarity.items.pandoras_barrel.summon_id
 

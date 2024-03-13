@@ -17,3 +17,6 @@ execute if entity @s[tag=stellarity.wisp] run function stellarity:items/spectral
 
 # Stellar Striker
 execute if entity @s[tag=stellarity.star] run function stellarity:items/stellar_striker/star/projectile/loop
+
+# Pandora's Barrel
+execute if entity @s[tag=stellarity.pandoras_barrel] run function stellarity:items/pandoras_barrel/animation/main
