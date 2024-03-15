@@ -6,8 +6,8 @@
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
-				"location": "stellarity:chapel",
-				"processors": "minecraft:empty"
+				"location": "stellarity:chapel/side",
+				"processors": "stellarity:chapel/replace_flowers"
 			}
 		}
 	]
