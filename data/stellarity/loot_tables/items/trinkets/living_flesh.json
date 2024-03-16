@@ -37,13 +37,6 @@
 									"italic": false
 								},
 								{
-									"translate": "stellarity.items.trinkets.living_flesh.description.3",
-									"fallback": "Slightly weakens you while held",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								"",
-								{
 									"translate": "stellarity.items.trinkets.living_flesh.flavor_text",
 									"fallback": "'You can feel it beating...'",
 									"color": "#EEEEEE",
@@ -61,48 +54,6 @@
 						{
 							"function": "minecraft:set_attributes",
 							"modifiers": [
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "stellarity.living_flesh.attack_damage",
-									"amount": -0.1,
-									"operation": "multiply_total",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "stellarity.living_flesh.attack_speed",
-									"amount": -0.06,
-									"operation": "multiply_total",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "stellarity.living_flesh.movement_speed",
-									"amount": -0.06,
-									"operation": "multiply_total",
-									"slot": "mainhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_damage",
-									"name": "stellarity.living_flesh.attack_damage",
-									"amount": -0.1,
-									"operation": "multiply_total",
-									"slot": "offhand"
-								},
-								{
-									"attribute": "minecraft:generic.attack_speed",
-									"name": "stellarity.living_flesh.attack_speed",
-									"amount": -0.06,
-									"operation": "multiply_total",
-									"slot": "offhand"
-								},
-								{
-									"attribute": "minecraft:generic.movement_speed",
-									"name": "stellarity.living_flesh.movement_speed",
-									"amount": -0.06,
-									"operation": "multiply_total",
-									"slot": "offhand"
-								},
 								{
 									"attribute": "minecraft:generic.max_health",
 									"name": "",

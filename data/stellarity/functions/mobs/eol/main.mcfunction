@@ -28,7 +28,7 @@ execute store result score @s stellarity.eol.hurt_time run data get storage stel
 execute if entity @s[tag=!stellarity.eol.death_animation] run function stellarity:mobs/eol/music/tick
 
 # Death animation
-execute if score @s[tag=stellarity.eol.can_attack,tag=!stellarity.eol.death_animation] stellarity.eol.health matches 1 run \
+execute if score @s[tag=stellarity.eol.can_attack,tag=!stellarity.eol.death_animation] stellarity.eol.health matches 0..2 run \
 	function stellarity:mobs/eol/animations/death/start
 execute if entity @s[tag=stellarity.eol.death_animation] run function stellarity:mobs/eol/animations/death/main
 

@@ -28,7 +28,7 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.1",
-									"fallback": "Fully charged shots convert",
+									"fallback": "Overcharged shots convert",
 									"color": "#EEEEEE",
 									"italic": false
 								},
@@ -46,7 +46,7 @@
 								},
 								{
 									"translate": "stellarity.items.weapons.spectral_fury.description.4",
-									"fallback": "33% chance to save Spectral Arrows",
+									"fallback": "25% chance to save Spectral Arrows",
 									"color": "#EEEEEE",
 									"italic": false
 								},

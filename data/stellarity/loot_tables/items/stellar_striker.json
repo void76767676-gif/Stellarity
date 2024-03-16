@@ -98,7 +98,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"stellar_striker\",CustomModelData:90004,HideFlags:6,kohara.fireproof:1b}"
+							"tag": "{stellarity.special_item:\"stellar_striker\",CustomModelData:90007,HideFlags:6,kohara.fireproof:1b}"
 						},
 						{
 							"function": "minecraft:set_attributes",

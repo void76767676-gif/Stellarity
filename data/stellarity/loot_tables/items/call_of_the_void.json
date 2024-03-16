@@ -28,7 +28,7 @@
 								"",
 								{
 									"translate": "stellarity.items.weapons.call_of_the_void.description.1",
-									"fallback": "Shoots Void Arrows which reduce",
+									"fallback": "Shoots Void Arrows, which reduce",
 									"color": "#EEEEEE",
 									"italic": false
 								},

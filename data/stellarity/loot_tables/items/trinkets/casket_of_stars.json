@@ -22,19 +22,13 @@
 								"",
 								{
 									"translate": "stellarity.items.trinkets.casket_of_stars.description.1",
-									"fallback": "Stellar Striker's collects stars faster",
-									"color": "#EEEEEE",
-									"italic": false
-								},
-								{
-									"translate": "stellarity.items.trinkets.casket_of_stars.description.3",
-									"fallback": "and increases their velocity",
+									"fallback": "Stellar Striker collects stars faster,",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.trinkets.casket_of_stars.description.2",
-									"fallback": "and armor penetration",
+									"fallback": "plus increases their velocity and armor penetration",
 									"color": "#EEEEEE",
 									"italic": false
 								},

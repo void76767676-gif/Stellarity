@@ -27,8 +27,14 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.weapons.slayer_crossbow.description",
+									"translate": "stellarity.items.weapons.slayer_crossbow.description.1",
 									"fallback": "Shoots highly damaging energy bolts",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.slayer_crossbow.description.2",
+									"fallback": "with infinite pierce, but limited range",
 									"color": "#EEEEEE",
 									"italic": false
 								},
