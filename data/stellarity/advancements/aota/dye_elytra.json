@@ -18,7 +18,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:aota/an_introduction_to_dark_magic",
+	"parent": "stellarity:aota/cursed_crafting",
 	"criteria": {
 		"craft_using_aota": {
 			"trigger": "minecraft:impossible"

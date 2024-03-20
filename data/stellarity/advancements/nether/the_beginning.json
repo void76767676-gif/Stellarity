@@ -10,7 +10,8 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.the_beginning.description",
-			"fallback": "Summon and kill the Wither in The End"
+			"fallback": "Summon and kill the Wither in The End",
+			"color": "aqua"
 		},
 		"frame": "task",
 		"show_toast": true,

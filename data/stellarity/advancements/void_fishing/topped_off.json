@@ -15,7 +15,7 @@
 		},
 		"frame": "challenge"
 	},
-	"parent": "stellarity:husbandry/void_reels",
+	"parent": "stellarity:void_fishing/void_reels",
 	"criteria": {
 		"cardio": {
 			"trigger": "minecraft:impossible",

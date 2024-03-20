@@ -5,12 +5,12 @@
 			"nbt": "{Enchantments:[{}]}"
 		},
 		"title": {
-			"translate": "stellarity.advancements.forever_stranded",
-			"fallback": "Forever Stranded"
+			"translate": "stellarity.advancements.find_end_village",
+			"fallback": "Stranded in The Sea of Eternity"
 		},
 		"description": {
-			"translate": "stellarity.advancements.forever_stranded.description",
-			"fallback": "Find a Village in the middle of nowhere. How did they even get there?"
+			"translate": "stellarity.advancements.find_end_village.description",
+			"fallback": "Find a Village in the middle of nowhere"
 		},
 		"frame": "task",
 		"show_toast": true,

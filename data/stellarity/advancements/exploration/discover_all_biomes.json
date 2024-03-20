@@ -5,11 +5,11 @@
 			"nbt": "{display:{color:7078047},Enchantments:[{id:\"soul_speed\"}]}"
 		},
 		"title": {
-			"translate": "stellarity.advancements.ender_adventurer",
+			"translate": "stellarity.advancements.discover_all_biomes",
 			"fallback": "Timeless Traveler"
 		},
 		"description": {
-			"translate": "stellarity.advancements.ender_adventurer.description",
+			"translate": "stellarity.advancements.discover_all_biomes.description",
 			"fallback": "Discover all End biomes"
 		},
 		"frame": "challenge",
@@ -187,6 +187,16 @@
 					}
 				}
 			}
+		},
+		"crystal_crags": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"location": {
+						"biome": "stellarity:crystal_crags"
+					}
+				}
+			}
 		}
 	},
 	"requirements": [
@@ -240,6 +250,9 @@
 		],
 		[
 			"void"
+		],
+		[
+			"crystal_crags"
 		]
 	],
 	"rewards": {

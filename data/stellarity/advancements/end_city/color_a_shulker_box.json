@@ -1,30 +1,28 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:anvil"
+			"item": "minecraft:light_blue_shulker_box"
 		},
 		"title": {
-			"translate": "stellarity.advancements.rename_shulker_box",
+			"translate": "stellarity.advancements.colorful_arsenal",
 			"fallback": "Organizational Wizard"
 		},
 		"description": {
-			"translate": "stellarity.advancements.rename_shulker_box.description",
-			"fallback": "Rename a Shulker Box with an Anvil"
+			"translate": "stellarity.advancements.colorful_arsenal.description",
+			"fallback": "Color a Shulker Box any color you want"
 		},
 		"frame": "task",
 		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
+		"announce_to_chat": true
 	},
 	"parent": "stellarity:end_city/portable_storage",
 	"criteria": {
-		"shulker_box": {
+		"color_shulker_box": {
 			"trigger": "minecraft:inventory_changed",
 			"conditions": {
 				"items": [
 					{
-						"tag": "kohara:shulker_boxes",
-						"nbt": "{RepairCost:0}"
+						"tag": "kohara:colored_shulker_boxes"
 					}
 				]
 			}
@@ -32,7 +30,7 @@
 	},
 	"requirements": [
 		[
-			"shulker_box"
+			"color_shulker_box"
 		]
 	]
 }

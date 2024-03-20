@@ -9,14 +9,15 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.the_void_provides.description",
-			"fallback": "Fish out and open a Crate from the unknown"
+			"fallback": "Fish out and open a Crate from the void through Void Fishing",
+			"color": "aqua"
 		},
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
-	"parent": "stellarity:husbandry/void_reels",
+	"parent": "stellarity:void_fishing/void_reels",
 	"criteria": {
 		"open1": {
 			"trigger": "minecraft:player_generates_container_loot",

@@ -10,12 +10,13 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.conqueror.description",
-			"fallback": "Destroy all protective End Crystals and fully conquer an End City"
+			"fallback": "Destroy all protective End Crystals and fully conquer an End City",
+			"color": "dark_aqua"
 		},
 		"frame": "challenge",
 		"show_toast": true,
 		"announce_to_chat": true,
-		"hidden": false
+		"hidden": true
 	},
 	"parent": "stellarity:end_city/crystal_crusher",
 	"criteria": {

@@ -13,9 +13,9 @@
 			"translate": "stellarity.advancements.find_gloop.description",
 			"fallback": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome"
 		},
-		"frame": "challenge"
+		"frame": "task"
 	},
-	"parent": "minecraft:husbandry/tame_an_animal",
+	"parent": "stellarity:pandoras_barrel/place",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:impossible"

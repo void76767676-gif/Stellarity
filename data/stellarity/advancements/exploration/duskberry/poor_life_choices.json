@@ -17,7 +17,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:husbandry/duskberry/discover",
+	"parent": "stellarity:exploration/duskberry/discover",
 	"criteria": {
 		"eat_duskberry": {
 			"trigger": "minecraft:consume_item",

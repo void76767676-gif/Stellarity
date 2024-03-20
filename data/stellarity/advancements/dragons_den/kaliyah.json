@@ -16,7 +16,7 @@
 			"\n",
 			{
 				"translate": "stellarity.advancements.kaliyah.tip",
-				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ᴅᴏᴇѕ ᴡᴏɴᴅᴇʀѕ",
+				"fallback": "ᴛɪᴘ: ᴋɴᴏᴄᴋʙᴀᴄᴋ ᴇɴᴄʜᴀɴᴛᴍᴇɴᴛ ɪɴᴄʀᴇᴀsᴇs ᴘᴜɴᴄʜ ᴅᴀᴍᴀɢᴇ",
 				"color": "#727272",
 				"italic": true
 			}
@@ -26,7 +26,7 @@
 		"announce_to_chat": true,
 		"hidden": false
 	},
-	"parent": "stellarity:aota/obtain_dragonblade",
+	"parent": "stellarity:dragons_den/obtain_dragonblade",
 	"criteria": {
 		"requirement": {
 			"trigger": "minecraft:impossible",

@@ -5,12 +5,13 @@
 			"nbt": "{SkullOwner:\"Bush_Lord\"}"
 		},
 		"title": {
-			"translate": "stellarity.advancements.treasure_room",
+			"translate": "stellarity.advancements.find_a_head",
 			"fallback": "Heading for The Secrets"
 		},
 		"description": {
-			"translate": "stellarity.advancements.treasure_room.description",
-			"fallback": "Find a rare Treasure Head. They serve no purpose, but are nice collectibles"
+			"translate": "stellarity.advancements.find_a_head.description",
+			"fallback": "Find a rare Treasure Head. They serve no purpose, but are nice collectibles",
+			"color": "aqua"
 		},
 		"frame": "goal",
 		"show_toast": true,
