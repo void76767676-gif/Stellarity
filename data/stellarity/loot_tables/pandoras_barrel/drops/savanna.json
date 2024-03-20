@@ -129,7 +129,7 @@
 				{
 					"type": "minecraft:item",
 					"weight": 11,
-					"name": "minecraft:grass",
+					"name": "minecraft:short_grass",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

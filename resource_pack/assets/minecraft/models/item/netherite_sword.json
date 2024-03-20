@@ -45,6 +45,12 @@
 				"custom_model_data": 90006
 			},
 			"model": "stellarity:item/the_end"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90007
+			},
+			"model": "stellarity:item/stellar_striker"
 		}
 	]
 }
