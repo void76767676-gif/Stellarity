@@ -33,7 +33,7 @@ execute if score @s[tag=stellarity.eol.can_attack,tag=!stellarity.eol.death_anim
 execute if entity @s[tag=stellarity.eol.death_animation] run function stellarity:mobs/eol/animations/death/main
 
 # Attacks
-#execute if entity @s[tag=stellarity.eol.can_attack] run function stellarity:mobs/eol/attacks/loop
+execute if entity @s[tag=stellarity.eol.can_attack] run function stellarity:mobs/eol/attacks/loop
 
 scoreboard players add #ambient stellarity.misc 1
 execute if score #ambient stellarity.misc matches 200 run function stellarity:mobs/eol/core/ambient
