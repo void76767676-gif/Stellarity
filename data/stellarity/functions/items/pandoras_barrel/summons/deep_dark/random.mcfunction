@@ -8,4 +8,4 @@ execute if predicate kohara:chance/11percent run scoreboard players set #warden 
 execute if score #warden stellarity.misc matches 1 run function stellarity:items/pandoras_barrel/summons/deep_dark/spawn_warden
 execute if score #warden stellarity.misc matches 0 run function stellarity:items/pandoras_barrel/summons/deep_dark/drops
 
-advancement grant @p only stellarity:aota/pandoras_barrel/open_in_deep_dark
+advancement grant @p only stellarity:pandoras_barrel/open_in_deep_dark

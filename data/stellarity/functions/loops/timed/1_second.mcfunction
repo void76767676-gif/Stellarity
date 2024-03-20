@@ -9,7 +9,8 @@ execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run
 execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run function stellarity:mobs/the_hallow_allay_despawn
 
 # Villagers
-execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
+## TEMPORARILY DISABLED
+# execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
 
 execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main
 
