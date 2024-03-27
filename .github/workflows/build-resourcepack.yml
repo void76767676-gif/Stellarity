@@ -1,5 +1,11 @@
 name: Stellarity-ResourcePack
-on: [push]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'resource_pack/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest

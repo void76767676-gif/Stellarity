@@ -1,5 +1,11 @@
 name: Stellarity-DP-DEV
-on: [push]
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+
 jobs:
   build:
     runs-on: ubuntu-latest
