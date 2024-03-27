@@ -2,7 +2,7 @@ name: Stellarity-ResourcePack
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'resource_pack/**'
 
