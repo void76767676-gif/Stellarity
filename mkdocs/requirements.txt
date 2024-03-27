@@ -1,5 +1,4 @@
 Markdown
-MarkupSafe
 mkdocs
 mkdocs-glightbox
 mkdocs-markdownextradata-plugin
