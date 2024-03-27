@@ -17,5 +17,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: stellarity.kohara.xyz
-          CONFIG_FILE: mkdocs/mkdocs.yml
-          REQUIREMENTS: mkdocs/requirements.txt
+          CONFIG_FILE: mkdocs.yml
+          REQUIREMENTS: requirements.txt
