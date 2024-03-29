@@ -17,10 +17,10 @@
 
 	"stellarity.advancement_grant_everything": "Эту команду не трогать!",
 
-	"stellarity.messages.cmd.reset_config_to_default": "Все конфиги были сброшены!",
-	"stellarity.messages.cmd.reset_ender_dragon": "Перерождаем Дракона Края",
+	"stellarity.messages.cmd.reset_config_to_default": "Все настройки были сброшены!",
+	"stellarity.messages.cmd.reset_ender_dragon": "Убили Дракона Края",
 	"stellarity.messages.cmd.generate_end_island_features": "Особенности острова Края созданы вручную",
-	"stellarity.messages.cmd.fix_markers": "Fixed all loaded Stellarity markers",
+	"stellarity.messages.cmd.fix_markers": "Все загруженные маркеры Stellarity починены",
 
 	"stellarity.void_fishing.warning.too_deep": "Что-то подсказывает вам, что стоит рыбачить повыше...",
 	"stellarity.void_fishing.warning.dragons_den": "Ни одна рыбёшка не посмеет подплыть к этому месту...",
@@ -29,8 +29,8 @@
 
 	"stellarity.bossbars.crystals_left": "Осталось кристаллов: %s",
 
-	"stellarity.dragon_egg.description.1": "Оно неподвижно, но можно",
-	"stellarity.dragon_egg.description.2": "почувствовать беззвучное биение внутри...",
+	"stellarity.dragon_egg.description.1": "Оно неподвижно, но можно почувствовать",
+	"stellarity.dragon_egg.description.2": "беззвучное биение внутри...",
 
 	"stellarity.mobs.gloop": "Хлюп",
 	"stellarity.mobs.pixie": "Пикси",
@@ -47,7 +47,7 @@
 	"stellarity.config.join_message.title": "Сообщение о подключении",
 	"stellarity.config.join_message.description": "Отправлять сообщение о загрузке Stellarity при подключении к миру. Разработчикам модпаков советуем проверить дополнение 'Disable Join Message Globally'!",
 	"stellarity.config.always_generate_egg.title": "Всегда призывать яйцо Дракона",
-	"stellarity.config.always_generate_egg.description": "Дракон всегда будет оставлять яйцо после смерти. При отключении яйцо, как в обычном майнкрафте, выпадает лишь 1 раз с первого убийства.",
+	"stellarity.config.always_generate_egg.description": "Дракон всегда будет оставлять яйцо после смерти. При отключении яйцо, как в обычном майнкрафте, появляется лишь 1 раз при первом убийстве.",
 	"stellarity.config.dragon_health.title": "Очки здоровья Дракона Края",
 	"stellarity.config.dragon_health.description": "Изменяет максимальное здоровье Дракона Края. Максимум: 1024",
 	"stellarity.config.eol_health.title": "Очки здоровья Императрицы Света",
@@ -55,11 +55,11 @@
 	"stellarity.config.allow_disenchanting.title": "Разрешить снятие чар",
 	"stellarity.config.allow_disenchanting.description": "Алтарь проклятых способен снимать зачарования с оружия при совмещении с обычной книгой.",
 	"stellarity.config.enable_treasure_heads.title": "Включить коллекционные головы",
-	"stellarity.config.enable_treasure_heads.description": "Коллекционные головы появляются в некоторых сундуках в некоторых структурах (в Крае). Это всего лишь забавные безделушки для коллекционирования.",
+	"stellarity.config.enable_treasure_heads.description": "Коллекционные головы появляются в некоторых сундуках (в Крае). Они представляют из себя лишь забавные безделушки для коллекционирования.",
 	"stellarity.config.track_loop_delay.dragon.title": "Задержка зацикливания темы битвы с Драконом",
 	"stellarity.config.track_loop_delay.dragon.description": "Количество тиков, спустя которые тема битвы с Драконом будет повторяться. Редактируйте, только если на то есть причина.",
 	"stellarity.config.track_loop_delay.eol.title": "Задержка зацикливания темы битвы с Императрицей Света",
-	"stellarity.config.track_loop_delay.eol.description": "Количество тиков, спустя которые тема битвы сИмператрицей Света будет повторяться. Редактируйте, только если на то есть причина.",
+	"stellarity.config.track_loop_delay.eol.description": "Количество тиков, спустя которые тема битвы с Императрицей Света будет повторяться. Редактируйте, только если на то есть причина.",
 	"stellarity.config.enable_dragon_screenshake.title": "Дрожание экрана при битве с Драконом",
 	"stellarity.config.enable_dragon_screenshake.description": "Включает дрожание экрана во время призыва Дракона Края. Может быть неприятным, поэтому можно убирать без зазрения совести.",
 	"stellarity.config.enable_creative_shock.title": "Включить эффект Творческого потрясения в городах Края",
@@ -91,7 +91,7 @@
 	"stellarity.items.armors.chorus_champion_armor.leggings": "Поножи хорус-хранителя",
 	"stellarity.items.armors.chorus_champion_armor.boots": "Ботинки хорус-хранителя",
 	"stellarity.items.armors.chorus_champion_armor.set_bonus.1": "Вас переполняет ярость Дракона,",
-	"stellarity.items.armors.chorus_champion_armor.set_bonus.2": "даруя нарастающий урон при",
+	"stellarity.items.armors.chorus_champion_armor.set_bonus.2": "даруя возрастающий урон при",
 	"stellarity.items.armors.chorus_champion_armor.set_bonus.3": "выполнении комбинаций ударов!",
 
 	"stellarity.items.armors.hallowed_armor.helmet": "Святая маска",
@@ -106,8 +106,8 @@
 	"stellarity.items.armors.shulker_armor.leggings": "Шалкеровые поножи",
 	"stellarity.items.armors.shulker_armor.boots": "Шалкеровые ботинки",
 	"stellarity.items.armors.shulker_armor.set_bonus.1": "Снаряды шалкеров будут преследовать противников",
-	"stellarity.items.armors.shulker_armor.set_bonus.2": "Входящий урон уменьшен на 20%",
-	"stellarity.items.armors.shulker_armor.set_bonus.3": "Невосприимчивость к левитации и иссушению",
+	"stellarity.items.armors.shulker_armor.set_bonus.2": "Входящий урон уменьшен на 20% в окружении врагов",
+	"stellarity.items.armors.shulker_armor.set_bonus.3": "Невосприимчивость к левитации и слабости",
 
 	// Crates
 	"stellarity.items.crates.place_down": "Поставьте и откройте!",
@@ -312,7 +312,7 @@
 	"stellarity.items.weapons.sharanga": "Шаранга",
 	"stellarity.items.weapons.sharanga.description.1": "Спектральные стрелы",
 	"stellarity.items.weapons.sharanga.description.2": "летят строго по прямой",
-	"stellarity.items.weapons.sharanga.description.3": "25% не потратить спектральную стрелу",
+	"stellarity.items.weapons.sharanga.description.3": "Шанс 25% не потратить спектральную стрелу",
 
 	"stellarity.items.weapons.spirit_dagger.1": "Клинок начала",
 	"stellarity.items.weapons.spirit_dagger.2": "Клинок конца",
@@ -323,7 +323,7 @@
 	"stellarity.items.weapons.spirit_dagger.flavor_text": "'Призрачные кинжалы канули в лету [*]'",
 
 	"stellarity.items.weapons.tamaris": "Тамарис",
-	"stellarity.items.weapons.tamaris.description.1": "Начните красться, чтобы мгновенно убить",
+	"stellarity.items.weapons.tamaris.description.1": "Присядьте, чтобы мгновенно убить",
 	"stellarity.items.weapons.tamaris.description.2": "ближайшего врага с низким здоровьем",
 	"stellarity.items.weapons.tamaris.flavor_text": "'Собственность капитана Чаро'",
 	"stellarity.items.weapons.tamaris.disabled": "ОТКЛЮЧЕНО",
@@ -347,7 +347,7 @@
 	"stellarity.items.weapons.frigid_harvester.ability.piercing_cold": "Пронизывающий холод",
 	"stellarity.items.weapons.frigid_harvester.ability.piercing_cold.description": "Шанс снизить защиту существ при каждом ударе",
 	"stellarity.items.weapons.frigid_harvester.ability.frostburn": "Ледяной ожог",
-	"stellarity.items.weapons.frigid_harvester.ability.frostburn.description": "Едкий холод сжигает существ, нанося дополнительный урон",
+	"stellarity.items.weapons.frigid_harvester.ability.frostburn.description": "Едкий холод обжигает существ, нанося дополнительный урон",
 	"stellarity.items.weapons.frigid_harvester.ability.anima_conduit": "Проводник души",
 	"stellarity.items.weapons.frigid_harvester.ability.anima_conduit.description": "Превращает души поверженных существ в целебную силу",
 	"stellarity.items.weapons.frigid_harvester.ability.hint": "Ваш меч дрожит, поглощая эту душу...",
@@ -374,15 +374,15 @@
 	"stellarity.items.weapons.spectral_fury.description.1": "Заряженные выстрелы превращают",
 	"stellarity.items.weapons.spectral_fury.description.2": "спектральные стрелы в огоньки,",
 	"stellarity.items.weapons.spectral_fury.description.3": "которые атакуют ближайших существ",
-	"stellarity.items.weapons.spectral_fury.description.4": "25% не потратить спектральную стрелу",
+	"stellarity.items.weapons.spectral_fury.description.4": "Шанс 25% не потратить спектральную стрелу",
 
 	"stellarity.items.weapons.call_of_the_void": "Зов бездны",
-	"stellarity.items.weapons.call_of_the_void.description.1": "Выпускает энергетические разряды с огромным уроном и",
-	"stellarity.items.weapons.call_of_the_void.description.2": "бесконечным пронзанием, но с ограниченной дальностью",
+	"stellarity.items.weapons.call_of_the_void.description.1": "Стреляет стрелами пустоты, которые уменьшают",
+	"stellarity.items.weapons.call_of_the_void.description.2": "здоровье врагов и разрушаются при попадании",
 
 	"stellarity.items.weapons.slayer_crossbow": "Душегуб",
-	"stellarity.items.weapons.slayer_crossbow.description.1": "Стреляет стрелами пустоты, которые уменьшают",
-	"stellarity.items.weapons.slayer_crossbow.description.2": "здоровье врагов и разрушаются при попадании",
+	"stellarity.items.weapons.slayer_crossbow.description.1": "Выпускает энергетические разряды с огромным уроном и",
+	"stellarity.items.weapons.slayer_crossbow.description.2": "бесконечным пронзанием, но с ограниченной дальностью",
 
 	// Other items
 	"stellarity.items.fisher_of_voids": "Ловец бездны",
@@ -397,7 +397,7 @@
 	"stellarity.items.prismatic_pearl": "Призматический жемчуг",
 
 	"stellarity.items.altar_of_light": "Алтарь святых",
-	"stellarity.items.altar_of_light.description.1": "Может быть размещено везде и в любое время",
+	"stellarity.items.altar_of_light.description.1": "Может быть размещён везде и в любое время",
 	"stellarity.items.altar_of_light.description.2": "Пожертвуйте драгоценности для различных усилений",
 	"stellarity.items.altar_of_light.description.3": "Пожертвуйте пыльцу пикси, чтобы привлечь",
 	"stellarity.items.altar_of_light.description.4": "внимание покровительницы фей",
@@ -520,8 +520,8 @@
 	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Выпадает с Императрицы Света, но только днём в Верхнем мире.",
 
 	// Advancements
-	"stellarity.advancements.blindfolded": "С повязкой на глазах",
-	"stellarity.advancements.blindfolded.description": "Разозлите эндермена, посмотрев на него",
+	"stellarity.advancements.anger_enderman": "С повязкой на глазах",
+	"stellarity.advancements.anger_enderman.description": "Разозлите эндермена, посмотрев на него",
 	"stellarity.advancements.champions_ballad": "Баллада о чемпионе",
 	"stellarity.advancements.champions_ballad.description": "Нельзя побеждать Дракона без героической музыки!",
 	"stellarity.advancements.night_sky_stalkers": "Ловчие ночного неба",
@@ -589,7 +589,7 @@
 	"stellarity.advancements.poor_life_choices": "Двадцать два несчастья",
 	"stellarity.advancements.poor_life_choices.description": "Съешьте, посадите и накормите лису сумеречной ягодкой",
 	"stellarity.advancements.absolute_devotion": "Непоколебимая преданность",
-	"stellarity.advancements.absolute_devotion.description": "Улучшите мотыгу до шалкеровой версии. Шизофрения, как и было сказано...",
+	"stellarity.advancements.absolute_devotion.description": "Улучшите мотыгу до шалкеровой версии. Я уже говорил тебе, что такое безумие?",
 	"stellarity.advancements.eat_chorus_fruit": "Непривычный фрукт",
 	"stellarity.advancements.eat_chorus_fruit.description": "Съешьте плод хоруса",
 	"stellarity.advancements.eat_golden_chorus_fruit": "Невер(Au)ятное наслаждение!",
