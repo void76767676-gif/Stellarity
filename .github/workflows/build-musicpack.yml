@@ -1,4 +1,4 @@
-name: Stellarity-Music
+name: Build Music Addon
 on:
   push:
     branches:

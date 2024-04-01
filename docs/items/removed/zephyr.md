@@ -1,3 +1,8 @@
+!!! danger "Removed content"
+	This section describes conten which has been removed or replaced. The information here does not apply to the current version of Stellarity.
+
+	**Removed in version:** v2.1a
+
 # Zephyr
 
 > :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:

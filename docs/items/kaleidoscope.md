@@ -2,9 +2,9 @@
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Kaleidoscope** is a post-Empress axe which charges itself while held. Attacking releases stored energy in a powerful discharge which deals heavy splash damage.
+**Kaleidoscope** is a post-Empress greataxe which charges itself while held. Attacking releases stored energy in a powerful discharge which deals heavy splashing damage and sets mobs on fire.
 
-<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Kaleidoscope can be enchanted with any Axe enchantment.
+<i class="icon-minecraft icon-minecraft-enchanting-table"></i> Kaleidoscope can be enchanted with any Axe enchantment.
 
 <i class="icon-minecraft icon-minecraft-anvil"></i> Kaleidoscope is unbreakable and cannot be repaired with an Anvil. However, <i class="icon-minecraft icon-minecraft-enchanted-book"></i>Enchanted Books can be fused with a Kaleidoscope to transfer enchantments.
 
@@ -26,7 +26,7 @@
 		<td>
 		10 (base)
 		<br>
-		3.3 - 23 (discharge)
+		3.3 - 30 (discharge)
 		</td>
 	</tr>
 	<tr>
@@ -55,25 +55,25 @@
 Kaleidoscope is a guaranteed drop from the [Empress of Light](../mobs/bosses/empress_of_light.md), but only if she is killed in the Overworld during the day. This makes obtaining it extremely challenging.
 
 ## Usage
-Holding Kaleidoscope in main hand causes it to rapidly charge up. Current charge is displayed in player's action bar.
+While held in the main hand, Kaleidoscope will rapidly charge itself, with charge scaling from 0 to 100 over the course of 7.5 seconds. Being hurt will reduce current charge by 50%.
 
-Attacking a mob resets the charge back to 0. If charge is under 33, nothing happens. However, if player's charge is above that number, a powerful discharge will drain stored energy dealing heavy damage which splashes to nearby enemies.
+Attacking a mob resets the charge back to 0. If the charge value is under 33, nothing happens. However, if player's charge value is anything above 33, Kaleidoscope will release all of its stored energy in an explosive discharge which deals heavy damage which splashes to multiple enemies and sets them on fire. Splash damage is equal to 70% of discharge's damage and drops off with distance, scaling down to 30%. Fire duration on splash damage also scales down with distance, going from 80% of full duration to 50%.
 
-The discharge damage stacks with weapons's base damage. Discharges only inherit 50% of melee damage bonuses *(excluding Strength potions, which only increase weapon's base damage)*.
+The discharge damage stacks with weapons's base damage. Discharges only inherit 50% of melee damage bonuses (excluding Strength potions, which only increase weapon's base damage).
 
 Discharge damage is reduced further by Blast Protection enchantment. This does not affect base sword damage. Keep in mind that armor piercing damage ignores specialized enchantments.
 
-Kaleidoscope is unbreakable on top of being immune to lava, fire, explosions and cacti. The only way to destroy the item is through either tossing it into the void or natural despawn.
+Kaleidoscope is unbreakable and immune to lava, fire, explosions and cacti. The only way to destroy the item is through either tossing it into the void or through natural despawn.
 
 ### Discharge levels
-| Charge | Damage | Splash radius | Armor penetration |
-| :--- | :--- | :--- | :--- |
-| 33 - 65 | `charge`/10 | :x: | 15% |
-| 66 - 99 | 4 + `charge`/10 | 2.4 | 25% |
-| 100 | 23 | 4.2 | 35% |
+| Charge | Damage | Fire duration (ticks) | Splash radius | Armor penetration |
+| :--- | :--- | :--- | :--- | :--- |
+| 33 - 65 | `charge`/10 (3.3 - 9.5) | 20 + `charge`/2 (37 - 53) | :x: | 15% |
+| 66 - 99 | 8 + `charge`/10 (14.6 - 17.9) | 40 + `charge`/2 (73 - 89) | 2.7 | 25% |
+| 100 | 30 | 20 + `charge`/2 | 120 | 4.2 | 35% |
 
 ## Tips
-- Enchantments like Sharpness, Smite or Bane of Arthropods only increase Kaleidoscope's base damage. Discharge damage can't be increased by any means.
+- Enchantments which increase weapon's damage (like Sharpness, Smite or Bane of Arthropods) only increase Kaleidoscope's base damage. Discharge damage can only be increased by bonuses from other items.
 - Since it is unbreakable, enchanting it with Mending and/or Unbreaking is pointless.
 - 3rd level discharges are extremely deadly, as not only do higher damage amounts get mitigated less by armor, combining it with the extra armor penetration makes up for a deadly strike.
 	- Kaleidoscope is the most efficient if 3rd level discharges are timed well.
@@ -88,33 +88,41 @@ Kaleidoscope is unbreakable on top of being immune to lava, fire, explosions and
 
 ## Trivia
 - Dying to a Kaleidoscope's discharge in PvP will result in a custom death message - `VICTIM couldn't stand PLAYER's heat`.
-    - This is... quite an obvious joke right there.
-- The sounds used to indicate max charge and the ones used for discharges come from the Dynamo enchantment from Minecraft: Dungeons.
+- The sounds used to indicate max charge and the ones used for discharges were taken from the Dynamo enchantment from Minecraft: Dungeons.
 - Kaleidoscope is one of the 4 unbreakable items in Stellarity, the other 3 being the [Dragonblade](dragonblade.md), maxed out [Frigid Harvester](frigid_harvester.md) and [Ancient Wooden Sword](ancient_wooden_sword.md).
 - Before v2.1a, Kaleidoscope used to be a greatsword and used a Netherite Sword as its base item.
-    - It got reworked into an axe as the community felt like Stellarity needs its own axe item.
+    - It got reworked into an axe as the community felt like Stellarity needed its own axe item.
 
 ## History
+=== "**2.2.0**"
+	- :green_circle: Reduced fire duration dropoff on splash damage ([70%, 50%, 30%] -> [80%, 65%, 50%])
+	- :green_circle: Increased level 2 charge splash range (2.4 blocks -> 2.7 blocks)
+	- :green_circle: Increased damage on all charge levels.
+	- :red_circle: Increased charge time by 50%.
+	- :red_circle: Being hurt now halves current charge progress.
+	- :bug: Fixed charge damage being reflected back to the player if an enemy is killed with the axe  before discharge damage is applied.
+	- :bug: Fixed 2nd charge not dealing any splash damage.
+
 === "**v2.1a**"
+	- :green_circle: Discharges now receive 50% of melee damage bonuses.
 	- Now makes ambient particles while held.
-	- Reworked from a greatsword to an axe.
-	- Increased base damage (7 -> 10).
-	- Reduced attack speed (1.2 -> 0.8).
-	- Increased charge time (4.5s -> 5s).
-	- Fixed discharge damage sometimes being too low.
-	- Discharges now set mobs on fire.
-	- Added a few death message variants in PvP.
-	- Reduced 1st charge damage (`2 + charge/10` -> `charge/10`).
-	- Reduced 2nd charge damage (`6 + charge/10` -> `4 + charge/10`).
-	- Changed discharge armor penetration (20% -> [15%, 25%, 35%], depending on charge level).
+	- :red_circle: Increased base damage (7 -> 10).
+	- :red_circle: Reduced attack speed (1.2 -> 0.8).
+	- :red_circle: Increased charge time (4.5s -> 5s).
+	- :red_circle: Discharges now set mobs on fire.
+	- :red_circle: Reduced 1st charge damage (`2 + charge/10` -> `charge/10`).
+	- :red_circle: Reduced 2nd charge damage (`6 + charge/10` -> `4 + charge/10`).
+	- :yellow_circle: Changed discharge armor penetration (20% -> [15%, 25%, 35%], depending on charge level).
+	- :yellow_circle: Changed from a greatsword to a greataxe.
+	- :bug: Fixed base discharge and splash damage stacking, resulting in absurd damage outputs.
+	- :bug: Fixed discharge damage sometimes being too low.
+	- :bug: Discharge is no longer triggered if hit entity survives initial hit and dies to any sort of damage over time later.
 	- Changed item sounds and particles.
-	- Fixed base discharge and splash damage stacking, resulting in absurd damage outputs.
-	- Discharges now receive 50% of melee damage bonuses.
-	- Discharge is no longer triggered if hit entity survives initial hit and dies to any sort of damage over time later.
+	- Added a few death message variants in PvP.
 
 === "**v2.0c**"
-    - Reduced max charge time by 0.5s.
-    - Now unbreakable.
+    - :green_circle: Reduced max charge time by 0.5s.
+    - :green_circle: Now unbreakable.
 
 === "**v2.0a**"
-    - Introduced.
+    - :rocket: Introduced.

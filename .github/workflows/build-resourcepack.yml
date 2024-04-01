@@ -1,4 +1,4 @@
-name: Stellarity-ResourcePack
+name: Build Resource Pack
 on:
   push:
     branches:

@@ -6,7 +6,7 @@ scoreboard players operation #fire stellarity.misc += #1s stellarity.misc
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 scoreboard players set #damage kohara.misc 30
-scoreboard players operation #damage kohara.misc = #charge stellarity.misc
+scoreboard players operation #damage kohara.misc += #charge stellarity.misc
 
 tag @p[predicate=stellarity:items/holding/kaleidoscope] add kohara.attacker
 

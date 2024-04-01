@@ -1,14 +1,9 @@
+!!! danger "Removed content"
+	This section describes conten which has been removed or replaced. The information here does not apply to the current version of Stellarity.
+
+	**Removed in version:** vIndev-1.6a
+
 # Living Flesh (Old)
-
-!!! danger  "REMOVED"
-	
-	This article describes content which **has been removed** and is not present in current version of Stellarity.
-
-	This was removed in version: **vIndev-1.6a**.
-
-!!! warning  "REWORKED"
-	
-	This article describes an **older version** of this item. For the **reworked version**, check [*Living Flesh*](../trinkets/living_flesh.md).
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">

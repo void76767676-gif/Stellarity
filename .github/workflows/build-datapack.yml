@@ -1,10 +1,11 @@
-name: Stellarity-DP-DEV
+name: Build Datapack
 on:
   push:
     branches:
       - master
     paths:
       - 'data/**'
+      - 'overlay_1_20_2/**'
 
 jobs:
   build:
