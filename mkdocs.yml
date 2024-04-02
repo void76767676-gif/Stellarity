@@ -20,36 +20,41 @@ nav:
       - Sharanga: items/sharanga.md
       - Clockwork Crossbow: items/clockwork_crossbow.md
       - Dragonblade: items/dragonblade.md
-      - Prismatic Punch: items/prismatic_punch.md
-      - Sabrewing: items/sabrewing.md
-      - Chorus Dagger: items/chorus_dagger.md
-      - Spirit Dagger: items/spirit_dagger.md
       - Tamaris: items/tamaris.md
+      - Call of The Void: items/call_of_the_void.md
+      - Spectral Fury: items/spectral_fury.md
+      - Chorus Dagger: items/chorus_dagger.md
+      - The Beginning and The End: items/the_beginning_and_the_end.md
       - Frigid Harvester: items/frigid_harvester.md
-      - Kaleidoscope: items/kaleidoscope.md
+      - Prismatic Punch: items/prismatic_punch.md
       - Prismember: items/prismember.md
+      - Kaleidoscope: items/kaleidoscope.md
     - Armor sets:
       - Ancient Armor: items/armor/ancient_armor.md
       - Hallowed Armor: items/armor/hallowed_armor.md
       - Shulker Armor: items/armor/shulker_armor.md
     - Trinkets:
+      - Copper Elektra Shield: items/trinkets/copper_elektra_shield.md
       - Ender Insignia: items/trinkets/ender_insignia.md
+      - Dragon's Eye: items/trinkets/dragons_eye.md
       - Crest of The End: items/trinkets/crest_of_the_end.md
+      - Living Flesh: items/trinkets/living_flesh.md
       - Duskberry: items/trinkets/duskberry.md
       - Starstruck Carcanet: items/trinkets/starstruck_carcanet.md
       - Soaring Insignia: items/trinkets/soaring_insignia.md
-      - Living Flesh: items/trinkets/living_flesh.md
-      - Copper Elektra Shield: items/trinkets/copper_elektra_shield.md
-      - Eye of The Dragon: items/trinkets/eye_of_the_dragon.md
     - Materials:
-      - Pixie Dust: items/materials/pixie_dust.md
+      - Enderite Shard: items/materials/enderite_shard.md
+      - Enderite Smithing Template: items/materials/enderite_smithing_template.md
       - Ancient Plating: items/materials/ancient_plating.md
       - Hallowed Ingot: items/materials/hallowed_ingot.md
+      - Pixie Dust: items/materials/pixie_dust.md
     - Spellbooks:
       - Book of Conveyance: items/spellbooks/conveyance.md
       - Book of Updraft: items/spellbooks/updraft.md
       - Book of Light: items/spellbooks/light.md
       - Nature's Wrath: items/spellbooks/natures_wrath.md
+      - Book of Jinx: items/spellbooks/jinx.md
+      - Tome of Return: items/spellbooks/return.md
     - Other:
       - Prismatic Pearl: items/other/prismatic_pearl.md
       - Shulker Tools: items/other/shulker_tools.md

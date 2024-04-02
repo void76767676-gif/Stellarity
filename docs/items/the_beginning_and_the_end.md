@@ -1,18 +1,15 @@
-# Spirit Dagger
+!!! abstract ":tada:{ .mirror } Dedicated Content :tada:"
+	This feature is dedicated to **kohara_** (*Developer*)
 
-> :tada:{ .mirror } ***DEDICATED CONTENT*** :tada:
->
-> This feature is dedicated to kohara (*Developer*)
+# The Beginning and The End
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Spirit Dagger** is a special weapon with the ability to attract Spirits on attacks, which can be teleported to from a distance to gain a short attack buff.
+**The Beginning and The End** is a pair of special daggers which have the ability to attract Spirits on attacks, and if both are used in a tandem - a second ability which allows players to telepot to aforementioned Spirits, gainin a short attack buff.
 
-It is intended to be a post-Dragon item, however obtaining it before killing the Ender Dragon is possible, though extremely tedious.
+<i class="icon-minecraft icon-minecraft-enchanting-table"></i> Both daggers can be enchanted with any Sword enchantment. Certain enchantments will have new effects.
 
-<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Spirit Dagger can be enchanted with any Sword enchantment. Certain enchantments will have new effects.
-
-<i class="icon-minecraft icon-minecraft-anvil"></i> Spirit Dagger can be repaired with <i class="icon-minecraft icon-minecraft-diamond"></i>Diamonds.
+<i class="icon-minecraft icon-minecraft-anvil"></i> Spirit Dagger can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
 
 <br><br>
 
@@ -22,7 +19,10 @@ It is intended to be a post-Dragon item, however obtaining it before killing the
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/spirit_dagger.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/the_beginning.png"></th>
+	</tr>
+	<tr>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/the_end.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>

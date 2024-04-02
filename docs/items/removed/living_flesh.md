@@ -1,13 +1,13 @@
 !!! danger "Removed content"
-	This section describes conten which has been removed or replaced. The information here does not apply to the current version of Stellarity.
+	This section describes content which has been removed or replaced. The information here does not apply to the current version of Stellarity.
 
-	**Removed in version:** vIndev-1.6a
+	**Removed in version:** vIndev-1.6a	
 
 # Living Flesh (Old)
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Living Flesh** was a consumable item which provided immense healing when eaten, but in return severely weakened the player for a short time. 
+**Living Flesh** was a consumable item which provided extreme healing when eaten, but in return severely weakened the player for a short time. 
 
 <br><br>
 
@@ -31,12 +31,12 @@
 </div>
 
 ## Obtaining
-Living Flesh could be found in [End Dungeons](../../structures/end_dungeon.md) in piles of 1 - 8.
+1 - 8 Living Flesh could be found inside of chests in [End Dungeons](../../structures/end_dungeon.md).
 
-Alternatively, [void fishing](../../mechanics/void_fishing.md) in the [Flesh Tundra](../../biomes/flesh_tundra.md) could yield 2 - 6 per catch, and there was also a 70% chance a Hematic Crate would contain 1 - 2 Living Flesh.
+Alternatively, [void fishing](../../mechanics/void_fishing.md) in the [Flesh Tundra](../../biomes/flesh_tundra.md) could yield 2 - 6 per catch, and there was also a 70% chance for a Hematic Crate to contain 1 - 2 Living Flesh.
 
 ## Usage
-After eating Living Flesh, players would heal 60:heart: x ₃₀ health over the next 3 seconds through Regeneration VII buff. However, players would also be inflicted with Weakness for 30 seconds - 15 seconds of Weakness II, fading into 15 seconds of Weakness I.
+After eating Living Flesh, players would get Regeneration VII for 3 seconds, which healed a total of 60:heart: x ₃₀ health. However, players would also be inflicted with a decaying Weakness effect for 30 seconds - 15 seconds of Weakness II, fading into 15 seconds of Weakness I.
 
 ## Trivia
 - This was one of the first items to have ever been added to Stellarity.
@@ -44,15 +44,15 @@ After eating Living Flesh, players would heal 60:heart: x ₃₀ health over the
 
 ## History
 === "**v2.1a**"
-	- Reworked and readded.
+	- :rocket: Reworked and readded.
 
 === "**vIndev-1.6a**"
-    - Removed.
+    - :fire: Removed.
 
 === "**v1.5a**"
-	- Now heals upon consumption.
-	- Now applies Weakness for 30 seconds instead of Hunger.
+	- :green_circle: Now heals upon consumption.
+	- :yellow_circle: Now applies Weakness for 30 seconds instead of Hunger.
 	- Now obtainable through void fishing.
 
 === "**v1.2a**"
-	- Introduced.
+	- :rocket: Introduced.

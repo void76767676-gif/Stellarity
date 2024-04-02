@@ -109,7 +109,7 @@ The Dragonblade is unbreakable on top of being immune to lava, fire, explosions 
     1. `VICTIM was punched into the otherworld by PLAYER`.
     2. `VICTIM was punched a bit too hard by PLAYER`.
     3. `VICTIM was warped into another reality by PLAYER`.
-- The Dragonblade is one of the 4 unbreakable items in Stellarity, the other 3 being [Ancient Wooden Sword](ancient_wooden_sword.md), maxed out [Frigid Harvester](frigid_harvester.md) and [Kaleidoscope](kaleidoscope.md).
+- The Dragonblade is one of the 4 unbreakable items in Stellarity, the other 3 being [Ancient Wooden Sword](ancient_wooden_sword.md), a maxed out [Frigid Harvester](frigid_harvester.md) and [Kaleidoscope](kaleidoscope.md).
 - The sound made when the Dragonblade is dropped is the sound made when the Obsidian Claymore[^4] drops in Minecraft: Dungeons.
 - Ever since its rework in vIndev-1.6a, the Dragonblade has only seen 1 nerf - a minor reduction in the splash damage radius for block punches.
  
