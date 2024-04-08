@@ -116,6 +116,13 @@ There is a bug where the Altar of The Accursed doesn't load at all on servers. Y
 If the vanilla exit portal generates overlapping the Stellarity's one, turn off your server and delete only the `DIM1` folder found inside `world_the_end`, then turn it on again. After it is finished loading, run the command from earlier to generate missing End Island features.
 
 **2.2.0+:** Make sure to set `enable-command-blocks` in `server.properties` to `true`.
+
+### Screenshot credits
+- Dat1Mexican
+- Junbra
+
 <hr>
 
 <a href="https://ko-fi.com/kohara"><img src="https://i.imgur.com/24BzK4O.png" alt="Support me on Ko-Fi!" align="center" /></a>
+
+<hr>
