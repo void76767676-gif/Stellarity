@@ -15,7 +15,7 @@ execute if entity @s[tag=stellarity.damage.spirit_dagger] run function stellarit
 execute if entity @s[tag=stellarity.damage.dragonblade] run function stellarity:utils/damage/death_messages/dragonblade
 
 #> Tamaris
-execute if entity @s[tag=stellarity.damage.tamaris_execute] run function stellarity:utils/damage/death_messages/tamaris
+execute if entity @s[tag=stellarity.damage.tamaris] run function stellarity:utils/damage/death_messages/tamaris
 
 #> Prismatic Inferno
 execute if entity @s[tag=stellarity.damage.dot.prismaric_inferno] run function stellarity:utils/damage/death_messages/prismatic_inferno
