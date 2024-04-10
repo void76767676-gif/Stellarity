@@ -5,6 +5,8 @@ on:
       - master
     paths:
       - 'resource_pack/**'
+      - 'resource_pack/pack.png'
+      - 'resource_pack/pack.mcmeta'
 
 jobs:
   build:

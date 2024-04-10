@@ -4,7 +4,9 @@ on:
     branches:
       - master
     paths:
-      - 'music_pack/**'
+      - 'music_pack/assets/**'
+      - 'music_pack/pack.png'
+      - 'music_pack/pack.mcmeta'
 
 jobs:
   build:

@@ -1,25 +1,21 @@
-<img align="center" src="https://i.imgur.com/ikwYA2D.png" />
+![Stellarity](https://i.imgur.com/ikwYA2D.png)
 
 <br>
 
-<hr>
+-------
 
-<p align="center">
-    <a href="https://discord.kohara.xyz/"><img src="https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA" alt="Discord" /></a>
-    <a href="https://kohy-creates.github.io/Stellarity/wiki"><img src="https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white" alt="Wiki" /></a>
-    <a href="https://github.com/kohy-creates/Stellarity/network/members"><img src="https://img.shields.io/github/forks/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=green" alt="Spoons" /></a>
-    <a href="https://modrinth.com/data-packs/stellarity"><img src="https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge" alt="Modrinth" /></a>
-	<a href="https://www.curseforge.com/minecraft/mc-mods/stellarity"><img src="https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103" alt="CurseForge></a>
-    <a href="https://github.com/kohy-creates/Stellarity/stargazers"><img src="https://img.shields.io/github/stars/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=yellow" alt="Star Collectors" /></a>
-    <a href="https://github.com/kohy-creates/Stellarity"><img src="https://img.shields.io/github/languages/code-size/kohy-creates/Stellarity?style=for-the-badge&color=purple&logoColor=white" alt="Code Size" /></a>
-    <a href="https://github.com/kohy-creates/Stellarity"><img src="https://img.shields.io/github/repo-size/kohy-creates/Stellarity?logo=dropbox&style=for-the-badge&color=red" alt="GitHub Repo Size" /></a>
-    <img src="https://img.shields.io/badge/Made%20with-home%20baked%20bread-CCCCCC.svg?logo=&style=for-the-badge" alt="Made with Home Baked Bread" />
-    <img src="https://img.shields.io/badge/Tastes%20like-bizmuth-CCCCCC.svg?logo=&style=for-the-badge" alt="Tastes like Bizmuth" />
+[![Discord](https://img.shields.io/discord/727033287343734885?color=7289DA&logo=discord&style=for-the-badge&logoColor=7289DA)](https://discord.kohara.xyz/)
+[![Wiki](https://img.shields.io/badge/wiki-Work_in_progress!-orange?style=for-the-badge&logo=ReadMe&logoColor=white)](https://stellarity.kohara.xyz)
+[![Modrinth](https://img.shields.io/modrinth/dt/stellarity?label=Modrinth&logo=modrinth&style=for-the-badge)](https://modrinth.com/data-packs/stellarity)
+[![CurseForge](https://img.shields.io/curseforge/dt/883166?style=for-the-badge&logo=curseforge&logoColor=FF5103&label=CurseForge&color=FF5103)](https://github.com/kohy-creates/Stellarity/network/members)
+[![Forks](https://img.shields.io/github/forks/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=green)](https://github.com/kohy-creates/Stellarity/members)
+[![Stars](https://img.shields.io/github/stars/kohy-creates/Stellarity?style=for-the-badge&logo=github&color=yellow)](https://github.com/kohy-creates/Stellarity/stargazers)
+[![Code Size](https://img.shields.io/github/languages/code-size/kohy-creates/Stellarity?style=for-the-badge&color=purple&logoColor=white)](https://github.com/kohy-creates/Stellarity)
+[![Repo Size](https://img.shields.io/github/repo-size/kohy-creates/Stellarity?logo=dropbox&style=for-the-badge&color=red)](https://github.com/kohy-creates/Stellarity)
 
+**Current version for:** ![List](https://img.shields.io/modrinth/game-versions/bZgeDzN8?style=for-the-badge&label=%20&color=white)
 
-</p>
-
-<hr>
+-------
 
 <br>
 
@@ -94,20 +90,33 @@ Strongholds have been redesigned too! They are now about **7x larger** and featu
 Small ambient structures have also been scattered across The End to bring some more life, lore and personality to the dimension.
 
 ## Notes
-- There is an optional resource pack for Stellarity. It isn't required at all, but it allows all new items to have custom textures.
+- 🎨 There is an optional resource pack for Stellarity. It isn't required at all, but it allows all new items to have custom textures. Click [**HERE**](https://modrinth.com/resourcepack/stellarity-optional-resource-pack) to download it.
 > Note that all mod JARs already have it embedded.
-- Adding it to an already existing world requires you to reset The End *(or just use a new world)*.
-- Since Stellarity is only a datapack packaged as a mod this means that it is fully server-sided. This makes vanilla clients able to join servers running Stellarity, but also makes it unable to add any new blocks and actual items. I also don't have enough time to learn Java and get into proper modding, altough a proper mod port is being worked by some people on my Discord server.
+- ❗ Adding it to an already existing world requires you to reset The End *(or just use a new world)*.
+- ⚙️ The pack has a small **per-world** config available under `/function stellarity:cmd/configuration`.
+- ❌ Stellarity items do not show up in the creative menu. I might implement that one day, but for now, please do either `/loot give @s loot stellarity:items/<item>` or `/function stellarity:cmd/give/<category>`.
+- 🌐 Since Stellarity is only a datapack packaged as a mod this means that it is fully server-sided. This makes vanilla clients able to join servers running Stellarity, but also makes it unable to add any new blocks and actual items. I also don't have enough time to learn Java and get into proper modding, altough a proper mod port is being worked by some people on my Discord server.
+- 🎵 By default, Stellarity doesn't come with its music. You can download an additional resource pack which contains all new music tracks [**HERE**](https://modrinth.com/resourcepack/stellarity-music-addon).
 
 ### Incompatible mods
-I can't test compatibility with every mod out there. If you know that Stellarity is causing issues with 
+I can't test compatibility with every mod out there. If you know that Stellarity is causing issues with a particular mod, make sure to report it to me so I can include it on this list.
 
-- [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) - will remain incompatible per creators's request.
-- [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend) - causes a lot of micro-biomes to generate scattered around the entire dimension.
-- [YUNG's Better End Island](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island) - there is really no way to make these 2 projects compatible since they both handle the main island changes in different ways.
+**Fully incompatible:**
+- 🔴 [Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) - will remain incompatible per creators's request.
+- 🔴 [BetterEnd](https://www.curseforge.com/minecraft/mc-mods/betterend) - causes a huge amount of of micro-biomes to generate scattered around the dimension.
+- 🔴 [YUNG's Better End Island](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island) - there is really no way to make these 2 projects compatible since they both handle the main island changes in different ways.
+- 🔴 Any mod/datapack which grants players all recipes upon joining the world *(unless you can disable specifically that feature in its config)*.
+
+**Partially incompatible:**
+- 🟡 [Quark](https://www.curseforge.com/minecraft/mc-mods/quark) - make sure to disable unlocking all recipes in the config.
+- 🟡 [JEI](https://www.curseforge.com/minecraft/mc-mods/jei) - like I stated, Stellarity is only a datapack packaged as a mod, so its items will not show up in JEI's recipe and/or loot browser. This might be implemented one day, but it isn't the highest priority.
+- 🟡 [Spellbound Weapons](https://www.curseforge.com/minecraft/mc-mods/spellbound-weapons) - Endlight Bow and End Excalibur will not generate in End City chests. I am thinking of a way to make them do so as intended.
 
 ### Multiplayer Installation
-> Note that this section only applies to Spigot server and its servers running forks of Spigot (Paper, Purpur, etc.).
+
+Make sure to set `enable-command-blocks` in `server.properties` to `true`.
+
+> ❕ NOTE: this section below applies only to servers running Spigot or any of its forks (Paper, Purpur, etc.).
 
 After dropping the datapack into the `world/datapacks` folder, delete the `world_the_end` folder (if present) and turn on your server.
 
@@ -115,14 +124,12 @@ There is a bug where the Altar of The Accursed doesn't load at all on servers. Y
 
 If the vanilla exit portal generates overlapping the Stellarity's one, turn off your server and delete only the `DIM1` folder found inside `world_the_end`, then turn it on again. After it is finished loading, run the command from earlier to generate missing End Island features.
 
-**2.2.0+:** Make sure to set `enable-command-blocks` in `server.properties` to `true`.
-
 ### Screenshot credits
 - Dat1Mexican
 - Junbra
 
-<hr>
+-------
 
 <a href="https://ko-fi.com/kohara"><img src="https://i.imgur.com/24BzK4O.png" alt="Support me on Ko-Fi!" align="center" /></a>
 
-<hr>
+-------

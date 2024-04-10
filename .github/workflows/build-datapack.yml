@@ -5,7 +5,10 @@ on:
       - master
     paths:
       - 'data/**'
-      - 'overlay_1_20_2/**'
+      - 'overlay_1_20_2/**',
+      - 'pack.mcmeta'
+      - 'pack.png'
+      - 'LICENSE.md'
 
 jobs:
   build:
@@ -17,8 +20,9 @@ jobs:
         name: Stellarity-DP-DEV
         path: |
           data/
+          overlay_1_20_2/
           pack.mcmeta
           pack.png
-          LICENSE
+          LICENSE.md
         retention-days: 7
         compression-level: 9
