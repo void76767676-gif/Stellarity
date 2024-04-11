@@ -27,3 +27,7 @@ Extra resources for the [Stellarity](https://modrinth.com/datapack/stellarity) d
 - ❗ Custom armor textures break with shaders. If you want to use shaders with the resource pack make sure to also download [CIT Resewn](https://modrinth.com/mod/cit-resewn).
 - ❕ Mod packages of Stellarity have the resource pack built-in. This means you don't have to download the resource pack if you are using them rather than the datapack versions.
 - 🎵 The resource pack does not contain music for Stellarity, all tracks have been moved to the [Music Addon](https://modrinth.com/resourcepack/stellarity-music-addon).
+
+## Credits
+- Brokenemp *(can't list everything, but just now there is a lot)*
+- [u/Hekademos](https://www.reddit.com/r/Minecraft/comments/h82o2g/i_animated_the_dragons_breath/) *(animated Dragon's Breath)*
