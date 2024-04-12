@@ -5,7 +5,7 @@ on:
       - master
     paths:
       - 'data/**'
-      - 'overlay_1_20_2/**',
+      - 'overlay_1_20_2/**'
       - 'pack.mcmeta'
       - 'pack.png'
       - 'LICENSE.md'

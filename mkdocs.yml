@@ -12,10 +12,10 @@ nav:
     - Installation: installation.md
     - Downloads: downloads.md
     - FAQ: faq.md
-  - Biomes: 
-    - The Hallow: biomes/the_hallow.md
+#  - Biomes: 
+#    - The Hallow: biomes/the_hallow.md
   - Items:
-    - Cursed Enchiridion: items/cursed_tome.md
+    - Cursed Enchiridion: items/cursed_enchiridion.md
     - Weapons: 
       - Sharanga: items/sharanga.md
       - Clockwork Crossbow: items/clockwork_crossbow.md

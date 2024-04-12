@@ -1,5 +1,8 @@
 # Cursed Enchiridion
 
+!!! warning
+	This item is dysfunctional in current version of Stellarity and is scheduled for a rework.
+
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
 **Cursed Enchiridion** is book which contains all the information about different Stellarity items and how to obtain them. It can be crafted right after defeating the Ender Dragon.
