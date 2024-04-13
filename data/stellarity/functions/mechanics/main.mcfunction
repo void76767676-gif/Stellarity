@@ -4,5 +4,3 @@ execute as @e[type=area_effect_cloud,tag=stellarity.void_fishing_aec] at @s run 
 
 # Better End Crystals
 execute as @e[type=interaction,tag=stellarity.end_crystal] at @s run function stellarity:mechanics/end_crystal/main
-
-execute as @e[type=area_effect_cloud,tag=!stellarity.aware] if data entity @s Potion run function stellarity:mechanics/lingering_potion_buff

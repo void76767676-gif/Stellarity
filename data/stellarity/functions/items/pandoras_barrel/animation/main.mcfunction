@@ -14,6 +14,7 @@ execute if score @s stellarity.misc matches 21 run playsound block.fire.extingui
 execute if score @s stellarity.misc matches 26 run playsound block.fire.extinguish block @a[distance=0..]
 
 execute if score @s stellarity.misc matches 41 positioned ~ ~1 ~ run function stellarity:items/pandoras_barrel/animation/item/spawn
+
 execute if score @s stellarity.misc matches 65 run function stellarity:items/pandoras_barrel/animation/finish
 
 scoreboard players add @s stellarity.misc 1

@@ -1,1 +1,1 @@
-execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware
+execute as @e[type=area_effect_cloud] at @s run function stellarity:utils/as_aec

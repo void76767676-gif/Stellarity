@@ -15,3 +15,6 @@ execute if entity @s[scores={stellarity.items.spellbook.return.cooldown=0..}] ru
 execute if entity @s[scores={stellarity.items.aery_sword.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.items.aery_sword.cryonics.cooldown 1
 
 scoreboard players reset @s stellarity.misc.loop.1s
+
+scoreboard players add @s stellarity.misc.loop.10s 1
+execute if entity @s[scores={stellarity.misc.loop.10s=10}] run function stellarity:loops/player_loop_10s

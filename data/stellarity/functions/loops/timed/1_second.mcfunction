@@ -8,6 +8,9 @@ execute if score #stellarity.dragon.ash_duration stellarity.misc matches 1.. run
 # Makes Allays despawn naturally if they have spawned naturally in The Hallow
 execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run function stellarity:mobs/the_hallow_allay_despawn
 
+# Tridents return when in Void
+execute as @e[type=trident,predicate=stellarity:locations/below_y_0,predicate=stellarity:locations/in_the_end] run data merge entity @s {DealtDamage:1b}
+
 # Villagers
 ## TEMPORARILY DISABLED
 # execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
