@@ -23,23 +23,23 @@ execute if score #damage stellarity.misc matches 6.. \
 	if score @s stellarity.items.aery_sword.kills.iron_golem matches 1.. \
 	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["frost_barrier"]}}}} run \
 	function stellarity:items/frigid_harvester/abilities/unlock/frost_barrier/unlock
-# Arctic Wind
-execute if score #damage stellarity.misc matches 9.. \
-	if score @s stellarity.items.aery_sword.kills.stray matches 1.. \
-	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["arctic_wind"]}}}} run \
-	function stellarity:items/frigid_harvester/abilities/unlock/arctic_wind/progress
 # Piercing Cold
 execute if score #damage stellarity.misc matches 6.. \
 	if score @s stellarity.items.aery_sword.kills.witch matches 1.. \
 	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["piercing_cold"]}}}} run \
 	function stellarity:items/frigid_harvester/abilities/unlock/piercing_cold/progress
+# Arctic Wind
+execute if score #damage stellarity.misc matches 9.. \
+	if score @s stellarity.items.aery_sword.kills.stray matches 1.. \
+	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["arctic_wind"]}}}} run \
+	function stellarity:items/frigid_harvester/abilities/unlock/arctic_wind/progress
 # Anima Conduit
-execute if score #damage stellarity.misc matches 14.. \
+execute if score #damage stellarity.misc matches 12.. \
 	if score @s stellarity.items.aery_sword.kills.wither matches 1.. \
 	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["anima_conduit"]}}}} run \
 	function stellarity:items/frigid_harvester/abilities/unlock/anima_conduit/unlock
 # Cryonics
-execute if score #damage stellarity.misc matches 14.. \
+execute if score #damage stellarity.misc matches 12.. \
 	if score @s stellarity.items.aery_sword.kills.ender_dragon matches 1.. \
 	unless data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["cryonics"]}}}} run \
 	function stellarity:items/frigid_harvester/abilities/unlock/cryonics/unlock

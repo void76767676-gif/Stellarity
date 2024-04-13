@@ -1,11 +1,11 @@
 # Add extra damage
 scoreboard players operation #damage stellarity.misc += #damage_extra stellarity.misc
 # But also cap it at 14
-execute if score #damage stellarity.misc matches 1400.. run scoreboard players set #damage stellarity.misc 1400
+execute if score #damage stellarity.misc matches 1200.. run scoreboard players set #damage stellarity.misc 1200
 
 # Visual and sound effects
 execute anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/souls
-execute unless score #damage stellarity.misc matches 1400.. run \
+execute unless score #damage stellarity.misc matches 1200.. run \
 	function stellarity:items/frigid_harvester/effects/crack/crack
 
 ## Item modifier part thingy
@@ -23,10 +23,10 @@ execute if score #damage stellarity.misc matches 300..599 run \
 execute if score #damage stellarity.misc matches 600..899 run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90003
 # Level 3
-execute if score #damage stellarity.misc matches 900..1399 run \
+execute if score #damage stellarity.misc matches 900..1199 run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90004
 # Level 4 (Maxed)
-execute if score #damage stellarity.misc matches 1400.. run \
+execute if score #damage stellarity.misc matches 1200.. run \
 	data modify storage stellarity:temp aery_sword.cmd set value 90005
 # Probably one of the least efficient ways to make the number after the coma
 # Rounding
@@ -81,5 +81,5 @@ execute if score #damage stellarity.misc matches 900.. run \
 	advancement grant @s only stellarity:exploration/max_out_aery_sword
 
 # Maxing out the Harvester
-execute if score #damage stellarity.misc matches 1400.. run \
+execute if score #damage stellarity.misc matches 1200.. run \
 	function stellarity:items/frigid_harvester/ultra_max_out

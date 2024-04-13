@@ -27,11 +27,4 @@ scoreboard players operation #temp5 stellarity.misc /= #100 stellarity.misc
 scoreboard players operation #temp5 stellarity.misc /= #3 stellarity.misc
 execute unless score #temp5 stellarity.misc matches 0 run scoreboard players operation #damage_extra stellarity.misc /= #temp5 stellarity.misc
 
-# Extra strong scaling
-# The last one at 17 extra damage is effectively a stop to gaining damage
-#execute if score #damage stellarity.misc matches 1000.. run \
-#	scoreboard players operation #damage_extra stellarity.misc /= #2 stellarity.misc
-#execute if score #damage stellarity.misc matches 1300.. run \
-#	scoreboard players operation #damage_extra stellarity.misc /= #2 stellarity.misc
-
 execute unless score #damage_extra stellarity.misc matches 0..1 run function stellarity:items/frigid_harvester/continue
