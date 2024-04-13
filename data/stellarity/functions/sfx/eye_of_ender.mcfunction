@@ -1,4 +1,4 @@
-team join stellarity.purple_glow @s[team=!stellarity.purple_glow]
+team join stellarity.purple_glow @s
 
 data modify entity @s Glowing set value 0b
 execute unless block ~ ~ ~ #kohara:non_solid run data modify entity @s Glowing set value 1b

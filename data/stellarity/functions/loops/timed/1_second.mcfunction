@@ -17,7 +17,6 @@ execute as @e[type=trident,predicate=stellarity:locations/below_y_0,predicate=st
 
 execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main
 
-execute as @e[type=skeleton,tag=!stellarity.aware,predicate=stellarity:locations/biomes/in_frosted_hills] at @s run function stellarity:mobs/frosted_stray/spawn
-execute as @e[type=zombified_piglin,tag=!stellarity.aware,tag=!stellarity.flesh_piglin,predicate=stellarity:locations/biomes/in_flesh_tundra] run function stellarity:mobs/flesh_piglin/convert
+execute as @e[type=#stellarity:entity_awareness_checks,tag=!stellarity.aware] run tag @s add stellarity.aware
 
 schedule function stellarity:loops/timed/1_second 1s
