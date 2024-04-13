@@ -377,12 +377,12 @@
 	"stellarity.items.weapons.spectral_fury.description.4": "25% chance to save Spectral Arrows",
 
 	"stellarity.items.weapons.call_of_the_void": "Call of The Void",
-	"stellarity.items.weapons.call_of_the_void.description.1": "Shoots highly damaging energy bolts",
-	"stellarity.items.weapons.call_of_the_void.description.2": "with infinite pierce, but limited range",
+	"stellarity.items.weapons.call_of_the_void.description.1": "Shoots Void Arrows, which reduce",
+	"stellarity.items.weapons.call_of_the_void.description.2": "enemy HP and shatter on impact",
 
 	"stellarity.items.weapons.slayer_crossbow": "Slayer Crossbow",
-	"stellarity.items.weapons.slayer_crossbow.description.1": "Shoots Void Arrows, which reduce",
-	"stellarity.items.weapons.slayer_crossbow.description.2": "enemy HP and shatter on impact",
+	"stellarity.items.weapons.slayer_crossbow.description.1": "Shoots highly damaging energy bolts",
+	"stellarity.items.weapons.slayer_crossbow.description.2": "with infinite pierce, but limited range",
 
 	// Other items
 	"stellarity.items.fisher_of_voids": "Fisher of Voids",

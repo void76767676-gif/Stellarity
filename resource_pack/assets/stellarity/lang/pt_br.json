@@ -377,12 +377,12 @@
 	"stellarity.items.weapons.spectral_fury.description.4": "25% de chance de não gastar flechas espectrais",
 
 	"stellarity.items.weapons.call_of_the_void": "Chamado do vazio",
-	"stellarity.items.weapons.call_of_the_void.description.1": "Dispara raios de energia altamente danosos",
-	"stellarity.items.weapons.call_of_the_void.description.2": "com perfuração infinita, mas alcance limitado",
+	"stellarity.items.weapons.call_of_the_void.description.1": "Dispara flechas do vazio, que reduzem",
+	"stellarity.items.weapons.call_of_the_void.description.2": "a vida do inimigo e se espalham no impacto",
 
 	"stellarity.items.weapons.slayer_crossbow": "Besta assassina",
-	"stellarity.items.weapons.slayer_crossbow.description.1": "Dispara flechas do vazio, que reduzem",
-	"stellarity.items.weapons.slayer_crossbow.description.2": "a vida do inimigo e se espalham no impacto",
+	"stellarity.items.weapons.slayer_crossbow.description.1": "Dispara raios de energia altamente danosos",
+	"stellarity.items.weapons.slayer_crossbow.description.2": "com perfuração infinita, mas alcance limitado",
 
 	// Other items
 	"stellarity.items.fisher_of_voids": "Vara de pesca do vazio",
