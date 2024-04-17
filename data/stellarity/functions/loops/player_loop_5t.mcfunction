@@ -1,7 +1,5 @@
 execute if entity @s[predicate=stellarity:items/holding/tamaris] as @e[type=!#kohara:invalid_targets,distance=0.1..20] run function stellarity:items/tamaris/execute/calculate_percentage
 
-#execute if entity @s[predicate=stellarity:items/holding/cursed_tome/any] run function stellarity:items/cursed_tome/loop
-
 # Cleansing Potato
 effect clear @s[tag=stellarity.perm_buffs.cleansing_potato] poison
 
