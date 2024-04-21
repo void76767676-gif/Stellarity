@@ -7,7 +7,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:chorus_flower"
+							"minecraft:chorus_fruit"
 						]
 					}
 				]
@@ -16,7 +16,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "stellarity:bone_meal_from_chorus_flower"
+				"recipe": "stellarity:sugar_from_chorus_fruit"
 			}
 		}
 	},
@@ -28,7 +28,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"stellarity:bone_meal_from_chorus_flower"
+			"stellarity:sugar_from_chorus_fruit"
 		]
 	}
 }

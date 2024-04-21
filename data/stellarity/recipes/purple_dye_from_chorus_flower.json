@@ -1,14 +1,14 @@
 {
 	"type": "minecraft:crafting_shapeless",
-	"group": "purple_dye",
-	"category": "building",
+	"group": "bonemeal",
+	"category": "misc",
 	"ingredients": [
 		{
-			"item": "minecraft:chorus_fruit"
+			"item": "minecraft:chorus_flower"
 		}
 	],
 	"result": {
 		"item": "minecraft:purple_dye",
-		"count": 1
+		"count": 2
 	}
 }

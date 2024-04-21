@@ -7,7 +7,7 @@
 				"items": [
 					{
 						"items": [
-							"minecraft:chorus_fruit"
+							"minecraft:chorus_flower"
 						]
 					}
 				]
@@ -16,7 +16,7 @@
 		"has_the_recipe": {
 			"trigger": "minecraft:recipe_unlocked",
 			"conditions": {
-				"recipe": "stellarity:purple_dye_from_chorus_fruit"
+				"recipe": "stellarity:purple_dye_from_chorus_flower"
 			}
 		}
 	},
@@ -28,7 +28,7 @@
 	],
 	"rewards": {
 		"recipes": [
-			"stellarity:purple_dye_from_chorus_fruit"
+			"stellarity:purple_dye_from_chorus_flower"
 		]
 	}
 }
