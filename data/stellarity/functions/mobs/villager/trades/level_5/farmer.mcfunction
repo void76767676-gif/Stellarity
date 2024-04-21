@@ -30,6 +30,6 @@ execute if score #trade stellarity.misc matches 3 run data modify storage stella
 execute if score #trade stellarity.misc matches 4 run data modify storage stellarity:temp villager.trades append value {maxUses:16,rewardExp:1b,priceMultiplier:0.05,demand:16,specialPrice:0,buy:{id:"cooked_cod",Count:1,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"pumpkin_seeds",Count:1,tag:{}}}
 execute if score #trade stellarity.misc matches 5 run data modify storage stellarity:temp villager.trades append value {maxUses:16,rewardExp:1b,priceMultiplier:0.05,demand:16,specialPrice:0,buy:{id:"cooked_cod",Count:1,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"torchflower_seeds",Count:1,tag:{}}}
 execute if score #trade stellarity.misc matches 6 run data modify storage stellarity:temp villager.trades append value {maxUses:16,rewardExp:1b,priceMultiplier:0.05,demand:16,specialPrice:0,buy:{id:"cooked_cod",Count:1,tag:{}},buyB:{id:"air",Count:1,tag:{}},sell:{id:"pitcher_pod",Count:1,tag:{}}}
-loot spawn ~ ~-5 ~ loot stellarity:items/fish/overgrown_cod
+loot spawn ~ ~-5 ~ loot stellarity:items/food/fish/overgrown_cod
 execute positioned ~ ~-5 ~ run data modify storage stellarity:temp villager.trades[-1].buy.tag set from entity @e[type=item,limit=1,sort=nearest] Item.tag
 execute positioned ~ ~-5 ~ run kill @e[type=item,limit=1,sort=nearest]

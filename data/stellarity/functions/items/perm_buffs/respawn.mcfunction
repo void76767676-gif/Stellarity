@@ -1,5 +1,0 @@
-function stellarity:items/perm_buffs/lucky_carrot/apply_buff
-function stellarity:items/perm_buffs/rageroot/apply_buff
-function stellarity:items/perm_buffs/energizing_fruit/apply_buff
-function stellarity:items/perm_buffs/endurance_brew/apply_buff
-function stellarity:items/perm_buffs/fury_berries/apply_buff

@@ -37,7 +37,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{HideFlags:32,Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:darkness\",amplifier:9b,duration:-1},{id:\"minecraft:slowness\",amplifier:9b,duration:-1},{id:\"minecraft:mining_fatigue\",amplifier:9b,duration:-1},{id:\"minecraft:nausea\",duration:-1},{id:\"minecraft:blindness\",duration:-1},{id:\"minecraft:hunger\",amplifier:9b,duration:-1},{id:\"minecraft:weakness\",amplifier:9b,duration:-1},{id:\"minecraft:poison\",amplifier:9b,duration:-1},{id:\"minecraft:wither\",amplifier:9b,duration:-1},{id:\"minecraft:glowing\",duration:-1},{id:\"minecraft:unluck\",amplifier:9b,duration:-1},{id:\"minecraft:bad_omen\",amplifier:9b,duration:1200}],CustomPotionColor:16056354}"
+							"tag": "{HideFlags:32,Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:darkness\",amplifier:9b,duration:-1},{id:\"minecraft:slowness\",amplifier:9b,duration:-1},{id:\"minecraft:mining_fatigue\",amplifier:9b,duration:-1},{id:\"minecraft:nausea\",duration:-1},{id:\"minecraft:blindness\",duration:-1},{id:\"minecraft:hunger\",amplifier:9b,duration:-1},{id:\"minecraft:weakness\",amplifier:9b,duration:-1},{id:\"minecraft:poison\",amplifier:9b,duration:-1},{id:\"minecraft:wither\",amplifier:9b,duration:-1},{id:\"minecraft:glowing\",duration:-1},{id:\"minecraft:unluck\",amplifier:9b,duration:-1},{id:\"minecraft:bad_omen\",amplifier:9b,duration:1200}],CustomPotionColor:16056354,stellarity.special_item:\"red_potion\"}"
 						}
 					]
 				}

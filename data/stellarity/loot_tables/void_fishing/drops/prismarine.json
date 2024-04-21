@@ -6,7 +6,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 12,
-					"name": "stellarity:items/fish/bubblefish"
+					"name": "stellarity:items/food/fish/bubblefish"
 				},
 				{
 					"type": "minecraft:item",

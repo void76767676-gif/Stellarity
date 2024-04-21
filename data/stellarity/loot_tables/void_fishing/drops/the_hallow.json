@@ -7,12 +7,12 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 22,
-					"name": "stellarity:items/fish/prismite"
+					"name": "stellarity:items/food/fish/prismite"
 				},
 				{
 					"type": "minecraft:loot_table",
 					"weight": 13,
-					"name": "stellarity:items/fish/crystal_heartfish"
+					"name": "stellarity:items/food/fish/crystal_heartfish"
 				},
 				{
 					"type": "minecraft:loot_table",

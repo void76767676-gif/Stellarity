@@ -1,0 +1,102 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:mushroom_stew",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.food.pho",
+								"fallback": "Pho",
+								"color": "yellow",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90001,stellarity.special_item:\"pho\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"text": "10",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#B88458",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "15.2",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#FFDE4C",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "effect.minecraft.absorption",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(2:00)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "effect.minecraft.strength",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(2:00)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								[
+									{
+										"translate": "effect.minecraft.regeneration",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(0:28)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

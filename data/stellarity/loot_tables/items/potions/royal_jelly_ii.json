@@ -1,0 +1,78 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"royal_jelly_ii\",HideFlags:2}"
+						},
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.potions.royal_jelly",
+								"fallback": "Royal Jelly",
+								"color": "yellow",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								[
+									{
+										"translate": "effect.minecraft.absorption",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"translate": "potion.potency.1",
+										"color": "blue",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "(0:30)",
+										"color": "blue",
+										"italic": false
+									}
+								],
+								{
+									"translate": "stellarity.items.potions.royal_jelly.usage",
+									"fallback": "Cleanses all debuffs",
+									"color": "blue",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

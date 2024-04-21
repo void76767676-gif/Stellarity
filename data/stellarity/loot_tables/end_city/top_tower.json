@@ -25,11 +25,6 @@
 					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:golden_apple"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"quality": 1,
-					"name": "stellarity:items/golden_chorus_fruit"
 				}
 			]
 		},

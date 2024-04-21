@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 15,
-					"name": "stellarity:items/fish/ender_koi",
+					"name": "stellarity:items/food/fish/ender_koi",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

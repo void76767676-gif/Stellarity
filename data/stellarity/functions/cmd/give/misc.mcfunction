@@ -1,7 +1,6 @@
 loot give @s loot stellarity:items/altar_of_light
 loot give @s loot stellarity:items/cursed_tome
 loot give @s loot stellarity:items/fisher_of_voids
-loot give @s loot stellarity:items/golden_chorus_fruit
 loot give @s loot stellarity:items/pandoras_barrel
 loot give @s loot stellarity:items/prismatic_pearl
 

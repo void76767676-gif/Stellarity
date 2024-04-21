@@ -33,6 +33,8 @@ execute if entity @s[tag=stellarity.shrapnel] run function stellarity:items/call
 
 execute if entity @s[tag=stellarity.waystone] run function stellarity:post_gen/waystone
 
+execute if entity @s[tag=stellarity.cauldron_crafting] run function stellarity:mechanics/cauldron_crafting/main
+
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main
 execute if entity @s[scores={stellarity.misc.loop.1s=20}] run function stellarity:loops/marker_loop_1s

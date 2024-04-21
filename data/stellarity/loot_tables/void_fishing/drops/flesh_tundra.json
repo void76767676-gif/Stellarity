@@ -7,7 +7,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 27,
-					"name": "stellarity:items/fish/crimson_tigerfish",
+					"name": "stellarity:items/food/fish/crimson_tigerfish",
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -18,7 +18,7 @@
 				{
 					"type": "minecraft:loot_table",
 					"weight": 19,
-					"name": "stellarity:items/fish/fleshy_piranha",
+					"name": "stellarity:items/food/fish/fleshy_piranha",
 					"functions": [
 						{
 							"function": "minecraft:set_count",

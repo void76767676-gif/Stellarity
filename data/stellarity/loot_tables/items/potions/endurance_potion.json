@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:resistance\",duration:3600}]}"
+							"tag": "{Potion:\"minecraft:water\",custom_potion_effects:[{id:\"minecraft:resistance\",duration:2400}],stellarity.special_item:\"endurance_potion\"}"
 						},
 						{
 							"function": "minecraft:set_name",
