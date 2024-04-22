@@ -61,7 +61,8 @@
 			"stellarity:highlands/trees"
 		],
 		[
-			"stellarity:global/end_dungeon"
+			"stellarity:global/end_dungeon",
+			"stellarity:global/fossil"
 		]
 	]
 }

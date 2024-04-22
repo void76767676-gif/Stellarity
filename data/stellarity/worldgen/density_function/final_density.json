@@ -2,7 +2,7 @@
 	"type": "minecraft:squeeze",
 	"argument": {
 		"type": "minecraft:mul",
-		"argument1": 0.333333,
+		"argument1": 0.1111111,
 		"argument2": {
 			"type": "minecraft:add",
 			"argument1": -0.2,
@@ -32,8 +32,8 @@
 										"type": "minecraft:mul",
 										"argument1": {
 											"type": "minecraft:y_clamped_gradient",
-											"from_y": 135,
-											"to_y": 210,
+											"from_y": 105,
+											"to_y": 165,
 											"from_value": 1,
 											"to_value": 0
 										},

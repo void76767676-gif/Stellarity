@@ -1,6 +1,6 @@
 {
 	"type": "minecraft:end_city",
 	"biomes": "#minecraft:has_structure/end_city",
-	"step": "surface_structures",
+	"step": "raw_generation",
 	"spawn_overrides": {}
 }

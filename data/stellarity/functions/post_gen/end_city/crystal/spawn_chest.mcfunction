@@ -36,7 +36,7 @@ execute if entity @s[tag=!stellarity.end_city.crystal_small_tower] \
 fill ~-1 ~5 ~-1 ~1 ~5 ~1 iron_block replace obsidian
 fill ~ ~6 ~ ~ ~6 ~ beacon replace glass
 execute if block ~ ~6 ~ beacon run setblock ~ ~7 ~ magenta_stained_glass_pane
-summon marker ~ ~6 ~ {Tags:["stellarity.marker","stellarity.end_city.no_beacon"]}
+execute if block ~ ~6 ~ beacon run summon marker ~ ~6 ~ {Tags:["stellarity.marker","stellarity.end_city.no_beacon"]}
 
 particle flash ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]
 particle explosion_emitter ~ ~ ~ 0 0 0 0 1 force @a[distance=..32]

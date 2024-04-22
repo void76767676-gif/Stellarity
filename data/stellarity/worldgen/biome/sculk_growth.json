@@ -56,7 +56,8 @@
 			"stellarity:sculk_growth/tree"
 		],
 		[
-			"stellarity:global/end_dungeon"
+			"stellarity:global/end_dungeon",
+			"stellarity:global/fossil"
 		]
 	]
 }
