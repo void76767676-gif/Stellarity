@@ -11,7 +11,7 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"translate": "stellarity.items.food.shulker_body",
+								"translate": "stellarity.items.food.candied_chorus_fruit",
 								"fallback": "Candied Chorus Fruit",
 								"color": "white",
 								"italic": false

@@ -6,3 +6,5 @@ execute as @e[type=end_crystal,predicate=stellarity:locations/dragons_den/in_bio
 
 execute positioned 7 60 0 run setblock ~ ~ ~ minecraft:chest[facing=east,type=single,waterlogged=false]{LootTable:"stellarity:dragons_den"} replace
 execute positioned 7 60 0 run summon marker ~ ~0.5 ~ {Tags:["stellarity.dragons_den_chest","stellarity.marker"]}
+
+scoreboard players set #stellarity.exit_gateway_count stellarity.misc 0

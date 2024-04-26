@@ -17,3 +17,5 @@ scoreboard players reset #ambient stellarity.misc
 bossbar set stellarity:eol players
 
 execute as @a run function stellarity:mobs/eol/music/reset
+
+execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.empress_of_light.death","fallback":"%s has been defeated!","with":[{"translate":"stellarity.mobs.empress","fallback":"Empress of Light"}],"color":"#AF4BFF"},"\n"]

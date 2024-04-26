@@ -1,4 +1,4 @@
-tellraw @s [{"text":"Stellarity","color":"#f100f1"}," ",{"text":"Configuration","color":"white"}]
+tellraw @s ["\n",{"text":"Stellarity","color":"#f100f1","bold":true}," ",{"text":"Configuration","color":"white","bold":true}]
 
 tellraw @s [\
 	"\n",\
@@ -34,9 +34,11 @@ function stellarity:utils/tellraw/config {title:"EoL Loop Delay",description:"Nu
 
 function stellarity:utils/tellraw/config {title:"Enable Dragon Screenshake",description:"Enables a bootleg screenshake effect during the Dragon's spawn animation. Can be nauseating to some, so feel free to disable it. It isn't the best anyway.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_dragon_screenshake",numerical:0,suggested_value:1}
 
-function stellarity:utils/tellraw/config {title:"Enable End City Creative Shock",description:"Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_creative_shock",numerical:0,suggested_value:1}
+function stellarity:utils/tellraw/config {title:"Enable End City Creative Shock",description:"Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed. Keep in mind that End Cities are balanced around this option being enabled!",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_creative_shock",numerical:0,suggested_value:1}
 
 function stellarity:utils/tellraw/config {title:"Nerf Elytra",description:"Nerfs the Elytra by making them take extra damage from boosting.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"nerf_elytra",numerical:0,suggested_value:1}
+
+function stellarity:utils/tellraw/config {title:"Boss Status Messages",description:"Sends global messages when a Stellarity boss is summoned, killed or despawns.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"boss_status_messages",numerical:0,suggested_value:1}
 
 tellraw @s {"text":"                                ","color":"gray","strikethrough":true,"bold":true}
 

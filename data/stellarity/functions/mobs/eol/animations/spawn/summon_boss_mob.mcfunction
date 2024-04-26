@@ -28,4 +28,6 @@ execute store result bossbar stellarity:eol max run scoreboard players get #stel
 
 function stellarity:mobs/eol/animations/spawn/summon_wings
 
+execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.empress_of_light.spawn","fallback":"%s has awoken!","with":[{"translate":"stellarity.mobs.empress","fallback":"Empress of Light"}],"color":"#AF4BFF"},"\n"]
+
 execute as @a run function stellarity:mobs/dragon/music/reset

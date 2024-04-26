@@ -66,7 +66,7 @@ execute if score @s[tag=!stellarity.dragon.respawned_crystals] stellarity.dragon
 # Heartbeat while below 20% health
 # It only gets quicker and quicker as the Dragon knows it is closer to its death
 # Plays more often during final hit + handled in a different file
-execute if score @s[tag=!stellarity.flying_to_portal,tag=!stellarity.at_portal] stellarity.dragon.health_percent matches ..20 run function stellarity:mobs/dragon/heartbeat/main
+execute if score @s stellarity.dragon.health_percent matches ..20 run function stellarity:mobs/dragon/heartbeat/main
 
 # Fly to portal to die
 execute if score @s[tag=!stellarity.at_portal] stellarity.dragon.health matches 0..1 run function stellarity:mobs/dragon/death/fly_to_portal
