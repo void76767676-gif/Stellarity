@@ -17,4 +17,4 @@ function kohara:reduce_by_percent {percent:50,holder:"#damage",score:"stellarity
 
 tag @p[predicate=stellarity:items/holding/kaleidoscope] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:25,damage_boost_efficiency:50,damage_type:"stellarity:kaleidoscope",tag:"stellarity.damage.kaleidoscope"}
+function kohara:damage/calculate {armor_penetration:25,damage_boost_efficiency:50,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:kaleidoscope",tag:"stellarity.damage.kaleidoscope"}

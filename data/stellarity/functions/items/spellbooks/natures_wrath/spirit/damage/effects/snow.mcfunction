@@ -8,4 +8,4 @@ execute if predicate kohara:chance/66percent run function stellarity:utils/statu
 
 tag @p[predicate=stellarity:items/holding/spellbooks/natures_wrath] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}
+function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

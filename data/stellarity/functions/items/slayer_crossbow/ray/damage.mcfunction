@@ -3,6 +3,6 @@ scoreboard players operation #damage kohara.misc += #extra_damage stellarity.mis
 
 tag @p[predicate=stellarity:items/holding/slayer_crossbow] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:15,damage_boost_efficiency:0,damage_type:"minecraft:arrow",tag:"stellarity.damage.slayer_crossbow"}
+function kohara:damage/calculate {armor_penetration:15,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"minecraft:arrow",tag:"stellarity.damage.slayer_crossbow"}
 
 tag @s add laser

@@ -11,4 +11,4 @@ execute unless entity @s[type=player] run playsound minecraft:entity.player.hurt
 
 execute unless entity @s[type=player] run tag @p add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/frostburn",tag:"stellarity.damage.dot.frostburn"}
+function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dot/frostburn",tag:"stellarity.damage.dot.frostburn"}
