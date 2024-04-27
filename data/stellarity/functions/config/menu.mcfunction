@@ -30,7 +30,7 @@ function stellarity:utils/tellraw/config {title:"Enable Treasure Heads",descript
 
 function stellarity:utils/tellraw/config {title:"Dragon Music Loop Delay",description:"Number of ticks Dragon's boss theme is going to loop after. Only edit if you actually have a reason to.",default:'{"text":"4230","color":"#EEEEEE"}',score:"track_loop_delay.dragon",numerical:1,suggested_value:4230}
 
-function stellarity:utils/tellraw/config {title:"EoL Loop Delay",description:"Number of ticks Empress of Light's boss theme is going to loop after. Only edit if you actually have a reason to.",default:'{"text":"3800","color":"#EEEEEE"}',score:"track_loop_delay.eol",numerical:1,suggested_value:3800}
+function stellarity:utils/tellraw/config {title:"EoL Loop Delay",description:"Number of ticks Empress of Light's boss theme is going to loop after. Only edit if you actually have a reason to.",default:'{"text":"5980","color":"#EEEEEE"}',score:"track_loop_delay.eol",numerical:1,suggested_value:5980}
 
 function stellarity:utils/tellraw/config {title:"Enable Dragon Screenshake",description:"Enables a bootleg screenshake effect during the Dragon's spawn animation. Can be nauseating to some, so feel free to disable it. It isn't the best anyway.",default:'{"translate":"stellarity.config.enabled","fallback":"Enabled","color":"#91FF7B"}',score:"enable_dragon_screenshake",numerical:0,suggested_value:1}
 

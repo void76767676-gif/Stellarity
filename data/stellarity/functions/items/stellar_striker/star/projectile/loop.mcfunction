@@ -1,13 +1,13 @@
 scoreboard players add @s stellarity.misc 1
 
-tp @s[tag=!stellarity.casket] ^ ^ ^1.75 ~ ~0.35
-tp @s[tag=stellarity.casket] ^ ^ ^2.1875 ~ ~0.35
+execute store result storage stellarity:temp stellar_striker.velocity float 0.01 run scoreboard players get @s stellarity.misc3
+function stellarity:items/stellar_striker/star/projectile/move_macro with storage stellarity:temp stellar_striker
 
-execute if score @s stellarity.misc matches 2.. run function stellarity:items/stellar_striker/star/projectile/particles
+function stellarity:items/stellar_striker/star/projectile/particles
 
 execute if score @s stellarity.misc matches 3.. if entity @e[type=!#kohara:invalid_targets,dx=0,limit=1,sort=nearest] run function stellarity:items/stellar_striker/star/projectile/detonate
 
-execute if score @s stellarity.misc matches 60.. run function stellarity:items/stellar_striker/star/projectile/detonate
+execute if score @s stellarity.misc matches 100.. run function stellarity:items/stellar_striker/star/projectile/detonate
 
 # Uses a score to determine whether to remove the projectile or not
 # because for some reason it detonated twice
