@@ -12,8 +12,7 @@ execute as @e[type=allay,tag=stellarity.allay.natural_hallow_spawn] at @s run fu
 execute as @e[type=trident,predicate=stellarity:locations/below_y_0,predicate=stellarity:locations/in_the_end] run data merge entity @s {DealtDamage:1b}
 
 # Villagers
-## TEMPORARILY DISABLED
-# execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
+execute as @e[type=villager,tag=!stellarity.aware,tag=!stellarity.villager,predicate=stellarity:locations/structures/in_end_village] at @s run function stellarity:mobs/villager/check
 
 execute as @e[type=#stellarity:stat_buff,tag=!stellarity.aware,tag=!stellarity.buffed,predicate=stellarity:locations/in_the_end] run function stellarity:mobs/stat_buff/main
 

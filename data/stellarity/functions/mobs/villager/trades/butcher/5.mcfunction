@@ -3,6 +3,6 @@ data modify storage stellarity:temp villager_trades set from entity @s Offers.Re
 
 data remove storage stellarity:temp villager_trades[-1]
 
-function stellarity:mobs/villager/trade_editor/add_enderite_buy {max_uses:12,price_multiplier:0.05,buy_id:"chorus_fruit",buy_count:26,buy_b_id:"air",buy_b_count:1,sell_count:1,xp:30}
+function stellarity:mobs/villager/trade_editor/add_from_loot_table {xp:50,max_uses:2,price_multiplier:0.2,buy_count:44,buy_b_id:"air",buy_b_count:1,sell_count:1,loot_table:"stellarity:items/food/shepherds_pie"}
 
 data modify entity @s Offers.Recipes set from storage stellarity:temp villager_trades

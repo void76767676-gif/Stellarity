@@ -1,0 +1,50 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:item_frame",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.phantom_item_frame",
+								"fallback": "Phantom Item Frame",
+								"color": "yellow",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								{
+									"text": ""
+								},
+								{
+									"translate": "stellarity.items.phantom_item_frame.description",
+									"fallback": "Turns invisible when an item is put inside",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{stellarity.special_item:\"phantom_item_frame\",EntityTag:{Tags:[\"stellarity.phantom_item_frame\"]},CustomModelData:90000}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -11,7 +11,8 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Amarene",
+								"translate": "stellarity.items.potions.amarena",
+								"fallback": "Amarene",
 								"color": "#C90D17",
 								"italic": false
 							}
