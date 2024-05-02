@@ -7,11 +7,11 @@ execute as @e[type=marker,limit=1,sort=nearest,tag=stellarity.wisp] at @s rotate
 execute store result score #arrow_damage stellarity.misc run data get entity @s damage 100
 scoreboard players set #150 stellarity.misc 150
 scoreboard players set #100 stellarity.misc 100
-# Damage: 4 + 150% of base arrow damage
+# Damage: 5 + 150% of base arrow damage
 scoreboard players operation #arrow_damage stellarity.misc *= #150 stellarity.misc
 scoreboard players operation #arrow_damage stellarity.misc /= #100 stellarity.misc
 
-scoreboard players set #wisp_damage stellarity.misc 400
+scoreboard players set #wisp_damage stellarity.misc 500
 scoreboard players operation #wisp_damage stellarity.misc += #arrow_damage stellarity.misc
 
 scoreboard players operation @e[type=marker,limit=1,sort=nearest,tag=stellarity.wisp] stellarity.items.spectral_fury.damage = #wisp_damage stellarity.misc
