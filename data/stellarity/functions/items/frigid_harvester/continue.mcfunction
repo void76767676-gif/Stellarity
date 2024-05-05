@@ -56,10 +56,10 @@ execute if score #temp2 stellarity.misc matches 80..89 run \
 	data modify storage stellarity:temp aery_sword.damage_round set value ".8"
 execute if score #temp2 stellarity.misc matches 90..99 run \
 	data modify storage stellarity:temp aery_sword.damage_round set value ".9"
-# Add 5 to the damage display (for base damage)
+# Add 4 to the damage display (for base damage)
 scoreboard players operation #damage_int stellarity.misc = #damage stellarity.misc
-scoreboard players set #5 stellarity.misc 500
-scoreboard players operation #damage_int stellarity.misc += #5 stellarity.misc
+scoreboard players set #4 stellarity.misc 400
+scoreboard players operation #damage_int stellarity.misc += #4 stellarity.misc
 # Translate it into the storage
 # 'aery_sword.damage_int' is the number before the coma in the damage display
 # 'aery_sword.damage' is the actual extra damage stat used in the item NBT

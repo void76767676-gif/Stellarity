@@ -11,6 +11,7 @@ data remove storage stellarity:temp aery_sword.lore[0]
 data remove storage stellarity:temp aery_sword.lore[0]
 data remove storage stellarity:temp aery_sword.lore[0]
 data remove storage stellarity:temp aery_sword.lore[0]
+data remove storage stellarity:temp aery_sword.lore[0]
 # ...and replaces them with
 # 1) A new line (for visibility)
 # 2) A mention that no more damage can be gained

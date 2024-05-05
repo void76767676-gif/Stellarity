@@ -87,9 +87,12 @@ scoreboard objectives add stellarity.items.aery_sword.kills.witch minecraft.kill
 scoreboard objectives add stellarity.items.aery_sword.kills.blaze minecraft.killed:minecraft.blaze
 scoreboard objectives add stellarity.items.aery_sword.kills.stray minecraft.killed:minecraft.stray
 scoreboard objectives add stellarity.items.aery_sword.kills.wither minecraft.killed:minecraft.wither
+scoreboard objectives add stellarity.items.aery_sword.kills.warden minecraft.killed:minecraft.warden
+scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton minecraft.killed:minecraft.wither_skeleton
 scoreboard objectives add stellarity.items.aery_sword.kills.witch.count dummy
 scoreboard objectives add stellarity.items.aery_sword.kills.blaze.count dummy
 scoreboard objectives add stellarity.items.aery_sword.kills.stray.count dummy
+scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton.count dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.duration dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.cooldown dummy
 
