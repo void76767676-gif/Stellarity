@@ -156,7 +156,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"frigid_harvester\",HideFlags:6,stellarity.aery_sword:{damage:0d,abilities:[]},kohara.fireproof:0b}"
+							"tag": "{CustomModelData:90031,stellarity.special_item:\"frigid_harvester\",HideFlags:6,stellarity.aery_sword:{damage:0d,abilities:[]},kohara.fireproof:0b}"
 						}
 					]
 				}

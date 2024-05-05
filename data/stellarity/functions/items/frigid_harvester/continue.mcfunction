@@ -9,25 +9,25 @@ execute unless score #damage stellarity.misc matches 1200.. run \
 	function stellarity:items/frigid_harvester/effects/crack/crack
 
 ## Item modifier part thingy
-# Make the sword fireproof after reaching 6 extra damage (11 total)
+# Make the sword fireproof after reaching 6 extra damage (10 total)
 data modify storage stellarity:temp aery_sword.fireproof set value 0b
 execute if score #damage stellarity.misc matches 600.. run data modify storage stellarity:temp aery_sword.fireproof set value 1b
 # Custom model data depending on extra damage
 # Levlel 0 (Base)
 execute if score #damage stellarity.misc matches 0..299 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90001
+	data modify storage stellarity:temp aery_sword.cmd set value 90031
 # Level 1
 execute if score #damage stellarity.misc matches 300..599 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90002
+	data modify storage stellarity:temp aery_sword.cmd set value 90032
 # Level 2
 execute if score #damage stellarity.misc matches 600..899 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90003
+	data modify storage stellarity:temp aery_sword.cmd set value 90033
 # Level 3
 execute if score #damage stellarity.misc matches 900..1199 run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90004
+	data modify storage stellarity:temp aery_sword.cmd set value 90034
 # Level 4 (Maxed)
 execute if score #damage stellarity.misc matches 1200.. run \
-	data modify storage stellarity:temp aery_sword.cmd set value 90005
+	data modify storage stellarity:temp aery_sword.cmd set value 90035
 # Probably one of the least efficient ways to make the number after the coma
 # Rounding
 scoreboard players operation #temp stellarity.misc = #damage stellarity.misc

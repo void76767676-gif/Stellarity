@@ -1,10 +1,10 @@
 ## Extra damage
 # Mostly passive mobs
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={minor=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 4
+	scoreboard players set #damage_extra stellarity.misc 3
 # Weaker mobs, like e.g. Zombies, Skeletons, Endermen
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={small=true}}] run \
-	scoreboard players set #damage_extra stellarity.misc 100000
+	scoreboard players set #damage_extra stellarity.misc 7
 # Stronger foes, like e.g. Creepers, Vindicators
 execute if entity @s[advancements={stellarity:events/items/kill/aery_sword={big=true}}] run \
 	scoreboard players set #damage_extra stellarity.misc 12
