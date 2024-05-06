@@ -1,5 +1,3 @@
-function stellarity:items/food/fish/main
-
 # Dragonblade
 execute as @e[type=!#kohara:invalid_targets,scores={stellarity.items.dragonblade.until_punch_reset=1..}] run function stellarity:items/dragonblade/punch/progress_reset_countdown
 

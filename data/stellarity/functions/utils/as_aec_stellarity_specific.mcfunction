@@ -5,3 +5,9 @@ execute if entity @s[tag=stellarity.duskberry_cloud] run function stellarity:ite
 
 # Starstruck Carcanet
 execute if entity @s[tag=stellarity.carcanet.aec] run function stellarity:items/starstruck_carcanet/aec_loop
+
+# Crystal Heartfish
+execute if entity @s[tag=stellarity.items.fish.crystal_heartfish.aec] rotated as @s run function stellarity:items/food/fish/crystal_heartfish/animation
+
+# Void Fishing
+execute if entity @s[tag=stellarity.void_fishing_aec] run function stellarity:mechanics/void_fishing/as_aec/tick

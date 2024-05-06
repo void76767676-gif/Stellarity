@@ -6,18 +6,18 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 22,
-					"name": "stellarity:items/food/fish/prismite"
+					"name": "stellarity:items/food/fish/prismite",
+					"weight": 25
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 13,
-					"name": "stellarity:items/food/fish/crystal_heartfish"
+					"name": "stellarity:items/food/fish/crystal_heartfish",
+					"weight": 18
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 9,
 					"name": "stellarity:items/materials/pixie_dust",
+					"weight": 9,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -30,8 +30,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:cherry_leaves",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -44,8 +44,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 6,
 					"name": "minecraft:pink_petals",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",

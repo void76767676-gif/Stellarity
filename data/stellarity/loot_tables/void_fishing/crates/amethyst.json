@@ -27,8 +27,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:obsidian",
+					"weight": 2,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -51,6 +51,20 @@
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:cherry_log",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 4
+							}
+						}
+					]
 				}
 			]
 		},
@@ -62,8 +76,8 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:amethyst_block",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -80,8 +94,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:calcite",
+					"weight": 3,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -94,8 +108,50 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:amethyst_cluster",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:small_amethyst_bud",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:medium_amethyst_bud",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:large_amethyst_bud",
+					"weight": 1,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -144,6 +200,24 @@
 		},
 		{
 			"rolls": {
+				"min": -1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:night_vision"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
 				"min": -3,
 				"max": 1
 			},
@@ -179,6 +253,25 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/starless_scythe"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/spellbooks/jinx"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
 				}
 			]
 		}

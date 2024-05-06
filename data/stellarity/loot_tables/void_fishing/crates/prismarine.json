@@ -53,36 +53,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"name": "minecraft:sponge"
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:prismarine",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 7
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:dark_prismarine",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"min": 3,
-								"max": 6
-							}
-						}
-					]
-				},
-				{
-					"type": "minecraft:item",
 					"name": "minecraft:kelp",
 					"functions": [
 						{
@@ -103,7 +73,7 @@
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
-								"max": 4
+								"max": 3
 							},
 							"add": false
 						}
@@ -113,7 +83,56 @@
 		},
 		{
 			"rolls": {
-				"min": 0,
+				"min": 2,
+				"max": 3
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:sea_lantern",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:prismarine",
+					"weight": 5,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 2,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:dark_prismarine",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
+				"min": -1,
 				"max": 1
 			},
 			"entries": [

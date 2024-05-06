@@ -5,13 +5,13 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 12,
-					"name": "stellarity:items/food/fish/bubblefish"
+					"name": "stellarity:items/food/fish/bubblefish",
+					"weight": 12
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:prismarine",
+					"weight": 6,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -24,8 +24,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 3,
 					"name": "minecraft:prismarine_crystals",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -38,8 +38,8 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 2,
 					"name": "minecraft:glow_ink_sac",
+					"weight": 5,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
