@@ -6,7 +6,7 @@ scoreboard players operation #damage kohara.misc += #enchant stellarity.misc
 
 tag @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] add kohara.attacker
 
-execute if score #damage kohara.misc matches 320.. run advancement grant @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] only stellarity:aota/kaliyah
+execute if score #damage kohara.misc matches 320.. run advancement grant @p[predicate=stellarity:items/holding/dragonblade,predicate=kohara:player/is_sneaking] only stellarity:dragons_den/kaliyah
 
 effect give @s slowness 2 6 true
 effect give @s weakness 11 0 false

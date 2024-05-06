@@ -1,4 +1,4 @@
-tp @s ~ ~ ~
+tp @s ~ ~-0.5 ~
 function stellarity:items/dragonblade/punch/special_fx/teleport
 
 scoreboard players set #effect.duration stellarity.misc 200
