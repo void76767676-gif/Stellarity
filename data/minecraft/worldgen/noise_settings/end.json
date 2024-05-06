@@ -558,45 +558,6 @@
 				}
 			},
 			{
-				"type": "minecraft:condition",
-				"if_true": {
-					"type": "minecraft:biome",
-					"biome_is": [
-						"stellarity:sculk_growth"
-					]
-				},
-				"then_run": {
-					"type": "minecraft:sequence",
-					"sequence": [
-						{
-							"type": "minecraft:condition",
-							"if_true": {
-								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
-								"min_threshold": 0.5,
-								"max_threshold": 0.67
-							},
-							"then_run": {
-								"type": "minecraft:condition",
-								"if_true": {
-									"type": "minecraft:stone_depth",
-									"offset": 3,
-									"surface_type": "floor",
-									"add_surface_depth": false,
-									"secondary_depth_range": 0
-								},
-								"then_run": {
-									"type": "minecraft:block",
-									"result_state": {
-										"Name": "minecraft:sculk"
-									}
-								}
-							}
-						}
-					]
-				}
-			},
-			{
 				"type": "minecraft:sequence",
 				"sequence": [
 					{

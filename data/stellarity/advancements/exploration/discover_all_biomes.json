@@ -168,16 +168,7 @@
 				}
 			}
 		},
-		"sculk_growth": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"location": {
-						"biome": "stellarity:sculk_growth"
-					}
-				}
-			}
-		},
+
 		"void": {
 			"trigger": "minecraft:location",
 			"conditions": {
@@ -244,9 +235,6 @@
 		],
 		[
 			"warped_marsh"
-		],
-		[
-			"sculk_growth"
 		],
 		[
 			"void"
