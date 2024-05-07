@@ -41,6 +41,7 @@ scoreboard objectives add stellarity.items.crest.time dummy
 scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
 scoreboard objectives add stellarity.items.elektra_shield.animation dummy
 scoreboard objectives add stellarity.items.elektra_shield.dashes dummy
+scoreboard objectives add stellarity.items.elektra_shield.zap_count dummy
 
 # Prismatic Punch
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy

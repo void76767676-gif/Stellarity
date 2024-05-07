@@ -47,7 +47,6 @@ execute if score @s stellarity.items.prismember.until_charge_reset matches 1.. r
 
 # Copper Elektra Shield
 execute if entity @s[predicate=stellarity:items/holding/trinkets/elektra_shield,scores={stellarity.items.elektra_shield.dashes=0..2}] run function stellarity:items/elektra_shield/recharge_dashes
-execute if entity @s[tag=stellarity.items.elektra_shield.using] run function stellarity:items/elektra_shield/dash
 
 # Chorus Dagger
 execute if entity @s[predicate=stellarity:items/holding/chorus_dagger,predicate=kohara:player/is_sneaking] unless score @s stellarity.items.chorus_dagger.cooldown matches 1.. if entity @e[type=!#kohara:invalid_targets,distance=0.01..8] run function stellarity:items/chorus_dagger/dash
