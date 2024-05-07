@@ -4,7 +4,7 @@ execute if score #hit stellarity.misc matches 0 positioned ~-0.05 ~-0.05 ~-0.05 
 
 #Run a function if a block was successfully detected.
 
-execute unless block ~ ~ ~ #kohara:air run function stellarity:items/stellar_striker/star/projectile/raycast/hit_block
+execute unless block ~ ~ ~ #kohara:air unless block ~ ~ ~ #kohara:liquids run function stellarity:items/stellar_striker/star/projectile/raycast/hit_block
 scoreboard players add #distance stellarity.misc 1
 
 #If the raycast failed, run a function with the custom commands.
