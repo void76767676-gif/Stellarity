@@ -6,9 +6,13 @@ execute if score @p stellarity.items.stellar_striker.stars.amount matches 3.. po
 execute if score @p stellarity.items.stellar_striker.stars.amount matches 4.. positioned ^1.2 ^1.1 ^ run function stellarity:items/stellar_striker/star/projectile/launch
 execute if score @p stellarity.items.stellar_striker.stars.amount matches 5 positioned ^-1.2 ^1.1 ^ run function stellarity:items/stellar_striker/star/projectile/launch
 
-execute if entity @p[name="kohara_"] run playsound stellarity:item.stellar_striker.thorn_apart player @a[distance=0..]
-playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 1 1.3
-playsound minecraft:block.beacon.power_select player @a[distance=0..] ~ ~ ~ 1 1.1
+#execute if entity @p[name="kohara_"] run playsound stellarity:item.stellar_striker.thorn_apart player @a[distance=0..]
+execute if score @p stellarity.items.stellar_striker.stars.amount matches 1 run playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.85 1.3
+execute if score @p stellarity.items.stellar_striker.stars.amount matches 2 run playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.85 1.2
+execute if score @p stellarity.items.stellar_striker.stars.amount matches 3 run playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.85 1.1
+execute if score @p stellarity.items.stellar_striker.stars.amount matches 4 run playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.85 1
+execute if score @p stellarity.items.stellar_striker.stars.amount matches 5 run playsound minecraft:entity.wither.shoot player @a[distance=0..] ~ ~ ~ 0.85 0.9
+playsound minecraft:block.beacon.power_select player @a[distance=0..] ~ ~ ~ 0.75 1.1
 
 scoreboard players set @p stellarity.items.stellar_striker.cooldown 120
 scoreboard players set @p stellarity.items.stellar_striker.stars.amount 0
