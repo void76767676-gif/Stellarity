@@ -9,7 +9,7 @@
 		},
 		"description": {
 			"translate": "stellarity.advancements.transmute_item.description",
-			"fallback": "Transmute an item into something different by throwing it into the water in The Hallow"
+			"fallback": "Transmute any item into something different by throwing it into the water in The Hallow"
 		},
 		"frame": "task",
 		"show_toast": true,
@@ -18,7 +18,7 @@
 	},
 	"parent": "stellarity:exploration/enter_hallow",
 	"criteria": {
-		"requirement": {
+		"transmute_item": {
 			"trigger": "minecraft:impossible",
 			"conditions": {}
 		}
