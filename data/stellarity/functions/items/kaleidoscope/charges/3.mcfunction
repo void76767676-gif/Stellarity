@@ -1,7 +1,3 @@
-scoreboard players set #2 stellarity.misc 2
-scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
-execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
-
 playsound stellarity:item.kaleidoscope.level_3 player @a[distance=0..] ~ ~ ~ 1 1
 
 playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 1 0.8

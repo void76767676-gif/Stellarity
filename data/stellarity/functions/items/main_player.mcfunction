@@ -33,7 +33,6 @@ execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/
 
 # Kaleidoscope
 execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
-execute if entity @s[scores={stellarity.items.kaleidoscope.charge=1..},predicate=!stellarity:items/holding/kaleidoscope] run function stellarity:items/kaleidoscope/reset_charge
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation

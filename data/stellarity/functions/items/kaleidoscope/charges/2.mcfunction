@@ -1,7 +1,3 @@
-scoreboard players set #2 stellarity.misc 2
-scoreboard players operation #fire stellarity.misc = #charge stellarity.misc
-execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
-
 playsound stellarity:item.kaleidoscope.level_2 player @a[distance=0..] ~ ~ ~ 1 1
 
 playsound minecraft:entity.generic.explode player @a[distance=0..] ~ ~ ~ 1 0.9
@@ -17,13 +13,12 @@ particle explosion ^ ^ ^
 particle flash ^ ^ ^
 particle cloud ^ ^ ^ 0 0 0 0.147 48
 
-
 execute positioned ^ ^ ^ run function stellarity:items/kaleidoscope/charges/2_wave
 
 execute unless entity @s[advancements={stellarity:events/items/kill/kaleidoscope=true}] run function stellarity:items/kaleidoscope/charges/damage/2
-execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=0.1..0.9] run function stellarity:items/kaleidoscope/charges/splash/2/inner
-execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=0.91..1.8] run function stellarity:items/kaleidoscope/charges/splash/2/middle
-execute as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=1.81..2.7] run function stellarity:items/kaleidoscope/charges/splash/2/outer
+execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=0.1..0.9] run function stellarity:items/kaleidoscope/charges/splash/2/inner
+execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=0.91..1.8] run function stellarity:items/kaleidoscope/charges/splash/2/middle
+execute at @s as @e[type=!#kohara:invalid_targets,predicate=!stellarity:items/holding/kaleidoscope,distance=1.81..2.7] run function stellarity:items/kaleidoscope/charges/splash/2/outer
 
 scoreboard players reset @p[predicate=stellarity:items/holding/kaleidoscope] stellarity.items.kaleidoscope.charge_progress
 scoreboard players reset @p[predicate=stellarity:items/holding/kaleidoscope] stellarity.items.kaleidoscope.charge

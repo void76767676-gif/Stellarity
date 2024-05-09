@@ -1,4 +1,6 @@
-scoreboard players set #fire stellarity.misc 120
+execute store result score #temp stellarity.misc run data get entity @s Fire
+
+scoreboard players set #fire stellarity.misc 260
 execute store result entity @s Fire short 1 run scoreboard players get #fire stellarity.misc
 
 scoreboard players set #damage kohara.misc 300

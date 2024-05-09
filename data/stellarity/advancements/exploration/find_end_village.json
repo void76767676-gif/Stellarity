@@ -1,8 +1,8 @@
 {
 	"display": {
 		"icon": {
-			"item": "minecraft:emerald",
-			"nbt": "{Enchantments:[{}]}"
+			"item": "minecraft:amethyst_shard",
+			"nbt": "{CustomModelData:90001,Enchantments:[{}]}"
 		},
 		"title": {
 			"translate": "stellarity.advancements.find_end_village",
