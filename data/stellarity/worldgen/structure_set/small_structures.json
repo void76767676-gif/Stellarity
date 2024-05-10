@@ -3,6 +3,10 @@
 		{
 			"structure": "stellarity:campsite",
 			"weight": 1
+		},
+		{
+			"structure": "stellarity:fishing_hut",
+			"weight": 1
 		}
 	],
 	"placement": {
@@ -12,7 +16,7 @@
 			"other_set": "minecraft:end_cities",
 			"chunk_count": 10
 		},
-		"spacing": 25,
+		"spacing": 20,
 		"separation": 15
 	}
 }
