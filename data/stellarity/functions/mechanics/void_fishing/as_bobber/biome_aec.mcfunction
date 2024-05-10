@@ -56,7 +56,3 @@ execute if biome ~ ~ ~ minecraft:end_midlands run \
 execute if biome ~ ~ ~ minecraft:small_end_islands run \
 	summon area_effect_cloud ~ ~ ~ \
 	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}
-
-execute unless biome ~ ~ ~ #stellarity:biomes/all_with_dragons_den run \
-	summon area_effect_cloud ~ ~ ~ \
-	{Radius:1,Particle:"dragon_breath",Tags:["stellarity.void_fishing_aec","stellarity.aec"],Duration:2147483647}

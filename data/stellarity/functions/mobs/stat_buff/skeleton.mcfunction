@@ -9,3 +9,5 @@ attribute @s minecraft:generic.movement_speed modifier add ac60d56a-76b2-4e45-83
 attribute @s minecraft:generic.follow_range modifier add 5c71dae2-ad6e-4d51-8d18-7bb74abbdbc1 "stellarity.follow_range" 0.33 multiply
 
 data merge entity @s {Health:24.0f,DeathLootTable:"stellarity:mobs/buffed/skeleton"}
+
+execute at @s if biome ~ ~ ~ stellarity:frosted_hills run function stellarity:mobs/stat_buff/skeleton/frosted_hills
