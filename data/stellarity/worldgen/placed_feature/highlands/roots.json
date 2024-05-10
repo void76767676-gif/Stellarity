@@ -1,38 +1,12 @@
 {
-	"feature": "stellarity:highlands/stalactite",
+	"feature": "stellarity:highlands/roots",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": {
-				"type": "minecraft:weighted_list",
-				"distribution": [
-					{
-						"weight": 100,
-						"data": 14
-					},
-					{
-						"weight": 50,
-						"data": 28
-					},
-					{
-						"weight": 25,
-						"data": 56
-					},
-					{
-						"weight": 1,
-						"data": 80
-					}
-				]
-			}
+			"count": 87
 		},
 		{
 			"type": "minecraft:in_square"
-		},
-		{
-			"type": "minecraft:noise_based_count",
-			"noise_to_count_ratio": 10,
-			"noise_factor": 55,
-			"noise_offset": 0
 		},
 		{
 			"type": "minecraft:height_range",
@@ -51,7 +25,20 @@
 			"direction_of_search": "up",
 			"max_steps": 32,
 			"target_condition": {
-				"type": "minecraft:solid"
+				"type": "minecraft:all_of",
+				"predicates": [
+					{
+						"type": "minecraft:has_sturdy_face",
+						"direction": "down"
+					},
+					{
+						"type": "minecraft:matching_blocks",
+						"blocks": [
+							"minecraft:dirt",
+							"minecraft:grass_block"
+						]
+					}
+				]
 			},
 			"allowed_search_condition": {
 				"type": "minecraft:matching_blocks",
@@ -59,6 +46,11 @@
 					"minecraft:air"
 				]
 			}
+		},
+		{
+			"type": "minecraft:random_offset",
+			"xz_spread": 0,
+			"y_spread": -1
 		},
 		{
 			"type": "minecraft:biome"
