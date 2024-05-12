@@ -1,5 +1,5 @@
 # Shulker Armor Shulker Bullet targetting
-execute as @e[type=minecraft:shulker_bullet,tag=stellarity.defensive_shulker_bullet] at @s run function stellarity:items/armors/shulker_armor/shulker_bullets/seek
+execute as @e[type=minecraft:shulker_bullet,tag=stellarity.defensive_shulker_bullet] at @s run function stellarity:items/armor/shulker/shulker_bullets/seek
 tag @a[tag=stellarity.items.shulker_armor.attacker] remove stellarity.items.shulker_armor.attacker
 
 # Gloop Froggo protection

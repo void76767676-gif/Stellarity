@@ -6,6 +6,7 @@
         "stellarity:utils/status_effects/prismatic_inferno/load",
 		"stellarity:utils/status_effects/creative_shock/load",
 		"stellarity:utils/status_effects/brittle/load",
-		"stellarity:utils/status_effects/echo/load"
+		"stellarity:utils/status_effects/echo/load",
+		"stellarity:utils/status_effects/bloom/load"
     ]
 }

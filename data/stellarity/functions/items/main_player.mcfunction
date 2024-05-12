@@ -1,6 +1,3 @@
-# Armor sets
-function stellarity:items/armors/main
-
 # Bows
 execute if entity @s[scores={kohara.shot_bow=1..}] run function stellarity:items/check_bow
 
@@ -63,3 +60,10 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 # Stellar Striker
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/stop
+
+
+## Armor sets
+# Has to be ticked after everything so
+# that Floral Armor effects can work
+# as intended
+function stellarity:items/armor/main

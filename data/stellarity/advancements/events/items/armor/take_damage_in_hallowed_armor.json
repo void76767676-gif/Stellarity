@@ -33,6 +33,6 @@
 		]
 	],
 	"rewards": {
-		"function": "stellarity:items/armors/hallowed_armor/take_damage"
+		"function": "stellarity:items/armor/hallowed/take_damage"
 	}
 }

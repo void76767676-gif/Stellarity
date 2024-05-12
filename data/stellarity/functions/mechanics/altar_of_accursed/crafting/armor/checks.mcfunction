@@ -72,3 +72,28 @@ execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,di
 	if entity @e[type=item,tag=stellarity.aota.shulker_shells,distance=..1.5] \
 	if entity @e[type=item,tag=stellarity.aota.netherite_boots,distance=..1.5] run \
 	function stellarity:mechanics/altar_of_accursed/crafting/armor/shulker/boots
+
+## Floral
+# Helmet
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
+	if entity @e[type=item,tag=stellarity.aota.8_cherry_leaves,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.netherite_helmet,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/armor/floral/helmet
+
+# Chestplate
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
+	if entity @e[type=item,tag=stellarity.aota.8_cherry_leaves,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.netherite_chestplate,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/armor/floral/chestplate
+
+# Leggings
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
+	if entity @e[type=item,tag=stellarity.aota.8_cherry_leaves,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.netherite_leggings,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/armor/floral/leggings
+
+# Boots
+execute if entity @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5] \ 
+	if entity @e[type=item,tag=stellarity.aota.8_cherry_leaves,distance=..1.5] \
+	if entity @e[type=item,tag=stellarity.aota.netherite_boots,distance=..1.5] run \
+	function stellarity:mechanics/altar_of_accursed/crafting/armor/floral/boots

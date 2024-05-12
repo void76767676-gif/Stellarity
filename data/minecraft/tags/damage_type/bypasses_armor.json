@@ -6,6 +6,7 @@
 		"kohara:true_damage_difficulty_scaling",
 		"stellarity:electric",
 		"stellarity:dot/frostburn",
-		"stellarity:dot/prismatic_inferno"
+		"stellarity:dot/prismatic_inferno",
+		"stellarity:echo"
 	]
 }

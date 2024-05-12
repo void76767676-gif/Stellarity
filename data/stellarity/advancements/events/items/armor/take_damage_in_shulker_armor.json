@@ -33,6 +33,6 @@
 		]
 	],
 	"rewards": {
-		"function": "stellarity:items/armors/shulker_armor/take_damage"
+		"function": "stellarity:items/armor/shulker/take_damage"
 	}
 }

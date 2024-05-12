@@ -32,7 +32,7 @@ scoreboard players reset @s[scores={stellarity.dot.prismatic_inferno.particle_cy
 
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~
 
-execute unless entity @s[type=player] run tag @p add kohara.attacker
+tag @p[distance=0.01..] add kohara.attacker
 
 data modify entity @s Fire set value 1s
 

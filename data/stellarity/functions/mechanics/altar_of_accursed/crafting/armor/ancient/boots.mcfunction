@@ -7,7 +7,7 @@ kill @e[type=item,tag=stellarity.aota.chorus_plating,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_boots,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 
-loot spawn ~ ~-.4 ~ loot stellarity:items/armors/chorus_champion_armor/boots
+loot spawn ~ ~-.4 ~ loot stellarity:items/armor/chorus_champion/boots
 tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip
 
 data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set from storage stellarity:temp aota.enchants

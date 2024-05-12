@@ -1,0 +1,115 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:leather_chestplate",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {
+								"translate": "stellarity.items.armors.floral_armor.chestplate",
+								"fallback": "Floral Chestplate",
+								"color": "#FC92D3",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"entity": "this",
+							"lore": [
+								"",
+								{
+									"translate": "stellarity.items.armors.set_bonus",
+									"fallback": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.floral_armor.set_bonus.1",
+									"fallback": "Shooting an enemy will bloom a flower over",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.floral_armor.set_bonus.2",
+									"fallback": "their head, which will explode shortly after",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.floral_armor.set_bonus.3",
+									"fallback": "Sneak while in tall plants to blend in with them",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "stellarity.items.armors.piece_bonus",
+									"fallback": "ᴘɪᴇᴄᴇ ʙᴏɴᴜs:",
+									"color": "#FF9952",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.armors.floral_armor.piece_bonus.chestplate",
+									"fallback": "+25% Arrow Velocity",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90003,stellarity.special_item:\"floral_armor\",display:{color:16552659},HideFlags:64,kohara.durability:{enabled:1b,max_dur:592},kohara.fireproof:1b}"
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.armor",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 8,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.attack_damage",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": -0.05,
+									"operation": "multiply_base",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.armor_toughness",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 3,
+									"operation": "addition",
+									"slot": "chest"
+								},
+								{
+									"attribute": "minecraft:generic.knockback_resistance",
+									"name": "",
+									"id": "9F3D476D-C118-4544-8365-64846904B48E",
+									"amount": 0.1,
+									"operation": "addition",
+									"slot": "chest"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
