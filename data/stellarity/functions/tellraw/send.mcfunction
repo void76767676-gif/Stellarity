@@ -51,8 +51,8 @@ tellraw @s [\
 	{"text":"Ko-Fi","color":"#FF8987","bold":false,"clickEvent": {"action": "open_url","value": "https://ko-fi.com/kohara"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to visit"}}},\
 	{"text": " ▪ ","color":"gray","bold":true},\
 	{"text":"❓ ","color":"#E70000","bold":true},\
-	{"text":"FAQ","color":"white","bold":false,"clickEvent": {"action": "open_url","value": "https://stellarity.kohara.xyz/wiki/faq"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to read"}}},{"text": " ▪ ","color":"gray","bold":true},{"text":"❗ ","color":"#E70000","bold":true},\
-	{"text":"Troubleshooting","color":"#FF5959","bold":false,"clickEvent": {"action": "open_url","value": "https://stellarity.kohara.xyz/wiki/troubleshooting"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to read"}}}\
+	{"text":"FAQ","color":"white","bold":false,"clickEvent": {"action": "open_url","value": "https://stellarity.kohara.xyz/wiki/faq"},"hoverEvent": {"action": "show_text","contents":{"text":"Click to read"}}},{"text": " ▪ ","color":"gray","bold":true},{"text":"🖥 ","color":"#01E0FF","bold":true},\
+	{"text":"BisectHosting","color":"#FFFFFF","bold":false,"clickEvent": {"action": "open_url","value": "https://bisecthosting.com/kohara"},"hoverEvent": {"action": "show_text","contents":{"text":"Stellarity is partnered with BisectHosting!\n\nNeed a server?\nUse code 'kohara' for 25% off your first month!"}}}\
 	]
 
 tellraw @s {"text": "| ","color":"gray","bold":true}

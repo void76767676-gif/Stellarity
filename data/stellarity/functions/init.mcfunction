@@ -138,6 +138,7 @@ scoreboard objectives add stellarity.items.spectral_fury.damage dummy
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy
 scoreboard objectives add stellarity.eol.health dummy
+scoreboard objectives add stellarity.eol.health_percent dummy
 scoreboard objectives add stellarity.eol.hurt_time dummy
 scoreboard objectives add stellarity.eol.attack_cycle dummy
 scoreboard objectives add stellarity.eol.attack_duration dummy
@@ -155,6 +156,7 @@ scoreboard objectives add stellarity.dragon.health_old dummy
 scoreboard objectives add stellarity.dragon.time_chainfiring dummy
 scoreboard objectives add stellarity.dragon.shulker_hell dummy
 scoreboard objectives add stellarity.dragon.heartbeat dummy
+scoreboard objectives add stellarity.dragon.ball_of_blight_cooldown dummy
 
 # Phantoms
 scoreboard objectives add stellarity.phantom.size dummy

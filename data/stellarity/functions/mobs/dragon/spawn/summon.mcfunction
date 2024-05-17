@@ -1,4 +1,4 @@
-summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,Attributes:[{Name:"generic.max_health",Base:300.0},{Name:"generic.armor",Base:7d},{Name:"generic.armor_toughness",Base:2d},{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.follow_range",Base:80d}]}
+summon ender_dragon ~ ~ ~ {DragonPhase:4,Tags:["fe.mob","fe.boss","fe.ender_dragon"],Health:300,Attributes:[{Name:"generic.max_health",Base:300.0},{Name:"generic.armor",Base:8d},{Name:"generic.armor_toughness",Base:4d},{Name:"generic.knockback_resistance",Base:1d},{Name:"generic.follow_range",Base:80d}]}
 summon marker ~ ~ ~ {Tags:["stellarity.dragon_marker","stellarity.marker"]}
 item replace entity @e[type=ender_dragon] weapon.mainhand with totem_of_undying 
 

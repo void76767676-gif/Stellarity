@@ -9,7 +9,7 @@ execute if entity @s[tag=fe.deactivated] run function far_end:structures/exit_po
 execute if entity @s[tag=fe.deactivated.spawn_dragon] run function far_end:structures/exit_portal/deactivated/animation
 
 # Generate the activated portal once the dragon is killed.
-execute if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/activated/animation
+execute if entity @p[predicate=stellarity:locations/dragons_den/in_main_area] if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon] run function far_end:structures/exit_portal/activated/animation
 
 ## Respawn stuff
 # Count the number of respawn Crystals placed
