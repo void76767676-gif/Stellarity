@@ -54,9 +54,9 @@ Each piece of Chorus Champion Armor can be crafted at the [Altar of The Accursed
 
 
 ## Set Bonus
-While wearing a full set of Chorus Champion Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 5%. This stacks up to 5 times for a grand total of 25% extra damage. This boost lasts for 5 seconds before vanishing, unless another attack has hit a mob.
+While wearing a full set of Chorus Champion Armor, players gain the ability to increase damage on consecutive attacks. Hitting an enemy increases the damage of the next attack by 6%. This stacks up to 5 times for a grand total of 30% extra damage. This boost lasts for 3 seconds before vanishing, unless another attack has hit a mob.
 
-The set bonus extra damage stacks with the 10% extra damage from all armor pieces, meaning the actual damage increase is 35%.
+The set bonus extra damage stacks with the 10% extra damage from all armor pieces, meaning the actual damage increase is 40%.
 
 The amount of damage stacks a player has is indicated by differently pitched hit sounds, with higher pitch being equal to higher damage multiplier.
 
@@ -67,7 +67,7 @@ Additionally, running with a full set of Chorus Champion Armor will produce a pu
 </figure>
 
 ## Tips
-- This armor set pairs extremely well with really any weapon. The increased attack speed on top of extraordinary damage boosts is enough to make even a Wooden Sword an extremely deadly weapon.
+- This armor set pairs extremely well with really any weapon who can benefit from base damage boosts. The combined damage and attack speed bonuses can make a deadly combo.
 - The damage and attack speed bonuses stack with the ones of the [Duskberry](../trinkets/duskberry.md), which makes for a destructive build.
 
 ## Trivia
@@ -87,6 +87,12 @@ Additionally, running with a full set of Chorus Champion Armor will produce a pu
 - kohara has a special particle trail, being made of Cherry Leaves particles instead of 
 
 ## History
+=== "**v2.2.0**"
+    - Renamed to Chorus Champion Armor
+    - Reverted combo duration increase (5s -> 3s)
+    - Armor toughness decreased (3 per piece -> 2 per piece)
+    - Combo damage increased (5 per hit -> 6 per hit)
+    
 === "**v2.0a**"
     - Increased combo duration (3s -> 5s).
     - No longer found in End Cities, being directly replaced by Ancient Plating.
