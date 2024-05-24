@@ -5,7 +5,7 @@
 
 Wearing a full set of Shulker Armor grants player a set bonus with multiple benefits:
 	1. Shulker Bullets seek out anything that attacks the player.
-	2. 20% damage reduction
+	2. 20% damage reduction when swarmed
 	3. Immunity to Levitation and Wither debufffs.
 
 However, Shulker Armor comes with a drawback in form of reduced movement and attack speed.
