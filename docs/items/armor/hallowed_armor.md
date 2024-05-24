@@ -29,9 +29,11 @@ Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodgin
 		<tr>
 			<td><b>Total Other Bonuses</b></td>
 			<td>
-				+10% Movement Speed
+				+8% Movement Speed
 				<br>
-				+20% Knockback Resistance
+				+40% Knockback Resistance
+				<br>
+				-12% Attack Damage
 			</td>
 		</tr>
 		<tr>
@@ -45,14 +47,14 @@ Wearing a full set of Hallowed Armor grants a set bonus, which allows for dodgin
 </div>
 
 ## Obtaining
-Pieces of Hallowed Armor have a 33% chance to generate in any Chest found inside [End Cities](../../structures/end_city.md), except for the ones on Ships. It has an additional 36% chance to have random enchantments.
 
-Each piece of Hallowed Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4/8/7/5 [Hallowed Ingots](../materials/hallowed_ingot.md).
+Each piece of Hallowed Armor can also be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4 [Hallowed Ingots](../materials/hallowed_ingot.md), 1 [Enderite Smithing Template](../materials/enderite_smithing_template.md), and the respective netherite armor piece.
+
 
 ## Set Bonus
 Equipping full set of Hallowed armor will start a 20 seconds countdown. After reaching 0, player will get a buff - **Holy Protection**. Upon taking <u>ANY</u> damage, Holy Protection will set all incoming damage to 0 for next 5 seconds, as well as making player immune to all forms of knockback. Additionally, player will get Fire Protection and Water Breathing for next 8 seconds, as well as a short boost to Movement Speed that decays over timespan of 6 seconds.
 
-This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapplied only when player takes off Hallowed Armor.
+This dodge has a cooldown of another 20 seconds. The initial 20 seconds is reapplied only when player takes off Hallowed Armor.
 
 <figure markdown>
   ![Holy Protection](../../assets/armor/hallowed/dodge.png){ align=right width="400vw" .border }
@@ -83,6 +85,11 @@ This dodge has a cooldown of another 16 seconds. The initial 20 seconds is reapp
 | <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-stellarity icon-stellarity-hallowed-armor"></i></div> | <span style="color: #FFCC38;">Hallelujah!</span> | Dodge an attack with a full set of Hallowed Armor | Cursed Crafting | :x: | `stellarity:aota/cancel_damage_hallowed_armor` |
 
 ## History
+=== "**2.2.0**"
+    - -12% attack damage penalty added
+    - Cooldown decreased (22s-> 20s)
+    - Crafting recipe changed
+    
 === "**v2.0a**"
     - No longer found in End Cities, being directly replaced by Ancient Plating.
 	- Increased dodge cooldown by 10% (20s -> 22s).
