@@ -89,6 +89,7 @@ This dodge has a cooldown of another 20 seconds. The initial 20 seconds is reapp
     - -12% attack damage penalty added
     - Cooldown decreased (22s-> 20s)
     - Crafting recipe changed
+    - Small resprite
     
 === "**v2.0a**"
     - No longer found in End Cities, being directly replaced by Ancient Plating.
