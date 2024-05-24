@@ -92,7 +92,7 @@ This dodge has a cooldown of another 20 seconds. The initial 20 seconds is reapp
     - Small resprite
     
 === "**v2.0a**"
-    - No longer found in End Cities, being directly replaced by Ancient Plating.
+    - No longer found in End Cities, being directly replaced by Hallowed Plating.
 	- Increased dodge cooldown by 10% (20s -> 22s).
     - Hallowed Treads movement speed bonus reduced (+10% -> +8%) and is now additive instead of multiplicative.
 === "**vIndev-1.6a**"

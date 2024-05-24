@@ -92,6 +92,7 @@ Additionally, running with a full set of Chorus Champion Armor will produce a pu
     - Reverted combo duration increase (5s -> 3s)
     - Armor toughness decreased (3 per piece -> 2 per piece)
     - Combo damage increased (5 per hit -> 6 per hit)
+	- Resprited
     
 === "**v2.0a**"
     - Increased combo duration (3s -> 5s).

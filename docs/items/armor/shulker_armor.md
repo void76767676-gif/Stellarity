@@ -88,6 +88,7 @@ Set bonus also applies Resistance I when surrounded with 4 or more mobs, which i
     - 20% damage reduction only applies when 4 mobs are nearby you
     - Attack speed and movement speed decreases lightened (10% -> 8%), but made multiplicative
     - Increased the chance to spawn Shulker Bullets when hurt (33% -> 50%)
+	- Resprited
     
 === "**v2.0c**"
 	- Replaced the -15% Damage penalty with a -10% Attack Speed penalty.
