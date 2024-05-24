@@ -50,7 +50,7 @@ Wearing a full set of Chorus Champion Armor grants player a set bonus, which inc
 </div>
 
 ## Obtaining
-Each piece of Chorus Champion Armor can be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4 [Chorus Plating](../materials/chorus_plating.md), 1 [Enderite Smithing Template](../materians/enderite_smithing_template.md), and the respective netherite armor piece.
+Each piece of Chorus Champion Armor can be crafted at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md), using 4 [Chorus Plating](../materials/chorus_plating.md), 1 [Enderite Smithing Template](../materials/enderite_smithing_template.md), and the respective netherite armor piece.
 
 
 ## Set Bonus
