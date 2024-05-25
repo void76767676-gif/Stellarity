@@ -2,11 +2,11 @@
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Stella** is a post-Empress sword which applies Prismatic Inferno on hit. Unlike most DoT inflicting weapons, Stella can stack the damage of its flames up to 5 times and they last longer.
+**Prismember** is a post-Empress sword which can do a spin attack that applies Prismatic Inferno to all enemies around you.
 
-<i class="icon-minecraft icon-minecraft-enchanting-table"></i> Stella can be enchanted with any Sword enchantment.
+<i class="icon-minecraft icon-minecraft-enchanting-table"></i> Prismember can be enchanted with any Sword enchantment.
 
-<i class="icon-minecraft icon-minecraft-anvil"></i> Stella can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
+<i class="icon-minecraft icon-minecraft-anvil"></i> Prismember can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
 
 <br><br>
 
@@ -16,14 +16,14 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/stella.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/Prismember.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>
 		<td><b>Damage</b></td>
-		<td>6</td>
+		<td>8</td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
@@ -32,9 +32,11 @@
 	<tr>
 		<td><b>Tooltip</b></td>
 		<td>
-		The more you attack, the more
+		Sneak to charge up a fiery spin
 		<br>
-		damage the prismatic flames do!
+		igniting all nearby mobs and setting
+		<br>
+		them on Prismatic Inferno
 		</td>
 	</tr>
 	<tr>
@@ -46,17 +48,21 @@
 </div>
 
 ## Obtaining
-Stella has a 33% chance to be dropped by the Empress of Light, but only if killed in The End or in the Overworld during nighttime.
+Prismember has a 33% chance to be dropped by the Empress of Light, but only if killed in The End or in the Overworld during nighttime.
 
 ## Usage
-Like most other Empress drops damaging enemies sets them on Prismatic Inferno
+When you crouch, a red and orange timer appears above your hotbar. 
+After 8 ticks, it is filled up and tells you to attack. 
+When you do, a fiery spin is released, dealing 8:heart::heart::heart::heart: damage with 30% armor penetration, 
+and applying Prismatic Inferno for 3 seconds, with an extra second for each level of fire aspect you have.
+This spin has a 20 tick cooldown.
 
 ## Tips
 - This weapon is great for hitting and running. Just make sure to reapply Prismatic Inferno every few seconds for it to not timeout.
 
 ## History
 === "**2.2.0**
-	
+
 
 === "**v2.1a**
 	- :rocket: Introduced

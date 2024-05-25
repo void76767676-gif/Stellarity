@@ -34,7 +34,7 @@
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Very Slow (0.9)</td>
+		<td>Very Slow (0.85)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -70,24 +70,18 @@ Frigid Harvester has a 10% chance to be found inside Frozen Crates fished up dur
 ## Usage
 Killing any living mob permanently increases Frigid Harvester's damage. Stronger mobs give more extra damage, while passive mobs barely grant any increase. Displayed damage is rounded up to the lower tenth, meaning that e.g. damage value of `8.62` is going to be displayed as `8.6` instead.
 
-Total damage Frigid Harvester can aquire is 22, however damage gains roll off quickly at higher amounts, meaning that getting past certain tresholds requires farming  
+Total damage Frigid Harvester can aquire is 19, however damage gains roll off quickly at higher amounts, meaning that getting past certain tresholds requires farming. 
 
 While holding Frigid Harvester in main hand movement speed is reduced by 15%. Players also give off ambient particles which change in appearance as the damage increases.
 
 ### Passive Abilities
-
-- **At 8 damage:**
-	- :cloud_snow: **Chill (UNLOCK)** - 20% chance per hit to apply Slowness I for 3 seconds to hit mob.
-- **At 11 damage:**
-	- :snowflake: **Frostburn (UNLOCK)** - 25% chance per hit to apply [Frostburn](../mechanics/status_effects.md#frostburn), dealing 1.5:heart: х ₀.₇₅[^3] damage every second for the next 3 seconds.
-- **At 14 damage:**
-	- :cloud_snow: **Chill II** - chance to occur per hit increased to 33%, duration increased to 4 seconds and now also inflicts Weakness I.
-	- :snowflake: **Frostburn II** - chance to inflict per hit increased to 50%, duration increased by 1 second (4 seconds total).
-- **At 22 damage:**
-    - Frigid Harvester turns <u>unbreakable</u>. Its name color and description changes.
-    - :cloud_snow: **Chill III** - chance per hit increased to 40%, stronger slowdown (Slowness II) which lasts for 1 additional second.
-    - :snowflake: **Frostburn III** - chance per hit increased to 66%, duration increased by an additional second (5 seconds total).
-    - :dagger: **Anima Conduit (UNLOCK)** - instead of directly increasing its damage, Frigid Harvester now breaks down the souls of slain mobs and converts to a healing force. The strength of the effect is different depending on the type of slain mob *(see the table below)*.
+The frigid  harvester can gain passive abilities by killing specific mobs.
+<br><i class="icon-minecraft icon-minecraft-mob-blaze-face"></i>Blaze: Frostburn. Extreme cold burns enemies for extra damage.
+<br><i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Stray: Arctic Wind. Super cold aura slows down all nearby mobs.
+<br><i class="icon-minecraft icon-minecraft-mob-witch-face"></i>Witch: Piercing Cold. Chance to weaken enemy armor on hit.
+<br><i class="icon-minecraft icon-minecraft-mob-iron-golem-face"></i>Iron Golem: Frost Barrier. Gain temporary damage reduction after killing a mob.
+<br><i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Wither: Amina Conduit. Souls are crushed down and converted into a healing force.
+<br><i class="icon-minecraft icon-minecraft-mob-ender-dragon-face"></i>Ender Dragon: Cryonics. Using a Totem of Undying encases you in protective ice, making you invulnerable and providing extreme healing.
 
 ### Stat Scaling from Mobs
 | Mobs | Extra Damage Amount| Anima Conduit Healing | Anima Conduit Feed | Tag File |
@@ -99,8 +93,8 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%. Pl
 | <i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Wither<br><i class="icon-minecraft icon-minecraft-mob-giant-face"></i>Giant<br><i class="icon-minecraft icon-minecraft-mob-elder-guardian-face"></i>Elder Guardian<br><i class="icon-minecraft icon-minecraft-mob-warden-face"></i>Warden<br>Some modded bosses | +0.67 | 16:heart::heart::heart::heart::heart::heart::heart::heart: | 12 :poultry_leg: (24 saturation) | `#stellarity:frigid_harvester/gives_huge_boost` |
 
 ## Tips
-- It is relatively easy to get Frigid Harvester to 8 or 11 damage. It can be achieved in one night by just running around and killing Zombies or Skeletons.
-    - Getting Frigid Harvester to 14 might be difficult, as weaker mobs quickly stop giving as much extra damage.
+- It is relatively easy to get Frigid Harvester to 8 or 11 damage. It can be achieved in one night by just running around and killing Zombies or Skeletons. Getting it to 14 is not much harder.
+    - Getting Frigid Harvester to 19 damage will be difficult, as weaker mobs quickly stop giving as much extra damage.
 - Even though Frigid Harvester starts extremely weak compared to other weapons of the same tier, it can quickly outdamage them with enough grinding and right setup.
 - You get slowed down while holding a Frigid Harvester. This can be cancelled out by using a Swiftness Potion.
 - Warden farming is the easiest (and probably the only) way of getting a Frigid Harvester to the maximum damage.
@@ -116,6 +110,7 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%. Pl
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | Snow Graved | Upgrade Frigid Harvester to its absolute maximum | Frozen Reaper | Reach a total of 22 damage on a Frigid Harvester | 750 EXP | `stellarity:exploration/truly_max_out_aery_sword` |
 
 ## Trivia
+- The passive ability Arctic wind is misspelled as artctic wind in game. Along with this, frost barrier's description misspelles temporary as temporar.
 - Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage, only becoming more and more pink.
 - This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](spirit_dagger.md).
 - This weapon is based on Aery[^1] kit from Roblox BedWars[^2].
@@ -125,6 +120,12 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%. Pl
 - The name of the advancement `Snow Graved` is a reference to one of Noelle's spells[^4] in deltarune Chapter 2.
 
 ## History
+=== "**v2.2.0**"
+	- Resprited
+	- Max damage lowered (22 -> 19)
+	- Passive ability system reworked, now gaining those abilities by killing specific mobs.
+	- Chill ability removed, Arctic wind, Piercing cold, Frost barrier and Cryonics added.
+
 === "**v2.1a**"
 	- Capped the max damage at 22 (previous softcap was 23).
 	- Description now mentions that the damage gains roll off at higher numbers.

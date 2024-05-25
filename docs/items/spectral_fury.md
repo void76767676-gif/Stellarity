@@ -94,10 +94,8 @@ Wisps deal `4 + (1.5 * arrowdmg)` damage, where `arrowdmg` is Arrow's base damag
 | <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting |  | An Introduction to Dark Magic | Craft anything at the Altar of The Accursed | `stellarity:aota/cursed_crafting` |
 
 ## History
-=== "**2.2.2**"
-	- :bug: Fixed the recipe not working.
-
 === "**2.2.0**"
 	- :rocket: Introduced
+	- :bug: Bug: The recipe does not work
 
 [^1]: https://minecraft.wiki/w/Power#Usage
