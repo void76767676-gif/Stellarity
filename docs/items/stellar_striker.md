@@ -50,7 +50,7 @@
 </div>
 
 ## Obtaining
-Jump off a bridge
+Cheat
 
 ## Usage
 When you hold the Stellar Striker out, stars build up. One appears every 6 seconds, with a max of 5 stars. When you crouch and attack, a star is released, dealing 12 :heart: x 6 damage with 8 :heart::heart::heart::heart: of the damage being splash. Both direct hit and splash damage have 40% armor penetration.
