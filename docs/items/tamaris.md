@@ -2,9 +2,9 @@
 
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Tamaris** is a post-Dragon sword which allows players to trigger a powerful Execute ability, warping to nearby enemies with low health and killing them instantly. It inflicts **Dark Decay** on hit enemies, causing them to take damage over time.
+**Tamaris** is a post-Dragon sword which allows players to trigger a powerful Execute ability, warping to nearby enemies with low health and killing them instantly.
 
-<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Tamaris can be enchanted with any Sword enchantment. Curse of Vanishing strengthens Dark Decay.
+<i class="icon-minecraft icon-minecraft-enchanted-book"></i> Tamaris can be enchanted with any Sword enchantment.
 
 <i class="icon-minecraft icon-minecraft-anvil"></i> Tamaris can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
 
@@ -23,11 +23,11 @@
 	</tr>
 	<tr>
 		<td><b>Damage</b></td>
-		<td>6</i></td>
+		<td>7</i></td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Normal (1.4)<i></i></td>
+		<td>Normal (1.6)<i></i></td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -35,8 +35,6 @@
 		Press [SHIFT] to activate your Execute ability,
 		<br>
 		instantly killing nearby enemies with low health!
-		<br>
-		Applies Dark Decay on hit
 		<br>
 		<i>'Property of Captain Charo'</i>
 		</td>
@@ -59,15 +57,8 @@ After sneaking for a moment, you will warp to the nearest weak mob, instantly ki
 
 Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying or a player with the [Holy Protection](armor/hallowed_armor.md) buff applies an 11 second execute cooldown. It is indicated by a <span style="color: red;">DISABLED</span> text in player's action bar, which goes away as the cooldown ends.
 
-### Dark Decay
-Sword attacks inflict **Dark Decay** for 6 seconds. Dark Decay deals 1:heart: х ₀.₅ damage every 1.5 seconds for a total of 4:heart::heart: damage. While this doesn't sound any special at first, Decay has 60% armor penetration, which means that a large portion of its damage doesn't get reduced by armor.
-
-Enchanting Tamaris with Curse of Vanishing doubles the Decay damage.
-
-Dark Decay effect stacks with other means of damage over time, like Wither, Poison or Fire.
-
 ## Tips
-- Tamaris is intended to be used as a support weapon. Switching to it to reapply Decay or to execute a weak enemy is the best way to use it.
+- Tamaris is intended to be used as a support weapon. Switching to it to execute a weak enemy is the best way to use it.
 - Tamaris prioritizes nearest weak mob while choosing a target to execute next. Keep in mind while trying to chain execute a group of weak mobs.
 - The execute treshold is lower for certain mobs.
 	- On bosses *(Wither, Empress of Light)* and Wardens, this treshold is **10%**.
@@ -125,7 +116,11 @@ Dark Decay effect stacks with other means of damage over time, like Wither, Pois
     - Despite this, the item doesn't change its appearance with time, neither does it lose any durability.
 
 ## History
-
+=== "**v2.2.0
+    - Dark decay removed.
+	- Damage buffed (6 -> 7)
+	- Attack speed increased (1.4 -> 1.6)
+	
 === "**v2.1a**"
 	- The execute indicator now shows up on weak mobs in a 20 block radius.
 	- Decoupled the search radius for mobs to execute with the strike.
