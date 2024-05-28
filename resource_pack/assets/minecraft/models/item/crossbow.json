@@ -118,23 +118,7 @@
 				"pulling": 1,
 				"custom_model_data": 90000
 			},
-			"model": "stellarity:item/clockwork_crossbow_pulling_0"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 0.58,
-				"custom_model_data": 90000
-			},
-			"model": "stellarity:item/clockwork_crossbow_pulling_1"
-		},
-		{
-			"predicate": {
-				"pulling": 1,
-				"pull": 1,
-				"custom_model_data": 90000
-			},
-			"model": "stellarity:item/clockwork_crossbow_pulling_2"
+			"model": "stellarity:item/clockwork_crossbow"
 		},
 		{
 			"predicate": {
@@ -149,7 +133,7 @@
 				"firework": 1,
 				"custom_model_data": 90000
 			},
-			"model": "stellarity:item/clockwork_crossbow_firework"
+			"model": "stellarity:item/clockwork_crossbow_arrow"
 		},
 		{
 			"predicate": {

@@ -8,7 +8,19 @@
 			"predicate": {
 				"custom_model_data": 90000
 			},
-			"model": "stellarity:item/ender_koi"
+			"model": "stellarity:item/food/fish/ender_koi"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90001
+			},
+			"model": "stellarity:item/food/sushi"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90002
+			},
+			"model": "stellarity:item/food/prismatic_sushi"
 		}
 	]
 }

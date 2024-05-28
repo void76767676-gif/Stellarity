@@ -51,6 +51,36 @@
 				"custom_model_data": 90007
 			},
 			"model": "stellarity:item/stellar_striker"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90031
+			},
+			"model": "stellarity:item/frigid_harvester/molten_tier_0"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90032
+			},
+			"model": "stellarity:item/frigid_harvester/molten_tier_1"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90033
+			},
+			"model": "stellarity:item/frigid_harvester/molten_tier_2"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90034
+			},
+			"model": "stellarity:item/frigid_harvester/molten_tier_3"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90035
+			},
+			"model": "stellarity:item/frigid_harvester/molten_tier_4"
 		}
 	]
 }

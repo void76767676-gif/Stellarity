@@ -8,49 +8,49 @@
 			"predicate": {
 				"custom_model_data": 90001
 			},
-			"model": "stellarity:item/prismite"
+			"model": "stellarity:item/food/fish/prismite"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90002
 			},
-			"model": "stellarity:item/crystal_heartfish"
+			"model": "stellarity:item/food/fish/crystal_heartfish"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90003
 			},
-			"model": "stellarity:item/overgrown_cod"
+			"model": "stellarity:item/food/fish/overgrown_cod"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90004
 			},
-			"model": "stellarity:item/crimson_tigerfish"
+			"model": "stellarity:item/food/fish/crimson_tigerfish"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90005
 			},
-			"model": "stellarity:item/fleshy_piranha"
+			"model": "stellarity:item/food/fish/fleshy_piranha"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90006
 			},
-			"model": "stellarity:item/frost_minnow"
+			"model": "stellarity:item/food/fish/frost_minnow"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90009
 			},
-			"model": "stellarity:item/amethyst_budfish"
+			"model": "stellarity:item/food/fish/amethyst_budfish"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 90010
 			},
-			"model": "stellarity:item/flarefin_koi"
+			"model": "stellarity:item/food/fish/flarefin_koi"
 		}
 	]
 }

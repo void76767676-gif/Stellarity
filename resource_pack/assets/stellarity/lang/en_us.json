@@ -1,17 +1,4 @@
 {
-	// TIP:
-	// If you see ѕᴍᴀʟʟ ᴛᴇхᴛ ʟɪᴋᴇ ᴛʜɪѕ, you can use
-	// https://lingojam.com/MinecraftSmallFont
-	// to generate it for your translations!
-	// Make sure your input text is fully in lowercase characters
-
-	//"Stellarity": "§fꑟ",
-	//"- Donator Item -": "§fꐁ",
-	//"- Developer Item -": "§fꑡ",
-	//"- Member #666 Item -": "§fꐂ",
-	//"- Member #777 Item -": "§fꑛ",
-
-	// Start translating from here
 	"stellarity.pack_mcmeta.rp": "Optional resources for Stellarity",
 	"stellarity.pack_mcmeta.rp.music": "Music addon for Stellarity",
 
@@ -20,9 +7,10 @@
 	"stellarity.messages.cmd.reset_config_to_default": "All configs have been reset to default",
 	"stellarity.messages.cmd.kill_ender_dragon": "Killed the Ender Dragon",
 	"stellarity.messages.cmd.generate_end_island_features": "Manually generated End Island features",
+	"stellarity.messages.cmd.generate_end_island_features.fail": "Everything is already generated!",
 	"stellarity.messages.cmd.fix_markers": "Fixed all loaded Stellarity markers",
 
-	"stellarity.void_fishing.warning.too_deep": "Something tells you you should fish higher...",
+	"stellarity.void_fishing.warning.too_deep": "Something tells you that you should fish higher...",
 	"stellarity.void_fishing.warning.dragons_den": "No fish dares to enter this area...",
 
 	"stellarity.aota.warning": "Its magic is sealed behind a powerful beast",
@@ -36,9 +24,15 @@
 	"stellarity.mobs.pixie": "Pixie",
 	"stellarity.mobs.empress": "Empress of Light",
 	
-	"stellarity.eol.despawn": "%s flees as nobody is around...",
+	"stellarity.boss.dragon.spawn": "%s has awoken!",
+	"stellarity.boss.dragon.death": "%s has been defeated!",
+	"stellarity.boss.eol.spawn": "%s has awoken!",
+	"stellarity.boss.eol.death": "%s has been defeated!",
+	"stellarity.boss.eol.despawn": "%s disappears back into the light",
+	"stellarity.boss.primordial_phantom.spawn": "%s has awoken!",
+	"stellarity.boss.primordial_phantom.death": "%s has been defeated!",
+	"stellarity.boss.primordial_phantom.despawn": "%s flies off into the unknown",
 
-	// Config
 	"stellarity.config.enabled": "Enabled",
 	"stellarity.config.disabled": "Disabled",
 	"stellarity.config.click_to_edit": "Click to edit",
@@ -63,28 +57,26 @@
 	"stellarity.config.enable_dragon_screenshake.title": "Enable Dragon Screenshake",
 	"stellarity.config.enable_dragon_screenshake.description": "Enables a bootleg screenshake effect during the Dragon's spawn animation. Can be nauseating to some, so feel free to disable it. It isn't the best anyway.",
 	"stellarity.config.enable_creative_shock.title": "Enable End City Creative Shock",
-	"stellarity.config.enable_creative_shock.description": "Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed.",
+	"stellarity.config.enable_creative_shock.description": "Makes Crystals in End Cities apply Creative Shock, which prevents placing and destroying blocks until all of them are destroyed. Keep in mind that End Cities are balanced around this option being enabled!",
 	"stellarity.config.nerf_elytra.title": "Nerf Elytra",
 	"stellarity.config.nerf_elytra.description": "Nerfs the Elytra by making them take extra damage from boosting.",
-	
-	// Items
-	// Explorer Maps
+	"stellarity.config.boss_status_messages.title": "Boss Status Messages",
+	"stellarity.config.boss_status_messages.description": "Sends global messages when a Stellarity boss is summoned, killed or despawns.",
+
 	"stellarity.explorer_map.end_city": "End City Explorer Map",
 	"stellarity.explorer_map.end_village": "End Village Explorer Map",
 	"stellarity.explorer_map.chapel_of_light": "Chapel of Light Explorer Map",
 
-	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "In The Loving Memory of Gloop",
 
-	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "It doesn't carry any enchantments",
 	"stellarity.items.empty_enchanted_book.description.2": "It wiggles in the direction of a",
 	"stellarity.items.empty_enchanted_book.description.3": "large opening in one of the pillars",
 	"stellarity.items.empty_enchanted_book.description.4": "It wants to be thrown on top",
 	"stellarity.items.empty_enchanted_book.description.5": "of what's inside of it",
 
-	// Armor sets
-	"stellarity.items.armors.set_bonus": "FULL SET BONUS:",
+	"stellarity.items.armors.set_bonus": "ғᴜʟʟ sᴇᴛ ʙᴏɴᴜs:",
+	"stellarity.items.armors.piece_bonus": "ᴘɪᴇᴄᴇ ʙᴏɴᴜs:",
 
 	"stellarity.items.armors.chorus_champion_armor.helmet": "Chorus Champion Helmet",
 	"stellarity.items.armors.chorus_champion_armor.chestplate": "Chorus Champion Chestplate",
@@ -106,10 +98,20 @@
 	"stellarity.items.armors.shulker_armor.leggings": "Shulker Leggings",
 	"stellarity.items.armors.shulker_armor.boots": "Shulker Boots",
 	"stellarity.items.armors.shulker_armor.set_bonus.1": "Shulker Bullets will hunt down your attackers",
-	"stellarity.items.armors.shulker_armor.set_bonus.2": "Incoming damage reduced by 20%",
-	"stellarity.items.armors.shulker_armor.set_bonus.3": "Immunity to Levitation and Wither",
+	"stellarity.items.armors.shulker_armor.set_bonus.2": "Take less damage when swarmed",
+	"stellarity.items.armors.shulker_armor.piece_bonus.chestplate": "Immunity to Weakness",
+	"stellarity.items.armors.shulker_armor.piece_bonus.leggings": "Immunity to Levitation",
 
-	// Crates
+	"stellarity.items.armors.floral_armor.helmet": "Floral Hood",
+	"stellarity.items.armors.floral_armor.chestplate": "Floral Chestplate",
+	"stellarity.items.armors.floral_armor.leggings": "Floral Leggings",
+	"stellarity.items.armors.floral_armor.boots": "Floral Boots",
+	"stellarity.items.armors.floral_armor.set_bonus.1": "Shooting an enemy will bloom a flower over",
+	"stellarity.items.armors.floral_armor.set_bonus.2": "their head, which will explode shortly after",
+	"stellarity.items.armors.floral_armor.set_bonus.3": "Sneak while in tall plants to blend in with them",
+	"stellarity.items.armors.floral_armor.piece_bonus.chestplate": "+25% Arrow Velocity",
+	"stellarity.items.armors.floral_armor.piece_bonus.leggings": "+10% Arrow Damage",
+
 	"stellarity.items.crates.place_down": "Place down and open!",
 
 	"stellarity.items.crates.amethyst": "Amethyst Crate",
@@ -121,7 +123,6 @@
 	"stellarity.items.crates.prismarine": "Prismarine Crate",
 	"stellarity.items.crates.sculk": "Sculk Crate",
 
-	// Void Fish
 	"stellarity.items.fish.amethyst_budfish": "Amethyst Budfish",
 	"stellarity.items.fish.bubblefish": "Bubblefish",
 	"stellarity.items.fish.crimson_tigerfish": "Crimson Tigerfish",
@@ -137,7 +138,23 @@
 	"stellarity.items.fish.crystal_heartfish.description.2": "your maximum health by 1 heart",
 	"stellarity.items.fish.crystal_heartfish.description.3": "Allows for up to 10 extra hearts",
 
-	// Crafting materials
+	"stellarity.items.food.candied_chorus_fruit": "Candied Chorus Fruit",
+	"stellarity.items.food.chorus_juice": "Chorus Juice",
+	"stellarity.items.food.chorus_pie": "Chorus Pie",
+	"stellarity.items.food.chorus_stew": "Chorus Stew",
+	"stellarity.items.food.enderman_flesh": "Enderman Flesh",
+	"stellarity.items.food.fried_chorus_fruit": "Fried Chorus Fruit",
+	"stellarity.items.food.frozen_carpaccio": "Frozen Carpaccio",
+	"stellarity.items.food.golden_chorus_fruit": "Golden Chorus Fruit",
+	"stellarity.items.food.grilled_enderman_flesh": "Grilled Enderman Flesh",
+	"stellarity.items.food.pho": "Pho",
+	"stellarity.items.food.prismatic_sushi": "Prismatic Sushi",
+	"stellarity.items.food.shepherds_pie": "Shepherd's Pie",
+	"stellarity.items.food.shepherds_pie.flavor_text": "'Feast fit for a king!'",
+	"stellarity.items.food.shulker_body": "Shulker Body",
+	"stellarity.items.food.shulker_body.flavor_text": "'They are kinda like clams'",
+	"stellarity.items.food.sushi": "Sushi",
+
 	"stellarity.items.materials.chorus_plating": "Chorus Plating",
 	"stellarity.items.materials.hallowed_ingot": "Hallowed Ingot",
 	"stellarity.items.materials.upgrade": "Used to upgrade Netherite Armor",
@@ -155,7 +172,6 @@
 	"stellarity.items.materials.pixie_dust": "Pixie Dust",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'May contain Fairy'",
 
-	// Permanent buffs
 	"stellarity.items.perm_buffs.consume_to": "Consume to permanently",
 
 	"stellarity.items.perm_buffs.rageroot": "Rageroot",
@@ -179,26 +195,23 @@
 	
 	"stellarity.items.perm_buffs.miracle_fruit": "Miracle Fruit",
 	"stellarity.items.perm_buffs.miracle_fruit.increase": "increase your life regeneration",
-	
-	// Potions
-	"stellarity.items.potions.blind_rage_potion": "Blind Rage Potion",
+
+	"stellarity.items.potions.amarena": "Amarene",
 	"stellarity.items.potions.amarena.description": "Looks like wine, but it really isn't",
 	"stellarity.items.potions.amarena.flavor_text": "'forbidden juice'",
-	"stellarity.items.potions.bottled_darkness": "Bottled Darkness",
+	"stellarity.items.potions.blind_rage_potion": "Blind Rage Potion",
 	"stellarity.items.potions.endurance_potion": "Endurance Potion",
-	"stellarity.items.potions.graceful_potion": "Graceful Potion",
-	"stellarity.items.potions.graceful_potion.flavor_text": "'I'm like a graceful swan!'",
+	"stellarity.items.potions.entanglement_potion": "Entanglement Potion",
+	"stellarity.items.potions.frost_cloud_potion": "Frost Cloud Potion",
+	"stellarity.items.potions.hellfire_treader_potion": "Hellfire Treader Potion",
 	"stellarity.items.potions.lifeforce_potion": "Lifeforce Potion",
-	"stellarity.items.potions.radiant_potion": "Radiant Potion",
-	"stellarity.items.potions.radiant_potion.effect": "Radiant Glow",
+	"stellarity.items.potions.poseidons_nectar": "Poseidon's Nectar",
 	"stellarity.items.potions.red_potion": "Red Potion",
-	"stellarity.items.potions.red_potion.flavor_text": "'Just drink it, what could go wrong?'",
+	"stellarity.items.potions.red_potion.flavor_text":"'Just drink it, what could go wrong?'",
+	"stellarity.items.potions.regeneraga": "Regeneraga",
 	"stellarity.items.potions.royal_jelly": "Royal Jelly",
-	"stellarity.items.potions.unluck_potion": "Unluck Potion",
-	"stellarity.items.potions.infernal_concoction": "Infernal Concoction",
-	"stellarity.items.potions.regenerative_mix": "Regenerative Mix",
+	"stellarity.items.potions.spelunker_potion": "Spelunker Potion",
 	
-	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Cooldown: %s seconds",
 	"stellarity.items.spellbooks.cooldown_long": "Cooldown: %s minutes",
 	"stellarity.items.spellbooks.notification": "Your %s is ready to be used again",
@@ -233,14 +246,16 @@
 	"stellarity.items.spellbooks.return": "Tome of Return",
 	"stellarity.items.spellbooks.return.description": "Teleports you to your spawnpoint",
 
-	// Tools
 	"stellarity.items.tools.shulker.axe": "Shulker Axe",
 	"stellarity.items.tools.shulker.hoe": "Shulker Hoe",
 	"stellarity.items.tools.shulker.pickaxe": "Shulker Pickaxe",
 	"stellarity.items.tools.shulker.shovel": "Shulker Shovel",
 	"stellarity.items.tools.shulker.sword": "Shulker Sword",
+	
+	"stellarity.items.tools.hematic_pickaxe": "Hematic Pickaxe",
+	"stellarity.items.tools.hematic_pickaxe.description.1": "Can dig out extra loot",
+	"stellarity.items.tools.hematic_pickaxe.description.2": "from various stone blocks",
 
-	// Trinkets
 	"stellarity.items.trinkets.crest_of_the_end": "Crest of The End",
 	"stellarity.items.trinkets.crest_of_the_end.description.1": "Blocking damage adds extra force",
 	"stellarity.items.trinkets.crest_of_the_end.description.2": "to your next attack in retaliation",
@@ -279,11 +294,6 @@
 	"stellarity.items.trinkets.copper_elektra_shield.description.2": "Can charge up to 3 dashes every 7 seconds",
 	"stellarity.items.trinkets.copper_elektra_shield.description.3": "Third dash takes longer to recharge",
 
-	"stellarity.items.trinkets.casket_of_stars": "Casket of Stars",
-	"stellarity.items.trinkets.casket_of_stars.description.1": "Stellar Striker collects stars faster,",
-	"stellarity.items.trinkets.casket_of_stars.description.2": "plus increases their velocity and armor penetration",
-
-	// Weapons
 	"stellarity.items.weapons.ancient_wooden_sword": "Ancient Wooden Sword",
 	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'reject Trails&Tales, embrace Indev'",
 	
@@ -303,12 +313,7 @@
 	"stellarity.items.weapons.prismatic_punch.description.1": "Shoots exploding Prismatic Blasts",
 	"stellarity.items.weapons.prismatic_punch.description.2": "which explode multiple times",
 	"stellarity.items.weapons.prismatic_punch.description.3": "and set mobs on Prismatic Inferno",
-	
-	"stellarity.items.weapons.sabrewing": "Sabrewing",
-	"stellarity.items.weapons.sabrewing.description.1": "Supercharge your shots",
-	"stellarity.items.weapons.sabrewing.description.2": "for increased damage and velocity",
-	"stellarity.items.weapons.sabrewing.flavor_text": "'It might be broken'",
-	
+
 	"stellarity.items.weapons.sharanga": "Sharanga",
 	"stellarity.items.weapons.sharanga.description.1": "Spectral Arrows travel in a straight",
 	"stellarity.items.weapons.sharanga.description.2": "line and deal increased damage",
@@ -331,16 +336,17 @@
 	"stellarity.items.weapons.frigid_harvester": "Frigid Harvester",
 	"stellarity.items.weapons.frigid_harvester.description.1": "Imbues itself with souls of slain mobs,",
 	"stellarity.items.weapons.frigid_harvester.description.2": "permanently increasing its damage",
-	"stellarity.items.weapons.frigid_harvester.description.3": "and unlocking passive abilities",
-	"stellarity.items.weapons.frigid_harvester.description.4": "The more souls it absorbs, the less damage it gets",
-	"stellarity.items.weapons.frigid_harvester.description.ultra": "It refuses to absorb any but a few more souls",
+	"stellarity.items.weapons.frigid_harvester.description.3": "Killing some mobs after reaching certain damage",
+	"stellarity.items.weapons.frigid_harvester.description.4": "tresholds unlocks passive abilities",
+	"stellarity.items.weapons.frigid_harvester.description.5": "The more souls it absorbs, the less damage it gets",
+	"stellarity.items.weapons.frigid_harvester.description.ultra": "It refuses to absorb any, but a few more souls",
 	"stellarity.items.weapons.frigid_harvester.ability.tooltip": "%1$s: %2$s",
 	"stellarity.items.weapons.frigid_harvester.ability.known": "KNOWN",
 	"stellarity.items.weapons.frigid_harvester.ability.tellraw.1": "--------< %1$s - %2$s >--------",
 	"stellarity.items.weapons.frigid_harvester.ability.tellraw.2": "ABILITY UNLOCK",
 	"stellarity.items.weapons.frigid_harvester.ability.frost_barrier": "Frost Barrier",
 	"stellarity.items.weapons.frigid_harvester.ability.frost_barrier.description": "Gain temporar damage reduction after killing a mob",
-	"stellarity.items.weapons.frigid_harvester.ability.arctic_wind": "Artctic Wind",
+	"stellarity.items.weapons.frigid_harvester.ability.arctic_wind": "Arctic Wind",
 	"stellarity.items.weapons.frigid_harvester.ability.arctic_wind.description": "Super cold aura slows down all nearby mobs",
 	"stellarity.items.weapons.frigid_harvester.ability.cryonics": "Cryonics",
 	"stellarity.items.weapons.frigid_harvester.ability.cryonics.description": "Using a Totem of Undying encases you in protective ice, making you invulnerable and providing extreme healing",
@@ -350,6 +356,10 @@
 	"stellarity.items.weapons.frigid_harvester.ability.frostburn.description": "Extreme cold burns enemies for extra damage",
 	"stellarity.items.weapons.frigid_harvester.ability.anima_conduit": "Anima Conduit",
 	"stellarity.items.weapons.frigid_harvester.ability.anima_conduit.description": "Souls are crushed down and converted into a healing force",
+	"stellarity.items.weapons.frigid_harvester.ability.embrittlement": "Embrittlement",
+	"stellarity.items.weapons.frigid_harvester.ability.embrittlement.description": "Hit enemies become brittle and take extra frostbite damage from all sources",
+	"stellarity.items.weapons.frigid_harvester.ability.echo": "Echo",
+	"stellarity.items.weapons.frigid_harvester.ability.echo.description": "Attacks will echo, dealing extra unmitigated damage after a short time.",
 	"stellarity.items.weapons.frigid_harvester.ability.hint": "Your sword shakes while absorbing this soul...",
 
 	"stellarity.items.weapons.prismember": "Prismember",
@@ -384,142 +394,35 @@
 	"stellarity.items.weapons.slayer_crossbow.description.1": "Shoots highly damaging energy bolts",
 	"stellarity.items.weapons.slayer_crossbow.description.2": "with infinite pierce, but limited range",
 
-	// Other items
+	"stellarity.items.weapons.stellar_striker": "Stellar Striker",
+	"stellarity.items.weapons.stellar_striker.description.1": "Attack or kill mobs to collect stars",
+	"stellarity.items.weapons.stellar_striker.description.2": "Sneak and attack to send the stars flying",
+	"stellarity.items.weapons.stellar_striker.description.3": "all at once to deal high burst damage",
+
 	"stellarity.items.fisher_of_voids": "Fisher of Voids",
 	"stellarity.items.fisher_of_voids.description": "Void Fishing is slightly quicker",
-	
-	"stellarity.items.golden_chorus_fruit": "Golden Chorus Fruit",
 	
 	"stellarity.items.pandoras_barrel": "Pandora's Barrel",
 	"stellarity.items.pandoras_barrel.description": "You never know what's inside!",
 	"stellarity.items.pandoras_barrel.flavor_text": "'...unless you check the wiki'",
 	
 	"stellarity.items.prismatic_pearl": "Prismatic Pearl",
+
+	"stellarity.items.phantom_item_frame": "Phantom Item Frame",
+	"stellarity.items.phantom_item_frame.description": "Turns invisible when an item is put inside",
 	
 	"stellarity.items.altar_of_light": "Altar of The Sacred",
 	"stellarity.items.altar_of_light.description.1": "Can be placed anywhere at any time",
 	"stellarity.items.altar_of_light.description.2": "Sacrifice minerals for long-lasting buffs",
-	"stellarity.items.altar_of_light.description.3": "Sacrifice Pixie Dust to draw",
-	"stellarity.items.altar_of_light.description.4": "the attention of the Fae Goddess",
+	"stellarity.items.altar_of_light.description.3": "Sacrificing %s will be",
+	"stellarity.items.altar_of_light.description.4": "considered a blasphemy and shouldn't be done",
 	"stellarity.items.altar_of_light.flavor_text": "'Not to be confused with Altar of The Accursed'",
 
-	// Cursed Enchiridion (AKA Cursed Tome)
 	"stellarity.items.cursed_tome": "Cursed Enchiridion",
-	"stellarity.items.cursed_tome.unlock_entry": "Your %s resonates with knowledge!",
 	"stellarity.items.cursed_tome.description.1": "Contains all the information",
 	"stellarity.items.cursed_tome.description.2": "about Stellarity items",
 	"stellarity.items.cursed_tome.description.flavor_text": "'Your miniature wiki!'",
-	"stellarity.items.cursed_tome.discover_hint": "The more you explore, the more knowledge this book will be filled with...",
-	"stellarity.items.cursed_tome.not_discovered": "Not discovered yet.",
-	"stellarity.items.cursed_tome.obtaining":"     OBTAINING",
-	"stellarity.items.cursed_tome.ingredients":"    INGREDIENTS",
-
-	"stellarity.items.cursed_tome.entries.sharanga.center": "      ",
-	"stellarity.items.cursed_tome.entries.sharanga.description": "A sturdy mangrove Bow.\nIf Spectral Arrows are used as ammunition, it channels the light from them and diverts it into a powerful quick bolt of energy.",
-	"stellarity.items.cursed_tome.entries.sharanga.obtaining": "Rare drop from Illusioners in Strongholds.\nDrops paired with 7 - 22 Spectral Arrows.",
-
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.center": "",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.description": "Just a Crossbow augmented with some cogs. They allow it to charge and shoot at ridiculous speed, although sacrificing a large portion of damage.",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Rare drop from Pillagers in Strongholds.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "The teleports of Ender Pearl are too chaotic for a human body to handle, causing it to take some damage. This book was made to streamline the chaotic magic into a pure warp, making it much safer to use.",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Rare drop from Evokers in Strongholds.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.description": "Creates a small aura of divine light, which heals any player inside, cures ailments and grants damage reduction.",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.obtaining": "Rare drop from Evokers in Strongholds.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.center": "  ",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.description": "Manufactured by the Enchanters from the high mountains with focus on making moving around easier. Pushes its user upwards and grants them ability to glide for a short while.",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Rare drop from Evokers in Strongholds.",
-
-	"stellarity.items.cursed_tome.entries.tamaris.center": "       ",
-	"stellarity.items.cursed_tome.entries.tamaris.description": "Even the sword itself is falling under the decaying magic it holds inside.\nMakes hit enemies decay away, as well as gives its user the ability to perform a finishing strike whenever said mob is low on health.",
-	"stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% chance to be dropped by the Ender Dragon.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.description": "An Amethyst Shard corrupted by the magic of The End.\nBoosts life regeneration while sneaking. Effect starts weak and grow stronger the longer the user is sneaking for.",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.obtaining": "66% chance to be dropped by the Ender Dragon.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.center": " ",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Enhanced with the resources from The End, this Shield absorbs a fraction of blocked damage and redirects it to the attacker on its user's next hit.",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.obtaining": "66% chance to be dropped by the Ender Dragon.",
-
-	"stellarity.items.cursed_tome.entries.dragonblade.center": "    ",
-	"stellarity.items.cursed_tome.entries.dragonblade.description": "Nobody knows what it is.\n\nNobody knows where it came from.\n\nNobody knows who made it.",
-	"stellarity.items.cursed_tome.entries.dragonblade.obtaining": "Spawns stuck in the Altar after killing the Ender Dragon.\n\nThere can be only one.",
-
-	"stellarity.items.cursed_tome.entries.shulker_armor.center": "   ",
-	"stellarity.items.cursed_tome.entries.shulker_armor.title": "Shulker Armor",
-	"stellarity.items.cursed_tome.entries.shulker_armor.description": "The mightiest and sturdiest of all the armor sets to have ever been forged.\nMakes its wearer almost invulnerable, as well as provides resistance to certain debuffs.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.obtaining": "Crafted at the Altar of The Accursed.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.misc": "Any piece of Netherite Armor",
-
-	"stellarity.items.cursed_tome.entries.shulker_tools.center": "   ",
-	"stellarity.items.cursed_tome.entries.shulker_tools.title": "Shulker Tools",
-	"stellarity.items.cursed_tome.entries.shulker_tools.description": "The fastest and strongest of all the tools to have ever been created.\nThose who hold them experience a sudden energy surge going through their body allowing them to dig and attack faster than usual.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Crafted at the Altar of The Accursed.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.misc": "Any Netherite Tool",
-
-	"stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
-	"stellarity.items.cursed_tome.entries.sabrewing.description": "The name is extremely deceiving.\nSabrewing can supercharge its shots to increase their power, making it devastating at long range.",
-	"stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Crafted at the Altar of The Accursed.",
-
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.center": " ",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.description": "An attempt at making something from nothing.\nOpening it yields various loot and spawns random mobs, depending on biome.",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Sometimes found in End Cities.\nAlso craftable at the Altar of The Accursed.",
-
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.center": "    ",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.title": "Chorus Champion Armor",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.description": "Blesses its user with Wrath of The Chorus Champions, providing a rising damage multiplier which increases with every hit.",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.obtaining": "Crafted at the Altar of The Accursed with 5/8/7/4 Chorus Champion Plating (for Helmet/Chestplate/Leggins/Boots respectively)\n\nChorus Champion Plating can be found in Crates, End Cities and can be bought in End Villages.",
-
-	"stellarity.items.cursed_tome.entries.hallowed_armor.center": "   ",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.title": "Hallowed Armor",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.description": "The wearer of this sacred armor is said to be protected by the heaven itself, granting them the ability to completely ignore all damage for a short time.",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Crafted at the Altar of The Accursed with 5/8/7/4 Hallowed Ingots (for Helmet/Chestplate/Leggins/Boots respectively)\n\nHallowed Ingots can be found in Crates, End Cities and can be bought in End Villages.",
-
-	"stellarity.items.cursed_tome.entries.spirit_dagger.center": "    ",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "This weapon won't work just by itself. If two are used simultaneously, attacks will sometimes attract lost Spirits. Wielder can consume them to warp to them and get various combat buffs for a short time.",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Rare drop from Phantoms in the outer End.",
-
-	"stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.description": "The hard ice captures the spirit of defeated mobs, using them to increase its power.\nThe more it kills, the more damage it deals, combined with unlocking passive abilities.",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.obtaining": "Drops from Strays found in Frosted Hills, which have a rare chance being equipped with it.\n\n10% chance to be found inside Frozen Crates.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Villagers' attempt at crafting magical items.\nThis book imbues itself with the energy of biomes its user explores, enhancing its abilities.",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Sometimes sold by Librarians in End Villages.",
 	
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "      ",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Perhaps the most peculiar fruit The Hallow has ever given birth to. This cursed berry shares its magic with anyone who holds it, greatly empowering their senses and abilities.\nSaid to taste like bizmuth.",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Found in End Ships in The Hallow at a very specific 57.14% chance.\n\nAlso found in Hallowed Crates at the exact same oddly specific chance.",
-	
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "Unlike typical carcanets, this one is held for some odd reason. Causes stars to fall nearby when hurt, dealing high damage to anything caught in their trajectory.",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "33% chance to be dropped by the Empress of Light.",
-	
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": "  ",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "An emblem imbued with the fraction of Empress' power.\nGrants its wielder the ability to freely fly, as if gravity wasn't a thing.",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Rare drop from the Empress of Light.\n\nGuaranteed to drop if killed in the Overworld during the day.",
-	
-	"stellarity.items.cursed_tome.entries.stella.center": "         ",
-	"stellarity.items.cursed_tome.entries.stella.description": "Made out of the purest of Hallow's crystals, filled with blazing energy. The more accurate hits are landend on one's enemy, the hotter the flames become.",
-	"stellarity.items.cursed_tome.entries.stella.obtaining": "33% chance to be dropped by the Empress of Light.",
-	
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.center": "   ",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.description": "Ender Pearls exposed to the magic of The Hallow slowly lose their darkness. They have the ability to return to its thrower after a short period of time.",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "33% chance to be dropped by the Empress of Light.",
-	
-	"stellarity.items.cursed_tome.entries.prismatic_punch.description": "An arbalest manufactured from crystallized Wood from Hallow's trees. Transforms all arrows into rainbow blasts which seek out and explode on impact.",
-	"stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "33% chance to be dropped by the Empress of Light.",
-	
-	"stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "A greatsword of incredible power, which comes directly from the sun. Charges itself and releases the stored energy in a powerful discharge once swung.",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Dropped by the Empress of Light, but only if killed in the Overworld in daytime.",
-	
-	// Advancements
 	"stellarity.advancements.anger_enderman": "It's Rude to Stare!",
 	"stellarity.advancements.anger_enderman.description": "Enrage an Enderman by looking at it",
 	"stellarity.advancements.champions_ballad": "Champions Ballad",
@@ -592,8 +495,8 @@
 	"stellarity.advancements.absolute_devotion.description": "Upgrade your Netherite Hoe to its Shulker version. At this point, it's just pure madness...",
 	"stellarity.advancements.eat_chorus_fruit": "Unstable",
 	"stellarity.advancements.eat_chorus_fruit.description": "Eat a Chorus Fruit",
-	"stellarity.advancements.eat_golden_chorus_fruit": "(Au)some Delight!",
-	"stellarity.advancements.eat_golden_chorus_fruit.description": "Find and eat a Golden Chorus Fruit",
+	"stellarity.advancements.eat_golden_chorus_fruit": "[Au]some Delight!",
+	"stellarity.advancements.eat_golden_chorus_fruit.description": "Eat a Golden Chorus Fruit",
 	"stellarity.advancements.find_gloop": "Gloop de Gloop",
 	"stellarity.advancements.find_gloop.description": "Free a Gloop from a Pandora's Barrel opened in any Swamp biome",
 	"stellarity.advancements.otherwordly_botanist": "Otherworldly Botanist",
@@ -622,11 +525,11 @@
 	"stellarity.advancements.enter_end.description": "ᴏʀ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ?",
 	"stellarity.advancements.follow_ender_eye.extra": ". Something is definitely hidden there...",
 	"stellarity.advancements.max_out_aery_sword": "Snow Grave",
-	"stellarity.advancements.max_out_aery_sword.description": "Absorb enough souls to upgrade a Frigid Harvester to 14 damage",
+	"stellarity.advancements.max_out_aery_sword.description": "Absorb enough souls to upgrade a Frigid Harvester to 13 damage in total",
 	"stellarity.advancements.truly_max_out_aery_sword": "20 Below Zero",
 	"stellarity.advancements.truly_max_out_aery_sword.description": "Even the grim power of this ice sword has its limits...",
 	"stellarity.advancements.transmute_item": "Hallowed Alchemy",
-	"stellarity.advancements.transmute_item.description": "Transmute an item into something different by throwing it into the water in The Hallow",
+	"stellarity.advancements.transmute_item.description": "Transmute any item into something different by throwing it into the water in The Hallow",
 	"stellarity.advancements.kill_large_phantom": "Worsening Nightmares",
 	"stellarity.advancements.kill_large_phantom.description": "Kill a Phantom that is bigger than usually",
 	"stellarity.advancements.headhunter": "Headhunter",
@@ -640,11 +543,13 @@
 	"stellarity.advancements.fae_flayer.description": "Move an Altar of The Sacred to the Overworld, then summon and kill the Empress during the day",
 	"stellarity.advancements.charge_anchor_end": "Anchored",
 	"stellarity.advancements.charge_anchor_end.description": "Charge a Respawn Anchor in The End. You can use it to set your respawn point there just like in The Nether",
+	"stellarity.advancements.balanced_diet_2": "Feast of The Otherworld",
+	"stellarity.advancements.balanced_diet_2.description": "Eat every food item added by Stellarity, good or bad.",
+	"stellarity.advancements.dilute_breath.": "Little Alchemy",
+	"stellarity.advancements.dilute_breath.description": "Throw Dragon's Breath into a Water Cauldron to dilute it. You can then toss in different items to do a little bit of brewing!",
+	"stellarity.advancements.electrified": "Electrified!",
+	"stellarity.advancements.electrified.description": "Dash through 5 different mobs with a single Copper Elektra Shield dash",
 
-	// Death Messages
-	// %1$s - victim
-	// %2$s - attacker
-	"stellarity.death_messages.sharanga_explosion": "%1$s was torn apart by %2$s's Spectral Boom Boom",
 	"stellarity.death_messages.carcanet.1": "%1$s was struck too hard by %2$s's star",
 	"stellarity.death_messages.carcanet.2": "%1$s received help with meeting the sky from %2$s",
 	"stellarity.death_messages.spirit_dagger.1": "%1$s had their spirit consumed by %2$s",
@@ -671,9 +576,6 @@
 	"stellarity.death_messages.eol.dash": "%1$s didn't move out of the Empress of Light's way in time",
 	"stellarity.death_messages.prismember": "%1$s was reduced to ashes by %2$s",
 
-	// Subtitles for some sounds
-	// No translation strings here, as I would then
-	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Enderman attacks",
 	"Endermite attacks": "Endermite attacks",
 	"Chorus Dagger recharges": "Chorus Dagger recharges",
@@ -681,8 +583,6 @@
 	"Living Flesh hurts": "Living Flesh hurts",
 	"Kaleidoscope charges": "Kaleidoscope charges",
 
-	// Biomes
-	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Amethyst Forest",
 	"biome.far_end.ashfall_delta": "Ashfall Delta",
 	"biome.far_end.end_wilds": "End Wilds",
@@ -696,6 +596,5 @@
 	"biome.stellarity.dragons_den": "Dragon's Den",
 	"biome.stellarity.frosted_hills": "Frosted Hills",
 	"biome.stellarity.prismarine_forest": "Prismarine Forest",
-	"biome.stellarity.sculk_growth": "Sculk Growth",
 	"biome.stellarity.the_hallow": "The Hallow"
 }

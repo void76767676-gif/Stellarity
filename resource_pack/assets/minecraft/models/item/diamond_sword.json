@@ -6,33 +6,33 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 90001
+				"custom_model_data": 90031
 			},
-			"model": "stellarity:item/frigid_harvester"
+			"model": "stellarity:item/frigid_harvester/tier_0"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90002
+				"custom_model_data": 90032
 			},
-			"model": "stellarity:item/frigid_harvester_tier_1"
+			"model": "stellarity:item/frigid_harvester/tier_1"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90003
+				"custom_model_data": 90033
 			},
-			"model": "stellarity:item/frigid_harvester_tier_2"
+			"model": "stellarity:item/frigid_harvester/tier_2"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90004
+				"custom_model_data": 90034
 			},
-			"model": "stellarity:item/frigid_harvester_tier_3"
+			"model": "stellarity:item/frigid_harvester/tier_3"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90005
+				"custom_model_data": 90035
 			},
-			"model": "stellarity:item/frigid_harvester_tier_4"
+			"model": "stellarity:item/frigid_harvester/tier_4"
 		}
 	]
 }
