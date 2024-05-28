@@ -9,7 +9,7 @@
 
 <i class="icon-minecraft icon-minecraft-enchanting-table"></i> Both daggers can be enchanted with any Sword enchantment. Certain enchantments will have new effects.
 
-<i class="icon-minecraft icon-minecraft-anvil"></i> Spirit Dagger can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
+<i class="icon-minecraft icon-minecraft-anvil"></i> The Beginning and The End can be repaired with <i class="icon-minecraft icon-minecraft-netherite-ingot"></i>Netherite Ingots.
 
 <br><br>
 
@@ -38,19 +38,15 @@
 	<tr>
 		<td><b>Tooltip</b></td>
 		<td>
-			Holding one attracts Spirits on slashes
+			Attracts spirits on attacks
 			<br>
-			Holding one in both left and right hand
+			Hold The Beginning/The End in the other hand and look
 			<br>
-			allows you to consume said Spirits
+			at them to teleport to their location,
 			<br>
-			to instantly teleport to them
+			damaging all mobs and gaining a short buff.
 			<br>
-			and gain a short attack buff
-			<br>
-			Enchantments scale from both Daggers
-			<br><br>
-			<i>'yes, I like roblox, okay?'</i>
+			<i>'RIP Spirit Daggers'</i>
 			<br>
 			<span style="color: #BA02D7;">- Developer Item -</span>
 		</td>
@@ -68,7 +64,7 @@
 </div>
 
 ## Obtaining
-Spirit Dagger has a 6.5% chance to drop from Phantoms **found anywhere in The End**. Looting enchantment increases the odds by 0.7% per level, for a maximum of 8.6% drop chance with Looting III.
+The Beginning and The End can be found in End City and End Dungeon chests. Additionally, you can get them from Void fishing through an ender crate.
 
 ## Usage
 <div class="result" markdown>
@@ -77,14 +73,14 @@ Spirit Dagger has a 6.5% chance to drop from Phantoms **found anywhere in The En
   <figcaption>An attracted Spirit</figcaption>
 </figure>
 
-Damaging enemies while holding a Spirit Dagger in any hand has a 50% chance to attract a Spirit. If another Spirit Dagger is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
+Damaging enemies while holding a Beginning or End in any hand has a 50% chance to attract a Spirit. If another Spirit Dagger is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
 </div>
 
 Teleporting to the Spirit creates a large area of effect slash which damages all enemies around it for 5:heart: x ₂.₅  damage with 100% [armor penetration](../mechanics/armor_penetration.md). Afterwards player receives a small combat buff -  4:yellow_heart::yellow_heart: points of Absorption, +3:heart: x ₁.₅ damage and +35% movement speed. Assasination buff lasts for 4 seconds. The slash attack has a radius of 3.8 blocks. Slashes receive 60% of melee damage bonuses (excluding Potions of Strength).
 
 Hit mobs which __have attracted a Spirit__ won't be able to do it again for the next 22 seconds, indicated by a spray of particles above their head.
 
-While in the offhand, Spirit Dagger provides a +1 damage to any weapon (including other Spirit Daggers).
+While in the offhand, The Beginning provides a +1 damage to any weapon, while The End gives + 5% speed.
 
 ### Enchantments
 Certain enchantments empower Spirit Dagger's slash attack. Enchantment power scales from both Daggers, meaning that having Sweeping Edge III on one of them and Sweeping Edge II on the other one acts as Sweeping Edge V.
@@ -123,13 +119,13 @@ Certain enchantments empower Spirit Dagger's slash attack. Enchantment power sca
 ## Trivia
 - This is the second Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md).
     - Though Prismatic Punch lost its Developer Item status in v2.1a.
-- This weapon is based on Spirit Daggers - a weapon used by Evelynn[^1] in Roblox BedWars[^2].
+- This weapon is based on Spirit Daggers - a weapon used by Evelynn[^1] in Roblox BedWars[^2]. It also once shared a name with it.
     - This is also a reference to the fact that kohara loves this game and plays it far more often than he codes.
 - This item had a total of 3 different drop chances prior to official release.
     - It first started with 12.5% base chance with 2.5% Looting bonus, then 15%/+3.5% before being nerfed to 10%/+1%.
         - This wasn't the final change in its drop rate, as in v2.1a it was reduced to 6.5%+0.7%.
 - Prior to official release of 2.0a, Spirits used to directly heal 4:heart::heart: HP instead of granting 4:yellow_heart::yellow_heart: Absorption like it does now. This change was made to further replicate how Evelynn kit works in Roblox Bedwars.
-- Spirit Dagger holds the title of the most tweaked weapon before its official release in a stable version, having been tweaked countless times prior to its release in 2.0a.
+- The Beginning and The End holds the title of the most tweaked weapon before its official release in a stable version, having been tweaked countless times prior to its release in 2.0a.
     - Some of the changes haven't even been listed on changelog Discord channel.
 - In the development log from January 27th 2023, Spirits were said have a light blue glowing outline, however this wasn't actually implemented until 7 months later during the development of v2.1a.
 - In PvP, dying to AoE slash attack will result in one of a few custom death messages:
@@ -139,6 +135,13 @@ Certain enchantments empower Spirit Dagger's slash attack. Enchantment power sca
 - If player's name is `kohara_`, the trail for the teleport is going to spawn Cherry Petals alongisde its regular particles.
 
 ## History
+=== "**2.2.0**"
+    - Now obtained from End City and End dungeon chests, and void fishing.
+	- Renamed from Spirit Dagger to The Beginning and The End, resprited accordingly
+	- made into 2 items instead of 1
+	- decreased attack speed (2.6 -> 2)
+	- The beginning now gives +1 damage while in offhand, while the end gives +5% attack speed
+	
 === "**v2.1a**"
 	- Reduced base drop chance (10% -> 6.5%) and Looting bonus (+1% -> +0.7%).
 	- Increased attack speed (2 -> 2.6).
