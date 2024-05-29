@@ -27,7 +27,7 @@ The **Dragonblade** is a post-Dragon greatsword with the ability to trigger a po
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Slow (1.35)</td>
+		<td>Slow (1.3)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -114,6 +114,9 @@ The Dragonblade is unbreakable on top of being immune to lava, fire, explosions 
 - Ever since its rework in vIndev-1.6a, the Dragonblade has only seen 1 nerf - a minor reduction in the splash damage radius for block punches.
  
 ## History
+=== "**Indev-2.3.0**"
+	- :green_circle: Increased base damage (6.5 -> 8)
+	
 === "**2.2.0**"
 	- :green_circle: Increased base punch distance (6.6 blocks -> 8.2 blocks)
 	- :green_circle: Increased punch Voided duration (6s -> 10s)

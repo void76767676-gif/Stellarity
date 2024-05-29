@@ -23,9 +23,6 @@
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/frigid_harvester.png"></th>
 	</tr>
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/frigid_harvester_all_levels.gif"></th>
-	</tr>
-	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>
@@ -120,7 +117,22 @@ The frigid  harvester can gain passive abilities by killing specific mobs.
 - The name of the advancement `Snow Graved` is a reference to one of Noelle's spells[^4] in deltarune Chapter 2.
 
 ## History
-=== "**v2.2.0**"
+=== "**Indev-2.3.0**"
+	- Reduced base damage (5 -> 4)
+	- Reduced max damage (19 -> 16)
+	- The frigid harvester now melts if upgraded to netherite, being fixed when dropped
+	- Piercing Cold apply chance decreased (50% -> 33%)
+	- Reduced Frost Barrier duration (7s -> 6s)
+	- Arctic Wind aura inner radius reduced (5 blocks -> 3 blocks)
+	- Reduced Anima Conduit healing and feed.
+	- Added 2 new passive abilities: Echo and Embrittlement
+	- Greatly Reduced damage gains
+	- Altered description
+	- Greatly increased damage gains from bosses, but the Warden no longer counts as a boss.
+	- Fixed Ender Dragon not upgrading Harvester's damage.
+	- Fixed the arctic wind spelling error.
+	
+=== "**2.2.0**"
 	- Resprited
 	- Max damage lowered (22 -> 19)
 	- Passive ability system reworked, now gaining those abilities by killing specific mobs.

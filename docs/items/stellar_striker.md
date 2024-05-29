@@ -65,5 +65,18 @@ the Casket of stars exists but who cares about that thing its not only unobtaina
 - Uhhhhhhhhhhhhhhhhhhhhh ummmmmmmmmmmmmmmmmmmmmm
 
 ## History
-=== "**v2.2.0**"
+=== "**Indev-2.3.0**"
+	- Reworked
+		- Stellar Striker now has a progress bar.
+		- Progress bar fills up by 0.6% per second, meaning it takes about 3 minutes for it to fill on its own.
+		- Landing hits with Stellar Striker adds 2% per hit
+		- Killing mobs instantly adds 3% to the progress bar.
+ 		- Players gain one star at 10%, 20%, 45%, 70% and 100% bar progress.
+		- All stars are fired immedietaly when triggered and have slight homing capabilities.
+		- Stars damage has been changed to 9 direct damage and 6 splash damage. Armor penetration is 50%. 
+		- After shooting Stars, Stellar Striker can't get any charge for the next 6 seconds.
+		- Base stats have been changed to 9 damage and 1.2 attack speed
+	- Removed Casket of Stars, which was meant to buff this item specifically.
+
+=== "**2.2.0**"
 	- Introduced, but unobtainable
