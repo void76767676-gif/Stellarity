@@ -87,6 +87,10 @@ Additionally, running with a full set of Chorus Champion Armor will produce a pu
 - kohara has a special particle trail, being made of Cherry Leaves particles instead of 
 
 ## History
+=== "**Indev-2.3.0**"
+	- :red_circle: Reduced combo extra damage per hit (+6% -> +4%)
+	- :green_circle: Combo now also increases attack speed by 4% per hit
+	
 === "**v2.2.0**"
     - Renamed to Chorus Champion Armor
     - Reverted combo duration increase (5s -> 3s)

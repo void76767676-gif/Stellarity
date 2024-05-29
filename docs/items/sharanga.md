@@ -18,9 +18,6 @@
 	<tr>
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/sharanga.png"></th>
 	</tr>
-    <tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/sharanga_pulling.gif"></th>
-	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
@@ -72,6 +69,9 @@ Sharanga has a 25% chance to not use up fired <i class="icon-minecraft icon-mine
 | <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-sharanga"></i></div> | Robbing the Fortress | <span style="color: #55FFFF;">Get a rare item from an Illager in the Stronghold</span> | Eye Spy | Have either Sharanga, Clockwork Crossbow or any pre-Dragon Spellbook in your inventory | `stellarity:story/drop_rare_illager_loot` |
 
 ## History
+=== "**Indev-2.3.0**"
+	- :red_circle: Reduced pierce count (4 -> 3)
+	- :red_circle: Reduced extra damage multiplied (+30% -> +12%)
 === "**2.2.0**"
 	- :green_circle: Bolt damage and velocity mutliplier increased (+20% -> +30%)
 	- :green_circle: Increased the lifetime of Spectral Botls (1s -> 3s).

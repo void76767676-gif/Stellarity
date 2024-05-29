@@ -16,7 +16,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/Prismember.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismember.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -61,8 +61,8 @@ This spin has a 20 tick cooldown.
 - This weapon is great for hitting and running. Just make sure to reapply Prismatic Inferno every few seconds for it to not timeout.
 
 ## History
-=== "**2.2.0**
+=== "**2.2.0**"
+	- :rocket: There was probably a change.
 
-
-=== "**v2.1a**
-	- :rocket: Introduced
+=== "**v2.1a**"
+	- :rocket: Introduced.

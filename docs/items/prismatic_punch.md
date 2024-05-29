@@ -18,9 +18,6 @@
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch.png"></th>
 	</tr>
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismatic_punch_pulling.gif"></th>
-	</tr>
-	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>

@@ -94,6 +94,13 @@ Kaleidoscope is unbreakable and immune to lava, fire, explosions and cacti. The 
     - It got reworked into an axe as the community felt like Stellarity needed its own axe item.
 
 ## History
+=== "**Indev-2.3.0**"
+	- :green_circle: Charge is no longer halved when hurt.
+	- :red_circle: Increased charge time (7.5s -> 10s)
+	- :green_circle: Charge now builds up while in the offhand and is kept after switching to different items in the hotbar.
+	- :yellow_circle: Attacking a mob with charge lower than 33% now resets all charge and sets the mob on fire for 2 seconds.
+	- :green_circle: Increased fire duration on all discharge tiers.
+	
 === "**2.2.0**"
 	- :green_circle: Reduced fire duration dropoff on splash damage ([70%, 50%, 30%] -> [80%, 65%, 50%])
 	- :green_circle: Increased level 2 charge splash range (2.4 blocks -> 2.7 blocks)

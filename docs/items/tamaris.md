@@ -116,7 +116,7 @@ Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undyi
     - Despite this, the item doesn't change its appearance with time, neither does it lose any durability.
 
 ## History
-=== "**v2.2.0
+=== "**v2.2.0**"
     - Dark decay removed.
 	- Damage buffed (6 -> 7)
 	- Attack speed increased (1.4 -> 1.6)

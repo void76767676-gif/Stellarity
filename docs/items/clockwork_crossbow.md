@@ -18,9 +18,6 @@
 	<tr>
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/clockwork_crossbow.png"></th>
 	</tr>
-    <tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/clockwork_crossbow_arrow.png"></th>
-	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
