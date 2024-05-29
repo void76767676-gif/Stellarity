@@ -18,11 +18,15 @@
 		"age=5": [
 			{
 				"model": "minecraft:block/chorus_flower_dead",
-				"weight": 1
+				"weight": 2
 			},
 			{
 				"model": "stellarity:block/chorus_flower_dead_alt",
-				"weight": 2
+				"weight": 3
+			},
+			{
+				"model": "stellarity:block/chorus_flower_dead_alt2",
+				"weight": 1
 			}
 		]
 	}

@@ -14,7 +14,7 @@
 			"predicate": {
 				"custom_model_data": 90001
 			},
-			"model": "stellarity:item/fury_berries"
+			"model": "stellarity:item/food/perm_buffs/fury_berries"
 		}
 	]
 }

@@ -1,3 +1,7 @@
 {
-	"values": []
+	"values": [
+		"kohara:true_damage",
+		"kohara:true_damage_difficulty_scaling",
+		"stellarity:echo"
+	]
 }

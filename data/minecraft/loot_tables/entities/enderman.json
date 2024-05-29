@@ -6,79 +6,44 @@
 			"bonus_rolls": 0,
 			"entries": [
 				{
-					"type": "minecraft:item",
-					"name": "minecraft:ender_pearl",
-					"functions": [
+					"type": "minecraft:alternatives",
+					"children": [
 						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							},
-							"add": false
+							"type": "minecraft:item",
+							"name": "minecraft:ender_pearl",
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"dimension": "minecraft:the_nether"
+									}
+								}
+							]
 						},
 						{
-							"function": "minecraft:looting_enchant",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							}
+							"type": "minecraft:item",
+							"name": "minecraft:chorus_fruit"
 						}
 					]
 				}
 			],
-			"conditions": [
+			"functions": [
 				{
-					"condition": "minecraft:location_check",
-					"predicate": {
-						"dimension": "minecraft:the_nether"
-					}
-				}
-			]
-		},
-		{
-			"rolls": {
-				"min": 0,
-				"max": 1
-			},
-			"bonus_rolls": 0,
-			"entries": [
-				{
-					"type": "minecraft:item",
-					"name": "minecraft:chorus_fruit",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							},
-							"add": false
-						},
-						{
-							"function": "minecraft:looting_enchant",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							}
-						}
-					]
-				}
-			],
-			"conditions": [
-				{
-					"condition": "minecraft:inverted",
-					"term": {
-						"condition": "minecraft:location_check",
-						"predicate": {
-							"dimension": "minecraft:the_nether"
-						}
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 0,
+						"max": 1
 					}
 				},
+				{
+					"function": "minecraft:looting_enchant",
+					"count": {
+						"min": 0,
+						"max": 1
+					}
+				}
+			],
+			"conditions": [
 				{
 					"condition": "minecraft:inverted",
 					"term": {
@@ -95,7 +60,6 @@
 				"min": 0,
 				"max": 1
 			},
-			"bonus_rolls": 0,
 			"entries": [
 				{
 					"type": "minecraft:alternatives",
@@ -106,32 +70,29 @@
 							"conditions": [
 								{
 									"condition": "minecraft:random_chance",
-									"chance": 0.33
+									"chance": 0.2
 								}
 							]
 						},
 						{
 							"type": "minecraft:item",
-							"name": "minecraft:ender_pearl"
-						}
-					],
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							},
-							"add": false
-						},
-						{
-							"function": "minecraft:looting_enchant",
-							"count": {
-								"type": "minecraft:uniform",
-								"min": 0,
-								"max": 1
-							}
+							"name": "minecraft:ender_pearl",
+							"functions": [
+								{
+									"function": "minecraft:set_count",
+									"count": {
+										"min": 0,
+										"max": 1
+									}
+								},
+								{
+									"function": "minecraft:looting_enchant",
+									"count": {
+										"min": 0,
+										"max": 1
+									}
+								}
+							]
 						}
 					]
 				}
@@ -142,6 +103,31 @@
 					"predicate": {
 						"dimension": "minecraft:the_end"
 					}
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/food/enderman_flesh",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 0,
+								"max": 2
+							}
+						},
+						{
+							"function": "minecraft:looting_enchant",
+							"count": {
+								"min": 0,
+								"max": 1
+							}
+						}
+					]
 				}
 			]
 		}

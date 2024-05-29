@@ -29,4 +29,4 @@ execute store result entity @s Motion.[2] double 0.027 run scoreboard players ge
 
 data modify entity @s Rotation set from storage stellarity:temp Rotation
 
-function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}
+function kohara:damage/calculate {armor_penetration:20,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:natures_wrath",tag:"stellarity.damage.natures_wrath"}

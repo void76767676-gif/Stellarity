@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{stellarity.special_item:\"royal_jelly\"}"
+							"tag": "{stellarity.special_item:\"royal_jelly\",HideFlags:2}"
 						},
 						{
 							"function": "minecraft:set_name",
@@ -33,22 +33,34 @@
 									},
 									" ",
 									{
-										"translate": "potion.potency.2",
-										"color": "blue",
-										"italic": false
-									},
-									" ",
-									{
-										"text": "(0:48)",
+										"text": "(1:00)",
 										"color": "blue",
 										"italic": false
 									}
 								],
+								{
+									"translate": "stellarity.items.potions.royal_jelly.usage",
+									"fallback": "Cleanses all debuffs",
+									"color": "blue",
+									"italic": false
+								},
 								"",
 								{
 									"translate": "Stellarity",
 									"color": "#CC26FF",
 									"italic": true
+								}
+							]
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"attribute": "minecraft:generic.max_health",
+									"name": "",
+									"amount": 0,
+									"operation": "addition",
+									"slot": "mainhand"
 								}
 							]
 						}

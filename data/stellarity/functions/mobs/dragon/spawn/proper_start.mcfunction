@@ -1,8 +1,8 @@
 function far_end:structures/exit_portal/deactivated/generate
 
-playsound entity.ender_dragon.ambient block @a[distance=0..] ~ ~ ~ 2 0.75
-playsound minecraft:entity.generic.explode block @a[distance=0..] ~ ~ ~ 2 0.75
-playsound minecraft:entity.blaze.death block @a[distance=0..] ~ ~ ~ 2 0.5
+playsound entity.ender_dragon.ambient block @a[distance=0..] ~ ~ ~ 4 0.75
+playsound minecraft:entity.generic.explode block @a[distance=0..] ~ ~ ~ 4 0.75
+playsound minecraft:entity.blaze.death block @a[distance=0..] ~ ~ ~ 4 0.5
 
 advancement grant @a[distance=..32] only stellarity:dragons_den/sacrificial_ritual
 

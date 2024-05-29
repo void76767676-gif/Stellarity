@@ -7,3 +7,5 @@ particle minecraft:dust 0.302 0.765 1 1 ~ ~1 ~ .4 .4 .4 1.1 9 force @a[distance=
 playsound stellarity:item.elektra_shield.zap player @a[distance=0..] ~ ~ ~ 1 1
 
 execute if entity @s[type=creeper,predicate=kohara:chance/25percent,nbt=!{powered:1b}] run function stellarity:items/elektra_shield/dash/charge_creepers
+
+scoreboard players add @p stellarity.items.elektra_shield.zap_count 1

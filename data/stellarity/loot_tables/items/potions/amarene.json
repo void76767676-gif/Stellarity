@@ -11,14 +11,15 @@
 							"function": "minecraft:set_name",
 							"entity": "this",
 							"name": {
-								"text": "Amarene",
+								"translate": "stellarity.items.potions.amarena",
+								"fallback": "Amarene",
 								"color": "#C90D17",
 								"italic": false
 							}
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:1b,duration:960},{id:\"minecraft:regeneration\",amplifier:2b,duration:960},{id:\"minecraft:weakness\",duration:960},{id:\"minecraft:saturation\",amplifier:3b,duration:1},{id:\"minecraft:luck\",duration:4800}],CustomPotionColor:13176087,HideFlags:33}"
+							"tag": "{custom_potion_effects:[{id:\"minecraft:speed\",amplifier:1b,duration:960},{id:\"minecraft:regeneration\",amplifier:0b,duration:960},{id:\"minecraft:weakness\",duration:960},{id:\"minecraft:saturation\",amplifier:3b,duration:1},{id:\"minecraft:luck\",duration:4800}],CustomPotionColor:13176087,HideFlags:33,stellarity.special_item:\"amarene\"}"
 						},
 						{
 							"function": "minecraft:set_enchantments",

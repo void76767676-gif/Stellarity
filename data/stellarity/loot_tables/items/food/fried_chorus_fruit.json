@@ -1,0 +1,63 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.food.fried_chorus_fruit",
+								"fallback": "Fried Chorus Fruit",
+								"color": "white",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90004,stellarity.special_item:\"fried_chorus_fruit\"}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"text": "10",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#B88458",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "14.4",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#FFDE4C",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

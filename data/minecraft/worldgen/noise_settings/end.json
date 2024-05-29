@@ -21,28 +21,12 @@
 		"fluid_level_floodedness": 0,
 		"fluid_level_spread": 0,
 		"lava": 0,
-		"temperature": {
-			"type": "minecraft:shifted_noise",
-			"noise": "stellarity:temperature",
-			"xz_scale": 0.25,
-			"y_scale": 0,
-			"shift_x": "minecraft:shift_x",
-			"shift_y": 0,
-			"shift_z": "minecraft:shift_z"
-		},
-		"vegetation": {
-			"type": "minecraft:shifted_noise",
-			"noise": "stellarity:vegetation",
-			"xz_scale": 0.25,
-			"y_scale": 0,
-			"shift_x": "minecraft:shift_x",
-			"shift_y": 0,
-			"shift_z": "minecraft:shift_z"
-		},
-		"continents": "stellarity:continents",
-		"erosion": "stellarity:erosion",
-		"depth": "stellarity:depth",
-		"ridges": "stellarity:ridges",
+		"temperature": "stellarity:climate/temperature",
+		"vegetation": "stellarity:climate/humidity",
+		"continents": "stellarity:climate/continents",
+		"erosion": "stellarity:climate/erosion",
+		"depth": "stellarity:climate/depth",
+		"ridges": "stellarity:climate/ridges",
 		"initial_density_without_jaggedness": "stellarity:initial_density",
 		"final_density": "stellarity:final_density",
 		"vein_toggle": 0,
@@ -77,7 +61,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": -0.03,
 									"max_threshold": 0.02
 								},
@@ -95,7 +79,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": -0.05,
 									"max_threshold": 0.04
 								},
@@ -134,7 +118,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": 0.3,
 									"max_threshold": 0.37
 								},
@@ -176,7 +160,7 @@
 										"type": "minecraft:condition",
 										"if_true": {
 											"type": "minecraft:noise_threshold",
-											"noise": "minecraft:surface",
+											"noise": "stellarity:surface",
 											"min_threshold": 0,
 											"max_threshold": 0.2
 										},
@@ -220,7 +204,7 @@
 							"type": "minecraft:condition",
 							"if_true": {
 								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
+								"noise": "stellarity:surface",
 								"min_threshold": 0.2,
 								"max_threshold": 0.4
 							},
@@ -245,7 +229,7 @@
 							"type": "minecraft:condition",
 							"if_true": {
 								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
+								"noise": "stellarity:surface",
 								"min_threshold": 0.05,
 								"max_threshold": 1
 							},
@@ -270,7 +254,7 @@
 							"type": "minecraft:condition",
 							"if_true": {
 								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
+								"noise": "stellarity:surface",
 								"min_threshold": -0.2,
 								"max_threshold": 0.01
 							},
@@ -318,7 +302,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": -0.037,
 									"max_threshold": 0.025
 								},
@@ -390,6 +374,50 @@
 							{
 								"type": "minecraft:condition",
 								"if_true": {
+									"type": "minecraft:biome",
+									"biome_is": [
+										"minecraft:end_highlands"
+									]
+								},
+								"then_run": {
+									"type": "minecraft:sequence",
+									"sequence": [
+										{
+											"type": "minecraft:condition",
+											"if_true": {
+												"type": "minecraft:noise_threshold",
+												"noise": "stellarity:surface",
+												"min_threshold": 0.2,
+												"max_threshold": 1
+											},
+											"then_run": {
+												"type": "minecraft:block",
+												"result_state": {
+													"Name": "minecraft:end_stone"
+												}
+											}
+										},
+										{
+											"type": "minecraft:condition",
+											"if_true": {
+												"type": "minecraft:noise_threshold",
+												"noise": "stellarity:surface_4x",
+												"min_threshold": 0,
+												"max_threshold": 0.05
+											},
+											"then_run": {
+												"type": "minecraft:block",
+												"result_state": {
+													"Name": "minecraft:coarse_dirt"
+												}
+											}
+										}
+									]
+								}
+							},
+							{
+								"type": "minecraft:condition",
+								"if_true": {
 									"type": "minecraft:stone_depth",
 									"offset": 0,
 									"surface_type": "floor",
@@ -440,7 +468,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": -0.03,
 									"max_threshold": 0.02
 								},
@@ -458,7 +486,7 @@
 								"type": "minecraft:condition",
 								"if_true": {
 									"type": "minecraft:noise_threshold",
-									"noise": "minecraft:surface",
+									"noise": "stellarity:surface",
 									"min_threshold": -0.05,
 									"max_threshold": 0.04
 								},
@@ -488,7 +516,7 @@
 							"type": "minecraft:condition",
 							"if_true": {
 								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
+								"noise": "stellarity:surface",
 								"min_threshold": -0.15,
 								"max_threshold": 0.08
 							},
@@ -574,45 +602,6 @@
 				}
 			},
 			{
-				"type": "minecraft:condition",
-				"if_true": {
-					"type": "minecraft:biome",
-					"biome_is": [
-						"stellarity:sculk_growth"
-					]
-				},
-				"then_run": {
-					"type": "minecraft:sequence",
-					"sequence": [
-						{
-							"type": "minecraft:condition",
-							"if_true": {
-								"type": "minecraft:noise_threshold",
-								"noise": "minecraft:surface",
-								"min_threshold": 0.5,
-								"max_threshold": 0.67
-							},
-							"then_run": {
-								"type": "minecraft:condition",
-								"if_true": {
-									"type": "minecraft:stone_depth",
-									"offset": 3,
-									"surface_type": "floor",
-									"add_surface_depth": false,
-									"secondary_depth_range": 0
-								},
-								"then_run": {
-									"type": "minecraft:block",
-									"result_state": {
-										"Name": "minecraft:sculk"
-									}
-								}
-							}
-						}
-					]
-				}
-			},
-			{
 				"type": "minecraft:sequence",
 				"sequence": [
 					{
@@ -643,21 +632,6 @@
 							"type": "minecraft:block",
 							"result_state": {
 								"Name": "minecraft:calcite"
-							}
-						}
-					},
-					{
-						"type": "minecraft:condition",
-						"if_true": {
-							"type": "minecraft:biome",
-							"biome_is": [
-								"minecraft:end_highlands"
-							]
-						},
-						"then_run": {
-							"type": "minecraft:block",
-							"result_state": {
-								"Name": "minecraft:granite"
 							}
 						}
 					},

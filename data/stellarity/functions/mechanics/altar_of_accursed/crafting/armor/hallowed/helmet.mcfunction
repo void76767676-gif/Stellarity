@@ -7,7 +7,7 @@ kill @e[type=item,tag=stellarity.aota.hallowed_ingots,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.netherite_helmet,distance=..1.5,limit=1]
 kill @e[type=item,tag=stellarity.aota.enderite_smithing_template,distance=..1.5,limit=1]
 
-loot spawn ~ ~-.4 ~ loot stellarity:items/armors/hallowed_armor/helmet
+loot spawn ~ ~-.4 ~ loot stellarity:items/armor/hallowed/helmet
 tag @e[type=item,limit=1,sort=nearest] add stellarity.aota.skip
 
 data modify entity @e[type=item,limit=1,sort=nearest] Item.tag.Enchantments set from storage stellarity:temp aota.enchants

@@ -9,7 +9,7 @@
 					"functions": [
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{custom_potion_effects:[{id:\"minecraft:health_boost\",amplifier:0b,duration:4800}],CustomPotionColor:16733011}"
+							"tag": "{custom_potion_effects:[{id:\"minecraft:health_boost\",amplifier:0b,duration:3600}],CustomPotionColor:16733011,stellarity.special_item:\"lifeforce_potion\"}"
 						},
 						{
 							"function": "minecraft:set_name",

@@ -3,6 +3,7 @@
 		"kohara:no_knockback_ignores_iframes",
 		"kohara:no_knockback",
 		"#stellarity:dot",
-		"stellarity:electric"
+		"stellarity:electric",
+		"stellarity:echo"
 	]
 }

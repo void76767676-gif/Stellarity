@@ -4,7 +4,7 @@ execute if entity @s[tag=stellarity.consecration.poisonous_potato] run function 
 execute if entity @s[tag=stellarity.consecration.chorus_fruit] run function stellarity:mechanics/consecration/drops/energizing_fruit
 execute if entity @s[tag=stellarity.consecration.rabbit_stew] run function stellarity:mechanics/consecration/drops/endurance_brew
 execute if entity @s[tag=stellarity.consecration.beetroot] run function stellarity:mechanics/consecration/drops/rageroot
-execute if entity @s[tag=stellarity.consecration.glow_berries] run function stellarity:mechanics/consecration/drops/fury_berries
+execute if entity @s[tag=stellarity.consecration.sweet_berries] run function stellarity:mechanics/consecration/drops/fury_berries
 execute if entity @s[tag=stellarity.consecration.enchanted_golden_apple] run function stellarity:mechanics/consecration/drops/miracle_fruit
 
 # Cherry stuff

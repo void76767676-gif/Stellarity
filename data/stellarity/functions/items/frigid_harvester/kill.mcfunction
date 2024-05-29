@@ -4,8 +4,8 @@ data modify storage stellarity:temp aery_sword.item set from entity @s SelectedI
 execute store result score #damage stellarity.misc run data get storage stellarity:temp aery_sword.item."stellarity.aery_sword".damage 100
 
 # Damage gains
-# Only goes until +14 damage, or 19 total damage
-execute if score #damage stellarity.misc matches ..1399 run function stellarity:items/frigid_harvester/scale
+# Only goes until +12 damage, or 16 total damage
+execute if score #damage stellarity.misc matches ..1199 run function stellarity:items/frigid_harvester/scale
 
 # Anima Conduit
 execute if data storage stellarity:temp {aery_sword:{item:{stellarity.aery_sword:{abilities:["anima_conduit"]}}}} run function stellarity:items/frigid_harvester/abilities/anima_conduit/activate

@@ -23,8 +23,8 @@
 		"minecraft:tall_grass",
 		"minecraft:seagrass",
 		"minecraft:kelp",
-		"kelp_plant",
-		"tall_seagrass",
+		"minecraft:kelp_plant",
+		"minecraft:tall_seagrass",
 		"minecraft:large_fern",
 		"minecraft:bamboo",
 		"minecraft:chorus_flower",
@@ -41,8 +41,10 @@
 		"minecraft:azalea",
 		"minecraft:flowering_azalea",
 		"minecraft:big_dripleaf",
+		"minecraft:big_dripleaf_stem",
 		"minecraft:small_dripleaf",
 		"minecraft:hanging_roots",
+		"minecraft:sugar_cane",
 
 		"#minecraft:fence_gates",
 		

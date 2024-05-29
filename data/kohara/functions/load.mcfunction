@@ -23,6 +23,9 @@ scoreboard objectives add kohara.respawn_detection minecraft.custom:minecraft.de
 
 scoreboard objectives add kohara.health_reset dummy
 
+scoreboard objectives add kohara.record.play_time.current dummy
+scoreboard objectives add kohara.record.play_time.max dummy
+
 # Custom status effects
 # kohara's Libs only handles loading, ticking and removing,
 # the rest has to be set up manually

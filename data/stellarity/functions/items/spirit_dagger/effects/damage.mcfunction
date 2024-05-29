@@ -13,4 +13,4 @@ execute unless score #fire_aspect stellarity.misc matches 0 run function stellar
 execute unless score #bane stellarity.misc matches 0 if entity @s[type=#minecraft:arthropod] at @s run function stellarity:items/spirit_dagger/effects/bane_of_spiders
 
 # Not using its own damage type, because it has 100% AP
-function kohara:damage/calculate {armor_penetration:100,damage_boost_efficiency:50,damage_type:"kohara:armor_piercing",tag:"stellarity.damage.spirit_dagger"}
+function kohara:damage/calculate {armor_penetration:100,damage_boost_efficiency:50,ap_damage_type:"kohara:armor_piercing",damage_type:"kohara:armor_piercing",tag:"stellarity.damage.spirit_dagger"}

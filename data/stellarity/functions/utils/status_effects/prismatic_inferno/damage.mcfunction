@@ -32,8 +32,8 @@ scoreboard players reset @s[scores={stellarity.dot.prismatic_inferno.particle_cy
 
 playsound minecraft:block.amethyst_cluster.break neutral @a[distance=0..] ~ ~ ~
 
-execute unless entity @s[type=player] run tag @p add kohara.attacker
+tag @p[distance=0.01..] add kohara.attacker
 
 data modify entity @s Fire set value 1s
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/prismatic_inferno",tag:"stellarity.damage.dot.prismatic_inferno"}
+function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dot/prismatic_inferno",tag:"stellarity.damage.dot.prismatic_inferno"}

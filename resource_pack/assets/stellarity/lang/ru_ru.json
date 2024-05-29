@@ -1,17 +1,4 @@
 {
-	// TIP:
-	// If you see ѕᴍᴀʟʟ ᴛᴇхᴛ ʟɪᴋᴇ ᴛʜɪѕ, you can use
-	// https://lingojam.com/MinecraftSmallFont
-	// to generate it for your translations!
-	// Make sure your input text is fully in lowercase characters
-
-	//"Stellarity": "§fꑟ",
-	//"- Donator Item -": "§fꐁ",
-	//"- Developer Item -": "§fꑡ",
-	//"- Member #666 Item -": "§fꐂ",
-	//"- Member #777 Item -": "§fꑛ",
-
-	// Start translating from here
 	"stellarity.pack_mcmeta.rp": "Ресурспак для Stellarity",
 	"stellarity.pack_mcmeta.rp.music": "Дополнение с музыкой для Stellarity",
 
@@ -38,7 +25,6 @@
 
 	"stellarity.eol.despawn": "%s уходит, так и не найдя достойного соперника...",
 
-	// Config
 	"stellarity.config.enabled": "Включено",
 	"stellarity.config.disabled": "Отключено",
 	"stellarity.config.click_to_edit": "Нажмите для редактирования",
@@ -67,23 +53,18 @@
 	"stellarity.config.nerf_elytra.title": "Исправление элитр",
 	"stellarity.config.nerf_elytra.description": "Элитры теряют больше прочности от ускорения.",
 
-	// Items
-	// Explorer Maps
 	"stellarity.explorer_map.end_city": "Карта исследователя архитектуры Края",
 	"stellarity.explorer_map.end_village": "Карта исследователя поселений Края",
 	"stellarity.explorer_map.chapel_of_light": "Карта пути к Святилищу света",
 
-	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "Светлая память Хлюпу...",
 
-	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "Не содержит зачарований",
 	"stellarity.items.empty_enchanted_book.description.2": "Она извивается и тянется по направлению",
 	"stellarity.items.empty_enchanted_book.description.3": "к крупному разлому в одном из столбов",
 	"stellarity.items.empty_enchanted_book.description.4": "Она хочет, чтобы её поместили",
 	"stellarity.items.empty_enchanted_book.description.5": "на то, что таится внутри",
 
-	// Armor sets
 	"stellarity.items.armors.set_bonus": "Бонус полного комплекта:",
 
 	"stellarity.items.armors.chorus_champion_armor.helmet": "Шлем хорус-хранителя",
@@ -109,7 +90,6 @@
 	"stellarity.items.armors.shulker_armor.set_bonus.2": "Входящий урон уменьшен на 20% в окружении врагов",
 	"stellarity.items.armors.shulker_armor.set_bonus.3": "Невосприимчивость к левитации и слабости",
 
-	// Crates
 	"stellarity.items.crates.place_down": "Поставьте и откройте!",
 
 	"stellarity.items.crates.amethyst": "Аметистовый ящик",
@@ -121,7 +101,6 @@
 	"stellarity.items.crates.prismarine": "Призмариновый ящик",
 	"stellarity.items.crates.sculk": "Скалк-ящик",
 
-	// Void Fish
 	"stellarity.items.fish.amethyst_budfish": "Аметистовая рыбка",
 	"stellarity.items.fish.bubblefish": "Пузырёчек",
 	"stellarity.items.fish.crimson_tigerfish": "Багряный голиаф",
@@ -137,7 +116,6 @@
 	"stellarity.items.fish.crystal_heartfish.description.2": "максимальное здоровье на 1 сердце",
 	"stellarity.items.fish.crystal_heartfish.description.3": "Можно получить до 10 сердец",
 
-	// Crafting materials
 	"stellarity.items.materials.chorus_plating": "Пластина хоруса",
 	"stellarity.items.materials.hallowed_ingot": "Святой слиток",
 	"stellarity.items.materials.upgrade": "Используется для улучшения незеритовой брони",
@@ -155,7 +133,6 @@
 	"stellarity.items.materials.pixie_dust": "Пыльца пикси",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'Продукт может содержать фею'",
 
-	// Permanent buffs
 	"stellarity.items.perm_buffs.consume_to": "Используйте, чтобы навсегда",
 
 	"stellarity.items.perm_buffs.rageroot": "Алый плод",
@@ -180,7 +157,6 @@
 	"stellarity.items.perm_buffs.miracle_fruit": "Ньютоново яблоко",
 	"stellarity.items.perm_buffs.miracle_fruit.increase": "усилить способности регенерации",
 	
-	// Potions
 	"stellarity.items.potions.blind_rage_potion": "Зелье слепого гнева",
 	"stellarity.items.potions.amarena.description": "Похоже на вино, однако всё же не оно",
 	"stellarity.items.potions.amarena.flavor_text": "'Запретный сок'",
@@ -198,7 +174,6 @@
 	"stellarity.items.potions.infernal_concoction": "Адское варево",
 	"stellarity.items.potions.regenerative_mix": "Заживляющее снадобье",
 	
-	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Перезарядка: %s секунд",
 	"stellarity.items.spellbooks.cooldown_long": "Перезарядка: %s минут",
 	"stellarity.items.spellbooks.notification": "Ваш %s готов к использованию",
@@ -233,14 +208,12 @@
 	"stellarity.items.spellbooks.return": "Томик возврата",
 	"stellarity.items.spellbooks.return.description": "Возвращает к точке возрождения",
 
-	// Tools
 	"stellarity.items.tools.shulker.axe": "Шалкеровый топор",
 	"stellarity.items.tools.shulker.hoe": "Шалкеровая мотыга",
 	"stellarity.items.tools.shulker.pickaxe": "Шалкеровая кирка",
 	"stellarity.items.tools.shulker.shovel": "Шалкеровая лопата",
 	"stellarity.items.tools.shulker.sword": "Шалкеровый меч",
 
-	// Trinkets
 	"stellarity.items.trinkets.crest_of_the_end": "Герб Края",
 	"stellarity.items.trinkets.crest_of_the_end.description.1": "Отражение урона усиливает",
 	"stellarity.items.trinkets.crest_of_the_end.description.2": "вашу следующую атаку",
@@ -283,7 +256,6 @@
 	"stellarity.items.trinkets.casket_of_stars.description.1": "Звёздный ударник быстрее собирает звёзды,",
 	"stellarity.items.trinkets.casket_of_stars.description.2": "увеличивает их скорость и бронепробиваемость",
 
-	// Weapons
 	"stellarity.items.weapons.ancient_wooden_sword": "Старинный деревянный меч",
 	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'забудьте \"Тропы и Сказки\", восхваляйте Indev'",
 
@@ -384,7 +356,6 @@
 	"stellarity.items.weapons.slayer_crossbow.description.1": "Выпускает энергетические разряды с огромным уроном и",
 	"stellarity.items.weapons.slayer_crossbow.description.2": "бесконечным пронзанием, но с ограниченной дальностью",
 
-	// Other items
 	"stellarity.items.fisher_of_voids": "Ловец бездны",
 	"stellarity.items.fisher_of_voids.description": "Рыбачить в пустоте становится немного быстрее",
 
@@ -403,7 +374,6 @@
 	"stellarity.items.altar_of_light.description.4": "внимание покровительницы фей",
 	"stellarity.items.altar_of_light.flavor_text": "'Не путать с алтарём проклятых'",
 
-	// Cursed Enchiridion (AKA Cursed Tome)
 	"stellarity.items.cursed_tome": "Проклятый гримуар",
 	"stellarity.items.cursed_tome.unlock_entry": "Ваш %s наполняется знаниями!",
 	"stellarity.items.cursed_tome.description.1": "Содержит всю информацию",
@@ -414,112 +384,6 @@
 	"stellarity.items.cursed_tome.obtaining":"     ПОЛУЧЕНИЕ",
 	"stellarity.items.cursed_tome.ingredients":"   ИНГРЕДИЕНТЫ",
 
-	"stellarity.items.cursed_tome.entries.sharanga.center": "        ",
-	"stellarity.items.cursed_tome.entries.sharanga.description": "Прочный лук из мангровой древесины.\nЕсли в качестве боеприпасов - спектральные стрелы, то он превращает их в стремительные энергетические заряды.",
-	"stellarity.items.cursed_tome.entries.sharanga.obtaining": "Редко выпадает с иллюзоров в крепости.\nИдёт в комплекте с 7 - 22 спектральными стрелами.",
-
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.center": "",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.description": "Обычный арбалет, да пара шестерёнок. Может совершать выстрелы с чертовски большой скоростью, но не без потери львиной доли урона.",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Редко выпадает с разбойников в крепости.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "  ",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Телепортация с помощью жемчуга края до боли непривычна человеческому телу. Эта книга была создана, чтобы обратить сумбурную магию в безупречное перемещение.",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Редко выпадает с заклинателей в крепости.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.description": "Создаёт небольшую область света, которая заживляет раны, исцеляет недуги и накладывает сопротивление.",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.obtaining": "Редко выпадает с заклинателей в крепости.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.center": "",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.description": "Изготовлена горными чародеями в основном для облегчения передвижения. Запускает владельца в воздух лёгким порывом ветра, позволяя свободно планировать какое-то время.",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Редко выпадает с заклинателей в крепости.",
-
-	"stellarity.items.cursed_tome.entries.tamaris.center": "        ",
-	"stellarity.items.cursed_tome.entries.tamaris.description": "Сам меч не выдерживает магии разложения, потаённой внутри.\nНакладывает на врагов разложение, а также позволяет владельцу добивать цели с низким здоровьем.",
-	"stellarity.items.cursed_tome.entries.tamaris.obtaining": "66% шанс выпадения с Дракона Края.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.description": "Осколок аметиста, осквернённый магией Края. Усиливает регенерацию владельца, когда он крадётся. Сперва эффект слабый, но он набирает силу, покуда владелец не перестанет красться.",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.obtaining": "66% шанс выпадения с Дракона Края.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.center": "      ",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Укреплённый материалами Края, сей щит поглощает долю урона и направляет на нападающего при последующем ударе владельца.",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.obtaining": "66% шанс выпадения с Дракона Края.",
-
-	"stellarity.items.cursed_tome.entries.dragonblade.center": "  ",
-	"stellarity.items.cursed_tome.entries.dragonblade.description": "Никто не знает что это.\n\nНикто не знает откуда оно появилось.\n\nНикто не знает кто его создал.",
-	"stellarity.items.cursed_tome.entries.dragonblade.obtaining": "Появляется на алтаре после победы над Драконом Края.\n\nСуществует лишь один.",
-
-	"stellarity.items.cursed_tome.entries.shulker_armor.center": "",
-	"stellarity.items.cursed_tome.entries.shulker_armor.title": "Шалкеровая броня",
-	"stellarity.items.cursed_tome.entries.shulker_armor.description": "Самые прочные и крепкие из всех доспехов, когда-либо скованных. Делает владельца почти неуязвимым, а также дарует сопротивление к некоторым эффектам.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.obtaining": "Создаётся на алтаре проклятых.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.misc": "Любая часть незеритовой брони",
-
-	"stellarity.items.cursed_tome.entries.shulker_tools.center": "",
-	"stellarity.items.cursed_tome.entries.shulker_tools.title": "Шалкеровые инструменты",
-	"stellarity.items.cursed_tome.entries.shulker_tools.description": "Сильнейшие из всех приспособлений, когда-либо созданных. Те, кто держал их в руках, испытывали внезапный всплеск энергии, позволяющий им копать и атаковать быстрее обычного.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Создаются на алтаре проклятых.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.misc": "Любой незеритовый инструмент",
-
-	"stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
-	"stellarity.items.cursed_tome.entries.sabrewing.description": "Недаром получил это прозвище.\nСаблекрыл может суперзаряжать выстрелы, увеличивая их силу и наделяя невероятной мощью.",
-	"stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Создаётся на алтаре проклятых.",
-
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.center": "   ",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.description": "Попытка создать что-то из ничего.\nПри открытии выдаёт различную добычу и призывает существ в зависимости от биома.",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Если повезёт, можно найти в городах Края. Также создаётся на алтаре проклятых.",
-
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.center": "   ",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.title": "Броня хорус-хранителей",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.description": "Благословляет владельца яростью хранителей, предоставляя множитель урона, увеличивающийся с каждым ударом.",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.obtaining": "Создаётся на алтаре проклятых из 5/8/7/4 пластин хоруса (Шлем/Нагрудник/Поножи/Ботинки)\n\nПластины хоруса можно найти в рыбацких ящиках, городах Края или купить в деревнях Края.",
-
-	"stellarity.items.cursed_tome.entries.hallowed_armor.center": "    ",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.title": "Святая броня",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.description": "Ходят слухи, что владельца святой брони защищают сами небеса, даруя ему способность полностью игнорировать весь урон на короткое время.",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Создаётся на алтаре проклятых из 5/8/7/4 святых слитков (Шлем/Нагрудник/Поножи/Ботинки)\n\nСвятые слитки можно найти в рыбацких ящиках, городах Края или купить в деревнях Края.",
-
-	"stellarity.items.cursed_tome.entries.spirit_dagger.center": "",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "Это оружие не будет работать в одиночку. Если одновременно орудовать двумя, то иногда атаки будут привлекать духов. Владелец может поглотить их для телепортации и получить усиления на короткое время.",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Редко выпадает с фантомов, бороздящих просторы Края.",
-
-	"stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.description": "Твёрдый лёд захватывает души поверженных существ, используя их для увеличения собственной силы.\nЧем больше оно поглощает, тем больше урона наносит, сверх того открывая пассивные умения.",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.obtaining": "Выпадает с зимогоров со склонов Морозных холмов, есть небольшая вероятность, что вы встретите их вместе с мечом.\n\n10% шанс найти в заледеневших ящиках.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Попытка крестьян создать магический предмет.\nЭта книга наполняет себя энергией биомов, исследуемых владельцем, и улучшает свои способности.",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Иногда продаётся библиотекарем в деревнях Края.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Пожалуй, самый своеобразный плод, порождённый Святыми землями. Эта проклятая ягода делит свою магию с любым, кто её держит.\nПо преданиям, на вкус как висмут.",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Можно найти на борту кораблей Края в Святых землях с весьма точным шансом 57.14%.\n\nТакже встречается в святых ящиках с той же причудливой вероятностью.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "  ",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "В отличие от обычных ожерелий, почему-то именно это нужно держать в руке. При получении урона вызывает звёзды, наносящие урон всему, что попадётся им на пути.",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "33% шанс выпадения с Императрицы Света.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": " ",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "Эмблема, наделённая крупицей силы Императрицы. \nДарует владельцу способность свободно летать, словно гравитации и не существует.",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Редко выпадает с Императрицы Света.\n\nНепременно выпадет, если победить днём в Верхнем мире.",
-
-	"stellarity.items.cursed_tome.entries.stella.center": "         ",
-	"stellarity.items.cursed_tome.entries.stella.description": "Выкована из чистейших кристаллов Святых земель и наполнена пылающей энергией. Чем больше точных ударов настигают врага, тем сильнее разгорается пламя.",
-	"stellarity.items.cursed_tome.entries.stella.obtaining": "33% шанс выпадения с Императрицы Света.",
-
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.center": "",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.description": "Эндер-жемчужины, подверженные волшебству Святых земель постепенно утрачивают темноту. Они способны возвращаться к метателю через какое-то время.",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "33% шанс выпадения с Императрицы Света.",
-
-	"stellarity.items.cursed_tome.entries.prismatic_punch.description": "Арбалет, изготовленный из жемчужной древесины святых деревьев. Превращает все стрелы в радужные заряды, которые самонаводятся и взрываются при попадании.",
-	"stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "33% шанс выпадения с Императрицы Света.",
-
-	"stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "Меч невероятной силы, проводимой напрямую от Солнца. Заряжается и при ударе выпускает всю накопленную энергию одним мощным разрядом.",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Выпадает с Императрицы Света, но только днём в Верхнем мире.",
-
-	// Advancements
 	"stellarity.advancements.anger_enderman": "С повязкой на глазах",
 	"stellarity.advancements.anger_enderman.description": "Разозлите эндермена, посмотрев на него",
 	"stellarity.advancements.champions_ballad": "Баллада о чемпионе",
@@ -641,9 +505,6 @@
 	"stellarity.advancements.charge_anchor_end": "Маяк в океане вечности",
 	"stellarity.advancements.charge_anchor_end.description": "Зарядите якорь возрождения в Крае. Работает так же, как в Нижнем мире",
 
-	// Death Messages
-	// %1$s - victim
-	// %2$s - attacker
 	"stellarity.death_messages.sharanga_explosion": "%1$s разорвало на части спектральным взрывом %2$s",
 	"stellarity.death_messages.carcanet.1": "%1$s слишком сильно ударило звездой %2$s",
 	"stellarity.death_messages.carcanet.2": "%2$s помог попасть %1$s на небеса",
@@ -671,9 +532,6 @@
 	"stellarity.death_messages.eol.dash": "%1$s не убрался вовремя с пути Императрицы Света",
 	"stellarity.death_messages.prismember": "%1$s низведён в пепел %2$s",
 
-	// Subtitles for some sounds
-	// No translation strings here, as I would then
-	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Эндермен атакует",
 	"Endermite attacks": "Эндермит атакует",
 	"Chorus Dagger recharges": "Хорус-кортик заряжен",
@@ -681,8 +539,6 @@
 	"Living Flesh hurts": "Живая плоть изнывает",
 	"Kaleidoscope charges": "Калейдоскоп заряжен",
 	
-	// Biomes
-	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Аметистовый лес",
 	"biome.far_end.ashfall_delta": "Пепельная дельта",
 	"biome.far_end.end_wilds": "Дебри Края",

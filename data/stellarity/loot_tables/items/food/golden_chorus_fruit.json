@@ -1,0 +1,63 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:chorus_fruit",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"entity": "this",
+							"name": {
+								"translate": "stellarity.items.food.golden_chorus_fruit",
+								"fallback": "Golden Chorus Fruit",
+								"color": "#55FFFF",
+								"italic": false
+							}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:90000,stellarity.special_item:\"golden_chorus_fruit\",Enchantments:[{}]}"
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								[
+									{
+										"text": "6",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#B88458",
+										"italic": false
+									},
+									" ",
+									{
+										"text": "6.4",
+										"color": "#EEEEEE",
+										"italic": false
+									},
+									{
+										"text": " 🍖",
+										"color": "#FFDE4C",
+										"italic": false
+									}
+								],
+								"",
+								{
+									"translate": "Stellarity",
+									"color": "#CC26FF",
+									"italic": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

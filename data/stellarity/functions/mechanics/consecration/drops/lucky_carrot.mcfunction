@@ -1,4 +1,4 @@
-loot spawn ~ 400 ~ loot stellarity:items/perm_buffs/lucky_carrot
+loot spawn ~ 400 ~ loot stellarity:items/food/perm_buffs/lucky_carrot
 execute positioned ~ 400 ~ run data modify storage stellarity:temp consecration.drop set from entity @e[type=item,limit=1,sort=nearest] Item
 execute positioned ~ 400 ~ run kill @e[type=item,limit=1,sort=nearest]
 

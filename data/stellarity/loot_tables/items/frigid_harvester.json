@@ -34,12 +34,18 @@
 								},
 								{
 									"translate": "stellarity.items.weapons.frigid_harvester.description.3",
-									"fallback": "and unlocking passive abilities",
+									"fallback": "Killing some mobs after reaching certain damage",
 									"color": "#EEEEEE",
 									"italic": false
 								},
 								{
 									"translate": "stellarity.items.weapons.frigid_harvester.description.4",
+									"fallback": "tresholds unlocks passive abilities",
+									"color": "#EEEEEE",
+									"italic": false
+								},
+								{
+									"translate": "stellarity.items.weapons.frigid_harvester.description.5",
 									"fallback": "The more souls it absorbs, the less damage it gets",
 									"color": "#EEEEEE",
 									"italic": false
@@ -68,7 +74,7 @@
 										"translate": "attribute.modifier.equals.0",
 										"with": [
 											{
-												"text": "5"
+												"text": "4"
 											},
 											{
 												"translate": "attribute.name.generic.attack_damage"
@@ -119,7 +125,7 @@
 									"attribute": "minecraft:generic.attack_damage",
 									"name": "",
 									"id": "CB3F55D3-645C-4F38-A497-9C13A33DB5CF",
-									"amount": 4,
+									"amount": 3,
 									"operation": "addition",
 									"slot": "mainhand"
 								},
@@ -150,7 +156,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:90001,stellarity.special_item:\"frigid_harvester\",HideFlags:6,stellarity.aery_sword:{damage:0d,abilities:[]},kohara.fireproof:0b}"
+							"tag": "{CustomModelData:90031,stellarity.special_item:\"frigid_harvester\",HideFlags:6,stellarity.aery_sword:{damage:0d,abilities:[]},kohara.fireproof:0b}"
 						}
 					]
 				}

@@ -27,11 +27,11 @@ execute if data storage stellarity:temp {aota:{item:{id:"minecraft:netherite_swo
 tag @s remove stellarity.aota.hallowed_ingots
 tag @s remove stellarity.aota.chorus_plating
 tag @s remove stellarity.aota.shulker_shells
-tag @s remove stellarity.aota.cherry_leaves
+tag @s remove stellarity.aota.8_cherry_leaves
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:iron_ingot",Count:4b,tag:{stellarity.special_item:"hallowed_ingot"}}}} run tag @s add stellarity.aota.hallowed_ingots
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:iron_ingot",Count:4b,tag:{stellarity.special_item:"chorus_plating"}}}} run tag @s add stellarity.aota.chorus_plating
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:shulker_shell",Count:4b}}} run tag @s add stellarity.aota.shulker_shells
-execute if data storage stellarity:temp {aota:{item:{id:"minecraft:cherry_leaves",Count:8b}}} run tag @s add stellarity.aota.cherry_leaves
+execute if data storage stellarity:temp {aota:{item:{id:"minecraft:cherry_leaves",Count:8b}}} run tag @s add stellarity.aota.8_cherry_leaves
 # Enderite Upgrade Smithing Template
 tag @s remove stellarity.aota.enderite_smithing_template
 execute if data storage stellarity:temp {aota:{item:{id:"minecraft:jigsaw",Count:1b,tag:{stellarity.special_item:"enderite_smithing_template"}}}} run tag @s add stellarity.aota.enderite_smithing_template

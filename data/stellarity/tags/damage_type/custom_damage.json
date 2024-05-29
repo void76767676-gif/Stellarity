@@ -9,6 +9,8 @@
 		"stellarity:natures_wrath",
 		"#stellarity:dot",
 		"stellarity:prismember",
-		"stellarity:electric"
+		"stellarity:electric",
+		"stellarity:echo",
+		"stellarity:bloom"
 	]
 }

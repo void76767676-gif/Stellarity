@@ -43,6 +43,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:items/armors/chorus_champion_armor/attack"
+		"function": "stellarity:items/armor/chorus_champion/attack"
 	}
 }

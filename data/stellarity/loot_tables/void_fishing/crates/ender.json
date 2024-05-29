@@ -22,13 +22,23 @@
 		{
 			"rolls": {
 				"min": 2,
-				"max": 3
+				"max": 4
 			},
-			"bonus_rolls": {
-				"min": 1,
-				"max": 3
-			},
+			"bonus_rolls": 0,
 			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:end_rod",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				},
 				{
 					"type": "minecraft:item",
 					"name": "minecraft:end_stone",
@@ -123,6 +133,24 @@
 		},
 		{
 			"rolls": {
+				"min": -1,
+				"max": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:potion",
+					"functions": [
+						{
+							"function": "minecraft:set_potion",
+							"id": "minecraft:healing"
+						}
+					]
+				}
+			]
+		},
+		{
+			"rolls": {
 				"min": -3,
 				"max": 1
 			},
@@ -158,6 +186,25 @@
 							]
 						}
 					]
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/the_beginning_and_the_end"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "stellarity:items/chorus_dagger"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance",
+					"chance": 0.2
 				}
 			]
 		}

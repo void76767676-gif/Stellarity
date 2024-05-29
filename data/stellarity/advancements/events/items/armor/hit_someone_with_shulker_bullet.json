@@ -30,6 +30,6 @@
 		}
 	},
 	"rewards": {
-		"function": "stellarity:items/armors/shulker_armor/hit_with_shulker_bullet"
+		"function": "stellarity:items/armor/shulker/hit_with_shulker_bullet"
 	}
 }

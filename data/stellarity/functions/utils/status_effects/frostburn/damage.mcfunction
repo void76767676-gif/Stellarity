@@ -9,6 +9,6 @@ particle minecraft:soul_fire_flame ~ ~1 ~ .3 .55 .3 0.01 10 force @a[distance=..
 
 execute unless entity @s[type=player] run playsound minecraft:entity.player.hurt_freeze neutral @a ~ ~ ~
 
-execute unless entity @s[type=player] run tag @p add kohara.attacker
+tag @p[distance=0.01..] add kohara.attacker
 
-function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,damage_type:"stellarity:dot/frostburn",tag:"stellarity.damage.dot.frostburn"}
+function kohara:damage/calculate {armor_penetration:0,damage_boost_efficiency:0,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:dot/frostburn",tag:"stellarity.damage.dot.frostburn"}

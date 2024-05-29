@@ -118,6 +118,11 @@
 			"stellarity:item/kaleidoscope/level_3_3"
 		]
 	},
+	"item.stellar_striker.thorn_apart":{
+		"sounds":[
+			"stellarity:item/stellar_striker/thorn_apart"
+		]
+	},
 	"item.dragonblade.damage":{
 		"sounds":[
 			"stellarity:item/dragonblade/damage"
@@ -142,6 +147,12 @@
 	"item.tamaris.execute_special":{
 		"sounds":[
 			"stellarity:item/tamaris/execute_special"
+		],
+		"subtitle":"subtitles.entity.player.teleport"
+	},
+	"item.tamaris.chime":{
+		"sounds":[
+			"stellarity:item/tamaris/chime"
 		],
 		"subtitle":"subtitles.entity.player.teleport"
 	},

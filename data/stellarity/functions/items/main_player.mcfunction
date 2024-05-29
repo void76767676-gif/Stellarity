@@ -1,6 +1,3 @@
-# Armor sets
-function stellarity:items/armors/main
-
 # Bows
 execute if entity @s[scores={kohara.shot_bow=1..}] run function stellarity:items/check_bow
 
@@ -33,7 +30,6 @@ execute if entity @s[tag=stellarity.insignia.flying,predicate=!stellarity:items/
 
 # Kaleidoscope
 execute if entity @s[predicate=stellarity:items/holding/kaleidoscope] at @s run function stellarity:items/kaleidoscope/loop
-execute if entity @s[scores={stellarity.items.kaleidoscope.charge=1..},predicate=!stellarity:items/holding/kaleidoscope] run function stellarity:items/kaleidoscope/reset_charge
 
 # Book of Updraft
 execute if entity @s[tag=stellarity.book_of_updraft.animation] run function stellarity:items/spellbooks/updraft/animation
@@ -47,7 +43,6 @@ execute if score @s stellarity.items.prismember.until_charge_reset matches 1.. r
 
 # Copper Elektra Shield
 execute if entity @s[predicate=stellarity:items/holding/trinkets/elektra_shield,scores={stellarity.items.elektra_shield.dashes=0..2}] run function stellarity:items/elektra_shield/recharge_dashes
-execute if entity @s[tag=stellarity.items.elektra_shield.using] run function stellarity:items/elektra_shield/dash
 
 # Chorus Dagger
 execute if entity @s[predicate=stellarity:items/holding/chorus_dagger,predicate=kohara:player/is_sneaking] unless score @s stellarity.items.chorus_dagger.cooldown matches 1.. if entity @e[type=!#kohara:invalid_targets,distance=0.01..8] run function stellarity:items/chorus_dagger/dash
@@ -65,3 +60,10 @@ execute if entity @s[scores={stellarity.items.spectral_fury.until_charge_reset=1
 # Stellar Striker
 execute if entity @s[predicate=stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/loop
 execute if entity @s[tag=stellarity.holding_stellar_striker,predicate=!stellarity:items/holding/stellar_striker/sword] run function stellarity:items/stellar_striker/holding/stop
+
+
+## Armor sets
+# Has to be ticked after everything so
+# that Floral Armor effects can work
+# as intended
+function stellarity:items/armor/main

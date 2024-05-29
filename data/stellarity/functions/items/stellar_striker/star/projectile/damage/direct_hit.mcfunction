@@ -1,8 +1,7 @@
-scoreboard players set #damage kohara.misc 120
+scoreboard players set #damage kohara.misc 90
 
 tag @p[predicate=stellarity:items/holding/stellar_striker/sword] add kohara.attacker
 
-execute if score #casket stellarity.misc matches 0 run function kohara:damage/calculate {armor_penetration:40,damage_boost_efficiency:80,damage_type:"kohara:ignores_iframes",tag:"stellarity.damage.stellar_striker"}
-execute if score #casket stellarity.misc matches 1 run function kohara:damage/calculate {armor_penetration:55,damage_boost_efficiency:80,damage_type:"kohara:ignores_iframes",tag:"stellarity.damage.stellar_striker"}
+function kohara:damage/calculate {armor_penetration:50,damage_boost_efficiency:80,ap_damage_type:"kohara:armor_piercing",damage_type:"kohara:ignores_iframes",tag:"stellarity.damage.stellar_striker"}
 
 tag @s add stellarity.stellar_striker.no_splash

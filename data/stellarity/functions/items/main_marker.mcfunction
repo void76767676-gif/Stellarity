@@ -20,3 +20,5 @@ execute if entity @s[tag=stellarity.star] run function stellarity:items/stellar_
 
 # Pandora's Barrel
 execute if entity @s[tag=stellarity.pandoras_barrel] run function stellarity:items/pandoras_barrel/animation/main
+
+execute if entity @s[tag=stellarity.phantom_item_frame] run function stellarity:items/phantom_item_frame/main_marker

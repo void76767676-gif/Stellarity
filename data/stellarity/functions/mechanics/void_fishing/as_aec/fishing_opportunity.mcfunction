@@ -27,5 +27,5 @@ execute if score #ran stellarity.misc matches 10 run \
 execute if score #ran stellarity.misc matches 11 run \
 	playsound minecraft:entity.fishing_bobber.splash block @a[distance=0..] ~ ~ ~ 1.5 1.6
 
-particle dragon_breath ~ ~ ~ 0 0 0 0.11 60 force
+#particle dragon_breath ~ ~ ~ 0 0 0 0.11 60 force
 particle poof ~ ~ ~ 0 0 0 0.11 40 force

@@ -19,30 +19,12 @@
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
 				{
-					"weight": 5,
-					"data": {
-						"Name": "minecraft:rooted_dirt"
-					}
-				},
-				{
-					"weight": 7,
-					"data": {
-						"Name": "minecraft:coarse_dirt"
-					}
-				},
-				{
-					"weight": 40,
+					"weight": 1,
 					"data": {
 						"Name": "minecraft:grass_block",
 						"Properties": {
 							"snowy": "false"
 						}
-					}
-				},
-				{
-					"weight": 26,
-					"data": {
-						"Name": "minecraft:end_stone"
 					}
 				}
 			]
@@ -55,7 +37,7 @@
 						"type": "minecraft:weighted_state_provider",
 						"entries": [
 							{
-								"weight": 9,
+								"weight": 1,
 								"data": {
 									"Name": "minecraft:tall_grass",
 									"Properties": {
@@ -64,20 +46,9 @@
 								}
 							},
 							{
-								"weight": 36,
+								"weight": 14,
 								"data": {
 									"Name": "minecraft:short_grass"
-								}
-							},
-							{
-								"weight": 1,
-								"data": {
-									"Name": "minecraft:acacia_leaves",
-									"Properties": {
-										"distance": "1",
-										"persistent": "true",
-										"waterlogged": "false"
-									}
 								}
 							}
 						]

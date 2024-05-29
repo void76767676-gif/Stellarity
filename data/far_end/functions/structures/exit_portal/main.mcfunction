@@ -9,7 +9,7 @@ execute if entity @s[tag=fe.deactivated] run function far_end:structures/exit_po
 execute if entity @s[tag=fe.deactivated.spawn_dragon] run function far_end:structures/exit_portal/deactivated/animation
 
 # Generate the activated portal once the dragon is killed.
-execute if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/activated/animation
+execute if entity @p[predicate=stellarity:locations/dragons_den/in_main_area] if entity @s[tag=fe.activated] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon] run function far_end:structures/exit_portal/activated/animation
 
 ## Respawn stuff
 # Count the number of respawn Crystals placed
@@ -19,6 +19,8 @@ execute if entity @s[tag=fe.respawn] run function stellarity:mobs/dragon/spawn/a
 
 # Remove certain tags and add different ones once Dragon is dead
 execute if entity @s[tag=fe.in_dragon_fight] unless entity @e[type=minecraft:ender_dragon,tag=fe.mob,tag=fe.ender_dragon,distance=..300] run function far_end:structures/exit_portal/dragon/presence
+
+execute unless score @s[tag=!fe.in_dragon_fight] stellarity.dragon.times_killed matches 1.. run function stellarity:mobs/dragon/spawn/respawn_crystal/illumnate_spot
 
 # Post generation for Altar of the Accursed
 # Can't really do it with pure Worldgen sadly

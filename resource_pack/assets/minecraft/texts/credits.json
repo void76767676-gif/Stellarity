@@ -1,5 +1,5 @@
 [{
-	"section":"§dStellarity",
+	"section":"§d§lStellarity",
 	"disciplines":[
 		{
 			"discipline":"Programming",
@@ -7,11 +7,11 @@
 				{
 					"title":"Developer",
 					"names":[
-						"kohara_"
+						"kohara"
 					]
 				},
 				{
-					"title":"Original Creator",
+					"title":"Original Creator §7(§5Far End§7, MC-1.17)",
 					"names":[
 						"Hex"
 					]
@@ -24,7 +24,7 @@
 				{
 					"title":"Artists",
 					"names":[
-						"kohara_",
+						"kohara",
 						"BrokenEmp"
 					]
 				},
@@ -40,7 +40,7 @@
 				{
 					"title": "Other",
 					"names": [
-						"u/Hekademos (Animated Dragon's Breath)"
+						"u/Hekademos §7(Animated Dragon's Breath)"
 					]
 				}
 			]
@@ -62,9 +62,9 @@
 						"C418 §7(\"Eleven\", \"Ki\", \"Intro\", \"Excuse\")",
 						"Sigma_ §7(\"Threshold\")",
 						"solunary §7(\"voide\")",
-						"Johan Johnson §7(\"To The Beggining\", \"The.\")",
+						"Peter Hont §7(\"To The Beggining\", \"The.\")",
 						"Team Shanghai Alice §7(\"The Deviant's Unobstructed Light\")",
-						"PinpinNeon §7(\"Shining Kaleidoscope\")"
+						"PinpinNeon §7(\"Shining Kaleidoscope ~ Prismatic Radiance\")"
 					]
 				}
 			]
@@ -76,14 +76,19 @@
 					"title":"Builders",
 					"names":[
 						"Bush_King",
+						"kohara"
+						
+					]
+				},
+				{
+					"title":"Contributors",
+					"names":[
 						"WildPixel",
 						"MidasDaEpik",
 						"IEatPotatoes_",
 						"RaiderRoss",
 						"inqizzo",
-						"DuskAdler",
-						"kohara_"
-						
+						"DuskAdler"
 					]
 				}
 			]
@@ -92,37 +97,24 @@
 			"discipline":"Translators",
 			"titles":[
 				{
-					"title":"Ukrainian (UA)",
-					"names":[
-						"Sprechstallmeister",
-						"theammir",
-						"Energobo"
-					]
-				},
-				{
 					"title":"Brazilian Portugese",
 					"names":[
 						"MeiaQuatru"
 					]
 				},
 				{
-					"title":"Spanish",
-					"names":[
-						"WildPixel"
-					]
-				},
-				{
-					"title":"French",
-					"names":[
-						"MrFishyFish"
-					]
-				},
-				{
 					"title":"Russian",
 					"names":[
-						"Tefny"
+						"Tefny",
+						"Progames723"
 					]
 				}
+			]
+		},
+		{
+			"discipline":"Other",
+			"titles":[
+				
 			]
 		},
 		{
@@ -137,7 +129,7 @@
 					]
 				},
 				{
-					"title":"§aKo-Fi Supporters",
+					"title":"§eKo-Fi Supporters",
 					"names":[
 						"CSS_Scripter",
 						"TaintendTofu",
@@ -154,15 +146,42 @@
 			]
 		},
 		{
-			"discipline":"Special Thanks",
+			"discipline":"§bSpecial Thanks",
 			"titles":[
+				{
+					"title":"Discord Server Management",
+					"names":[
+						"Bush_King",
+						"theammir",
+						"lynx"
+					]
+				},
+				{
+					"title":"GitHub Actions Automation",
+					"names":[
+						"Phoenix"
+					]
+				},
+				{
+					"title":"Screenshots",
+					"names":[
+						"Dat1Mexican",
+						"Junbra"
+					]
+				},
+				{
+					"title": "",
+					"names": [
+						"§7"
+					]
+				},
 				{
 					"title":"",
 					"names":[
-						"Minecraft Commands Discord server",
 						"misode",
+						"Minecraft Commands Discord server",
 						"Starmute",
-						"self-hosting (catter)",
+						"catter",
 						"theammir",
 						"diego.",
 						".purejosh",
@@ -170,11 +189,40 @@
 						"Marina Diamandis",
 						"Relogic",
 						"easy.gg",
-						"Beyonce",
 						"Leo",
 						"FokaStudio",
-						"Squidward",
-						"Jiafei"
+						"President Deborah Ali Williams"
+					]
+				},
+				{
+					"title": "",
+					"names": [
+						"§7"
+					]
+				},
+				{
+					"title": "§lAnd §6§lyou§r§l!",
+					"names": [
+						"§e§lThank you for playing §d§lStellarity§e§l!"
+					]
+				},
+				{
+					"title": "",
+					"names": [
+						"§f~ kohara"
+					]
+				},
+				{
+					"title": "",
+					"names": [
+						"§7",
+						"§7",
+						"§7",
+						"§7",
+						"§7",
+						"§7",
+						"§7",
+						"§7"
 					]
 				}
 			]

@@ -11,7 +11,7 @@ scoreboard players set #eol.is_alive stellarity.misc 0
 execute as @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing] on passengers run kill @s
 kill @e[type=block_display,limit=2,sort=nearest,tag=stellarity.eol.wing]
 
-tellraw @a[distance=..250] ["\n",{"color":"light_purple","translate":"stellarity.eol.despawn","fallback": "%s flees as nobody is around...","with": [{"translate": "stellarity.mobs.empress","fallback": "Empress of Light"}]},"\n"]
+execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"stellarity.boss.empress_of_light.despawn","fallback":"%s disappears back into the light","with":[{"translate":"stellarity.mobs.empress","fallback":"Empress of Light"}],"color":"#D0BBEA"},"\n"]
 
 bossbar set stellarity:eol players
 

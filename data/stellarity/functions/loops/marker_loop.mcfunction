@@ -20,6 +20,8 @@ execute if entity @s[tag=stellarity.spirit_dagger.spirit] run function stellarit
 execute if entity @s[tag=stellarity.dragons_den_chest] run function stellarity:sfx/dragons_den_chest
 execute if entity @s[tag=stellarity.dragon_fireball] run function stellarity:mobs/dragon/attacks/fireball/main
 execute if entity @s[tag=stellarity.dragon.shulkers] run function stellarity:mobs/dragon/attacks/take_off/shulkers/main
+execute if entity @s[tag=stellarity.dragon.beam_thingy] run function stellarity:mobs/dragon/beam_thingy/move
+execute if entity @s[tag=stellarity.ball_of_blight] run function stellarity:mobs/dragon/attacks/ball_of_blight/main
 
 execute if entity @s[tag=stellarity.end_gateway_anim] run function stellarity:sfx/end_gateway_anim/main
 
@@ -32,6 +34,8 @@ execute if entity @s[tag=stellarity.stellar_striker] run function stellarity:ite
 execute if entity @s[tag=stellarity.shrapnel] run function stellarity:items/call_of_the_void/shrapnel/loop
 
 execute if entity @s[tag=stellarity.waystone] run function stellarity:post_gen/waystone
+
+execute if entity @s[tag=stellarity.cauldron_crafting] run function stellarity:mechanics/cauldron_crafting/main
 
 scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[tag=stellarity.altar_of_accursed] run function stellarity:mechanics/altar_of_accursed/main

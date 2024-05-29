@@ -6,30 +6,18 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"weight": 27,
-					"name": "stellarity:items/fish/crimson_tigerfish",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1
-						}
-					]
+					"name": "stellarity:items/food/fish/crimson_tigerfish",
+					"weight": 27
 				},
 				{
 					"type": "minecraft:loot_table",
-					"weight": 19,
-					"name": "stellarity:items/fish/fleshy_piranha",
-					"functions": [
-						{
-							"function": "minecraft:set_count",
-							"count": 1
-						}
-					]
+					"name": "stellarity:items/food/fish/fleshy_piranha",
+					"weight": 19
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 16,
 					"name": "minecraft:rotten_flesh",
+					"weight": 16,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
@@ -42,14 +30,42 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 12,
 					"name": "minecraft:nether_wart_block",
+					"weight": 12,
 					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
 								"min": 2,
 								"max": 3
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:gunpowder",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 5
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:bone",
+					"weight": 14,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 4
 							}
 						}
 					]

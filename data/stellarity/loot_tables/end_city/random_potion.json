@@ -129,19 +129,11 @@
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/potions/infernal_concoction"
-				},
-				{
-					"type": "minecraft:loot_table",
 					"name": "stellarity:items/potions/luck_potion"
 				},
 				{
 					"type": "minecraft:loot_table",
 					"name": "stellarity:items/potions/lifeforce_potion"
-				},
-				{
-					"type": "minecraft:loot_table",
-					"name": "stellarity:items/potions/regenerative_mix"
 				},
 				{
 					"type": "minecraft:loot_table",

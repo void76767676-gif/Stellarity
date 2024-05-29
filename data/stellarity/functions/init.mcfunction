@@ -11,6 +11,7 @@ scoreboard objectives add stellarity.config.track_loop_delay.dragon dummy
 scoreboard objectives add stellarity.config.enable_dragon_screenshake dummy
 scoreboard objectives add stellarity.config.enable_creative_shock dummy
 scoreboard objectives add stellarity.config.nerf_elytra dummy
+scoreboard objectives add stellarity.config.boss_status_messages dummy
 
 # Initialize config scoreboards
 # Freshly created scoreboards have no value (not even set to 0)
@@ -40,6 +41,7 @@ scoreboard objectives add stellarity.items.crest.time dummy
 scoreboard objectives add stellarity.items.elektra_shield.cooldown dummy
 scoreboard objectives add stellarity.items.elektra_shield.animation dummy
 scoreboard objectives add stellarity.items.elektra_shield.dashes dummy
+scoreboard objectives add stellarity.items.elektra_shield.zap_count dummy
 
 # Prismatic Punch
 scoreboard objectives add stellarity.items.prismatic_punch.particle_cycle dummy
@@ -86,9 +88,12 @@ scoreboard objectives add stellarity.items.aery_sword.kills.witch minecraft.kill
 scoreboard objectives add stellarity.items.aery_sword.kills.blaze minecraft.killed:minecraft.blaze
 scoreboard objectives add stellarity.items.aery_sword.kills.stray minecraft.killed:minecraft.stray
 scoreboard objectives add stellarity.items.aery_sword.kills.wither minecraft.killed:minecraft.wither
+scoreboard objectives add stellarity.items.aery_sword.kills.warden minecraft.killed:minecraft.warden
+scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton minecraft.killed:minecraft.wither_skeleton
 scoreboard objectives add stellarity.items.aery_sword.kills.witch.count dummy
 scoreboard objectives add stellarity.items.aery_sword.kills.blaze.count dummy
 scoreboard objectives add stellarity.items.aery_sword.kills.stray.count dummy
+scoreboard objectives add stellarity.items.aery_sword.kills.wither_skeleton.count dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.duration dummy
 scoreboard objectives add stellarity.items.aery_sword.cryonics.cooldown dummy
 
@@ -133,6 +138,7 @@ scoreboard objectives add stellarity.items.spectral_fury.damage dummy
 # Empress of Light
 scoreboard objectives add stellarity.eol.animation dummy
 scoreboard objectives add stellarity.eol.health dummy
+scoreboard objectives add stellarity.eol.health_percent dummy
 scoreboard objectives add stellarity.eol.hurt_time dummy
 scoreboard objectives add stellarity.eol.attack_cycle dummy
 scoreboard objectives add stellarity.eol.attack_duration dummy
@@ -150,6 +156,7 @@ scoreboard objectives add stellarity.dragon.health_old dummy
 scoreboard objectives add stellarity.dragon.time_chainfiring dummy
 scoreboard objectives add stellarity.dragon.shulker_hell dummy
 scoreboard objectives add stellarity.dragon.heartbeat dummy
+scoreboard objectives add stellarity.dragon.ball_of_blight_cooldown dummy
 
 # Phantoms
 scoreboard objectives add stellarity.phantom.size dummy

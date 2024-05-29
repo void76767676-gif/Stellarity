@@ -1,17 +1,4 @@
 {
-	// TIP:
-	// If you see ѕᴍᴀʟʟ ᴛᴇхᴛ ʟɪᴋᴇ ᴛʜɪѕ, you can use
-	// https://lingojam.com/MinecraftSmallFont
-	// to generate it for your translations!
-	// Make sure your input text is fully in lowercase characters
-
-	//"Stellarity": "§fꑟ",
-	//"- Donator Item -": "§fꐁ",
-	//"- Developer Item -": "§fꑡ",
-	//"- Member #666 Item -": "§fꐂ",
-	//"- Member #777 Item -": "§fꑛ",
-
-	// Start translating from here
 	"stellarity.pack_mcmeta.rp": "Textura opcional para Stellarity",
 	"stellarity.pack_mcmeta.rp.music": "Complemento com músicas para Stellarity",
 
@@ -38,7 +25,6 @@
 
 	"stellarity.eol.despawn": "%s foge quando ninguém está por perto...",
 
-	// Config
 	"stellarity.config.enabled": "Ativado",
 	"stellarity.config.disabled": "Desativado",
 	"stellarity.config.click_to_edit": "Clique para editar",
@@ -66,24 +52,19 @@
 	"stellarity.config.enable_creative_shock.description": "Faz com que os cristais do End gerados nas cidades do End apliquem choque criativo, o que impede colocar e a destruir blocos até que todos os cristais do End sejam destruídos.",
 	"stellarity.config.nerf_elytra.title": "Desvantagens no élitros",
 	"stellarity.config.nerf_elytra.description": "Aplica desvantagens no élitros fazendo com que eles recebam dano extra ao usar fogos de artifício.",
-	
-	// Items
-	// Explorer Maps
+
 	"stellarity.explorer_map.end_city": "Mapa de exploração da cidade do End",
     "stellarity.explorer_map.end_village": "Mapa da vila do End",
     "stellarity.explorer_map.chapel_of_light": "Mapa de exploração da capela da luz",
 
-	// Misc easter egg item
 	"stellarity.items.memory_of_gloop": "Em memória eterna de Gosma",
 
-	// Empty Enchanted Book
 	"stellarity.items.empty_enchanted_book.description.1": "Não possui nenhum encantamento",
 	"stellarity.items.empty_enchanted_book.description.2": "Ele se direciona para uma",
 	"stellarity.items.empty_enchanted_book.description.3": "grande abertura em um dos pilares",
 	"stellarity.items.empty_enchanted_book.description.4": "Ele deseja ser largado em cima",
 	"stellarity.items.empty_enchanted_book.description.5": "do que está dentro da grande abertura",
 
-	// Armor sets
 	"stellarity.items.armors.set_bonus": "BÔNUS PELA ARMADURA COMPLETA:",
 	
 	"stellarity.items.armors.chorus_champion_armor.helmet": "Capacete do campeão do coro",
@@ -109,7 +90,6 @@
 	"stellarity.items.armors.shulker_armor.set_bonus.2": "Dano recebido reduzido em 20%",
 	"stellarity.items.armors.shulker_armor.set_bonus.3": "Imunidade a levitação e decomposição",
 
-	// Crates
 	"stellarity.items.crates.place_down": "Coloque no chão e abra!",
 	
 	"stellarity.items.crates.amethyst": "Caixa de ametista",
@@ -121,7 +101,6 @@
 	"stellarity.items.crates.prismarine": "Caixa de prismarinho",
 	"stellarity.items.crates.sculk": "Caixa de sculk",
 
-	// Void Fish
 	"stellarity.items.fish.amethyst_budfish": "Budfish de ametista",
 	"stellarity.items.fish.bubblefish": "Peixe-balão",
 	"stellarity.items.fish.crimson_tigerfish": "Peixe-tigre carmesim",
@@ -137,7 +116,6 @@
 	"stellarity.items.fish.crystal_heartfish.description.2": "sua vida máxima em 1 coração",
 	"stellarity.items.fish.crystal_heartfish.description.3": "Permite até 10 corações extras",
 
-	// Crafting materials
 	"stellarity.items.materials.chorus_plating": "Placa do coro",
 	"stellarity.items.materials.hallowed_ingot": "Barra sagrada",
 	"stellarity.items.materials.upgrade": "Usado para melhorar armaduras de netherita",
@@ -155,7 +133,6 @@
 	"stellarity.items.materials.pixie_dust": "Pó de fada",
 	"stellarity.items.materials.pixie_dust.flavor_text": "'Pode conter fada'",
 
-	// Permanent buffs
 	"stellarity.items.perm_buffs.consume_to": "Coma para permanentemente",
 
 	"stellarity.items.perm_buffs.rageroot": "Raiz da fúria",
@@ -180,7 +157,6 @@
 	"stellarity.items.perm_buffs.miracle_fruit": "Fruta milagrosa",
 	"stellarity.items.perm_buffs.miracle_fruit.increase": "aumentar sua regeneração de vida",
 	
-	// Potions
 	"stellarity.items.potions.blind_rage_potion": "Poção de fúria cega",
 	"stellarity.items.potions.amarena.description": "Parece vinho, mas na verdade não é",
 	"stellarity.items.potions.amarena.flavor_text": "'suco proibido'",
@@ -198,7 +174,6 @@
 	"stellarity.items.potions.infernal_concoction": "Mistura infernal",
 	"stellarity.items.potions.regenerative_mix": "Mistura regenerativa",
 	
-	// Spellbooks
 	"stellarity.items.spellbooks.cooldown": "Tempo de recarga: %s segundos",
 	"stellarity.items.spellbooks.cooldown_long": "Tempo de recarga: %s minutos",
 	"stellarity.items.spellbooks.notification": "Seu(a) %s está pronto(a) para ser usado(a) novamente",
@@ -233,14 +208,12 @@
 	"stellarity.items.spellbooks.return": "Tomo do retorno",
 	"stellarity.items.spellbooks.return.description": "Teleporta você para o ponto de geração",
 
-	// Tools
 	"stellarity.items.tools.shulker.axe": "Machado de shulker",
 	"stellarity.items.tools.shulker.hoe": "Enxada de shulker",
 	"stellarity.items.tools.shulker.pickaxe": "Picareta de shulker",
 	"stellarity.items.tools.shulker.shovel": "Pá de shulker",
 	"stellarity.items.tools.shulker.sword": "Espada de shulker",
 
-	// Trinkets
 	"stellarity.items.trinkets.crest_of_the_end": "Brasão do End",
 	"stellarity.items.trinkets.crest_of_the_end.description.1": "Bloquear o dano adiciona força extra",
 	"stellarity.items.trinkets.crest_of_the_end.description.2": "ao seu próximo ataque em retaliação",
@@ -283,7 +256,6 @@
 	"stellarity.items.trinkets.casket_of_stars.description.1": "Coleta as estrelas do atacante estelar mais rápido,",
 	"stellarity.items.trinkets.casket_of_stars.description.2": "além de aumentar sua velocidade e resistência de armadura",
 
-	// Weapons
 	"stellarity.items.weapons.ancient_wooden_sword": "Espada ancestral de madeira",
 	"stellarity.items.weapons.ancient_wooden_sword.flavor_text": "'rejeite Trails&Tales, abrace Indev'",
 
@@ -377,14 +349,13 @@
 	"stellarity.items.weapons.spectral_fury.description.4": "25% de chance de não gastar flechas espectrais",
 
 	"stellarity.items.weapons.call_of_the_void": "Chamado do vazio",
-	"stellarity.items.weapons.call_of_the_void.description.1": "Dispara raios de energia altamente danosos",
-	"stellarity.items.weapons.call_of_the_void.description.2": "com perfuração infinita, mas alcance limitado",
+	"stellarity.items.weapons.call_of_the_void.description.1": "Dispara flechas do vazio, que reduzem",
+	"stellarity.items.weapons.call_of_the_void.description.2": "a vida do inimigo e se espalham no impacto",
 
 	"stellarity.items.weapons.slayer_crossbow": "Besta assassina",
-	"stellarity.items.weapons.slayer_crossbow.description.1": "Dispara flechas do vazio, que reduzem",
-	"stellarity.items.weapons.slayer_crossbow.description.2": "a vida do inimigo e se espalham no impacto",
+	"stellarity.items.weapons.slayer_crossbow.description.1": "Dispara raios de energia altamente danosos",
+	"stellarity.items.weapons.slayer_crossbow.description.2": "com perfuração infinita, mas alcance limitado",
 
-	// Other items
 	"stellarity.items.fisher_of_voids": "Vara de pesca do vazio",
 	"stellarity.items.fisher_of_voids.description": "A pescar no vazio é ligeiramente mais rápida",
 	
@@ -402,124 +373,7 @@
 	"stellarity.items.altar_of_light.description.3": "Sacrifique pó de fada para chamar",
 	"stellarity.items.altar_of_light.description.4": "a atenção da Deusa Fae",
 	"stellarity.items.altar_of_light.flavor_text": "'Não confunda com o Altar dos amaldiçoados'",
-
-	// Cursed Enchiridion (AKA Cursed Tome)
-	"stellarity.items.cursed_tome": "Enciclopédia amaldiçoada",
-	"stellarity.items.cursed_tome.unlock_entry": "Sua %s ressoa com conhecimento!",
-	"stellarity.items.cursed_tome.description.1": "Contém todas as informações",
-	"stellarity.items.cursed_tome.description.2": "sobre os itens de Stellarity",
-	"stellarity.items.cursed_tome.description.flavor_text": "'Sua mini wiki!'",
-	"stellarity.items.cursed_tome.discover_hint": "Quanto mais você explorar, com mais conhecimento este livro será preenchido...",
-	"stellarity.items.cursed_tome.not_discovered": "Ainda não descoberto.",
-	"stellarity.items.cursed_tome.obtaining":"     OBTENÇÃO",
-	"stellarity.items.cursed_tome.ingredients":"    INGREDIENTES",
-
-	"stellarity.items.cursed_tome.entries.sharanga.center": "      ",
-	"stellarity.items.cursed_tome.entries.sharanga.description": "Um arco robusto de mangue.\nSe flechas espectrais forem usadas como munição, ele canaliza a luz delas e a converte em um poderoso raio.",
-	"stellarity.items.cursed_tome.entries.sharanga.obtaining": "Item raro dos ilusionistas em fortalezas.\nItem juntamente com 7 - 22 flechas espectrais.",
-
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.center": "",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.description": "Apenas uma besta adaptada com algumas engrenagens. Elas permitem que recarregue e atire em uma velocidade ridícula, embora sacrificando uma grande parte do dano.",
-	"stellarity.items.cursed_tome.entries.clockwork_crossbow.obtaining": "Item raro dos saqueadores em fortalezas.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.center": "",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.description": "Os teletransportes com pérolas de ender são muito caóticos para um corpo humano lidar, causando algum dano. Este livro foi feito para simplificar a magia caótica em um teletransporte puro, tornando-o muito mais seguro de usar.",
-	"stellarity.items.cursed_tome.entries.spellbooks.conveyance.obtaining": "Item raro dos invocadores em fortalezas.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.light.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.description": "Cria uma pequena aura de divina, que cura qualquer jogador dentro dela, cura efeitos negativos e concede redução do dano recebido.",
-	"stellarity.items.cursed_tome.entries.spellbooks.light.obtaining": "Item raro dos invocadores em fortalezas.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.center": "  ",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.description": "Fabricado pelos encantadores das montanhas altas com foco em facilitar a locomoção. Empurra o jogador para cima e concede a capacidade de planar por um curto período.",
-	"stellarity.items.cursed_tome.entries.spellbooks.updraft.obtaining": "Item raro dos invocadores em fortalezas.",
-
-	"stellarity.items.cursed_tome.entries.tamaris.center": "       ",
-	"stellarity.items.cursed_tome.entries.tamaris.description": "Até a própria espada está sucumbindo à magia decadente que guarda dentro.\nFaz com que os inimigos atingidos se deteriorem, além de conceder ao jogador a capacidade de executar com um golpe final quando o inimigo está com pouca vida.",
-	"stellarity.items.cursed_tome.entries.tamaris.obtaining": "Chance de 66% de ser largado ao derrotar o dragão Ender.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.center": "   ",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.description": "Um fragmento de ametista corrompido pela magia do End.\nAumenta a regeneração de vida enquanto está agachado. O efeito começa fraco e se fortalece quanto mais tempo o jogador permanecer agachado.",
-	"stellarity.items.cursed_tome.entries.trinkets.ender_insignia.obtaining": "Chance de 66% de ser largado ao derrotar o dragão Ender.",
-
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.center": " ",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.description": "Aprimorado com os recursos do End, este escudo absorve uma fração do dano bloqueado e o redireciona para o inimigo no próximo ataque do usuário.",
-	"stellarity.items.cursed_tome.entries.trinkets.crest_of_the_end.obtaining": "Chance de 66% de ser largado ao derrotar o dragão Ender.",
-
-	"stellarity.items.cursed_tome.entries.dragonblade.center": "    ",
-	"stellarity.items.cursed_tome.entries.dragonblade.description": "Ninguém sabe o que é.\n\nNinguém sabe de onde veio.\n\nNinguém sabe quem o fez.",
-	"stellarity.items.cursed_tome.entries.dragonblade.obtaining": "Aparece preso no Altar após derrotar o dragão Ender.\n\nSó pode existir um.",
-
-	"stellarity.items.cursed_tome.entries.shulker_armor.center": "   ",
-	"stellarity.items.cursed_tome.entries.shulker_armor.title": "Armadura de shulker",
-	"stellarity.items.cursed_tome.entries.shulker_armor.description": "A mais poderosa e resistente de todas as armaduras já forjadas.\nTorna seu usuário quase invulnerável, além de fornecer resistência a certos efeitos negativos.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.obtaining": "Fabricada no Altar dos amaldiçoados.",
-	"stellarity.items.cursed_tome.entries.shulker_armor.misc": "Qualquer peça da armadura de netherita",
-
-	"stellarity.items.cursed_tome.entries.shulker_tools.center": "   ",
-	"stellarity.items.cursed_tome.entries.shulker_tools.title": "Ferramentas de shulker",
-	"stellarity.items.cursed_tome.entries.shulker_tools.description": "As mais rápidas e fortes de todas as ferramentas já criadas.\nAqueles que as seguram experimentam uma súbita onda de energia percorrendo seus corpos, permitindo que cavem e ataquem mais rápido do que o habitual.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.obtaining": "Fabricadas no Altar dos amaldiçoados.",
-	"stellarity.items.cursed_tome.entries.shulker_tools.misc": "Qualquer ferramenta de netherita",
-
-	"stellarity.items.cursed_tome.entries.sabrewing.center": "      ",
-	"stellarity.items.cursed_tome.entries.sabrewing.description": "O nome é extremamente enganador.\nSabrewing pode sobrecarregar suas flechas para aumentar seu poder, tornando-o devastador a longa distância.",
-	"stellarity.items.cursed_tome.entries.sabrewing.obtaining": "Fabricado no Altar dos amaldiçoados.",
-
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.center": " ",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.description": "Uma tentativa de fazer algo do nada.\nAbri-lo gera vários itens e invoca criatura aleatórias, dependendo do bioma.",
-	"stellarity.items.cursed_tome.entries.pandoras_barrel.obtaining": "Às vezes encontrado em cidades do End.\nTambém é fabricável no Altar dos amaldiçoados.",
-
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.center": "    ",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.title": "Armadura do campeão do coro",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.description": "Abençoa seu usuário com a fúria dos campeões do coro, fornecendo um multiplicador de dano que aumenta a cada ataque.",
-	"stellarity.items.cursed_tome.entries.chorus_champion_armor.obtaining": "Fabricado no Altar dos amaldiçoados com 5/8/7/4 placas do coro (para capacete/peitoral/calças/botas, respectivamente).\n\nAs placas do coro podem ser encontradas em caixas, cidades do End e podem ser compradas em vilas do End.",
-
-	"stellarity.items.cursed_tome.entries.hallowed_armor.center": "   ",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.title": "Armadura sagrada",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.description": "Diz-se que o usuário desta armadura sagrada é protegido pelo próprio céu, concedendo-lhes a habilidade de ignorar completamente todo o dano por um curto período de tempo.",
-	"stellarity.items.cursed_tome.entries.hallowed_armor.obtaining": "Fabricado no altar dos amaldiçoados com 5/8/7/4 barras sagradas (para capacete/peitoral/calças/botas, respectivamente).\n\nAs barras sagradas podem ser encontradas em caixas, cidades do End e podem ser comprados em vilas do End.",
-
-	"stellarity.items.cursed_tome.entries.spirit_dagger.center": "    ",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.description": "Esta arma não funcionará apenas por si só. Se duas forem usadas simultaneamente, os ataques às vezes atrairão espíritos perdidos. O portador pode usa-los para se teleportar até eles e obter vários bônus de combate por um curto período de tempo.",
-	"stellarity.items.cursed_tome.entries.spirit_dagger.obtaining": "Item raro largado por phantoms nas ilhas externas do End.",
-
-	"stellarity.items.cursed_tome.entries.frigid_harvester.center": "  ",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.description": "O gelo rígido captura o espírito das criaturas derrotadas, usando-os para aumentar seu poder.\nQuanto mais matar, mais dano vai causa, juntamente com o desbloqueio de habilidades passivas.",
-	"stellarity.items.cursed_tome.entries.frigid_harvester.obtaining": "Largado por esqueletos-errantes encontrados nas colinas gélidas, que têm uma chance rara de estarem equipados com ele.\n\n10% de chance de ser encontrado dentro de caixas congeladas.",
-
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.center": "   ",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.description": "Tentativa dos aldeões de criar itens mágicos.\nEste livro aplica-se com a magia dos biomas que seu usuário explora, melhorando suas habilidades.",
-	"stellarity.items.cursed_tome.entries.spellbooks.natures_wrath.obtaining": "Às vezes vendido por bibliotecários em vilas do End.",
 	
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.center": "      ",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.description": "Talvez a fruta mais peculiar que o sagrado já tenha dado à luz. Estas bagas amaldiçoada compartilha sua magia com quem a segura, fortalecendo muito seus sentidos e habilidades.\nDizem que tem gosto de bismuto.",
-	"stellarity.items.cursed_tome.entries.trinkets.duskberry.obtaining": "Encontrado em barcos do End no o sagrado com uma chance muito específica de 57.14%.\n\nTambém encontrado em caixas sagradas com a mesma chance estranhamente específica.",
-	
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.center": "",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.description": "Ao contrário dos colares típicos, este é segurado por algum motivo estranho. Faz com que estrelas caiam nas proximidades quando ferido, causando alto dano a qualquer coisa que seja atingida por elas.",
-	"stellarity.items.cursed_tome.entries.trinkets.starstruck_carcanet.obtaining": "33% de chance de ser largado pela Imperatriz da Luz.",
-	
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.center": "  ",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.description": "Um emblema com uma fração do poder da Imperatriz da Luz.\nConcede ao seu portador a habilidade de voar livremente, como se a gravidade não fosse uma coisa.",
-	"stellarity.items.cursed_tome.entries.trinkets.soaring_insignia.obtaining": "Item raro da Imperatriz da Luz.\n\nGarantido se morta na superfície durante o dia.",
-	
-	"stellarity.items.cursed_tome.entries.stella.center": "         ",
-	"stellarity.items.cursed_tome.entries.stella.description": "Feito com os cristais mais puros do o sagrado, cheio de energia ardente. Quanto mais ataques são desferidos no inimigo, mais quentes as chamas se tornam.",
-	"stellarity.items.cursed_tome.entries.stella.obtaining": "33% de chance de ser largado pela Imperatriz da Luz.",
-	
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.center": "   ",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.description": "As pérolas de ender expostas à magia do o sagrado perdem lentamente sua escuridão. Elas têm a capacidade de retornar ao seu lançador após um curto período de tempo.",
-	"stellarity.items.cursed_tome.entries.prismatic_pearl.obtaining": "33% de chance de ser largado pela Imperatriz da Luz.",
-	
-	"stellarity.items.cursed_tome.entries.prismatic_punch.description": "Uma besta fabricada a partir de madeiras cristalizadas das árvores do o sagrado. Transforma todas as flechas em explosões de arco-íris que explodem ao impacto.",
-	"stellarity.items.cursed_tome.entries.prismatic_punch.obtaining": "33% de chance de ser largado pela Imperatriz da Luz.",
-	
-	"stellarity.items.cursed_tome.entries.kaleidoscope.center": "    ",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.description": "Uma grande espada de poder incrível, que vem diretamente do sol. Ela carrega e libera a energia armazenada em uma descarga poderosa uma vez usada.",
-	"stellarity.items.cursed_tome.entries.kaleidoscope.obtaining": "Largado pela Imperatriz da Luz, mas apenas se morta na superfície durante o dia.",
-	
-	// Advancements
 	"stellarity.advancements.anger_enderman": "Olhar torto!",
 	"stellarity.advancements.anger_enderman.description": "Provoque um enderman olhando para seus olhos",
 	"stellarity.advancements.champions_ballad": "Festa dos campeões",
@@ -641,9 +495,6 @@
 	"stellarity.advancements.charge_anchor_end": "Ancorado",
 	"stellarity.advancements.charge_anchor_end.description": "Carregue uma âncora de renascimento no End. Você pode usá-la para definir seu ponto de geração lá, assim como no Nether",
 
-	// Death Messages
-	// %1$s - victim
-	// %2$ - attacker
 	"stellarity.death_messages.sharanga_explosion": "%1$s foi despedaçado pela explosão espectral de %2$s",
 	"stellarity.death_messages.carcanet.1": "%1$s foi atingido com força demais pela estrela de %2$s",
 	"stellarity.death_messages.carcanet.2": "%1$s recebeu ajuda para encontrar o céu de %2$s",
@@ -671,9 +522,6 @@
 	"stellarity.death_messages.eol.dash": "%1$s não se moveu a tempo para evitar o ataque da Imperatriz da Luz",
 	"stellarity.death_messages.prismember": "%1$s foi reduzido a cinzas por %2$s",
 
-	// Subtitles for some sounds
-	// No translation strings here, as I would then
-	// have to force a resource pack, so they look like this
 	"Enderman attacks": "Enderman atacou",
 	"Endermite attacks": "Endermite atacou",
 	"Chorus Dagger recharges": "Adaga do coro carrega",
@@ -681,8 +529,6 @@
 	"Living Flesh hurts": "Carne viva ferida",
 	"Kaleidoscope charges": "Kaleidoscópio carrega",
 
-	// Biomes
-	// Used for compatibility with minimap mods
 	"biome.far_end.amethyst_forest": "Floresta de ametista",
 	"biome.far_end.ashfall_delta": "Delta de cinzas",
 	"biome.far_end.end_wilds": "Selva do End",

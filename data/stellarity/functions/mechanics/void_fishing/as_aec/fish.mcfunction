@@ -1,10 +1,9 @@
 tag @s remove stellarity.can_fish_out
-kill @s
 
-fill ~-1 ~ ~-1 ~1 ~ ~1 air replace barrier
+function stellarity:mechanics/void_fishing/as_aec/stop
 
-particle poof ~ ~ ~ 0 0 0 0.12 50 force
 
+particle poof ~ ~ ~ 0 0 0 0.14 35 force
 execute as @p[predicate=stellarity:void_fishing/holding_fishing_rod/any] run function stellarity:mechanics/void_fishing/as_player/as_self
 
 execute positioned ~ ~.5 ~ run function stellarity:mechanics/void_fishing/as_aec/decide_drop

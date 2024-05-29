@@ -9,4 +9,6 @@ tellraw @s " "
 tellraw @s {"translate":"stellarity.items.weapons.frigid_harvester.ability.arctic_wind.description","fallback":"Super cold aura slows down all nearby mobs","color":"#EEEEEE"}
 tellraw @s " "
 
+execute if score #damage stellarity.misc matches 12 anchored eyes positioned ^ ^ ^2.5 run function stellarity:items/frigid_harvester/effects/ability_absorb 
+
 function stellarity:items/frigid_harvester/abilities/unlock/update

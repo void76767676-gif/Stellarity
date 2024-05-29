@@ -1,0 +1,30 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:shield",
+			"nbt": "{BlockEntityTag:{id:\"minecraft:banner\",Patterns:[{Pattern:\"b\",Color:1},{Pattern:\"cr\",Color:4}, {Pattern:\"gra\",Color:1},{Pattern:\"gru\",Color:1},{Pattern:\"bo\",Color:4},{Pattern:\"bo\",Color: 1}, {Pattern:\"flo\",Color:4},{Pattern:\"flo\",Color:1},{Pattern:\"cbo\",Color:4},{Pattern:\"cbo\",Color: 1}]}}"
+		},
+		"title": {
+			"translate": "stellarity.advancements.electrified",
+			"fallback": "Electrified!"
+		},
+		"description": {
+			"translate": "stellarity.advancements.electrified.description",
+			"fallback": "Dash through 5 different mobs with a single Copper Elektra Shield dash"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/root",
+	"criteria": {
+		"dash": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"requirements": [
+		[
+			"dash"
+		]
+	]
+}

@@ -22,6 +22,12 @@
 				"custom_model_data": 90002
 			},
 			"model": "stellarity:item/shulker_leggings"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90003
+			},
+			"model": "stellarity:item/floral_leggings"
 		}
 	]
 }

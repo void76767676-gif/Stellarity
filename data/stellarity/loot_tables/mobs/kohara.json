@@ -6,7 +6,7 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "stellarity:items/golden_chorus_fruit"
+					"name": "stellarity:items/food/golden_chorus_fruit"
 				}
 			]
 		}

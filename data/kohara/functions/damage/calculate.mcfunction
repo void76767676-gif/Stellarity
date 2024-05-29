@@ -4,6 +4,7 @@ $tag @s add $(tag)
 $scoreboard players set #armor_penetration kohara.misc $(armor_penetration)
 $scoreboard players set #damage_boost_efficiency kohara.misc $(damage_boost_efficiency)
 $data modify storage kohara:temp damage.type set value "$(damage_type)"
+$data modify storage kohara:temp damage.type_ap set value "$(ap_damage_type)"
 
 # Is there an attacker?
 scoreboard players set #has_attacker kohara.misc 0
