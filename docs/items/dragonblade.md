@@ -65,7 +65,7 @@ Each level of **Knockback enchantment** enchances punch distance by 1.1 blocks a
 
 Punched mobs cannot have stacks applied to them for the next 8 seconds, indicated by a cloud of dust above their head.
 
-Punches receive only 40% of melee damage bonuses. Strength Potions do not increase punch damage, only boosting base weapon damage instead. 
+Punches receive only 40% of melee damage bonuses. The Strength effect does not increase punch damage, only boosting base weapon damage instead. 
 
 The Dragonblade is unbreakable on top of being immune to lava, fire, explosions and cacti. Additionaly, it automatically returns to the Altar of The Accursed if dropped away from it, meaning that it is truly indestructible.
 
