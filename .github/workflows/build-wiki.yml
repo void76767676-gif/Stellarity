@@ -2,7 +2,7 @@ name: Build Wiki
 on:
   push:
     branches:
-      - patch-2
+      - master
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
@@ -14,10 +14,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@patch-2
+        uses: actions/checkout@master
 
       - name: Deploy docs
-        uses: mhausenblas/mkdocs-deploy-gh-pages@patch-2
+        uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: stellarity.brokenemp.xyz
