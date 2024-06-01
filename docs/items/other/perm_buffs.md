@@ -25,41 +25,41 @@ There are various permanant buffs that can be obtained, increasing various stats
 </div>
 </div>
 
-**Cleansing Potato**
+## Cleansing Potato
 "Consume to permanantly become immune to Poison"
-    - Base item is a potato
-    - Makes you immune to poison
+- Base item is a potato
+- Makes you immune to poison
 
-**Endurance Brew**
+## Endurance Brew
 "Consume to permanantly increase your defense and damage reduction."
 "*Not to be confused with berserker brew*"
-    - Base item is rabbit stew
-    - Gives +1 armor, and +0.5 armor toughness
+- Base item is rabbit stew
+- Gives +1 armor, and +0.5 armor toughness
 
-**Energizing Fruit**
+## Energizing Fruit
 "Consume to permanantly increase your movement speed"
-    - Base item is a chorus fruit
-    - Makes you move 4% faster
+- Base item is a chorus fruit
+- Makes you move 4% faster
 
-**Fury Berries**
+## Fury Berries
 "Consume to permanantly increase your melee attack speed"
-    - Base item is Glowberries
-    - Makes you attack 4% faster
+- Base item is Glowberries
+- Makes you attack 4% faster
 
-**Lucky Carrot**
+## Lucky Carrot
 "Consume to permanantly increase your luck"
-    - Base item is a golden carrot
-    - Gives +1 luck
+- Base item is a golden carrot
+- Gives +1 luck
 
-**Miracle Fruit**
+## Miracle Fruit
 "Consume to permanantly increase your life regeneration"
-    - Base item is an apple
-    - Gives 1HP/10s passive life regeneration
+- Base item is an apple
+- Gives 1HP/10s passive life regeneration
 
-**Rageroot**
+## Rageroot
 "Consume to permanantly increase your strength"
-    - Base item is a beetroot
-    - Makes your attacks deal 4% more damage
+- Base item is a beetroot
+- Makes your attacks deal 4% more damage
 
 **NOTE:** All bonuses are multiplicitive
 
