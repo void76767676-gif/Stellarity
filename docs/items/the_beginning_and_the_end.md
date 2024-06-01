@@ -73,7 +73,7 @@ The Beginning and The End can be found in End City and End Dungeon chests. Addit
   <figcaption>An attracted Spirit</figcaption>
 </figure>
 
-Damaging enemies while holding a Beginning or End in any hand has a 50% chance to attract a Spirit. If another Spirit Dagger is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
+Damaging enemies while holding a Beginning or End in any hand has a 50% chance to attract a Spirit. If the other sword is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
 </div>
 
 Teleporting to the Spirit creates a large area of effect slash which damages all enemies around it for 5:heart: x ₂.₅  damage with 100% [armor penetration](../mechanics/armor_penetration.md). Afterwards player receives a small combat buff -  4:yellow_heart::yellow_heart: points of Absorption, +3:heart: x ₁.₅ damage and +35% movement speed. Assasination buff lasts for 4 seconds. The slash attack has a radius of 3.8 blocks. Slashes receive 60% of melee damage bonuses (excluding Potions of Strength).

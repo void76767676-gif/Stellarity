@@ -1,3 +1,7 @@
+!!! quote  "Unobtainable"
+	
+	This article describes content **unobtainale in Survival** and can only be obtained through the use of commands.
+
 # Stellar Striker
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
@@ -77,6 +81,7 @@ the Casket of stars exists but who cares about that thing its not only unobtaina
 		- After shooting Stars, Stellar Striker can't get any charge for the next 6 seconds.
 		- Base stats have been changed to 9 damage and 1.2 attack speed
 	- Removed Casket of Stars, which was meant to buff this item specifically.
+	- Still unobtainable btw
 
 === "**2.2.0**"
 	- Introduced, but unobtainable

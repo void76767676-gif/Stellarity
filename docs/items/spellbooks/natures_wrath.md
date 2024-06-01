@@ -1,3 +1,7 @@
+!!! quote  "Unobtainable"
+	
+	This article describes content **unobtainale in Survival** and can only be obtained through the use of commands.
+
 # Nature's Wrath
 
 <div class="result kohara-infobox-grid" markdown>
@@ -37,7 +41,7 @@
 </div>
 
 ## Obtaining
-Librarians in [End Villages](../../structures/end_village.md) can turn any Enchanted Book into Nature's Wrath for 12 <i class="icon-minecraft icon-minecraft-oak-sapling"></i>Oak Saplings. However, only half of them sell the Spellbook.
+Unobtainable becasue end trading doesnt work, but the intended obtainment is that librarians in [End Villages](../../structures/end_village.md) can turn any Enchanted Book into Nature's Wrath for 12 <i class="icon-minecraft icon-minecraft-oak-sapling"></i>Oak Saplings. However, only half of them sell the Spellbook.
 
 ## Usage
 ### Nature's Spirits
@@ -89,8 +93,9 @@ After Spirit Wolves despawn, there is a 20 seconds cooldown before they can be s
 ## Trivia
 - It is the only spellbook with 2 different abilities.
 - It is the only spellbook to not mention its cooldown in the description.
+- This is all outdated minus the unobtainable part, but i do NOT care to update this
 
-## Histor
+## History
 === "**v2.0c**"
     - Removed 15% armor penetration from regular Spirits.
     - Reduced Oak Sapling price amount (24 -> 12).

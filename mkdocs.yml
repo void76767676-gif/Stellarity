@@ -22,12 +22,12 @@ nav:
       - Dragonblade: items/dragonblade.md
       - Tamaris: items/tamaris.md
       - Call of The Void: items/call_of_the_void.md
-      - Slayer Crossbow (unobtainable): items/slayer_crossbow.md
+      - Slayer Crossbow: items/slayer_crossbow.md
       - Spectral Fury: items/spectral_fury.md
       - Chorus Dagger: items/chorus_dagger.md
       - The Beginning and The End: items/the_beginning_and_the_end.md
       - Starless Scythe: items/starless_scythe.md
-      - Stellar Striker (unobtainable): items/stellar_striker.md
+      - Stellar Striker: items/stellar_striker.md
       - Frigid Harvester: items/frigid_harvester.md
       - Prismatic Punch: items/prismatic_punch.md
       - Prismember: items/prismember.md
@@ -61,6 +61,7 @@ nav:
     - Other:
       - Prismatic Pearl: items/other/prismatic_pearl.md
       - Shulker Tools: items/other/shulker_tools.md
+      - Hematic Pickaxe: items/other/hematic_pickaxe.md
       - Pandora's Barrel: items/other/pandoras_barrel.md
       - Golden Chorus Fruit: items/other/golden_chorus_fruit.md
       - Potions: items/other/potions.md
