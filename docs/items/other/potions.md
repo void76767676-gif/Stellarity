@@ -70,12 +70,11 @@ Stellarity adds various potions that can boost you in unique ways. This is a lis
 ## Obtaining
 **2.2.0 and below:** Custom potions can only be obtained through Stronghold Portal Room chests, or from Stronghold Witches.
 
-**3.0.0:** Along with the previous methods, they can be brewed up by throwing a dragons breath onto a cauldron then throwing a combination of items in. Additionally, they can be found in Void Fishing crates.
+**3.0.0:** Along with the previous methods, they can be brewed up by throwing a Dragons Breath onto a cauldron then throwing a combination of items in. Additionally, they can be found in Void Fishing crates.
 
 ## History
 === "**Indev-2.3.0**"
     - Added new brewing system and changed up and added various potions
-    - Various changes from 2.0 to 2.2 that were very minor
 
 === "**Indev-1.6a**"
     - Potion Rebalances, and new potions, like lifeforce and radiant potions
