@@ -112,7 +112,7 @@ Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undyi
 	- Current flavor text references Captain Charo[^3] - a furry OC kohara drew in high school.
 - While Tamaris is refered to as a sword, it is actually a cutlass.
     - Its design is based on the cutlass the aforementioned OC uses.
-- <i class="icon-stellarity icon-stellarity-cursed-tome"></i> According to the [Cursed Enchiridion](cursed_tome.md), Tamaris is infused with dark destructive magic, which causes the sword to slowly decay on its own.
+- <i class="icon-stellarity icon-stellarity-cursed-tome"></i> According to the [Cursed Enchiridion](cursed_enchiridion.md), Tamaris is infused with dark destructive magic, which causes the sword to slowly decay on its own.
     - Despite this, the item doesn't change its appearance with time, neither does it lose any durability.
 
 ## History

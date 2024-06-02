@@ -84,7 +84,7 @@ Piercing enchantment causes the blast to be able to pierce through enemies and t
 	- Resprited.
 
 === "**v2.1a**"
-	- :green_cricle: Now immune to fire and lava.
+	- :green_circle: Now immune to fire and lava.
 	- :yellow_circle: Reworked. Previously it fired a deccelerating blasts which homed in on enemies.
 	- No longer considered a Developer Item.
 

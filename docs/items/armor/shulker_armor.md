@@ -70,10 +70,10 @@ Set bonus also applies Resistance I when surrounded with 4 or more mobs, which i
 - Set bonus won't remove Levitation given to players after being saved from falling into the Void by a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying.
 - Movement Speed decrease can be countered by using a <i class="icon-stellarity icon-stellarity-duskberry"></i>[Duskberry](../trinkets/duskberry.md), however it might be difficult to find one.
     - Alternatively, Swiftness Potions or [Chorus Dagger](../chorus_dagger.md) might act as a temporary solution.
-- [Endurance Potions](../other/potions.md#endurance_potion) become redundant due to set bonus giving Resistance status effect instead of directly reducing damage taken by 1/5th.
+- [Endurance Potions](../other/potions.md) become redundant due to set bonus giving Resistance status effect instead of directly reducing damage taken by 1/5th.
 
 ## Trivia
-- This is the third set to be added into Stellarity, 4 months after <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](ancient_armor.md) and <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md).
+- This is the third set to be added into Stellarity, 4 months after <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](chorus_champion.md) and <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md).
 - The only reason why Levitation immunity was incorporated into the set bonus was because *(very rarely)* Shulker Bullets which were spawned on damage could hit player, levitating them upwards, which felt rather awkward.
     - This was patched in vIndev-1.6a, however Levitation immunity still stayed.
     - kohara later expanded the effect to also provide immunity to Wither debuff.

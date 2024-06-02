@@ -30,7 +30,7 @@
 Chorus Plating can be found inside any Crate fished up via [Void Fishing](../../mechanics/void_fishing.md) or Chests in Dungeons and End Cities.
 
 ## Usage
-Combining 4 Chorus Plating with a netherite armor piece and 1 [Enderite Smithing Template](../materians/enderite_smithing_template.md) over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) crafts a piece of Chorus Champion Armor.
+Combining 4 Chorus Plating with a netherite armor piece and 1 [Enderite Smithing Template](enderite_smithing_template.md) over the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) crafts a piece of Chorus Champion Armor.
 
 ## Trivia
 - Before the addition of Chorus Plating, Chorus Champion Armor (at the time Ancient armor) used to be found directly inside Crates.

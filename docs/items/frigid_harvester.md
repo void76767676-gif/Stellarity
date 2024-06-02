@@ -112,7 +112,7 @@ The frigid  harvester can gain passive abilities by killing specific mobs.
 ## Trivia
 - The passive ability Arctic wind is misspelled as artctic wind in game. Along with this, frost barrier's description misspelles temporary as temporar.
 - Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage, only becoming more and more pink.
-- This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](spirit_dagger.md).
+- This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](the_beginning_and_the_end.md).
 - This weapon is based on Aery[^1] kit from Roblox BedWars[^2].
 	- In some places in the code, Frigid Harvester is reffered to as `aery_sword`.
 - Lorewise, Frigid Harvester is said to had been made by an unknown Illager.

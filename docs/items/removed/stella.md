@@ -21,7 +21,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/stella.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/prismember.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
