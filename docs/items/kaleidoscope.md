@@ -89,11 +89,18 @@ Kaleidoscope is unbreakable and immune to lava, fire, explosions and cacti. The 
 ## Trivia
 - Dying to a Kaleidoscope's discharge in PvP will result in a custom death message - `VICTIM couldn't stand PLAYER's heat`.
 - The sounds used to indicate max charge and the ones used for discharges were taken from the Dynamo enchantment from Minecraft: Dungeons.
-- Kaleidoscope is one of the 4 unbreakable items in Stellarity, the other 3 being the [Dragonblade](dragonblade.md), a maxed out [Frigid Harvester](frigid_harvester.md) and [Ancient Wooden Sword](ancient_wooden_sword.md).
+- Kaleidoscope is one of the 4 unbreakable items in Stellarity, the other 3 being the [Dragonblade](dragonblade.md), a maxed out [Frigid Harvester](frigid_harvester.md) and [Ancient Wooden Sword](../items/removed/ancient_wooden_sword.md).
 - Before v2.1a, Kaleidoscope used to be a greatsword and used a Netherite Sword as its base item.
     - It got reworked into an axe as the community felt like Stellarity needed its own axe item.
 
 ## History
+=== "**Indev-2.3.0**"
+	- :green_circle: Charge is no longer halved when hurt.
+	- :red_circle: Increased charge time (7.5s -> 10s)
+	- :green_circle: Charge now builds up while in the offhand and is kept after switching to different items in the hotbar.
+	- :yellow_circle: Attacking a mob with charge lower than 33% now resets all charge and sets the mob on fire for 2 seconds.
+	- :green_circle: Increased fire duration on all discharge tiers.
+	
 === "**2.2.0**"
 	- :green_circle: Reduced fire duration dropoff on splash damage ([70%, 50%, 30%] -> [80%, 65%, 50%])
 	- :green_circle: Increased level 2 charge splash range (2.4 blocks -> 2.7 blocks)

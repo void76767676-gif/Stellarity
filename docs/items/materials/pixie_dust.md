@@ -29,14 +29,18 @@
 Pixies drop 0 - 4 Pixie Dust when killed. Pixie Dust can also be found in End Ships in place of Glowstone Dust, but only if they generate in The Hallow.
 
 ## Usage
-Pixie Dust can be used at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md) to craft <i class="icon-stellarity icon-stellarity-sariel"></i>[Sariel](../sariel.md), or in regular crafting recipes in place of <i class="icon-minecraft icon-minecraft-glowstone-dust"></i>Glowstone Dust.
+Pixie Dust can be used in regular crafting recipes in place of <i class="icon-minecraft icon-minecraft-glowstone-dust"></i>Glowstone Dust.
 
 It can also be offered as a sacrifice at the Chapel of Light, which summons the Empress of Light boss.
 
 ## Trivia
 - The flavor text `May contain Fairy` is a play on how the material itself actually comes from fairies.
+- Used to be used to craft the now removed [Sariel](../removed/sariel.md)
 
 ## History
+=== "**2.1a**"
+    - As the Sariel was removed, you can no longer use pixie dust to craft it for... obvious reasons.
+    
 === "**v2.0a**"
     - Now used to summon the Empress of Light.
 

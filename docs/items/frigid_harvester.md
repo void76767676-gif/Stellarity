@@ -23,7 +23,7 @@
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/frigid_harvester.png"></th>
 	</tr>
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/frigid_harvester_all_levels.gif"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/frigid_harvester_tier_4.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -76,12 +76,12 @@ While holding Frigid Harvester in main hand movement speed is reduced by 15%. Pl
 
 ### Passive Abilities
 The frigid  harvester can gain passive abilities by killing specific mobs.
-<br><i class="icon-minecraft icon-minecraft-mob-blaze-face"></i>Blaze: Frostburn. Extreme cold burns enemies for extra damage.
-<br><i class="icon-minecraft icon-minecraft-mob-stray-face"></i>Stray: Arctic Wind. Super cold aura slows down all nearby mobs.
-<br><i class="icon-minecraft icon-minecraft-mob-witch-face"></i>Witch: Piercing Cold. Chance to weaken enemy armor on hit.
-<br><i class="icon-minecraft icon-minecraft-mob-iron-golem-face"></i>Iron Golem: Frost Barrier. Gain temporary damage reduction after killing a mob.
-<br><i class="icon-minecraft icon-minecraft-mob-wither-face"></i>Wither: Amina Conduit. Souls are crushed down and converted into a healing force.
-<br><i class="icon-minecraft icon-minecraft-mob-ender-dragon-face"></i>Ender Dragon: Cryonics. Using a Totem of Undying encases you in protective ice, making you invulnerable and providing extreme healing.
+<br><i class="icon-minecraft icon-minecraft-mob-blaze-face"></i> Blaze: Frostburn. Extreme cold burns enemies for extra damage.
+<br><i class="icon-minecraft icon-minecraft-mob-stray-face"></i> Stray: Arctic Wind. Super cold aura slows down all nearby mobs.
+<br><i class="icon-minecraft icon-minecraft-mob-witch-face"></i> Witch: Piercing Cold. Chance to weaken enemy armor on hit.
+<br><i class="icon-minecraft icon-minecraft-mob-iron-golem-face"></i> Iron Golem: Frost Barrier. Gain temporary damage reduction after killing a mob.
+<br><i class="icon-minecraft icon-minecraft-mob-wither-face"></i> Wither: Amina Conduit. Souls are crushed down and converted into a healing force.
+<br><i class="icon-minecraft icon-minecraft-mob-ender-dragon-face"></i> Ender Dragon: Cryonics. Using a Totem of Undying encases you in protective ice, making you invulnerable and providing extreme healing.
 
 ### Stat Scaling from Mobs
 | Mobs | Extra Damage Amount| Anima Conduit Healing | Anima Conduit Feed | Tag File |
@@ -106,13 +106,13 @@ The frigid  harvester can gain passive abilities by killing specific mobs.
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) |  Rewards | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | Frozen Reaper | Upgrade a Frigid Harvester to 14 damage | Remote Getaway | :x: | :x: | `stellarity:exploration/max_out_aery_sword` |
-| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | Snow Graved | Upgrade Frigid Harvester to its absolute maximum | Frozen Reaper | Reach a total of 22 damage on a Frigid Harvester | 750 EXP | `stellarity:exploration/truly_max_out_aery_sword` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | Snow Graved | Upgrade a Frigid Harvester to 14 damage | Remote Getaway | :x: | :x: | `stellarity:exploration/max_out_aery_sword` |
+| <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-frigid-harvester"></i></div> | 20 Below Zero | Upgrade Frigid Harvester to its absolute maximum | Snow Graved | Reach a total of 19 damage on a Frigid Harvester | 750 EXP | `stellarity:exploration/truly_max_out_aery_sword` |
 
 ## Trivia
 - The passive ability Arctic wind is misspelled as artctic wind in game. Along with this, frost barrier's description misspelles temporary as temporar.
 - Frigid Harvester goes through a few texture changes as it hits different amounts of extra damage, only becoming more and more pink.
-- This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](spirit_dagger.md).
+- This is the third Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md), second being [Spirit Dagger](the_beginning_and_the_end.md).
 - This weapon is based on Aery[^1] kit from Roblox BedWars[^2].
 	- In some places in the code, Frigid Harvester is reffered to as `aery_sword`.
 - Lorewise, Frigid Harvester is said to had been made by an unknown Illager.
@@ -120,7 +120,22 @@ The frigid  harvester can gain passive abilities by killing specific mobs.
 - The name of the advancement `Snow Graved` is a reference to one of Noelle's spells[^4] in deltarune Chapter 2.
 
 ## History
-=== "**v2.2.0**"
+=== "**Indev-2.3.0**"
+	- Reduced base damage (5 -> 4)
+	- Reduced max damage (19 -> 16)
+	- The frigid harvester now melts if upgraded to netherite, being fixed when dropped
+	- Piercing Cold apply chance decreased (50% -> 33%)
+	- Reduced Frost Barrier duration (7s -> 6s)
+	- Arctic Wind aura inner radius reduced (5 blocks -> 3 blocks)
+	- Reduced Anima Conduit healing and feed.
+	- Added 2 new passive abilities: Echo and Embrittlement
+	- Greatly Reduced damage gains
+	- Altered description
+	- Greatly increased damage gains from bosses, but the Warden no longer counts as a boss.
+	- Fixed Ender Dragon not upgrading Harvester's damage.
+	- Fixed the arctic wind spelling error.
+	
+=== "**2.2.0**"
 	- Resprited
 	- Max damage lowered (22 -> 19)
 	- Passive ability system reworked, now gaining those abilities by killing specific mobs.

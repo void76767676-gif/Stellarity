@@ -66,7 +66,7 @@ This dodge has a cooldown of another 20 seconds. The initial 20 seconds is reapp
 - Combining Hallowed Armor with [Duskberry](../trinkets/duskberry.md) and a Swiftness Potion is a fantastic strategy for the [Empress of Light](../../mobs/bosses/empress_of_light.md), making players able to outrun most of her attacks as well as providing them a second change if they fail to dodge them.
 
 ## Trivia
-- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](ancient_armor.md), <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../trinkets/living_flesh.md) were the first items to have ever been added into Stellarity.
+- <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](chorus_champion_armor.md), <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>Hallowed Armor and <i class="icon-stellarity icon-stellarity-living-flesh"></i>[Living Flesh](../trinkets/living_flesh.md) were the first items to have ever been added into Stellarity.
     - The first ever items to be added are [Treasure Heads](../../mechanics/treasure_heads.md)
     - While it got added as far back as v1.3a, <i class="icon-stellarity icon-stellarity-living-flesh"></i>Living Flesh had no use before v1.5a.
         - However, it was officialy removed as of vIndev-1.6a.

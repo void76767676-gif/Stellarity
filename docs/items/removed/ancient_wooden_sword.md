@@ -42,7 +42,7 @@
 </div>
 
 ## Obtaining
-Ancient Wooden Sword could be obtained by exhuming[^1] <i class="icon-minecraft icon-minecraft-wooden-sword"></i>Wooden Sword at an [Altar of The Accursed](../mechanics/altar_of_the_accursed.md). Result item kept all enchantments of the weapon used in the process.
+Ancient Wooden Sword could be obtained by exhuming[^1] <i class="icon-minecraft icon-minecraft-wooden-sword"></i>Wooden Sword at an [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md). Result item kept all enchantments of the weapon used in the process.
 
 ## Usage
 Ancient Wooden Sword has infinite Attack Speed attribute, meaning that it can be spam clicked to attack.

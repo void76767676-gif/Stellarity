@@ -27,7 +27,7 @@ The **Dragonblade** is a post-Dragon greatsword with the ability to trigger a po
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>Slow (1.35)</td>
+		<td>Slow (1.3)</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>
@@ -48,7 +48,7 @@ The **Dragonblade** is a post-Dragon greatsword with the ability to trigger a po
 </div>
 
 ## Obtaining
-After defeating the Ender Dragon for the first time, the Dragonblade spawns stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed). Right clicking it will cause it to drop, making it collectable.
+After defeating the Ender Dragon for the first time, the Dragonblade spawns stuck in the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md). Right clicking it will cause it to drop, making it collectable.
 
 Only one Dragonblade generates on each world.
 
@@ -57,7 +57,7 @@ Attacking enemies inflicts Dragon Stacks. After 3 Stacks are inflicted, player c
 
 Punching warps affected entity 8.2 blocks away from the player, but stopping on any solid block. Punches deals 7:heart: х ₃.₅ base damage with 70% armor penetration.
 
-Punched enemies will have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to walk, but can still jump and attack. Additionaly, punched mob will be afflicted with [Voided I](../mechanics/status_effects#voided) for 10 seconds.
+Punched enemies will have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to walk, but can still jump and attack. Additionaly, punched mob will be afflicted with [Voided I](../mechanics/status_effects.md) for 10 seconds.
 
 If an enemy is punched into any solid block, the damage is boosted to 24:heart: x ₁₂. The duration of Weakness is also increased to 11 seconds and stun duration to 2 seconds. Enemies nearby take 4:heart::heart: splash damage, while also being being inflicted with Weakness I for 3 seconds.
 
@@ -109,11 +109,14 @@ The Dragonblade is unbreakable on top of being immune to lava, fire, explosions 
     1. `VICTIM was punched into the otherworld by PLAYER`.
     2. `VICTIM was punched a bit too hard by PLAYER`.
     3. `VICTIM was warped into another reality by PLAYER`.
-- The Dragonblade is one of the 4 unbreakable items in Stellarity, the other 3 being [Ancient Wooden Sword](ancient_wooden_sword.md), a maxed out [Frigid Harvester](frigid_harvester.md) and [Kaleidoscope](kaleidoscope.md).
+- The Dragonblade is one of the 4 unbreakable items in Stellarity, the other 3 being [Ancient Wooden Sword](removed/ancient_wooden_sword.md), a maxed out [Frigid Harvester](frigid_harvester.md) and [Kaleidoscope](kaleidoscope.md).
 - The sound made when the Dragonblade is dropped is the sound made when the Obsidian Claymore[^4] drops in Minecraft: Dungeons.
 - Ever since its rework in vIndev-1.6a, the Dragonblade has only seen 1 nerf - a minor reduction in the splash damage radius for block punches.
  
 ## History
+=== "**Indev-2.3.0**"
+	- :green_circle: Increased base damage (6.5 -> 8)
+	
 === "**2.2.0**"
 	- :green_circle: Increased base punch distance (6.6 blocks -> 8.2 blocks)
 	- :green_circle: Increased punch Voided duration (6s -> 10s)

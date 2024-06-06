@@ -18,9 +18,6 @@
 	<tr>
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/call_of_the_void.png"></th>
 	</tr>
-    <tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/call_of_the_void_pulling.gif"></th>
-	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>

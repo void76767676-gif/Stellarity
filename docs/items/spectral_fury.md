@@ -18,9 +18,6 @@
 	<tr>
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/spectral_fury.png"></th>
 	</tr>
-    <tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/spectral_fury_pulling.gif"></th>
-	</tr>
 	<tr>
 		<th colspan="2">Info</th>
 	</tr>
@@ -94,6 +91,13 @@ Wisps deal `4 + (1.5 * arrowdmg)` damage, where `arrowdmg` is Arrow's base damag
 | <div class="adv-div"><i class="adv adv-goal"></i><i class="icon-adv icon-stellarity icon-stellarity-aota"></i></div> | Cursed Crafting |  | An Introduction to Dark Magic | Craft anything at the Altar of The Accursed | `stellarity:aota/cursed_crafting` |
 
 ## History
+=== "**Indev-2.3.0**"
+	- :green_circle: Reduced damage falloff per pierced entity (-40% -> -30%)
+	- :green_circle: Wisp movement speed +30%.
+	- :green_circle: Max hit count increased (3 -> 4)
+	- :green_circle: Increased wisp damage (4 + 150% of base arrow damage -> 5 + 150% of base arrow damage)
+	- :green_circle: Increased Wisp homing strength.
+	- :bug: Fixed the crafting recipe not working.
 === "**2.2.0**"
 	- :rocket: Introduced
 	- :bug: Bug: The recipe does not work

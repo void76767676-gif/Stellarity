@@ -73,7 +73,7 @@ The Beginning and The End can be found in End City and End Dungeon chests. Addit
   <figcaption>An attracted Spirit</figcaption>
 </figure>
 
-Damaging enemies while holding a Beginning or End in any hand has a 50% chance to attract a Spirit. If another Spirit Dagger is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
+Damaging enemies while holding a Beginning or End in any hand has a 50% chance to attract a Spirit. If the other sword is equipped in the other hand, players can teleport to the summoned Spirit by looking at it for 10 ticks (0.5 second). Only one Spirit can exist in a 4 block radius.
 </div>
 
 Teleporting to the Spirit creates a large area of effect slash which damages all enemies around it for 5:heart: x ₂.₅  damage with 100% [armor penetration](../mechanics/armor_penetration.md). Afterwards player receives a small combat buff -  4:yellow_heart::yellow_heart: points of Absorption, +3:heart: x ₁.₅ damage and +35% movement speed. Assasination buff lasts for 4 seconds. The slash attack has a radius of 3.8 blocks. Slashes receive 60% of melee damage bonuses (excluding Potions of Strength).
@@ -94,13 +94,11 @@ Certain enchantments empower Spirit Dagger's slash attack. Enchantment power sca
 
 ## Tips
 - Both the damage and speed bonuses stack with Potions of Strength and Swiftness respectively.
-- Spirits can be attracted by ANY damage, including *(but not limited to)* other Swords, Crossbows, Bows, etc., for as long as you are holding a Spirit Dagger in any hand.
+- Spirits can be attracted by ANY damage, including *(but not limited to)* other Swords, Crossbows, Bows, etc., for as long as you are holding a Beginning or End in any hand.
     - However, the damage dealt has to be higher than 3:heart: х ₁.₅. Anything lower will not attract any Spirits no matter what.
 - Teleporting has a distance limit of <u><b>70 blocks</b></u>.
     - This makes this item great for quick long distance travels while exploring or crossing large gaps.
-    - Spyglass comes in handy while trying to position your cursor over a Spirit, as you can switch to a Spirit Dagger right away once you align perfectly.
-- To fully use this weapon you have to obtain 2 of them. Using a weapon enchanted with Looting III is heavily encouraged due to how uncommon Phantoms are in The End.
-    - Despite the drop chance being on the lower side, this item can be easily obtained in great quantities by opening multiple [Pandora's Barrels](other/pandoras_barrel.md). Be careful though, as Pandora's Barrel also increases stats of spawned mobs.
+    - Spyglass comes in handy while trying to position your cursor over a Spirit, as you can switch to The Beginning and The End right away once you align perfectly.
 - This item pairs extremely well with [Sharanga](sharanga.md), since Spectral Bolts are completely unaffected by gravity, meaning that it is easier to snipe targets from far away in order to potentially attract Spirits.
 
 ## Sounds
@@ -114,7 +112,7 @@ Certain enchantments empower Spirit Dagger's slash attack. Enchantment power sca
 ## Advancements
 | Icon | Title | Description | Parent | Actual requirements (if different) | Rewards | Resource Location |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with a pair of Spirit Daggers | Remote Getaway | :x: | :x: | `stellarity:exploration/spirit_assasin` |
+| <div class="adv-div"><i class="adv adv-task"></i><i class="icon-adv icon-stellarity icon-stellarity-spirit-dagger"></i></div> | Spirit Assasin | Teleport over 60 blocks with The Beginning and The End	 | Remote Getaway | :x: | :x: | `stellarity:exploration/spirit_assasin` |
 
 ## Trivia
 - This is the second Developer weapon to get added into Stellarity, the first being [Prismatic Punch](prismatic_punch.md).
