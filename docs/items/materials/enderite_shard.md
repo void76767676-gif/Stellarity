@@ -1,7 +1,7 @@
 # Enderite Shard
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Enderite Upgrade Smithing Template** is a crafting material used to craft [Call of the Void](../call_of_the_void.md), and the [Enderite Smithing Template](/enderite_smithing_template.md)
+**Enderite Upgrade Smithing Template** is a crafting material used to craft [Call of the Void](../call_of_the_void.md), and the [Enderite Smithing Template](enderite_smithing_template.md)
 <br><br>
 
 [TOC]

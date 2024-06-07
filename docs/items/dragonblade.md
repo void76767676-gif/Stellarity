@@ -57,7 +57,7 @@ Attacking enemies inflicts Dragon Stacks. After 3 Stacks are inflicted, player c
 
 Punching warps affected entity 8.2 blocks away from the player, but stopping on any solid block. Punches deals 7:heart: х ₃.₅ base damage with 70% armor penetration.
 
-Punched enemies will have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to walk, but can still jump and attack. Additionaly, punched mob will be afflicted with [Voided I](../mechanics/status_effects.md) for 10 seconds.
+Punched enemies will have Weakness I applied to them for 7 seconds, on top of being stunned for 1 second. Stunned mobs are unable to walk, but can still jump and attack. Additionaly, punched mob will be afflicted with [Voided I](../mechanics/status_effects#voided.md) for 10 seconds.
 
 If an enemy is punched into any solid block, the damage is boosted to 24:heart: x ₁₂. The duration of Weakness is also increased to 11 seconds and stun duration to 2 seconds. Enemies nearby take 4:heart::heart: splash damage, while also being being inflicted with Weakness I for 3 seconds.
 

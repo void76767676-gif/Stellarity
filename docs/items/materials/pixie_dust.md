@@ -47,7 +47,6 @@ It can also be offered as a sacrifice at the Chapel of Light, which summons the 
 === "**vIndev-1.6a**"
     - Now used in new crafting recipes.
     - Drop quantity increased (`0 - 2` -> `0 - 4`).
-    - Now used to summon the Empress of Light.
 
 === "**v1.5b**"
     - Introduced.

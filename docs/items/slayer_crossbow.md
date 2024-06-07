@@ -22,9 +22,6 @@
 		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/slayer_crossbow.png"></th>
 	</tr>
 	<tr>
-    	<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/slayer_crossbow_pulling.png"></th>
-	</tr>
-	<tr>
 		<th colspan="2">Info</th>
 	</tr>
 	<tr>

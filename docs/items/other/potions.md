@@ -1,12 +1,11 @@
 # Potions
-
-<div class="result kohara-infobox-grid" markdown>
-<div markdown class="kohara-infobox-text">
 Stellarity adds various potions that can boost you in unique ways. This is a list of all of them
 
 <br><br>
 
 [TOC]
+
+<br><br>
 
 ## Amarene
 "Looks like wine, but it really isn't *'forbidden juice'*"

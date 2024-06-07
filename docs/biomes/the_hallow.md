@@ -2,7 +2,7 @@
 >
 > This feature is dedicated to kohara (*Developer*)
 
-**The Hallow** is an exceptionally rare [biome](index.md) found in The End. It is themed around light and magic, seen by having lots of lights and quite a lot of colors compared to other less vibrant biomes of The End.
+**The Hallow** is an exceptionally rare [biome](../index.md) found in The End. It is themed around light and magic, seen by having lots of lights and quite a lot of colors compared to other less vibrant biomes of The End.
 
 It is based on [The Hallow](https://terraria.wiki.gg/wiki/The_Hallow "'The Hallow' on Terraria wiki") biome from [Terraria](https://terraria.wiki.gg/wiki/Terraria ).
 
@@ -91,7 +91,7 @@ Apart from regular End music, these tracks play when the player is in The Hallow
 
 -  **2.0a**
     - Reduced number of Large Amethyst Stalactites.
-    - Pixie Dust can now be used to craft [Prismatic Punch](../items/prismatic_punch.md) and [Sariel](../items/sariel.md).
+    - Pixie Dust can now be used to craft [Prismatic Punch](../items/prismatic_punch.md) and [Sariel](../items/removed/sariel.md).
     - Added Empress of Light - a boss themed around this biome.
     - Fixed abnormal amounts of [Pixies](../mobs/pixie.md) spawning all over The Hallow.
     - Allays can rarely replace Pixies on spawn.

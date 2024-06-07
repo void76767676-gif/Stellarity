@@ -67,7 +67,7 @@ There are various permanant buffs that can be obtained, increasing various stats
 Drop the base item of the buff item into the water in The Hallowed, aka Shimmer, [Transmuting](../../mechanics/consecration.md) them into the buff items
 
 ## Trivia
-    - Endurance Brew's *Not to be confused with berserker brew* note is a reference to Bloons Tower Defense 6.
+- Endurance Brew's *Not to be confused with berserker brew* note is a reference to Bloons Tower Defense 6.
 
 ## History
 === "**Indev-2.3.0**"
@@ -80,7 +80,7 @@ Drop the base item of the buff item into the water in The Hallowed, aka Shimmer,
 === "**v2.1a**"
     - :rocket: Most buffs renamed
     - :red_circle: All percentage increases decreased (5% -> 4%)
-    - :red_cricle: Reduced Endurance Brew armor bonus (2 -> 1) and armor toughness bonus (1 -> 0.5)
+    - :red_circle: Reduced Endurance Brew armor bonus (2 -> 1) and armor toughness bonus (1 -> 0.5)
 
 === "**Indev-v1.6a**"
     - :rocket: Introduced.

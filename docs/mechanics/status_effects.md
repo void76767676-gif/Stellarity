@@ -29,7 +29,7 @@ Temporarily reduces mob's armor and armor toughness by `25% * level`. Also reduc
     
     | Source | Duration | Notes |
     | :--- | :--- | :--- |
-    | [Prismatic Punch](../prism) | 0:03 (without Multishot)<br>0:05 (with Multishot) | :x: |
+    | [Prismatic Punch](../items/prismatic_punch.md) | 0:03 (without Multishot)<br>0:05 (with Multishot) | :x: |
     | [Prismember](../items/prismember.md) | 0:03 | +1 second per level of Fire Aspect |
 
 === "**Upcoming 2.3.0 and later**"

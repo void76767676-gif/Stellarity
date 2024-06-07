@@ -44,7 +44,7 @@
 </div>
 
 ## Obtaining
-The Enderite Smithing template can be found in End City and End Dungeon chests. It can be duplicated with 5 [Enderite Shards](../materials/enderite_shard.md) and 9 Purper blocks on the [Altar of The Accursed](../mechanics/altar_of_the_accursed).
+The Enderite Smithing template can be found in End City and End Dungeon chests. It can be duplicated with 5 [Enderite Shards](../materials/enderite_shard.md) and 9 Purper blocks on the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md).
 
 ## History
 === "**2.2.0**"

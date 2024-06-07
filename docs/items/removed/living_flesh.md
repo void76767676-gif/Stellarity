@@ -33,7 +33,7 @@
 ## Obtaining
 1 - 8 Living Flesh could be found inside of chests in [End Dungeons](../../structures/end_dungeon.md).
 
-Alternatively, [void fishing](../../mechanics/void_fishing.md) in the [Flesh Tundra](../../biomes/flesh_tundra.md) could yield 2 - 6 per catch, and there was also a 70% chance for a Hematic Crate to contain 1 - 2 Living Flesh.
+Alternatively, [void fishing](../../mechanics/void_fishing.md) in the Flesh Tundra could yield 2 - 6 per catch, and there was also a 70% chance for a Hematic Crate to contain 1 - 2 Living Flesh.
 
 ## Usage
 After eating Living Flesh, players would get Regeneration VII for 3 seconds, which healed a total of 60:heart: x ₃₀ health. However, players would also be inflicted with a decaying Weakness effect for 30 seconds - 15 seconds of Weakness II, fading into 15 seconds of Weakness I.

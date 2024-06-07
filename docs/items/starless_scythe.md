@@ -60,11 +60,12 @@ The Starless Scythe has various enchantment interactions. Efficiency makes enemi
 - This weapon almost said bisexual rights
 
 ## History
+
 === "**v2.2.0**"
-- Made obtainable.
-- reworked to, instead of adding life through a leeching debuff, heal 5% of the damage you deal on hit.
-- All enchantment interactions added.
-- Damage increased (8 -> 10).
+	- Made obtainable.
+	- reworked to, instead of adding life through a leeching debuff, heal 5% of the damage you deal on hit.
+	- All enchantment interactions added.
+	- Damage increased (8 -> 10).
 
 === "**2.1a**"
-- Added, but unobtainable.
+	- Added, but unobtainable.

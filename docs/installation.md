@@ -15,7 +15,7 @@ All files can be found on [Stellarity's Download Section](downloads.md).
     !!! danger "Forge or Fabric?"
             Stellatity doesn't have any loader-dependant code, which means it supports both Forge and Fabric. You don't have to look for versions for a specific loader.
 
-    1. Install either [Forge](https://minecraftforge.net), [Fabric](https://fabricmc.net/) or [Quilt](https://quiltmc.org/en/).
+    1. Install either [Forge](https://files.minecraftforge.net/net/minecraftforge/forge/), [Fabric](https://fabricmc.net/) or [Quilt](https://quiltmc.org/en/).
     2. Navigate to `%appdata%/Roaming/.minecraft` and then open folder `mods`
     3. Drop downloaded **JAR** file into opened folder.
 

@@ -12,7 +12,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/shulker_sword.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/shulker_sword.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -20,12 +20,12 @@
 	<tr>
 		<td><b>Damage</b></td>
 		<td>
-		netherite tool + 0.5
+		Netherite tool + 0.5
 		</td>
 	</tr>
 	<tr>
 		<td><b>Attack Speed</b></td>
-		<td>same as netherite</td>
+		<td>Same as netherite</td>
 	</tr>
 	<tr>
 		<td><b>Tooltip</b></td>

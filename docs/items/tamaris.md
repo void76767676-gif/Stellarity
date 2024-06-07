@@ -55,7 +55,7 @@ When damaged below 25% of health, mobs will have a gray mark above their head. T
 
 After sneaking for a moment, you will warp to the nearest weak mob, instantly killing them. This warp has a range of 10 blocks. If an enemy walks out of that radius mid-execute, the warp is going to follow the mob to its new location.
 
-Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying or a player with the [Holy Protection](armor/hallowed_armor.md) buff applies an 11 second execute cooldown. It is indicated by a <span style="color: red;">DISABLED</span> text in player's action bar, which goes away as the cooldown ends.
+Executing a mob holding a <i class="icon-minecraft icon-minecraft-totem-of-undying"></i>Totem of Undying or a player with the [Holy Protection](armor/hallowed_armor#set-bonus.md) buff applies an 11 second execute cooldown. It is indicated by a <span style="color: red;">DISABLED</span> text in player's action bar, which goes away as the cooldown ends.
 
 ## Tips
 - Tamaris is intended to be used as a support weapon. Switching to it to execute a weak enemy is the best way to use it.
