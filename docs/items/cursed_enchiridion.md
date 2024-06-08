@@ -35,7 +35,7 @@
 </div>
 
 ## Obtaining
-Cursed Enchiridion can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed) by throwing **any** <i class="icon-minecraft icon-minecraft-enchanted-book"></i>Enchanted Book on top of it.
+Cursed Enchiridion can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) by throwing **any** <i class="icon-minecraft icon-minecraft-enchanted-book"></i>Enchanted Book on top of it.
 
 ## Usage
 Cursed Enchiridion acts in a similair way to <i class="icon-minecraft icon-minecraft-written-book"></i>Written Books, being able to be opened and read.

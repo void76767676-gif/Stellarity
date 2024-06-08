@@ -41,7 +41,7 @@
 </div>
 
 ## Obtaining
-Call of the Void can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed) using any bow, 8 Dragon's Breath, 16 [Enderite Shards](../items/materials/enderite_shard.md), and 1 [Enderite Smithing Template](../items/materials/enderite_smithing_template.md).
+Call of the Void can be crafted at the [Altar of The Accursed](../mechanics/altar_of_the_accursed.md) using any bow, 8 Dragon's Breath, 16 [Enderite Shards](../items/materials/enderite_shard.md), and 1 [Enderite Smithing Template](../items/materials/enderite_smithing_template.md).
 
 ## Usage
 When used, Shoots arrows that travel faster and deal 15% more damage than a normal bow. The arrow shot from the bow shatters upon impact, dealing 4.5 :heart::heart::heart:x 1/4 damage. Enemies that are directly hit by the bow are applied Voided 1, which reduces the effected entity's hp by 20%

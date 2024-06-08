@@ -4,18 +4,16 @@
 
 Keep in mind that it is entirely optional and is not required for the pack to work.
 
-### v2.2.0 and before
-Go to [Stellarity's page](https://modrinth.com/datapack/stellarity), then to the downloads section and click on the area marked in blue *(as show on the attached image)*. Scroll down and you will see 2 downloadable files - one for the datapack itself, and the other one for the optional resource pack.
+### Before 2.2.0
+Go to [Stellarity's page](https://modrinth.com/datapack/stellarity), then to the downloads section and click on the title (NOT the download button) of the datapack version the resource pack is for. Scroll down and you will see 2 downloadable files - one for the datapack itself, and the other one for the optional resource pack.
 
-![Image](https://media.discordapp.net/attachments/1215780817805246495/1215780968669909013/wNYvUxe.png?ex=66107443&is=65fdff43&hm=203e37379ce1d32dd158b817ae066e9d26e967ddd444fa3d4483299be4ee4286&=&format=webp&quality=lossless)
-
-### 2.3.0 and after
+### 2.2.0 and after
 Resource pack is available as a separate project for the ease of locating it. Click [HERE](https://modrinth.com/project/stellarity-optional-resource-pack) to go to its Modrinth page.
 
 ### Music Addon (2.2.0+)
 Starting from Stellarity 2.2.0, music and biome ambience tracks are not included in the optional resource pack or the mod version as to not inflate the file size.
 
-- **2.2.0:** Rhe music addon is found in the same place as the optional resource pack
+- **2.2.0:** The music addon is found in the same place as the optional resource pack
 - **2.3.0+:** You can download a different resource pack which contains background tracks for the mod [HERE](https://modrinth.com/project/stellarity-music-addon), on the addon's page.
 
 ## I removed/uninstalled Stellarity and now my world doesn't load/How to uninstall your projects?

@@ -12,7 +12,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/hematic.pickaxe.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/hematic_pickaxe.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>

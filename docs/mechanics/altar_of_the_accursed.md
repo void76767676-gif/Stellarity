@@ -1,12 +1,11 @@
-# Alter of the Accursed
-
-<div class="result kohara-infobox-grid" markdown>
-<div markdown class="kohara-infobox-text">
-**Alter of the Accursed** is an altar with the [Dragonblade](../items/dragonblade.md) stuck inside of it. It is used to craft many different Stellarity items. 
+# Altar of The Accursed
+**Altar of the Accursed** is an altar with the [Dragonblade](../items/dragonblade.md) stuck inside of it. It is used to craft many different Stellarity items. 
 
 <br><br>
 
 [TOC]
+
+<br><br>
 
 ## Obtaining
 The Altar of the Accursed will generate in an oddly shaped pillar on the main island. It cannot be mined or picked up in any ways
@@ -46,6 +45,9 @@ Throwing items on top of the Altar of the Accursed will cause them to combine to
     - 1 Enderite Smithing Template
 
 The Altar of the Accursed can also be used to disenchant items.
+
+## History
+
 === "**Indev-2.3.0**"
     - Remodeled
 

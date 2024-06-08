@@ -25,7 +25,7 @@
 <div class="kohara-infobox-table">
   <table id="kohara-infobox--item">
 	<tr>
-		<th colspan="2" class="kohara-infobox--top-image"><img src="../../assets/items/zephyr.png"></th>
+		<th colspan="2" class="kohara-infobox--top-image"><img src="../../../assets/items/zephyr.png"></th>
 	</tr>
 	<tr>
 		<th colspan="2">Info</th>
@@ -61,7 +61,7 @@
 </div>
 
 ## Obtaining
-Zephyr can be found in Top Tower Chests inside [End Cities](../structures/end_city.md) with a 14% chance.
+Zephyr can be found in Top Tower Chests inside [End Cities](../../structures/end_city.md) with a 14% chance.
 
 ## Usage
 Holding Zephyr in main hand gives a passive 7.5% Movement Speed bonus.

@@ -36,7 +36,7 @@
 Tome of jinx can be found in End city treasure chests and End Dungeons
 
 ## Usage
-Using right click spawns a slow moving pink cloud that grows in size as it travels. The clound lasts for 2 seconds. Enemies caught in the cloud are applied the [Jinx](../../mechanics/status_effects.md) effect for 10 seconds, lowering defense by 25%
+Using right click spawns a slow moving pink cloud that grows in size as it travels. The clound lasts for 2 seconds. Enemies caught in the cloud are applied the [Jinx](../../mechanics/status_effects.md#jinx) effect for 10 seconds, lowering defense by 25%
 
 This has a 10 second cooldown
 

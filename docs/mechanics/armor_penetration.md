@@ -16,8 +16,8 @@ A lot of items in Stellarity utilize armor penetration to be stronger against ta
 | <i class="icon-stellarity icon-stellarity-the-beginning"></i> [The Beginning and The End](../items/the_beginning_and_the_end.md) | 100 (teleport slash) |
 | <i class="icon-stellarity icon-stellarity-starstrucl-carcanet"></i> [Starstruck Carcanet](../items/trinkets/starstruck_carcanet.md) | 80 (stars) |
 | <i class="icon-stellarity icon-stellarity-tamaris"></i> [Tamaris](../items/tamaris.md) | 100 (execute) |
-| <i class="icon-stellarity icon-stellarity-slayer-crossbow"></i> Slayer Crossbow | 15 |
-| <i class="icon-stellarity icon-stellarity-stellar-striker"></i> Stellar Striker | 40<br>55 (with Casket of Stars) |
+| <i class="icon-stellarity icon-stellarity-slayer-crossbow"></i> [Slayer Crossbow](../items/slayer_crossbow.md) | 15 |
+| <i class="icon-stellarity icon-stellarity-stellar-striker"></i> [Stellar Striker](../items/stellar_striker.md) | 40<br>55 (with Casket of Stars) |
 
 ## Damage formula
 Despite not being needed, brackets have been added for improved readability.

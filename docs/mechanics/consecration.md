@@ -1,7 +1,4 @@
 # Consecration
-
-<div class="result kohara-infobox-grid" markdown>
-<div markdown class="kohara-infobox-text">
 **Consecration** is a mechanic that allows you to change items into different ones, by dropping them into **Shimmer**, or the water in The Hallowed.
 
 <br><br>

@@ -45,5 +45,5 @@ Combining 4 Hallowed Ingots with 1 [Enderite Smithing Template](../materials/end
 === "**v2.0a**"
     - Now generates in End Cities in place of Hallowed Armor.
 
-=== "**v2.0a**"
+=== "**Indev-v1.6a**"
     - Introduced.

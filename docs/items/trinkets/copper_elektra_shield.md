@@ -57,9 +57,9 @@ Every 7 seconds (14 seconds for the last charge), the shield gains a charge. Whe
     - :bug: Bug fixes
 
 === "**2.2.0**"
-    - :yellow circle: Reworked
+    - :yellow_circle: Reworked
         - It used to have only 1 charge instead of 3, but with a slightly shorter cooldown of 6.5 seconds and a longer distance of ~10 blocks, as well as 6 damage.
     - :green_circle: Ability to zap shulker bullets added.
 
 === "**v2.1a**"
-    - :Rocket: Introduced
+    - :rocket: Introduced

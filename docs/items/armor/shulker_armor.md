@@ -73,7 +73,7 @@ Set bonus also applies Resistance I when surrounded with 4 or more mobs, which i
 - [Endurance Potions](../other/potions.md) become redundant due to set bonus giving Resistance status effect instead of directly reducing damage taken by 1/5th.
 
 ## Trivia
-- This is the third set to be added into Stellarity, 4 months after <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](chorus_champion.md) and <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md).
+- This is the third set to be added into Stellarity, 4 months after <i class="icon-stellarity icon-stellarity-ancient-armor"></i>[Ancient Armor](chorus_champion_armor.md) and <i class="icon-stellarity icon-stellarity-hallowed-armor"></i>[Hallowed Armor](hallowed_armor.md).
 - The only reason why Levitation immunity was incorporated into the set bonus was because *(very rarely)* Shulker Bullets which were spawned on damage could hit player, levitating them upwards, which felt rather awkward.
     - This was patched in vIndev-1.6a, however Levitation immunity still stayed.
     - kohara later expanded the effect to also provide immunity to Wither debuff.
@@ -83,7 +83,7 @@ Set bonus also applies Resistance I when surrounded with 4 or more mobs, which i
 | <div class="adv-div"><i class="adv adv-challenge"></i><i class="icon-adv icon-stellarity icon-stellarity-shulker-armor"></i></div> | <span style="color: #B533FF;">I am Titanium!</span> | Craft a full set of Shulker Armor | Cursed Crafting | :x: | `stellarity:aota/craft_shulker_armor` |
 
 ## History
-=== "**v2.2.0**=
+=== "**v2.2.0**" 
     - Total armor decreased (24 -> 20)
     - 20% damage reduction only applies when 4 mobs are nearby you
     - Attack speed and movement speed decreases lightened (10% -> 8%), but made multiplicative
