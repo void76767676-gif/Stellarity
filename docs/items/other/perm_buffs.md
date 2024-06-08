@@ -27,41 +27,56 @@ There are various permanant buffs that can be obtained, increasing various stats
 
 ## Cleansing Potato
 "Consume to permanantly become immune to Poison"
+<br>
 - Base item is a potato
+<br>
 - Makes you immune to poison
 
 ## Endurance Brew
 "Consume to permanantly increase your defense and damage reduction."
+<br>
 "*Not to be confused with berserker brew*"
+<br>
 - Base item is rabbit stew
+<br>
 - Gives +1 armor, and +0.5 armor toughness
 
 ## Energizing Fruit
 "Consume to permanantly increase your movement speed"
+<br>
 - Base item is a chorus fruit
+<br>
 - Makes you move 4% faster
 
 ## Fury Berries
 "Consume to permanantly increase your melee attack speed"
+<br>
 - Base item is Glowberries
+<br>
 - Makes you attack 4% faster
 
 ## Lucky Carrot
 "Consume to permanantly increase your luck"
+<br>
 - Base item is a golden carrot
+<br>
 - Gives +1 luck
 
 ## Miracle Fruit
 "Consume to permanantly increase your life regeneration"
+<br>
 - Base item is an apple
+<br>
 - Gives 1HP/10s passive life regeneration
 
 ## Rageroot
 "Consume to permanantly increase your strength"
+<br>
 - Base item is a beetroot
+<br>
 - Makes your attacks deal 4% more damage
 
-**NOTE:** All bonuses are multiplicitive
+**NOTE:** All bonuses multiply other stat bonuses. All bonuses are also only usable once.
 
 ## Obtaining
 Drop the base item of the buff item into the water in The Hallowed, aka Shimmer, [Transmuting](../../mechanics/consecration.md) them into the buff items
