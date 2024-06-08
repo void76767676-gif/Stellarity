@@ -1,5 +1,5 @@
 # Potions
-Stellarity adds various potions that can boost you in unique ways. This is a list of all of them
+Stellarity adds various potions that can boost you in unique ways. This is a list of all of them (In Indev 2.3)
 
 <br><br>
 

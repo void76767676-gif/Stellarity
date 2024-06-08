@@ -1,7 +1,7 @@
 # Enderite Shard
 <div class="result kohara-infobox-grid" markdown>
 <div markdown class="kohara-infobox-text">
-**Enderite Upgrade Smithing Template** is a crafting material used to craft [Call of the Void](../call_of_the_void.md), and the [Enderite Smithing Template](enderite_smithing_template.md)
+**Enderite Shard** is a crafting material used to craft [Call of the Void](../call_of_the_void.md), and the [Enderite Smithing Template](enderite_smithing_template.md)
 <br><br>
 
 [TOC]
@@ -27,6 +27,9 @@
 
 ## Obtaining
 Has a 2% chance to drop from mined End Stone.
+
+# Usage
+The Enderite Shard is used to craft [Call of the Void](../call_of_the_void.md), and the [Enderite Smithing Template](enderite_smithing_template.md) at the [Altar of The Accursed](../../mechanics/altar_of_the_accursed.md)
 
 ## History
 === "**2.2.0**"
