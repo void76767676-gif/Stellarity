@@ -45,7 +45,8 @@
 		[
 			"far_end:general/end_spike/center",
 			"far_end:general/end_spike/ring",
-			"stellarity:dragons_den/obsidian_spike_decor"
+			"stellarity:dragons_den/obsidian_spike_decor",
+			"minecraft:end_platform"
 		]
 	]
 }
