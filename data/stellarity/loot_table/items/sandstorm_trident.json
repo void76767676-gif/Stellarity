@@ -12,10 +12,10 @@
 							"lore": [
 								"",
 								{
-									"translate": "stellarity.items.weapons.sandstorm_trident.flavor_text",
+									"translate": "stellarity.items.weapons.sandstorm_trident.description",
 									"fallback": "Creates wind tunnels when thrown",
 									"color": "#EEEEEE",
-									"italic": true
+									"italic": false
 								},
 								"",
 								{
