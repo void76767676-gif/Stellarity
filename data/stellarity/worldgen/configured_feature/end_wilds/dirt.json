@@ -12,7 +12,7 @@
 			"min_inclusive": 1,
 			"max_inclusive": 3
 		},
-		"replaceable": "#stellarity:_worldgen/end_wilds/rooted_dirt_replaceable",
+		"replaceable": "#stellarity:_worldgen/single/grass_block",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [
