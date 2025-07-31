@@ -1,5 +1,5 @@
 {
-  "feature": "stellarity:barrens/hills",
+  "feature": "stellarity:end_barrens/hills",
   "placement": [
     {
       "type": "minecraft:count",
@@ -55,9 +55,7 @@
       },
       "allowed_search_condition": {
         "type": "minecraft:matching_blocks",
-        "blocks": [
-          "minecraft:air"
-        ]
+        "blocks": ["minecraft:air"]
       }
     },
     {
