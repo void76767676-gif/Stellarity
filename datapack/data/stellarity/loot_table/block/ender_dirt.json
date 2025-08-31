@@ -41,7 +41,7 @@
                       "block": "dirt",
                       "model": "stellarity:ender_dirt",
                       "loot_table": "stellarity:block/ender_dirt",
-                      "place_sound": "block.dirt.place",
+                      "place_sound": "block.gravel.place",
                       "valid_placement": "all",
                       "rotation": "none"
                     }
