@@ -5,7 +5,7 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{'data': {'stellarity:block': {'model': 'stellarity:ender_dirt'}}}"
+        "nbt": "{'Tags':['stellarity.block.ender_dirt']}"
       }
     }
   ]

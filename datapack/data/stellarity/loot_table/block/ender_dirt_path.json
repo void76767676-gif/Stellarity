@@ -38,6 +38,7 @@
 
                   "data": {
                     "stellarity:block": {
+                      "id": "ender_dirt_path",
                       "block": "dirt_path",
                       "model": "stellarity:ender_dirt_path",
                       "loot_table": "stellarity:block/ender_dirt",
