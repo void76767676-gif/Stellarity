@@ -11,9 +11,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mangrove_log",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -25,9 +25,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mangrove_propagule",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -39,9 +39,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:mangrove_leaves",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
@@ -62,9 +62,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pale_oak_log",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 2,
@@ -76,9 +76,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pale_oak_sapling",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 1,
@@ -90,9 +90,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:pale_oak_leaves",
-          "modifier": [
+          "functions": [
             {
-              "type": "minecraft:set_count",
+              "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,

@@ -54,7 +54,7 @@
           }
         },
         "entity": {
-          "entity_type": "fox"
+          "type": "fox"
         }
       }
     },

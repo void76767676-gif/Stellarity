@@ -27,7 +27,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "entity_type": "#kohara:invalid_targets"
+                "type": "#kohara:invalid_targets"
               }
             }
           }

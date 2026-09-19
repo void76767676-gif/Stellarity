@@ -6,7 +6,7 @@
       "conditions": {
         "damage": {
           "source_entity": {
-            "type": "minecraft:slime",
+            "type": "slime",
             "nbt": "{Tags:[\"stellarity.voided_slime\"]}"
           }
         }

@@ -12,7 +12,7 @@
       "min_inclusive": 2,
       "max_inclusive": 3
     },
-    "replaceable": "#minecraft:concrete_powders",
+    "replaceable": "#minecraft:concrete_powder",
     "ground_state": {
       "type": "minecraft:weighted_state_provider",
       "entries": [
