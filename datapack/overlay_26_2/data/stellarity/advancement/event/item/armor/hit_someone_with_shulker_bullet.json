@@ -38,7 +38,7 @@
         "damage": {
           "type": {
             "direct_entity": {
-              "entity_type": "minecraft:shulker_bullet"
+              "type": "minecraft:shulker_bullet"
             }
           }
         }

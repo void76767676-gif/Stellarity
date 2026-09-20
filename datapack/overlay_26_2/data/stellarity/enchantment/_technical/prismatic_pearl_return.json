@@ -25,7 +25,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "entity_type": "minecraft:ender_pearl"
+            "type": "minecraft:ender_pearl"
           }
         },
         "effect": {

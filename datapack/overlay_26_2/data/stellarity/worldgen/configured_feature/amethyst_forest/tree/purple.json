@@ -10,12 +10,7 @@
       }
     },
     "decor_state": {
-      "Name": "minecraft:glowstone",
-      "Properties": {
-        "distance": "7",
-        "persistent": "true",
-        "waterlogged": "false"
-      }
+      "Name": "minecraft:glowstone"
     },
     "stem_state": {
       "Name": "minecraft:spruce_log",
