@@ -1,0 +1,81 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "stellarity:climate/continents",
+  "min_inclusive": -1.2,
+  "max_exclusive": -0.725,
+  "when_out_of_range": 0,
+  "when_in_range": {
+    "type": "minecraft:range_choice",
+    "input": "stellarity:climate/temperature",
+    "min_inclusive": -0.405,
+    "max_exclusive": 0.48,
+    "when_out_of_range": 0,
+    "when_in_range": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 135,
+        "to_y": 148,
+        "from_value": 0,
+        "to_value": 1
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 272,
+          "to_y": 284,
+          "from_value": 1,
+          "to_value": 0
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:y_clamped_gradient",
+            "from_y": 140,
+            "to_y": 284,
+            "from_value": -0.38,
+            "to_value": -0.62
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 0.8,
+            "argument2": {
+              "type": "minecraft:shifted_noise",
+              "noise": "stellarity:the_hallow/sky_islet_noise",
+              "xz_scale": 1.2,
+              "y_scale": 3.2,
+              "shift_x": {
+                "type": "minecraft:mul",
+                "argument1": 40,
+                "argument2": {
+                  "type": "minecraft:shifted_noise",
+                  "noise": "stellarity:the_hallow/sky_islet_warp",
+                  "xz_scale": 1.0,
+                  "y_scale": 1.0,
+                  "shift_x": 0,
+                  "shift_y": 0,
+                  "shift_z": 0
+                }
+              },
+              "shift_y": 0,
+              "shift_z": {
+                "type": "minecraft:mul",
+                "argument1": 40,
+                "argument2": {
+                  "type": "minecraft:shifted_noise",
+                  "noise": "stellarity:the_hallow/sky_islet_warp",
+                  "xz_scale": 1.0,
+                  "y_scale": 1.0,
+                  "shift_x": 0,
+                  "shift_y": 0,
+                  "shift_z": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,4 @@
+# folders
 /.vscode/
 /scratch/
 spyglass.json
@@ -12,13 +13,24 @@ nullscape_26_3/
 build/
 .spyglassrc.json
 
+stb-test/*
+
+# nbt
+shulking_citadel.nbt
+citadel_shell.nbt
+boss_core.nbt
+citadel_assembly.nbt
+
+# .zip
 stellarity-6.0.0.zip
 stellarity-6.0.1.zip
 stellarity-*.zip
+the_hallow_patch.zip
 resource_pack.zip
 nullscape_compat_26_3.zip
 nullscape_compat_26_3.zip
 
+# logs, hmm?
 logs/2026-09-24-1.log.gz
 logs/2026-09-24-2.log.gz
 logs/2026-09-24-3.log.gz
@@ -27,34 +39,40 @@ logs/2026-09-24-5.log.gz
 logs/2026-09-24-6.log.gz
 logs/2026-09-24-7.log.gz
 logs/latest.log
-hs_err_pid22536.log
 
-shulking_citadel.nbt
-citadel_shell.nbt
-boss_core.nbt
-citadel_assembly.nbt
+# errrr
+hs_err_pid22536.log
 hs_err_pid32272.log
 hs_err_pid9728.log
-replay_pid32272.log
-replay_pid9728.log
-deploy.bat
-deploy.ps1
-deploy.sh
-seed_analysis.png
-analyze_seeds.py
-replay_pid21564.log
 hs_err_pid21552.log
 hs_err_pid21564.log
-replay_pid21552.log
-datapack/data/stellarity/worldgen/test.txt
-test_run.py
 hs_err_pid13568.log
 hs_err_pid14116.log
 hs_err_pid17836.log
 hs_err_pid19784.log
 hs_err_pid23812.log
 hs_err_pid24564.log
+
+replay_pid32272.log
+replay_pid9728.log
+replay_pid21564.log
+replay_pid21552.log
 replay_pid13568.log
 replay_pid17836.log
 replay_pid23812.log
 replay_pid24564.log
+
+# auto
+deploy.bat
+deploy.ps1
+deploy.sh
+
+# test + analyz
+test_run.py
+datapack/data/stellarity/worldgen/test.txt
+seed_analysis.png
+analyze_seeds.py
+
+# my note
+.note/*
+

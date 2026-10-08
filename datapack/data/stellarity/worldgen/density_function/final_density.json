@@ -9,9 +9,13 @@
     "left": {
       "type": "add",
       "left": {
-        "type": "minecraft:min",
-        "left": "stellarity:sloped_cheese",
-        "right": "stellarity:cave/noodle"
+        "type": "minecraft:max",
+        "left": {
+          "type": "minecraft:min",
+          "left": "stellarity:sloped_cheese",
+          "right": "stellarity:cave/noodle"
+        },
+        "right": "stellarity:the_hallow/sky_islands"
       },
       "right": "stellarity:main_island/farlands_taper"
     },
