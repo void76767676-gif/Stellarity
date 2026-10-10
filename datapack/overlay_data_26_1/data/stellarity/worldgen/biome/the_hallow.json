@@ -87,9 +87,7 @@
       "charge": 0.6
     }
   },
-  "carvers": [
-    "stellarity:the_hallow/crevice"
-  ],
+  "carvers": [],
   "features": [
     [
       "stellarity:the_hallow/stalactite",

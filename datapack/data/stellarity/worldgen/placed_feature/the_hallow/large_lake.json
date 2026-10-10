@@ -3,14 +3,14 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 28
+      "chance": 24
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:heightmap",
-      "heightmap": "WORLD_SURFACE_WG"
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
     },
     {
       "type": "minecraft:surface_water_depth_filter",

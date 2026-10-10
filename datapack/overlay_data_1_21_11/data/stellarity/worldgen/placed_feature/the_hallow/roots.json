@@ -36,7 +36,7 @@
             "blocks": [
               "minecraft:dirt",
               "minecraft:grass_block",
-              "minecraft:snow_block"
+              "minecraft:calcite"
             ]
           }
         ]
@@ -49,12 +49,65 @@
       }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": 0,
-      "y_spread": -1
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": -1,
+      "z": 0
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 24
+    },
+    {
+      "type": "minecraft:offset",
+      "x": {
+        "type": "minecraft:trapezoid",
+        "max": 5,
+        "min": -5,
+        "plateau": 0
+      },
+      "y": {
+        "type": "minecraft:trapezoid",
+        "max": 5,
+        "min": -5,
+        "plateau": 0
+      },
+      "z": {
+        "type": "minecraft:trapezoid",
+        "max": 5,
+        "min": -5,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              1,
+              0
+            ],
+            "blocks": [
+              "minecraft:dirt",
+              "minecraft:grass_block",
+              "minecraft:calcite"
+            ]
+          }
+        ]
+      }
     }
   ]
 }

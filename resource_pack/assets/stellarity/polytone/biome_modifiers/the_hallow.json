@@ -1,13 +1,11 @@
 {
   "targets": ".*:the_hallow",
-  "fog_color": 16295362,
-  "sky_color": 5100001,
-  "fog_start": "max(8, c.viewDistance() * (c.y() > 170 ? 0.45 : 0.30))",
-  "fog_end": "c.viewDistance() * (c.y() > 170 ? 0.96 : 0.88)",
   "attributes_modifiers": {
-    "minecraft:visual/fog_color": "f8a5c2",
-    "minecraft:visual/sky_color": "4dd0e1",
-    "minecraft:visual/fog_start_distance": "max(8, c.viewDistance() * (c.y() > 170 ? 0.45 : 0.30))",
-    "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 170 ? 0.96 : 0.88)"
+    "base": {
+      "minecraft:visual/fog_color": "#f8a5c2",
+      "minecraft:visual/sky_color": "#4dd0e1",
+      "minecraft:visual/fog_start_distance": 32.0,
+      "minecraft:visual/fog_end_distance": 192.0
+    }
   }
 }

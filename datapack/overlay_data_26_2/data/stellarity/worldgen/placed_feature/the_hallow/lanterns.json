@@ -20,7 +20,7 @@
           "above_bottom": 40
         },
         "max_inclusive": {
-          "below_top": 170
+          "absolute": 284
         }
       }
     },
@@ -54,9 +54,10 @@
       }
     },
     {
-      "type": "minecraft:random_offset",
-      "xz_spread": 0,
-      "y_spread": -1
+      "type": "minecraft:offset",
+      "x": 0,
+      "y": -1,
+      "z": 0
     },
     {
       "type": "minecraft:biome"

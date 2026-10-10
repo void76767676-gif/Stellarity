@@ -107,9 +107,7 @@
     "grass_color": 6078719,
     "foliage_color": 5819646
   },
-  "carvers": [
-    "stellarity:the_hallow/crevice"
-  ],
+  "carvers": [],
   "features": [
     [
       "stellarity:the_hallow/stalactite",

@@ -1,0 +1,29 @@
+{
+  "targets": [
+    "minecraft:cherry_leaves",
+    "minecraft:pink_petals"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "minecraft:cherry_leaves",
+      "biomes": [
+        "stellarity:the_hallow"
+      ],
+      "chance": 0.04,
+      "x": "(r.rand() - 0.5) * 0.8",
+      "y": "(r.rand() - 0.5) * 0.8",
+      "z": "(r.rand() - 0.5) * 0.8"
+    },
+    {
+      "particle": "minecraft:end_rod",
+      "biomes": [
+        "stellarity:the_hallow"
+      ],
+      "chance": 0.015,
+      "x": "(r.rand() - 0.5) * 0.8",
+      "y": "(r.rand() - 0.5) * 0.8",
+      "z": "(r.rand() - 0.5) * 0.8",
+      "dy": 0.02
+    }
+  ]
+}

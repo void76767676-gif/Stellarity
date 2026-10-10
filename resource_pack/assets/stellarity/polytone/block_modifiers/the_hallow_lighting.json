@@ -1,0 +1,20 @@
+{
+  "targets": [
+    "minecraft:sea_lantern",
+    "minecraft:lantern",
+    "minecraft:end_rod"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "minecraft:glow",
+      "biomes": [
+        "stellarity:the_hallow"
+      ],
+      "chance": 0.08,
+      "x": "(r.rand() - 0.5) * 0.4",
+      "y": "(r.rand() - 0.5) * 0.4",
+      "z": "(r.rand() - 0.5) * 0.4",
+      "dy": 0.015
+    }
+  ]
+}
