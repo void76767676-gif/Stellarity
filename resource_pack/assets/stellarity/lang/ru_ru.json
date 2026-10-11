@@ -795,5 +795,6 @@
   "subtitles.stellarity.item.living_flesh.boost": "Живая плоть изнывает",
   "subtitles.stellarity.item.void_pendant.zap": "Electric Shock",
   "trim_material.stellarity.chorus": "Хорус",
-  "trim_material.stellarity.enderite": "Эндерит"
+  "trim_material.stellarity.enderite": "Эндерит",
+  "subtitles.stellarity.ambient.the_void.focus": "Бездна сгущается..."
 }

@@ -8,6 +8,7 @@
 execute if entity @s[predicate=kohara:player/gliding,tag=!stellarity.elytra.flying] run function stellarity:mechanic/elytra/start_flying
 execute if entity @s[tag=stellarity.elytra.flying] run function stellarity:mechanic/elytra/flying
 
+
 # Timed loops
   scoreboard players add @s stellarity.misc.loop.2t 1
   execute if entity @s[scores={stellarity.misc.loop.2t=2..}] run function stellarity:loop/player/main_2t
@@ -22,4 +23,4 @@ scoreboard players add @s stellarity.misc.loop.1s 1
 execute if entity @s[scores={stellarity.misc.loop.1s=20..}] run function stellarity:loop/player/main_1s
 
 execute if entity @s[scores={stellarity.dialog.admin=-2147483648..}] run function stellarity:dialog/admin/check_trigger
-scoreboard players enable @s stellarity.dialog.admin
+scoreboard players enable @s stellarity.dialog.admin

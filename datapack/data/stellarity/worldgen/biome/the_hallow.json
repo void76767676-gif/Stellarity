@@ -8,17 +8,17 @@
     "visual/water_fog_color": 15034111,
     "audio/ambient_sounds": {
       "loop": {
-        "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
+        "sound_id": "stellarity:ambient.the_hallow.loop"
       },
       "mood": {
-        "sound": "ambient.soul_sand_valley.mood",
-        "tick_delay": 900,
-        "block_search_extent": 2,
+        "sound": "stellarity:ambient.the_hallow.mood",
+        "tick_delay": 600,
+        "block_search_extent": 8,
         "offset": 2
       },
       "additions": {
-        "sound": "ambient.underwater.loop.additions.rare",
-        "tick_chance": 0.00055
+        "sound": "stellarity:ambient.the_hallow.additions",
+        "tick_chance": 0.015
       }
     },
     "visual/ambient_particles": {
@@ -28,7 +28,7 @@
           "particle": {
             "type": "minecraft:cherry_leaves"
           },
-          "probability": 0.0012
+          "probability": 0.0035
         }
       ]
     },
@@ -107,7 +107,10 @@
     "grass_color": 6078719,
     "foliage_color": 5819646
   },
-  "carvers": [],
+  "carvers": [
+    "stellarity:the_hallow/cave",
+    "stellarity:the_hallow/crevice"
+  ],
   "features": [
     [
       "stellarity:the_hallow/stalactite",

@@ -2,43 +2,19 @@
   "type": "minecraft:canyon",
   "config": {
     "probability": 0.008,
+    "replaceable": "#stellarity:_worldgen/the_hallow/ground",
     "y": {
       "type": "minecraft:uniform",
       "min_inclusive": {
-        "above_bottom": 26
+        "absolute": 140
       },
       "max_inclusive": {
-        "below_top": 8
+        "absolute": 270
       }
     },
-    "yScale": {
-      "type": "minecraft:uniform",
-      "min_inclusive": 2.0,
-      "max_exclusive": 3.0
-    },
+    "yScale": 2.5,
     "lava_level": {
-      "absolute": 0
-    },
-    "replaceable": "#stellarity:_worldgen/carvers_replaceable",
-    "debug_settings": {
-      "debug_mode": false,
-      "air_state": {
-        "Name": "minecraft:air"
-      },
-      "water_state": {
-        "Name": "minecraft:candle",
-        "Properties": {
-          "waterlogged": "false",
-          "lit": "false",
-          "candles": "1"
-        }
-      },
-      "lava_state": {
-        "Name": "minecraft:orange_stained_glass"
-      },
-      "barrier_state": {
-        "Name": "minecraft:glass"
-      }
+      "above_bottom": 0
     },
     "vertical_rotation": {
       "type": "minecraft:uniform",

@@ -1,0 +1,11 @@
+{
+  "targets": ".*:fiery_hills",
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "c.y() < -1 ? '000000' : 'd90429'",
+      "minecraft:visual/sky_color": "c.y() < -1 ? '000000' : '2b0606'",
+      "minecraft:visual/fog_start_distance": "c.y() < -1 ? 0.0 : c.viewDistance() * 0.30",
+      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * 0.85"
+    }
+  }
+}

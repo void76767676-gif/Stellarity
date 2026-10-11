@@ -1,13 +1,14 @@
 {
   "type": "minecraft:canyon",
+  "replaceable": "#stellarity:_worldgen/the_hallow/ground",
   "probability": 0.008,
   "y": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "above_bottom": 26
+      "absolute": 140
     },
     "max_inclusive": {
-      "below_top": 8
+      "absolute": 270
     }
   },
   "vertical_rotation": {

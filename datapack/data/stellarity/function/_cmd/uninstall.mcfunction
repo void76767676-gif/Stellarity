@@ -189,6 +189,10 @@
         scoreboard objectives remove stellarity.health
 
       scoreboard objectives remove stellarity.mechanics.void_fishing.length
+      scoreboard objectives remove stellarity.abyss.sound_loop
+      scoreboard objectives remove stellarity.void_focus.dragon_timer
+      scoreboard objectives remove stellarity.void_focus.cooldown
+      scoreboard objectives remove stellarity.void_focus.active
       scoreboard objectives remove stellarity.mechanics.void_fishing.max_time
       scoreboard objectives remove stellarity.mechanics.void_fishing.can_fish
       scoreboard objectives remove stellarity.mechanics.consecration.time

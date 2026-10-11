@@ -324,6 +324,10 @@
         scoreboard objectives add stellarity.health dummy
 
       scoreboard objectives add stellarity.mechanics.void_fishing.length dummy
+      scoreboard objectives add stellarity.abyss.sound_loop dummy
+      scoreboard objectives add stellarity.void_focus.dragon_timer dummy
+      scoreboard objectives add stellarity.void_focus.cooldown dummy
+      scoreboard objectives add stellarity.void_focus.active dummy
       scoreboard objectives add stellarity.mechanics.void_fishing.max_time dummy
       scoreboard objectives add stellarity.mechanics.void_fishing.can_fish dummy
       scoreboard objectives add stellarity.mechanics.consecration.time dummy

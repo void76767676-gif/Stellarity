@@ -6,32 +6,22 @@
       "coordinate": "stellarity:climate/continents",
       "points": [
         {
-          "location": -1.25,
+          "location": -1.26,
           "value": 0.0,
           "derivative": 0.0
         },
         {
-          "location": -1.15,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": -1.05,
+          "location": -1.18,
           "value": 1.0,
           "derivative": 0.0
         },
         {
-          "location": -0.83,
+          "location": -0.74,
           "value": 1.0,
           "derivative": 0.0
         },
         {
-          "location": -0.76,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": -0.7,
+          "location": -0.68,
           "value": 0.0,
           "derivative": 0.0
         }
@@ -44,32 +34,22 @@
       "coordinate": "stellarity:climate/temperature",
       "points": [
         {
-          "location": -0.45,
+          "location": -0.46,
           "value": 0.0,
           "derivative": 0.0
         },
         {
-          "location": -0.37,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": -0.27,
+          "location": -0.38,
           "value": 1.0,
           "derivative": 0.0
         },
         {
-          "location": 0.36,
+          "location": 0.46,
           "value": 1.0,
           "derivative": 0.0
         },
         {
-          "location": 0.44,
-          "value": 0.0,
-          "derivative": 0.0
-        },
-        {
-          "location": 0.5,
+          "location": 0.52,
           "value": 0.0,
           "derivative": 0.0
         }

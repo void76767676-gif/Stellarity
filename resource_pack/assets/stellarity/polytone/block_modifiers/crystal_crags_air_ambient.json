@@ -1,0 +1,27 @@
+{
+  "targets": [
+    "minecraft:air"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "minecraft:end_rod",
+      "chance": "0.0015 * (biome() == \"stellarity:crystal_crags\") * (DISTANCE_SQUARED < 625)",
+      "x": "r.rand()",
+      "y": "r.rand()",
+      "z": "r.rand()",
+      "dx": "(r.rand() - 0.5) * 0.006",
+      "dy": "0.01 + r.rand() * 0.008",
+      "dz": "(r.rand() - 0.5) * 0.006"
+    },
+    {
+      "particle": "minecraft:glow",
+      "chance": "0.0007 * (biome() == \"stellarity:crystal_crags\") * (DISTANCE_SQUARED < 400)",
+      "x": "r.rand()",
+      "y": "r.rand()",
+      "z": "r.rand()",
+      "dx": "sin(TIME + r.rand() * 6.28) * 0.004",
+      "dy": "0.008 + r.rand() * 0.006",
+      "dz": "cos(TIME + r.rand() * 6.28) * 0.004"
+    }
+  ]
+}

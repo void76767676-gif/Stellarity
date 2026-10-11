@@ -3,3 +3,12 @@ execute if entity @s[predicate=stellarity:item/holding/harvester] run function s
 execute if items entity @s weapon.mainhand bread[minecraft:custom_data~{"stellarity:item":"loaf_of_plenty",stellarity.loaf_of_plenty_final:1b},minecraft:food={nutrition:1,saturation:1}] run item modify entity @s weapon.mainhand stellarity:loaf_of_plenty_make_infinite
 
 scoreboard players reset @s stellarity.misc.loop.3t
+
+
+# Abyss audio loop below Y = -1
+    execute if predicate stellarity:location/in_abyss run function stellarity:mechanic/abyss/loop
+    execute unless predicate stellarity:location/in_abyss if score @s stellarity.abyss.sound_loop matches 1.. run function stellarity:mechanic/abyss/stop
+
+# The Void Gains Focus active particle burst
+    execute if score #stellarity.void_focus stellarity.void_focus.active matches 1.. run function stellarity:mechanic/void_focus/active_tick
+

@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "minecraft:air"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "minecraft:crimson_spore",
+      "chance": "0.0025 * (biome() == \"stellarity:flesh_tundra\") * (DISTANCE_SQUARED < 625)",
+      "x": "r.rand()",
+      "y": "r.rand()",
+      "z": "r.rand()",
+      "dx": "(r.rand() - 0.5) * 0.008",
+      "dy": "-0.005 - r.rand() * 0.005",
+      "dz": "(r.rand() - 0.5) * 0.008"
+    }
+  ]
+}

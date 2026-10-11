@@ -1,0 +1,11 @@
+{
+  "targets": ".*:prismarine_forest",
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "c.y() < -1 ? '000000' : '48cae4'",
+      "minecraft:visual/sky_color": "c.y() < -1 ? '000000' : '023e8a'",
+      "minecraft:visual/fog_start_distance": "c.y() < -1 ? 0.0 : c.viewDistance() * 0.38",
+      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * 0.92"
+    }
+  }
+}

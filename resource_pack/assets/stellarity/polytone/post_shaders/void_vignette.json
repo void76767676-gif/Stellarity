@@ -1,0 +1,4 @@
+{
+  "activation_condition": "c.y() < -1 && g.skyType() == 3",
+  "post_chain": "custom:vignette"
+}

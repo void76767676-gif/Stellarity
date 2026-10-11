@@ -1,0 +1,11 @@
+{
+  "targets": ".*:amethyst_forest",
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "c.y() < -1 ? '000000' : '9d4edd'",
+      "minecraft:visual/sky_color": "c.y() < -1 ? '000000' : '240046'",
+      "minecraft:visual/fog_start_distance": "c.y() < -1 ? 0.0 : c.viewDistance() * 0.35",
+      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * 0.90"
+    }
+  }
+}

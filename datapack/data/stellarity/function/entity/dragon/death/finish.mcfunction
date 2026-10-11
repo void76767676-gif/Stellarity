@@ -17,6 +17,10 @@ execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stell
 scoreboard players reset @s stellarity.dragon.respawn_animation_progress
 tag @s remove stellarity.portal_activated
 
+# Start timer for The Void Gains Focus
+execute unless score #stellarity.void_focus stellarity.void_focus.dragon_timer matches 1.. run scoreboard players set #stellarity.void_focus stellarity.void_focus.dragon_timer 1
+
+
 execute if score #stellarity.config stellarity.config.boss_status_messages matches 1 run tellraw @a ["\n",{"translate":"entity.stellarity.dragon.death","with":[{"translate":"entity.minecraft.ender_dragon"}],"color":"#AF4BFF"},"\n"]
 
 ## Advancement

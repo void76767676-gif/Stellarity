@@ -1036,7 +1036,56 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "stellarity:the_hallow",
+                "stellarity:the_hallow"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "stellarity:surface",
+                    "min_threshold": -0.35,
+                    "max_threshold": 0.35
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "id": "minecraft:calcite"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "stellarity:surface_2x",
+                    "min_threshold": 0.3,
+                    "max_threshold": 0.65
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "id": "minecraft:polished_diorite"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "id": "minecraft:diorite"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
                 "stellarity:prismatic_dunes",
                 "stellarity:hallowed_tundra"
               ]

@@ -71,8 +71,29 @@ deploy.sh
 test_run.py
 datapack/data/stellarity/worldgen/test.txt
 seed_analysis.png
+the_hallow_analysis.png
+logs/
+tools/validators/cache/
+tools/validators/__pycache__/
 analyze_seeds.py
 
 # my note
 .note/*
 
+
+__pycache__/visualize_the_hallow.cpython-314.pyc
+validate.bat
+validate.sh
+validate_datapack.py
+visualize_the_hallow.py
+tools/validators/validate_1_21_11.py
+tools/validators/Validate26_3.java
+tools/validators/Validate26_2.java
+tools/validators/Validate26_1.java
+tools/validator/README.md
+tools/validator/pack_info.py
+tools/validator/mojang.py
+tools/validator/runner.py
+tools/validator/__pycache__/runner.cpython-314.pyc
+tools/validator/__pycache__/pack_info.cpython-314.pyc
+tools/validator/__pycache__/mojang.cpython-314.pyc

@@ -2,15 +2,13 @@
   "targets": [
     "minecraft:sea_lantern",
     "minecraft:lantern",
-    "minecraft:end_rod"
+    "minecraft:end_rod",
+    "minecraft:amethyst_cluster"
   ],
   "particle_emitters": [
     {
       "particle": "minecraft:glow",
-      "biomes": [
-        "stellarity:the_hallow"
-      ],
-      "chance": 0.08,
+      "chance": "0.08 * (biome() == 'stellarity:the_hallow') * (DISTANCE_SQUARED < 400)",
       "x": "(r.rand() - 0.5) * 0.4",
       "y": "(r.rand() - 0.5) * 0.4",
       "z": "(r.rand() - 0.5) * 0.4",

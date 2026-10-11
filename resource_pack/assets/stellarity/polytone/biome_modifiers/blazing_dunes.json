@@ -1,0 +1,11 @@
+{
+  "targets": ".*:blazing_dunes",
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "c.y() < -1 ? '000000' : 'f77f00'",
+      "minecraft:visual/sky_color": "c.y() < -1 ? '000000' : '3d0c02'",
+      "minecraft:visual/fog_start_distance": "c.y() < -1 ? 0.0 : c.viewDistance() * 0.32",
+      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * 0.88"
+    }
+  }
+}
