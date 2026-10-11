@@ -10,7 +10,7 @@
   "below_trunk_provider": {
     "type": "minecraft:simple",
     "state": {
-      "id": "minecraft:oak_log",
+      "id": "minecraft:dark_oak_log",
       "properties": {
         "axis": "y"
       }
@@ -19,7 +19,7 @@
   "trunk_provider": {
     "type": "minecraft:simple",
     "state": {
-      "id": "minecraft:oak_wood",
+      "id": "minecraft:dark_oak_wood",
       "properties": {
         "axis": "y"
       }
@@ -36,7 +36,7 @@
     "root_provider": {
       "type": "minecraft:simple",
       "state": {
-        "id": "minecraft:oak_wood",
+        "id": "minecraft:dark_oak_wood",
         "properties": {
           "axis": "y"
         }
@@ -51,7 +51,7 @@
       "above_root_provider": {
         "type": "minecraft:simple",
         "state": {
-          "id": "minecraft:oak_wood"
+          "id": "minecraft:dark_oak_wood"
         }
       },
       "above_root_placement_chance": 0.25

@@ -5,21 +5,25 @@
   "max_exclusive": 0.45,
   "when_in_range": "stellarity:main_island/island",
   "when_out_of_range": {
-    "type": "minecraft:add",
-    "argument1": {
-      "type": "minecraft:add",
-      "argument1": {
+    "type": "add",
+    "left": {
+      "type": "add",
+      "left": {
         "type": "minecraft:max",
-        "argument1": {
-          "type": "minecraft:min",
-          "argument1": "stellarity:sloped_cheese",
-          "argument2": "stellarity:cave/noodle"
+        "left": {
+          "type": "minecraft:max",
+          "left": {
+            "type": "minecraft:min",
+            "left": "stellarity:sloped_cheese",
+            "right": "stellarity:cave/noodle"
+          },
+          "right": "stellarity:the_hallow/sky_islands"
         },
-        "argument2": "stellarity:the_hallow/sky_islands"
+        "right": "stellarity:amethyst_forest/peaks"
       },
-      "argument2": "stellarity:main_island/farlands_taper"
+      "right": "stellarity:main_island/farlands_taper"
     },
-    "argument2": {
+    "right": {
       "type": "minecraft:clamp",
       "input": {
         "type": "minecraft:beardifier"

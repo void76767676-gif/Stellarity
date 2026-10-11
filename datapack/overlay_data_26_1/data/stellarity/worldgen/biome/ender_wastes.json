@@ -70,7 +70,9 @@
       "energy_budget": 1
     }
   },
-  "carvers": [],
+  "carvers": [
+    "stellarity:the_hallow/crevice"
+  ],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -88,7 +90,11 @@
     ],
     [
       "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+      "stellarity:global/fossil",
+      "stellarity:ender_wastes/obsidian_spires",
+      "stellarity:ender_wastes/bone_outcrops",
+      "stellarity:ender_wastes/crying_fissures"
+    ],
+    []
   ]
 }
