@@ -53,3 +53,6 @@ execute if score #stellarity.config stellarity.config.boss_status_messages match
           # Or by 3.5 seconds if Altar has been unlocked
             execute if entity @e[type=marker,tag=stellarity.altar_of_the_accursed,tag=stellarity.altar_of_the_accursed_activated] run \
             schedule function stellarity:entity/dragon/play_track 70t
+
+        # Final cleanup: purge vanilla portal replacement and enforce custom exit portal
+        schedule function stellarity:structure/exit_portal/final_cleanup 2s

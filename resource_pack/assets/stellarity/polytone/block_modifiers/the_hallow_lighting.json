@@ -8,11 +8,14 @@
   "particle_emitters": [
     {
       "particle": "minecraft:glow",
-      "chance": "0.08 * (biome() == 'stellarity:the_hallow') * (DISTANCE_SQUARED < 400)",
+      "chance": "0.08 * (DISTANCE_SQUARED < 400)",
       "x": "(r.rand() - 0.5) * 0.4",
       "y": "(r.rand() - 0.5) * 0.4",
       "z": "(r.rand() - 0.5) * 0.4",
-      "dy": 0.015
+      "dy": 0.015,
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     }
   ]
 }

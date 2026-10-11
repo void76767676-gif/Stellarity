@@ -8,7 +8,7 @@
   "below_trunk_provider": {
     "type": "minecraft:simple",
     "state": {
-      "id": "minecraft:dark_oak_wood",
+      "id": "minecraft:oak_wood",
       "properties": {
         "axis": "y"
       }
@@ -17,7 +17,7 @@
   "trunk_provider": {
     "type": "minecraft:simple",
     "state": {
-      "id": "minecraft:dark_oak_log",
+      "id": "minecraft:oak_log",
       "properties": {
         "axis": "y"
       }
@@ -29,29 +29,7 @@
       {
         "weight": 5,
         "data": {
-          "id": "minecraft:azalea_leaves",
-          "properties": {
-            "distance": "1",
-            "persistent": "false",
-            "waterlogged": "false"
-          }
-        }
-      },
-      {
-        "weight": 3,
-        "data": {
-          "id": "minecraft:flowering_azalea_leaves",
-          "properties": {
-            "distance": "1",
-            "persistent": "false",
-            "waterlogged": "false"
-          }
-        }
-      },
-      {
-        "weight": 2,
-        "data": {
-          "id": "minecraft:cherry_leaves",
+          "id": "minecraft:acacia_leaves",
           "properties": {
             "distance": "1",
             "persistent": "false",

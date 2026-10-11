@@ -1,7 +1,7 @@
 {
   "type": "minecraft:range_choice",
   "input": "stellarity:amethyst_forest/amplitude",
-  "min_inclusive": 0.01,
+  "min_inclusive": 0.25,
   "max_exclusive": 2.0,
   "when_in_range": {
     "type": "minecraft:max",

@@ -8,3 +8,6 @@ execute positioned 7 60 0 run setblock ~ ~ ~ minecraft:chest[facing=east,type=si
 execute positioned 7 60 0 run summon marker ~ ~0.5 ~ {Tags:["stellarity.dragons_den_chest","stellarity.marker","smithed.entity","smithed.strict"]}
 
 scoreboard players set #stellarity.exit_gateway_count stellarity.misc 0
+
+# Final cleanup: force place custom exit portal and purge vanilla bedrock/egg above it
+function stellarity:structure/exit_portal/final_cleanup

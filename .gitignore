@@ -80,7 +80,7 @@ analyze_seeds.py
 # my note
 .note/*
 
-
+# valid
 __pycache__/visualize_the_hallow.cpython-314.pyc
 validate.bat
 validate.sh
@@ -97,3 +97,6 @@ tools/validator/runner.py
 tools/validator/__pycache__/runner.cpython-314.pyc
 tools/validator/__pycache__/pack_info.cpython-314.pyc
 tools/validator/__pycache__/mojang.cpython-314.pyc
+
+#posteffect
+glsl-show/*

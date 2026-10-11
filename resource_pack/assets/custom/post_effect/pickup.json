@@ -1,0 +1,43 @@
+{
+    "targets": {
+        "swap": {}
+    },
+    "passes": [
+        {
+            "program": "stellarity:post/pickup",
+            "inputs": [
+                {
+                    "sampler_name": "InSampler",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "GlowSampler",
+                    "location": "stellarity:textures/item/kaleidoscope.png"
+                }
+            ],
+            "uniforms": {
+                "Time": {
+                    "type": "float",
+                    "value": 0.0
+                },
+                "Progress": {
+                    "type": "float",
+                    "value": 0.0
+                },
+                "GlowColor": {
+                    "type": "vec3",
+                    "value": [
+                        1.0,
+                        0.85,
+                        0.55
+                    ]
+                },
+                "Intensity": {
+                    "type": "float",
+                    "value": 0.0
+                }
+            },
+            "target": "swap"
+        }
+    ]
+}

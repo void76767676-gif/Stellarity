@@ -5,33 +5,42 @@
   "particle_emitters": [
     {
       "particle": "minecraft:cherry_leaves",
-      "chance": "0.0018 * (biome() == \"stellarity:amethyst_forest\") * (POS_Y > 80) * (DISTANCE_SQUARED < 625)",
+      "chance": "0.0018 * (POS_Y > 80) * (DISTANCE_SQUARED < 625)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.012",
       "dy": "-0.006 - r.rand() * 0.004",
-      "dz": "(r.rand() - 0.5) * 0.012"
+      "dz": "(r.rand() - 0.5) * 0.012",
+      "biomes": [
+        "stellarity:amethyst_forest"
+      ]
     },
     {
       "particle": "minecraft:end_rod",
-      "chance": "0.0008 * (biome() == \"stellarity:amethyst_forest\") * (POS_Y > 80) * (DISTANCE_SQUARED < 400)",
+      "chance": "0.0008 * (POS_Y > 80) * (DISTANCE_SQUARED < 400)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.006",
       "dy": "0.008 + r.rand() * 0.006",
-      "dz": "(r.rand() - 0.5) * 0.006"
+      "dz": "(r.rand() - 0.5) * 0.006",
+      "biomes": [
+        "stellarity:amethyst_forest"
+      ]
     },
     {
       "particle": "minecraft:portal",
-      "chance": "0.0006 * (biome() == \"stellarity:amethyst_forest\") * (POS_Y > 80) * (DISTANCE_SQUARED < 300)",
+      "chance": "0.0006 * (POS_Y > 80) * (DISTANCE_SQUARED < 300)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.02",
       "dy": "(r.rand() - 0.5) * 0.02",
-      "dz": "(r.rand() - 0.5) * 0.02"
+      "dz": "(r.rand() - 0.5) * 0.02",
+      "biomes": [
+        "stellarity:amethyst_forest"
+      ]
     }
   ]
 }

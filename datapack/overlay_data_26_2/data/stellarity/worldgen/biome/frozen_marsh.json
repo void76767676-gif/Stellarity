@@ -17,7 +17,7 @@
         "offset": 2
       },
       "additions": {
-        "sound": "block.glass.step",
+        "sound": "ambient.underwater.loop.additions.rare",
         "tick_chance": 0.01
       }
     },

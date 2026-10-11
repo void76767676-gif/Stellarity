@@ -5,53 +5,68 @@
   "particle_emitters": [
     {
       "particle": "minecraft:cherry_leaves",
-      "chance": "0.0022 * (biome() == 'stellarity:the_hallow') * (POS_Y > 120) * (DISTANCE_SQUARED < 900)",
+      "chance": "0.0022 * (POS_Y > 120) * (DISTANCE_SQUARED < 900)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.015",
       "dy": "-0.008 - r.rand() * 0.006",
-      "dz": "(r.rand() - 0.5) * 0.015"
+      "dz": "(r.rand() - 0.5) * 0.015",
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     },
     {
       "particle": "minecraft:end_rod",
-      "chance": "0.0009 * (biome() == 'stellarity:the_hallow') * (POS_Y > 120) * (DISTANCE_SQUARED < 625)",
+      "chance": "0.0009 * (POS_Y > 120) * (DISTANCE_SQUARED < 625)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.006",
       "dy": "0.008 + r.rand() * 0.005",
-      "dz": "(r.rand() - 0.5) * 0.006"
+      "dz": "(r.rand() - 0.5) * 0.006",
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     },
     {
       "particle": "minecraft:glow",
-      "chance": "0.0006 * (biome() == 'stellarity:the_hallow') * (POS_Y > 120) * (DISTANCE_SQUARED < 400) * (BLOCK_LIGHT < 7)",
+      "chance": "0.0006 * (POS_Y > 120) * (DISTANCE_SQUARED < 400) * (BLOCK_LIGHT < 7)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "sin(TIME + r.rand() * 6.28) * 0.004",
       "dy": "0.01 + r.rand() * 0.006",
-      "dz": "cos(TIME + r.rand() * 6.28) * 0.004"
+      "dz": "cos(TIME + r.rand() * 6.28) * 0.004",
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     },
     {
       "particle": "minecraft:witch",
-      "chance": "0.0005 * (biome() == 'stellarity:the_hallow') * (POS_Y > 120) * (DISTANCE_SQUARED < 400) * (BLOCK_LIGHT < 10)",
+      "chance": "0.0005 * (POS_Y > 120) * (DISTANCE_SQUARED < 400) * (BLOCK_LIGHT < 10)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.01",
       "dy": "0.005 + r.rand() * 0.005",
-      "dz": "(r.rand() - 0.5) * 0.01"
+      "dz": "(r.rand() - 0.5) * 0.01",
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     },
     {
       "particle": "minecraft:enchant",
-      "chance": "0.0003 * (biome() == 'stellarity:the_hallow') * (POS_Y > 120) * (DISTANCE_SQUARED < 300)",
+      "chance": "0.0003 * (POS_Y > 120) * (DISTANCE_SQUARED < 300)",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.005",
       "dy": "0.006 + r.rand() * 0.004",
-      "dz": "(r.rand() - 0.5) * 0.005"
+      "dz": "(r.rand() - 0.5) * 0.005",
+      "biomes": [
+        "stellarity:the_hallow"
+      ]
     }
   ]
 }

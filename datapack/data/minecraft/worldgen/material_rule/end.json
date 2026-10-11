@@ -1102,7 +1102,6 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "stellarity:amethyst_forest",
                 "stellarity:prismarine_forest"
               ]
             },

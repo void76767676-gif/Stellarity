@@ -28,7 +28,7 @@
       "to_place": {
         "type": "minecraft:simple",
         "state": {
-          "id": "minecraft:flowering_azalea_leaves",
+          "id": "minecraft:oak_leaves",
           "properties": {
             "distance": "7",
             "persistent": "true",
