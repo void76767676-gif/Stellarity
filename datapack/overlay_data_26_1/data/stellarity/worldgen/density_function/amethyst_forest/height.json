@@ -1,20 +1,20 @@
 {
-  "type": "minecraft:cache",
-  "input": {
+  "type": "minecraft:cache_once",
+  "argument": {
     "type": "minecraft:add",
-    "left": {
+    "argument1": {
       "type": "minecraft:add",
-      "left": 96,
-      "right": {
+      "argument1": 96,
+      "argument2": {
         "type": "minecraft:mul",
-        "left": 170,
-        "right": "stellarity:amethyst_forest/peak_factor"
+        "argument1": 170,
+        "argument2": "stellarity:amethyst_forest/peak_factor"
       }
     },
-    "right": {
+    "argument2": {
       "type": "minecraft:mul",
-      "left": 1.5,
-      "right": {
+      "argument1": 1.5,
+      "argument2": {
         "type": "minecraft:noise",
         "noise": "stellarity:amethyst_forest/peak_noise",
         "xz_scale": 2.2,

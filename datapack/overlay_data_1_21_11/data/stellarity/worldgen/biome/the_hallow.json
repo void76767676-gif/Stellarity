@@ -12,13 +12,13 @@
         "sound_id": "stellarity:ambient.the_hallow.loop"
       },
       "mood": {
-        "sound": "stellarity:ambient.the_hallow.mood",
+        "sound": "minecraft:block.amethyst_block.resonate",
         "tick_delay": 600,
         "block_search_extent": 8,
         "offset": 2
       },
       "additions": {
-        "sound": "stellarity:ambient.the_hallow.additions",
+        "sound": "minecraft:block.amethyst_block.chime",
         "tick_chance": 0.015
       }
     },

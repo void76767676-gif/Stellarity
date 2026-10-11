@@ -1,38 +1,38 @@
 {
-  "type": "minecraft:cache",
-  "input": {
+  "type": "minecraft:cache_once",
+  "argument": {
     "type": "minecraft:clamp",
     "input": {
       "type": "minecraft:mul",
-      "left": {
+      "argument1": {
         "type": "minecraft:add",
-        "left": {
+        "argument1": {
           "type": "minecraft:mul",
-          "left": {
+          "argument1": {
             "type": "minecraft:max",
-            "left": {
+            "argument1": {
               "type": "minecraft:square",
-              "input": {
+              "argument": {
                 "type": "minecraft:clamp",
                 "input": {
                   "type": "minecraft:add",
-                  "left": 1,
-                  "right": {
+                  "argument1": 1,
+                  "argument2": {
                     "type": "minecraft:mul",
-                    "left": -1,
-                    "right": {
+                    "argument1": -1,
+                    "argument2": {
                       "type": "minecraft:mul",
-                      "left": {
+                      "argument1": {
                         "type": "minecraft:abs",
-                        "input": {
+                        "argument": {
                           "type": "minecraft:noise",
                           "noise": "stellarity:amethyst_forest/peak_noise",
                           "xz_scale": 0.28,
                           "y_scale": 0,
                           "shift_x": {
                             "type": "minecraft:mul",
-                            "left": 16,
-                            "right": {
+                            "argument1": 16,
+                            "argument2": {
                               "type": "minecraft:noise",
                               "noise": "stellarity:amethyst_forest/peak_warp",
                               "xz_scale": 0.1,
@@ -45,8 +45,8 @@
                           "shift_y": 11,
                           "shift_z": {
                             "type": "minecraft:mul",
-                            "left": 16,
-                            "right": {
+                            "argument1": 16,
+                            "argument2": {
                               "type": "minecraft:noise",
                               "noise": "stellarity:amethyst_forest/peak_warp",
                               "xz_scale": 0.1,
@@ -58,7 +58,7 @@
                           }
                         }
                       },
-                      "right": 2.3
+                      "argument2": 2.3
                     }
                   }
                 },
@@ -66,18 +66,18 @@
                 "max": 1
               }
             },
-            "right": {
+            "argument2": {
               "type": "minecraft:mul",
-              "left": 0.8,
-              "right": {
+              "argument1": 0.8,
+              "argument2": {
                 "type": "minecraft:square",
-                "input": {
+                "argument": {
                   "type": "minecraft:clamp",
                   "input": {
                     "type": "minecraft:mul",
-                    "left": {
+                    "argument1": {
                       "type": "minecraft:add",
-                      "left": {
+                      "argument1": {
                         "type": "minecraft:noise",
                         "noise": "stellarity:amethyst_forest/peak_noise",
                         "xz_scale": 0.55,
@@ -86,9 +86,9 @@
                         "shift_y": 29,
                         "shift_z": 0
                       },
-                      "right": -0.2
+                      "argument2": -0.2
                     },
-                    "right": 3.0
+                    "argument2": 3.0
                   },
                   "min": 0,
                   "max": 1
@@ -96,11 +96,11 @@
               }
             }
           },
-          "right": "stellarity:amethyst_forest/amplitude"
+          "argument2": "stellarity:amethyst_forest/amplitude"
         },
-        "right": -0.12
+        "argument2": -0.12
       },
-      "right": 1.1363636363636365
+      "argument2": 1.1363636363636365
     },
     "min": 0,
     "max": 1
