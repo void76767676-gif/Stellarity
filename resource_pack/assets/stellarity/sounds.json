@@ -683,10 +683,14 @@
       {
         "name": "stellarity:ambient/warped_marsh/shellwood_wind",
         "volume": 0.8
-      },
+      }
+    ]
+  },
+  "ambient.warped_marsh.underground": {
+    "sounds": [
       {
         "name": "stellarity:ambient/warped_marsh/swamp_underground",
-        "volume": 0.75
+        "volume": 0.85
       }
     ]
   },
@@ -777,6 +781,661 @@
   "ui.crest_slot_unlock": {
     "sounds": [
       "stellarity:ui/crest_slot_unlock"
+    ]
+  },
+  "entity.shulking.attack": {
+    "sounds": [
+      "stellarity:entity/shulking/attack1",
+      "stellarity:entity/shulking/attack2",
+      "stellarity:entity/shulking/attack3",
+      "stellarity:entity/shulking/attack4",
+      "stellarity:entity/shulking/attack5"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.attack"
+  },
+  "entity.shulking.hurt": {
+    "sounds": [
+      "stellarity:entity/shulking/hurt1",
+      "stellarity:entity/shulking/hurt2",
+      "stellarity:entity/shulking/hurt3",
+      "stellarity:entity/shulking/hurt4",
+      "stellarity:entity/shulking/hurt5",
+      "stellarity:entity/shulking/hurt6"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.hurt"
+  },
+  "entity.shulking.stagger_hit": {
+    "sounds": [
+      "stellarity:entity/shulking/stagger_hit1",
+      "stellarity:entity/shulking/stagger_hit2"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.stagger_hit"
+  },
+  "entity.shulking.shell_hit": {
+    "sounds": [
+      "stellarity:entity/shulking/shell_hit"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.shell_hit"
+  },
+  "entity.shulking.shell_crit": {
+    "sounds": [
+      "stellarity:entity/shulking/shell_crit"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.shell_crit"
+  },
+  "entity.shulking.jump": {
+    "sounds": [
+      "stellarity:entity/shulking/jump"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.jump"
+  },
+  "entity.shulking.wall_jump": {
+    "sounds": [
+      "stellarity:entity/shulking/wall_jump"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.wall_jump"
+  },
+  "entity.shulking.land": {
+    "sounds": [
+      "stellarity:entity/shulking/land"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.land"
+  },
+  "entity.shulking.descend": {
+    "sounds": [
+      "stellarity:entity/shulking/descend"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.descend"
+  },
+  "entity.shulking.spawn": {
+    "sounds": [
+      "stellarity:entity/shulking/spawn"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.spawn"
+  },
+  "entity.shulking.shoot_bullet": {
+    "sounds": [
+      "stellarity:entity/shulking/shoot_bullet"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.shoot_bullet"
+  },
+  "entity.shulking.phase6_roar": {
+    "sounds": [
+      "stellarity:entity/shulking/phase6_roar"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.phase6_roar"
+  },
+  "entity.shulking.fall_down": {
+    "sounds": [
+      "stellarity:entity/shulking/fall_down"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.fall_down"
+  },
+  "entity.shulking.fall_impact": {
+    "sounds": [
+      "stellarity:entity/shulking/fall_impact"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.fall_impact"
+  },
+  "entity.shulking.shatter": {
+    "sounds": [
+      "stellarity:entity/shulking/shatter"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.shatter"
+  },
+  "entity.shulking.pre_explode": {
+    "sounds": [
+      "stellarity:entity/shulking/pre_explode"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.pre_explode"
+  },
+  "entity.shulking.pre_explode_ambient": {
+    "sounds": [
+      "stellarity:entity/shulking/pre_explode_ambient"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.pre_explode_ambient"
+  },
+  "entity.shulking.death_cry": {
+    "sounds": [
+      "stellarity:entity/shulking/death_cry"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.death_cry"
+  },
+  "entity.shulking.final_hit": {
+    "sounds": [
+      "stellarity:entity/shulking/final_hit"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.final_hit"
+  },
+  "entity.shulking.final_explode": {
+    "sounds": [
+      "stellarity:entity/shulking/final_explode1",
+      "stellarity:entity/shulking/final_explode2"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.final_explode"
+  },
+  "entity.shulking.post_explode": {
+    "sounds": [
+      "stellarity:entity/shulking/post_explode"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.post_explode"
+  },
+  "entity.shulking.unused1": {
+    "sounds": [
+      "stellarity:entity/shulking/unused1"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.unused1"
+  },
+  "entity.shulking.unused2": {
+    "sounds": [
+      "stellarity:entity/shulking/unused2"
+    ],
+    "subtitle": "subtitles.stellarity.entity.shulking.unused2"
+  },
+  "altar_of_the_endbound_carapace.activate": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_endbound_carapace/activate"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_endbound_carapace.activate"
+  },
+  "altar_of_the_endbound_carapace.accept": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_endbound_carapace/accept1",
+      "stellarity:mechanic/altar_of_the_endbound_carapace/accept2",
+      "stellarity:mechanic/altar_of_the_endbound_carapace/accept3",
+      "stellarity:mechanic/altar_of_the_endbound_carapace/accept4"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_endbound_carapace.accept"
+  },
+  "altar_of_the_accursed.appear": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_accursed/appear"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_accursed.appear"
+  },
+  "altar_of_the_accursed.insert": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_accursed/insert"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_accursed.insert"
+  },
+  "altar_of_the_accursed.ready": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_accursed/ready1",
+      "stellarity:mechanic/altar_of_the_accursed/ready2"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_accursed.ready"
+  },
+  "altar_of_the_sacred.ambient_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/ambient_loop",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_sacred.ambient_loop"
+  },
+  "altar_of_the_sacred.summon_empress": {
+    "sounds": [
+      "stellarity:mechanic/altar_of_the_sacred/summon_empress1",
+      "stellarity:mechanic/altar_of_the_sacred/summon_empress2"
+    ],
+    "subtitle": "subtitles.stellarity.altar_of_the_sacred.summon_empress"
+  },
+  "altar_common.approach": {
+    "sounds": [
+      "stellarity:mechanic/altar_common/approach"
+    ],
+    "subtitle": "subtitles.stellarity.altar_common.approach"
+  },
+  "misc.dream_enter": {
+    "sounds": [
+      "stellarity:misc/dream_enter"
+    ],
+    "subtitle": "subtitles.stellarity.misc.dream_enter"
+  },
+  "misc.heartpiece_decorative_ui": {
+    "sounds": [
+      "stellarity:misc/heartpiece_decorative_ui"
+    ],
+    "subtitle": "subtitles.stellarity.misc.heartpiece_decorative_ui"
+  },
+  "item.radient_raleidoscope.charge_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:item/radiant_kaleidoscope/charge_ambient_loop",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.charge"
+  },
+  "item.radiant_kaleidoscope.charge_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:item/radiant_kaleidoscope/charge_ambient_loop",
+        "stream": true
+      }
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.charge"
+  },
+  "item.radient_raleidoscope.hit": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/hit1",
+      "stellarity:item/radient_raleidoscope/hit2",
+      "stellarity:item/radient_raleidoscope/hit3",
+      "stellarity:item/radient_raleidoscope/hit4",
+      "stellarity:item/radient_raleidoscope/hit5",
+      "stellarity:item/radient_raleidoscope/hit6",
+      "stellarity:item/radient_raleidoscope/hit7",
+      "stellarity:item/radient_raleidoscope/hit8",
+      "stellarity:item/radient_raleidoscope/hit9",
+      "stellarity:item/radient_raleidoscope/hit10"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.hit"
+  },
+  "item.radiant_kaleidoscope.hit": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/hit1",
+      "stellarity:item/radiant_kaleidoscope/hit2",
+      "stellarity:item/radiant_kaleidoscope/hit3",
+      "stellarity:item/radiant_kaleidoscope/hit4",
+      "stellarity:item/radiant_kaleidoscope/hit5",
+      "stellarity:item/radiant_kaleidoscope/hit6",
+      "stellarity:item/radiant_kaleidoscope/hit7",
+      "stellarity:item/radiant_kaleidoscope/hit8",
+      "stellarity:item/radiant_kaleidoscope/hit9",
+      "stellarity:item/radiant_kaleidoscope/hit10"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.hit"
+  },
+  "item.radient_raleidoscope.low_energy": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/low_energy1",
+      "stellarity:item/radient_raleidoscope/low_energy2"
+    ]
+  },
+  "item.radiant_kaleidoscope.low_energy": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/low_energy1",
+      "stellarity:item/radiant_kaleidoscope/low_energy2"
+    ]
+  },
+  "item.radient_raleidoscope.crit": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/crit1",
+      "stellarity:item/radient_raleidoscope/crit2",
+      "stellarity:item/radient_raleidoscope/crit3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.crit"
+  },
+  "item.radiant_kaleidoscope.crit": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/crit1",
+      "stellarity:item/radiant_kaleidoscope/crit2",
+      "stellarity:item/radiant_kaleidoscope/crit3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.crit"
+  },
+  "item.radient_raleidoscope.stalactite_break": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/stalactite_break"
+    ]
+  },
+  "item.radiant_kaleidoscope.stalactite_break": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/stalactite_break"
+    ]
+  },
+  "item.radient_raleidoscope.stalactite_death": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/stalactite_death"
+    ]
+  },
+  "item.radiant_kaleidoscope.stalactite_death": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/stalactite_death"
+    ]
+  },
+  "item.radient_raleidoscope.stalactite_impact": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/stalactite_impact"
+    ]
+  },
+  "item.radiant_kaleidoscope.stalactite_impact": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/stalactite_impact"
+    ]
+  },
+  "item.radient_raleidoscope.reload_start": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/reload_start1",
+      "stellarity:item/radient_raleidoscope/reload_start2",
+      "stellarity:item/radient_raleidoscope/reload_start3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.reload_start"
+  },
+  "item.radiant_kaleidoscope.reload_start": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/reload_start1",
+      "stellarity:item/radiant_kaleidoscope/reload_start2",
+      "stellarity:item/radiant_kaleidoscope/reload_start3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.reload_start"
+  },
+  "item.radient_raleidoscope.reload_end": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/reload_end1",
+      "stellarity:item/radient_raleidoscope/reload_end2",
+      "stellarity:item/radient_raleidoscope/reload_end3",
+      "stellarity:item/radient_raleidoscope/reload_end4",
+      "stellarity:item/radient_raleidoscope/reload_end5",
+      "stellarity:item/radient_raleidoscope/reload_end6"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.reload_end"
+  },
+  "item.radiant_kaleidoscope.reload_end": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/reload_end1",
+      "stellarity:item/radiant_kaleidoscope/reload_end2",
+      "stellarity:item/radiant_kaleidoscope/reload_end3",
+      "stellarity:item/radiant_kaleidoscope/reload_end4",
+      "stellarity:item/radiant_kaleidoscope/reload_end5",
+      "stellarity:item/radiant_kaleidoscope/reload_end6"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.reload_end"
+  },
+  "item.radient_raleidoscope.mark_apply": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/mark_apply"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mark_apply"
+  },
+  "item.radiant_kaleidoscope.mark_apply": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/mark_apply"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mark_apply"
+  },
+  "item.radient_raleidoscope.mark_fade": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/mark_fade"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mark_fade"
+  },
+  "item.radiant_kaleidoscope.mark_fade": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/mark_fade"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mark_fade"
+  },
+  "item.radient_raleidoscope.kill": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/kill1"
+    ]
+  },
+  "item.radiant_kaleidoscope.kill": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/kill1"
+    ]
+  },
+  "item.radient_raleidoscope.kill_secret": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/kill_secret"
+    ]
+  },
+  "item.radiant_kaleidoscope.kill_secret": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/kill_secret"
+    ]
+  },
+  "item.radient_raleidoscope.kill_marked": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/kill_marked"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.kill_marked"
+  },
+  "item.radiant_kaleidoscope.kill_marked": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/kill_marked"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.kill_marked"
+  },
+  "item.radient_raleidoscope.mega_crit": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/mega_crit1",
+      "stellarity:item/radient_raleidoscope/mega_crit2",
+      "stellarity:item/radient_raleidoscope/mega_crit3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mega_crit"
+  },
+  "item.radiant_kaleidoscope.mega_crit": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/mega_crit1",
+      "stellarity:item/radiant_kaleidoscope/mega_crit2",
+      "stellarity:item/radiant_kaleidoscope/mega_crit3"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.mega_crit"
+  },
+  "item.radient_raleidoscope.swing": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/swing1",
+      "stellarity:item/radient_raleidoscope/swing2",
+      "stellarity:item/radient_raleidoscope/swing3",
+      "stellarity:item/radient_raleidoscope/swing4"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.swing"
+  },
+  "item.radiant_kaleidoscope.swing": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/swing1",
+      "stellarity:item/radiant_kaleidoscope/swing2",
+      "stellarity:item/radiant_kaleidoscope/swing3",
+      "stellarity:item/radiant_kaleidoscope/swing4"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.swing"
+  },
+  "item.radient_raleidoscope.obtain": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/obtain"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.obtain"
+  },
+  "item.radiant_kaleidoscope.obtain": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/obtain"
+    ],
+    "subtitle": "subtitles.stellarity.item.kaleidoscope.obtain"
+  },
+  "item.radient_raleidoscope.obtain_screen": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/obtain_screen"
+    ]
+  },
+  "item.radiant_kaleidoscope.obtain_screen": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/obtain_screen"
+    ]
+  },
+  "item.radient_raleidoscope.after_hit": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/after_hit1",
+      "stellarity:item/radient_raleidoscope/after_hit2",
+      "stellarity:item/radient_raleidoscope/after_hit3",
+      "stellarity:item/radient_raleidoscope/after_hit4",
+      "stellarity:item/radient_raleidoscope/after_hit5"
+    ]
+  },
+  "item.radiant_kaleidoscope.after_hit": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/after_hit1",
+      "stellarity:item/radiant_kaleidoscope/after_hit2",
+      "stellarity:item/radiant_kaleidoscope/after_hit3",
+      "stellarity:item/radiant_kaleidoscope/after_hit4",
+      "stellarity:item/radiant_kaleidoscope/after_hit5"
+    ]
+  },
+  "item.radient_raleidoscope.soul_totem_awake": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/soul_totem_awake"
+    ]
+  },
+  "item.radiant_kaleidoscope.soul_totem_awake": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/soul_totem_awake"
+    ]
+  },
+  "item.radient_raleidoscope.soul_pickup": {
+    "sounds": [
+      "stellarity:item/radient_raleidoscope/soul_pickup1",
+      "stellarity:item/radient_raleidoscope/soul_pickup2",
+      "stellarity:item/radient_raleidoscope/soul_pickup3",
+      "stellarity:item/radient_raleidoscope/soul_pickup4",
+      "stellarity:item/radient_raleidoscope/soul_pickup5",
+      "stellarity:item/radient_raleidoscope/soul_pickup6",
+      "stellarity:item/radient_raleidoscope/soul_pickup7"
+    ]
+  },
+  "item.radiant_kaleidoscope.soul_pickup": {
+    "sounds": [
+      "stellarity:item/radiant_kaleidoscope/soul_pickup1",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup2",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup3",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup4",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup5",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup6",
+      "stellarity:item/radiant_kaleidoscope/soul_pickup7"
+    ]
+  },
+  "misc.victory_core_bling": {
+    "sounds": [
+      "stellarity:misc/victory_core_bling"
+    ]
+  },
+  "misc.ghost_absorb": {
+    "sounds": [
+      "stellarity:misc/ghost_absorb"
+    ]
+  },
+  "misc.ghost_absorb_final_impact": {
+    "sounds": [
+      "stellarity:misc/ghost_absorb_final_impact"
+    ]
+  },
+  "misc.soul_totem_slash": {
+    "sounds": [
+      "stellarity:misc/soul_totem_slash"
+    ]
+  },
+  "misc.zap_bug": {
+    "sounds": [
+      "stellarity:misc/zap_bug"
+    ]
+  },
+  "misc.shadelord_roar": {
+    "sounds": [
+      "stellarity:misc/shadelord_roar"
+    ]
+  },
+  "misc.hero_parry": {
+    "sounds": [
+      "stellarity:misc/hero_parry"
+    ]
+  },
+  "misc.lighthouse_lantern": {
+    "sounds": [
+      "stellarity:misc/lighthouse_lantern"
+    ]
+  },
+  "ambient.main_island.pre_dragon_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:ambient/main_island/pre_dragon_loop",
+        "stream": true
+      }
+    ]
+  },
+  "ambient.main_island.pre_dragon_center": {
+    "sounds": [
+      {
+        "name": "stellarity:ambient/main_island/pre_dragon_center",
+        "stream": true
+      }
+    ]
+  },
+  "mechanic.altar_of_the_accursed.altar_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_accursed/altar_loop",
+        "stream": true
+      }
+    ]
+  },
+  "mechanic.altar_of_the_sacred.ambient_loop_near": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/ambient_loop_near",
+        "stream": true
+      }
+    ]
+  },
+  "mechanic.altar_of_the_sacred.ambient_loop_far": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/ambient_loop_far",
+        "stream": true
+      }
+    ]
+  },
+  "mechanic.altar_common.approach": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_common/approach"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_accursed.insert": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_accursed/insert"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_accursed.appear": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_accursed/appear"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_accursed.ready": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_accursed/ready1"
+      },
+      {
+        "name": "stellarity:mechanic/altar_of_the_accursed/ready2"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_sacred.ambient_loop": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/ambient_loop"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_sacred.summon_empress1": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/summon_empress1"
+      }
+    ]
+  },
+  "mechanic.altar_of_the_sacred.summon_empress2": {
+    "sounds": [
+      {
+        "name": "stellarity:mechanic/altar_of_the_sacred/summon_empress2"
+      }
     ]
   }
 }

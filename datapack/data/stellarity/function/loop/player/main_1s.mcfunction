@@ -18,6 +18,9 @@ execute if entity @s[scores={stellarity.item.harvester.cryonics.cooldown=0..}] r
 
 execute if entity @s[tag=stellarity.flesh_piglin.aggro_target] run function stellarity:entity/flesh_piglin/set_follow_range_1s_loop
 
+# Ambient & Soundscape
+function stellarity:ambient/main
+
 scoreboard players reset @s stellarity.misc.loop.1s
 
 #scoreboard players add @s stellarity.misc.loop.10s 1

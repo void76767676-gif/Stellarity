@@ -5,29 +5,23 @@
   "particle_emitters": [
     {
       "particle": "minecraft:white_ash",
-      "chance": "0.0035 * (DISTANCE_SQUARED < 625)",
+      "chance": "0.0035 * (DISTANCE_SQUARED < 625) * (biome() == 'stellarity:ashfall_deltas')",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.015",
       "dy": "-0.015 - r.rand() * 0.01",
-      "dz": "(r.rand() - 0.5) * 0.015",
-      "biomes": [
-        "stellarity:ashfall_deltas"
-      ]
+      "dz": "(r.rand() - 0.5) * 0.015"
     },
     {
       "particle": "minecraft:smoke",
-      "chance": "0.0008 * (DISTANCE_SQUARED < 400)",
+      "chance": "0.0008 * (DISTANCE_SQUARED < 400) * (biome() == 'stellarity:ashfall_deltas')",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.005",
       "dy": "0.01 + r.rand() * 0.01",
-      "dz": "(r.rand() - 0.5) * 0.005",
-      "biomes": [
-        "stellarity:ashfall_deltas"
-      ]
+      "dz": "(r.rand() - 0.5) * 0.005"
     }
   ]
 }

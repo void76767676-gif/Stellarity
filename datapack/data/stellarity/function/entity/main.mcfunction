@@ -7,6 +7,7 @@
   execute if score #empress_of_light.is_alive stellarity.misc matches 1 as @e[type=marker,tag=stellarity.empress_of_light.tracker] at @s run function stellarity:entity/empress_of_light/animations/death/check_death with entity @s data."stellarity:owner"
   execute if score #empress_of_light.is_alive stellarity.misc matches 1 unless entity @e[type=vindicator,tag=stellarity.empress_of_light] unless entity @e[type=marker,tag=stellarity.empress_of_light.spawn_animation] as @e[type=item_display,tag=stellarity.empress_of_light.ethereal_lance] at @s run function stellarity:entity/empress_of_light/attacks/clear_all
   execute if score #empress_of_light.is_alive stellarity.misc matches 1 unless entity @e[type=vindicator,tag=stellarity.empress_of_light] unless entity @e[type=marker,tag=stellarity.empress_of_light.spawn_animation] run scoreboard players set #empress_of_light.is_alive stellarity.misc 0
+  execute if entity @e[type=item_display,tag=stellarity.empress_of_light.corpse] run function stellarity:entity/empress_of_light/animations/death/corpse_tick
 
 # Dragon stuff
   execute as @e[type=ender_dragon,tag=stellarity.ender_dragon] at @s run function stellarity:entity/dragon/main

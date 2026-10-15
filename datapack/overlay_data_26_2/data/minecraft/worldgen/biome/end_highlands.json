@@ -8,10 +8,10 @@
     "visual/water_fog_color": 6060528,
     "audio/ambient_sounds": {
       "loop": {
-        "sound_id": "stellarity:ambient.the_end.heavenly_grim"
+        "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
       },
       "mood": {
-        "sound": "minecraft:ambient.crimson_forest.mood",
+        "sound": "minecraft:ambient.cave",
         "tick_delay": 850,
         "block_search_extent": 2,
         "offset": 2

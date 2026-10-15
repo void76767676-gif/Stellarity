@@ -1,0 +1,30 @@
+{
+  "targets": [
+    "minecraft:magma_block",
+    "minecraft:basalt",
+    "minecraft:smooth_basalt",
+    "minecraft:blackstone"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "minecraft:lava",
+      "chance": "0.015 * (DISTANCE_SQUARED < 256)",
+      "x": "0.5 + (r.rand() - 0.5) * 0.7",
+      "y": "1.0",
+      "z": "0.5 + (r.rand() - 0.5) * 0.7",
+      "dx": "0.0",
+      "dy": "0.03",
+      "dz": "0.0"
+    },
+    {
+      "particle": "minecraft:smoke",
+      "chance": "0.02 * (DISTANCE_SQUARED < 196)",
+      "x": "0.5 + (r.rand() - 0.5) * 0.6",
+      "y": "1.0",
+      "z": "0.5 + (r.rand() - 0.5) * 0.6",
+      "dx": "0.0",
+      "dy": "0.02",
+      "dz": "0.0"
+    }
+  ]
+}

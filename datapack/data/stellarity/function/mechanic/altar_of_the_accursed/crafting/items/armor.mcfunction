@@ -1,3 +1,9 @@
+# Hallowed Elytra (Hallowed Chestplate + Elytra with plated or soaring)
+  execute if score @s stellarity.misc matches 2 \
+  if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.hallowed_chestplate,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.elytra,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/items/check_hallowed_elytra
+
 # Hallowed Helmet
   execute if score @s stellarity.misc matches 3 \
   if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.stellarity.enderite_smithing_template,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \

@@ -5,16 +5,13 @@
   "particle_emitters": [
     {
       "particle": "minecraft:crimson_spore",
-      "chance": "0.0025 * (DISTANCE_SQUARED < 625)",
+      "chance": "0.0025 * (DISTANCE_SQUARED < 625) * (biome() == 'stellarity:flesh_tundra')",
       "x": "r.rand()",
       "y": "r.rand()",
       "z": "r.rand()",
       "dx": "(r.rand() - 0.5) * 0.008",
       "dy": "-0.005 - r.rand() * 0.005",
-      "dz": "(r.rand() - 0.5) * 0.008",
-      "biomes": [
-        "stellarity:flesh_tundra"
-      ]
+      "dz": "(r.rand() - 0.5) * 0.008"
     }
   ]
 }

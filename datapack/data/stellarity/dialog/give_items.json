@@ -43,6 +43,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/champion_helmet"
         }
@@ -60,6 +61,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/champion_chestplate"
         }
@@ -77,6 +79,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/champion_leggings"
         }
@@ -94,6 +97,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/champion_boots"
         }
@@ -111,6 +115,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/floral_helmet"
         }
@@ -128,6 +133,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/floral_chestplate"
         }
@@ -145,6 +151,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/floral_leggings"
         }
@@ -162,6 +169,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/floral_boots"
         }
@@ -179,6 +187,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/hallowed_helmet"
         }
@@ -196,6 +205,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/hallowed_chestplate"
         }
@@ -213,6 +223,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/hallowed_leggings"
         }
@@ -230,6 +241,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/hallowed_boots"
         }
@@ -247,6 +259,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_helmet"
         }
@@ -264,6 +277,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_chestplate"
         }
@@ -281,6 +295,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_leggings"
         }
@@ -298,6 +313,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_boots"
         }
@@ -315,6 +331,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/elytra/dragon_wings"
         }
@@ -332,6 +349,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/elytra/empress_wings"
         }
@@ -349,6 +367,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/elytra/phantom_wings"
         }
@@ -366,6 +385,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/reinforced_horse_armor"
         }
@@ -383,6 +403,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/ancient_wooden_sword"
         }
@@ -400,6 +421,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/dragonblade"
         }
@@ -417,6 +439,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/fluffy_hammer"
         }
@@ -434,6 +457,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/harvester/tier_4"
         }
@@ -451,6 +475,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/kaleidoscope"
         }
@@ -468,6 +493,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/prismember"
         }
@@ -485,6 +511,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/sandstorm_trident"
         }
@@ -502,6 +529,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/starless_scythe"
         }
@@ -519,6 +547,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/stellar_striker"
         }
@@ -536,6 +565,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/tamaris"
         }
@@ -553,6 +583,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/the_beginning"
         }
@@ -570,6 +601,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/call_of_the_void"
         }
@@ -587,6 +619,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/sharanga"
         }
@@ -604,6 +637,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spectral_fury"
         }
@@ -621,6 +655,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/prismatic_punch"
         }
@@ -638,6 +673,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/slayer_crossbow"
         }
@@ -655,6 +691,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spectral_fury"
         }
@@ -672,6 +709,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_sword",
           "shadow_color": 0
@@ -690,6 +728,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_axe",
           "shadow_color": 0
@@ -708,6 +747,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_spear",
           "shadow_color": 0
@@ -726,6 +766,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_pickaxe",
           "shadow_color": 0
@@ -744,6 +785,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_shovel",
           "shadow_color": 0
@@ -762,6 +804,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_hoe",
           "shadow_color": 0
@@ -780,6 +823,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/fisher_of_voids",
           "shadow_color": 0
@@ -798,6 +842,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_conveyance",
           "shadow_color": 0
@@ -816,6 +861,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_jinx",
           "shadow_color": 0
@@ -834,6 +880,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_light",
           "shadow_color": 0
@@ -852,6 +899,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_obstruct",
           "shadow_color": 0
@@ -870,6 +918,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_return",
           "shadow_color": 0
@@ -888,6 +937,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/book_of_updraft",
           "shadow_color": 0
@@ -906,6 +956,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/shield",
           "shadow_color": 0
@@ -924,6 +975,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/shield",
           "shadow_color": 0
@@ -942,6 +994,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/shield",
           "shadow_color": 0
@@ -960,6 +1013,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/duskberry"
         }
@@ -977,6 +1031,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/enderman_hand"
         }
@@ -994,6 +1049,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/ender_insignia"
         }
@@ -1011,6 +1067,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/prismatic_pearl"
         }
@@ -1028,6 +1085,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/radiant_jewel"
         }
@@ -1045,6 +1103,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/satchel_of_voids"
         }
@@ -1062,6 +1121,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/soaring_insignia"
         }
@@ -1079,6 +1139,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant"
         }
@@ -1096,14 +1157,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/amethyst"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1122,14 +1184,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/copper"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1148,14 +1211,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/diamond"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1174,14 +1238,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/emerald"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1200,14 +1265,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/gold"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1226,14 +1292,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/iron"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1252,14 +1319,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/lapis"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1278,14 +1346,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/netherite"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1304,14 +1373,15 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/void_pendant/quartz"
         }
       ],
       "tooltip": [
         {
-        "translate": "item.stellarity.void_pendant",
-        "fallback": "Void Pendant"
+          "translate": "item.stellarity.void_pendant",
+          "fallback": "Void Pendant"
         },
         "\n",
         {
@@ -1330,6 +1400,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/endonomicon"
         }
@@ -1347,6 +1418,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/flavors_of_the_void"
         }
@@ -1364,6 +1436,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/chorus_plating"
         }
@@ -1381,6 +1454,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/enderite_shard"
         }
@@ -1398,6 +1472,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/hallowed_ingot"
         }
@@ -1415,6 +1490,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/pixie_dust"
         }
@@ -1432,6 +1508,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/enderite_upgrade_smithing_template"
         }
@@ -1449,6 +1526,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/sand_rune"
         }
@@ -1466,6 +1544,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/gilded_purpur_key"
         }
@@ -1483,6 +1562,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/winged_key"
         }
@@ -1500,6 +1580,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/purpur_key"
         }
@@ -1517,6 +1598,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/music_disc/deviants_light_music_box"
         }
@@ -1534,6 +1616,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/music_disc/fires_of_hokkai"
         }
@@ -1551,6 +1634,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/music_disc/precipice_stereo"
         }
@@ -1568,6 +1652,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/ender_egg"
         }
@@ -1585,6 +1670,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/amethyst_budfish"
         }
@@ -1602,6 +1688,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/bubblefish"
         }
@@ -1619,6 +1706,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/crimson_tigerfish"
         }
@@ -1636,6 +1724,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/crystal_heartfish"
         }
@@ -1653,6 +1742,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/ender_koi"
         }
@@ -1670,6 +1760,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/flarefin_koi"
         }
@@ -1687,6 +1778,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/fleshy_piranha"
         }
@@ -1704,6 +1796,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/frost_minnow"
         }
@@ -1721,6 +1814,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/goosh"
         }
@@ -1738,6 +1832,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/overgrown_cod"
         }
@@ -1755,6 +1850,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/potassifish"
         }
@@ -1772,6 +1868,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fish/prismite"
         }
@@ -1789,6 +1886,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "minecraft:item/pufferfish"
         }
@@ -1806,6 +1904,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/candied_chorus_fruit"
         }
@@ -1823,6 +1922,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/chorus_juice"
         }
@@ -1840,6 +1940,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/chorus_pie"
         }
@@ -1857,6 +1958,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/chorus_stew"
         }
@@ -1874,6 +1976,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/enderman_flesh"
         }
@@ -1891,6 +1994,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/fried_chorus_fruit"
         }
@@ -1908,6 +2012,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/frozen_carpaccio"
         }
@@ -1925,6 +2030,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/golden_chorus_fruit"
         }
@@ -1942,6 +2048,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/grilled_enderman_flesh"
         }
@@ -1959,6 +2066,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/pho"
         }
@@ -1976,6 +2084,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/prismatic_sushi"
         }
@@ -1993,6 +2102,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/shepherd_pie"
         }
@@ -2010,6 +2120,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/shulker_body"
         }
@@ -2027,6 +2138,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/food/sushi"
         }
@@ -2044,6 +2156,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "minecraft:item/bread"
         }
@@ -2061,6 +2174,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/amarene"
         }
@@ -2078,6 +2192,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/blind_rage_potion"
         }
@@ -2095,6 +2210,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/endurance_potion"
         }
@@ -2112,6 +2228,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/entanglement_potion"
         }
@@ -2129,6 +2246,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/frost_cloud_potion"
         }
@@ -2146,6 +2264,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/hellfire_treader_potion"
         }
@@ -2163,6 +2282,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/lifeforce_potion"
         }
@@ -2180,6 +2300,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/poseidons_nectar"
         }
@@ -2197,6 +2318,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/red_potion"
         }
@@ -2214,6 +2336,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/regeneraga"
         }
@@ -2231,6 +2354,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "minecraft:item/honey_bottle"
         }
@@ -2248,6 +2372,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/spelunker_potion"
         }
@@ -2265,6 +2390,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spawn_egg/flesh_piglin_spawn_egg"
         }
@@ -2282,6 +2408,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spawn_egg/voided_silverfish_spawn_egg"
         }
@@ -2299,6 +2426,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spawn_egg/voided_skeleton_spawn_egg"
         }
@@ -2316,6 +2444,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spawn_egg/voided_slime_spawn_egg"
         }
@@ -2333,6 +2462,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/spawn_egg/voided_zombie_spawn_egg"
         }
@@ -2350,6 +2480,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/altar_of_the_accursed"
         }
@@ -2367,6 +2498,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/altar_of_the_sacred"
         }
@@ -2384,6 +2516,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/ashen_froglight"
         }
@@ -2401,6 +2534,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/ender_dirt_path"
         }
@@ -2418,6 +2552,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/ender_dirt"
         }
@@ -2435,6 +2570,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/ender_grass_block"
         }
@@ -2452,6 +2588,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/enderite_block"
         }
@@ -2469,6 +2606,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:gui",
           "sprite": "stellarity:font/icon/rooted_ender_dirt"
         }
@@ -2486,6 +2624,7 @@
     {
       "label": [
         {
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/phantom_item_frame"
         }

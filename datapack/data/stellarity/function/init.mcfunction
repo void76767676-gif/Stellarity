@@ -318,6 +318,18 @@
         scoreboard objectives add stellarity.music.ender_dragon.timer dummy
         scoreboard objectives add stellarity.music.empress_of_light.timer dummy
 
+      ## Ambient & AFK soundscapes
+        scoreboard objectives add stellarity.afk.timer dummy
+        scoreboard objectives add stellarity.afk.pos_x dummy
+        scoreboard objectives add stellarity.afk.pos_y dummy
+        scoreboard objectives add stellarity.afk.pos_z dummy
+        scoreboard objectives add stellarity.ambient.loop_timer dummy
+        scoreboard objectives add stellarity.ambient.cave_timer dummy
+        scoreboard objectives add stellarity.ambient.archives_timer dummy
+        scoreboard objectives add stellarity.ambient.chapel_timer dummy
+        scoreboard objectives add stellarity.ambient.biome_id dummy
+        scoreboard objectives add stellarity.ambient.last_biome_id dummy
+
       ## Mechanics
         scoreboard objectives add stellarity.altar_of_the_accursed.count dummy
         scoreboard objectives add stellarity.live_time dummy
@@ -334,6 +346,7 @@
       scoreboard objectives add stellarity.mechanics.altar_of_the_sacred.timer dummy
       scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
       scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
+      scoreboard objectives add stellarity.altar.craft_progress dummy
 
     ## Enchantments
       scoreboard objectives add stellarity.enchantments.critical_strike.can_crit dummy

@@ -1,0 +1,489 @@
+{
+  "resource_pack_name": "Stellarityv5.3.0",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "stellarity.item.ancient_wooden_sword": {
+      "textures": "textures/item/stellarity/ancient_wooden_sword"
+    },
+    "stellarity.item.book_of_conveyance": {
+      "textures": "textures/item/stellarity/book_of_conveyance"
+    },
+    "stellarity.item.book_of_jinx": {
+      "textures": "textures/item/stellarity/book_of_jinx"
+    },
+    "stellarity.item.book_of_light": {
+      "textures": "textures/item/stellarity/book_of_light"
+    },
+    "stellarity.item.book_of_obstruct": {
+      "textures": "textures/item/stellarity/book_of_obstruct"
+    },
+    "stellarity.item.book_of_return": {
+      "textures": "textures/item/stellarity/book_of_return"
+    },
+    "stellarity.item.book_of_updraft": {
+      "textures": "textures/item/stellarity/book_of_updraft"
+    },
+    "stellarity.item.champion_boots": {
+      "textures": "textures/item/stellarity/champion_boots"
+    },
+    "stellarity.item.champion_chestplate": {
+      "textures": "textures/item/stellarity/champion_chestplate"
+    },
+    "stellarity.item.champion_helmet": {
+      "textures": "textures/item/stellarity/champion_helmet"
+    },
+    "stellarity.item.champion_leggings": {
+      "textures": "textures/item/stellarity/champion_leggings"
+    },
+    "stellarity.item.chorus_plating": {
+      "textures": "textures/item/stellarity/chorus_plating"
+    },
+    "stellarity.item.dragonblade": {
+      "textures": "textures/item/stellarity/dragonblade"
+    },
+    "stellarity.item.duskberry": {
+      "textures": "textures/item/stellarity/duskberry"
+    },
+    "stellarity.item.ender_egg": {
+      "textures": "textures/item/stellarity/ender_egg"
+    },
+    "stellarity.item.ender_insignia": {
+      "textures": "textures/item/stellarity/ender_insignia"
+    },
+    "stellarity.item.enderite_shard": {
+      "textures": "textures/item/stellarity/enderite_shard"
+    },
+    "stellarity.item.enderite_upgrade_smithing_template": {
+      "textures": "textures/item/stellarity/enderite_upgrade_smithing_template"
+    },
+    "stellarity.item.endermans_hand": {
+      "textures": "textures/item/stellarity/endermans_hand"
+    },
+    "stellarity.item.endonomicon": {
+      "textures": "textures/item/stellarity/endonomicon"
+    },
+    "stellarity.item.fisher_of_voids": {
+      "textures": "textures/item/stellarity/fisher_of_voids"
+    },
+    "stellarity.item.floral_boots": {
+      "textures": "textures/item/stellarity/floral_boots"
+    },
+    "stellarity.item.floral_chestplate": {
+      "textures": "textures/item/stellarity/floral_chestplate"
+    },
+    "stellarity.item.floral_helmet": {
+      "textures": "textures/item/stellarity/floral_helmet"
+    },
+    "stellarity.item.floral_leggings": {
+      "textures": "textures/item/stellarity/floral_leggings"
+    },
+    "stellarity.item.fluffy_hammer": {
+      "textures": "textures/item/stellarity/fluffy_hammer"
+    },
+    "stellarity.item.gilded_purpur_key": {
+      "textures": "textures/item/stellarity/gilded_purpur_key"
+    },
+    "stellarity.item.hallowed_boots": {
+      "textures": "textures/item/stellarity/hallowed_boots"
+    },
+    "stellarity.item.hallowed_chestplate": {
+      "textures": "textures/item/stellarity/hallowed_chestplate"
+    },
+    "stellarity.item.hallowed_helmet": {
+      "textures": "textures/item/stellarity/hallowed_helmet"
+    },
+    "stellarity.item.hallowed_leggings": {
+      "textures": "textures/item/stellarity/hallowed_leggings"
+    },
+    "stellarity.item.kaleidoscope": {
+      "textures": "textures/item/stellarity/kaleidoscope"
+    },
+    "stellarity.item.living_flesh": {
+      "textures": "textures/item/stellarity/living_flesh"
+    },
+    "stellarity.item.phantom_item_frame": {
+      "textures": "textures/item/stellarity/phantom_item_frame"
+    },
+    "stellarity.item.pixie_dust": {
+      "textures": "textures/item/stellarity/pixie_dust"
+    },
+    "stellarity.item.prismatic_pearl": {
+      "textures": "textures/item/stellarity/prismatic_pearl"
+    },
+    "stellarity.item.prismember": {
+      "textures": "textures/item/stellarity/prismember"
+    },
+    "stellarity.item.purpur_key": {
+      "textures": "textures/item/stellarity/purpur_key"
+    },
+    "stellarity.item.reinforced_horse_armor": {
+      "textures": "textures/item/stellarity/reinforced_horse_armor"
+    },
+    "stellarity.item.sand_rune": {
+      "textures": "textures/item/stellarity/sand_rune"
+    },
+    "stellarity.item.sandstorm_trident": {
+      "textures": "textures/item/stellarity/sandstorm_trident"
+    },
+    "stellarity.item.satchel_of_voids": {
+      "textures": "textures/item/stellarity/satchel_of_voids"
+    },
+    "stellarity.item.shulker_axe": {
+      "textures": "textures/item/stellarity/shulker_axe"
+    },
+    "stellarity.item.shulker_boots": {
+      "textures": "textures/item/stellarity/shulker_boots"
+    },
+    "stellarity.item.shulker_chestplate": {
+      "textures": "textures/item/stellarity/shulker_chestplate"
+    },
+    "stellarity.item.shulker_helmet": {
+      "textures": "textures/item/stellarity/shulker_helmet"
+    },
+    "stellarity.item.shulker_hoe": {
+      "textures": "textures/item/stellarity/shulker_hoe"
+    },
+    "stellarity.item.shulker_leggings": {
+      "textures": "textures/item/stellarity/shulker_leggings"
+    },
+    "stellarity.item.shulker_pickaxe": {
+      "textures": "textures/item/stellarity/shulker_pickaxe"
+    },
+    "stellarity.item.shulker_shovel": {
+      "textures": "textures/item/stellarity/shulker_shovel"
+    },
+    "stellarity.item.shulker_spear": {
+      "textures": "textures/item/stellarity/shulker_spear"
+    },
+    "stellarity.item.shulker_sword": {
+      "textures": "textures/item/stellarity/shulker_sword"
+    },
+    "stellarity.item.soaring_insignia": {
+      "textures": "textures/item/stellarity/soaring_insignia"
+    },
+    "stellarity.item.starless_scythe": {
+      "textures": "textures/item/stellarity/starless_scythe"
+    },
+    "stellarity.item.starstruck_carcanet": {
+      "textures": "textures/item/stellarity/starstruck_carcanet"
+    },
+    "stellarity.item.stellar_striker": {
+      "textures": "textures/item/stellarity/stellar_striker"
+    },
+    "stellarity.item.tamaris": {
+      "textures": "textures/item/stellarity/tamaris"
+    },
+    "stellarity.item.the_beginning": {
+      "textures": "textures/item/stellarity/the_beginning"
+    },
+    "stellarity.item.the_end": {
+      "textures": "textures/item/stellarity/the_end"
+    },
+    "stellarity.item.void_locket": {
+      "textures": "textures/item/stellarity/void_locket"
+    },
+    "stellarity.item.winged_key": {
+      "textures": "textures/item/stellarity/winged_key"
+    },
+    "stellarity.item.dragon_wings_broken": {
+      "textures": "textures/item/stellarity/elytra/dragon_wings_broken"
+    },
+    "stellarity.item.dragon_wings": {
+      "textures": "textures/item/stellarity/elytra/dragon_wings"
+    },
+    "stellarity.item.empress_wings_broken": {
+      "textures": "textures/item/stellarity/elytra/empress_wings_broken"
+    },
+    "stellarity.item.empress_wings": {
+      "textures": "textures/item/stellarity/elytra/empress_wings"
+    },
+    "stellarity.item.phantom_wings_broken": {
+      "textures": "textures/item/stellarity/elytra/phantom_wings_broken"
+    },
+    "stellarity.item.phantom_wings": {
+      "textures": "textures/item/stellarity/elytra/phantom_wings"
+    },
+    "stellarity.item.amethyst_budfish": {
+      "textures": "textures/item/stellarity/food/fish/amethyst_budfish"
+    },
+    "stellarity.item.bubblefish": {
+      "textures": "textures/item/stellarity/food/fish/bubblefish"
+    },
+    "stellarity.item.crimson_tigerfish": {
+      "textures": "textures/item/stellarity/food/fish/crimson_tigerfish"
+    },
+    "stellarity.item.crystal_heartfish": {
+      "textures": "textures/item/stellarity/food/fish/crystal_heartfish"
+    },
+    "stellarity.item.ender_koi": {
+      "textures": "textures/item/stellarity/food/fish/ender_koi"
+    },
+    "stellarity.item.flarefin_koi": {
+      "textures": "textures/item/stellarity/food/fish/flarefin_koi"
+    },
+    "stellarity.item.fleshy_piranha": {
+      "textures": "textures/item/stellarity/food/fish/fleshy_piranha"
+    },
+    "stellarity.item.frost_minnow": {
+      "textures": "textures/item/stellarity/food/fish/frost_minnow"
+    },
+    "stellarity.item.overgrown_cod": {
+      "textures": "textures/item/stellarity/food/fish/overgrown_cod"
+    },
+    "stellarity.item.prismite": {
+      "textures": "textures/item/stellarity/food/fish/prismite"
+    },
+    "stellarity.item.candied_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/candied_chorus_fruit"
+    },
+    "stellarity.item.chorus_pie": {
+      "textures": "textures/item/stellarity/food/chorus_pie"
+    },
+    "stellarity.item.chorus_stew": {
+      "textures": "textures/item/stellarity/food/chorus_stew"
+    },
+    "stellarity.item.enderman_flesh": {
+      "textures": "textures/item/stellarity/food/enderman_flesh"
+    },
+    "stellarity.item.fried_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/fried_chorus_fruit"
+    },
+    "stellarity.item.frozen_carpaccio": {
+      "textures": "textures/item/stellarity/food/frozen_carpaccio"
+    },
+    "stellarity.item.golden_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/golden_chorus_fruit"
+    },
+    "stellarity.item.grilled_enderman_flesh": {
+      "textures": "textures/item/stellarity/food/grilled_enderman_flesh"
+    },
+    "stellarity.item.pho": {
+      "textures": "textures/item/stellarity/food/pho"
+    },
+    "stellarity.item.prismatic_sushi": {
+      "textures": "textures/item/stellarity/food/prismatic_sushi"
+    },
+    "stellarity.item.shepherds_pie": {
+      "textures": "textures/item/stellarity/food/shepherds_pie"
+    },
+    "stellarity.item.molten_tier_0": {
+      "textures": "textures/item/stellarity/harvester/molten_tier_0"
+    },
+    "stellarity.item.molten_tier_1": {
+      "textures": "textures/item/stellarity/harvester/molten_tier_1"
+    },
+    "stellarity.item.molten_tier_2": {
+      "textures": "textures/item/stellarity/harvester/molten_tier_2"
+    },
+    "stellarity.item.molten_tier_3": {
+      "textures": "textures/item/stellarity/harvester/molten_tier_3"
+    },
+    "stellarity.item.molten_tier_4": {
+      "textures": "textures/item/stellarity/harvester/molten_tier_4"
+    },
+    "stellarity.item.tier_0": {
+      "textures": "textures/item/stellarity/harvester/tier_0"
+    },
+    "stellarity.item.tier_1": {
+      "textures": "textures/item/stellarity/harvester/tier_1"
+    },
+    "stellarity.item.tier_2": {
+      "textures": "textures/item/stellarity/harvester/tier_2"
+    },
+    "stellarity.item.tier_3": {
+      "textures": "textures/item/stellarity/harvester/tier_3"
+    },
+    "stellarity.item.tier_4": {
+      "textures": "textures/item/stellarity/harvester/tier_4"
+    },
+    "stellarity.item.deviants_light_music_box": {
+      "textures": "textures/item/stellarity/music_disc/deviants_light_music_box"
+    },
+    "stellarity.item.fires_of_hokkai": {
+      "textures": "textures/item/stellarity/music_disc/fires_of_hokkai"
+    },
+    "stellarity.item.precipice_stereo": {
+      "textures": "textures/item/stellarity/music_disc/precipice_stereo"
+    },
+    "stellarity.item.flesh_piglin_spawn_egg": {
+      "textures": "textures/item/stellarity/spawn_egg/flesh_piglin_spawn_egg"
+    },
+    "stellarity.item.voided_skeleton_spawn_egg": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_skeleton_spawn_egg"
+    },
+    "stellarity.item.voided_slime_spawn_egg": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_slime_spawn_egg"
+    },
+    "stellarity.item.voided_zombie_spawn_egg": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_zombie_spawn_egg"
+    },
+    "stellarity.item.food.candied_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/candied_chorus_fruit"
+    },
+    "stellarity.item.food.fried_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/fried_chorus_fruit"
+    },
+    "stellarity.item.food.golden_chorus_fruit": {
+      "textures": "textures/item/stellarity/food/golden_chorus_fruit"
+    },
+    "stellarity.item.food.shulker_body": {
+      "textures": "textures/item/stellarity/food/shulker_body"
+    },
+    "stellarity.item.food.frozen_carpaccio": {
+      "textures": "textures/item/stellarity/food/frozen_carpaccio"
+    },
+    "stellarity.item.food.grilled_enderman_flesh": {
+      "textures": "textures/item/stellarity/food/grilled_enderman_flesh"
+    },
+    "stellarity.item.food.fish.amethyst_budfish": {
+      "textures": "textures/item/stellarity/food/fish/amethyst_budfish"
+    },
+    "stellarity.item.food.fish.crimson_tigerfish": {
+      "textures": "textures/item/stellarity/food/fish/crimson_tigerfish"
+    },
+    "stellarity.item.food.fish.crystal_heartfish": {
+      "textures": "textures/item/stellarity/food/fish/crystal_heartfish"
+    },
+    "stellarity.item.food.fish.flarefin_koi": {
+      "textures": "textures/item/stellarity/food/fish/flarefin_koi"
+    },
+    "stellarity.item.food.fish.fleshy_piranha": {
+      "textures": "textures/item/stellarity/food/fish/fleshy_piranha"
+    },
+    "stellarity.item.food.fish.frost_minnow": {
+      "textures": "textures/item/stellarity/food/fish/frost_minnow"
+    },
+    "stellarity.item.food.fish.overgrown_cod": {
+      "textures": "textures/item/stellarity/food/fish/overgrown_cod"
+    },
+    "stellarity.item.food.fish.prismite": {
+      "textures": "textures/item/stellarity/food/fish/prismite"
+    },
+    "stellarity.item.elytra.dragon_wings": {
+      "textures": "textures/item/stellarity/elytra/dragon_wings"
+    },
+    "stellarity.item.elytra.empress_wings": {
+      "textures": "textures/item/stellarity/technical/empress_wings"
+    },
+    "stellarity.item.elytra.phantom_wings": {
+      "textures": "textures/item/stellarity/elytra/phantom_wings"
+    },
+    "stellarity.item.bell_flower": {
+      "textures": "textures/item/stellarity/bell_flower"
+    },
+    "stellarity.item.elytra.hallowed_elytra": {
+      "textures": "textures/item/stellarity/hallowed_elytra"
+    },
+    "stellarity.item.elytra.hallowed_dragon_wings": {
+      "textures": "textures/item/stellarity/hallowed_dragon_wings"
+    },
+    "stellarity.item.elytra.hallowed_empress_wings": {
+      "textures": "textures/item/stellarity/hallowed_empress_wings"
+    },
+    "stellarity.item.elytra.hallowed_phantom_wings": {
+      "textures": "textures/item/stellarity/hallowed_phantom_wings"
+    },
+    "stellarity.item.hallowed_ingot": {
+      "textures": "textures/item/stellarity/hallowed_ingot"
+    },
+    "stellarity.item.food.chorus_stew": {
+      "textures": "textures/item/stellarity/food/chorus_stew"
+    },
+    "stellarity.item.food.pho": {
+      "textures": "textures/item/stellarity/food/pho"
+    },
+    "stellarity.item.music_disc.deviants_light_music_box": {
+      "textures": "textures/item/stellarity/music_disc/deviants_light_music_box"
+    },
+    "stellarity.item.music_disc.fires_of_hokkai": {
+      "textures": "textures/item/stellarity/music_disc/fires_of_hokkai"
+    },
+    "stellarity.item.music_disc.precipice_stereo": {
+      "textures": "textures/item/stellarity/music_disc/precipice_stereo"
+    },
+    "stellarity.item.chorus_dagger": {
+      "textures": "textures/item/stellarity/chorus_dagger"
+    },
+    "stellarity.item.chorus_petal": {
+      "textures": "textures/item/stellarity/chorus_petal"
+    },
+    "stellarity.item.decayed_clover": {
+      "textures": "textures/item/stellarity/decayed_clover"
+    },
+    "stellarity.item.food.fish.bubblefish": {
+      "textures": "textures/item/stellarity/food/fish/bubblefish"
+    },
+    "stellarity.item.food.chorus_pie": {
+      "textures": "textures/item/stellarity/food/chorus_pie"
+    },
+    "stellarity.item.food.shepherds_pie": {
+      "textures": "textures/item/stellarity/food/shepherds_pie"
+    },
+    "stellarity.item.food.shepherd_pie": {
+      "textures": "textures/item/stellarity/food/shepherd_pie"
+    },
+    "stellarity.item.food.enderman_flesh": {
+      "textures": "textures/item/stellarity/food/enderman_flesh"
+    },
+    "stellarity.item.food.prismatic_sushi": {
+      "textures": "textures/item/stellarity/food/prismatic_sushi"
+    },
+    "stellarity.item.food.sushi": {
+      "textures": "textures/item/stellarity/food/sushi"
+    },
+    "stellarity.item.food.fish.ender_koi": {
+      "textures": "textures/item/stellarity/food/fish/ender_koi"
+    },
+    "stellarity.item.food.fish.potassifish": {
+      "textures": "textures/item/stellarity/food/fish/potassifish"
+    },
+    "stellarity.item.call_of_the_void": {
+      "textures": "textures/item/stellarity/call_of_the_void"
+    },
+    "stellarity.item.sharanga": {
+      "textures": "textures/item/stellarity/sharanga"
+    },
+    "stellarity.item.spectral_fury": {
+      "textures": "textures/item/stellarity/spectral_fury"
+    },
+    "stellarity.item.prismatic_punch": {
+      "textures": "textures/item/stellarity/prismatic_punch"
+    },
+    "stellarity.item.slayer_crossbow": {
+      "textures": "textures/item/stellarity/slayer_crossbow"
+    },
+    "stellarity.item.harvester": {
+      "textures": "textures/item/stellarity/harvester"
+    },
+    "stellarity.item.food.loaf_of_plenty": {
+      "textures": "textures/item/stellarity/loaf_of_plenty"
+    },
+    "stellarity.item.food.fish.goosh": {
+      "textures": "textures/item/stellarity/food/fish/goosh"
+    },
+    "stellarity.item.radiant_jewel": {
+      "textures": "textures/item/stellarity/radiant_jewel"
+    },
+    "stellarity.item.void_pendant": {
+      "textures": "textures/item/stellarity/void_pendant"
+    },
+    "stellarity.item.book.endonomicon": {
+      "textures": "textures/item/stellarity/endonomicon"
+    },
+    "stellarity.item.spawn_egg.voided_silverfish": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_silverfish_spawn_egg"
+    },
+    "stellarity.item.spawn_egg.voided_skeleton": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_skeleton_spawn_egg"
+    },
+    "stellarity.item.spawn_egg.voided_slime": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_slime_spawn_egg"
+    },
+    "stellarity.item.spawn_egg.voided_zombie": {
+      "textures": "textures/item/stellarity/spawn_egg/voided_zombie_spawn_egg"
+    },
+    "stellarity.item.spawn_egg.flesh_piglin": {
+      "textures": "textures/item/stellarity/spawn_egg/flesh_piglin_spawn_egg"
+    }
+  }
+}

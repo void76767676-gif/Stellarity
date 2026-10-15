@@ -13,13 +13,16 @@ nullscape_26_3/
 build/
 .spyglassrc.json
 
-stb-test/*
+stb-test/
+
+tools/
 
 # nbt
 shulking_citadel.nbt
 citadel_shell.nbt
 boss_core.nbt
 citadel_assembly.nbt
+citadel_shell2.nbt
 
 # .zip
 stellarity-6.0.0.zip
@@ -76,6 +79,7 @@ logs/
 tools/validators/cache/
 tools/validators/__pycache__/
 analyze_seeds.py
+stb-test/*
 
 # my note
 .note/*

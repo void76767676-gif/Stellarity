@@ -6,4 +6,4 @@ execute if entity @s[tag=stellarity.satchel_of_voids,tag=stellarity.satchel_of_v
 
 execute if score @s stellarity.misc.loop.1s matches 20 run function stellarity:mechanic/altar_of_the_accursed/loop_1s
 
-execute if entity @p[distance=..8,predicate=kohara:player/is_sneaking] as @e[type=item,distance=..3,nbt=!{PickupDelay:0s}] run data modify entity @s PickupDelay set value 0s
+function stellarity:mechanic/altar_common/orbit_loop

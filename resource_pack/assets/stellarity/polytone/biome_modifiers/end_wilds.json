@@ -1,0 +1,11 @@
+{
+  "targets": ".*:end_wilds",
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "c.y() < -1 ? '000000' : '2d1f47'",
+      "minecraft:visual/sky_color": "c.y() < -1 ? '000000' : '120d24'",
+      "minecraft:visual/fog_start_distance": "c.y() < -1 ? 0.0 : c.viewDistance() * (0.35 + clamp((c.y() - 100) / 300.0, 0.0, 0.20))",
+      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * (0.85 + clamp((c.y() - 100) / 350.0, 0.0, 0.12))"
+    }
+  }
+}

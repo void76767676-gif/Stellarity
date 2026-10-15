@@ -8,7 +8,7 @@
     "visual/water_fog_color": 131332,
     "audio/ambient_sounds": {
       "loop": {
-        "sound_id": "ambient.soul_sand_valley.loop"
+        "sound_id": "stellarity:ambient.the_end.dark"
       },
       "mood": {
         "sound": "ambient.soul_sand_valley.mood",
