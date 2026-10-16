@@ -1,5 +1,5 @@
-execute if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.white_dye,scores={stellarity.altar_of_the_accursed.count=1}] \
-run function stellarity:mechanic/altar_of_the_accursed/crafting/dye_elytra/color {particle_color:[1.0,1.0,1.0],color:"white",text_color:"#FFFFFF"}
+execute if entity @e[type=item,distance=..2.2,tag=stellarity.altar_of_the_accursed.minecraft.white_dye,scores={stellarity.altar_of_the_accursed.count=1}] \
+run function stellarity:mechanic/altar_of_the_accursed/crafting/dye_elytra/uncolor
 execute if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.light_gray_dye,scores={stellarity.altar_of_the_accursed.count=1}] \
 run function stellarity:mechanic/altar_of_the_accursed/crafting/dye_elytra/color {particle_color:[0.788, 0.788, 0.788],color:"light_gray",text_color:"#C9C9C9"}
 execute if entity @e[type=item,distance=..1.5,tag=stellarity.altar_of_the_accursed.minecraft.gray_dye,scores={stellarity.altar_of_the_accursed.count=1}] \

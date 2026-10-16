@@ -3,5 +3,5 @@
     "minecraft:portal",
     "minecraft:reverse_portal"
   ],
-  "size": "SIZE * 1.35 + 0.2"
+  "size": "SIZE * 2.5 + 0.45"
 }

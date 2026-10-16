@@ -1,10 +1,19 @@
 {
+  "targets": ".*:prismarine_forest",
+  "fog_color": "#48cae4",
+  "sky_color": "#023e8a",
+  "fog_start": 0.1,
+  "fog_end": 0.72,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "48cae4",
-      "minecraft:visual/sky_color": "023e8a",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.38",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.92"
+      "minecraft:visual/fog_color": "#48cae4",
+      "minecraft:visual/sky_color": "#023e8a",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.72",
+      "visual/fog_color": "#48cae4",
+      "visual/sky_color": "#023e8a",
+      "visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "visual/fog_end_distance": "c.viewDistance() * 0.72"
     }
   }
 }

@@ -1,10 +1,19 @@
 {
+  "targets": ".*:endless_dunes",
+  "fog_color": "#e0a96d",
+  "sky_color": "#3d2614",
+  "fog_start": 0.14,
+  "fog_end": 0.8,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "e0a96d",
-      "minecraft:visual/sky_color": "201a30",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.40",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.94"
+      "minecraft:visual/fog_color": "#e0a96d",
+      "minecraft:visual/sky_color": "#3d2614",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.14",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.8",
+      "visual/fog_color": "#e0a96d",
+      "visual/sky_color": "#3d2614",
+      "visual/fog_start_distance": "c.viewDistance() * 0.14",
+      "visual/fog_end_distance": "c.viewDistance() * 0.8"
     }
   }
 }

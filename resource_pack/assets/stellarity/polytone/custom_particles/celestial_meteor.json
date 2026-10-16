@@ -2,12 +2,12 @@
   "type": "custom",
   "initializer": {
     "lifetime": "25 + 10 * rand()",
-    "size": "2.2 + 0.8 * rand()",
+    "size": "3.5 + 1.0 * rand()",
     "alpha": "0.95",
     "dx": "-1.8 - rand() * 0.8",
     "dy": "-0.15 - rand() * 0.1",
     "dz": "0.6 + rand() * 0.4",
-    "hitbox_size": 0.3
+    "hitbox_size": 0.4
   },
   "ticker": {
     "dx": "DX",

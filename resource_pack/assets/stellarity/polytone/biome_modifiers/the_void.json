@@ -1,10 +1,19 @@
 {
+  "targets": ".*:the_void",
+  "fog_color": "#000000",
+  "sky_color": "#000000",
+  "fog_start": 0.0,
+  "fog_end": 0.35,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "000000",
-      "minecraft:visual/sky_color": "000000",
-      "minecraft:visual/fog_start_distance": "0.0",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.40"
+      "minecraft:visual/fog_color": "#000000",
+      "minecraft:visual/sky_color": "#000000",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.0",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.35",
+      "visual/fog_color": "#000000",
+      "visual/sky_color": "#000000",
+      "visual/fog_start_distance": "c.viewDistance() * 0.0",
+      "visual/fog_end_distance": "c.viewDistance() * 0.35"
     }
   }
 }

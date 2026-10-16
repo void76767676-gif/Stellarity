@@ -1,28 +1,25 @@
 {
+  "type": "custom",
   "initializer": {
-    "lifetime": "70 + rand() * 40",
-    "alpha": "0",
+    "lifetime": "40 + 20 * rand()",
+    "alpha": "0.1",
     "size": "0",
-    "custom": "rand()",
-    "red": "1.0",
-    "green": "0.45 + rand() * 0.25",
-    "blue": "0.10 + rand() * 0.10",
-    "hitbox_size": 0.15
+    "custom": "rand() * 0.2",
+    "dx": "0.02 * (rand() - 0.5)",
+    "dy": "0.015 + 0.01 * rand()",
+    "dz": "0.02 * (rand() - 0.5)",
+    "hitbox_size": 0.2
   },
   "ticker": {
-    "dx": "(CUSTOM * 0.02) * sin(0.04 * AGE)",
-    "dy": "0.015 + (CUSTOM * 0.01)",
-    "dz": "(CUSTOM * 0.02) * cos(0.04 * AGE)",
-    "size": "(0.18 + CUSTOM * 0.10) * sin((pi / LIFETIME) * AGE)",
+    "dx": "DX",
+    "dy": "DY",
+    "dz": "DZ",
+    "size": "(0.48 + CUSTOM) * sin((pi / LIFETIME) * AGE)",
     "alpha": "0.85 * sin((pi / LIFETIME) * AGE)",
-    "remove_condition": "sqrt(DISTANCE_SQUARED) > 30"
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 32"
   },
   "lit": true,
-  "light_level": 14,
+  "light_level": 15,
   "render_type": "additive_translucent",
-  "liquid_affinity": "non_liquids",
-  "has_physics": false,
-  "kill_on_contact": false,
-  "kill_when_still": false,
-  "offset": [0, 0, 0]
+  "has_physics": false
 }

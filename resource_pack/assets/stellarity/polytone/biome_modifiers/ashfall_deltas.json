@@ -1,10 +1,19 @@
 {
+  "targets": ".*:ashfall_deltas",
+  "fog_color": "#5c5470",
+  "sky_color": "#1a1a24",
+  "fog_start": 0.06,
+  "fog_end": 0.6,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "5c5470",
-      "minecraft:visual/sky_color": "1a1a24",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.22",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.78"
+      "minecraft:visual/fog_color": "#5c5470",
+      "minecraft:visual/sky_color": "#1a1a24",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.06",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.6",
+      "visual/fog_color": "#5c5470",
+      "visual/sky_color": "#1a1a24",
+      "visual/fog_start_distance": "c.viewDistance() * 0.06",
+      "visual/fog_end_distance": "c.viewDistance() * 0.6"
     }
   }
 }

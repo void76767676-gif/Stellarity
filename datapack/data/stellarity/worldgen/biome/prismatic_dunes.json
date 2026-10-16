@@ -3,9 +3,11 @@
   "downfall": 0.6,
   "has_precipitation": false,
   "attributes": {
-    "visual/sky_color": 3808340,
-    "visual/fog_color": 15976079,
-    "visual/water_fog_color": 13467442,
+    "visual/sky_color": 4770532,
+    "visual/fog_color": 15250680,
+    "visual/water_fog_color": 15034111,
+    "visual/fog_start_distance": 16.0,
+    "visual/fog_end_distance": 128.0,
     "audio/ambient_sounds": {
       "loop": {
         "sound_id": "stellarity:ambient.the_end.heavenly_blessed"
@@ -26,9 +28,9 @@
       "argument": [
         {
           "particle": {
-            "type": "minecraft:wax_on"
+            "type": "minecraft:wax_off"
           },
-          "probability": 0.002
+          "probability": 0.004
         }
       ]
     },
@@ -59,7 +61,7 @@
     "water_color": 15368447,
     "grass_color": 6078719,
     "foliage_color": 5819646,
-    "dry_foliage_color": 15252876
+    "dry_foliage_color": 16106678
   },
   "carvers": [],
   "features": [

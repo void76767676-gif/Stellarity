@@ -1,0 +1,19 @@
+{
+  "targets": ".*:(the_end|end_highlands|end_midlands|small_end_islands|end_barrens)",
+  "fog_color": "#2c1654",
+  "sky_color": "#120824",
+  "fog_start": 0.12,
+  "fog_end": 0.75,
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "#2c1654",
+      "minecraft:visual/sky_color": "#120824",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.75",
+      "visual/fog_color": "#2c1654",
+      "visual/sky_color": "#120824",
+      "visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "visual/fog_end_distance": "c.viewDistance() * 0.75"
+    }
+  }
+}

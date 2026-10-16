@@ -31,7 +31,9 @@
           "probability": 0.002
         }
       ]
-    }
+    },
+    "visual/fog_start_distance": 8.0,
+    "visual/fog_end_distance": 64.0
   },
   "effects": {
     "water_color": 2438726,

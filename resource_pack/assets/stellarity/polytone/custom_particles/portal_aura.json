@@ -3,14 +3,14 @@
   "initializer": {
     "lifetime": "45 + 20 * rand()",
     "alpha": "0.1",
-    "size": "0.4 + 0.2 * rand()",
+    "size": "0.95 + 0.25 * rand()",
     "roll": "rand() * 2 * pi"
   },
   "ticker": {
     "dy": "0.012 * (1 - AGE / LIFETIME)",
     "dx": "0.004 * cos(0.1 * AGE)",
     "dz": "0.004 * sin(0.1 * AGE)",
-    "size": "SIZE + 0.007",
+    "size": "SIZE + 0.006",
     "alpha": "0.65 * sin((pi / LIFETIME) * AGE)",
     "remove_condition": "sqrt(DISTANCE_SQUARED) > 36"
   },

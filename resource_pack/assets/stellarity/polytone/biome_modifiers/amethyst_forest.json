@@ -1,10 +1,19 @@
 {
+  "targets": ".*:amethyst_forest",
+  "fog_color": "#9d4edd",
+  "sky_color": "#240046",
+  "fog_start": 0.12,
+  "fog_end": 0.75,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "9d4edd",
-      "minecraft:visual/sky_color": "240046",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.35",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.90"
+      "minecraft:visual/fog_color": "#9d4edd",
+      "minecraft:visual/sky_color": "#240046",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.75",
+      "visual/fog_color": "#9d4edd",
+      "visual/sky_color": "#240046",
+      "visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "visual/fog_end_distance": "c.viewDistance() * 0.75"
     }
   }
 }

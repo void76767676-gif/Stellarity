@@ -1,10 +1,19 @@
 {
+  "targets": ".*:fiery_hills",
+  "fog_color": "#d90429",
+  "sky_color": "#3b040e",
+  "fog_start": 0.1,
+  "fog_end": 0.68,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "d90429",
-      "minecraft:visual/sky_color": "2b0606",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.30",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.85"
+      "minecraft:visual/fog_color": "#d90429",
+      "minecraft:visual/sky_color": "#3b040e",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.68",
+      "visual/fog_color": "#d90429",
+      "visual/sky_color": "#3b040e",
+      "visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "visual/fog_end_distance": "c.viewDistance() * 0.68"
     }
   }
 }

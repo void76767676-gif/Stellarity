@@ -1,10 +1,19 @@
 {
+  "targets": ".*:ender_wastes",
+  "fog_color": "#5c3d75",
+  "sky_color": "#201130",
+  "fog_start": 0.14,
+  "fog_end": 0.78,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "5c3d75",
-      "minecraft:visual/sky_color": "10081a",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.38",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.90"
+      "minecraft:visual/fog_color": "#5c3d75",
+      "minecraft:visual/sky_color": "#201130",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.14",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.78",
+      "visual/fog_color": "#5c3d75",
+      "visual/sky_color": "#201130",
+      "visual/fog_start_distance": "c.viewDistance() * 0.14",
+      "visual/fog_end_distance": "c.viewDistance() * 0.78"
     }
   }
 }

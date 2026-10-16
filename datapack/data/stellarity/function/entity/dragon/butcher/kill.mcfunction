@@ -1,7 +1,11 @@
 kill @s
 
-# fixed workaround for incorrect clearing of end portal
-  execute positioned 0 250 0 run fill ~3 ~ ~3 ~-3 ~15 ~-3 air strict
+# Purge vanilla bedrock portal fountain
+  execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:bedrock
+  execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:end_portal
+  execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:torch
+  execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:dragon_egg
+  execute in minecraft:the_end positioned 0.5 61 0.5 run function stellarity:structure/exit_portal/deactivated/generate
 
 # Clear any vanilla End Gateways
 # 20 total, so 20 somewhat laggy /fill commands

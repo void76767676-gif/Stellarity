@@ -1,10 +1,19 @@
 {
+  "targets": ".*:flesh_tundra",
+  "fog_color": "#8a1c36",
+  "sky_color": "#2b060f",
+  "fog_start": 0.08,
+  "fog_end": 0.65,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "8a1c36",
-      "minecraft:visual/sky_color": "1e0009",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.25",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.80"
+      "minecraft:visual/fog_color": "#8a1c36",
+      "minecraft:visual/sky_color": "#2b060f",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.08",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.65",
+      "visual/fog_color": "#8a1c36",
+      "visual/sky_color": "#2b060f",
+      "visual/fog_start_distance": "c.viewDistance() * 0.08",
+      "visual/fog_end_distance": "c.viewDistance() * 0.65"
     }
   }
 }

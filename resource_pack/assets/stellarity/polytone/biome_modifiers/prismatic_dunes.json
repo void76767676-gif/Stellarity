@@ -1,10 +1,19 @@
 {
+  "targets": ".*:prismatic_dunes",
+  "fog_color": "#e8b4f8",
+  "sky_color": "#48cae4",
+  "fog_start": 0.1,
+  "fog_end": 0.7,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "f3c68f",
-      "minecraft:visual/sky_color": "3a1c54",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.40",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.94"
+      "minecraft:visual/fog_color": "#e8b4f8",
+      "minecraft:visual/sky_color": "#48cae4",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.7",
+      "visual/fog_color": "#e8b4f8",
+      "visual/sky_color": "#48cae4",
+      "visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "visual/fog_end_distance": "c.viewDistance() * 0.7"
     }
   }
 }

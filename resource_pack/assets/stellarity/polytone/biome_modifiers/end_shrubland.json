@@ -1,10 +1,19 @@
 {
+  "targets": ".*:end_shrubland",
+  "fog_color": "#3b2d54",
+  "sky_color": "#1a1228",
+  "fog_start": 0.12,
+  "fog_end": 0.75,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "3b2d54",
-      "minecraft:visual/sky_color": "1c152b",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * (0.32 + clamp((c.y() - 100) / 300.0, 0.0, 0.20))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (0.82 + clamp((c.y() - 100) / 350.0, 0.0, 0.12))"
+      "minecraft:visual/fog_color": "#3b2d54",
+      "minecraft:visual/sky_color": "#1a1228",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.75",
+      "visual/fog_color": "#3b2d54",
+      "visual/sky_color": "#1a1228",
+      "visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "visual/fog_end_distance": "c.viewDistance() * 0.75"
     }
   }
 }

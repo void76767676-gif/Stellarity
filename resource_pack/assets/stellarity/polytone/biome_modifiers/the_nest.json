@@ -1,10 +1,19 @@
 {
+  "targets": ".*:the_nest",
+  "fog_color": "#483434",
+  "sky_color": "#1c1212",
+  "fog_start": 0.1,
+  "fog_end": 0.68,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "483434",
-      "minecraft:visual/sky_color": "150e18",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.26",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.82"
+      "minecraft:visual/fog_color": "#483434",
+      "minecraft:visual/sky_color": "#1c1212",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.68",
+      "visual/fog_color": "#483434",
+      "visual/sky_color": "#1c1212",
+      "visual/fog_start_distance": "c.viewDistance() * 0.1",
+      "visual/fog_end_distance": "c.viewDistance() * 0.68"
     }
   }
 }

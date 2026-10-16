@@ -10,5 +10,5 @@ execute as @a[predicate=stellarity:location/in_the_end] at @s run playsound stel
 # Apply Darkness post-effect for 15 seconds (hideParticles=true)
 effect give @a[predicate=stellarity:location/in_the_end] minecraft:darkness 15 0 true
 
-# Apply screen vignette shader post-effect (26.3+)
-execute as @a[predicate=stellarity:location/in_the_end] run posteffect add @s custom:vignette
+# Apply screen vignette shader post-effect (Phase 1: soft intro)
+execute as @a[predicate=stellarity:location/in_the_end] run posteffect add @s custom:void_focus_phase1

@@ -3,7 +3,7 @@
   "initializer": {
     "lifetime": "60 + 30 * rand()",
     "alpha": "0.1",
-    "size": "0.32 + 0.1 * rand()",
+    "size": "0.65 + 0.15 * rand()",
     "custom": "rand() * 2 * pi"
   },
   "ticker": {

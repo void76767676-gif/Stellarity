@@ -104,3 +104,4 @@ tools/validator/__pycache__/mojang.cpython-314.pyc
 
 #posteffect
 glsl-show/*
+scripts/polytone_validator.py

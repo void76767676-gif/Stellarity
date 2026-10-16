@@ -1,10 +1,19 @@
 {
+  "targets": ".*:warped_marsh",
+  "fog_color": "#16c79a",
+  "sky_color": "#0f3057",
+  "fog_start": 0.08,
+  "fog_end": 0.65,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "16c79a",
-      "minecraft:visual/sky_color": "0b2545",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.28",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.82"
+      "minecraft:visual/fog_color": "#16c79a",
+      "minecraft:visual/sky_color": "#0f3057",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.08",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.65",
+      "visual/fog_color": "#16c79a",
+      "visual/sky_color": "#0f3057",
+      "visual/fog_start_distance": "c.viewDistance() * 0.08",
+      "visual/fog_end_distance": "c.viewDistance() * 0.65"
     }
   }
 }

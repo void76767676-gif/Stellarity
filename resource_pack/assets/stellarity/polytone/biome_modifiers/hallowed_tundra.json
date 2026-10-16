@@ -1,10 +1,19 @@
 {
+  "targets": ".*:hallowed_tundra",
+  "fog_color": "#d8e2dc",
+  "sky_color": "#3b4a54",
+  "fog_start": 0.12,
+  "fog_end": 0.76,
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "d8e2dc",
-      "minecraft:visual/sky_color": "1d2238",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.38",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.92"
+      "minecraft:visual/fog_color": "#d8e2dc",
+      "minecraft:visual/sky_color": "#3b4a54",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.76",
+      "visual/fog_color": "#d8e2dc",
+      "visual/sky_color": "#3b4a54",
+      "visual/fog_start_distance": "c.viewDistance() * 0.12",
+      "visual/fog_end_distance": "c.viewDistance() * 0.76"
     }
   }
 }

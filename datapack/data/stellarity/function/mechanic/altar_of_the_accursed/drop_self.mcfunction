@@ -1,6 +1,7 @@
 # Release all items orbiting this altar
-execute at @s as @e[type=item,distance=..3.0] at @s run data merge entity @s {NoGravity:0b,PickupDelay:0s,Age:0s,Motion:[0.0,0.15,0.0]}
+execute at @s as @e[type=item,distance=..3.0] at @s run data merge entity @s {NoGravity:0b,PickupDelay:0s,Age:0s,Glowing:0b,Motion:[0.0,0.15,0.0]}
 execute at @s as @e[type=item,distance=..3.0] run tag @s remove stellarity.altar.captured
+execute at @s as @e[type=item,distance=..3.0] run tag @s remove stellarity.altar.init
 execute at @s as @e[type=item,distance=..3.0] run tag @s remove stellarity.altar.slotted
 execute at @s as @e[type=item,distance=..3.0] run tag @s remove stellarity.altar.slot1
 execute at @s as @e[type=item,distance=..3.0] run tag @s remove stellarity.altar.slot2

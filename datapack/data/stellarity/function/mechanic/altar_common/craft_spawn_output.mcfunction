@@ -19,6 +19,12 @@ execute if data storage stellarity:temp {altar:{craft:{type:"hallowed_elytra"}}}
 # Dye Elytra craft
 execute if data storage stellarity:temp {altar:{craft:{type:"dye_elytra"}}} run function stellarity:mechanic/altar_of_the_accursed/crafting/dye_elytra/finish_color with storage stellarity:temp altar.craft
 
+# Trim Elytra craft
+$execute if data storage stellarity:temp {altar:{craft:{type:"trim_elytra"}}} run data modify entity @n[type=item,tag=stellarity.altar_of_the_accursed.minecraft.elytra,distance=..2.5] Item.components."minecraft:trim" set value {pattern:"$(pattern)",material:"$(material)"}
+execute if data storage stellarity:temp {altar:{craft:{type:"trim_elytra"}}} as @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.elytra,limit=1] run data merge entity @s {PickupDelay:0s,NoGravity:0b,Age:0s}
+execute if data storage stellarity:temp {altar:{craft:{type:"trim_elytra"}}} run playsound minecraft:item.smithing_table.use block @a ~ ~0.5 ~ 1.0 1.0
+execute if data storage stellarity:temp {altar:{craft:{type:"trim_elytra"}}} run particle minecraft:wax_on ~ ~0.5 ~ 0.2 0.2 0.2 0.05 16 normal
+
 # Special crafts
 execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/material/enderite_smithing_template
 execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/material/enderite_smithing_template

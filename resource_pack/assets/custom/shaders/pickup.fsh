@@ -6,11 +6,6 @@
 uniform sampler2D In;
 uniform sampler2D Glow;
 
-uniform float Time;
-uniform float Progress;    // 0..1 — появление → затухание
-uniform float Intensity;   // 0..1 — общая сила
-uniform vec3  GlowColor;
-
 layout(std140) uniform SamplerInfo {
     vec2 OutSize;
     vec2 InSize;
@@ -24,18 +19,18 @@ void main() {
 
     // Лёгкая пульсация и центрирование спрайта
     vec2 uv = texCoord - 0.5;
-    float pulse = 1.0 + sin(Time * 4.0) * 0.04;
+    float pulse = 1.0 + sin(GameTime * 5.0) * 0.03;
     uv /= pulse;
     uv += 0.5;
 
-    // 0 → 1 → 0
-    float fade = sin(clamp(Progress, 0.0, 1.0) * 3.14159265);
-
-    vec4 glow = texture(Glow, uv);
-    vec3 add  = glow.rgb * GlowColor * Intensity * fade;
+    // Вспышка сияния
+    vec4 glowTex = texture(Glow, uv);
+    vec3 glowColor = vec3(1.0, 0.88, 0.60);
+    float wave = 0.5 + 0.5 * sin(GameTime * 6.0);
+    vec3 add = glowTex.rgb * glowColor * wave * 0.65;
 
     // Аддитивно
-    vec3 color = scene.rgb + add * glow.a;
+    vec3 color = scene.rgb + add * glowTex.a;
 
     fragColor = vec4(color, scene.a);
 }

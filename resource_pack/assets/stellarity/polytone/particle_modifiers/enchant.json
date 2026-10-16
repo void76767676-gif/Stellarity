@@ -2,5 +2,5 @@
   "targets": [
     "minecraft:enchant"
   ],
-  "size": "SIZE * 1.25 + 0.1"
+  "size": "SIZE * 2.2 + 0.3"
 }
