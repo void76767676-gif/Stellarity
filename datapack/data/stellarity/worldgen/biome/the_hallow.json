@@ -3,8 +3,8 @@
   "downfall": 0.6,
   "has_precipitation": false,
   "attributes": {
-    "visual/sky_color": 5100001,
-    "visual/fog_color": 16295362,
+    "visual/sky_color": 4770532,
+    "visual/fog_color": 16167122,
     "visual/water_fog_color": 15034111,
     "audio/ambient_sounds": {
       "loop": {
@@ -105,7 +105,8 @@
   "effects": {
     "water_color": 15368447,
     "grass_color": 6078719,
-    "foliage_color": 5819646
+    "foliage_color": 5819646,
+    "dry_foliage_color": 16106678
   },
   "carvers": [
     "stellarity:the_hallow/cave",

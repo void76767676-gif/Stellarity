@@ -1,0 +1,36 @@
+{
+  "type": "custom",
+  "initializer": {
+    "lifetime": "25 + 10 * rand()",
+    "size": "2.2 + 0.8 * rand()",
+    "alpha": "0.95",
+    "dx": "-1.8 - rand() * 0.8",
+    "dy": "-0.15 - rand() * 0.1",
+    "dz": "0.6 + rand() * 0.4",
+    "hitbox_size": 0.3
+  },
+  "ticker": {
+    "dx": "DX",
+    "dy": "DY",
+    "dz": "DZ",
+    "alpha": "0.95 * sin((pi / LIFETIME) * AGE)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 90"
+  },
+  "lit": true,
+  "light_level": 15,
+  "render_type": "additive_translucent",
+  "rotation_mode": "movement_aligned",
+  "has_physics": false,
+  "particle_emitters": [
+    {
+      "particle": "stellarity:celestial_spark",
+      "chance": "0.65",
+      "x": "0",
+      "y": "0",
+      "z": "0",
+      "dx": "DX * 0.15",
+      "dy": "DY * 0.15",
+      "dz": "DZ * 0.15"
+    }
+  ]
+}

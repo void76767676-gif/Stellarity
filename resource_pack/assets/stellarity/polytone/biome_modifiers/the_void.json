@@ -1,11 +1,10 @@
 {
-  "targets": ".*:the_void",
   "attributes_modifiers": {
     "base": {
-      "minecraft:visual/fog_color": "'000000'",
-      "minecraft:visual/sky_color": "'000000'",
+      "minecraft:visual/fog_color": "000000",
+      "minecraft:visual/sky_color": "000000",
       "minecraft:visual/fog_start_distance": "0.0",
-      "minecraft:visual/fog_end_distance": "c.y() < -1 ? 14.0 : c.viewDistance() * 0.40"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.40"
     }
   }
 }

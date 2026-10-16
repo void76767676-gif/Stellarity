@@ -8,7 +8,7 @@
   "particle_emitters": [
     {
       "particle": "minecraft:lava",
-      "chance": "0.015 * (DISTANCE_SQUARED < 256)",
+      "chance": 0.015,
       "x": "0.5 + (r.rand() - 0.5) * 0.7",
       "y": "1.0",
       "z": "0.5 + (r.rand() - 0.5) * 0.7",
@@ -18,13 +18,20 @@
     },
     {
       "particle": "minecraft:smoke",
-      "chance": "0.02 * (DISTANCE_SQUARED < 196)",
+      "chance": 0.02,
       "x": "0.5 + (r.rand() - 0.5) * 0.6",
       "y": "1.0",
       "z": "0.5 + (r.rand() - 0.5) * 0.6",
       "dx": "0.0",
       "dy": "0.02",
       "dz": "0.0"
+    },
+    {
+      "particle": "stellarity:ash_cinder",
+      "chance": 0.02,
+      "x": "0.5 + (r.rand() - 0.5) * 0.7",
+      "y": "1.0",
+      "z": "0.5 + (r.rand() - 0.5) * 0.7"
     }
   ]
 }

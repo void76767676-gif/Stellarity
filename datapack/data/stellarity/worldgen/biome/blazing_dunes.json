@@ -3,7 +3,7 @@
   "downfall": 0.4,
   "has_precipitation": false,
   "attributes": {
-    "visual/sky_color": 4000770,
+    "visual/sky_color": 4002568,
     "visual/fog_color": 16219904,
     "visual/water_fog_color": 14034984,
     "audio/ambient_sounds": {
@@ -34,7 +34,8 @@
     }
   },
   "effects": {
-    "water_color": 4159204
+    "water_color": 4159204,
+    "dry_foliage_color": 14452002
   },
   "carvers": [],
   "features": [

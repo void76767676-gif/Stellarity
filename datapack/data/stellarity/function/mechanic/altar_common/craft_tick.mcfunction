@@ -4,6 +4,11 @@ scoreboard players remove @s stellarity.altar.craft_progress 1
 # Finish craft when countdown reaches 0
 execute if score @s stellarity.altar.craft_progress matches ..0 run return run function stellarity:mechanic/altar_common/craft_finish
 
+# Safety check: if all ingredient items disappeared (e.g. killed, picked up, or voided), reset crafting state
+execute unless entity @e[type=item,distance=..3.0,tag=stellarity.altar.in_craft] run scoreboard players reset @s stellarity.altar.craft_progress
+execute unless entity @e[type=item,distance=..3.0,tag=stellarity.altar.in_craft] run data remove storage stellarity:temp altar.craft
+execute unless entity @e[type=item,distance=..3.0,tag=stellarity.altar.in_craft] run return 0
+
 # Accelerated spin during inward pull
 tp @s ~ ~ ~ ~7.5 ~
 

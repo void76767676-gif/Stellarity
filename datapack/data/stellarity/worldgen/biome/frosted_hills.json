@@ -34,7 +34,8 @@
     }
   },
   "effects": {
-    "water_color": 4159204
+    "water_color": 4159204,
+    "dry_foliage_color": 11523035
   },
   "carvers": [],
   "features": [

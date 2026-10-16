@@ -25,7 +25,7 @@
           # Post generation for Altar of the Accursed
             # Can't really do it with pure Worldgen sadly
               # Or I could, but definitely not in the way I would want to
-                execute if entity @s[tag=!stellarity.post_gen.initialized] in minecraft:the_end run function stellarity:post_gen/initialize
+                execute unless score #stellarity.post_gen.initialized stellarity.misc matches 1 if entity @s[tag=!stellarity.post_gen.initialized] in minecraft:the_end run function stellarity:post_gen/initialize
 
               # Dragon Screenshake
                 execute if entity @s[tag=stellarity.respawn_dragon] as @a[tag=stellarity.dragon.screenshake] at @s run function stellarity:entity/dragon/spawn/screenshake/tick_up

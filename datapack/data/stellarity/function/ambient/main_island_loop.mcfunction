@@ -8,5 +8,5 @@ execute unless entity @s[tag=stellarity.ambient.main_island.looping] run scorebo
 tag @s add stellarity.ambient.main_island.looping
 
 scoreboard players add @s stellarity.ambient.loop_timer 1
-execute if score @s stellarity.ambient.loop_timer matches 64.. run playsound stellarity:ambient.main_island.pre_dragon_loop ambient @s ~ ~ ~ 1.0 1.0
-execute if score @s stellarity.ambient.loop_timer matches 64.. run scoreboard players set @s stellarity.ambient.loop_timer 0
+execute if score @s stellarity.ambient.loop_timer matches 1280.. run playsound stellarity:ambient.main_island.pre_dragon_loop ambient @s ~ ~ ~ 1.0 1.0
+execute if score @s stellarity.ambient.loop_timer matches 1280.. run scoreboard players set @s stellarity.ambient.loop_timer 0

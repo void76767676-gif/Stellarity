@@ -1,0 +1,19 @@
+{
+  "type": "custom",
+  "initializer": {
+    "lifetime": "14 + 8 * rand()",
+    "alpha": "0.1",
+    "size": "0.18 + 0.12 * rand()",
+    "red": "0.85 + 0.1 * rand()",
+    "green": "0.82 + 0.1 * rand()",
+    "blue": "0.98",
+    "roll": "rand() * 2 * pi"
+  },
+  "ticker": {
+    "dy": "0.018",
+    "alpha": "0.55 * sin((pi / LIFETIME) * AGE)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 24"
+  },
+  "render_type": "translucent",
+  "has_physics": true
+}

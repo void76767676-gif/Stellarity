@@ -1,0 +1,7 @@
+{
+  "targets": [
+    "minecraft:portal",
+    "minecraft:reverse_portal"
+  ],
+  "size": "SIZE * 1.35 + 0.2"
+}

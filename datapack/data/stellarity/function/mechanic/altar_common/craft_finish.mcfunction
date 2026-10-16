@@ -7,7 +7,7 @@ playsound minecraft:item.trident.thunder block @a[distance=0..] ~ ~-.4 ~ 1.0 1.1
 playsound stellarity:misc.victory_core_bling block @a[distance=0..] ~ ~-.4 ~ 0.85 1.0
 
 # 2. Consume the ingredients
-    kill @e[type=item,distance=..2.2,tag=stellarity.altar.in_craft]
+    kill @e[type=item,distance=..3.0,tag=stellarity.altar.in_craft]
 
 # 3. Spawn output item & apply modifications
     function stellarity:mechanic/altar_common/craft_spawn_output with storage stellarity:temp altar.craft

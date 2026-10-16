@@ -3,8 +3,8 @@
   "downfall": 0.9,
   "has_precipitation": false,
   "attributes": {
-    "visual/sky_color": 1710628,
-    "visual/fog_color": 6050928,
+    "visual/sky_color": 1709846,
+    "visual/fog_color": 6050383,
     "visual/water_fog_color": 3485508,
     "audio/ambient_sounds": {
       "loop": {

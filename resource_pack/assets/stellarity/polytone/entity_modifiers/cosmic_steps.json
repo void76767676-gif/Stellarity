@@ -1,0 +1,15 @@
+{
+  "targets": [
+    "minecraft:player"
+  ],
+  "emitters": [
+    {
+      "particle": "stellarity:cosmic_dust",
+      "chance": "(g.skyType() == 3 && p.onGround() && p.speedSq() > 0.02) ? 0.75 : 0.0",
+      "count": 1,
+      "x": "r.rand(-0.25, 0.25)",
+      "y": "0.05",
+      "z": "r.rand(-0.25, 0.25)"
+    }
+  ]
+}

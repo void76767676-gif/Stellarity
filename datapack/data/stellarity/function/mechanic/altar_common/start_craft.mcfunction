@@ -1,5 +1,8 @@
+# Prevent re-triggering if craft convergence is already active
+execute if score @s stellarity.altar.craft_progress matches 1.. run return 0
+
 # Starts the 1-second (20 ticks) altar crafting convergence sequence
-    scoreboard players set @s stellarity.altar.craft_progress 20
+scoreboard players set @s stellarity.altar.craft_progress 20
 
 # Tag all ingredient items to pull them in
     tag @e[type=item,distance=..2.2,tag=!stellarity.altar.skip] add stellarity.altar.in_craft

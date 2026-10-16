@@ -380,11 +380,20 @@
   team add stellarity.purple_glow
   team modify stellarity.purple_glow color dark_purple
 
+  team add stellarity.bright_purple_glow
+  team modify stellarity.bright_purple_glow color light_purple
+
 team add stellarity.golden_glow
 team modify stellarity.golden_glow color gold
 
+team add stellarity.yellow_glow
+team modify stellarity.yellow_glow color yellow
+
 team add stellarity.spirit_glow
 team modify stellarity.spirit_glow color aqua
+
+scoreboard objectives add stellarity.altar_id dummy
+scoreboard objectives add stellarity.altar_items dummy
 
 team add stellarity.homing_targets
 team modify stellarity.homing_targets color aqua

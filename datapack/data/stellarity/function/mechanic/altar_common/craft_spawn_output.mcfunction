@@ -22,10 +22,13 @@ execute if data storage stellarity:temp {altar:{craft:{type:"dye_elytra"}}} run 
 # Special crafts
 execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/material/enderite_smithing_template
 execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/material/enderite_smithing_template
-execute if data storage stellarity:temp {altar:{craft:{type:"endonomicon"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/spellbook/endonomicon
+execute if data storage stellarity:temp {altar:{craft:{type:"endonomicon"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/book/endonomicon
 execute if data storage stellarity:temp {altar:{craft:{type:"call_of_the_void"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/weapon/call_of_the_void
 execute if data storage stellarity:temp {altar:{craft:{type:"void_pendant"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/trinket/void_pendant
 
 # Mark newly spawned items so they can be picked up freely
-tag @e[type=item,distance=..2.0,tag=!stellarity.altar_of_the_accursed.checked_type] add stellarity.altar_of_the_accursed.skip
-tag @e[type=item,distance=..2.0] remove stellarity.altar.in_craft
+tag @e[type=item,distance=..2.5,tag=!stellarity.altar_of_the_accursed.checked_type] add stellarity.altar_of_the_accursed.skip
+tag @e[type=item,distance=..2.5,tag=!stellarity.altar_of_the_accursed.checked_type] add stellarity.altar.skip
+execute as @e[type=item,distance=..2.5,tag=stellarity.altar.skip] run data merge entity @s {PickupDelay:0s,NoGravity:0b}
+tag @e[type=item,distance=..2.5] remove stellarity.altar.in_craft
+tag @e[type=item,distance=..2.5] remove stellarity.altar.captured

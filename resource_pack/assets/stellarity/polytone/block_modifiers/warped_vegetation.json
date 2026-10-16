@@ -6,14 +6,11 @@
   ],
   "particle_emitters": [
     {
-      "particle": "minecraft:warped_spore",
-      "chance": "0.02 * (DISTANCE_SQUARED < 256)",
+      "particle": "stellarity:warped_spore",
+      "chance": 0.025,
       "x": "0.5 + (r.rand() - 0.5) * 0.7",
       "y": "0.95 + r.rand() * 0.1",
-      "z": "0.5 + (r.rand() - 0.5) * 0.7",
-      "dx": "(r.rand() - 0.5) * 0.01",
-      "dy": "0.015 + r.rand() * 0.02",
-      "dz": "(r.rand() - 0.5) * 0.01"
+      "z": "0.5 + (r.rand() - 0.5) * 0.7"
     }
   ]
 }

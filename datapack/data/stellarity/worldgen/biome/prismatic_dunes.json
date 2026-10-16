@@ -58,7 +58,8 @@
   "effects": {
     "water_color": 15368447,
     "grass_color": 6078719,
-    "foliage_color": 5819646
+    "foliage_color": 5819646,
+    "dry_foliage_color": 15252876
   },
   "carvers": [],
   "features": [

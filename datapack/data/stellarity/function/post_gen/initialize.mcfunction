@@ -1,4 +1,5 @@
 tag @s[type=marker] add stellarity.post_gen.initialized
+scoreboard players set #stellarity.post_gen.initialized stellarity.misc 1
 
 place template stellarity:altar_of_the_accursed 42 67 -48 none none 1 666
 
@@ -9,5 +10,3 @@ execute positioned 7 60 0 run summon marker ~ ~0.5 ~ {Tags:["stellarity.dragons_
 
 scoreboard players set #stellarity.exit_gateway_count stellarity.misc 0
 
-# Final cleanup: force place custom exit portal and purge vanilla bedrock/egg above it
-function stellarity:structure/exit_portal/final_cleanup

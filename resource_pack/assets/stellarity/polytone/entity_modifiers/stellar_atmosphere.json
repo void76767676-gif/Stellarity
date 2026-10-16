@@ -1,0 +1,61 @@
+{
+  "targets": [
+    "minecraft:player"
+  ],
+  "emitters": [
+    {
+      "particle": "stellarity:celestial_spark",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:the_hallow' || o.biome() == 'stellarity:hallowed_tundra') ? 0.35 : 0.0",
+      "count": "10",
+      "x": "r.rand(-16.0, 16.0)",
+      "y": "r.rand(-3.0, 10.0)",
+      "z": "r.rand(-16.0, 16.0)"
+    },
+    {
+      "particle": "stellarity:warped_spore",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:warped_marsh') ? 0.38 : 0.0",
+      "count": "14",
+      "x": "r.rand(-18.0, 18.0)",
+      "y": "r.rand(-2.0, 12.0)",
+      "z": "r.rand(-18.0, 18.0)"
+    },
+    {
+      "particle": "stellarity:void_wisp",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:the_void') ? 0.42 : 0.0",
+      "count": "12",
+      "x": "r.rand(-18.0, 18.0)",
+      "y": "r.rand(0.0, 14.0)",
+      "z": "r.rand(-18.0, 18.0)"
+    },
+    {
+      "particle": "stellarity:amethyst_spark",
+      "max_distance": 30,
+      "chance": "(o.biome() == 'stellarity:amethyst_forest') ? 0.32 : 0.0",
+      "count": "8",
+      "x": "r.rand(-15.0, 15.0)",
+      "y": "r.rand(-2.0, 10.0)",
+      "z": "r.rand(-15.0, 15.0)"
+    },
+    {
+      "particle": "stellarity:ash_cinder",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:ashfall_deltas' || o.biome() == 'stellarity:fiery_hills') ? 0.45 : 0.0",
+      "count": "18",
+      "x": "r.rand(-18.0, 18.0)",
+      "y": "r.rand(-2.0, 12.0)",
+      "z": "r.rand(-18.0, 18.0)"
+    },
+    {
+      "particle": "stellarity:warped_spore",
+      "max_distance": 30,
+      "chance": "(o.biome() == 'stellarity:prismarine_forest') ? 0.30 : 0.0",
+      "count": "10",
+      "x": "r.rand(-15.0, 15.0)",
+      "y": "r.rand(-2.0, 10.0)",
+      "z": "r.rand(-15.0, 15.0)"
+    }
+  ]
+}

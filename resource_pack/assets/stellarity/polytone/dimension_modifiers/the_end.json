@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:the_end"
+  ],
+  "skybox": "end",
+  "no_weather_fog_darken": true,
+  "no_weather_sky_darken": true
+}

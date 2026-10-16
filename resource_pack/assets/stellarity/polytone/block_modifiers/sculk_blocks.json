@@ -9,7 +9,7 @@
   "particle_emitters": [
     {
       "particle": "minecraft:sculk_soul",
-      "chance": "0.012 * (DISTANCE_SQUARED < 256)",
+      "chance": 0.012,
       "x": "0.5 + (r.rand() - 0.5) * 0.7",
       "y": "0.95 + r.rand() * 0.1",
       "z": "0.5 + (r.rand() - 0.5) * 0.7",
@@ -19,13 +19,20 @@
     },
     {
       "particle": "minecraft:sculk_charge_pop",
-      "chance": "0.005 * (DISTANCE_SQUARED < 144)",
+      "chance": 0.005,
       "x": "0.5 + (r.rand() - 0.5) * 0.6",
       "y": "1.0",
       "z": "0.5 + (r.rand() - 0.5) * 0.6",
       "dx": "0.0",
       "dy": "0.02",
       "dz": "0.0"
+    },
+    {
+      "particle": "stellarity:void_wisp",
+      "chance": 0.008,
+      "x": "0.5 + (r.rand() - 0.5) * 0.7",
+      "y": "0.95 + r.rand() * 0.1",
+      "z": "0.5 + (r.rand() - 0.5) * 0.7"
     }
   ]
 }

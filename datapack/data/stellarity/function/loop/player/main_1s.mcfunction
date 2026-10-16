@@ -13,6 +13,7 @@
 
 
 execute if entity @s[scores={stellarity.item.satchel_of_voids.cooldown=0..}] run scoreboard players remove @s stellarity.item.satchel_of_voids.cooldown 1
+execute if predicate stellarity:item/holding/satchel_of_voids if score @s stellarity.item.satchel_of_voids.cooldown matches 1.. run title @s actionbar [{"text":"• ","color":"#404040"},{"text":"🎒 ","color":"#AA00AA"},{"translate":"item.stellarity.satchel_of_voids"},{"text":": ","color":"#AAAAAA"},{"score":{"name":"@s","objective":"stellarity.item.satchel_of_voids.cooldown"},"color":"#D070FF"},{"text":"s","color":"#888888"},{"text":" •","color":"#404040"}]
 
 execute if entity @s[scores={stellarity.item.harvester.cryonics.cooldown=0..}] run scoreboard players remove @s stellarity.item.harvester.cryonics.cooldown 1
 

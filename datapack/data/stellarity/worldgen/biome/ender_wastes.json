@@ -71,11 +71,10 @@
   "effects": {
     "water_color": 5261169,
     "grass_color": 4994644,
-    "foliage_color": 5585503
+    "foliage_color": 5585503,
+    "dry_foliage_color": 8415372
   },
-  "carvers": [
-    "stellarity:the_hallow/crevice"
-  ],
+  "carvers": [],
   "features": [
     [
       "stellarity:global/stalactite",
@@ -93,11 +92,7 @@
     ],
     [
       "stellarity:global/end_dungeon",
-      "stellarity:global/fossil",
-      "stellarity:ender_wastes/obsidian_spires",
-      "stellarity:ender_wastes/bone_outcrops",
-      "stellarity:ender_wastes/crying_fissures"
-    ],
-    []
+      "stellarity:global/fossil"
+    ]
   ]
 }

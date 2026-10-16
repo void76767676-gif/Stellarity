@@ -4,7 +4,7 @@
   "has_precipitation": false,
   "attributes": {
     "visual/sky_color": 0,
-    "visual/fog_color": 328714,
+    "visual/fog_color": 0,
     "visual/water_fog_color": 131332,
     "audio/ambient_sounds": {
       "loop": {
@@ -53,7 +53,8 @@
   "effects": {
     "water_color": 6443678,
     "grass_color": 5782142,
-    "foliage_color": 6240114
+    "foliage_color": 6240114,
+    "dry_foliage_color": 3289650
   },
   "carvers": [],
   "features": [

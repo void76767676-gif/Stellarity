@@ -83,7 +83,8 @@
   "effects": {
     "water_color": 4445678,
     "grass_color": 9551690,
-    "foliage_color": 7712284
+    "foliage_color": 7712284,
+    "dry_foliage_color": 13807204
   },
   "carvers": [
     "stellarity:ravine",

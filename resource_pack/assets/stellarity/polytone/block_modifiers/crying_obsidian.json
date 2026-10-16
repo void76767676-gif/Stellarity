@@ -6,7 +6,7 @@
   "particle_emitters": [
     {
       "particle": "minecraft:dripping_obsidian_tear",
-      "chance": "0.08 * (DISTANCE_SQUARED < 256)",
+      "chance": 0.08,
       "x": "0.5 + (r.rand() - 0.5) * 0.8",
       "y": "0.1",
       "z": "0.5 + (r.rand() - 0.5) * 0.8",
@@ -16,7 +16,7 @@
     },
     {
       "particle": "minecraft:reverse_portal",
-      "chance": "0.03 * (DISTANCE_SQUARED < 196)",
+      "chance": 0.03,
       "x": "0.5 + (r.rand() - 0.5) * 0.9",
       "y": "0.5 + (r.rand() - 0.5) * 0.9",
       "z": "0.5 + (r.rand() - 0.5) * 0.9",

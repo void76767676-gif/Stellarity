@@ -4,6 +4,6 @@ execute unless entity @s[tag=stellarity.satchel_of_voids] run function stellarit
 execute if entity @s[tag=stellarity.satchel_of_voids,tag=!stellarity.satchel_of_voids.stationary] run function stellarity:item/satchel_of_voids/visuals/sigil
 execute if entity @s[tag=stellarity.satchel_of_voids,tag=stellarity.satchel_of_voids.stationary] run function stellarity:item/satchel_of_voids/visuals/stationary
 
-execute if score @s stellarity.misc.loop.1s matches 20 run function stellarity:mechanic/altar_of_the_accursed/loop_1s
+execute unless score @s stellarity.altar.craft_progress matches 1.. if score @s stellarity.misc.loop.1s matches 20 run function stellarity:mechanic/altar_of_the_accursed/loop_1s
 
 function stellarity:mechanic/altar_common/orbit_loop

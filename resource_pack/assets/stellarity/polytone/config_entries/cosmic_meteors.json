@@ -1,0 +1,11 @@
+{
+  "default_value": "§aON",
+  "allowed_values": [
+    "§aON",
+    "§cOFF"
+  ],
+  "presets": {
+    "high_quality": "§aON",
+    "potato": "§cOFF"
+  }
+}

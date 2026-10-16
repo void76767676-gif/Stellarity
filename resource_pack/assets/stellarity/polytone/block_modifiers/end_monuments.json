@@ -9,7 +9,7 @@
   "particle_emitters": [
     {
       "particle": "minecraft:portal",
-      "chance": "0.01 * (DISTANCE_SQUARED < 225)",
+      "chance": 0.01,
       "x": "0.5 + (r.rand() - 0.5) * 0.7",
       "y": "0.5 + (r.rand() - 0.5) * 0.7",
       "z": "0.5 + (r.rand() - 0.5) * 0.7",
