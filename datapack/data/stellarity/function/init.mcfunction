@@ -66,6 +66,7 @@
       scoreboard objectives add stellarity.config.enable_dragonblade dummy
       scoreboard objectives add stellarity.config.enable_harvester dummy
       scoreboard objectives add stellarity.config.enable_kaleidoscope dummy
+      scoreboard objectives add stellarity.config.enable_radiant_kaleidoscope dummy
       scoreboard objectives add stellarity.config.enable_prismember dummy
       scoreboard objectives add stellarity.config.enable_fluffy_hammer_of_justice dummy
       scoreboard objectives add stellarity.config.enable_the_beginning dummy
@@ -242,6 +243,21 @@
           # Kaleidoscope
             scoreboard objectives add stellarity.item.kaleidoscope.charge dummy
             scoreboard objectives add stellarity.item.kaleidoscope.charge_progress dummy
+
+          # Radiant Kaleidoscope
+            scoreboard objectives add stellarity.item.rk.cooldown dummy
+            scoreboard objectives add stellarity.item.rk.cooldown_initialized dummy
+            scoreboard objectives add stellarity.item.rk.mark_rank dummy
+            scoreboard objectives add stellarity.item.rk.mark_timer dummy
+            scoreboard objectives add stellarity.item.rk.mark_phase dummy
+            scoreboard objectives add stellarity.item.rk.phase_timer dummy
+            scoreboard objectives add stellarity.item.rk.crown_angle dummy
+            scoreboard objectives add stellarity.item.rk.charge_shift dummy
+            scoreboard objectives add stellarity.item.rk.shield_timer dummy
+            scoreboard objectives add stellarity.item.rk.recovery dummy
+            scoreboard objectives add stellarity.item.rk.low_energy_cd dummy
+            scoreboard objectives add stellarity.item.rk.swing_prev dummy
+            scoreboard objectives add stellarity.item.rk.hit_prev dummy
 
           # Prismatic Pearl
             scoreboard objectives add stellarity.item.prismatic_pearl.cooldown dummy
@@ -431,6 +447,22 @@ team modify ste_cos.cyan_glow color dark_aqua
 team add ste_cos.anim_crystal
 team modify ste_cos.anim_crystal color light_purple
 team modify ste_cos.anim_crystal collisionRule never
+
+# Radiant Kaleidoscope Glowing Teams
+team add stellarity.rk.red_glow
+team modify stellarity.rk.red_glow color red
+team add stellarity.rk.gold_glow
+team modify stellarity.rk.gold_glow color gold
+team add stellarity.rk.yellow_glow
+team modify stellarity.rk.yellow_glow color yellow
+team add stellarity.rk.green_glow
+team modify stellarity.rk.green_glow color green
+team add stellarity.rk.aqua_glow
+team modify stellarity.rk.aqua_glow color aqua
+team add stellarity.rk.blue_glow
+team modify stellarity.rk.blue_glow color blue
+team add stellarity.rk.purple_glow
+team modify stellarity.rk.purple_glow color light_purple
 
 scoreboard objectives add ste_cos.stage dummy
 scoreboard objectives add ste_cos.flags dummy

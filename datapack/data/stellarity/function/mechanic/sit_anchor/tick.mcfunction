@@ -1,4 +1,4 @@
-# Sit near Respawn Anchor - tick loop
+# Sit on Respawn Anchor - tick loop
 
 # Despawn anchor marker if block was removed
 execute as @e[type=marker,tag=stellarity.respawn_anchor] at @s unless block ~ ~ ~ respawn_anchor run kill @s
@@ -7,7 +7,10 @@ execute as @e[type=marker,tag=stellarity.respawn_anchor] at @s unless block ~ ~ 
 execute as @e[type=block_display,tag=stellarity.anchor_seat] at @s unless entity @a[distance=..1.5] run kill @s
 execute as @e[type=block_display,tag=stellarity.anchor_seat] at @s if block ~ ~-0.1 ~ air run kill @s
 
-# Seated players tick (healing & dismount check)
+# Ambient glowstone dust particles from charged anchors (charges=1..4)
+execute as @e[type=marker,tag=stellarity.respawn_anchor] at @s if block ~ ~ ~ respawn_anchor[charges=1..4] run particle minecraft:dust{color:[1.0, 0.88, 0.28], scale:0.75} ~0.5 ~1.05 ~0.5 0.18 0.05 0.18 0.01 1 normal @a
+
+# Seated players tick (healing, charge consumption & dismount check)
 execute as @a[tag=stellarity.sitting_anchor] at @s run function stellarity:mechanic/sit_anchor/seated_tick
 
 # Enable /trigger sit for unseated players

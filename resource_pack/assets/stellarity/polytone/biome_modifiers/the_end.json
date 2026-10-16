@@ -4,8 +4,8 @@
     "base": {
       "minecraft:visual/fog_color": "#2c1654",
       "minecraft:visual/sky_color": "#120824",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 170 ? 0.45 : 0.35)",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 170 ? 0.95 : 0.88)"
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.48 : (c.y() < 60 ? 0.12 : 0.35))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.65 : 0.88))"
     }
   }
 }

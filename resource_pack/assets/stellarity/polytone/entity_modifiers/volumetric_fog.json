@@ -1,0 +1,43 @@
+{
+  "targets": [
+    "minecraft:player"
+  ],
+  "emitters": [
+    {
+      "particle": "stellarity:drift_fog_astral",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:the_hallow' || o.biome() == 'stellarity:amethyst_forest' || o.biome() == 'stellarity:prismatic_dunes' || o.biome() == 'stellarity:crystal_crags') ? 0.08 : 0.0",
+      "count": "1",
+      "x": "r.rand(-22.0, 22.0)",
+      "y": "r.rand(-1.5, 3.5)",
+      "z": "r.rand(-22.0, 22.0)"
+    },
+    {
+      "particle": "stellarity:drift_fog_toxic",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:warped_marsh' || o.biome() == 'stellarity:prismarine_forest' || o.biome() == 'stellarity:sculk_growth') ? 0.09 : 0.0",
+      "count": "1",
+      "x": "r.rand(-22.0, 22.0)",
+      "y": "r.rand(-1.5, 3.5)",
+      "z": "r.rand(-22.0, 22.0)"
+    },
+    {
+      "particle": "stellarity:drift_fog_ash",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:ashfall_deltas' || o.biome() == 'stellarity:dragons_den' || o.biome() == 'stellarity:fiery_hills' || o.biome() == 'stellarity:flesh_tundra') ? 0.09 : 0.0",
+      "count": "1",
+      "x": "r.rand(-22.0, 22.0)",
+      "y": "r.rand(-1.5, 3.5)",
+      "z": "r.rand(-22.0, 22.0)"
+    },
+    {
+      "particle": "stellarity:drift_fog_abyss",
+      "max_distance": 32,
+      "chance": "(o.biome() == 'stellarity:the_void' || o.biome() == 'stellarity:the_nest' || (g.skyType() == 3 && c.y() < 60)) ? 0.08 : 0.0",
+      "count": "1",
+      "x": "r.rand(-24.0, 24.0)",
+      "y": "r.rand(-3.0, 2.0)",
+      "z": "r.rand(-24.0, 24.0)"
+    }
+  ]
+}

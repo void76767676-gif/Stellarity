@@ -12,5 +12,9 @@ execute as @e[type=block_display,tag=stellarity.sandstorm_trident] at @s run fun
 
 execute as @e[type=item_display,tag=stellarity.fluffy_hammer] at @s run function stellarity:item/fluffy_hammer/main
 
+# Radiant Kaleidoscope Marked Entities
+execute as @e[scores={stellarity.item.rk.mark_rank=1..}] at @s run function stellarity:item/radiant_kaleidoscope/mark/tick
+
+
 
 

@@ -5,4 +5,5 @@ scoreboard players set @s stellarity.altar_approached 1
 
 advancement grant @s only stellarity:mechanic/altar/first_approach
 
-playsound stellarity:mechanic.altar_common.approach ambient @s ~ ~ ~ 1.0 1.0
+playsound stellarity:mechanic.altar_common.approach master @s ~ ~ ~ 1.0 1.0
+playsound stellarity:altar_common.approach master @s ~ ~ ~ 1.0 1.0

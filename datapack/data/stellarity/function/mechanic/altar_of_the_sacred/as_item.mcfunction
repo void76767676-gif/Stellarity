@@ -60,3 +60,8 @@ function stellarity:mechanic/altar_of_the_sacred/bless/materials/diamond
 
 execute if data storage stellarity:temp {altar_of_the_sacred:{item:{id:"minecraft:netherite_ingot"}}} run \
 function stellarity:mechanic/altar_of_the_sacred/bless/materials/netherite
+
+# Radiant Kaleidoscope craft check on Altar of the Sacred
+execute if entity @e[type=marker,tag=stellarity.altar_of_the_sacred,distance=..2.0] at @n[type=marker,tag=stellarity.altar_of_the_sacred,distance=..2.0] run \
+function stellarity:mechanic/altar_of_the_sacred/craft_radiant_kaleidoscope
+

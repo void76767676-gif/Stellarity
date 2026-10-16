@@ -1,7 +1,6 @@
-# Manage interaction triggers within 4 blocks of the Respawn Anchor
+# Manage interaction trigger directly on the Respawn Anchor
+# Only activate sitting trigger when anchor is fully charged (4/4)
+execute if block ~ ~ ~ respawn_anchor[charges=4] unless entity @e[type=interaction,tag=stellarity.anchor_seat_trigger,distance=..0.5] run summon interaction ~0.5 ~1.0 ~0.5 {Tags:["stellarity.anchor_seat_trigger"],width:0.98F,height:0.8F}
 
-# If an unseated player is standing on/looking at a block nearby (looking down: x_rotation 30..90)
-execute as @a[distance=..4.5,tag=!stellarity.sitting_anchor,x_rotation=30..90] at @s align xyz positioned ~.5 ~ ~.5 unless entity @e[type=interaction,tag=stellarity.anchor_seat_trigger,distance=..0.1] unless block ~ ~-0.1 ~ air run summon interaction ~.5 ~ ~.5 {Tags:["stellarity.anchor_seat_trigger"],width:0.98F,height:0.8F}
-
-# If player is looking forward/down slightly (x_rotation 0..45) at a block in front
-execute as @a[distance=..4.5,tag=!stellarity.sitting_anchor,x_rotation=0..45] at @s positioned ^ ^ ^1.5 align xyz positioned ~.5 ~ ~.5 unless entity @e[type=interaction,tag=stellarity.anchor_seat_trigger,distance=..0.1] unless block ~ ~-0.1 ~ air run summon interaction ~.5 ~ ~.5 {Tags:["stellarity.anchor_seat_trigger"],width:0.98F,height:0.8F}
+# When anchor is not 4/4 charged (charges=0..3), remove interaction trigger so player can charge it with glowstone
+execute unless block ~ ~ ~ respawn_anchor[charges=4] run kill @e[type=interaction,tag=stellarity.anchor_seat_trigger,distance=..1.0]

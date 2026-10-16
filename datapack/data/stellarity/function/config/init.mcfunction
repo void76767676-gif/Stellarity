@@ -36,6 +36,7 @@ execute unless score #stellarity.config stellarity.config.enable_prismember matc
 execute unless score #stellarity.config stellarity.config.enable_tamaris matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_tamaris 1
 execute unless score #stellarity.config stellarity.config.enable_stellar_striker matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_stellar_striker 1
 execute unless score #stellarity.config stellarity.config.enable_kaleidoscope matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_kaleidoscope 1
+execute unless score #stellarity.config stellarity.config.enable_radiant_kaleidoscope matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_radiant_kaleidoscope 1
 execute unless score #stellarity.config stellarity.config.enable_fluffy_hammer_of_justice matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_fluffy_hammer_of_justice 1
 execute unless score #stellarity.config stellarity.config.enable_starless_scythe matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_starless_scythe 1
 execute unless score #stellarity.config stellarity.config.enable_sandstorm_trident matches ..2147483647 run scoreboard players set #stellarity.config stellarity.config.enable_sandstorm_trident 1
