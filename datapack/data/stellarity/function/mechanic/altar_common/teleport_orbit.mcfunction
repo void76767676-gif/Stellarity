@@ -1,8 +1,3 @@
-$execute rotated ~ ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot1] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot2] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot3] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot4] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot5] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot6] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot7] ^ ^$(height) ^$(radius)
-$execute rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ rotated ~-$(base) ~ run tp @n[type=item,distance=..2.5,tag=stellarity.altar.slot8] ^ ^$(height) ^$(radius)
+# Dynamic orbital distribution for any number of altar items
+execute as @e[type=item,distance=..2.5,tag=stellarity.altar.captured] if score @s stellarity.altar_id = #current_altar stellarity.altar_id run tag @s add stellarity.altar.need_orbit
+function stellarity:mechanic/altar_common/orbit_step with storage stellarity:temp altar.angle

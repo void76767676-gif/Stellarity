@@ -1,0 +1,208 @@
+mappings:
+  # --- placed blocks, freshly placed (stone carrier) ---
+  display_ender_dirt:
+    type: minecraft:stone
+    item-identifier: stellarity:display/ender_dirt
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  display_rooted_ender_dirt:
+    type: minecraft:stone
+    item-identifier: stellarity:display/rooted_ender_dirt
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  display_ender_grass_block:
+    type: minecraft:stone
+    item-identifier: stellarity:display/ender_grass_block
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  display_ender_dirt_path:
+    type: minecraft:stone
+    item-identifier: stellarity:display/ender_dirt_path
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  display_enderite_block:
+    type: minecraft:stone
+    item-identifier: stellarity:display/enderite_block
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  display_ashen_froglight:
+    type: minecraft:stone
+    item-identifier: stellarity:display/ashen_froglight
+    display:
+      y-offset: -0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+
+  # --- placed blocks after they convert (grass/dirt/path/rooted swap to the glow item frame item) ---
+  converted_ender_dirt:
+    type: minecraft:glow_item_frame
+    item-identifier: stellarity:block/ender_dirt
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  converted_rooted_ender_dirt:
+    type: minecraft:glow_item_frame
+    item-identifier: stellarity:block/rooted_ender_dirt
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  converted_ender_grass_block:
+    type: minecraft:glow_item_frame
+    item-identifier: stellarity:block/ender_grass_block
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  converted_ender_dirt_path:
+    type: minecraft:glow_item_frame
+    item-identifier: stellarity:block/ender_dirt_path
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+
+  # --- altars and pixie jar (same item as the inventory version) ---
+  altar_of_the_accursed:
+    type: minecraft:end_portal_frame
+    item-identifier: stellarity:block/altar_of_the_accursed
+    display:
+      y-offset: -0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  altar_of_the_sacred:
+    type: minecraft:chiseled_quartz_block
+    item-identifier: stellarity:block/altar_of_the_sacred
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  # Fallback for the sacred altar: matches ANY chiseled quartz block display, whatever
+  # Bedrock id it ends up with, so it is never sent down the held-in-hand route.
+  # Keep this directly below the entry above.
+  all_chiseled_quartz_block:
+    type: minecraft:chiseled_quartz_block
+    item-identifier: none
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  pixie_in_a_jar:
+    type: minecraft:glass
+    item-identifier: stellarity:block/pixie_in_a_jar
+    display:
+      y-offset: -0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+
+  # --- satchel of voids on its altar (stick carrier - must stay above all_stick) ---
+  satchel_of_voids:
+    type: minecraft:stick
+    item-identifier: stellarity:block/satchel_of_voids
+    display:
+      y-offset: -0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1.01
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+
+  # --- Empress of Light: ethereal lance ---
+  ethereal_lance:
+    type: minecraft:leather_horse_armor
+    item-identifier: stellarity:item/_technical/ethereal_lance
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+
+  # --- one entry covers ALL variants of a carrier ---
+  # white_dye = the 8 Empress of Light rig bones x 8 texture variants (64 items)
+  all_white_dye:
+    type: minecraft:white_dye
+    item-identifier: none
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  # paper = crit, brittle, jinx, end portal fill, explosion emitter
+  all_paper:
+    type: minecraft:paper
+    item-identifier: none
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]
+  # stick = prismatic punch spark / fireball / shockwave, end portal fill
+  all_stick:
+    type: minecraft:stick
+    item-identifier: none
+    display:
+      y-offset: 0.5
+      vanilla-scale: true
+      vanilla-scale-multiplier: 1
+      hand: false
+      rotation: [0.0, 0.0, 0.0]
+      translation: [0.0, 0.0, 0.0]

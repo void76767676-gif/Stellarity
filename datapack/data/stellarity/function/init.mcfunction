@@ -347,6 +347,9 @@
       scoreboard objectives add stellarity.mechanics.cauldron_crafting.items_inside dummy
       scoreboard objectives add stellarity.mechanics.cauldron_crafting.breath_left dummy
       scoreboard objectives add stellarity.altar.craft_progress dummy
+      scoreboard objectives add stellarity.altar_approached dummy
+      scoreboard objectives add stellarity.sit_timer dummy
+      scoreboard objectives add sit trigger
 
     ## Enchantments
       scoreboard objectives add stellarity.enchantments.critical_strike.can_crit dummy
@@ -420,6 +423,22 @@ team modify stellarity.dragons_eye.pacified collisionRule pushOtherTeams
 
 team add stellarity.dragon.pacify_others
 team modify stellarity.dragon.pacify_others friendlyFire false
+
+team add ste_cos.purple_glow
+team modify ste_cos.purple_glow color dark_purple
+team add ste_cos.cyan_glow
+team modify ste_cos.cyan_glow color dark_aqua
+team add ste_cos.anim_crystal
+team modify ste_cos.anim_crystal color light_purple
+team modify ste_cos.anim_crystal collisionRule never
+
+scoreboard objectives add ste_cos.stage dummy
+scoreboard objectives add ste_cos.flags dummy
+scoreboard objectives add ste_cos.timer dummy
+scoreboard objectives add ste_cos.age dummy
+scoreboard objectives add ste_cos.id dummy
+scoreboard objectives add ste_cos.radius dummy
+scoreboard objectives add ste_cos.orbit_y dummy
 
 
 

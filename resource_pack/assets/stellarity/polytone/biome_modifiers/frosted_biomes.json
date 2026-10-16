@@ -1,19 +1,11 @@
 {
   "targets": ".*:(frosted_hills|frosted_valley|frosted_wastes|glacial_chasm)",
-  "fog_color": "#a8dadc",
-  "sky_color": "#1d3557",
-  "fog_start": 0.1,
-  "fog_end": 0.7,
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#a8dadc",
       "minecraft:visual/sky_color": "#1d3557",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.1",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.7",
-      "visual/fog_color": "#a8dadc",
-      "visual/sky_color": "#1d3557",
-      "visual/fog_start_distance": "c.viewDistance() * 0.1",
-      "visual/fog_end_distance": "c.viewDistance() * 0.7"
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 170 ? 0.45 : 0.35)",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 170 ? 0.95 : 0.88)"
     }
   }
 }

@@ -6,8 +6,6 @@
     "visual/sky_color": 4770532,
     "visual/fog_color": 15250680,
     "visual/water_fog_color": 15034111,
-    "visual/fog_start_distance": 16.0,
-    "visual/fog_end_distance": 128.0,
     "audio/ambient_sounds": {
       "loop": {
         "sound_id": "stellarity:ambient.the_end.heavenly_blessed"

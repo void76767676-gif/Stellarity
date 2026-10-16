@@ -1,19 +1,11 @@
 {
   "targets": ".*:sculk_growth",
-  "fog_color": "#003547",
-  "sky_color": "#001219",
-  "fog_start": 0.05,
-  "fog_end": 0.55,
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#003547",
       "minecraft:visual/sky_color": "#001219",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.05",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.55",
-      "visual/fog_color": "#003547",
-      "visual/sky_color": "#001219",
-      "visual/fog_start_distance": "c.viewDistance() * 0.05",
-      "visual/fog_end_distance": "c.viewDistance() * 0.55"
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.25",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.85"
     }
   }
 }

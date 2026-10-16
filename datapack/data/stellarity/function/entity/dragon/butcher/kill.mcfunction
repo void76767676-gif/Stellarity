@@ -1,10 +1,20 @@
 kill @s
 
-# Purge vanilla bedrock portal fountain
+# Purge vanilla bedrock portal fountain from ground location (Y=55..75)
   execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:bedrock
   execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:end_portal
   execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:torch
   execute in minecraft:the_end run fill -4 55 -4 4 75 4 air replace minecraft:dragon_egg
+
+# Purge vanilla bedrock portal fountain from sky location (Y=190..256)
+  function stellarity:structure/exit_portal/purge_sky
+  schedule function stellarity:structure/exit_portal/purge_sky 1t
+  schedule function stellarity:structure/exit_portal/purge_sky 20t
+  schedule function stellarity:structure/exit_portal/purge_sky 40t
+
+# Remove vanilla crystals from obsidian pillars
+  execute as @e[type=end_crystal,predicate=stellarity:location/dragons_den/in_biome,tag=!stellarity.respawn_crystal,tag=!stellarity.new_crystal] at @s run function stellarity:post_gen/remove_crystals
+
   execute in minecraft:the_end positioned 0.5 61 0.5 run function stellarity:structure/exit_portal/deactivated/generate
 
 # Clear any vanilla End Gateways

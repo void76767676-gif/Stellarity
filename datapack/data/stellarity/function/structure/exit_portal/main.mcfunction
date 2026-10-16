@@ -3,6 +3,22 @@
     # #respawn_crystal_count stellarity.misc - number of respawn crystals on the podium ## Global scoreboard not bound to an entity.
       # stellarity.dragon.respawn_animation_progress - timer for respawn animation ## Bound to the portal marker.
 
+# Deduplicate exit portal markers to prevent multiple dragon spawns
+tag @e[type=marker,tag=stellarity.exit_portal,limit=1] add stellarity.primary_portal
+kill @e[type=marker,tag=stellarity.exit_portal,tag=!stellarity.primary_portal]
+tag @e[type=marker,tag=stellarity.primary_portal] remove stellarity.primary_portal
+
+# Auto-purge ground vanilla bedrock portal fountain when detected:
+# In vanilla podium: egg is at 0 65 0, wall torches are at 0 62 1, and end stone ring is at 0 60 4.
+execute in minecraft:the_end if block 0 65 0 minecraft:dragon_egg run function stellarity:structure/exit_portal/force_init
+execute in minecraft:the_end if block 0 62 1 minecraft:wall_torch run function stellarity:structure/exit_portal/force_init
+execute in minecraft:the_end if block 0 60 4 minecraft:end_stone run function stellarity:structure/exit_portal/force_init
+
+# Auto-purge sky vanilla bedrock portal fountain (at Y=190..256):
+execute in minecraft:the_end if block 0 255 0 minecraft:bedrock run function stellarity:structure/exit_portal/purge_sky
+execute in minecraft:the_end if block 0 200 0 minecraft:bedrock run function stellarity:structure/exit_portal/purge_sky
+execute in minecraft:the_end unless block 0 255 0 air unless block 0 255 0 dirt run function stellarity:structure/exit_portal/purge_sky
+
       ## Generation
         # Generate the deactivated portal with ender dragon.
           execute if entity @s[tag=stellarity.portal_deactivated] run function stellarity:structure/exit_portal/deactivated/animation_no_dragon

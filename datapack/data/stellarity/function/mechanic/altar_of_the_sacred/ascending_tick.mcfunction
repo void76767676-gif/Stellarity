@@ -1,5 +1,9 @@
 scoreboard players remove @s stellarity.misc 1
 
+# Ensure yellow glowing outline
+team join stellarity.yellow_glow @s
+data modify entity @s Glowing set value 1b
+
 # Smooth upward float
 tp @s ~ ~0.07 ~
 

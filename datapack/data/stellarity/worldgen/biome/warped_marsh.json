@@ -59,9 +59,7 @@
         ]
       }
     },
-    "gameplay/creature_world_gen_spawn_probability": 0.3,
-    "visual/fog_start_distance": 12.0,
-    "visual/fog_end_distance": 90.0
+    "gameplay/creature_world_gen_spawn_probability": 0.3
   },
   "effects": {
     "water_color": 10672615,

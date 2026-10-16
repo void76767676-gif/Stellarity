@@ -1,19 +1,11 @@
 {
   "targets": ".*:dragons_den",
-  "fog_color": "#4a154b",
-  "sky_color": "#1f0426",
-  "fog_start": 0.12,
-  "fog_end": 0.7,
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#4a154b",
       "minecraft:visual/sky_color": "#1f0426",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * 0.12",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * 0.7",
-      "visual/fog_color": "#4a154b",
-      "visual/sky_color": "#1f0426",
-      "visual/fog_start_distance": "c.viewDistance() * 0.12",
-      "visual/fog_end_distance": "c.viewDistance() * 0.7"
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 170 ? 0.45 : 0.35)",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 170 ? 0.95 : 0.88)"
     }
   }
 }

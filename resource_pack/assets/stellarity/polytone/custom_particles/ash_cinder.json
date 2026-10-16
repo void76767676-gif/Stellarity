@@ -1,21 +1,24 @@
 {
   "type": "custom",
   "initializer": {
-    "lifetime": "40 + 20 * rand()",
+    "lifetime": "50 + 25 * rand()",
     "alpha": "0.1",
     "size": "0",
-    "custom": "rand() * 0.2",
-    "dx": "0.02 * (rand() - 0.5)",
-    "dy": "0.015 + 0.01 * rand()",
-    "dz": "0.02 * (rand() - 0.5)",
-    "hitbox_size": 0.2
+    "custom": "rand()",
+    "red": "0.96 + rand() * 0.04",
+    "green": "0.34 + rand() * 0.22",
+    "blue": "0.15 + rand() * 0.15",
+    "dx": "0.015 * (rand() - 0.5)",
+    "dy": "0.012 + 0.008 * rand()",
+    "dz": "0.015 * (rand() - 0.5)",
+    "hitbox_size": 0.15
   },
   "ticker": {
-    "dx": "DX",
+    "dx": "DX + 0.003 * sin(0.1 * AGE + CUSTOM * 6.28)",
     "dy": "DY",
-    "dz": "DZ",
-    "size": "(0.48 + CUSTOM) * sin((pi / LIFETIME) * AGE)",
-    "alpha": "0.85 * sin((pi / LIFETIME) * AGE)",
+    "dz": "DZ + 0.003 * cos(0.1 * AGE + CUSTOM * 6.28)",
+    "size": "(0.10 + CUSTOM * 0.04) * sin((pi / LIFETIME) * AGE)",
+    "alpha": "0.88 * sin((pi / LIFETIME) * AGE)",
     "remove_condition": "sqrt(DISTANCE_SQUARED) > 32"
   },
   "lit": true,

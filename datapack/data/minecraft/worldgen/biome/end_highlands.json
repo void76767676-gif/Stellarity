@@ -47,9 +47,7 @@
           }
         ]
       }
-    },
-    "visual/fog_start_distance": 20.0,
-    "visual/fog_end_distance": 160.0
+    }
   },
   "effects": {
     "water_color": 6057456,

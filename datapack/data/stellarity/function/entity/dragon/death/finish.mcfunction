@@ -56,3 +56,4 @@ execute if score #stellarity.config stellarity.config.boss_status_messages match
 
         # Final cleanup: purge vanilla portal replacement and enforce custom exit portal
         schedule function stellarity:structure/exit_portal/final_cleanup 2s
+        schedule function stellarity:structure/exit_portal/final_cleanup 5s

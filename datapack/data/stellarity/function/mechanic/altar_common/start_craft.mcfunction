@@ -6,10 +6,8 @@ scoreboard players set @s stellarity.altar.craft_progress 20
 scoreboard players set @s stellarity.altar.idle_timer 0
 
 # Tag ingredient items to pull them in
-tag @e[type=item,distance=..2.2,tag=stellarity.altar.captured,tag=!stellarity.altar.skip] add stellarity.altar.in_craft
-
-# Any loose non-captured item is released and pushed away (never killed)
-execute as @e[type=item,distance=..2.5,tag=!stellarity.altar.in_craft,tag=!stellarity.altar.skip] at @s run data merge entity @s {NoGravity:0b,PickupDelay:0s,Motion:[0.0,0.2,0.0]}
+tag @e[type=item,distance=..2.5,tag=!stellarity.altar.skip,tag=!stellarity.altar_of_the_accursed.skip] add stellarity.altar.in_craft
+tag @e[type=item,distance=..2.5,tag=!stellarity.altar.skip,tag=!stellarity.altar_of_the_accursed.skip] add stellarity.altar.captured
 
 # Initial activation sound and charge effect
 playsound stellarity:mechanic.altar_of_the_accursed.insert block @a ~ ~0.5 ~ 0.9 1.1

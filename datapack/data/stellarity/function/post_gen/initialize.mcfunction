@@ -1,3 +1,5 @@
+execute if score #stellarity.post_gen.initialized stellarity.misc matches 1 run return 0
+
 tag @s[type=marker] add stellarity.post_gen.initialized
 scoreboard players set #stellarity.post_gen.initialized stellarity.misc 1
 

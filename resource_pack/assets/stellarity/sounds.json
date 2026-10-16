@@ -364,16 +364,14 @@
   "ambient.the_hallow.loop": {
     "sounds": [
       {
-        "name": "minecraft:block/beacon/ambient",
-        "type": "event",
-        "volume": 0.45,
-        "pitch": 1.2
+        "name": "stellarity:ambient/the_hallow/bellways",
+        "stream": true,
+        "volume": 0.75
       },
       {
-        "name": "minecraft:ambient/underwater/loop",
-        "type": "event",
-        "volume": 0.25,
-        "pitch": 0.85
+        "name": "stellarity:ambient/the_hallow/bells",
+        "stream": true,
+        "volume": 0.75
       }
     ],
     "subtitle": "subtitles.stellarity.ambient.the_hallow"
