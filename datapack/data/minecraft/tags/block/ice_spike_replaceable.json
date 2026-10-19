@@ -1,0 +1,12 @@
+{
+  "values": [
+    "#minecraft:substrate_overworld",
+    "minecraft:snow_block",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:powder_snow",
+    "minecraft:calcite",
+    "minecraft:end_stone"
+  ]
+}

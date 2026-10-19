@@ -1,19 +1,19 @@
-# 1. Play immediate mega crit sound (random 1..3)
+# Mega crit
 execute store result score #rnd kohara.misc run random value 1..3
 execute if score #rnd kohara.misc matches 1 run playsound stellarity:item/radiant_kaleidoscope/mega_crit1 player @a ~ ~ ~ 1.5 1
 execute if score #rnd kohara.misc matches 2 run playsound stellarity:item/radiant_kaleidoscope/mega_crit2 player @a ~ ~ ~ 1.5 1
 execute if score #rnd kohara.misc matches 3 run playsound stellarity:item/radiant_kaleidoscope/mega_crit3 player @a ~ ~ ~ 1.5 1
 
-# Schedule crit impact sound after 2 ticks
+# Delayed sound
 schedule function stellarity:item/radiant_kaleidoscope/crush/after_crit 2t append
 
-# 2. Visuals: Prismatic explosion burst replacing fire with rainbow dust & end_rod
+# Prismatic explosion
 particle flash{color:-1} ~ ~1.2 ~ 0 0 0 0 2
 particle explosion ~ ~1.2 ~ 0.5 0.5 0.5 0 4
 particle end_rod ~ ~1.2 ~ 0.4 0.4 0.4 0.25 64
 particle crit ~ ~1.2 ~ 0.5 0.5 0.5 1.0 80
 
-# 7 colors burst outwards
+# Spectrum burst
 particle dust{color:[0.90, 0.20, 0.15],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
 particle dust{color:[1.00, 0.60, 0.05],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
 particle dust{color:[0.95, 0.85, 0.10],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
@@ -22,7 +22,7 @@ particle dust{color:[0.15, 0.65, 0.95],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
 particle dust{color:[0.20, 0.25, 0.85],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
 particle dust{color:[0.65, 0.20, 0.85],scale:1.6} ~ ~1.2 ~ 0.6 0.4 0.6 0.15 25
 
-# 3. Calculate Damage: 18 base * (1 + 0.86 + rank_bonus)
+# Crush damage
 scoreboard players set #damage kohara.misc 335
 execute if score @s stellarity.item.rk.mark_rank matches 2 run scoreboard players set #damage kohara.misc 342
 execute if score @s stellarity.item.rk.mark_rank matches 3 run scoreboard players set #damage kohara.misc 349
@@ -34,14 +34,14 @@ execute if score @s stellarity.item.rk.mark_rank matches 7 run scoreboard player
 # Tag attacker
 tag @p[predicate=stellarity:item/holding/radiant_kaleidoscope] add kohara.attacker
 
-# Apply damage
+# Calculate damage
 function kohara:damage/calculate {armor_penetration:50,damage_boost_efficiency:50,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:radiant_kaleidoscope_crush",tag:"stellarity.damage.radiant_kaleidoscope"}
 
-# Apply Prismatic Inferno
+# Apply inferno
 function stellarity:mechanic/enchantments/infernal_infusion/apply_prismatic_inferno
 
-# 4. Consume Mark
+# Remove mark
 function stellarity:item/radiant_kaleidoscope/mark/remove
 
-# 5. Start 48-second Cooldown on attacker
+# Start cooldown
 execute as @p[predicate=stellarity:item/holding/radiant_kaleidoscope] run function stellarity:item/radiant_kaleidoscope/cooldown/start

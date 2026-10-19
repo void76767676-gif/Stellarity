@@ -1,7 +1,8 @@
 {
   "temperature": -0.5,
   "downfall": 0.4,
-  "has_precipitation": false,
+  "has_precipitation": true,
+  "temperature_modifier": "frozen",
   "attributes": {
     "visual/sky_color": 725803,
     "visual/fog_color": 11066076,
@@ -38,34 +39,71 @@
           "energy_budget": 1.0,
           "charge": 0.6
         },
+        "minecraft:stray": {
+          "energy_budget": 1.0,
+          "charge": 0.6
+        },
+        "minecraft:vex": {
+          "energy_budget": 1.0,
+          "charge": 0.5
+        },
         "minecraft:skeleton": {
           "energy_budget": 1.0,
           "charge": 0.6
         },
         "minecraft:silverfish": {
           "energy_budget": 1.0,
-          "charge": 0.5
+          "charge": 0.4
         }
       },
       "spawns_by_category": {
+        "creature": [
+          {
+            "type": "minecraft:allay",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            },
+            "weight": 25
+          }
+        ],
         "monster": [
           {
             "type": "minecraft:enderman",
             "count": {
               "type": "uniform",
-              "min_inclusive": 4,
+              "min_inclusive": 2,
               "max_inclusive": 4
             },
             "weight": 50
           },
           {
+            "type": "minecraft:stray",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            },
+            "weight": 45
+          },
+          {
+            "type": "minecraft:vex",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 20
+          },
+          {
             "type": "minecraft:skeleton",
             "count": {
               "type": "uniform",
-              "min_inclusive": 4,
+              "min_inclusive": 2,
               "max_inclusive": 4
             },
-            "weight": 40
+            "weight": 30
           },
           {
             "type": "minecraft:silverfish",
@@ -78,7 +116,8 @@
           }
         ]
       }
-    }
+    },
+    "gameplay/creature_world_gen_spawn_probability": 0.25
   },
   "effects": {
     "water_color": 4020182,
@@ -92,38 +131,46 @@
   ],
   "features": [
     [
-      "stellarity:global/stalactite",
-      "stellarity:frozen_spikes/large_dripstone"
+      "stellarity:frozen_spikes/island/ice_stalactite"
     ],
-    [],
-    [],
+    [
+      "stellarity:frozen_spikes/lake_ice",
+      "stellarity:frozen_spikes/lake_powder_snow"
+    ],
+    [
+      "stellarity:frozen_spikes/crystal_outcrop",
+      "stellarity:frozen_spikes/rock/glacial_erratic",
+      "stellarity:frozen_spikes/rock/frozen_fossil",
+      "stellarity:frozen_spikes/fallen_ice_spike",
+      "stellarity:frozen_spikes/shattered_spike_stump"
+    ],
+    [
+      "stellarity:frozen_spikes/cave/floor_snow",
+      "stellarity:frozen_spikes/cave/ceiling_ice"
+    ],
     [
       "stellarity:frozen_marsh/puddles",
+      "minecraft:ice_patch"
+    ],
+    [],
+    [
       "stellarity:frozen_spikes/ore_blue_ice"
     ],
     [],
-    [],
-    [],
-    [],
-    [],
     [
-      "stellarity:frozen_marsh/vegetation_land"
+      "stellarity:frozen_spikes/ground_crystals",
+      "stellarity:frozen_spikes/ice_crystals"
     ],
     [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil",
-      "stellarity:frozen_spikes/replace_dripstone/1",
-      "stellarity:frozen_spikes/replace_dripstone/2",
-      "stellarity:frozen_spikes/replace_dripstone/3",
-      "stellarity:frozen_spikes/replace_dripstone/4",
-      "stellarity:frozen_spikes/replace_dripstone/5",
-      "stellarity:frozen_spikes/replace_dripstone/6",
-      "stellarity:frozen_spikes/replace_dripstone/7",
-      "stellarity:frozen_spikes/replace_dripstone/8",
-      "stellarity:frozen_spikes/replace_dripstone/9",
-      "stellarity:frozen_spikes/replace_dripstone/10",
-      "stellarity:frozen_spikes/replace_dripstone/11",
-      "stellarity:frozen_marsh/freeze_water"
+      "stellarity:frozen_marsh/vegetation_land",
+      "minecraft:pile_ice",
+      "minecraft:pile_snow"
+    ],
+    [
+      "minecraft:freeze_top_layer",
+      "stellarity:frozen_marsh/freeze_water",
+      "stellarity:frozen_spikes/dungeon",
+      "stellarity:frozen_spikes/fossil"
     ]
   ]
 }

@@ -38,8 +38,10 @@ execute unless score #empress_of_light.is_alive stellarity.misc matches 1 unless
 # End City crystal cleanup (if crystal destroyed without running custom destroy sequence)
 execute as @e[type=interaction,tag=stellarity.end_city.crystal] at @s unless entity @e[type=end_crystal,tag=stellarity.end_city.crystal,distance=..3] run function stellarity:structure/end_city/crystal/cleanup_missing
 
-# The Void Gains Focus global event check
 function stellarity:mechanic/void_focus/check
+function stellarity:mechanic/sandstorm/check
+function stellarity:mechanic/blizzard/check
+function stellarity:mechanic/acid_rain/check
 
 schedule function stellarity:loop/timed/1_second 1s
 

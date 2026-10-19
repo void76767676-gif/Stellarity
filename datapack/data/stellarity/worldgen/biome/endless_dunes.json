@@ -38,47 +38,94 @@
           "energy_budget": 1.0,
           "charge": 0.6
         },
-        "minecraft:zombie": {
+        "minecraft:husk": {
           "energy_budget": 1.0,
           "charge": 0.6
         },
         "minecraft:skeleton": {
           "energy_budget": 1.0,
           "charge": 0.6
+        },
+        "minecraft:spider": {
+          "energy_budget": 1.0,
+          "charge": 0.5
+        },
+        "minecraft:vex": {
+          "energy_budget": 1.0,
+          "charge": 0.5
         }
       },
       "spawns_by_category": {
+        "creature": [
+          {
+            "type": "minecraft:allay",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            },
+            "weight": 20
+          },
+          {
+            "type": "minecraft:camel",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 15
+          }
+        ],
         "monster": [
           {
             "type": "minecraft:enderman",
             "count": {
               "type": "uniform",
-              "min_inclusive": 4,
+              "min_inclusive": 2,
               "max_inclusive": 4
             },
-            "weight": 80
+            "weight": 60
           },
           {
-            "type": "minecraft:zombie",
+            "type": "minecraft:husk",
             "count": {
               "type": "uniform",
-              "min_inclusive": 4,
+              "min_inclusive": 2,
               "max_inclusive": 4
             },
-            "weight": 30
+            "weight": 50
           },
           {
             "type": "minecraft:skeleton",
             "count": {
               "type": "uniform",
-              "min_inclusive": 4,
+              "min_inclusive": 2,
               "max_inclusive": 4
+            },
+            "weight": 35
+          },
+          {
+            "type": "minecraft:spider",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            },
+            "weight": 25
+          },
+          {
+            "type": "minecraft:vex",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
             },
             "weight": 15
           }
         ]
       }
-    }
+    },
+    "gameplay/creature_world_gen_spawn_probability": 0.25
   },
   "effects": {
     "water_color": 4445678,
@@ -92,27 +139,37 @@
   ],
   "features": [
     [
-      "stellarity:global/stalactite",
-      "stellarity:endless_dunes/oasis"
+      "stellarity:endless_dunes/island/sandstone_stalactite"
+    ],
+    [
+      "stellarity:endless_dunes/oasis",
+      "stellarity:endless_dunes/sinkhole"
+    ],
+    [
+      "stellarity:endless_dunes/rock/sandstone_boulder",
+      "stellarity:endless_dunes/rock/sandstone_pillar",
+      "stellarity:endless_dunes/rock/fallen_sandstone_pillar",
+      "stellarity:endless_dunes/rock/fallen_fossil"
+    ],
+    [
+      "stellarity:endless_dunes/cave/ceiling_sandstone",
+      "stellarity:endless_dunes/cave/floor_sand",
+      "stellarity:endless_dunes/cave/cobwebs"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [
+      "stellarity:endless_dunes/vegetation/arid_patch",
+      "stellarity:endless_dunes/vegetation/bush_clusters",
+      "stellarity:endless_dunes/vegetation/chorus_cactus",
+      "stellarity:endless_dunes/vegetation/chorus_cactus_grove"
     ],
     [],
     [
-      "stellarity:endless_dunes/delta_sand_on_endstone"
-    ],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [
-      "stellarity:endless_dunes/vegetation",
-      "minecraft:patch_dry_grass_desert",
-      "stellarity:endless_dunes/grass"
-    ],
-    [
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
+      "stellarity:endless_dunes/dungeon",
+      "stellarity:endless_dunes/fossil"
     ]
   ]
 }

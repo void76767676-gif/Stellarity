@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:spike",
+  "can_place_on": {
+    "type": "minecraft:matching_blocks",
+    "blocks": [
+      "minecraft:snow_block",
+      "minecraft:packed_ice",
+      "minecraft:blue_ice",
+      "minecraft:ice",
+      "minecraft:calcite",
+      "minecraft:powder_snow"
+    ]
+  },
+  "can_replace": {
+    "type": "minecraft:matching_block_tag",
+    "tag": "minecraft:ice_spike_replaceable"
+  },
+  "state": "minecraft:packed_ice"
+}

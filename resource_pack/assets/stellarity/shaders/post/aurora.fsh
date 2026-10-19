@@ -39,7 +39,8 @@ void main() {
     vec3 scene = baseColor.rgb;
     
     float depth = texture(InDepthSampler, texCoord).r;
-    if (depth > 0.00035) {
+    bool isSky = (depth >= 0.999) || (depth <= 0.0001);
+    if (!isSky) {
         fragColor = baseColor;
         return;
     }
@@ -49,12 +50,12 @@ void main() {
     view /= view.w;
     vec3 worldDir = normalize((inverse(PolyModelViewMat) * vec4(view.xyz, 0.0)).xyz);
     
-    if (worldDir.y <= 0.08) {
+    if (worldDir.y <= 0.06) {
         fragColor = baseColor;
         return;
     }
     
-    float zenith = smoothstep(0.08, 0.48, worldDir.y);
+    float zenith = smoothstep(0.06, 0.42, worldDir.y);
     float t = GameTime * 0.08;
     
     vec2 p = worldDir.xz / (worldDir.y + 0.35);
@@ -75,10 +76,10 @@ void main() {
     vec3 color2 = mix(violet, cyan, clamp(curtain2, 0.0, 1.0));
     
     float intensity = (curtain1 * 0.65 + curtain2 * 0.75) * (0.6 + 0.4 * rays) * zenith;
-    intensity = clamp(intensity, 0.0, 0.88);
+    intensity = clamp(intensity, 0.0, 0.92);
     
     vec3 aurora = mix(color1, color2, clamp(curtain2 * 1.2, 0.0, 1.0)) * intensity;
     
-    scene += aurora * 1.15;
+    scene += aurora * 1.25;
     fragColor = vec4(scene, baseColor.a);
 }

@@ -5,7 +5,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "b.biome == 'stellarity:prismatic_dunes'",
+          "when": "o.biome() == 'stellarity:prismatic_dunes'",
           "model": {
             "model": "stellarity:block/prismatic_crystal_glass"
           }

@@ -2,17 +2,9 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "has_precipitation": false,
-  "effects": {
-    "water_color": 6057456,
-    "grass_color": 12669904,
-    "foliage_color": 15652590
-  },
   "attributes": {
-    "visual/sky_color": "#140628",
-    "visual/fog_color": "#180a32",
-    "visual/fog_start_distance": 32.0,
-    "visual/fog_end_distance": 256.0,
-    "visual/sky_fog_end_distance": 448.0,
+    "visual/sky_color": 0,
+    "visual/fog_color": 0,
     "visual/water_fog_color": 6060528,
     "audio/ambient_sounds": {
       "loop": {
@@ -21,8 +13,8 @@
       "mood": {
         "sound": "minecraft:ambient.crimson_forest.mood",
         "tick_delay": 850,
-        "block_search_extent": 8,
-        "offset": 2.0
+        "block_search_extent": 2,
+        "offset": 2
       },
       "additions": {
         "sound": "minecraft:ambient.crimson_forest.additions",
@@ -30,38 +22,33 @@
       }
     },
     "visual/ambient_particles": {
-      "modifier": "override",
       "argument": [
-        {
-          "particle": {
-            "type": "stellarity:cosmic_dust"
-          },
-          "probability": 0.004
-        },
         {
           "particle": {
             "type": "white_ash"
           },
-          "probability": 0.002
+          "probability": 0.003
         }
-      ]
-    },
-    "gameplay/natural_mob_spawns": {
-      "argument": {
-        "spawn_costs": {},
-        "spawns_by_category": {
-          "monster": [
-            {
-              "type": "minecraft:enderman",
-              "count": 4,
-              "weight": 20
-            }
-          ]
-        }
-      },
-      "modifier": "overlay"
+      ],
+      "modifier": "override"
     }
   },
+  "effects": {
+    "water_color": 6057456,
+    "grass_color": 12669904,
+    "foliage_color": 15652590
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 20,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
   "carvers": [],
   "features": [
     ["stellarity:global/stalactite"],
@@ -72,19 +59,21 @@
     ],
     [],
     [],
-    ["stellarity:end_highlands/vegetation"],
+    [],
     [],
     [],
     [],
     [
-      "stellarity:end_highlands/chorus_plant",
-      "stellarity:end_highlands/chorus_tree"
+      "stellarity:end_highlands/huge_chorus/bud",
+      "stellarity:end_highlands/huge_chorus/stacked_trees_1",
+      "stellarity:end_highlands/huge_chorus/stacked_trees_2",
+      "stellarity:end_highlands/chorus_patch",
+      "stellarity:end_highlands/chorus_patch_leaves",
+      "stellarity:end_highlands/bush",
+      "stellarity:end_highlands/patch_pitcher_pod",
+      "stellarity:end_highlands/grass",
+      "stellarity:end_highlands/roots"
     ],
-    [
-      "stellarity:end_highlands/end_city/tall",
-      "stellarity:end_highlands/end_city/wide",
-      "stellarity:global/end_dungeon",
-      "stellarity:global/fossil"
-    ]
+    ["stellarity:global/end_dungeon", "stellarity:global/fossil"]
   ]
 }

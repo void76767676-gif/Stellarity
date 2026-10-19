@@ -18,23 +18,41 @@
           "vegetation_chance": 0.4,
           "xz_radius": {
             "type": "minecraft:uniform",
-            "min_inclusive": 2,
-            "max_inclusive": 4
+            "min_inclusive": 4,
+            "max_inclusive": 7
           },
-          "replaceable": "#minecraft:dirt",
+          "replaceable": "#stellarity:_worldgen/warped_marsh/ground",
           "ground_state": {
             "type": "minecraft:weighted",
             "entries": [
               {
-                "weight": 25,
+                "weight": 35,
                 "data": {
-                  "id": "minecraft:coarse_dirt"
+                  "id": "minecraft:mud"
                 }
               },
               {
-                "weight": 13,
+                "weight": 25,
                 "data": {
-                  "id": "minecraft:rooted_dirt"
+                  "id": "minecraft:warped_wart_block"
+                }
+              },
+              {
+                "weight": 20,
+                "data": {
+                  "id": "minecraft:packed_mud"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "id": "minecraft:clay"
+                }
+              },
+              {
+                "weight": 10,
+                "data": {
+                  "id": "minecraft:coarse_dirt"
                 }
               }
             ]
@@ -105,24 +123,47 @@
       "surface": "floor",
       "depth": {
         "type": "minecraft:uniform",
-        "min_inclusive": 1,
-        "max_inclusive": 2
+        "min_inclusive": 2,
+        "max_inclusive": 3
       },
       "vertical_range": 10,
       "extra_bottom_block_chance": 0.6,
       "extra_edge_column_chance": 0.4,
-      "vegetation_chance": 0.04,
+      "vegetation_chance": 0.08,
       "xz_radius": {
-        "type": "minecraft:biased_to_bottom",
-        "min_inclusive": 2,
-        "max_inclusive": 4
+        "type": "minecraft:uniform",
+        "min_inclusive": 5,
+        "max_inclusive": 9
       },
-      "replaceable": "#minecraft:lush_ground_replaceable",
+      "replaceable": "#stellarity:_worldgen/warped_marsh/ground",
       "ground_state": {
-        "type": "minecraft:simple",
-        "state": {
-          "id": "minecraft:moss_block"
-        }
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "weight": 40,
+            "data": {
+              "id": "minecraft:mud"
+            }
+          },
+          {
+            "weight": 30,
+            "data": {
+              "id": "minecraft:moss_block"
+            }
+          },
+          {
+            "weight": 15,
+            "data": {
+              "id": "minecraft:packed_mud"
+            }
+          },
+          {
+            "weight": 15,
+            "data": {
+              "id": "minecraft:clay"
+            }
+          }
+        ]
       },
       "vegetation_feature": {
         "feature": "stellarity:warped_marsh/pond_plants",

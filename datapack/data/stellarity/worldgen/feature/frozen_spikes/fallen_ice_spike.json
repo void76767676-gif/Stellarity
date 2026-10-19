@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:fallen_tree",
+  "log_decorators": [
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": "minecraft:amethyst_cluster",
+            "weight": 2
+          },
+          {
+            "data": "minecraft:large_amethyst_bud",
+            "weight": 3
+          },
+          {
+            "data": "minecraft:medium_amethyst_bud",
+            "weight": 2
+          }
+        ]
+      },
+      "directions": [
+        "up"
+      ],
+      "probability": 0.35
+    }
+  ],
+  "log_length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 6,
+    "max_inclusive": 12
+  },
+  "stump_decorators": [],
+  "trunk_provider": {
+    "id": "minecraft:packed_ice"
+  }
+}

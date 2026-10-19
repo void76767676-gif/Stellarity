@@ -125,6 +125,18 @@
             "data": {
               "id": "minecraft:firefly_bush"
             }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "id": "minecraft:red_mushroom"
+            }
+          },
+          {
+            "weight": 2,
+            "data": {
+              "id": "minecraft:brown_mushroom"
+            }
           }
         ]
       }

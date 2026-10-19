@@ -17,12 +17,12 @@
           "height": {
             "type": "minecraft:uniform",
             "min_inclusive": 1,
-            "max_inclusive": 4
+            "max_inclusive": 3
           },
           "provider": {
             "type": "minecraft:simple",
             "state": {
-              "id": "minecraft:spruce_fence",
+              "id": "minecraft:warped_fence",
               "properties": {
                 "east": "false",
                 "north": "false",
@@ -37,20 +37,21 @@
           "height": {
             "type": "minecraft:uniform",
             "min_inclusive": 1,
-            "max_inclusive": 3
+            "max_inclusive": 2
           },
           "provider": {
             "type": "minecraft:weighted",
             "entries": [
               {
+                "weight": 9,
+                "data": {
+                  "id": "minecraft:warped_wart_block"
+                }
+              },
+              {
                 "weight": 1,
                 "data": {
-                  "id": "minecraft:oak_leaves",
-                  "properties": {
-                    "distance": "1",
-                    "persistent": "true",
-                    "waterlogged": "false"
-                  }
+                  "id": "minecraft:shroomlight"
                 }
               }
             ]
@@ -82,7 +83,7 @@
           "provider": {
             "type": "minecraft:simple",
             "state": {
-              "id": "minecraft:dark_oak_fence",
+              "id": "minecraft:warped_fence",
               "properties": {
                 "east": "false",
                 "north": "false",
@@ -103,14 +104,15 @@
             "type": "minecraft:weighted",
             "entries": [
               {
-                "weight": 1,
+                "weight": 8,
                 "data": {
-                  "id": "minecraft:mangrove_leaves",
-                  "properties": {
-                    "distance": "1",
-                    "persistent": "true",
-                    "waterlogged": "false"
-                  }
+                  "id": "minecraft:warped_wart_block"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "id": "minecraft:shroomlight"
                 }
               }
             ]

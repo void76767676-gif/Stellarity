@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:packed_ice",
+    "minecraft:blue_ice",
+    "minecraft:ice",
+    "minecraft:calcite",
+    "minecraft:snow_block",
+    "minecraft:amethyst_block"
+  ]
+}

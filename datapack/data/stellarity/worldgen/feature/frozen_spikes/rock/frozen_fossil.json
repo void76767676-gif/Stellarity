@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:fallen_tree",
+  "log_decorators": [
+    {
+      "type": "minecraft:attached_to_logs",
+      "block_provider": {
+        "type": "minecraft:weighted",
+        "entries": [
+          {
+            "data": "minecraft:amethyst_cluster",
+            "weight": 1
+          },
+          {
+            "data": "minecraft:small_amethyst_bud",
+            "weight": 2
+          }
+        ]
+      },
+      "directions": [
+        "up"
+      ],
+      "probability": 0.25
+    }
+  ],
+  "log_length": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 3,
+    "max_inclusive": 6
+  },
+  "stump_decorators": [],
+  "trunk_provider": {
+    "id": "minecraft:bone_block",
+    "properties": {
+      "axis": "y"
+    }
+  }
+}

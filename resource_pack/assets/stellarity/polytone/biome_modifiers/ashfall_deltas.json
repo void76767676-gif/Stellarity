@@ -9,18 +9,16 @@
       "minecraft:visual/block_light_tint": "#ff9248",
       "minecraft:visual/sky_light_color": "#d97736",
       "minecraft:audio/ambient_sounds": {
-        "argument": {
-          "loop": "minecraft:ambient.basalt_deltas.loop",
-          "mood": {
-            "sound": "minecraft:ambient.basalt_deltas.mood",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2.0
-          },
-          "additions": {
-            "sound": "minecraft:ambient.basalt_deltas.additions",
-            "tick_chance": 0.0111
-          }
+        "loop": "minecraft:ambient.basalt_deltas.loop",
+        "mood": {
+          "sound": "minecraft:ambient.basalt_deltas.mood",
+          "tick_delay": 6000,
+          "block_search_extent": 8,
+          "offset": 2.0
+        },
+        "additions": {
+          "sound": "minecraft:ambient.basalt_deltas.additions",
+          "tick_chance": 0.0111
         }
       }
     }

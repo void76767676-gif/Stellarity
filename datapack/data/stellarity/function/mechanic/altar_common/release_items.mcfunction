@@ -37,7 +37,6 @@ tag @e[type=item,distance=..6.0] remove stellarity.altar.in_craft
 # 5. Clear PickupDelay on ALL loose items on altar so they can be collected immediately
 execute as @e[type=item,distance=..6.0] run data merge entity @s {PickupDelay:0s,NoGravity:0b,Glowing:0b}
 
-# 6. Teleport items directly to sneaking player within 6.0 blocks
-execute at @p[distance=..6.0,limit=1] as @e[type=item,distance=..6.0] run tp @s ~ ~0.5 ~
-playsound minecraft:entity.item.pickup player @p[distance=..6.0] ~ ~ ~ 0.8 1.2
+# Teleport items to player
+execute at @p[distance=..6.0,limit=1] as @e[type=item,distance=..6.0,tag=!stellarity.altar.skip] run tp @s ~ ~0.5 ~
 scoreboard players set @s stellarity.altar_items 0

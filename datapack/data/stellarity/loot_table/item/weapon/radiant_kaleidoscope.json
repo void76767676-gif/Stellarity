@@ -27,7 +27,7 @@
                 },
                 "minecraft:item_name": {
                   "translate": "item.stellarity.radiant_kaleidoscope",
-                  "color": "#FFD700",
+                  "color": "#FF76D0",
                   "italic": false
                 },
                 "minecraft:enchantments": {

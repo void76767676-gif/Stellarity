@@ -9,18 +9,16 @@
       "minecraft:visual/block_light_tint": "#f5d0fe",
       "minecraft:visual/sky_light_color": "#e879f9",
       "minecraft:audio/ambient_sounds": {
-        "argument": {
-          "loop": "minecraft:ambient.soul_sand_valley.loop",
-          "mood": {
-            "sound": "minecraft:ambient.soul_sand_valley.mood",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2.0
-          },
-          "additions": {
-            "sound": "minecraft:block.amethyst_block.chime",
-            "tick_chance": 0.008
-          }
+        "loop": "minecraft:ambient.soul_sand_valley.loop",
+        "mood": {
+          "sound": "minecraft:ambient.soul_sand_valley.mood",
+          "tick_delay": 6000,
+          "block_search_extent": 8,
+          "offset": 2.0
+        },
+        "additions": {
+          "sound": "minecraft:block.amethyst_block.chime",
+          "tick_chance": 0.008
         }
       }
     }

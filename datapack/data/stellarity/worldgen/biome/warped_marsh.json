@@ -33,8 +33,50 @@
       ]
     },
     "gameplay/natural_mob_spawns": {
-      "spawn_costs": {},
+      "spawn_costs": {
+        "minecraft:enderman": {
+          "energy_budget": 1.0,
+          "charge": 0.6
+        },
+        "minecraft:slime": {
+          "energy_budget": 1.0,
+          "charge": 0.4
+        },
+        "minecraft:bogged": {
+          "energy_budget": 1.0,
+          "charge": 0.6
+        }
+      },
       "spawns_by_category": {
+        "monster": [
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            },
+            "weight": 20
+          },
+          {
+            "type": "minecraft:slime",
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            },
+            "weight": 80
+          },
+          {
+            "type": "minecraft:bogged",
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            },
+            "weight": 60
+          }
+        ],
         "water_creature": [
           {
             "type": "minecraft:tropical_fish",
@@ -67,12 +109,17 @@
     "foliage_color": 56800,
     "dry_foliage_color": 3445610
   },
-  "carvers": [],
+  "carvers": [
+    "stellarity:ravine",
+    "stellarity:crack"
+  ],
   "features": [
     [
-      "stellarity:global/stalactite"
+      "stellarity:global/stalactite",
+      "stellarity:warped_marsh/swamp_hills"
     ],
     [
+      "stellarity:warped_marsh/large_swamp_lake",
       "stellarity:warped_marsh/dripping_water"
     ],
     [],
@@ -87,6 +134,8 @@
       "stellarity:warped_marsh/vegetation_grass",
       "stellarity:warped_marsh/vegetation_water",
       "stellarity:warped_marsh/vegetation_land",
+      "stellarity:warped_marsh/fallen_log",
+      "stellarity:warped_marsh/huge_fungus",
       "stellarity:warped_marsh/slime",
       "stellarity:warped_marsh/froglight"
     ],

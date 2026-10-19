@@ -39,17 +39,13 @@
         "type": "minecraft:all_of",
         "predicates": [
           {
-            "type": "minecraft:matching_blocks",
+            "type": "minecraft:matching_block_tag",
             "offset": [
               0,
               -1,
               0
             ],
-            "blocks": [
-              "minecraft:moss_block",
-              "minecraft:coarse_dirt",
-              "minecraft:snow_block"
-            ]
+            "tag": "stellarity:_worldgen/warped_marsh/ground"
           },
           {
             "type": "minecraft:matching_blocks",
@@ -59,6 +55,9 @@
           }
         ]
       }
+    },
+    {
+      "type": "minecraft:biome"
     }
   ]
 }

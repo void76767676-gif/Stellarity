@@ -1,7 +1,7 @@
 {
   "type": "custom",
   "initializer": {
-    "lifetime": "25 + 10 * rand()",
+    "lifetime": "35 + 15 * rand()",
     "size": "0",
     "custom": "rand()",
     "red": "0.86 + rand() * 0.14",
@@ -14,9 +14,9 @@
     "dx": "DX",
     "dy": "DY",
     "dz": "DZ",
-    "size": "(0.65 + CUSTOM * 0.25) * sin((pi / LIFETIME) * AGE)",
-    "alpha": "0.95 * sin((pi / LIFETIME) * AGE)",
-    "remove_condition": "sqrt(DISTANCE_SQUARED) > 90"
+    "size": "(0.85 + CUSTOM * 0.35) * sin((pi / LIFETIME) * AGE)",
+    "alpha": "0.98 * sin((pi / LIFETIME) * AGE)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 140"
   },
   "light_level": 15,
   "render_type": "additive_translucent",
@@ -25,13 +25,13 @@
   "particle_emitters": [
     {
       "particle": "stellarity:celestial_spark",
-      "chance": "0.65",
+      "chance": "0.85",
       "x": "0",
       "y": "0",
       "z": "0",
-      "dx": "DX * 0.12",
-      "dy": "DY * 0.12",
-      "dz": "DZ * 0.12"
+      "dx": "DX * 0.15",
+      "dy": "DY * 0.15",
+      "dz": "DZ * 0.15"
     }
   ]
 }

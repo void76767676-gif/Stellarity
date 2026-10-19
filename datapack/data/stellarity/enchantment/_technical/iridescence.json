@@ -1,7 +1,7 @@
 {
   "description": {
     "translate": "enchantment.stellarity.iridescence",
-    "color": "#FFD700"
+    "color": "#FF76D0"
   },
   "exclusive_set": [
     "minecraft:fire_aspect",

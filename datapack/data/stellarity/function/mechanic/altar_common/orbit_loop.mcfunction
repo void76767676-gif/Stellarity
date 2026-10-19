@@ -9,8 +9,8 @@ scoreboard players operation #current_altar stellarity.altar_id = @s stellarity.
 # 1. Check if currently in crafting convergence sequence
 execute if score @s stellarity.altar.craft_progress matches 1.. run return run function stellarity:mechanic/altar_common/craft_tick
 
-# 2. Player retrieval: sneak within 5.5 blocks releases all items safely back to player
-execute if entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] run return run function stellarity:mechanic/altar_common/release_items
+# Sneak retrieval
+execute if entity @e[type=item,distance=..3.0,tag=stellarity.altar.captured] if entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] run return run function stellarity:mechanic/altar_common/release_items
 
 # 2.1 First time approach sound & advancement
 execute as @a[distance=..6.0] unless score @s stellarity.altar_approached matches 1.. at @s run function stellarity:mechanic/altar_common/on_first_approach

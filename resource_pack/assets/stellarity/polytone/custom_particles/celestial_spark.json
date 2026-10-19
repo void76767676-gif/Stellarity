@@ -16,7 +16,7 @@
     "dz": "DZ + 0.003 * cos(0.06 * AGE + CUSTOM * 6.28)",
     "size": "(0.09 + CUSTOM * 0.04) * sin((pi / LIFETIME) * AGE)",
     "alpha": "0.92 * sin((pi / LIFETIME) * AGE)",
-    "remove_condition": "sqrt(DISTANCE_SQUARED) > 36"
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 140"
   },
   "light_level": 15,
   "render_type": "additive_translucent",

@@ -80,12 +80,13 @@
   ],
   "features": [
     [
-      "stellarity:global/stalactite",
+      "stellarity:endless_dunes/island/sandstone_stalactite",
       "stellarity:endless_dunes/oasis"
     ],
     [],
     [
-      "stellarity:endless_dunes/delta_sand_on_endstone"
+      "stellarity:endless_dunes/rock/sandstone_boulder",
+      "stellarity:endless_dunes/rock/fallen_fossil"
     ],
     [],
     [],
@@ -94,9 +95,9 @@
     [],
     [],
     [
-      "stellarity:endless_dunes/vegetation",
-      "minecraft:patch_dry_grass_desert",
-      "stellarity:endless_dunes/grass"
+      "stellarity:endless_dunes/vegetation/arid_patch",
+      "stellarity:endless_dunes/vegetation/bush_clusters",
+      "stellarity:endless_dunes/vegetation/chorus_cactus"
     ],
     [
       "stellarity:global/end_dungeon",

@@ -36,3 +36,11 @@
   if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.netherite_spear,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
   run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/check_scoreboards {scoreboard:"enable_shulker_tools", macro:"craft_weapon", loot:"stellarity:item/tool/shulker_spear", parent:"minecraft.netherite_spear"}
 
+# Radiant Kaleidoscope
+  execute if score @s stellarity.misc matches 4 \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.stellarity.kaleidoscope,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.stellarity.radiant_jewel,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.stellarity.starlight_soot,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.glowstone_dust,scores={stellarity.altar_of_the_accursed.count=32},tag=!stellarity.altar_of_the_accursed.skip] \
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/check_scoreboards {scoreboard:"enable_radiant_kaleidoscope", macro:"craft_weapon", loot:"stellarity:item/weapon/radiant_kaleidoscope", parent:"stellarity.kaleidoscope"}
+

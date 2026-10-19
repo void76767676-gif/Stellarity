@@ -9,18 +9,16 @@
       "minecraft:visual/block_light_tint": "#f0abfc",
       "minecraft:visual/sky_light_color": "#c084fc",
       "minecraft:audio/ambient_sounds": {
-        "argument": {
-          "loop": "minecraft:ambient.cave",
-          "mood": {
-            "sound": "minecraft:ambient.cave",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2.0
-          },
-          "additions": {
-            "sound": "minecraft:block.amethyst_block.chime",
-            "tick_chance": 0.015
-          }
+        "loop": "minecraft:ambient.cave",
+        "mood": {
+          "sound": "minecraft:ambient.cave",
+          "tick_delay": 6000,
+          "block_search_extent": 8,
+          "offset": 2.0
+        },
+        "additions": {
+          "sound": "minecraft:block.amethyst_block.chime",
+          "tick_chance": 0.015
         }
       }
     }

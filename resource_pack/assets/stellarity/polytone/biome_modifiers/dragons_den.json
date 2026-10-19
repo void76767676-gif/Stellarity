@@ -2,26 +2,38 @@
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#4a154b",
-      "minecraft:visual/sky_color": "#1f0426",
-      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.40 : (c.y() < 60 ? 0.08 : 0.22))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.92 : (c.y() < 60 ? 0.58 : 0.82))",
-      "minecraft:visual/ambient_light_color": "#160408",
-      "minecraft:visual/block_light_tint": "#ef4444",
-      "minecraft:visual/sky_light_color": "#991b1b",
+      "minecraft:visual/sky_color": "#0d0614",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.35 : (c.y() < 60 ? 0.08 : 0.12))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.88 : (c.y() < 60 ? 0.55 : 0.70))",
+      "minecraft:visual/ambient_light_color": "#08020c",
+      "minecraft:visual/block_light_tint": "#00000000",
+      "minecraft:visual/sky_light_color": "#00000000",
       "minecraft:audio/ambient_sounds": {
+        "modifier": "override",
         "argument": {
           "loop": "minecraft:ambient.nether_wastes.loop",
           "mood": {
-            "sound": "minecraft:ambient.nether_wastes.mood",
-            "tick_delay": 5000,
-            "block_search_extent": 8,
+            "sound": "minecraft:ambient.soul_sand_valley.mood",
+            "tick_delay": 600,
+            "block_search_extent": 6,
             "offset": 2.0
           },
           "additions": {
-            "sound": "minecraft:ambient.nether_wastes.additions",
-            "tick_chance": 0.01
+            "sound": "minecraft:entity.ender_dragon.growl",
+            "tick_chance": 0.005
           }
         }
+      },
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:dragon_breath"
+            },
+            "probability": 0.0012
+          }
+        ]
       }
     }
   }

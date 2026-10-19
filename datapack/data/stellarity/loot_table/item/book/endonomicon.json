@@ -6,9 +6,9 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:written_book",
-          "functions": [
+          "modifier": [
             {
-              "function": "minecraft:set_components",
+              "type": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "stellarity:endonomicon",
                 "minecraft:custom_data": {
@@ -775,7 +775,7 @@
               }
             },
             {
-              "function": "minecraft:set_lore",
+              "type": "minecraft:set_lore",
               "lore": [
                 "",
                 {
@@ -793,7 +793,7 @@
                   "translate": "book.byAuthor",
                   "with": [
                     {
-                      "text": "Ashley",
+                      "text": "BananaKingXO",
                       "color": "gray",
                       "font": "illageralt"
                     }

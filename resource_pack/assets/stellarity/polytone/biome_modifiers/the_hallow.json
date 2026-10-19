@@ -9,18 +9,16 @@
       "minecraft:visual/block_light_tint": "#ffe5b4",
       "minecraft:visual/sky_light_color": "#c4b5fd",
       "minecraft:audio/ambient_sounds": {
-        "argument": {
-          "loop": "minecraft:ambient.crimson_forest.loop",
-          "mood": {
-            "sound": "minecraft:ambient.crimson_forest.mood",
-            "tick_delay": 6000,
-            "block_search_extent": 8,
-            "offset": 2.0
-          },
-          "additions": {
-            "sound": "minecraft:ambient.crimson_forest.additions",
-            "tick_chance": 0.012
-          }
+        "loop": "minecraft:ambient.crimson_forest.loop",
+        "mood": {
+          "sound": "minecraft:ambient.crimson_forest.mood",
+          "tick_delay": 6000,
+          "block_search_extent": 8,
+          "offset": 2.0
+        },
+        "additions": {
+          "sound": "minecraft:ambient.crimson_forest.additions",
+          "tick_chance": 0.012
         }
       }
     }
