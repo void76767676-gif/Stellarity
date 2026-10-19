@@ -30,7 +30,7 @@ execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}
 execute if data storage stellarity:temp {altar:{craft:{type:"smithing_template"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/material/enderite_smithing_template
 execute if data storage stellarity:temp {altar:{craft:{type:"endonomicon"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/book/endonomicon
 execute if data storage stellarity:temp {altar:{craft:{type:"call_of_the_void"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/weapon/call_of_the_void
-execute if data storage stellarity:temp {altar:{craft:{type:"void_pendant"}}} run loot spawn ~ ~-.4 ~ loot stellarity:item/trinket/void_pendant
+execute if data storage stellarity:temp {altar:{craft:{type:"void_pendant"}}} run function stellarity:mechanic/altar_common/craft_output/loot_macro with storage stellarity:temp altar.craft
 
 # Mark newly spawned items so they can be picked up freely
 tag @e[type=item,distance=..2.5,tag=!stellarity.altar_of_the_accursed.checked_type] add stellarity.altar_of_the_accursed.skip

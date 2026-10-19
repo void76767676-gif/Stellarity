@@ -6,7 +6,7 @@ execute if entity @e[type=item,tag=stellarity.altar_of_the_sacred.ascending] run
 execute store result score #count stellarity.misc run data get entity @s Item.count 1
 
 execute if score #count stellarity.misc matches 2.. run scoreboard players remove #count stellarity.misc 1
-execute if score #count stellarity.misc matches 2.. store result entity @s Item.count byte 1 run scoreboard players get #count stellarity.misc
+execute if score #count stellarity.misc matches 2.. store result entity @s Item.count int 1 run scoreboard players get #count stellarity.misc
 execute if score #count stellarity.misc matches 2.. run summon item ~ ~0.5 ~ {Item:{id:"minecraft:sugar",count:1,components:{"minecraft:custom_data":{"stellarity:item":"starlight_soot"},"minecraft:item_model":"stellarity:starlight_soot"}},Tags:["stellarity.altar_of_the_sacred.ascending","stellarity.altar.skip","stellarity.checked"],NoGravity:1b,Glowing:1b,PickupDelay:32767s}
 
 execute if score #count stellarity.misc matches 1 run tag @s add stellarity.altar_of_the_sacred.ascending

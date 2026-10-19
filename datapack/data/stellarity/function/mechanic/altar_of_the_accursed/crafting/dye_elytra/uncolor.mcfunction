@@ -8,7 +8,7 @@ tag @n[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.w
 
 # Consume white dye (decrement count or kill item)
 execute as @n[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.white_dye] run scoreboard players remove @s stellarity.altar_of_the_accursed.count 1
-execute as @n[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.white_dye] if score @s stellarity.altar_of_the_accursed.count matches 1.. run execute store result entity @s Item.count byte 1 run scoreboard players get @s stellarity.altar_of_the_accursed.count
+execute as @n[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.white_dye] if score @s stellarity.altar_of_the_accursed.count matches 1.. run execute store result entity @s Item.count int 1 run scoreboard players get @s stellarity.altar_of_the_accursed.count
 execute as @n[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.white_dye] if score @s stellarity.altar_of_the_accursed.count matches ..0 run kill @s
 
 # Make uncolored elytra pickable immediately

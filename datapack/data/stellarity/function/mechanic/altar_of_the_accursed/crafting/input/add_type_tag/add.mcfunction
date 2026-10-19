@@ -22,6 +22,7 @@ execute if items entity @s contents #minecraft:trim_templates run tag @s add ste
 execute if items entity @s contents #minecraft:trim_materials run tag @s add stellarity.altar.trim_material
 execute if entity @s[tag=stellarity.altar_of_the_accursed.stellarity.chorus_plating] run tag @s add stellarity.altar.trim_material
 execute if entity @s[tag=stellarity.altar_of_the_accursed.stellarity.enderite_shard] run tag @s add stellarity.altar.trim_material
+execute if entity @s[tag=stellarity.altar_of_the_accursed.stellarity.enderite_ingot] run tag @s add stellarity.altar.trim_material
 
 particle minecraft:witch ~ ~.5 ~ 0 0 0 10 6 normal
 particle minecraft:smoke ~ ~.5 ~ 0 0 0 0.02 6 normal

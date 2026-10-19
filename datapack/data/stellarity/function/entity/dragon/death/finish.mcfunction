@@ -11,6 +11,7 @@
 
 # Disable bossbar
   bossbar set stellarity:ender_dragon players
+  bossbar set stellarity:crystal_count players
 
 execute as @e[type=marker,tag=stellarity.dragon_marker] at @s run function stellarity:entity/dragon/death/finish_as_marker
 
@@ -30,6 +31,15 @@ execute if score #stellarity.config stellarity.config.boss_status_messages match
     advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=true,stellarity:dragons_den/god_slayer=false}] only stellarity:dragons_den/god_slayer
     # 'Free The End'
       advancement grant @a[distance=..100,advancements={minecraft:end/kill_dragon=false}] only minecraft:end/kill_dragon
+
+  # 'God of Gods'
+    execute if entity @e[type=marker,tag=stellarity.dragon_marker,tag=stellarity.dragon.rk_only] run advancement grant @a[distance=..100] only stellarity:dragons_den/god_of_gods
+
+  # 'Pure Completion'
+    scoreboard players add @a[distance=..100] stellarity.player.dragon_kills 1
+    execute if score @s stellarity.dragon.times_killed matches 20.. run advancement grant @a[distance=..100] only stellarity:dragons_den/pure_completion
+    advancement grant @a[distance=..100,scores={stellarity.player.dragon_kills=20..}] only stellarity:dragons_den/pure_completion
+    execute as @a[distance=..100,scores={stellarity.player.dragon_kills=20}] run experience add @s 20000 points
 
     # Activate Altar of The Accursed. Now we shall all witness horrible dark magic emerging and crafting fantastic gear!
       # Wonderful! Like ancient forces of darkness were always supposed to 

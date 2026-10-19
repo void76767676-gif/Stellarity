@@ -492,3 +492,9 @@ execute unless score #stellarity.config stellarity.config.join_message matches 0
 
 # End City marker status
 scoreboard objectives add stellarity.end_city.status dummy
+
+# Player connection & dragon tracking
+scoreboard objectives add join_check dummy
+scoreboard objectives add leave_game minecraft.custom:minecraft.leave_game
+scoreboard objectives add stellarity.player.dragon_kills dummy
+scoreboard objectives add stellarity.dragon.rk_damage_window dummy

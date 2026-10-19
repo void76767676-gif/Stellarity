@@ -1,6 +1,11 @@
 ## Items
   function stellarity:item/main_player
 
+# Connection check
+execute if score @s join_check matches ..0 run function stellarity:player/on_join
+scoreboard players set @s join_check 1
+execute if score @s leave_game matches 1.. run function stellarity:player/on_leave
+
 # Totem of Undying gives Levitation when falling out of the world
   execute if score #stellarity.config stellarity.config.enable_totem_void_saving matches 1 run \
   execute if entity @s[predicate=kohara:holding_a_totem,predicate=stellarity:location/in_void] run function stellarity:mechanic/void_totem_protection/save

@@ -6,14 +6,14 @@
     "min_inclusive": 2,
     "max_inclusive": 3
   },
-  "vertical_range": 12,
+  "vertical_range": 5,
   "extra_bottom_block_chance": 0.5,
   "extra_edge_column_chance": 0.7,
   "vegetation_chance": 0.35,
   "xz_radius": {
     "type": "minecraft:uniform",
-    "min_inclusive": 3,
-    "max_inclusive": 6
+    "min_inclusive": 2,
+    "max_inclusive": 5
   },
   "replaceable": "#stellarity:_worldgen/frozen_spikes/patches_replacable",
   "ground_state": {

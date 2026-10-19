@@ -2,92 +2,15 @@
   "type": "minecraft:random_selector",
   "features": [
     {
-      "chance": 0.4,
+      "chance": 0.65,
       "feature": {
-        "feature": {
-          "type": "minecraft:huge_fungus",
-          "stem_state": "minecraft:warped_stem",
-          "hat_state": "minecraft:warped_wart_block",
-          "decor_state": "minecraft:shroomlight",
-          "replaceable_blocks": {
-            "type": "minecraft:matching_block_tag",
-            "tag": "minecraft:replaceable_by_trees"
-          },
-          "valid_base_block": "minecraft:moss_block"
-        },
-        "placement": []
-      }
-    },
-    {
-      "chance": 0.3,
-      "feature": {
-        "feature": {
-          "type": "minecraft:huge_fungus",
-          "stem_state": "minecraft:warped_stem",
-          "hat_state": "minecraft:warped_wart_block",
-          "decor_state": "minecraft:shroomlight",
-          "replaceable_blocks": {
-            "type": "minecraft:matching_block_tag",
-            "tag": "minecraft:replaceable_by_trees"
-          },
-          "valid_base_block": "minecraft:mud"
-        },
-        "placement": []
-      }
-    },
-    {
-      "chance": 0.15,
-      "feature": {
-        "feature": {
-          "type": "minecraft:huge_red_mushroom",
-          "can_place_on": {
-            "type": "minecraft:matching_block_tag",
-            "tag": "stellarity:_worldgen/warped_marsh/ground"
-          },
-          "cap_provider": {
-            "id": "minecraft:warped_wart_block"
-          },
-          "stem_provider": {
-            "id": "minecraft:warped_stem",
-            "properties": {
-              "axis": "y"
-            }
-          }
-        },
+        "feature": "stellarity:warped_marsh/warped_mangrove",
         "placement": []
       }
     }
   ],
   "default": {
-    "feature": {
-      "type": "minecraft:huge_brown_mushroom",
-      "can_place_on": {
-        "type": "minecraft:matching_block_tag",
-        "tag": "stellarity:_worldgen/warped_marsh/ground"
-      },
-      "cap_provider": {
-        "id": "minecraft:brown_mushroom_block",
-        "properties": {
-          "down": "false",
-          "east": "true",
-          "north": "true",
-          "south": "true",
-          "up": "true",
-          "west": "true"
-        }
-      },
-      "stem_provider": {
-        "id": "minecraft:mushroom_stem",
-        "properties": {
-          "down": "false",
-          "east": "true",
-          "north": "true",
-          "south": "true",
-          "up": "false",
-          "west": "true"
-        }
-      }
-    },
+    "feature": "stellarity:warped_marsh/tall_warped_mangrove",
     "placement": []
   }
 }

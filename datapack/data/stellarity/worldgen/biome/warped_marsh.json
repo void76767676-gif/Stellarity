@@ -65,7 +65,7 @@
               "min_inclusive": 2,
               "max_inclusive": 4
             },
-            "weight": 80
+            "weight": 40
           },
           {
             "type": "minecraft:bogged",
@@ -97,6 +97,15 @@
               "max_inclusive": 4
             },
             "weight": 25
+          },
+          {
+            "type": "minecraft:allay",
+            "count": {
+              "type": "minecraft:uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 15
           }
         ]
       }
@@ -115,30 +124,42 @@
   ],
   "features": [
     [
-      "stellarity:global/stalactite",
+      "stellarity:warped_marsh/island/mud_stalactite",
       "stellarity:warped_marsh/swamp_hills"
     ],
     [
       "stellarity:warped_marsh/large_swamp_lake",
       "stellarity:warped_marsh/dripping_water"
     ],
-    [],
+    [
+      "stellarity:warped_marsh/fallen_log",
+      "stellarity:warped_marsh/creeping_infection"
+    ],
+    [
+      "stellarity:warped_marsh/cave/floor_mycelium",
+      "stellarity:warped_marsh/cave/ceiling_fungus"
+    ],
     [
       "stellarity:warped_marsh/puddles"
     ],
     [],
     [],
     [],
-    [],
     [
+      "stellarity:warped_marsh/waterfall"
+    ],
+    [
+      "stellarity:warped_marsh/huge_fungus",
+      "stellarity:warped_marsh/vegetation_land",
       "stellarity:warped_marsh/vegetation_grass",
       "stellarity:warped_marsh/vegetation_water",
-      "stellarity:warped_marsh/vegetation_land",
-      "stellarity:warped_marsh/fallen_log",
-      "stellarity:warped_marsh/huge_fungus",
+      "stellarity:warped_marsh/lily_pad",
       "stellarity:warped_marsh/slime",
       "stellarity:warped_marsh/froglight"
     ],
-    []
+    [
+      "stellarity:warped_marsh/dungeon",
+      "stellarity:warped_marsh/fossil"
+    ]
   ]
 }

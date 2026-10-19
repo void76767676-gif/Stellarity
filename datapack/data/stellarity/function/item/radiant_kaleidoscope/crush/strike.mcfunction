@@ -36,6 +36,7 @@ tag @p[predicate=stellarity:item/holding/radiant_kaleidoscope] add kohara.attack
 
 # Calculate damage
 function kohara:damage/calculate {armor_penetration:50,damage_boost_efficiency:50,ap_damage_type:"kohara:armor_piercing",damage_type:"stellarity:radiant_kaleidoscope_crush",tag:"stellarity.damage.radiant_kaleidoscope"}
+execute if entity @s[type=ender_dragon] run scoreboard players set @s stellarity.dragon.rk_damage_window 3
 
 # Apply inferno
 function stellarity:mechanic/enchantments/infernal_infusion/apply_prismatic_inferno

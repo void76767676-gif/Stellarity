@@ -513,6 +513,23 @@
         {
           "text": " ",
           "atlas": "minecraft:items",
+          "sprite": "stellarity:item/radiant_kaleidoscope_ascended"
+        }
+      ],
+      "tooltip": {
+        "text": "Radiant Kaleidoscope (Ascended)"
+      },
+      "width": 20,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "loot give @s loot stellarity:item/weapon/radiant_kaleidoscope_ascended"
+      }
+    },
+    {
+      "label": [
+        {
+          "text": " ",
+          "atlas": "minecraft:items",
           "sprite": "stellarity:item/prismember"
         }
       ],

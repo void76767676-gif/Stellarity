@@ -44,3 +44,10 @@
   if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.minecraft.glowstone_dust,scores={stellarity.altar_of_the_accursed.count=32},tag=!stellarity.altar_of_the_accursed.skip] \
   run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/check_scoreboards {scoreboard:"enable_radiant_kaleidoscope", macro:"craft_weapon", loot:"stellarity:item/weapon/radiant_kaleidoscope", parent:"stellarity.kaleidoscope"}
 
+# Ascended Kaleidoscope
+  execute if score @s stellarity.misc matches 2 \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.stellarity.radiant_kaleidoscope,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  if entity @e[type=item,distance=..2.5,tag=stellarity.altar_of_the_accursed.stellarity.radiant_jewel,scores={stellarity.altar_of_the_accursed.count=1},tag=!stellarity.altar_of_the_accursed.skip] \
+  run function stellarity:mechanic/altar_of_the_accursed/crafting/macro/check_scoreboards {scoreboard:"enable_radiant_kaleidoscope", macro:"craft_weapon", loot:"stellarity:item/weapon/radiant_kaleidoscope_ascended", parent:"stellarity.radiant_kaleidoscope"}
+
+
