@@ -5,7 +5,7 @@
   "emitters": [
     {
       "particle": "stellarity:celestial_meteor",
-      "chance": "g.skyType() == 3 ? 0.012 : 0.0",
+      "chance": "g.skyType() == 2 ? 0.012 : 0.0",
       "count": 1,
       "x": "r.rand(-60.0, 60.0)",
       "y": "r.rand(35.0, 75.0)",

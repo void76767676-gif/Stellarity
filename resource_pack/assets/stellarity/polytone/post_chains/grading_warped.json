@@ -1,0 +1,4 @@
+{
+  "activation_condition": "g.skyType() == 2 && c.biome() == 'stellarity:warped_marsh'",
+  "post_chain": "stellarity:grading_warped"
+}

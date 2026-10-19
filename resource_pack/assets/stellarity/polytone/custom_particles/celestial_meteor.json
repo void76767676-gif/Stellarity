@@ -8,9 +8,6 @@
     "green": "0.72 + rand() * 0.22",
     "blue": "1.0",
     "alpha": "0.95",
-    "dx": "-1.8 - rand() * 0.8",
-    "dy": "-0.15 - rand() * 0.1",
-    "dz": "0.6 + rand() * 0.4",
     "hitbox_size": 0.25
   },
   "ticker": {
@@ -21,7 +18,6 @@
     "alpha": "0.95 * sin((pi / LIFETIME) * AGE)",
     "remove_condition": "sqrt(DISTANCE_SQUARED) > 90"
   },
-  "lit": true,
   "light_level": 15,
   "render_type": "additive_translucent",
   "rotation_mode": "movement_aligned",

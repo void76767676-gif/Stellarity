@@ -16,5 +16,13 @@
       "dy": "-0.015 - r.rand() * 0.01",
       "dz": "(r.rand() - 0.5) * 0.01"
     }
+  ],
+  "sound_emitters": [
+    {
+      "sound": "minecraft:block.powder_snow.step",
+      "chance": 0.001,
+      "volume": 0.25,
+      "pitch": "1.2 + 0.2 * r.rand()"
+    }
   ]
 }

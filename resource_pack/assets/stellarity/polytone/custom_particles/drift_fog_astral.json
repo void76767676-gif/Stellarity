@@ -19,9 +19,8 @@
   },
   "render_type": "additive_translucent",
   "rotation_mode": "look_at_xyz",
-  "exclusion_radius": 1.8,
+  "exclusion_radius": 2,
   "has_physics": false,
-  "lit": true,
   "light_level": 15,
   "liquid_affinity": "any"
 }

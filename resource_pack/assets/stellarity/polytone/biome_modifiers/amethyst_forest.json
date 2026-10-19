@@ -1,11 +1,28 @@
 {
-  "targets": ".*:amethyst_forest",
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#9d4edd",
       "minecraft:visual/sky_color": "#240046",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.48 : (c.y() < 60 ? 0.15 : 0.36))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.68 : 0.90))"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.68 : 0.90))",
+      "minecraft:visual/ambient_light_color": "#18042b",
+      "minecraft:visual/block_light_tint": "#f0abfc",
+      "minecraft:visual/sky_light_color": "#c084fc",
+      "minecraft:audio/ambient_sounds": {
+        "argument": {
+          "loop": "minecraft:ambient.cave",
+          "mood": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          },
+          "additions": {
+            "sound": "minecraft:block.amethyst_block.chime",
+            "tick_chance": 0.015
+          }
+        }
+      }
     }
   }
 }

@@ -20,5 +20,13 @@
       "y": "0.5 + (r.rand() - 0.5) * 0.6",
       "z": "0.5 + (r.rand() - 0.5) * 0.6"
     }
+  ],
+  "sound_emitters": [
+    {
+      "sound": "minecraft:block.respawn_anchor.ambient",
+      "chance": 0.005,
+      "volume": 0.3,
+      "pitch": "0.8 + 0.4 * r.rand()"
+    }
   ]
 }

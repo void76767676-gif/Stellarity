@@ -2,9 +2,17 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "has_precipitation": false,
+  "effects": {
+    "water_color": 7098782,
+    "grass_color": 11559897,
+    "foliage_color": 12673499
+  },
   "attributes": {
-    "visual/sky_color": 0,
-    "visual/fog_color": 0,
+    "visual/sky_color": "#120524",
+    "visual/fog_color": "#16092c",
+    "visual/fog_start_distance": 32.0,
+    "visual/fog_end_distance": 256.0,
+    "visual/sky_fog_end_distance": 448.0,
     "visual/water_fog_color": 7098782,
     "audio/ambient_sounds": {
       "loop": {
@@ -14,33 +22,43 @@
         "sound": "minecraft:ambient.nether_wastes.mood",
         "tick_delay": 900,
         "block_search_extent": 8,
-        "offset": 2
+        "offset": 2.0
       },
       "additions": {
         "sound": "minecraft:ambient.crimson_forest.additions",
         "tick_chance": 0.001
       }
-    }
-  },
-  "effects": {
-    "water_color": 7098782,
-    "grass_color": 11559897,
-    "foliage_color": 12673499
-  },
-  "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
-      }
-    ]
-  },
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "charge": 0.7,
-      "energy_budget": 1
+    },
+    "visual/ambient_particles": {
+      "modifier": "override",
+      "argument": [
+        {
+          "particle": {
+            "type": "stellarity:cosmic_dust"
+          },
+          "probability": 0.003
+        }
+      ]
+    },
+    "gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawn_costs": {
+          "minecraft:enderman": {
+            "charge": 0.7,
+            "energy_budget": 1.0
+          }
+        },
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "minecraft:enderman",
+              "count": 4,
+              "weight": 10
+            }
+          ]
+        }
+      },
+      "modifier": "overlay"
     }
   },
   "carvers": [],

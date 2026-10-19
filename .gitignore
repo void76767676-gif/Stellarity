@@ -101,6 +101,7 @@ tools/validator/runner.py
 tools/validator/__pycache__/runner.cpython-314.pyc
 tools/validator/__pycache__/pack_info.cpython-314.pyc
 tools/validator/__pycache__/mojang.cpython-314.pyc
+validate_phase3.py
 
 #posteffect
 glsl-show/*

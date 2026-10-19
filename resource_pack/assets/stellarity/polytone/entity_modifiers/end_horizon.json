@@ -5,7 +5,7 @@
   "emitters": [
     {
       "particle": "stellarity:horizon_gradient",
-      "chance": "g.skyType() == 3 ? 1.0 : 0.0",
+      "chance": "g.skyType() == 2 ? 1.0 : 0.0",
       "x": "0",
       "y": "0",
       "z": "0"

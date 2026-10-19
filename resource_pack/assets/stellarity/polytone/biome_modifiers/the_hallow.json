@@ -1,11 +1,28 @@
 {
-  "targets": ".*:the_hallow",
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#f6b0d2",
       "minecraft:visual/sky_color": "#48cae4",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.50 : (c.y() < 60 ? 0.15 : 0.38))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.68 : 0.92))"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.68 : 0.92))",
+      "minecraft:visual/ambient_light_color": "#140a1c",
+      "minecraft:visual/block_light_tint": "#ffe5b4",
+      "minecraft:visual/sky_light_color": "#c4b5fd",
+      "minecraft:audio/ambient_sounds": {
+        "argument": {
+          "loop": "minecraft:ambient.crimson_forest.loop",
+          "mood": {
+            "sound": "minecraft:ambient.crimson_forest.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          },
+          "additions": {
+            "sound": "minecraft:ambient.crimson_forest.additions",
+            "tick_chance": 0.012
+          }
+        }
+      }
     }
   }
 }

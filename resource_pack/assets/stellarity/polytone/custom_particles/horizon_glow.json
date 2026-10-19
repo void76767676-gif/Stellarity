@@ -21,8 +21,11 @@
   "has_physics": false,
   "kill_on_contact": false,
   "force_spawn": true,
-  "lit": true,
   "light_level": 15,
   "kill_when_still": false,
-  "offset": [0, -6, 0]
+  "offset": [
+    0,
+    -6,
+    0
+  ]
 }

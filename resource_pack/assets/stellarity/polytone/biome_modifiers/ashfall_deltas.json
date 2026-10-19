@@ -1,11 +1,28 @@
 {
-  "targets": ".*:ashfall_deltas",
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#5c5470",
       "minecraft:visual/sky_color": "#1a1a24",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.38 : (c.y() < 60 ? 0.08 : 0.22))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.90 : (c.y() < 60 ? 0.58 : 0.80))"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.90 : (c.y() < 60 ? 0.58 : 0.80))",
+      "minecraft:visual/ambient_light_color": "#120a06",
+      "minecraft:visual/block_light_tint": "#ff9248",
+      "minecraft:visual/sky_light_color": "#d97736",
+      "minecraft:audio/ambient_sounds": {
+        "argument": {
+          "loop": "minecraft:ambient.basalt_deltas.loop",
+          "mood": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          },
+          "additions": {
+            "sound": "minecraft:ambient.basalt_deltas.additions",
+            "tick_chance": 0.0111
+          }
+        }
+      }
     }
   }
 }

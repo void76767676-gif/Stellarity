@@ -19,12 +19,15 @@ void main() {
     vec2 aspectDelta = delta;
     aspectDelta.x *= ScreenSize.x / ScreenSize.y;
     float dist = length(aspectDelta);
-
+    
     vec4 src = texture(InSampler, texCoord);
-    vec3 astralTint = vec3(1.10, 0.95, 1.20);
-    float vignette = 0.35 * (1.0 - smoothstep(0.2, 1.4, dist));
-    vec3 result = mix(src.rgb, src.rgb * astralTint, vignette);
-    result += vec3(0.18, 0.12, 0.22) * vignette;
-
+    vec3 scene = src.rgb;
+    
+    vec3 lavender = vec3(0.85, 0.55, 0.95);
+    float glow = 0.30 * (1.0 - smoothstep(0.1, 1.2, dist));
+    
+    vec3 result = mix(scene, scene * vec3(1.08, 0.96, 1.15), glow);
+    result += lavender * glow * 0.40;
+    
     fragColor = vec4(result, src.a);
 }

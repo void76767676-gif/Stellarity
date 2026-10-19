@@ -1,4 +1,4 @@
 {
-  "activation_condition": "g.skyType() == 3 && (c.y() < 55 || p.biome() == 'stellarity:the_void')",
+  "activation_condition": "g.skyType() == 2 && (c.y() < 55 || c.biome() == 'stellarity:the_void')",
   "post_chain": "custom:vignette"
 }

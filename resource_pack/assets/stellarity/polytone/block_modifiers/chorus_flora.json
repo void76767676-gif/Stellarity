@@ -24,5 +24,13 @@
       "dy": "0.015",
       "dz": "0.0"
     }
+  ],
+  "sound_emitters": [
+    {
+      "sound": "minecraft:block.chorus_flower.grow",
+      "chance": 0.0008,
+      "volume": 0.25,
+      "pitch": "1.2 + 0.4 * r.rand()"
+    }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "type": "custom",
+  "initializer": {
+    "lifetime": "40 + 20 * rand()",
+    "alpha": "0.85",
+    "size": "0.08",
+    "hitbox_size": 0.1
+  },
+  "ticker": {
+    "dy": "-0.42",
+    "dx": "0.02 * sin(0.1 * AGE)",
+    "dz": "0.02 * cos(0.1 * AGE)",
+    "remove_condition": "sqrt(DISTANCE_SQUARED) > 36"
+  },
+  "render_type": "translucent",
+  "rotation_mode": "movement_aligned",
+  "has_physics": true,
+  "kill_on_contact": true,
+  "light_level": 10
+}

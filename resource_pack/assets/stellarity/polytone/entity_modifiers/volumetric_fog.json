@@ -33,7 +33,7 @@
     {
       "particle": "stellarity:drift_fog_abyss",
       "max_distance": 32,
-      "chance": "(o.biome() == 'stellarity:the_void' || o.biome() == 'stellarity:the_nest' || (g.skyType() == 3 && c.y() < 60)) ? 0.08 : 0.0",
+      "chance": "(o.biome() == 'stellarity:the_void' || o.biome() == 'stellarity:the_nest' || (g.skyType() == 2 && c.y() < 60)) ? 0.08 : 0.0",
       "count": "1",
       "x": "r.rand(-24.0, 24.0)",
       "y": "r.rand(-3.0, 2.0)",

@@ -1,11 +1,28 @@
 {
-  "targets": ".*:the_void",
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#000000",
       "minecraft:visual/sky_color": "#000000",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() < 55 ? 0.05 : 0.16)",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() < 55 ? 0.45 : 0.70)"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() < 55 ? 0.45 : 0.70)",
+      "minecraft:visual/ambient_light_color": "#020005",
+      "minecraft:visual/block_light_tint": "#a78bfa",
+      "minecraft:visual/sky_light_color": "#1e1035",
+      "minecraft:audio/ambient_sounds": {
+        "argument": {
+          "loop": "minecraft:ambient.cave",
+          "mood": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 4000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          },
+          "additions": {
+            "sound": "minecraft:entity.warden.heartbeat",
+            "tick_chance": 0.005
+          }
+        }
+      }
     }
   }
 }

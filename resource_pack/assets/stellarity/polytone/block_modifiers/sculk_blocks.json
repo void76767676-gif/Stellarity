@@ -34,5 +34,13 @@
       "y": "0.95 + r.rand() * 0.1",
       "z": "0.5 + (r.rand() - 0.5) * 0.7"
     }
+  ],
+  "sound_emitters": [
+    {
+      "sound": "minecraft:block.sculk_catalyst.bloom",
+      "chance": 0.0006,
+      "volume": 0.3,
+      "pitch": "0.6 + 0.3 * r.rand()"
+    }
   ]
 }

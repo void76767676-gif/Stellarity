@@ -7,7 +7,8 @@
     "red": "0.78 + rand() * 0.15",
     "green": "0.68 + rand() * 0.20",
     "blue": "0.92 + rand() * 0.08",
-    "custom": "gaussian()"
+    "custom": "gaussian()",
+    "hitbox_size": 0.15
   },
   "ticker": {
     "dx": "(CUSTOM * 0.008) * sin(0.015 * AGE)",
@@ -23,9 +24,7 @@
   "rotation_mode": "look_at_xyz",
   "kill_on_contact": true,
   "random_sprite": true,
-  "lit": true,
   "light_level": 4,
   "has_physics": true,
-  "hitbox_size": 0.15,
   "exclusion_radius": 1
 }

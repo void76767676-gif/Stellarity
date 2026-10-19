@@ -1,11 +1,13 @@
 {
-  "targets": ".*:end_wilds",
   "attributes_modifiers": {
     "base": {
       "minecraft:visual/fog_color": "#2d1f47",
       "minecraft:visual/sky_color": "#150d24",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.48 : (c.y() < 60 ? 0.12 : 0.35))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.65 : 0.88))"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.65 : 0.88))",
+      "minecraft:visual/ambient_light_color": "#0d0818",
+      "minecraft:visual/block_light_tint": "#e9d5ff",
+      "minecraft:visual/sky_light_color": "#c084fc"
     }
   }
 }

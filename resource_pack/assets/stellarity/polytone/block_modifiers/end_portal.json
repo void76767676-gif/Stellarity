@@ -7,25 +7,46 @@
     {
       "particle": "stellarity:portal_aura",
       "chance": 0.45,
-      "x": "0.5 + (r.rand() - 0.5) * 0.4",
-      "y": "0.38 + r.rand() * 0.1",
-      "z": "0.5 + (r.rand() - 0.5) * 0.4"
+      "x": "(r.rand() - 0.5) * 0.85",
+      "y": "0.22 + r.rand() * 0.15",
+      "z": "(r.rand() - 0.5) * 0.85",
+      "dx": "(r.rand() - 0.5) * 0.03",
+      "dy": "0.015 + r.rand() * 0.025",
+      "dz": "(r.rand() - 0.5) * 0.03"
     },
     {
       "particle": "stellarity:celestial_spark",
-      "chance": 0.25,
-      "x": "0.5 + (r.rand() - 0.5) * 0.6",
-      "y": "0.45 + r.rand() * 0.15",
-      "z": "0.5 + (r.rand() - 0.5) * 0.6",
-      "dy": "0.025 + r.rand() * 0.025"
+      "chance": 0.30,
+      "x": "(r.rand() - 0.5) * 0.75",
+      "y": "0.25 + r.rand() * 0.18",
+      "z": "(r.rand() - 0.5) * 0.75",
+      "dx": "(r.rand() - 0.5) * 0.04",
+      "dy": "0.02 + r.rand() * 0.03",
+      "dz": "(r.rand() - 0.5) * 0.04"
     },
     {
       "particle": "stellarity:void_wisp",
-      "chance": 0.12,
-      "x": "0.5 + (r.rand() - 0.5) * 0.5",
-      "y": "0.35 + r.rand() * 0.2",
-      "z": "0.5 + (r.rand() - 0.5) * 0.5",
-      "dy": "0.01 + r.rand() * 0.02"
+      "chance": 0.16,
+      "x": "(r.rand() - 0.5) * 0.6",
+      "y": "0.20 + r.rand() * 0.12",
+      "z": "(r.rand() - 0.5) * 0.6",
+      "dy": "0.025 + r.rand() * 0.035"
+    },
+    {
+      "particle": "minecraft:reverse_portal",
+      "chance": 0.22,
+      "x": "(r.rand() - 0.5) * 0.8",
+      "y": "0.20 + r.rand() * 0.1",
+      "z": "(r.rand() - 0.5) * 0.8",
+      "dy": "0.03 + r.rand() * 0.02"
+    }
+  ],
+  "sound_emitters": [
+    {
+      "sound": "minecraft:block.end_portal.ambient",
+      "chance": 0.05,
+      "volume": 0.4,
+      "pitch": "0.9 + 0.2 * r.rand()"
     }
   ]
 }
