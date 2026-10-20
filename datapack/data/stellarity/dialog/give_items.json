@@ -61,7 +61,7 @@
     {
       "label": [
         {
-          "text": " ",
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/champion_chestplate"
         }
