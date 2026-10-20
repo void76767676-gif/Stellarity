@@ -4,7 +4,7 @@
 # Sharanga & Call of The Void
   execute as @e[type=#minecraft:arrows,tag=stellarity.arrow] at @s run function stellarity:loop/projectile_loop
 
-execute as @e[type=item_frame,tag=stellarity.phantom_item_frame] at @s run function stellarity:item/phantom_item_frame/main
+execute if score #stellarity.config stellarity.config.enable_phantom_item_frame matches 1 if entity @a as @e[type=item_frame,tag=stellarity.phantom_item_frame] at @s if entity @a[distance=..16] run function stellarity:item/phantom_item_frame/main
 
 execute as @e[type=trident,tag=stellarity.sandstorm_trident,tag=!stellarity.sandstorm_trident.activated] at @s run function stellarity:item/sandstorm_trident/main
 

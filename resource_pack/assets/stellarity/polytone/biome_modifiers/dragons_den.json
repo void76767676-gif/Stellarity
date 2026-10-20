@@ -5,9 +5,6 @@
       "minecraft:visual/sky_color": "#0d0614",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.35 : (c.y() < 60 ? 0.08 : 0.12))",
       "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.88 : (c.y() < 60 ? 0.55 : 0.70))",
-      "minecraft:visual/ambient_light_color": "#08020c",
-      "minecraft:visual/block_light_tint": "#00000000",
-      "minecraft:visual/sky_light_color": "#00000000",
       "minecraft:audio/ambient_sounds": {
         "modifier": "override",
         "argument": {

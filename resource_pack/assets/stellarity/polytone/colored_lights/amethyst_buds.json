@@ -1,0 +1,12 @@
+{
+  "targets": [
+    "minecraft:large_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:small_amethyst_bud"
+  ],
+  "colored_light": {
+    "color": "(o.biome().contains('frost') || o.biome().contains('frozen')) ? 0x42D4DD : 0xB078F5",
+    "radius": 4,
+    "brightness": 0.7
+  }
+}

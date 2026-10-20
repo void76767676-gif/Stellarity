@@ -9,6 +9,9 @@ execute if score @s stellarity.mechanics.altar_of_the_sacred.timer matches 300 r
 # First approach sound and advancement check
 execute as @a[distance=..6.0] unless score @s stellarity.altar_approached matches 1.. at @s run function stellarity:mechanic/altar_common/on_first_approach
 
+# Process sacred offerings immediately every tick (blessings, summons, rerolls)
+execute as @e[type=item,distance=..2.0,tag=!stellarity.checked,tag=!stellarity.altar_of_the_sacred.ascending] run function stellarity:mechanic/altar_of_the_sacred/as_item
+
 # Infinite orbit loop
 function stellarity:mechanic/altar_common/orbit_loop
 

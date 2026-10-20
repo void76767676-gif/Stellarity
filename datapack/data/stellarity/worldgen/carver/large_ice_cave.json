@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:cave",
+  "replaceable": "#stellarity:_worldgen/carvers_replaceable",
+  "probability": 0.35,
+  "y": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 18
+    },
+    "max_inclusive": {
+      "absolute": 46
+    }
+  },
+  "room_vertical_radius_multiplier": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2.0,
+    "max_exclusive": 3.6
+  },
+  "count": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2,
+    "max_inclusive": 5
+  },
+  "thickness": {
+    "type": "minecraft:trapezoid",
+    "min": 2.5,
+    "max": 8.5,
+    "plateau": 4.0
+  },
+  "horizontal_radius_multiplier": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 2.4,
+    "max_exclusive": 4.2
+  },
+  "vertical_radius_multiplier": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 1.8,
+    "max_exclusive": 3.4
+  },
+  "floor_level": {
+    "type": "minecraft:uniform",
+    "min_inclusive": -0.85,
+    "max_exclusive": -0.3
+  }
+}

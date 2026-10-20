@@ -1,3 +1,4 @@
+execute unless entity @s run return 0
 execute store result score #count stellarity.misc run data get storage stellarity:temp altar_of_the_sacred.item.count 10
 
 scoreboard players set #mul stellarity.misc 380

@@ -2,22 +2,8 @@
   "ambient.acid_rain.loop": {
     "sounds": [
       {
-        "name": "minecraft:weather/rain1",
-        "volume": 0.85,
-        "pitch": 0.88
-      },
-      {
-        "name": "minecraft:weather/rain2",
-        "volume": 0.85,
-        "pitch": 0.88
-      },
-      {
-        "name": "minecraft:weather/rain3",
-        "volume": 0.85,
-        "pitch": 0.88
-      },
-      {
-        "name": "minecraft:weather/rain4",
+        "name": "minecraft:weather/rain",
+        "type": "event",
         "volume": 0.85,
         "pitch": 0.88
       }

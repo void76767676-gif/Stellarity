@@ -42,6 +42,7 @@ function stellarity:mechanic/void_focus/check
 function stellarity:mechanic/sandstorm/check
 function stellarity:mechanic/blizzard/check
 function stellarity:mechanic/acid_rain/check
+function stellarity:mechanic/ice_collapse/check
 
 schedule function stellarity:loop/timed/1_second 1s
 

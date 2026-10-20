@@ -1,0 +1,11 @@
+{
+  "targets": [
+    "minecraft:amethyst_block",
+    "minecraft:budding_amethyst"
+  ],
+  "colored_light": {
+    "color": "(o.biome().contains('frost') || o.biome().contains('frozen')) ? 0x32B0BA : 0x9452E6",
+    "radius": 5,
+    "brightness": 0.6
+  }
+}

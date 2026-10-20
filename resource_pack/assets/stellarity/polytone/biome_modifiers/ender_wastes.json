@@ -4,10 +4,7 @@
       "minecraft:visual/fog_color": "#5c3d75",
       "minecraft:visual/sky_color": "#201130",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.46 : (c.y() < 60 ? 0.10 : 0.32))",
-      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.96 : (c.y() < 60 ? 0.60 : 0.88))",
-      "minecraft:visual/ambient_light_color": "#0a0514",
-      "minecraft:visual/block_light_tint": "#ffd4a3",
-      "minecraft:visual/sky_light_color": "#a880d8"
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.96 : (c.y() < 60 ? 0.60 : 0.88))"
     }
   }
 }

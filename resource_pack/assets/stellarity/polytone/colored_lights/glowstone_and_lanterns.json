@@ -1,0 +1,8 @@
+{
+  "targets": [
+    "minecraft:glowstone",
+    "minecraft:shroomlight",
+    "minecraft:sea_lantern"
+  ],
+  "colored_light": "#ba85f0"
+}

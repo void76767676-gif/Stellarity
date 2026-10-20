@@ -1,0 +1,44 @@
+{
+  "targets": [
+    "minecraft:snow_block",
+    "minecraft:powder_snow",
+    "minecraft:snow",
+    "minecraft:ice",
+    "minecraft:packed_ice",
+    "minecraft:blue_ice"
+  ],
+  "particle_emitters": [
+    {
+      "particle": "stellarity:snow_tumble",
+      "chance": "((sin(g.time() * 0.00032 + 2.1) + 0.55 * sin(g.time() * 0.00078 + 0.5) + 0.45 * sin(g.time() * 0.00015 + 1.9)) > 0.35) ? (1.0 / 220.0) : (1.0 / 3000.0)",
+      "x": "r.rand(-0.5, 0.5)",
+      "y": "1.0",
+      "z": "r.rand(-0.5, 0.5)",
+      "biomes": [
+        "stellarity:frozen_spikes",
+        "stellarity:frosted_valley",
+        "stellarity:frosted_hills",
+        "stellarity:frozen_marsh",
+        "stellarity:frozen_shrubland",
+        "stellarity:hallowed_tundra",
+        "stellarity:crystal_crags"
+      ]
+    },
+    {
+      "particle": "stellarity:ice_tumble",
+      "chance": "((sin(g.time() * 0.00032 + 2.1) + 0.55 * sin(g.time() * 0.00078 + 0.5) + 0.45 * sin(g.time() * 0.00015 + 1.9)) > 0.35) ? (1.0 / 300.0) : (1.0 / 4500.0)",
+      "x": "r.rand(-0.5, 0.5)",
+      "y": "1.0",
+      "z": "r.rand(-0.5, 0.5)",
+      "biomes": [
+        "stellarity:frozen_spikes",
+        "stellarity:frosted_valley",
+        "stellarity:frosted_hills",
+        "stellarity:frozen_marsh",
+        "stellarity:frozen_shrubland",
+        "stellarity:hallowed_tundra",
+        "stellarity:crystal_crags"
+      ]
+    }
+  ]
+}

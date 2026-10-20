@@ -1,0 +1,7 @@
+{
+  "targets": [
+    "minecraft:campfire",
+    "minecraft:soul_campfire"
+  ],
+  "colored_light": "#ad75ea"
+}

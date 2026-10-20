@@ -1,0 +1,16 @@
+{
+  "target_type": "particle",
+  "targets": [
+    "minecraft:dust",
+    "minecraft:dust_color_transition",
+    "minecraft:falling_dust",
+    "minecraft:glow",
+    "minecraft:glow_squid_ink",
+    ".*:.*dust.*"
+  ],
+  "colored_light": {
+    "color": "o.color() != -1 ? o.color() : '#80d8ff'",
+    "radius": 3,
+    "brightness": "0.65 * (1 - (o.age() * 1.0 / o.life()))"
+  }
+}

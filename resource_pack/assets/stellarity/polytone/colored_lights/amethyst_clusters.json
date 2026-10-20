@@ -1,0 +1,10 @@
+{
+  "targets": [
+    "minecraft:amethyst_cluster"
+  ],
+  "colored_light": {
+    "color": "(o.biome().contains('frost') || o.biome().contains('frozen')) ? 0x4FE3E8 : 0xBE8AFC",
+    "radius": 7,
+    "brightness": 0.85
+  }
+}

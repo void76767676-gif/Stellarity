@@ -5,9 +5,6 @@
       "minecraft:visual/sky_color": "#1c1212",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.42 : (c.y() < 60 ? 0.08 : 0.25))",
       "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.92 : (c.y() < 60 ? 0.58 : 0.82))",
-      "minecraft:visual/ambient_light_color": "#100418",
-      "minecraft:visual/block_light_tint": "#e879f9",
-      "minecraft:visual/sky_light_color": "#a21caf",
       "minecraft:audio/ambient_sounds": {
         "loop": "minecraft:ambient.crimson_forest.loop",
         "mood": {

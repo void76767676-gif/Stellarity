@@ -2,8 +2,8 @@
   "feature": "stellarity:frozen_spikes/shattered_spike_stump",
   "placement": [
     {
-      "type": "minecraft:count",
-      "count": 2
+      "type": "minecraft:rarity_filter",
+      "chance": 8
     },
     {
       "type": "minecraft:in_square"

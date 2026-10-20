@@ -17,6 +17,8 @@ scoreboard players reset @s stellarity.item.rk.cooldown
 # Ready VFX
 particle flash{color:-1} ~ ~1.2 ~ 0 0 0 0 1
 particle end_rod ~ ~1.2 ~ 0.3 0.3 0.3 0.1 20
+execute if predicate stellarity:item/holding/radiant_kaleidoscope_ascended run particle wax_on ~ ~1.2 ~ 0.3 0.3 0.3 0.1 24
 
 # Ready actionbar
-execute if predicate stellarity:item/holding/radiant_kaleidoscope run title @s actionbar [{"text":"✦ ","color":"#FF76D0"},{"translate":"item.stellarity.radiant_kaleidoscope.ready","fallback":"Radiant Kaleidoscope Ready!","color":"#FF76D0","bold":true},{"text":" ✦","color":"#FF76D0"}]
+execute if predicate stellarity:item/holding/radiant_kaleidoscope_ascended run title @s actionbar [{"text":"✦ ","color":"#FFD700"},{"translate":"item.stellarity.radiant_kaleidoscope_ascended.ready","fallback":"Ascended Radiant Kaleidoscope Ready!","color":"#FFD700","bold":true},{"text":" ✦","color":"#FFD700"}]
+execute if predicate stellarity:item/holding/radiant_kaleidoscope unless predicate stellarity:item/holding/radiant_kaleidoscope_ascended run title @s actionbar [{"text":"✦ ","color":"#FF76D0"},{"translate":"item.stellarity.radiant_kaleidoscope.ready","fallback":"Radiant Kaleidoscope Ready!","color":"#FF76D0","bold":true},{"text":" ✦","color":"#FF76D0"}]

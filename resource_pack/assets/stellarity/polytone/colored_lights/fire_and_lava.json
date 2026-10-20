@@ -1,0 +1,9 @@
+{
+  "targets": [
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "minecraft:lava",
+    "minecraft:magma_block"
+  ],
+  "colored_light": "#aa60ea"
+}

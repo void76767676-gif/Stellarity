@@ -10,19 +10,29 @@ scoreboard players operation #current_altar stellarity.altar_id = @s stellarity.
 execute if score @s stellarity.altar.craft_progress matches 1.. run return run function stellarity:mechanic/altar_common/craft_tick
 
 # Sneak retrieval
-execute if entity @e[type=item,distance=..3.0,tag=stellarity.altar.captured] if entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] run return run function stellarity:mechanic/altar_common/release_items
+execute if entity @e[type=item,distance=..3.0] if entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] run return run function stellarity:mechanic/altar_common/release_items
 
 # 2.1 First time approach sound & advancement
 execute as @a[distance=..6.0] unless score @s stellarity.altar_approached matches 1.. at @s run function stellarity:mechanic/altar_common/on_first_approach
 
-# 3. Exclude starlight soot on Sacred Altar from orbiting (must stay centered)
-execute as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents *[custom_data~{"stellarity:item":"starlight_soot"}] run tag @s add stellarity.altar.skip
-execute as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if entity @s[tag=stellarity.starlight_soot] run tag @s add stellarity.altar.skip
+# 3. Exclude offerings on Sacred Altar from orbiting
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents *[custom_data~{"stellarity:item":"starlight_soot"}] run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if entity @s[tag=stellarity.starlight_soot] run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents *[custom_data~{"stellarity:item":"shulker_body"}] run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents *[custom_data~{"stellarity:item":"treasure_head"}] run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents minecraft:iron_ingot run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents minecraft:gold_ingot run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents minecraft:emerald run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents minecraft:diamond run tag @s add stellarity.altar.skip
+execute if entity @s[tag=stellarity.altar_of_the_sacred] as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if items entity @s contents minecraft:netherite_ingot run tag @s add stellarity.altar.skip
 execute as @e[type=item,distance=..2.5,tag=!stellarity.altar.skip] if entity @s[tag=stellarity.altar_of_the_accursed.skip] run tag @s add stellarity.altar.skip
 
+# 3.1 Clean up release tag when items are far
+execute as @e[type=item,distance=3.0..,tag=stellarity.altar.released] run tag @s remove stellarity.altar.released
+
 # 4. Claim newly dropped loose items within 2.0 blocks for this altar
-execute as @e[type=item,distance=..2.0,tag=!stellarity.altar.skip,tag=!stellarity.altar.captured,tag=!stellarity.brewing.item_display] run scoreboard players operation @s stellarity.altar_id = #current_altar stellarity.altar_id
-execute as @e[type=item,distance=..2.0,tag=!stellarity.altar.skip,tag=!stellarity.altar.captured,tag=!stellarity.brewing.item_display] run tag @s add stellarity.altar.captured
+execute unless entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] as @e[type=item,distance=..2.0,tag=!stellarity.altar.skip,tag=!stellarity.altar.captured,tag=!stellarity.altar.released,tag=!stellarity.brewing.item_display] run scoreboard players operation @s stellarity.altar_id = #current_altar stellarity.altar_id
+execute unless entity @p[distance=..5.5,predicate=kohara:player/is_sneaking] as @e[type=item,distance=..2.0,tag=!stellarity.altar.skip,tag=!stellarity.altar.captured,tag=!stellarity.altar.released,tag=!stellarity.brewing.item_display] run tag @s add stellarity.altar.captured
 
 # 4.1 Automatic item stack merging for identical items on altar
 execute as @e[type=item,distance=..2.5,tag=stellarity.altar.captured,tag=!stellarity.altar.skip,tag=!stellarity.altar.in_craft] at @s run function stellarity:mechanic/altar_common/merge_check

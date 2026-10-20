@@ -828,7 +828,8 @@
             "stellarity:frosted_valley",
             "stellarity:frosted_hills",
             "stellarity:frozen_marsh",
-            "stellarity:frozen_shrubland"
+            "stellarity:frozen_shrubland",
+            "stellarity:frosted_caves"
           ]
         },
         "then_run": {
@@ -1480,7 +1481,8 @@
                 "stellarity:frosted_valley",
                 "stellarity:frosted_hills",
                 "stellarity:frozen_marsh",
-                "stellarity:frozen_shrubland"
+                "stellarity:frozen_shrubland",
+                "stellarity:frosted_caves"
               ]
             },
             "then_run": {
@@ -1512,7 +1514,7 @@
                   "then_run": {
                     "type": "minecraft:block",
                     "result_state": {
-                      "id": "minecraft:calcite"
+                      "id": "minecraft:snow_block"
                     }
                   }
                 },

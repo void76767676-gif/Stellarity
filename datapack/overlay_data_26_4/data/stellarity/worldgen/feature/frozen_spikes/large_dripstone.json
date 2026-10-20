@@ -1,7 +1,7 @@
 {
   "type": "minecraft:large_speleothem",
-  "base_block": "minecraft:dripstone_block",
-  "replaceable_blocks": "#minecraft:dripstone_replaceable_blocks",
+  "base_block": "minecraft:packed_ice",
+  "replaceable_blocks": "#minecraft:large_icicle_replaceable",
   "column_radius": {
     "type": "minecraft:uniform",
     "min_inclusive": 4,
@@ -12,7 +12,7 @@
     "min_inclusive": 0.4,
     "max_exclusive": 3.0
   },
-  "max_column_radius_to_cave_height_ratio": 0.2,
+  "max_column_radius_to_cave_height_ratio": 0.25,
   "stalactite_bluntness": {
     "type": "minecraft:uniform",
     "min_inclusive": 0.1,

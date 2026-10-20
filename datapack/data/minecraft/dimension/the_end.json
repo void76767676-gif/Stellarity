@@ -55,6 +55,18 @@
           }
         },
         {
+          "biome": "stellarity:frosted_caves",
+          "parameters": {
+            "temperature": [-1, -0.405],
+            "humidity": [-1, 1],
+            "continentalness": [-1.2, 1],
+            "erosion": [-1, 1],
+            "weirdness": [-1, 1],
+            "depth": [0.25, 1.2],
+            "offset": 0
+          }
+        },
+        {
           "biome": "minecraft:end_barrens",
           "parameters": {
             "temperature": [-0.405, -0.15],

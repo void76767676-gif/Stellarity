@@ -18,18 +18,18 @@
                 "minecraft:item_model": "stellarity:radiant_kaleidoscope_ascended",
                 "minecraft:custom_data": {
                   "stellarity": {
-                    "item": "radiant_kaleidoscope",
+                    "item": "radiant_kaleidoscope_ascended",
                     "ascended": 1
                   },
-                  "stellarity:item": "radiant_kaleidoscope",
+                  "stellarity:item": "radiant_kaleidoscope_ascended",
                   "stellarity:ascended": 1
                 },
                 "minecraft:damage_resistant": {
                   "types": "#is_fire"
                 },
                 "minecraft:item_name": {
-                  "translate": "item.stellarity.radiant_kaleidoscope",
-                  "color": "#FF76D0",
+                  "translate": "item.stellarity.radiant_kaleidoscope_ascended",
+                  "color": "#FFD700",
                   "italic": false
                 },
                 "minecraft:enchantments": {
@@ -43,29 +43,29 @@
               "lore": [
                 "",
                 {
-                  "translate": "item.stellarity.radiant_kaleidoscope.description.1",
-                  "color": "#EEEEEE",
+                  "translate": "item.stellarity.radiant_kaleidoscope_ascended.description.1",
+                  "color": "#FFF2A3",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.radiant_kaleidoscope.description.2",
-                  "color": "#EEEEEE",
+                  "translate": "item.stellarity.radiant_kaleidoscope_ascended.description.2",
+                  "color": "#FFD700",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.radiant_kaleidoscope.description.3",
-                  "color": "#EEEEEE",
+                  "translate": "item.stellarity.radiant_kaleidoscope_ascended.description.3",
+                  "color": "#FFAA00",
                   "italic": false
                 },
                 {
-                  "translate": "item.stellarity.radiant_kaleidoscope.description.4",
-                  "color": "#EEEEEE",
+                  "translate": "item.stellarity.radiant_kaleidoscope_ascended.description.4",
+                  "color": "#FFE680",
                   "italic": false
                 },
                 "",
                 {
                   "translate": "Stellarity",
-                  "color": "#eaa7ff",
+                  "color": "#FFD700",
                   "font": "stellarity:tooltip",
                   "italic": false
                 }

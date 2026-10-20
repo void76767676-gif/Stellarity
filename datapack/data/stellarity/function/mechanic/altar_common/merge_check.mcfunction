@@ -1,3 +1,6 @@
+# Abort immediately if this entity was already killed or merged this tick
+execute unless entity @s run return 0
+
 # Check item type
 execute unless entity @s[tag=stellarity.altar_of_the_accursed.checked_type] run function stellarity:mechanic/altar_of_the_accursed/crafting/input/add_type_tag/add
 
@@ -5,6 +8,8 @@ execute unless entity @s[tag=stellarity.altar_of_the_accursed.checked_type] run 
 data modify storage stellarity:temp altar_of_the_accursed.item set from entity @s Item
 scoreboard players set #is_stellarity stellarity.misc 0
 execute if data storage stellarity:temp altar_of_the_accursed.item.components."minecraft:custom_data"."stellarity:item" run scoreboard players set #is_stellarity stellarity.misc 1
+execute if data storage stellarity:temp altar_of_the_accursed.item.components."minecraft:custom_data"."stellarity.item" run scoreboard players set #is_stellarity stellarity.misc 1
+execute if data storage stellarity:temp altar_of_the_accursed.item.components."minecraft:custom_data".stellarity.item run scoreboard players set #is_stellarity stellarity.misc 1
 execute if score #is_stellarity stellarity.misc matches 0 run function stellarity:mechanic/altar_of_the_accursed/crafting/input/add_type_tag/if_not_stellarity_item
 execute if score #is_stellarity stellarity.misc matches 1 run function stellarity:mechanic/altar_of_the_accursed/crafting/input/add_type_tag/if_stellarity_item
 

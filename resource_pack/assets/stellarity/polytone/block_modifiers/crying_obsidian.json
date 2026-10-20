@@ -24,13 +24,5 @@
       "dy": "0.015",
       "dz": "0.0"
     }
-  ],
-  "sound_emitters": [
-    {
-      "sound": "minecraft:block.respawn_anchor.ambient",
-      "chance": 0.001,
-      "volume": 0.3,
-      "pitch": "0.75 + 0.3 * r.rand()"
-    }
   ]
 }

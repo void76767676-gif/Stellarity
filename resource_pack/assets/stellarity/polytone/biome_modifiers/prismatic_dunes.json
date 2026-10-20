@@ -5,9 +5,6 @@
       "minecraft:visual/sky_color": "#48cae4",
       "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.48 : (c.y() < 60 ? 0.14 : 0.36))",
       "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.66 : 0.90))",
-      "minecraft:visual/ambient_light_color": "#120420",
-      "minecraft:visual/block_light_tint": "#f5d0fe",
-      "minecraft:visual/sky_light_color": "#e879f9",
       "minecraft:audio/ambient_sounds": {
         "loop": "minecraft:ambient.soul_sand_valley.loop",
         "mood": {

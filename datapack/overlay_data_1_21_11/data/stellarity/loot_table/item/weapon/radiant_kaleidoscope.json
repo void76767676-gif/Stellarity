@@ -42,22 +42,22 @@
                 "",
                 {
                   "translate": "item.stellarity.radiant_kaleidoscope.description.1",
-                  "color": "#EEEEEE",
+                  "color": "#FF76D0",
                   "italic": false
                 },
                 {
                   "translate": "item.stellarity.radiant_kaleidoscope.description.2",
-                  "color": "#EEEEEE",
+                  "color": "#A57BFE",
                   "italic": false
                 },
                 {
                   "translate": "item.stellarity.radiant_kaleidoscope.description.3",
-                  "color": "#EEEEEE",
+                  "color": "#59C2FE",
                   "italic": false
                 },
                 {
                   "translate": "item.stellarity.radiant_kaleidoscope.description.4",
-                  "color": "#EEEEEE",
+                  "color": "#6BFE9B",
                   "italic": false
                 },
                 "",

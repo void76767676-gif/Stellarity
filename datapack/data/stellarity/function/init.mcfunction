@@ -98,6 +98,7 @@
       scoreboard objectives add stellarity.config.enable_prismatic_pearl dummy
       scoreboard objectives add stellarity.config.enable_void_pendant dummy
       scoreboard objectives add stellarity.config.enable_radiant_jewel dummy
+      scoreboard objectives add stellarity.config.enable_phantom_item_frame dummy
 
       scoreboard objectives add stellarity.config.enable_shulker_armor dummy
       scoreboard objectives add stellarity.config.enable_champion_armor dummy

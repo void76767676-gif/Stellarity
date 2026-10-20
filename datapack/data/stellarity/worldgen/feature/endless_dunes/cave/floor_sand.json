@@ -45,5 +45,8 @@
       }
     ]
   },
-  "vegetation_feature": "stellarity:endless_dunes/vegetation/bush_clusters"
+  "vegetation_feature": {
+    "feature": "stellarity:endless_dunes/vegetation/bush_clusters",
+    "placement": []
+  }
 }

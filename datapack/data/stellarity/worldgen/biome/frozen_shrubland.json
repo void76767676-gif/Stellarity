@@ -130,6 +130,8 @@
     "dry_foliage_color": 11523035
   },
   "carvers": [
+    "stellarity:large_ice_cave",
+    "stellarity:ice_cave_entrance",
     "stellarity:ravine",
     "stellarity:crack"
   ],
@@ -151,7 +153,8 @@
     ],
     [
       "stellarity:frozen_spikes/cave/floor_snow",
-      "stellarity:frozen_spikes/cave/ceiling_ice"
+      "stellarity:frozen_spikes/cave/ceiling_ice",
+      "stellarity:frozen_spikes/cave/stalagmite"
     ],
     [
       "minecraft:ice_patch"

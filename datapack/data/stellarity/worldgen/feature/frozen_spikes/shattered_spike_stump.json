@@ -1,89 +1,29 @@
 {
-  "type": "minecraft:block_column",
-  "direction": "up",
-  "allowed_placement": {
-    "type": "minecraft:matching_blocks",
-    "blocks": [
-      "minecraft:air"
-    ]
+  "type": "minecraft:random_selector",
+  "default": {
+    "feature": {
+      "type": "minecraft:block_blob",
+      "can_place_on": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "stellarity:_worldgen/frozen_spikes/crystals_host"
+      },
+      "state": "minecraft:packed_ice"
+    },
+    "placement": []
   },
-  "prioritize_tip": true,
-  "layers": [
+  "features": [
     {
-      "height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 1,
-        "max_inclusive": 3
-      },
-      "provider": {
-        "type": "minecraft:weighted",
-        "entries": [
-          {
-            "weight": 3,
-            "data": {
-              "id": "minecraft:blue_ice"
-            }
+      "chance": 0.5,
+      "feature": {
+        "feature": {
+          "type": "minecraft:block_blob",
+          "can_place_on": {
+            "type": "minecraft:matching_block_tag",
+            "tag": "stellarity:_worldgen/frozen_spikes/crystals_host"
           },
-          {
-            "weight": 2,
-            "data": {
-              "id": "minecraft:packed_ice"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "height": {
-        "type": "minecraft:uniform",
-        "min_inclusive": 1,
-        "max_inclusive": 3
-      },
-      "provider": {
-        "type": "minecraft:weighted",
-        "entries": [
-          {
-            "weight": 4,
-            "data": {
-              "id": "minecraft:packed_ice"
-            }
-          },
-          {
-            "weight": 2,
-            "data": {
-              "id": "minecraft:calcite"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "height": 1,
-      "provider": {
-        "type": "minecraft:weighted",
-        "entries": [
-          {
-            "weight": 3,
-            "data": {
-              "id": "minecraft:amethyst_cluster",
-              "properties": {
-                "facing": "up"
-              }
-            }
-          },
-          {
-            "weight": 2,
-            "data": {
-              "id": "minecraft:calcite"
-            }
-          },
-          {
-            "weight": 2,
-            "data": {
-              "id": "minecraft:packed_ice"
-            }
-          }
-        ]
+          "state": "minecraft:blue_ice"
+        },
+        "placement": []
       }
     }
   ]

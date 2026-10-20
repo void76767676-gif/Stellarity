@@ -1,0 +1,7 @@
+{
+  "targets": [
+    "minecraft:crying_obsidian",
+    "minecraft:respawn_anchor"
+  ],
+  "colored_light": "#9c48f2"
+}

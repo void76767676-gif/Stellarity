@@ -5,7 +5,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud",
             "x": 180
@@ -22,7 +22,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud",
             "x": 90,
@@ -41,7 +41,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud",
             "x": 90
@@ -58,7 +58,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud",
             "x": 90,
@@ -77,7 +77,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud"
           }
@@ -92,7 +92,7 @@
       "fabric:type": "polytone:expression",
       "cases": [
         {
-          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh'",
+          "when": "o.biome() == 'stellarity:frozen_spikes' || o.biome() == 'stellarity:frosted_valley' || o.biome() == 'stellarity:frosted_hills' || o.biome() == 'stellarity:frozen_shrubland' || o.biome() == 'stellarity:frozen_marsh' || o.biome() == 'stellarity:frosted_caves'",
           "model": {
             "model": "stellarity:block/frosted_medium_amethyst_bud",
             "x": 90,

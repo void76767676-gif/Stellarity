@@ -2,8 +2,8 @@
   "feature": "stellarity:frozen_spikes/ice_spike_blue",
   "placement": [
     {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
+      "type": "minecraft:count",
+      "count": 1
     },
     {
       "type": "minecraft:in_square"

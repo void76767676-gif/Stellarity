@@ -1,0 +1,7 @@
+{
+  "targets": [
+    "minecraft:end_rod",
+    "minecraft:end_portal_frame"
+  ],
+  "colored_light": "#c89af8"
+}

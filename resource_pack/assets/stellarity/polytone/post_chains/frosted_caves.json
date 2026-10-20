@@ -1,0 +1,4 @@
+{
+  "activation_condition": "c.biome() == 'stellarity:frosted_caves'",
+  "post_chain": "stellarity:frosted_caves"
+}
