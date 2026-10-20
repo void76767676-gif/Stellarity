@@ -313,7 +313,7 @@
     {
       "label": [
         {
-          "text": " ",
+          "text": "",
           "atlas": "minecraft:items",
           "sprite": "stellarity:item/shulker_boots"
         }
