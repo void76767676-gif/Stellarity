@@ -118,12 +118,9 @@
   },
   "effects": {
     "water_color": 529440,
-    "water_fog_color": 529440,
     "grass_color": 9811650,
     "foliage_color": 9811650,
-    "dry_foliage_color": 11523035,
-    "sky_color": 329240,
-    "fog_color": 526364
+    "dry_foliage_color": 11523035
   },
   "carvers": [
     "stellarity:large_ice_cave",

@@ -36,8 +36,7 @@
     "audio/music_volume": 1.0,
     "gameplay/bed_rule": {
       "can_sleep": "never",
-      "can_set_spawn": "never",
-      "explodes": true
+      "can_set_spawn": "never"
     },
     "gameplay/can_pillager_patrol_spawn": false,
     "gameplay/can_start_raid": false,

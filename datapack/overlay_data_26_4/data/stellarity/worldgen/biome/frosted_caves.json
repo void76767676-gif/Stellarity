@@ -121,8 +121,7 @@
     }
   },
   "effects": {
-    "water_color": "#14559b",
-    "water_fog_color": "#14559b"
+    "water_color": "#14559b"
   },
   "carvers": [
     "stellarity:large_ice_cave",
