@@ -1,0 +1,21 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/end_shrubland_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/end_shrubland_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.46 : (c.y() < 60 ? 0.10 : 0.32))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.96 : (c.y() < 60 ? 0.60 : 0.88))",
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:portal"
+            },
+            "probability": 0.003
+          }
+        ]
+      }
+    }
+  }
+}

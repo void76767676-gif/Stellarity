@@ -1,0 +1,27 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/endless_dunes_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/endless_dunes_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (((sin(g.time() * 0.00035) + 0.6 * sin(g.time() * 0.00085 + 1.7) + 0.4 * sin(g.time() * 0.00017 + 3.1)) > 0.35) ? 0.04 : (c.y() > 165 ? 0.46 : (c.y() < 60 ? 0.12 : 0.32)))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (((sin(g.time() * 0.00035) + 0.6 * sin(g.time() * 0.00085 + 1.7) + 0.4 * sin(g.time() * 0.00017 + 3.1)) > 0.35) ? 0.45 : (c.y() > 165 ? 0.96 : (c.y() < 60 ? 0.62 : 0.88)))",
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:portal"
+            },
+            "probability": 0.004
+          },
+          {
+            "particle": {
+              "type": "minecraft:ash"
+            },
+            "probability": 0.006
+          }
+        ]
+      }
+    }
+  }
+}

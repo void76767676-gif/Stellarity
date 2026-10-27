@@ -1,0 +1,27 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/ashfall_deltas_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/ashfall_deltas_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.38 : (c.y() < 60 ? 0.08 : 0.22))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.90 : (c.y() < 60 ? 0.58 : 0.80))",
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:ash"
+            },
+            "probability": 0.02
+          },
+          {
+            "particle": {
+              "type": "minecraft:white_ash"
+            },
+            "probability": 0.008
+          }
+        ]
+      }
+    }
+  }
+}

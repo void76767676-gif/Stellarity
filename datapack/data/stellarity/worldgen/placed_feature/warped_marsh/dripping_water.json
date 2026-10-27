@@ -35,7 +35,11 @@
               1
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {
@@ -46,7 +50,11 @@
               -1
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {
@@ -57,7 +65,11 @@
               0
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {
@@ -68,7 +80,11 @@
               0
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {
@@ -79,7 +95,11 @@
               0
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {
@@ -90,7 +110,11 @@
               0
             ],
             "blocks": [
-              "minecraft:end_stone"
+              "minecraft:packed_mud",
+              "minecraft:mud",
+              "minecraft:muddy_mangrove_roots",
+              "minecraft:end_stone",
+              "minecraft:moss_block"
             ]
           },
           {

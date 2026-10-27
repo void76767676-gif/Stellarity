@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:large_speleothem",
+  "base_block": "minecraft:packed_ice",
+  "replaceable_blocks": "#minecraft:large_icicle_replaceable",
+  "column_radius": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 4,
+    "max_inclusive": 8
+  },
+  "height_scale": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0.4,
+    "max_exclusive": 3.0
+  },
+  "max_column_radius_to_cave_height_ratio": 0.25,
+  "stalactite_bluntness": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0.1,
+    "max_exclusive": 0.4
+  },
+  "stalagmite_bluntness": {
+    "type": "minecraft:uniform",
+    "min_inclusive": 0.1,
+    "max_exclusive": 0.3
+  },
+  "wind_speed": {
+    "type": "minecraft:trapezoid",
+    "min": 0.0,
+    "max": 0.06,
+    "plateau": 0.0
+  },
+  "min_radius_for_wind": 0,
+  "min_bluntness_for_wind": 0.25
+}

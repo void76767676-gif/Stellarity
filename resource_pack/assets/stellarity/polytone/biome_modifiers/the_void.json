@@ -1,0 +1,10 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/the_void_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/the_void_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() < 55 ? 0.05 : 0.16)",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() < 55 ? 0.45 : 0.70)"
+    }
+  }
+}

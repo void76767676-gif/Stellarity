@@ -21,6 +21,11 @@
         scoreboard players operation @s stellarity.dragon.health_percent /= #max stellarity.misc
         # Prevent Dragon from taking damage while End Crystals are alive
           execute if entity @s[tag=stellarity.dragon.invulnerable] if score @s stellarity.dragon.health < @s stellarity.dragon.health_old run function stellarity:entity/dragon/invulnerability/prevent_damage
+        # Check non-RK damage
+          execute if entity @s[tag=stellarity.dragon.rk_only] if score @s stellarity.dragon.health < @s stellarity.dragon.health_old unless score @s stellarity.dragon.rk_damage_window matches 1.. run tag @e[type=marker,tag=stellarity.dragon_marker] remove stellarity.dragon.rk_only
+          execute if entity @s[tag=stellarity.dragon.rk_only] if score @s stellarity.dragon.health < @s stellarity.dragon.health_old unless score @s stellarity.dragon.rk_damage_window matches 1.. run tag @s remove stellarity.dragon.rk_only
+          scoreboard players remove @s[scores={stellarity.dragon.rk_damage_window=1..}] stellarity.dragon.rk_damage_window 1
+
         # Prevent Crystals from healing the Dragon
           execute if score @s stellarity.dragon.health_old < @s stellarity.dragon.health run function stellarity:entity/dragon/prevent_heal
           scoreboard players operation @s stellarity.dragon.health_old = @s stellarity.dragon.health

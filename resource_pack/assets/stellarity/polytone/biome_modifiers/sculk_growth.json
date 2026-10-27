@@ -1,0 +1,27 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/sculk_growth_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/sculk_growth_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.36 : (c.y() < 60 ? 0.08 : 0.20))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.88 : (c.y() < 60 ? 0.54 : 0.78))",
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:sculk_charge_pop"
+            },
+            "probability": 0.006
+          },
+          {
+            "particle": {
+              "type": "minecraft:sculk_soul"
+            },
+            "probability": 0.004
+          }
+        ]
+      }
+    }
+  }
+}

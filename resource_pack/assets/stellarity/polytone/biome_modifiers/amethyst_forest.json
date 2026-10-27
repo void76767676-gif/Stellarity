@@ -1,0 +1,27 @@
+{
+  "attributes_modifiers": {
+    "base": {
+      "minecraft:visual/fog_color": "stellarity:biomes/amethyst_forest_fog",
+      "minecraft:visual/sky_color": "stellarity:biomes/amethyst_forest_sky",
+      "minecraft:visual/fog_start_distance": "c.viewDistance() * (c.y() > 165 ? 0.48 : (c.y() < 60 ? 0.15 : 0.36))",
+      "minecraft:visual/fog_end_distance": "c.viewDistance() * (c.y() > 165 ? 0.98 : (c.y() < 60 ? 0.68 : 0.90))",
+      "minecraft:visual/ambient_particles": {
+        "modifier": "override",
+        "argument": [
+          {
+            "particle": {
+              "type": "minecraft:end_rod"
+            },
+            "probability": 0.002
+          },
+          {
+            "particle": {
+              "type": "minecraft:portal"
+            },
+            "probability": 0.004
+          }
+        ]
+      }
+    }
+  }
+}
