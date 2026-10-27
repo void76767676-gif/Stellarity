@@ -26,18 +26,9 @@
             }
           },
           {
-            "weight": 2,
+            "weight": 3,
             "data": {
               "id": "minecraft:crying_obsidian"
-            }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "id": "minecraft:crying_obsidian",
-              "properties": {
-                "axis": "y"
-              }
             }
           }
         ]
